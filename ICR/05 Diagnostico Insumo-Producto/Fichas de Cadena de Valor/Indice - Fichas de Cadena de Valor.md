@@ -41,4 +41,7 @@ Cada ficha incluye su **mapa de cadena** (§6b): panel de México con la extracc
 ## Datos de respaldo
 `processed/cv_arbol_mineral.csv` (Fase 1) · `processed/cv_eslabones_cuantificado.csv` (Fase 3) · `processed/cv_tipologia.csv` (Fase 7) · `processed/cv_comercio_socios.csv` y `cv_socios_resumen.csv` (destinos/orígenes) · geometrías en `10 Datos/Bases Originales/14 Geo/` · scripts `cv_build.py`, `cv_socios.py`, `cv_mapas.py`.
 
+## Criticidad de los productos
+La clasificación de **cada producto por nivel de criticidad** (listas oficiales USGS 2025 / UE CRMA 2023 / IEA), su sector y su estatus de uso/exportación/importación en México está en [[Clasificacion de productos por criticidad]].
+
 ← [[Indice Diagnostico Insumo-Producto]] · [[Ruta metodologica - Construccion de cadenas de valor locales por mineral]] · [[Home]]

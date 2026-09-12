@@ -118,6 +118,7 @@ gantt
 |---|---|---|---|---|---|
 | II.1 Definición de mineral crítico | Revisión de literatura | ✅ | M1–M2 | jul 2026 | Caps I-IV (docx) |
 | II.2 Justificación del corpus de 10 | Criterios de selección | ✅ | M1–M2 | jul 2026 | [[Capitulo 2 - Marco Teorico]] |
+| II.2.5 Criticidad por producto (nuevo) | Clasificación de productos por criticidad (USGS/UE/IEA) + tabla | 📝 (borrador inicial listo) | — | sep 2026 | [[Clasificacion de productos por criticidad]] · borrador Cap II en `11 Redaccion/` |
 | II.3 Factores de demanda | Revisión | ✅ | M1–M2 | jul 2026 | Caps I-IV (docx) |
 | II.4 Marco teórico (enclave estructural) | Articulación Cardoso-Faletto → Svampa; reestructurado | ✅ | M2 | jul–ago 2026 | [[Marco Teorico - Tres Tradiciones]] · [[Propuesta - Reestructuracion Cap II (marco articulado enclave)]] |
 
@@ -158,6 +159,7 @@ gantt
 | VI.6 Destinos de exportación | Serie 1992–2024; desplazamiento a China | ✅ | M5 | sep 2026 | `comercio_destinos_serie_resumen.csv` |
 | VI.7 Tipología A/B/C/D | Clasificación de los 10 | 📝 (borrador inicial listo) | M7 | sep 2026 | `cv_tipologia.csv` |
 | VI.8 Cadenas de valor locales (Actividad B) | 10 fichas L0–L4 + cuantificación + ruptura + mapas + socios | ✅ | M7 | sep 2026 | **[[Indice - Fichas de Cadena de Valor]]** · `cv_*.csv` · `13 Entregables/mapas/` |
+| VI.8.1 Criticidad de los productos por eslabón (nuevo) | Producto estratégico por mineral + tabla (Cuadro VI.18) | 📝 (borrador inicial listo) | — | sep 2026 | Cap VI (docx) · [[Clasificacion de productos por criticidad]] |
 | VI.9 Bases de política | Redacción | 📝 | M7 | sep 2026 | Cap VI (docx) |
 
 ### Cap. VII — Reforma 2023 (contexto) + referencia internacional · 📝 falta versión de entrega
@@ -169,6 +171,7 @@ gantt
 | VII.2.3 Entrevistas semiestructuradas | Complemento cualitativo | ⭕ | M5–M7 | — | [[Guia de entrevistas]] · [[Realizar entrevistas]] (opc.) |
 | VII.5 Referencia internacional (8 países) | Ghosh + DVA (OECD ICIO) | 📝 (borrador inicial listo) | M8 | sep 2026 | [[Memoria - Comparacion internacional (Chile, Australia) encadenamientos]] · `icio_*.csv` |
 | VII.5.1 El enclave en dinero (DVA) | Descomposición valor agregado 1995–2020 | ✅ | M8 | sep 2026 | `icio_dva_mineria.csv` |
+| VII.5.2 Criticidad y dependencia (nuevo) | El eslabón estratégico se importa + tabla (Cuadro VII.3) | 📝 (borrador inicial listo) | — | sep 2026 | Cap VII (docx) · [[Clasificacion de productos por criticidad]] |
 
 ### Cap. VIII — Síntesis, conclusiones y recomendaciones · 📝 falta versión de entrega
 | Subtema | Actividad / contenido | Estado | 🟦 Plan | 🟥 Real | Dónde vive |
@@ -195,6 +198,7 @@ gantt
 | 8b | Ghosh estatal e inter-estatal (MIP multi-estatal 2018) | ✅ | sep 2026 | `ghosh_estatal_mineria.csv` · `ghosh_interestatal_mineria.csv` |
 | A | Peso del bloque (PIB, exportaciones, empleo) 1992–2024 | ✅ | sep 2026 | [[Memoria - Peso del bloque de 10 minerales (PIB, exportaciones, empleo)]] |
 | B | Cadenas de valor locales (10 fichas L0–L4 + mapas + socios) | ✅ | sep 2026 | [[Indice - Fichas de Cadena de Valor]] |
+| C | Clasificación de productos por criticidad (USGS/UE/IEA) | ✅ | sep 2026 | [[Clasificacion de productos por criticidad]] · `criticidad_productos.csv` |
 
 ## 6. Ruta crítica y siguientes pasos
 

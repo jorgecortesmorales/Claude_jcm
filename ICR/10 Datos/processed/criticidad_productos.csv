@@ -1,0 +1,31 @@
+mineral,etapa,producto,sector,base_oficial,nivel_criticidad,mx_usa,mx_exporta,mx_importa
+cobre,E1,concentrado de cobre,insumo metalurgico (feed fundicion),UE-SRM;USGS2025,alto,no,si,no
+cobre,E2,catodo de cobre refinado,electrificacion/red electrica/EV/construccion,UE-SRM;USGS2025;IEA,estrategico,si,si,parcial
+cobre,E3,alambron/laminados/tubos,cableado electrico/plomeria,derivado,medio,si,parcial,si
+cobre,E4,cable y conductores,electrico/automotriz,derivado,medio,si,no,si
+fluorita,E1,espato fluor grado acido (acidspar),precursor quimica del fluor,UE-CRM;USGS,alto,si,si,no
+fluorita,E1,espato fluor grado metalurgico (metspar),siderurgia/cemento (fundente),commodity,bajo,si,si,no
+fluorita,E2,acido fluorhidrico HF,aluminio(AlF3)/refrigerantes/semiconductores/precursor LiPF6 baterias,UE-CRM;IEA,estrategico,si,si,no
+fluorita,E3-E4,fluoropolimeros(PTFE)/refrigerantes/LiPF6,quimica avanzada/baterias/electronica,UE;IEA,estrategico,no,no,si
+grafito,E1,grafito natural amorfo/hojuela,refractarios/fundicion/lubricantes,USGS;UE,medio,si,parcial,no
+grafito,E1,grafito natural grado bateria (esferico),anodos baterias Li-ion/EV,UE-SRM;IEA,estrategico,no,no,no
+grafito,E2-E3,grafito sintetico y electrodos,acero EAF/baterias,UE-SRM;USGS,estrategico,si(uso),no,si
+manganeso,E1,mena/nodulos de manganeso,insumo siderurgico y quimico,USGS;UE,alto,si,no,si
+manganeso,E2,ferro/silicomanganeso,acero (aleante/desoxidante),USGS,alto,si,si,no
+manganeso,E3,sulfato de manganeso grado bateria / Mn metal,catodos baterias NMC/EV,UE-SRM;IEA,estrategico,no,no,si
+silice,E1,arena silica/cuarzo,vidrio/cemento/ceramica/fundicion,no-listado(arena),bajo,si,parcial,no
+silice,E2,silicio metalico,electronica/semiconductores/fotovoltaica/aleaciones Al/siliconas,UE-SRM;USGS2025,estrategico,no,no,si
+silice,E2,ferrosilicio,siderurgia,derivado,medio,si(uso),no,si
+silice,E3-E4,cuarzo alta pureza/obleas,semiconductores/solar,UE;IEA,estrategico,no,no,si
+barita,E1,barita grado API (perforacion),petroleo y gas (lodos de perforacion),UE-CRM;USGS,alto,si,si,si
+barita,E2,quimicos de bario (sulfato/carbonato),pinturas/vidrio/electronica/quimica,derivado,medio,no,no,si
+plomo,E1,concentrado de plomo,insumo de refinacion,USGS2025,alto,no,si,no
+plomo,E2,plomo refinado,baterias Pb-acido/blindaje/municiones,USGS2025,medio,si,parcial,no
+plomo,E4,baterias plomo-acido,automotriz/almacenamiento,uso-final,medio,si,parcial,si
+zinc,E1,concentrado de zinc,insumo de refinacion,USGS2022,alto,no,si,no
+zinc,E2,zinc refinado,galvanizado del acero/aleaciones/quimica,USGS2022,medio,si,si,parcial
+zinc,E3-E4,semis y galvanizado,construccion/automotriz,derivado,medio,si(uso),no,si
+oro,E2,oro refinado/dore,reserva de valor/financiero/electronica/joyeria,EO-EEUU2025(seguridad nacional),estrategico,si,si,no
+oro,E4,joyeria y orfebreria,consumo,uso-final,bajo,si(uso),no,si
+plata,E2,plata refinada,fotovoltaica/electronica/catalisis/joyeria,USGS2025;IEA,alto,si,si,no
+plata,E4,plateria/joyeria,consumo/industria,uso-final,bajo,si(uso),no,si

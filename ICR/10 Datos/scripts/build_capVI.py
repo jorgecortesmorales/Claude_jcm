@@ -291,6 +291,27 @@ para(doc,["La cuantificación confirma, además, un rasgo territorial: ",
  B("solo el cobre está co-localizado"),
  " —fundición y refinería (La Caridad) junto a la mina en Nacozari—; en los nueve minerales restantes la transformación, cuando existe, está deslocalizada de la extracción (Torreón, San Luis Potosí, Matamoros), lo que agrava la desconexión aguas abajo. Las diez fichas completas obran en 05 Diagnóstico Insumo-Producto/Fichas de Cadena de Valor."])
 
+H2(doc,"VI.8.1  Criticidad de los productos por eslabón")
+para(doc,["La cadena de cada mineral no tiene una sola criticidad: la criticidad se concentra en ",
+ B("productos y grados específicos"), " —los que las listas oficiales (USGS 2025; Unión Europea, CRMA 2023) señalan como estratégicos por su papel en la transición energética, la electrónica y la defensa (Cap. II)—. Situar esa criticidad sobre los eslabones L0–L4 muestra ",
+ B("dónde la capta México y dónde se le escapa"), ": en varios minerales el eslabón estratégico coincide con el punto de ruptura de la cadena."],first=True)
+add_table(doc,[1650,3050,2100,2038],
+ ["Mineral","Producto de mayor criticidad (🔴 estratégico)","Sector","¿México lo produce?"],
+ [["Cobre","Cátodo de cobre refinado","Electrificación, EV, red","Sí (exporta concentrado)"],
+  ["Fluorita","HF → fluoropolímeros / LiPF₆","Baterías, semiconductores","HF sí; derivados no"],
+  ["Grafito","Grafito grado batería / sintético","Ánodos de baterías, acero EAF","No (solo amorfo)"],
+  ["Manganeso","Sulfato de Mn grado batería","Cátodos de baterías (NMC)","No (produce ferroaleación)"],
+  ["Sílice","Silicio metálico","Semiconductores, fotovoltaica","No (produce arena)"],
+  ["Plata","Plata refinada","Fotovoltaica, electrónica","Sí (exporta refinada)"],
+  ["Oro","Oro refinado","Seguridad nacional, electrónica","Sí (exporta refinado)"],
+  ["Plomo / Zinc","Refinado, baterías, galvanizado","Almacenamiento, acero","Parcial (semis importados)"],
+  ["Barita","Químicos de bario","Química, pinturas","No (uso en bruto)"]],fs=8)
+caption(doc,"Cuadro VI.18. Producto de mayor criticidad por mineral y su presencia en México. Base oficial: USGS (2022/2025), UE (CRMA 2023) e IEA; clasificación en processed/criticidad_productos.csv y en [[Clasificacion de productos por criticidad]].")
+para(doc,["El patrón es revelador: en los tres minerales cuyo producto estratégico es de ",
+ B("grado batería o electrónico"), " —grafito, sílice y manganeso—, ese producto ",
+ B("no se fabrica en el país"), ", que exporta el crudo de baja criticidad e importa el eslabón crítico. La criticidad, así, ",
+ B("se fuga junto con el valor"), ": el enclave estructural no solo deja fuera la transformación de mayor valor, sino precisamente la de mayor importancia estratégica. Solo en cobre, oro, plata y —parcialmente— fluorita México alcanza a producir el eslabón más crítico. Esta lectura alimenta las bases de política (VI.9) y la síntesis del Cap. VIII."])
+
 H1(doc,"VI.9  Bases para una política industrial")
 para(doc,["La caracterización sienta bases concretas y diferenciadas por tipo. En los mercados de tipo B (metales), el margen está en ",
  B("prolongar la cadena más allá del metal refinado"),
