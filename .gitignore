@@ -1,0 +1,31 @@
+# .gitignore — repositorio de la ICR
+# NOTA: .gitignore solo excluye archivos del CONTROL DE VERSIONES (git).
+# NO borra ni mueve nada: las bases de datos originales siguen en disco y en
+# OneDrive, y los scripts las leen por ruta con total normalidad. Esto solo evita
+# que archivos pesados o de configuración local entren al historial de git.
+
+# === Bases de datos originales (pesadas): NO versionar ===
+# (zip de la MIP estatal ~398 MB, PDFs de CAMIMEX, Excel/CSV fuente, etc.)
+# Se ignora el CONTENIDO de "Bases Originales", pero se conserva acceso total en disco.
+ICR/10 Datos/Bases Originales/*
+# Excepción: geometrías ligeras que los scripts de mapas necesitan (ya versionadas).
+!ICR/10 Datos/Bases Originales/14 Geo/
+!ICR/10 Datos/Bases Originales/14 Geo/**
+
+# === Otras fuentes originales pesadas fuera de "Bases Originales" (si las hubiera) ===
+*.zip
+
+# === Configuración local de Obsidian (específica de la máquina) ===
+ICR/.obsidian/
+
+# === Temporales del sistema y bloqueos de Office/Word ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+~$*
+*.tmp
+*.bak
+
+# === Python ===
+__pycache__/
+*.pyc
