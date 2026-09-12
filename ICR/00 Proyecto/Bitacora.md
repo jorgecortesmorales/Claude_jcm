@@ -8,6 +8,11 @@ updated: 2026-09-09
 
 # Bitácora de Trabajo
 
+## 2026-09-11 (Tablero de avance, cronograma interactivo y borradores iniciales)
+- **Tablero maestro de avance**: [[Estructura y Cronograma de la ICR]] — desglose capítulo→subtema→actividad, estados, plan vs. real, ruta crítica; enlaza todo el dato/cálculo/redacción. Home y [[Estructura de la Tesis]] apuntan a él.
+- **Cronograma interactivo** (artefacto HTML): árbol colapsable (capítulos→subtemas→actividades) con filtros por estado, tema claro/oscuro y línea de tiempo plan-vs-real sin encimes (reemplaza al Gantt de mermaid que se apretaba). Fuente `13 Entregables/cronograma_interactivo.html`; URL https://claude.ai/code/artifact/d020c84f-0043-4943-a46a-a57c6a10dca9
+- **Borradores iniciales de las 8 secciones "dato listo · texto pendiente"** (V.6, V.7, V.8, V.11, V.12, VI.3, VI.7, VII.5): versión inicial redactada y anclada en cifras reales, para la versión de entrega del alumno → [[Borradores iniciales - secciones con dato listo (para version de entrega)]]. Con esto esos ítems pasan de "dato listo · texto pendiente" a **📝 falta versión de entrega**; el estado se actualizó en el tablero y el artefacto. Cifra clave fijada para VII.5: forward-Rasmussen minería metálica 2018 — China 1.53 ≈ México 1.51, FIN 1.31, SWE 1.27, BRA 0.99, AUS 0.83, CHL 0.73, PER 0.62; crudo_share (DVA) China 0.07 vs México 0.38 vs Chile/Perú 0.98.
+
 ## 2026-09-09 (Actividad B — 10 fichas de cadena de valor local)
 - Ejecutada la [[Ruta metodologica - Construccion de cadenas de valor locales por mineral|Ruta metodológica]] (Fases 1, 3, 7 y 8) desde el [[Handoff - Actividad B (cadenas de valor locales) 2026-09-09]]. Se validó el **formato de ficha con un piloto (cobre = tipo B; fluorita = tipo A límite)** antes de escalar; a pedido del alumno, se enriquecieron con **glosas en lenguaje llano** (callout "cómo leer", interpretaciones en prosa, glosario) para lectura no especializada.
 - **10 fichas de cadena** (L0→L4 con diagrama mermaid, cuantificación por eslabón, actores, encadenamientos, cierre aguas abajo, georref y tipología) en `05 Diagnóstico Insumo-Producto/Fichas de Cadena de Valor/` + [[Indice - Fichas de Cadena de Valor]].

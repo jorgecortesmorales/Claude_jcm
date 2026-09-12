@@ -1,0 +1,458 @@
+<title>Avance de la ICR</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ground:#f4f2ec; --surface:#ffffff; --surface-2:#faf8f2; --surface-3:#f0ede4;
+  --ink:#2b2723; --ink-soft:#6d665b; --ink-faint:#968d7f; --line:#e5e0d5; --line-strong:#d3ccbe;
+  --accent:#1f6f8b; --accent-ink:#155268; --accent-soft:#e6eef1;
+  --plan:#9fb8c4; --plan-soft:#e8eef1; --real:#1f6f8b;
+  --st-done:#2f8f5b; --st-data:#0c8c8c; --st-deliv:#c07d1e; --st-proc:#2f6fb0; --st-wait:#7a5bb0; --st-none:#9a938a; --st-opt:#b9b1a3;
+  --st-done-bg:#e6f2ea; --st-data-bg:#e0f0f0; --st-deliv-bg:#f7ecd8; --st-proc-bg:#e6eef8; --st-wait-bg:#eee8f7; --st-none-bg:#eeebe4; --st-opt-bg:#f0ede6;
+  --shadow:0 1px 2px rgba(40,34,26,.05),0 6px 20px rgba(40,34,26,.06);
+  --radius:12px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#181611; --surface:#221f18; --surface-2:#26221a; --surface-3:#2e2920;
+  --ink:#ece7dc; --ink-soft:#a69d8e; --ink-faint:#7c7364; --line:#332e24; --line-strong:#453e31;
+  --accent:#5fbdd6; --accent-ink:#9ad7e8; --accent-soft:#1d2a2f;
+  --plan:#4a5b64; --plan-soft:#232c30; --real:#5fbdd6;
+  --st-done:#57c286; --st-data:#3ec4c4; --st-deliv:#e2ab52; --st-proc:#65a0e2; --st-wait:#ac93e2; --st-none:#b0a898; --st-opt:#6f6858;
+  --st-done-bg:#18291f; --st-data-bg:#122a2a; --st-deliv-bg:#2c2415; --st-proc-bg:#16233a; --st-wait-bg:#221b33; --st-none-bg:#26221a; --st-opt-bg:#211d16;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.28);
+}}
+:root[data-theme="dark"]{
+  --ground:#181611; --surface:#221f18; --surface-2:#26221a; --surface-3:#2e2920;
+  --ink:#ece7dc; --ink-soft:#a69d8e; --ink-faint:#7c7364; --line:#332e24; --line-strong:#453e31;
+  --accent:#5fbdd6; --accent-ink:#9ad7e8; --accent-soft:#1d2a2f;
+  --plan:#4a5b64; --plan-soft:#232c30; --real:#5fbdd6;
+  --st-done:#57c286; --st-data:#3ec4c4; --st-deliv:#e2ab52; --st-proc:#65a0e2; --st-wait:#ac93e2; --st-none:#b0a898; --st-opt:#6f6858;
+  --st-done-bg:#18291f; --st-data-bg:#122a2a; --st-deliv-bg:#2c2415; --st-proc-bg:#16233a; --st-wait-bg:#221b33; --st-none-bg:#26221a; --st-opt-bg:#211d16;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.28);
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:"Public Sans",system-ui,sans-serif;line-height:1.5;
+  -webkit-font-smoothing:antialiased;font-size:15px}
+.wrap{max-width:1060px;margin:0 auto;padding:28px 20px 80px}
+h1{font-family:"Fraunces",Georgia,serif;font-weight:800;font-size:clamp(28px,4.2vw,42px);line-height:1.05;
+  letter-spacing:-.01em;margin:0 0 6px;text-wrap:balance}
+.sub{color:var(--ink-soft);font-size:15px;max-width:62ch;margin:0 0 4px}
+.meta{color:var(--ink-faint);font-size:12.5px;font-family:"IBM Plex Mono",monospace;margin-top:8px;letter-spacing:.02em}
+header{border-bottom:1px solid var(--line);padding-bottom:22px;margin-bottom:22px;position:relative}
+.themebtn{position:absolute;top:0;right:0;background:var(--surface);border:1px solid var(--line-strong);color:var(--ink-soft);
+  border-radius:20px;padding:6px 12px;font:inherit;font-size:12.5px;cursor:pointer}
+.themebtn:hover{border-color:var(--accent);color:var(--accent)}
+
+/* summary tiles */
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:0 0 22px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow)}
+.tile .big{font-family:"Fraunces",serif;font-weight:700;font-size:26px;line-height:1;letter-spacing:-.01em}
+.tile .lab{color:var(--ink-soft);font-size:12px;margin-top:6px;text-transform:uppercase;letter-spacing:.06em}
+.tile .note{color:var(--ink-faint);font-size:12px;margin-top:4px}
+.tile.accent{background:var(--accent-soft);border-color:transparent}
+.tile.accent .big{color:var(--accent-ink)}
+
+.section-label{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-faint);
+  font-weight:600;margin:26px 0 12px}
+
+/* controls */
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.tabs{display:inline-flex;background:var(--surface-3);border-radius:22px;padding:3px}
+.tab{border:0;background:transparent;color:var(--ink-soft);font:inherit;font-weight:600;font-size:13px;
+  padding:6px 14px;border-radius:20px;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--surface);color:var(--accent);box-shadow:var(--shadow)}
+.btn{border:1px solid var(--line-strong);background:var(--surface);color:var(--ink-soft);font:inherit;font-size:12.5px;
+  padding:6px 12px;border-radius:20px;cursor:pointer}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.spacer{flex:1}
+
+/* filter chips */
+.filters{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:16px}
+.chip{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line-strong);background:var(--surface);
+  color:var(--ink-soft);font:inherit;font-size:12.5px;padding:5px 11px 5px 9px;border-radius:20px;cursor:pointer}
+.chip .dot{width:9px;height:9px;border-radius:50%;flex:none}
+.chip[aria-pressed="true"]{border-color:var(--accent);color:var(--ink);background:var(--accent-soft)}
+.chip.small{font-size:12px}
+
+/* tree */
+.tree{display:flex;flex-direction:column;gap:9px}
+.node > .row{display:flex;align-items:center;gap:11px;width:100%;text-align:left;border:1px solid var(--line);
+  background:var(--surface);border-radius:var(--radius);padding:12px 15px;cursor:pointer;font:inherit;color:inherit;
+  box-shadow:var(--shadow);transition:border-color .12s}
+.node.lv1 > .row{padding:15px 17px}
+.node > .row:hover{border-color:var(--line-strong)}
+.node > .row:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.chev{flex:none;width:16px;height:16px;color:var(--ink-faint);transition:transform .16s}
+.node.open > .row .chev{transform:rotate(90deg)}
+.chev.hidden{visibility:hidden}
+.badge{flex:none;width:11px;height:11px;border-radius:50%}
+.titles{flex:1;min-width:0}
+.t-main{font-weight:600;line-height:1.25}
+.node.lv1 .t-main{font-family:"Fraunces",serif;font-weight:700;font-size:18px}
+.t-code{font-family:"IBM Plex Mono",monospace;font-weight:600;color:var(--ink-faint);font-size:.82em;margin-right:2px}
+.t-note{color:var(--ink-soft);font-size:12.5px;margin-top:3px}
+.right{display:flex;align-items:center;gap:8px;flex:none}
+
+/* status pill */
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap}
+.pill .d{width:7px;height:7px;border-radius:50%}
+.s-done{color:var(--st-done);background:var(--st-done-bg)} .s-done .d{background:var(--st-done)}
+.s-data_ready{color:var(--st-data);background:var(--st-data-bg)} .s-data_ready .d{background:var(--st-data)}
+.s-delivery{color:var(--st-deliv);background:var(--st-deliv-bg)} .s-delivery .d{background:var(--st-deliv)}
+.s-in_process{color:var(--st-proc);background:var(--st-proc-bg)} .s-in_process .d{background:var(--st-proc)}
+.s-waiting{color:var(--st-wait);background:var(--st-wait-bg)} .s-waiting .d{background:var(--st-wait)}
+.s-not_started{color:var(--st-none);background:var(--st-none-bg)} .s-not_started .d{background:var(--st-none)}
+.s-optional{color:var(--st-opt);background:var(--st-opt-bg)} .s-optional .d{background:var(--st-opt)}
+.badge.s-done{background:var(--st-done)} .badge.s-data_ready{background:var(--st-data)} .badge.s-delivery{background:var(--st-deliv)}
+.badge.s-in_process{background:var(--st-proc)} .badge.s-waiting{background:var(--st-wait)} .badge.s-not_started{background:var(--st-none)} .badge.s-optional{background:var(--st-opt)}
+
+/* rollup mini bar */
+.rollup{display:flex;height:7px;width:120px;border-radius:4px;overflow:hidden;background:var(--surface-3);flex:none}
+.rollup i{display:block;height:100%}
+@media(max-width:640px){.rollup{width:70px}.right .pill.timing{display:none}}
+
+/* timing chips */
+.timing{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:500;display:inline-flex;gap:6px;align-items:center;color:var(--ink-soft)}
+.timing .pl{color:var(--plan)} .timing .rl{color:var(--real);font-weight:600}
+
+/* children container */
+.kids{display:none;flex-direction:column;gap:7px;margin:7px 0 3px 20px;padding-left:16px;border-left:2px solid var(--line)}
+.node.open > .kids{display:flex}
+.node.lv2 > .row{background:var(--surface-2)}
+.node.lv3 > .row{background:transparent;box-shadow:none;border-style:dashed;cursor:default}
+.node.lv3 .t-main{font-weight:500;font-size:13.5px}
+
+/* leaf detail */
+.detail{font-size:12.5px;color:var(--ink-soft);margin-top:5px;display:flex;flex-wrap:wrap;gap:10px}
+.detail .k{color:var(--ink-faint);font-weight:600;text-transform:uppercase;letter-spacing:.04em;font-size:10.5px;margin-right:2px}
+.where{font-family:"IBM Plex Mono",monospace;font-size:11.5px;background:var(--surface-3);padding:1px 6px;border-radius:5px;color:var(--ink)}
+.node.dim{opacity:.32}
+.node.hit > .row{border-color:var(--accent)}
+
+/* legend */
+details.legend{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:0 16px;margin-bottom:18px;box-shadow:var(--shadow)}
+details.legend summary{cursor:pointer;padding:13px 0;font-weight:600;font-size:13.5px;list-style:none;display:flex;align-items:center;gap:8px}
+details.legend summary::-webkit-details-marker{display:none}
+details.legend summary::before{content:"";width:16px;height:16px;background:no-repeat center/contain;
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M8.6 5.4 15.2 12l-6.6 6.6L7.2 17l5-5-5-5z'/%3E%3C/svg%3E") center/contain;
+  mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M8.6 5.4 15.2 12l-6.6 6.6L7.2 17l5-5-5-5z'/%3E%3C/svg%3E") center/contain;
+  background:var(--ink-faint);transition:transform .15s}
+details.legend[open] summary::before{transform:rotate(90deg)}
+.legend-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px 22px;padding:4px 0 18px}
+.legend-item{display:flex;gap:9px;font-size:12.5px;color:var(--ink-soft)}
+.legend-item b{color:var(--ink);font-weight:600}
+.legend-item .d{width:10px;height:10px;border-radius:50%;flex:none;margin-top:4px}
+
+/* timeline */
+.timeline{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:8px 4px 16px;box-shadow:var(--shadow);overflow-x:auto}
+.tl-inner{min-width:720px;position:relative}
+.tl-head{display:grid;grid-template-columns:220px 1fr;align-items:end;padding:8px 14px 0}
+.tl-months{position:relative;height:22px}
+.tl-mo{position:absolute;top:0;font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--ink-faint);transform:translateX(-50%)}
+.tl-row{display:grid;grid-template-columns:220px 1fr;align-items:center;gap:0;padding:0 14px;min-height:38px}
+.tl-row:nth-child(even){background:var(--surface-2)}
+.tl-label{font-size:12.5px;color:var(--ink);padding-right:12px;line-height:1.2}
+.tl-label .lc{font-family:"IBM Plex Mono",monospace;color:var(--ink-faint);font-size:11px}
+.tl-track{position:relative;height:38px}
+.grid-line{position:absolute;top:0;bottom:0;width:1px;background:var(--line)}
+.bar{position:absolute;height:9px;border-radius:5px}
+.bar.plan{top:8px;background:var(--plan)}
+.bar.real{top:20px;background:var(--real)}
+.bar.proj{top:14px;background:repeating-linear-gradient(45deg,var(--st-deliv),var(--st-deliv) 4px,transparent 4px,transparent 8px);border:1px solid var(--st-deliv)}
+.bar.wait{top:14px;background:repeating-linear-gradient(45deg,var(--st-wait),var(--st-wait) 4px,transparent 4px,transparent 8px);border:1px solid var(--st-wait)}
+.today{position:absolute;top:-2px;bottom:-2px;width:2px;background:var(--accent);z-index:3}
+.today::after{content:"hoy";position:absolute;top:-16px;left:50%;transform:translateX(-50%);font-family:"IBM Plex Mono",monospace;
+  font-size:9.5px;color:var(--accent);font-weight:600}
+.mile{position:absolute;top:11px;width:14px;height:14px;background:var(--accent);transform:rotate(45deg) translateX(-50%);border-radius:2px}
+.tl-legend{display:flex;flex-wrap:wrap;gap:16px;padding:14px 16px 2px;font-size:12px;color:var(--ink-soft)}
+.tl-legend span{display:inline-flex;align-items:center;gap:7px}
+.sw{width:22px;height:8px;border-radius:4px;flex:none}
+.sw.plan{background:var(--plan)} .sw.real{background:var(--real)}
+.sw.proj{background:repeating-linear-gradient(45deg,var(--st-deliv),var(--st-deliv) 3px,transparent 3px,transparent 6px);border:1px solid var(--st-deliv)}
+.sw.wait{background:repeating-linear-gradient(45deg,var(--st-wait),var(--st-wait) 3px,transparent 3px,transparent 6px);border:1px solid var(--st-wait)}
+.hidden{display:none!important}
+footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--line);color:var(--ink-faint);font-size:12px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+<header>
+  <button class="themebtn" id="themebtn" type="button">◐ Tema</button>
+  <h1>Avance de la ICR</h1>
+  <p class="sub">Los mercados de los minerales críticos en México, 1992–2025. Despliega cada capítulo para ver sus subtemas y actividades: estado, tiempo <b>planeado</b> vs. <b>real</b>, y dónde vive cada dato, cálculo y redacción.</p>
+  <p class="meta">Maestría en Economía · UAM Azcapotzalco · corte 11 sep 2026 (≈ mes 3 de 12)</p>
+</header>
+
+<div class="tiles" id="tiles"></div>
+
+<details class="legend">
+  <summary>Cómo leer los estados y los tiempos</summary>
+  <div class="legend-grid" id="legend"></div>
+</details>
+
+<div class="controls">
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" aria-selected="true" id="tab-arbol">Árbol de avance</button>
+    <button class="tab" role="tab" aria-selected="false" id="tab-tl">Línea de tiempo</button>
+  </div>
+  <span class="spacer"></span>
+  <button class="btn" id="expand">Expandir todo</button>
+  <button class="btn" id="collapse">Colapsar todo</button>
+</div>
+
+<div id="view-arbol">
+  <div class="filters" id="filters"></div>
+  <div class="tree" id="tree"></div>
+</div>
+
+<div id="view-tl" class="hidden">
+  <div class="section-label">Plan (estimado en el protocolo) vs. ejecución real</div>
+  <div class="timeline"><div class="tl-inner" id="tl"></div></div>
+  <div class="tl-legend">
+    <span><i class="sw plan"></i> Plan estimado</span>
+    <span><i class="sw real"></i> Real ejecutado</span>
+    <span><i class="sw proj"></i> Proyección (mi entrega)</span>
+    <span><i class="sw wait"></i> En espera (asesor)</span>
+    <span>◆ examen de grado</span>
+  </div>
+  <p class="meta" style="margin-top:12px">El análisis (barras rojas), previsto por el plan hasta 2027, se ejecutó entre julio y septiembre de 2026: ~9 meses de adelanto. La ruta crítica restante es la redacción final y el examen.</p>
+</div>
+
+<footer>
+  Tablero interactivo del avance. Fuente única enlazada en el vault: <b>Estructura y Cronograma de la ICR</b> (Obsidian). Datos e indicadores validados (auditoría matemática, sep 2026).
+</footer>
+</div>
+
+<script>
+const STATUS={
+  done:{lab:"Terminado",desc:"hecho y aceptado por el alumno (versión final)"},
+  delivery:{lab:"Falta mi versión de entrega",desc:"borrador inicial escrito (dato + texto); falta que Jorge lo revise, adapte a su estilo y complemente"},
+  in_process:{lab:"En proceso",desc:"iniciado, no cerrado"},
+  waiting:{lab:"En espera (asesor)",desc:"depende del asesor (control de cambios)"},
+  not_started:{lab:"No iniciado",desc:""},
+  optional:{lab:"Opcional",desc:"dentro del alcance solo si se decide"}
+};
+const ORDER=["done","delivery","in_process","waiting","optional","not_started"];
+
+// ---- DATA: capítulos -> subtemas -> actividades ----
+const DATA=[
+ {code:"I",title:"Introducción",status:"done",note:"Aceptado (con un inserto pendiente de integrar).",kids:[
+   {title:"Estructura de la tesis",code:"I.1",status:"done",plan:"M1",real:"jul 2026",kids:[
+     {title:"Redacción",status:"done",where:"Caps I-IV (docx)"}]},
+   {title:"Preguntas, objetivos e hipótesis",code:"I.2",status:"done",plan:"M1",real:"jul 2026",kids:[
+     {title:"Redacción",status:"done",where:"Pregunta / Objetivos / Hipótesis (01 Planteamiento)"}]},
+   {title:"Justificación — peso del bloque (inserto)",status:"delivery",plan:"—",real:"sep 2026",kids:[
+     {title:"Inserto con datos de la Actividad A (peso en PIB, exportaciones, empleo)",status:"delivery",where:"11 Redaccion/Justificacion - peso del bloque (inserto Cap I).docx",note:"Datos listos; falta integrarlo a mi Cap. I."}]}
+ ]},
+ {code:"II",title:"Marco conceptual y teórico",status:"done",note:"Reestructurado al marco articulado del enclave estructural; aceptado.",kids:[
+   {title:"Definición de mineral crítico",code:"II.1",status:"done",plan:"M1–M2",real:"jul 2026",kids:[{title:"Revisión de literatura",status:"done",where:"Caps I-IV (docx)"}]},
+   {title:"Justificación del corpus de 10 minerales",code:"II.2",status:"done",plan:"M1–M2",real:"jul 2026",kids:[{title:"Criterios de selección",status:"done",where:"Capitulo 2 - Marco Teorico"}]},
+   {title:"Factores que impulsan la demanda",code:"II.3",status:"done",plan:"M1–M2",real:"jul 2026",kids:[{title:"Revisión",status:"done",where:"Caps I-IV (docx)"}]},
+   {title:"Marco teórico — enclave estructural",code:"II.4",status:"done",plan:"M2",real:"jul–ago 2026",kids:[{title:"Articulación Cardoso-Faletto → Svampa (neo-extractivismo)",status:"done",where:"Marco Teorico - Tres Tradiciones"}]}
+ ]},
+ {code:"III",title:"Contexto histórico 1988–2025",status:"done",note:"Borrador completo, aceptado.",kids:[
+   {title:"Modelo previo y reforma estructural",code:"III.1–2",status:"done",plan:"M1–M3",real:"jul 2026",kids:[{title:"Redacción",status:"done",where:"Caps I-IV (docx)"}]},
+   {title:"Ciclo de superprecios (2003–2015)",code:"III.4",status:"done",plan:"M1–M3",real:"jul 2026",kids:[{title:"Redacción",status:"done",where:"Caps I-IV (docx)"}]},
+   {title:"Consolidaciones corporativas (2004–2020)",code:"III.5",status:"done",plan:"M1–M3",real:"jul 2026",kids:[{title:"Redacción",status:"done",where:"Caps I-IV (docx)"}]},
+   {title:"Reforma a la Ley Minera de 2023",code:"III.6",status:"done",plan:"M1–M3",real:"jul 2026",kids:[{title:"Redacción",status:"done",where:"Caps I-IV (docx)"}]}
+ ]},
+ {code:"IV",title:"Estructura empresarial (10 minerales)",status:"done",note:"Perfil de los 10 mercados; aceptado.",kids:[
+   {title:"Lógica de la coextracción",code:"IV.1",status:"done",plan:"M1–M4",real:"jul–ago 2026",kids:[{title:"Redacción",status:"done",where:"Caps I-IV (docx)"}]},
+   {title:"Perfil por mineral (barita…zinc)",code:"IV.2–11",status:"done",plan:"M1–M4",real:"jul–ago 2026",kids:[{title:"Estructura, HHI, propiedad, destino, reforma — 10 fichas",status:"done",where:"04 Estructura Empresarial/ (Cobre, Fluorita, …)"}]},
+   {title:"Síntesis comparativa",code:"IV.12",status:"done",plan:"M4",real:"ago 2026",kids:[{title:"Redacción",status:"done",where:"Sintesis Comparativa"}]}
+ ]},
+ {code:"V",title:"Encadenamientos productivos (Leontief · Ghosh · CCV)",status:"delivery",note:"Borrador con método y resultados listo; falta mi versión de entrega.",kids:[
+   {title:"Método: MIP, Leontief, Ghosh, Rasmussen",code:"V.1–5",status:"delivery",plan:"M3–M6",real:"jul–sep 2026",kids:[{title:"Redacción metodológica + notación de eslabones L0–L4",status:"delivery",where:"Cap V (docx)"}]},
+   {title:"Fuente y operacionalización (MIP 2013/2018)",code:"V.6",status:"delivery",plan:"M3",real:"ago 2026",kids:[{title:"Cálculo validado contra tabulados INEGI",status:"delivery",where:"mip_calc.py · Memoria encadenamientos MIP"}]},
+   {title:"Resultados por mineral",code:"V.7",status:"delivery",plan:"M4–M6",real:"ago 2026",kids:[{title:"Encadenamientos hacia atrás/adelante por mineral",status:"delivery",where:"processed/mip_encadenamientos_minerales.csv"}]},
+   {title:"Demanda intermedia doméstica",code:"V.8",status:"delivery",plan:"M4–M6",real:"ago 2026",kids:[{title:"Compradores domésticos por mineral",status:"delivery",where:"processed/mip_demanda_intermedia_minerales.csv"}]},
+   {title:"Cautela del Ghosh (>1 ≠ cadena local)",code:"V.10",status:"delivery",plan:"M6",real:"sep 2026",kids:[{title:"5 razones; H1 no se observa",status:"delivery",where:"Memoria encadenamientos §4bis"}]},
+   {title:"CCV — captura de valor 1992–2025",code:"V.11",status:"delivery",plan:"M4–M6",real:"sep 2026",kids:[{title:"Serie anual por mineral (numerador Comtrade / denominador USGS)",status:"delivery",where:"processed/ccv_serie.csv"}]},
+   {title:"Corte de referencia 2008",code:"V.12",status:"delivery",plan:"—",real:"sep 2026",kids:[{title:"MIP 2008 (no comparable en nivel)",status:"delivery",where:"processed/mip_encadenamientos_2008_referencia.csv"}]},
+   {title:"Límites metodológicos",code:"V.13",status:"delivery",plan:"M6",real:"sep 2026",kids:[{title:"Redacción",status:"delivery",where:"Cap V (docx)"}]}
+ ]},
+ {code:"VI",title:"Caracterización de los mercados (tipología)",status:"delivery",note:"Borrador + 10 fichas de cadena + mapas; falta mi versión de entrega.",kids:[
+   {title:"Fases de la cadena + notación L0–L4",code:"VI.2",status:"delivery",plan:"M4",real:"sep 2026",kids:[{title:"Marco de eslabones (equivalencia fases / E1–E4)",status:"delivery",where:"Cap VI (docx) §VI.2.1"}]},
+   {title:"Perfil por mineral (productos por fase)",code:"VI.3",status:"delivery",plan:"M4–M7",real:"ago–sep 2026",kids:[{title:"Productos·HHI·Ghosh·posición·cadena local, 10 minerales",status:"delivery",where:"Cap VI (docx)"}]},
+   {title:"Evolución del HHI 2004–2024",code:"VI.4",status:"done",plan:"M4",real:"sep 2026",kids:[{title:"Serie de concentración",status:"done",where:"processed/hhi_consolidado.csv"}]},
+   {title:"Georreferenciación y co-localización",code:"VI.5",status:"done",plan:"M5",real:"sep 2026",kids:[{title:"Extracción×estado + hubs de transformación",status:"done",where:"processed/georref_regionalizacion.csv"}]},
+   {title:"Destinos de exportación (a China)",code:"VI.6",status:"done",plan:"M5",real:"sep 2026",kids:[{title:"Serie 1992–2024 por socio",status:"done",where:"processed/comercio_destinos_serie_resumen.csv"}]},
+   {title:"Tipología A/B/C/D",code:"VI.7",status:"delivery",plan:"M7",real:"sep 2026",kids:[{title:"Clasificación de los 10 (B=5, A=2, C=2, D=1)",status:"delivery",where:"processed/cv_tipologia.csv"}]},
+   {title:"Cadenas de valor locales — Actividad B",code:"VI.8",status:"done",plan:"M7",real:"sep 2026",kids:[
+     {title:"10 fichas L0–L4 (diagrama, cuantificación, actores, ruptura)",status:"done",where:"Indice - Fichas de Cadena de Valor"},
+     {title:"Mapas por mineral + conjunto (extracción, plantas, socios)",status:"done",where:"13 Entregables/mapas/"},
+     {title:"Socios comerciales (destinos X / orígenes M)",status:"done",where:"processed/cv_comercio_socios.csv"}]},
+   {title:"Bases de política",code:"VI.9",status:"delivery",plan:"M7",real:"sep 2026",kids:[{title:"Redacción",status:"delivery",where:"Cap VI (docx)"}]}
+ ]},
+ {code:"VII",title:"Reforma 2023 + referencia internacional",status:"delivery",note:"Borrador listo; event study y entrevistas son opcionales.",kids:[
+   {title:"Contenido y coyuntura de la reforma",code:"VII.1",status:"delivery",plan:"M5–M7",real:"sep 2026",kids:[{title:"Redacción",status:"delivery",where:"Cap VII (docx)"}]},
+   {title:"Estrategia empírica (escritorio)",code:"VII.2",status:"delivery",plan:"M5",real:"sep 2026",kids:[{title:"Redacción",status:"delivery",where:"Cap VII (docx)"}]},
+   {title:"Event study (MacKinlay)",code:"VII.2.2",status:"optional",plan:"M5–M7",real:"—",kids:[{title:"Complemento cuantitativo (opcional)",status:"optional",where:"Ventana Event Study · Calcular CAR"}]},
+   {title:"Entrevistas semiestructuradas",code:"VII.2.3",status:"optional",plan:"M5–M7",real:"—",kids:[{title:"Complemento cualitativo (opcional)",status:"optional",where:"Guia de entrevistas · Realizar entrevistas"}]},
+   {title:"Referencia internacional (8 países)",code:"VII.5",status:"delivery",plan:"M8",real:"sep 2026",kids:[{title:"Ghosh + DVA (OECD ICIO); México↔China",status:"delivery",where:"processed/icio_comparacion_mineria.csv"}]},
+   {title:"El enclave en dinero (DVA)",code:"VII.5.1",status:"done",plan:"M8",real:"sep 2026",kids:[{title:"Descomposición de valor agregado 1995–2020",status:"done",where:"processed/icio_dva_mineria.csv"}]}
+ ]},
+ {code:"VIII",title:"Síntesis, conclusiones y recomendaciones",status:"delivery",note:"Borrador de síntesis y política listo; falta mi versión de entrega.",kids:[
+   {title:"Síntesis de hallazgos",code:"VIII.1",status:"delivery",plan:"M8–M11",real:"sep 2026",kids:[{title:"Integración de 5 indicadores",status:"delivery",where:"Cap VIII (docx)"}]},
+   {title:"Tipología + posición en la cadena (L0–L4)",code:"VIII.2",status:"delivery",plan:"M8–M11",real:"sep 2026",kids:[{title:"Patrón agregado + mapa de conjunto",status:"delivery",where:"Sintesis - Patron agregado y bases de politica"}]},
+   {title:"Recomendaciones de política",code:"VIII.3",status:"delivery",plan:"M9–M11",real:"sep 2026",kids:[{title:"Bases por tipo A/B/C/D + contrafactual nórdico/China",status:"delivery",where:"Cap VIII (docx)"}]},
+   {title:"Limitaciones y declaración de vacíos",code:"VIII.4",status:"delivery",plan:"M11",real:"sep 2026",kids:[{title:"Redacción",status:"delivery",where:"Cap VIII (docx)"}]}
+ ]}
+];
+
+// ---- rollup: contar hojas por estado ----
+function leaves(n,acc){ if(!n.kids||!n.kids.length){acc.push(n.status);return acc;} n.kids.forEach(k=>leaves(k,acc)); return acc; }
+function rollup(node){ const c={}; leaves(node,[]).forEach(s=>c[s]=(c[s]||0)+1); return c; }
+
+const svgChev='<svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M8.6 5.4 15.2 12l-6.6 6.6L7.2 17l5-5-5-5z"/></svg>';
+
+function pill(s){ return `<span class="pill s-${s}"><span class="d"></span>${STATUS[s].lab}</span>`; }
+
+function makeNode(node,level){
+  const el=document.createElement('div');
+  el.className=`node lv${level}`;
+  el.dataset.status=node.status;
+  const hasKids=node.kids&&node.kids.length;
+  const row=document.createElement(hasKids?'button':'div');
+  row.className='row'; row.type=hasKids?'button':undefined;
+  if(hasKids) row.setAttribute('aria-expanded','false');
+
+  const code=node.code?`<span class="t-code">${node.code}</span>`:'';
+  const noteHtml=(level>=2&&node.note)?`<div class="t-note">${node.note}</div>`:(level===1&&node.note?`<div class="t-note">${node.note}</div>`:'');
+
+  let right='';
+  if(level===1){
+    const c=rollup(node); const total=Object.values(c).reduce((a,b)=>a+b,0);
+    let bar=''; ORDER.forEach(s=>{ if(c[s]) bar+=`<i style="width:${c[s]/total*100}%;background:var(--st-${s})" title="${c[s]} ${STATUS[s].lab}"></i>`; });
+    right=`<span class="right"><span class="rollup">${bar}</span>${pill(node.status)}</span>`;
+  } else if(level===2){
+    const timing=(node.plan||node.real)?`<span class="pill timing"><span class="timing"><span class="pl">◻ ${node.plan||'—'}</span><span class="rl">◼ ${node.real||'—'}</span></span></span>`:'';
+    right=`<span class="right">${timing}${pill(node.status)}</span>`;
+  }
+
+  row.innerHTML = (hasKids?svgChev:'<span class="chev hidden"></span>') +
+    `<span class="badge s-${node.status}"></span>` +
+    `<span class="titles"><div class="t-main">${code}${node.title}</div>${noteHtml}${leafDetail(node,level)}</span>` +
+    right;
+
+  el.appendChild(row);
+  if(hasKids){
+    const kids=document.createElement('div'); kids.className='kids';
+    node.kids.forEach(k=>kids.appendChild(makeNode(k,level+1)));
+    el.appendChild(kids);
+    row.addEventListener('click',()=>{ const open=el.classList.toggle('open'); row.setAttribute('aria-expanded',open); });
+  }
+  return el;
+}
+function leafDetail(node,level){
+  if(node.kids&&node.kids.length) return '';
+  let out='<div class="detail">';
+  if(node.where) out+=`<span><span class="k">Dónde vive</span><span class="where">${node.where}</span></span>`;
+  if(node.note) out+=`<span><span class="k">Nota</span>${node.note}</span>`;
+  out+='</div>';
+  return out;
+}
+
+const tree=document.getElementById('tree');
+DATA.forEach(ch=>tree.appendChild(makeNode(ch,1)));
+
+// ---- summary tiles ----
+const allLeaves=[]; DATA.forEach(c=>leaves(c,allLeaves));
+const total=allLeaves.length;
+const cnt=s=>allLeaves.filter(x=>x===s).length;
+const done=cnt('done'), data=cnt('data_ready'), deliv=cnt('delivery'), opt=cnt('optional');
+const tiles=[
+  {big:'✅ 4 / 8', lab:'Capítulos aceptados', note:'I · II · III · IV', cls:''},
+  {big:'📝 4 / 8', lab:'Falta mi versión de entrega', note:'V · VI · VII · VIII (borrador listo)', cls:'accent'},
+  {big:'100%', lab:'Datos e indicadores', note:'8 indicadores + Actividades A y B, validados', cls:''},
+  {big:'~9 meses', lab:'Adelanto en análisis', note:'ejecutado jul–sep 2026 vs. plan a 2027', cls:''}
+];
+document.getElementById('tiles').innerHTML=tiles.map(t=>`<div class="tile ${t.cls}"><div class="big">${t.big}</div><div class="lab">${t.lab}</div><div class="note">${t.note}</div></div>`).join('');
+
+// ---- legend ----
+document.getElementById('legend').innerHTML =
+  ORDER.map(s=>`<div class="legend-item"><span class="d" style="background:var(--st-${s})"></span><div><b>${STATUS[s].lab}</b> — ${STATUS[s].desc||'—'}</div></div>`).join('')
+  + `<div class="legend-item"><span class="d" style="background:var(--plan)"></span><div><b>◻ Plan</b> — estimado en el protocolo, antes de iniciar</div></div>`
+  + `<div class="legend-item"><span class="d" style="background:var(--real)"></span><div><b>◼ Real</b> — cuándo ocurrió (bitácora)</div></div>`;
+
+// ---- filters ----
+const filt=document.getElementById('filters'); let active=new Set();
+filt.innerHTML='<span class="chip small" data-all aria-pressed="true"><b>Todo</b></span>'+
+  ORDER.map(s=>`<button class="chip" data-s="${s}" aria-pressed="false"><span class="dot" style="background:var(--st-${s})"></span>${STATUS[s].lab}</button>`).join('');
+function applyFilter(){
+  const nodes=tree.querySelectorAll('.node');
+  if(active.size===0){ nodes.forEach(n=>{n.classList.remove('dim','hit'); n.classList.remove('open'); const r=n.querySelector(':scope>.row'); if(r&&r.tagName==='BUTTON')r.setAttribute('aria-expanded','false');}); return; }
+  nodes.forEach(n=>{ n.classList.remove('open'); const leafStatuses=leaves(collect(n),[]); const hit=leafStatuses.some(s=>active.has(s));
+    n.classList.toggle('dim',!hit); n.classList.toggle('hit', active.has(n.dataset.status)&&(!n.querySelector(':scope>.kids')));
+  });
+  // open ancestors of hits
+  nodes.forEach(n=>{ if(active.has(n.dataset.status)){ let p=n.parentElement; while(p&&p!==tree){ if(p.classList&&p.classList.contains('node')){p.classList.add('open'); const r=p.querySelector(':scope>.row'); if(r&&r.tagName==='BUTTON')r.setAttribute('aria-expanded','true');} p=p.parentElement; } } });
+}
+// map DOM node back to data for leaves(): rebuild from dataset by walking — simpler: recompute using DOM
+function collect(domNode){ // returns pseudo-node with kids statuses from DOM
+  const kids=domNode.querySelectorAll(':scope > .kids > .node');
+  if(!kids.length) return {status:domNode.dataset.status};
+  return {kids:[...kids].map(collect)};
+}
+filt.addEventListener('click',e=>{
+  const all=e.target.closest('[data-all]'); const chip=e.target.closest('[data-s]');
+  if(all){ active.clear(); filt.querySelectorAll('.chip').forEach(c=>c.setAttribute('aria-pressed', c.hasAttribute('data-all')?'true':'false')); applyFilter(); return; }
+  if(chip){ const s=chip.dataset.s; if(active.has(s)){active.delete(s);chip.setAttribute('aria-pressed','false');}else{active.add(s);chip.setAttribute('aria-pressed','true');}
+    filt.querySelector('[data-all]').setAttribute('aria-pressed', active.size===0?'true':'false'); applyFilter(); }
+});
+
+// ---- expand / collapse all ----
+document.getElementById('expand').addEventListener('click',()=>tree.querySelectorAll('.node').forEach(n=>{ if(n.querySelector(':scope>.kids')){n.classList.add('open'); const r=n.querySelector(':scope>.row'); if(r.tagName==='BUTTON')r.setAttribute('aria-expanded','true');}}));
+document.getElementById('collapse').addEventListener('click',()=>tree.querySelectorAll('.node').forEach(n=>{n.classList.remove('open'); const r=n.querySelector(':scope>.row'); if(r&&r.tagName==='BUTTON')r.setAttribute('aria-expanded','false');}));
+
+// ---- tabs ----
+const vA=document.getElementById('view-arbol'), vT=document.getElementById('view-tl');
+const tA=document.getElementById('tab-arbol'), tT=document.getElementById('tab-tl');
+function sel(which){ const arbol=which==='a'; tA.setAttribute('aria-selected',arbol); tT.setAttribute('aria-selected',!arbol);
+  vA.classList.toggle('hidden',!arbol); vT.classList.toggle('hidden',arbol); if(!arbol) buildTimeline(); }
+tA.onclick=()=>sel('a'); tT.onclick=()=>sel('t');
+
+// ---- timeline ----
+const T0=new Date('2026-07-01'), T1=new Date('2027-06-30'); const SPAN=(T1-T0);
+function pct(d){ return (new Date(d)-T0)/SPAN*100; }
+const TLROWS=[
+ {label:"Caps I–IV",code:"marco, contexto, estructura",plan:["2026-07-01","2026-10-31"],real:["2026-07-16","2026-08-01"]},
+ {label:"Base de datos",code:"HHI · MIP · comercio · precios",plan:["2026-07-01","2026-10-31"],real:["2026-07-16","2026-08-01"]},
+ {label:"Obj.1 · Cap V",code:"Leontief · Ghosh · CCV",plan:["2026-09-01","2026-12-31"],real:["2026-07-25","2026-09-06"]},
+ {label:"Obj.2 · Cap VI",code:"cadenas de valor + Actividad B",plan:["2026-10-01","2027-01-31"],real:["2026-08-01","2026-09-11"]},
+ {label:"Obj.3 · Cap VII",code:"inserción global + 8 países",plan:["2026-11-01","2027-02-28"],real:["2026-09-06","2026-09-08"]},
+ {label:"Actividad A",code:"peso del bloque (adicional)",plan:null,real:["2026-09-08","2026-09-09"]},
+ {label:"Síntesis · Cap VIII",code:"política y conclusiones",plan:["2027-02-01","2027-05-31"],real:["2026-09-08","2026-09-11"]},
+ {label:"Entregables",code:"infografía · decks · mapas",plan:["2026-09-01","2027-05-31"],real:["2026-09-05","2026-09-11"]},
+ {label:"Redacción final",code:"mi versión de Caps V–VIII",proj:["2026-09-12","2026-11-30"]},
+ {label:"Protocolo",code:"control de cambios (asesor)",wait:["2026-09-12","2026-10-15"]},
+ {label:"Revisión y examen",code:"cierre de grado",plan:["2027-05-01","2027-06-30"],mile:"2027-06-30"}
+];
+const MONTHS=["Jul 26","Ago","Sep","Oct","Nov","Dic","Ene 27","Feb","Mar","Abr","May","Jun"];
+function buildTimeline(){
+  const tl=document.getElementById('tl'); if(tl.dataset.done) return; tl.dataset.done="1";
+  let head='<div class="tl-head"><div></div><div class="tl-months">';
+  MONTHS.forEach((m,i)=>{ head+=`<span class="tl-mo" style="left:${(i+0.5)/12*100}%">${m}</span>`; });
+  head+='</div></div>'; tl.innerHTML=head;
+  TLROWS.forEach(r=>{
+    let bars='';
+    for(let i=1;i<12;i++) bars+=`<span class="grid-line" style="left:${i/12*100}%"></span>`;
+    if(r.plan) bars+=`<span class="bar plan" style="left:${pct(r.plan[0])}%;width:${pct(r.plan[1])-pct(r.plan[0])}%" title="Plan"></span>`;
+    if(r.real) bars+=`<span class="bar real" style="left:${pct(r.real[0])}%;width:${Math.max(pct(r.real[1])-pct(r.real[0]),0.8)}%" title="Real"></span>`;
+    if(r.proj) bars+=`<span class="bar proj" style="left:${pct(r.proj[0])}%;width:${pct(r.proj[1])-pct(r.proj[0])}%" title="Proyección"></span>`;
+    if(r.wait) bars+=`<span class="bar wait" style="left:${pct(r.wait[0])}%;width:${pct(r.wait[1])-pct(r.wait[0])}%" title="En espera"></span>`;
+    if(r.mile) bars+=`<span class="mile" style="left:${pct(r.mile)}%" title="Examen de grado"></span>`;
+    bars+=`<span class="today" style="left:${pct('2026-09-11')}%"></span>`;
+    tl.insertAdjacentHTML('beforeend',`<div class="tl-row"><div class="tl-label">${r.label}<br><span class="lc">${r.code}</span></div><div class="tl-track">${bars}</div></div>`);
+  });
+}
+
+// ---- theme toggle ----
+const tbtn=document.getElementById('themebtn');
+tbtn.addEventListener('click',()=>{ const root=document.documentElement;
+  const cur=root.getAttribute('data-theme');
+  const isDark = cur==='dark' || (!cur && matchMedia('(prefers-color-scheme:dark)').matches);
+  root.setAttribute('data-theme', isDark?'light':'dark');
+});
+</script>
