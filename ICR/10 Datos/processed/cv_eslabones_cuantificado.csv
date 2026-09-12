@@ -1,0 +1,36 @@
+mineral,eslabon,etapa,scian,atribuible_mip,vbp_mmp_2013,pib_mmp_2013,empleo_2013,vbp_mmp_2018,pib_mmp_2018,empleo_2018,nota_clase_no_atribuible,X_musd_1823,M_musd_1823
+cobre,L1,E1,212231,si,39971.4,28083.9,12523,92893.0,62412.4,8718,,2968.41,672.48
+cobre,L2,E2,331411,si,29375.5,10251.4,2064,80889.3,15418.1,6301,,772.89,966.08
+cobre,L3,E3,331420,si,48774.4,13000.4,9208,35975.3,10146.8,7204,,528.65,2099.93
+cobre,L4,E4,335999,no,,,,,,,"VBP clase agregada 2013=51,081 mmp; VBP clase agregada 2018=103,839 mmp;",68.93,401.88
+fluorita,L1,E1,212395,si,2218.2,1562.8,1713,5861.8,3717.5,740,,78.52,0.04
+fluorita,L2,E2,325180,no,,,,,,,"VBP clase agregada 2013=29,781 mmp; VBP clase agregada 2018=67,911 mmp;",86.51,40.84
+fluorita,L3,E3,325190,no,,,,,,,"VBP clase agregada 2013=52,511 mmp; VBP clase agregada 2018=92,697 mmp;",,
+fluorita,L4,E4,325211,no,,,,,,,"VBP clase agregada 2013=78,302 mmp; VBP clase agregada 2018=120,223 mmp;",,
+oro,L1,E1,212221,si,49607.2,32499.0,12310,69491.1,39301.9,4931,,128.39,0.0
+oro,L2,E2,331412,comp:oro+plata,143518.8,32829.4,5839,178982.4,41461.3,4622,CLASE COMPARTIDA (oro+plata): VBP no separable por mineral,3312.85,123.35
+oro,L4,E4,339910,no,,,,,,,VBP clase agregada 2013=0 mmp; VBP clase agregada 2018=0 mmp;,,
+plata,L1,E1,212222,si,44680.4,29754.2,17983,49784.4,30917.3,7598,,75.18,0.15
+plata,L2,E2,331412,comp:oro+plata,143518.8,32829.4,5839,178982.4,41461.3,4622,CLASE COMPARTIDA (oro+plata): VBP no separable por mineral,2202.8,106.11
+plata,L4,E4,339910,no,,,,,,,VBP clase agregada 2013=0 mmp; VBP clase agregada 2018=0 mmp;,,
+plomo,L1,E1,212232,comp:plomo+zinc,20045.8,13865.2,10178,34724.7,21683.1,11667,CLASE COMPARTIDA (plomo+zinc): VBP no separable por mineral,901.46,24.45
+plomo,L2,E2,331419,comp:plomo+zinc+otros no ferrosos,11583.1,4563.0,4745,14421.6,1900.4,1534,CLASE COMPARTIDA (plomo+zinc+otros no ferrosos): VBP no separable por mineral,175.85,31.42
+plomo,L3,E3,331490,no,,,,,,,"VBP clase agregada 2013=10,405 mmp; VBP clase agregada 2018=11,397 mmp;",0.31,0.64
+plomo,L4,E4,335910,no,,,,,,,"VBP clase agregada 2013=16,877 mmp; VBP clase agregada 2018=35,119 mmp;",1.25,8.11
+zinc,L1,E1,212232,comp:plomo+zinc,20045.8,13865.2,10178,34724.7,21683.1,11667,CLASE COMPARTIDA (plomo+zinc): VBP no separable por mineral,498.46,23.74
+zinc,L2,E2,331419,comp:plomo+zinc+otros no ferrosos,11583.1,4563.0,4745,14421.6,1900.4,1534,CLASE COMPARTIDA (plomo+zinc+otros no ferrosos): VBP no separable por mineral,352.4,73.6
+zinc,L3,E3,331490,no,,,,,,,"VBP clase agregada 2013=10,405 mmp; VBP clase agregada 2018=11,397 mmp;",1.42,48.05
+zinc,L4,E4,332810,no,,,,,,,"VBP clase agregada 2013=32,239 mmp; VBP clase agregada 2018=42,691 mmp;",8.84,73.74
+manganeso,L1,E1,212291,si,486.0,373.9,672,635.0,309.3,523,,0.0,14.55
+manganeso,L2,E2,331112,comp:ferroaleaciones+acero+ferrosilicio,39821.9,16179.8,4365,46575.4,13604.5,1884,CLASE COMPARTIDA (ferroaleaciones+acero+ferrosilicio): VBP no separable por mineral,24.28,1.6
+manganeso,L3,E3,325180,no,,,,,,,"VBP clase agregada 2013=29,781 mmp; VBP clase agregada 2018=67,911 mmp;",0.18,34.78
+grafito,L1,E1,212396,si,164.1,123.7,229,719.8,568.1,627,,2.15,3.69
+grafito,L2,E2,325180,no,,,,,,,"VBP clase agregada 2013=29,781 mmp; VBP clase agregada 2018=67,911 mmp;",53.43,53.75
+grafito,L3,E3,327999,no,,,,,,,"VBP clase agregada 2013=13,583 mmp; VBP clase agregada 2018=26,306 mmp;",120.63,178.18
+grafito,L4,E4,331111,no,,,,,,,"VBP clase agregada 2013=123,100 mmp; VBP clase agregada 2018=164,669 mmp;",,
+silice,L1,E1,212324,si,4898.3,3154.1,2863,6959.1,4388.1,5642,,2.08,73.73
+silice,L2,E2,331112,no,,,,,,,"VBP clase agregada 2013=39,822 mmp; VBP clase agregada 2018=46,575 mmp;",8.22,263.76
+silice,L4,E4,327211,no,,,,,,,"VBP clase agregada 2013=23,027 mmp; VBP clase agregada 2018=28,333 mmp;",,
+barita,L1,E1,212393,si,368.3,222.8,1003,685.6,452.4,1713,,12.07,4.67
+barita,L2,E2,325180,no,,,,,,,"VBP clase agregada 2013=29,781 mmp; VBP clase agregada 2018=67,911 mmp;",0.0,3.59
+barita,L4,E4,213111,no,,,,,,,"VBP clase agregada 2013=156,155 mmp; VBP clase agregada 2018=136,811 mmp;",,

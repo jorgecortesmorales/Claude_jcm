@@ -1,0 +1,36 @@
+mineral,eslabon,etapa,descripcion,scian,hs,atribuible_mip,coef_tecnico,fuente_coef
+cobre,L1,E1,Extracción y beneficio (mina -> concentrado ~28% Cu),212231,2603,si,ley concentrado ~25-30% Cu,USGS/CAMIMEX
+cobre,L2,E2,Fundición y refinación (concentrado -> ánodo/blister 98-99% -> cátodo 99.99%),331411,7401;7402;7403;7405,si,~3.5 t concentrado (28%) / t cátodo,USGS
+cobre,L3,E3,"Semimanufactura (cátodo -> alambrón, laminados, tubos, alambre)",331420,7407;7408;7409;7410;7411;7412;7413,si,cátodo -> alambrón (rend. ~0.98),literatura
+cobre,L4,E4,Manufactura final / uso (alambrón -> cable y conductores; accesorios),335999,7415;7418;7419;8544,no,no atribuible a un solo mineral,Ruta caveat L4
+fluorita,L1,E1,Extracción y beneficio (mina -> espato flúor: grado metalúrgico ~85% / ácido >97% CaF2),212395,252921;252922,si,grado ácido >97% CaF2,USGS/CAMIMEX
+fluorita,L2,E2,Fluoroquímica: ácido fluorhídrico HF (CaF2 + H2SO4 -> 2HF + CaSO4),325180,281111,no,~2.1 t espato ácido / t HF,estequiometría
+fluorita,L3,E3,"Fluoroquímicos intermedios (HF -> gases refrigerantes, sales de flúor)",325190,282612;282619,no,clase SCIAN agregada,—
+fluorita,L4,E4,Fluoropolímeros (PTFE) y usos finales — no se producen en México,325211,390461,no,eslabón ausente (importado),comercio (ausente)
+oro,L1,E1,Extracción y beneficio (mina -> mena/concentrado con oro),212221,261610,si,oro se recupera junto a Cu/Ag,USGS/CAMIMEX
+oro,L2,E2,Fundición y refinación de metales preciosos (doré -> oro refinado),331412,7108,comp:oro+plata,clase compartida oro+plata,MIP
+oro,L4,E4,Joyería y orfebrería (uso final) — importador neto,339910,7113;7114;7115,no,uso multi-insumo; importado,comercio
+plata,L1,E1,Extracción y beneficio (mina -> mena/concentrado con plata),212222,261690,si,plata subproducto de Pb-Zn y epitermales,USGS/CAMIMEX
+plata,L2,E2,Fundición y refinación de metales preciosos (doré -> plata refinada),331412,7106,comp:oro+plata,clase compartida oro+plata,MIP
+plata,L4,E4,Joyería y orfebrería (uso final) — importador neto,339910,7113;7114;7115,no,uso multi-insumo; importado,comercio
+plomo,L1,E1,Extracción y beneficio (mina -> concentrado de plomo; coextracción con zinc),212232,2607,comp:plomo+zinc,L1 INEGI combina plomo-zinc,USGS/CAMIMEX
+plomo,L2,E2,Fundición y refinación (concentrado -> plomo refinado),331419,7801,comp:plomo+zinc+otros no ferrosos,clase compartida,MIP
+plomo,L3,E3,"Semimanufactura de plomo (barras, láminas, tubos)",331490,7804,no,clase compartida no ferrosos,—
+plomo,L4,E4,"Baterías plomo-ácido (uso final) — Clarios/LTH, con reciclaje",335910,7806,no,baterías; insumo mayormente reciclado,empresas
+zinc,L1,E1,Extracción y beneficio (mina -> concentrado de zinc; coextracción con plomo),212232,2608,comp:plomo+zinc,L1 INEGI combina plomo-zinc,USGS/CAMIMEX
+zinc,L2,E2,Fundición y refinación (concentrado -> zinc refinado; IMMSA/Met-Mex),331419,7901,comp:plomo+zinc+otros no ferrosos,clase compartida,MIP
+zinc,L3,E3,"Semimanufactura de zinc (planchas, polvo, aleaciones)",331490,7903;7904;7905,no,clase compartida no ferrosos,—
+zinc,L4,E4,Galvanizado y usos finales,332810,7907,no,uso multi-insumo,comercio
+manganeso,L1,E1,Extracción y beneficio (mina Molango -> mena/nódulos de Mn),212291,2602,si,usar contenido de Mn,USGS/CAMIMEX
+manganeso,L2,E2,Ferroaleaciones: ferro- y silicomanganeso (Autlán),331112,720211;720219;720230,comp:ferroaleaciones+acero+ferrosilicio,"Autlán, clase compartida con siderurgia",MIP/empresas
+manganeso,L3,E3,"Compuestos químicos y metal de Mn (dióxido, sulfato)",325180,282010;8111,no,clase SCIAN agregada,—
+grafito,L1,E1,Extracción y beneficio (grafito natural en hojuela/amorfo),212396,250410;250490,si,producción decreciente,USGS/CAMIMEX
+grafito,L2,E2,Grafito artificial y preparaciones,325180,3801,no,clase agregada; mayormente importado,comercio
+grafito,L3,E3,Electrodos y artículos de carbono/grafito — importador neto,327999,8545,no,sin clase dedicada; importado,comercio
+grafito,L4,E4,"Uso: acería por horno de arco eléctrico (EAF), refractarios, baterías",331111,,no,usuario multi-insumo (siderurgia),empresas
+silice,L1,E1,Extracción y beneficio (arena sílica / cuarzo),212324,250510;250610,si,grados vidrio/fundición,USGS/CAMIMEX
+silice,L2,E2,Silicio metálico / ferrosilicio / sílice pirogénica — importador neto,331112,280461;280469;720221;720229;281122,no,silicio importado; clase compartida,comercio
+silice,L4,E4,"Uso: vidrio (Vitro, O-I) y cemento/cerámica",327211,,no,usuario multi-insumo (vidrio/cemento),empresas
+barita,L1,E1,Extracción y beneficio (barita cruda/molida grado API),212393,251110,si,grado perforación (densidad >4.2),USGS/CAMIMEX
+barita,L2,E2,"Químicos de bario (sulfato, carbonato) — mínimo/importado",325180,281640;283660,no,clase agregada; poco/importado,comercio
+barita,L4,E4,Uso: densificante de lodos de perforación petrolera (PEMEX),213111,,no,usuario (perforación de pozos),empresas
