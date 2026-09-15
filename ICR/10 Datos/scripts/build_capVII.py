@@ -168,6 +168,29 @@ para(doc,["La lectura de política es directa y refuerza la del capítulo: Méxi
  B("el eslabón de mayor valor y criticidad —el que una política de seguridad de suministro o de captura de valor buscaría asegurar— es justo el ausente"),
  " en grafito, sílice y manganeso, y el que se exporta como intermedio en la fluorita. La dependencia crítica de México no está en la mina, sino en el producto transformado de la transición energética, que compra al exterior mientras vende su materia prima. El detalle por mineral y sector obra en [[Clasificacion de productos por criticidad]] (Cap. II) y en las fichas de cadena (Cap. VI)."])
 
+H2(doc,"VII.5.3  El encadenamiento por eslabón: dónde se sostiene el arrastre")
+para(doc,["La comparación del encadenamiento hacia adelante gana precisión al calcularlo no solo para el eslabón ",
+ B("extractivo"), ", sino también para la ", B("refinación"), " (industrias metálicas básicas, C24) y la ",
+ B("semimanufactura"), " (productos metálicos, C25) de cada país (OECD ICIO, corte 2018). Revela ",
+ B("hasta qué eslabón cada país sostiene el arrastre"), "."],first=True)
+add_table(doc,[2000,1880,1880,1880],
+ ["País","L1 extracción","L2 refinación","L3 semimanufactura"],
+ [["China","1.53","1.30","1.02"],
+  ["México","1.51","1.17","1.12"],
+  ["Finlandia","1.31","1.06","1.14"],
+  ["Suecia","1.27","1.08","1.06"],
+  ["Brasil","0.99","1.19","1.24"],
+  ["Australia","0.83","0.83","1.24"],
+  ["Chile","0.73","1.23","1.12"],
+  ["Perú","0.62","0.98","1.06"]])
+caption(doc,"Cuadro VII.4. Índice de Ghosh hacia adelante (Rasmussen, media país=1) por eslabón de la cadena metálica, 2018. "
+ "Cortes 2008/2013/2018/2020 en processed/icio_eslabones_metal.csv (script icio_eslabones.py). C24/C25 son toda la industria metálica, no solo los 10 minerales.")
+para(doc,["El contraste es nítido. ", B("China sostiene el arrastre de la extracción a la refinación (1.53 → 1.30)"),
+ ": es el procesador integrado. ", B("México cae más (1.51 → 1.17)"),
+ ": su alto arrastre extractivo no se prolonga con la misma fuerza a la transformación. En el otro extremo, ",
+ B("Chile —con una extracción de arrastre bajísimo (0.73)— tiene la refinación más integrada (1.23)"),
+ ": su poca fundición sí alimenta industria, lo que confirma que el índice extractivo aislado engaña en ambos sentidos. Este mismo patrón se observa por mineral en México (Cap. V, V.10.1: la refinación de metales preciosos cae a 0.62) y por entidad —la transformación metálica con más arrastre se concentra en Coahuila y Nuevo León, el eje siderúrgico, no donde más se extrae (base ghosh_estatal_eslabones.csv)—. El detalle obra en la memoria de encadenamientos por eslabón."])
+
 H1(doc,"VII.6  Pendientes concretos (event study y entrevistas, opcionales)")
 checklist(doc,[
  "Diseñar la guía de entrevistas.",

@@ -284,6 +284,32 @@ para(doc, ["En consecuencia, el índice de Ghosh es una condición ", B("necesar
   B("nunca se lee solo"), ": se cruza con el coeficiente de captura de valor (V.11), el comercio por etapa y el mapa de empresas de transformación. El enclave estructural aparece en la ",
   I("combinación"), " de los indicadores, no en el Ghosh aislado; de hecho, la co-ocurrencia esperada entre alta concentración y bajo encadenamiento hacia adelante no se observa —varios minerales muy concentrados (manganeso, fluorita, grafito, sílice) tienen índices de Ghosh altos—, lo que confirma que el índice mide arrastre estructural, no truncamiento de la cadena."])
 
+heading(doc, "V.10.1  El encadenamiento por eslabón: extracción, refinación y semimanufactura")
+para(doc, ["La cautela anterior se vuelve visible al calcular el índice de Ghosh no solo para el eslabón ",
+  B("extractivo"), ", sino también para la ", B("refinación"), " y la ", B("semimanufactura"),
+  " de cada mineral (clases SCIAN 331 aguas abajo). Si el arrastre hacia adelante fuera prueba de cadena desarrollada, debería sostenerse o crecer al descender por la cadena; lo que se observa es lo contrario: ",
+  B("el arrastre se debilita o se corta"), " en cada paso (Cuadro V.4bis; corte 2018)."], first=True)
+add_table(doc, [1560, 1140, 1140, 1140, 2660],
+  ["Mineral", "L1 extrac.", "L2 refin.", "L3 semis", "Clases L2 / L3 (atribuibilidad)"],
+  [["Cobre", "1.34", "1.37", "0.95", "331411 / 331420 (atribuible)"],
+   ["Oro", "1.22", "0.62", "1.02", "331412 / 331490 (compartida Au+Ag)"],
+   ["Plata", "1.18", "0.62", "1.02", "331412 / 331490 (compartida)"],
+   ["Plomo-zinc", "0.71", "0.63", "1.02", "331419 / 331490 (compartida)"],
+   ["Manganeso", "1.54", "1.34", "—", "331112 ferroaleaciones (comp. con acero)"],
+   ["Fluorita", "1.31", "1.44*", "1.31", "325180 / 325211 (agregado)"],
+   ["Grafito", "1.71", "1.44*", "1.24", "325180 / 327999 (agregado)"],
+   ["Sílice", "1.92", "1.44*", "1.34", "325180 / 327211 (agregado)"],
+   ["Barita", "0.64", "1.44*", "—", "325180 (agregado)"]])
+caption(doc, "Cuadro V.4bis. Índice de Ghosh hacia adelante (Rasmussen, media=1) por eslabón, corte 2018. "
+  "* clase agregada de químicos, no atribuible al mineral. Cortes 2008 y 2013 en processed/mip_encadenamientos_eslabones.csv "
+  "(script mip_eslabones.py).")
+para(doc, ["El caso del ", B("cobre"), " es ilustrativo: la refinación (1.37) supera incluso a la extracción, porque la fundición sí alimenta industria doméstica; pero la ",
+  B("semimanufactura cae a 0.95"), ", justo donde se agregaría más valor. En los ", B("metales preciosos"),
+  " el corte es más agudo: la refinación (331412) tiene un Ghosh de ", B("0.62"),
+  ", de los más bajos de la economía, porque el metal refinado no alimenta industria nacional sino que se exporta como lingote —el enclave estructural aparece en el propio índice, sin necesidad de otro indicador—. Sólo el ",
+  I("manganeso"), " sostiene el arrastre hasta la ferroaleación (1.34), coherente con su cadena local (Autlán). En los no metálicos, el eslabón aguas abajo cae en una clase agregada de químicos (325180), no separable por mineral. El mismo ejercicio a nivel ",
+  B("estatal e internacional"), " se recoge en el Cap. VII y en la memoria de encadenamientos por eslabón."])
+
 heading(doc, "V.11  El coeficiente de captura de valor (CCV): una serie continua del encadenamiento hacia adelante")
 para(doc, ["El índice de Ghosh es discreto: está atado a los dos cortes de la MIP (2013 y 2018). Para darle profundidad temporal al encadenamiento hacia adelante se construye un segundo descriptor, el ",
   B("coeficiente de captura de valor (CCV)"),

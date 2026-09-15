@@ -1,0 +1,65 @@
+estado,abrev,eslabon,tipo,vbp_mdp,forward_rasmussen_br,rank_forward_de_70
+Aguascalientes,ags,L1,extraccion,9530.5,1.6675,3
+Aguascalientes,ags,L2+L3,transformacion metalica (refinacion+semis),8370.8,1.2163,21
+Baja California,bc,L1,extraccion,2917.0,1.6418,4
+Baja California,bc,L2+L3,transformacion metalica (refinacion+semis),56018.2,0.8709,41
+Baja California Sur,bcs,L1,extraccion,8986.8,1.3218,13
+Baja California Sur,bcs,L2+L3,transformacion metalica (refinacion+semis),356.7,1.2361,17
+Campeche,camp,L1,extraccion,707.6,1.6159,4
+Campeche,camp,L2+L3,transformacion metalica (refinacion+semis),191.6,1.1755,22
+Chiapas,chis,L1,extraccion,1486.3,1.6672,4
+Chiapas,chis,L2+L3,transformacion metalica (refinacion+semis),1223.7,1.1322,21
+Chihuahua,chih,L1,extraccion,23906.3,0.9202,30
+Chihuahua,chih,L2+L3,transformacion metalica (refinacion+semis),30671.1,0.7376,55
+Ciudad de Mexico,cdmx,L1,extraccion,429.5,1.077,26
+Ciudad de Mexico,cdmx,L2+L3,transformacion metalica (refinacion+semis),43102.3,1.21,20
+Coahuila,coah,L1,extraccion,42338.9,1.5885,6
+Coahuila,coah,L2+L3,transformacion metalica (refinacion+semis),342365.4,1.0368,27
+Colima,col,L1,extraccion,6548.1,1.2611,16
+Colima,col,L2+L3,transformacion metalica (refinacion+semis),437.5,1.2057,21
+Durango,dgo,L1,extraccion,36058.7,1.3046,12
+Durango,dgo,L2+L3,transformacion metalica (refinacion+semis),6153.2,1.1515,24
+Guanajuato,gto,L1,extraccion,5465.6,1.6572,3
+Guanajuato,gto,L2+L3,transformacion metalica (refinacion+semis),66913.2,1.0598,28
+Guerrero,gro,L1,extraccion,11208.4,1.0758,28
+Guerrero,gro,L2+L3,transformacion metalica (refinacion+semis),749.0,1.1919,20
+Hidalgo,hgo,L1,extraccion,7493.7,1.6959,2
+Hidalgo,hgo,L2+L3,transformacion metalica (refinacion+semis),12900.9,1.2184,19
+Jalisco,jal,L1,extraccion,12982.8,1.6597,4
+Jalisco,jal,L2+L3,transformacion metalica (refinacion+semis),67630.3,1.1363,23
+Mexico,mex,L1,extraccion,8584.5,1.6415,4
+Mexico,mex,L2+L3,transformacion metalica (refinacion+semis),90531.8,1.093,25
+Michoacan,mich,L1,extraccion,8896.6,1.6094,4
+Michoacan,mich,L2+L3,transformacion metalica (refinacion+semis),31165.8,1.0214,27
+Morelos,mor,L1,extraccion,923.4,1.6889,3
+Morelos,mor,L2+L3,transformacion metalica (refinacion+semis),3956.1,1.2447,18
+Nayarit,nay,L1,extraccion,2491.4,1.6651,4
+Nayarit,nay,L2+L3,transformacion metalica (refinacion+semis),291.5,1.2406,18
+Nuevo Leon,nl,L1,extraccion,11947.1,1.6245,6
+Nuevo Leon,nl,L2+L3,transformacion metalica (refinacion+semis),271120.5,1.0943,24
+Oaxaca,oax,L1,extraccion,4309.0,1.7016,3
+Oaxaca,oax,L2+L3,transformacion metalica (refinacion+semis),1587.0,1.1805,22
+Puebla,pue,L1,extraccion,4097.9,1.6585,4
+Puebla,pue,L2+L3,transformacion metalica (refinacion+semis),40959.8,1.1677,21
+Queretaro,qro,L1,extraccion,6071.3,1.645,3
+Queretaro,qro,L2+L3,transformacion metalica (refinacion+semis),36271.9,1.1586,24
+Quintana Roo,qr,L1,extraccion,6135.3,1.6158,4
+Quintana Roo,qr,L2+L3,transformacion metalica (refinacion+semis),524.3,1.2496,19
+San Luis Potosi,slp,L1,extraccion,19628.6,1.6501,4
+San Luis Potosi,slp,L2+L3,transformacion metalica (refinacion+semis),59930.6,1.1298,23
+Sinaloa,sin,L1,extraccion,6801.2,1.5549,6
+Sinaloa,sin,L2+L3,transformacion metalica (refinacion+semis),5065.4,1.1646,22
+Sonora,son,L1,extraccion,140608.2,1.3888,11
+Sonora,son,L2+L3,transformacion metalica (refinacion+semis),103419.9,1.0673,26
+Tabasco,tab,L1,extraccion,3473.6,1.5996,4
+Tabasco,tab,L2+L3,transformacion metalica (refinacion+semis),2635.7,1.1309,24
+Tamaulipas,tamps,L1,extraccion,1038.9,1.6836,2
+Tamaulipas,tamps,L2+L3,transformacion metalica (refinacion+semis),34136.3,0.8548,39
+Tlaxcala,tlax,L1,extraccion,646.1,1.7351,2
+Tlaxcala,tlax,L2+L3,transformacion metalica (refinacion+semis),7644.1,1.2851,15
+Veracruz,ver,L1,extraccion,7749.3,1.557,5
+Veracruz,ver,L2+L3,transformacion metalica (refinacion+semis),58937.8,0.9182,31
+Yucatan,yuc,L1,extraccion,5171.4,1.6671,4
+Yucatan,yuc,L2+L3,transformacion metalica (refinacion+semis),1696.0,1.2896,14
+Zacatecas,zac,L1,extraccion,34470.9,1.074,28
+Zacatecas,zac,L2+L3,transformacion metalica (refinacion+semis),6632.6,1.2413,18

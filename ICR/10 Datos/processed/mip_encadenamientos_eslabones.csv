@@ -1,0 +1,82 @@
+anio,mineral,eslabon,tipo,scian,clase,atribuible,vbp_mmpesos,forward_G_rowsum,forward_rasmussen,backward_rasmussen,rank_forward,rank_backward,n_sectores
+2008,barita,L1,extraccion,212393,Minería de barita,si,270.0,1.9905,1.288,0.9631,226,465,814
+2008,barita,L2,refinacion,325180,Fabricación de otros productos químicos básicos ,no,27627.8,2.0753,1.3428,1.125,184,156,814
+2008,barita,L3,semimanufactura,,(sin clase separable),-,,,,,,,814
+2008,cobre,L1,extraccion,212231,Minería de cobre,si,12361.4,2.5131,1.6261,0.8406,57,699,814
+2008,cobre,L2,refinacion,331411,Fundición y refinación de cobre,si,19380.2,2.1006,1.3592,1.1495,172,126,814
+2008,cobre,L3,semimanufactura,331420,Laminación secundaria de cobre,si,32740.1,1.7034,1.1022,1.1042,296,195,814
+2008,fluorita,L1,extraccion,212395,Minería de fluorita,si,1286.1,1.7203,1.1131,0.9821,292,425,814
+2008,fluorita,L2,refinacion,325180,Fabricación de otros productos químicos básicos ,no,27627.8,2.0753,1.3428,1.125,184,156,814
+2008,fluorita,L3,semimanufactura,325211,Fabricación de resinas sintéticas,no,50966.7,2.1577,1.3961,1.1319,150,143,814
+2008,grafito,L1,extraccion,212396,Minería de grafito,si,403.6,2.6035,1.6846,0.9743,41,441,814
+2008,grafito,L2,refinacion,325180,Fabricación de otros productos químicos básicos ,no,27627.8,2.0753,1.3428,1.125,184,156,814
+2008,grafito,L3,semimanufactura,327999,Fabricación de otros productos a base de mineral,no,4310.1,1.821,1.1783,1.1776,273,91,814
+2008,manganeso,L1,extraccion,212291,"Minería de manganeso (incluye a la 212292 ""Miner",si,8104.9,1.5504,1.0032,0.8622,329,658,814
+2008,manganeso,L2,refinacion,331112,Fabricación de desbastes primarios y ferroaleaci,comp,37451.2,1.9581,1.267,1.3342,236,21,814
+2008,manganeso,L3,semimanufactura,,(sin clase separable),-,,,,,,,814
+2008,oro,L1,extraccion,212221,Minería de oro,si,12804.4,2.2881,1.4805,0.9494,115,491,814
+2008,oro,L2,refinacion,331412,Fundición y refinación de metales preciosos,comp,30578.1,1.0,0.6471,1.3397,752,19,814
+2008,oro,L3,semimanufactura,331490,Laminación secundaria de otros metales no ferros,comp,23564.1,1.7144,1.1093,1.2706,295,37,814
+2008,plata,L1,extraccion,212222,Minería de plata,si,19037.1,1.2303,0.7961,0.9412,430,505,814
+2008,plata,L2,refinacion,331412,Fundición y refinación de metales preciosos,comp,30578.1,1.0,0.6471,1.3397,752,19,814
+2008,plata,L3,semimanufactura,331490,Laminación secundaria de otros metales no ferros,comp,23564.1,1.7144,1.1093,1.2706,295,37,814
+2008,plomo-zinc,L1,extraccion,212232,Minería de plomo y zinc,si,7930.0,2.0911,1.3531,0.9831,176,422,814
+2008,plomo-zinc,L2,refinacion,331419,Fundición y refinación de otros metales no ferro,comp,7252.7,1.2351,0.7992,1.0535,427,279,814
+2008,plomo-zinc,L3,semimanufactura,331490,Laminación secundaria de otros metales no ferros,comp,23564.1,1.7144,1.1093,1.2706,295,37,814
+2008,silice,L1,extraccion,212324,Minería de sílice,si,1216.6,2.4723,1.5997,0.8948,69,605,814
+2008,silice,L2,refinacion,325180,Fabricación de otros productos químicos básicos ,no,27627.8,2.0753,1.3428,1.125,184,156,814
+2008,silice,L3,semimanufactura,327211,Fabricación de vidrio,no,13476.5,1.7157,1.1101,1.2158,293,61,814
+2013,barita,L1,extraccion,212393,MinerÃ­a de barita,si,368.3,1.2082,0.764,0.9554,444,482,822
+2013,barita,L2,refinacion,325180,FabricaciÃ³n de otros productos quÃ­micos bÃ¡sic,no,29781.2,2.1251,1.3438,0.9934,174,398,822
+2013,barita,L3,semimanufactura,,(sin clase separable),-,,,,,,,822
+2013,cobre,L1,extraccion,212231,MinerÃ­a de cobre,si,39971.4,1.8677,1.1811,0.8882,283,634,822
+2013,cobre,L2,refinacion,331411,FundiciÃ³n y refinaciÃ³n de cobre,si,29375.5,1.875,1.1857,1.0386,281,320,822
+2013,cobre,L3,semimanufactura,331420,LaminaciÃ³n secundaria de cobre,si,48774.4,1.9255,1.2176,1.2146,270,71,822
+2013,fluorita,L1,extraccion,212395,MinerÃ­a de fluorita,si,2218.2,1.3766,0.8705,0.8517,383,682,822
+2013,fluorita,L2,refinacion,325180,FabricaciÃ³n de otros productos quÃ­micos bÃ¡sic,no,29781.2,2.1251,1.3438,0.9934,174,398,822
+2013,fluorita,L3,semimanufactura,325211,FabricaciÃ³n de resinas sintÃ©ticas,no,78302.2,1.789,1.1313,1.012,296,369,822
+2013,grafito,L1,extraccion,212396,MinerÃ­a de grafito,si,164.1,1.9547,1.2361,0.8366,257,700,822
+2013,grafito,L2,refinacion,325180,FabricaciÃ³n de otros productos quÃ­micos bÃ¡sic,no,29781.2,2.1251,1.3438,0.9934,174,398,822
+2013,grafito,L3,semimanufactura,327999,FabricaciÃ³n de otros productos a base de minera,no,13582.9,2.5563,1.6165,1.2691,68,34,822
+2013,manganeso,L1,extraccion,212291,MinerÃ­a de manganeso,si,486.0,2.8289,1.7889,0.8294,34,709,822
+2013,manganeso,L2,refinacion,331112,FabricaciÃ³n de desbastes primarios y ferroaleac,comp,39821.9,2.6033,1.6462,1.0538,62,287,822
+2013,manganeso,L3,semimanufactura,,(sin clase separable),-,,,,,,,822
+2013,oro,L1,extraccion,212221,MinerÃ­a de oro,si,49607.2,2.1296,1.3467,0.9183,173,570,822
+2013,oro,L2,refinacion,331412,FundiciÃ³n y refinaciÃ³n de metales preciosos,comp,143518.8,1.0401,0.6577,1.3573,559,19,822
+2013,oro,L3,semimanufactura,331490,LaminaciÃ³n secundaria de otros metales no ferro,comp,10404.9,2.0707,1.3095,1.2316,200,60,822
+2013,plata,L1,extraccion,212222,MinerÃ­a de plata,si,44680.4,2.0579,1.3014,0.9118,206,578,822
+2013,plata,L2,refinacion,331412,FundiciÃ³n y refinaciÃ³n de metales preciosos,comp,143518.8,1.0401,0.6577,1.3573,559,19,822
+2013,plata,L3,semimanufactura,331490,LaminaciÃ³n secundaria de otros metales no ferro,comp,10404.9,2.0707,1.3095,1.2316,200,60,822
+2013,plomo-zinc,L1,extraccion,212232,MinerÃ­a de plomo y zinc,si,20045.8,1.1314,0.7154,0.8935,479,623,822
+2013,plomo-zinc,L2,refinacion,331419,FundiciÃ³n y refinaciÃ³n de otros metales no fer,comp,11583.1,1.0521,0.6653,1.13,538,148,822
+2013,plomo-zinc,L3,semimanufactura,331490,LaminaciÃ³n secundaria de otros metales no ferro,comp,10404.9,2.0707,1.3095,1.2316,200,60,822
+2013,silice,L1,extraccion,212324,MinerÃ­a de sÃ­lice,si,4898.3,2.8412,1.7967,0.9106,31,581,822
+2013,silice,L2,refinacion,325180,FabricaciÃ³n de otros productos quÃ­micos bÃ¡sic,no,29781.2,2.1251,1.3438,0.9934,174,398,822
+2013,silice,L3,semimanufactura,327211,FabricaciÃ³n de vidrio,no,23027.1,1.947,1.2312,0.9702,261,449,822
+2018,barita,L1,extraccion,212393,MinerÃ­a de barita,si,685.6,1.0409,0.6438,0.9601,614,471,834
+2018,barita,L2,refinacion,325180,FabricaciÃ³n de otros productos quÃ­micos bÃ¡sic,no,67911.0,2.3289,1.4404,1.0444,132,280,834
+2018,barita,L3,semimanufactura,,(sin clase separable),-,,,,,,,834
+2018,cobre,L1,extraccion,212231,MinerÃ­a de cobre,si,92893.0,2.1683,1.3411,0.9397,185,516,834
+2018,cobre,L2,refinacion,331411,FundiciÃ³n y refinaciÃ³n de cobre,si,80889.3,2.2155,1.3702,1.2742,170,37,834
+2018,cobre,L3,semimanufactura,331420,LaminaciÃ³n secundaria de cobre,si,35975.3,1.542,0.9537,1.0035,375,368,834
+2018,fluorita,L1,extraccion,212395,MinerÃ­a de fluorita,si,5861.8,2.1194,1.3109,0.9729,200,433,834
+2018,fluorita,L2,refinacion,325180,FabricaciÃ³n de otros productos quÃ­micos bÃ¡sic,no,67911.0,2.3289,1.4404,1.0444,132,280,834
+2018,fluorita,L3,semimanufactura,325211,FabricaciÃ³n de resinas sintÃ©ticas,no,120223.1,2.1105,1.3053,1.0489,204,267,834
+2018,grafito,L1,extraccion,212396,MinerÃ­a de grafito,si,719.8,2.7625,1.7085,0.8727,43,683,834
+2018,grafito,L2,refinacion,325180,FabricaciÃ³n de otros productos quÃ­micos bÃ¡sic,no,67911.0,2.3289,1.4404,1.0444,132,280,834
+2018,grafito,L3,semimanufactura,327999,FabricaciÃ³n de otros productos a base de minera,no,26305.9,2.0021,1.2383,1.1595,253,114,834
+2018,manganeso,L1,extraccion,212291,MinerÃ­a de manganeso,si,635.0,2.4909,1.5406,1.0543,77,256,834
+2018,manganeso,L2,refinacion,331112,FabricaciÃ³n de desbastes primarios y ferroaleac,comp,46575.4,2.1604,1.3362,1.0275,190,316,834
+2018,manganeso,L3,semimanufactura,,(sin clase separable),-,,,,,,,834
+2018,oro,L1,extraccion,212221,MinerÃ­a de oro,si,69491.1,1.9672,1.2167,1.0261,271,321,834
+2018,oro,L2,refinacion,331412,FundiciÃ³n y refinaciÃ³n de metales preciosos,comp,178982.4,1.0012,0.6192,1.4174,711,6,834
+2018,oro,L3,semimanufactura,331490,LaminaciÃ³n secundaria de otros metales no ferro,comp,11397.4,1.6431,1.0162,0.9894,346,397,834
+2018,plata,L1,extraccion,212222,MinerÃ­a de plata,si,49784.4,1.8995,1.1748,0.9932,288,389,834
+2018,plata,L2,refinacion,331412,FundiciÃ³n y refinaciÃ³n de metales preciosos,comp,178982.4,1.0012,0.6192,1.4174,711,6,834
+2018,plata,L3,semimanufactura,331490,LaminaciÃ³n secundaria de otros metales no ferro,comp,11397.4,1.6431,1.0162,0.9894,346,397,834
+2018,plomo-zinc,L1,extraccion,212232,MinerÃ­a de plomo y zinc,si,34724.7,1.1438,0.7074,0.9885,527,401,834
+2018,plomo-zinc,L2,refinacion,331419,FundiciÃ³n y refinaciÃ³n de otros metales no fer,comp,14421.6,1.025,0.634,1.2493,638,51,834
+2018,plomo-zinc,L3,semimanufactura,331490,LaminaciÃ³n secundaria de otros metales no ferro,comp,11397.4,1.6431,1.0162,0.9894,346,397,834
+2018,silice,L1,extraccion,212324,MinerÃ­a de sÃ­lice,si,6959.1,3.0978,1.9159,0.9381,18,521,834
+2018,silice,L2,refinacion,325180,FabricaciÃ³n de otros productos quÃ­micos bÃ¡sic,no,67911.0,2.3289,1.4404,1.0444,132,280,834
+2018,silice,L3,semimanufactura,327211,FabricaciÃ³n de vidrio,no,28332.7,2.1674,1.3405,1.2169,186,69,834
