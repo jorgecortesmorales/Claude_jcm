@@ -29,3 +29,17 @@ ehthumbs.db
 # === Python ===
 __pycache__/
 *.pyc
+
+# === Artefactos regenerables y pesados de la reestructuración (2026-09) ===
+# Respaldos con sufijo (además de *.bak)
+*.bak_*
+# Intermedios de la MIP 2008 (regenerables con mip2008_extract.py; ~17 MB)
+ICR/10 Datos/processed/mip2008_intermedios/
+# Intermedios del pipeline Pandoc (regenerables con build_book.py / build.py)
+ICR/11 Redaccion/pandoc/consolidado_extraido.md
+ICR/11 Redaccion/pandoc/reference_default.docx
+ICR/11 Redaccion/_manuscrito_libro.md
+# DOCX del manuscrito y anexos (salida regenerable; las fuentes .md sí se versionan)
+ICR/11 Redaccion/manuscrito/*.docx
+# Audio de reuniones (fuente pesada; respaldada en OneDrive)
+*.m4a
