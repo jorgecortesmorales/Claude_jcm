@@ -93,8 +93,14 @@ Cuadro {#cua:eslabon}: Índice de Ghosh hacia adelante (Rasmussen, media = 1) po
 | Oro | 1.22 | 0.62 | 1.02 | Clase de metales preciosos compartida |
 | Plata | 1.17 | 0.62 | 1.02 | Clase de metales preciosos compartida |
 | Plomo-zinc | 0.71 | 0.63 | 1.02 | Clase de no ferrosos compartida |
+| Sílice | 1.92 | 1.44\* | 1.34\* | L2/L3 en clase agregada de químicos/vidrio |
+| Grafito | 1.71 | 1.44\* | 1.24\* | L2/L3 en clase agregada de químicos |
+| Fluorita | 1.31 | 1.44\* | 1.31\* | L2/L3 en clase agregada de químicos |
+| Barita | 0.64 | 1.44\* | — | L2 en clase agregada de químicos |
 
-![Ilustración {#fig:eslabon}: Índice de Ghosh hacia adelante por eslabón (L1 extracción, L2 refinación, L3 semimanufactura), 2018. Etiquetas en gris: clases de transformación no atribuibles al mineral. Fuente: cálculo propio con la MIP del INEGI 2018.](figuras/vi2_ghosh_eslabon_2018.png){width=95%}
+: \* En los minerales no metálicos, la refinación y la semimanufactura caen en clases SCIAN agregadas (química básica inorgánica 325180, entre otras) que no pueden atribuirse al mineral; su valor se anota con reserva y se ancla con el comercio y la capacidad instalada.
+
+![Ilustración {#fig:eslabon}: Índice de Ghosh hacia adelante por eslabón (L1 extracción, L2 refinación, L3 semimanufactura), 2018, minerales metálicos con clases atribuibles. Etiquetas en gris: clases de transformación no atribuibles al mineral. La serie completa de los diez minerales obra en el Anexo B (Cuadro B.5). Fuente: cálculo propio con la MIP del INEGI 2018.](figuras/vi2_ghosh_eslabon_2018.png){width=95%}
 
 El caso del **cobre** es ilustrativo: la refinación (1.37) supera incluso a la extracción, porque la fundición sí alimenta industria doméstica; pero la semimanufactura cae a 0.95, justo donde se agregaría más valor —el punto donde la cadena del cobre deja de traccionar hacia adelante—. En los **metales preciosos** el corte es más agudo: la refinación (clase 331412) tiene un índice de 0.62, de los más bajos de la economía, porque el metal refinado no alimenta industria nacional sino que se exporta como lingote. Aquí el enclave estructural aparece en el propio índice, sin necesidad de otro indicador. Solo el **manganeso** sostiene el arrastre hasta la ferroaleación (L2 = 1.34), coherente con su cadena local integrada (Autlán). El mismo ejercicio a escala estatal e internacional se retoma en el Capítulo VII.
 

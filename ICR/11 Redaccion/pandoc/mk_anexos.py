@@ -81,6 +81,48 @@ for m in ORD:
         brows.append(f"| {NOM[m]} | {g(key,2008,0)} | {g(key,2013,0)} | {g(key,2018,0)} | {g(key,2008,1)} | {g(key,2013,1)} | {g(key,2018,1)} |")
 b.append("\n".join(brows) + "\n\n*Nota: plomo y zinc comparten la clase SCIAN 212232 en la MIP; sus encadenamientos se reportan de forma conjunta.*\n")
 
+# B.5 — por mineral y eslabón (multi-corte)
+def by_eslabon(fn, keycol, keyorder, cortes):
+    data = {}  # key -> eslabon -> {anio: val}
+    for r in load(fn):
+        data.setdefault(r[keycol], {}).setdefault(r["eslabon"], {})[r["anio"]] = r["forward_rasmussen"]
+    def cell(k, esl):
+        m = data.get(k, {}).get(esl, {})
+        vs = []
+        for a in cortes:
+            v = m.get(a)
+            vs.append(f"{float(v):.2f}" if v else "—")
+        return " / ".join(vs)
+    rows = []
+    for k in keyorder:
+        if k in data:
+            rows.append(f"| {k} | {cell(k,'L1')} | {cell(k,'L2')} | {cell(k,'L3')} |")
+    return rows
+
+b.append("## B.5 Encadenamiento por eslabón por mineral (L1/L2/L3), cortes 2008/2013/2018\n")
+b.append("Cuadro {#cua:besl}: Índice de Ghosh hacia adelante (Rasmussen) por eslabón y mineral; cada celda muestra los cortes 2008 / 2013 / 2018. En los no metálicos, L2/L3 caen en clases agregadas no atribuibles al mineral. Fuente: cálculo propio (`mip_encadenamientos_eslabones.csv`).\n")
+b.append("| Mineral | L1 extracción (08/13/18) | L2 refinación (08/13/18) | L3 semimanufactura (08/13/18) |\n|---|---|---|---|")
+mesl = {"cobre":"Cobre","manganeso":"Manganeso","oro":"Oro","plata":"Plata","plomo-zinc":"Plomo-zinc",
+        "silice":"Sílice","grafito":"Grafito","fluorita":"Fluorita","barita":"Barita"}
+# reemplazo de nombres legibles
+brows5 = []
+for r in by_eslabon("mip_encadenamientos_eslabones.csv", "mineral", list(mesl.keys()), ["2008","2013","2018"]):
+    k = r.split("|")[1].strip()
+    brows5.append(r.replace(f"| {k} |", f"| {mesl.get(k,k)} |", 1))
+b.append("\n".join(brows5) + "\n")
+
+# B.6 — internacional por eslabón (multi-corte)
+b.append("## B.6 Encadenamiento por eslabón internacional (L1/L2/L3), cortes 2008/2013/2018/2020\n")
+b.append("Cuadro {#cua:beslintl}: Índice de Ghosh hacia adelante (Rasmussen, media país = 1) por eslabón de la cadena metálica y país; cada celda muestra los cortes 2008 / 2013 / 2018 / 2020. Fuente: cálculo propio con OECD ICIO 2023 (`icio_eslabones_metal.csv`).\n")
+b.append("| País | L1 extracción | L2 refinación | L3 semimanufactura |\n|---|---|---|---|")
+paisord = ["China","Mexico","Finlandia","Suecia","Brasil","Australia","Chile","Peru"]
+paisnom = {"Mexico":"México","Peru":"Perú"}
+brows6 = []
+for r in by_eslabon("icio_eslabones_metal.csv", "pais_nombre", paisord, ["2008","2013","2018","2020"]):
+    k = r.split("|")[1].strip()
+    brows6.append(r.replace(f"| {k} |", f"| {paisnom.get(k,k)} |", 1))
+b.append("\n".join(brows6) + "\n")
+
 open(os.path.join(MAN, "10-anexo-B.md"), "w", encoding="utf-8").write("\n".join(b))
 print("Anexo B ok")
 

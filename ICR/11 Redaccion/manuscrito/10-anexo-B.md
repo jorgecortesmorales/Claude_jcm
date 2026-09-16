@@ -112,3 +112,34 @@ Cuadro {#cua:benc}: Índices de Ghosh-Rasmussen (hacia adelante) y de Leontief-R
 | Barita | 1.29 | 0.76 | 0.64 | 0.96 | 0.96 | 0.96 |
 
 *Nota: plomo y zinc comparten la clase SCIAN 212232 en la MIP; sus encadenamientos se reportan de forma conjunta.*
+
+## B.5 Encadenamiento por eslabón por mineral (L1/L2/L3), cortes 2008/2013/2018
+
+Cuadro {#cua:besl}: Índice de Ghosh hacia adelante (Rasmussen) por eslabón y mineral; cada celda muestra los cortes 2008 / 2013 / 2018. En los no metálicos, L2/L3 caen en clases agregadas no atribuibles al mineral. Fuente: cálculo propio (`mip_encadenamientos_eslabones.csv`).
+
+| Mineral | L1 extracción (08/13/18) | L2 refinación (08/13/18) | L3 semimanufactura (08/13/18) |
+|---|---|---|---|
+| Cobre | 1.63 / 1.18 / 1.34 | 1.36 / 1.19 / 1.37 | 1.10 / 1.22 / 0.95 |
+| Manganeso | 1.00 / 1.79 / 1.54 | 1.27 / 1.65 / 1.34 | — / — / — |
+| Oro | 1.48 / 1.35 / 1.22 | 0.65 / 0.66 / 0.62 | 1.11 / 1.31 / 1.02 |
+| Plata | 0.80 / 1.30 / 1.17 | 0.65 / 0.66 / 0.62 | 1.11 / 1.31 / 1.02 |
+| Plomo-zinc | 1.35 / 0.72 / 0.71 | 0.80 / 0.67 / 0.63 | 1.11 / 1.31 / 1.02 |
+| Sílice | 1.60 / 1.80 / 1.92 | 1.34 / 1.34 / 1.44 | 1.11 / 1.23 / 1.34 |
+| Grafito | 1.68 / 1.24 / 1.71 | 1.34 / 1.34 / 1.44 | 1.18 / 1.62 / 1.24 |
+| Fluorita | 1.11 / 0.87 / 1.31 | 1.34 / 1.34 / 1.44 | 1.40 / 1.13 / 1.31 |
+| Barita | 1.29 / 0.76 / 0.64 | 1.34 / 1.34 / 1.44 | — / — / — |
+
+## B.6 Encadenamiento por eslabón internacional (L1/L2/L3), cortes 2008/2013/2018/2020
+
+Cuadro {#cua:beslintl}: Índice de Ghosh hacia adelante (Rasmussen, media país = 1) por eslabón de la cadena metálica y país; cada celda muestra los cortes 2008 / 2013 / 2018 / 2020. Fuente: cálculo propio con OECD ICIO 2023 (`icio_eslabones_metal.csv`).
+
+| País | L1 extracción | L2 refinación | L3 semimanufactura |
+|---|---|---|---|
+| China | 1.56 / 1.56 / 1.53 / 1.53 | 1.28 / 1.28 / 1.30 / 1.31 | 1.08 / 1.06 / 1.02 / 1.01 |
+| México | 1.65 / 1.58 / 1.51 / 1.42 | 1.37 / 1.24 / 1.17 / 1.17 | 1.13 / 1.14 / 1.12 / 1.11 |
+| Finlandia | 1.41 / 1.41 / 1.31 / 1.23 | 0.91 / 0.98 / 1.06 / 1.02 | 1.17 / 1.12 / 1.14 / 1.17 |
+| Suecia | 1.26 / 1.26 / 1.27 / 1.35 | 0.99 / 1.03 / 1.08 / 1.08 | 1.03 / 1.07 / 1.06 / 1.06 |
+| Brasil | 0.97 / 0.90 / 0.99 / 0.77 | 1.10 / 1.21 / 1.19 / 1.14 | 1.15 / 1.15 / 1.24 / 1.23 |
+| Australia | 0.96 / 0.82 / 0.83 / 0.91 | 0.92 / 0.80 / 0.83 / 0.77 | 1.24 / 1.21 / 1.24 / 1.24 |
+| Chile | 0.89 / 0.85 / 0.73 / 0.79 | 1.18 / 1.32 / 1.23 / 1.23 | 1.11 / 1.07 / 1.12 / 1.16 |
+| Perú | 0.67 / 0.63 / 0.62 / 0.62 | 0.81 / 0.82 / 0.98 / 0.99 | 1.09 / 1.05 / 1.06 / 1.14 |

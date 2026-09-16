@@ -82,6 +82,21 @@ La comparación gana precisión al calcular el encadenamiento no solo para la ex
 
 ![Ilustración {#fig:eslintl}: Encadenamiento hacia adelante por eslabón de la cadena metálica (extracción, refinación, semimanufactura), China, México y Chile, 2018. Fuente: cálculo propio con OECD ICIO 2023.](figuras/vii5_eslabones_intl.png){width=90%}
 
+El Cuadro {{cua:eslintl}} extiende el ejercicio a los ocho países. La lectura por eslabón separa dos trayectorias: las economías integradas (China y los nórdicos) parten de un arrastre extractivo alto que se sostiene en la refinación, mientras que los exportadores de mineral (Chile, Perú, Australia, Brasil) parten de un arrastre extractivo bajo y solo lo recuperan aguas abajo —donde su escasa fundición sí alimenta industria—. México ocupa una posición intermedia y reveladora: su arrastre extractivo es de los más altos (1.51), pero cae en la refinación (1.17) más de lo que cae en China (1.30), señal de que su alto arrastre en la mina no se prolonga con la misma fuerza a la transformación.
+
+Cuadro {#cua:eslintl}: Índice de Ghosh hacia adelante por eslabón de la cadena metálica (extracción, refinación C24, semimanufactura C25), ocho países, 2018 (Rasmussen, media país = 1). C24/C25 son toda la industria metálica, no solo los diez minerales. Fuente: cálculo propio con OECD ICIO 2023 (`icio_eslabones_metal.csv`).
+
+| País | L1 extracción | L2 refinación | L3 semimanufactura |
+|---|---:|---:|---:|
+| China | 1.53 | 1.30 | 1.02 |
+| México | 1.51 | 1.17 | 1.12 |
+| Finlandia | 1.31 | 1.06 | 1.14 |
+| Suecia | 1.27 | 1.08 | 1.06 |
+| Brasil | 0.99 | 1.19 | 1.24 |
+| Australia | 0.83 | 0.83 | 1.24 |
+| Chile | 0.73 | 1.23 | 1.12 |
+| Perú | 0.62 | 0.98 | 1.06 |
+
 ## VII.7 Criticidad y dependencia: el eslabón estratégico se importa
 
 La comparación se agudiza al recordar que las listas oficiales de criticidad no señalan minerales genéricos, sino productos y grados específicos (Capítulo II): la Unión Europea (Critical Raw Materials Act, 2023) designa estratégicos el silicio metálico, el grafito natural grado batería y el manganeso grado batería, y el USGS (2025) añadió el silicio, el cobre, el plomo y la plata a su lista. Cruzando esa criticidad producto por producto con lo que México efectivamente produce, aparece un patrón nítido (Cuadro {{cua:crit}}): en los minerales cuyo eslabón de mayor criticidad es de grado batería o electrónico, México extrae y exporta el crudo de baja criticidad e importa —o no accede a— el producto estratégico.
