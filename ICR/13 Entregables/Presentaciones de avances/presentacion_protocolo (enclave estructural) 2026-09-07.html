@@ -1,0 +1,576 @@
+<title>Protocolo — Minerales críticos</title>
+<meta name="description" content="Presentación del protocolo de investigación (ICR): planteamiento, preguntas, objetivos, hipótesis, método y los ajustes metodológicos entre lo planteado y lo ejecutado.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,800;1,400&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --stage:#0e0b07; --panel:#171009; --panel2:#1e150c; --ink:#efe8dc; --soft:#cabfac;
+  --mut:#8a8175; --faint:#6f665a; --hair:#392f22; --hair2:#4a3d2c;
+  --cop:#c85a1a; --cop-lt:#e07a3e; --amber:#c99a3a; --teal:#3d8aa8; --red:#a8482f;
+  --ok:#6f9a4e;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--stage);font-family:'IBM Plex Sans',system-ui,sans-serif;color:var(--ink)}
+#deck{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.stage{position:relative;width:1280px;height:720px;flex:none;transform-origin:center center;
+  box-shadow:0 24px 70px rgba(0,0,0,.55);border-radius:7px;overflow:hidden;background:var(--stage)}
+.slide{position:absolute;inset:0;display:none}
+.slide.on{display:block}
+.s{position:absolute;inset:0;padding:64px 74px;display:flex;flex-direction:column}
+/* type */
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:14px;letter-spacing:.16em;text-transform:uppercase;color:var(--cop-lt);margin:0 0 14px}
+h1.title{font-family:'Spectral',Georgia,serif;font-weight:800;font-size:52px;line-height:1.04;letter-spacing:-.01em;margin:0;text-wrap:balance}
+h2.head{font-family:'Spectral',Georgia,serif;font-weight:700;font-size:38px;line-height:1.06;letter-spacing:-.01em;margin:0 0 8px;text-wrap:balance}
+.lead{font-size:20px;line-height:1.5;color:var(--soft);max-width:66ch}
+.body{font-size:18px;line-height:1.55;color:var(--soft)}
+.small{font-size:15px;line-height:1.5;color:var(--mut)}
+.cite{font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:var(--mut);font-style:normal}
+.refcols{display:grid;grid-template-columns:1fr 1fr;gap:14px 30px;margin-top:14px}
+.refgrp .rt{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--cop);letter-spacing:.04em;margin:0 0 4px;text-transform:uppercase}
+.refgrp ul{margin:0 0 10px;padding-left:0;list-style:none}
+.refgrp li{font-size:11.5px;line-height:1.38;color:var(--soft);margin:0 0 4px;padding-left:14px;text-indent:-14px}
+.refgrp .rt{margin:0 0 3px}
+.mono{font-family:'IBM Plex Mono',monospace}
+.hl{color:var(--ink);font-weight:600}
+.cop{color:var(--cop-lt)}
+b{color:var(--ink);font-weight:600}
+/* rule */
+.rule{height:2px;background:linear-gradient(90deg,var(--cop),transparent);border:0;margin:16px 0 22px;width:150px}
+/* footer */
+.foot{position:absolute;left:74px;right:74px;bottom:30px;display:flex;justify-content:space-between;
+  font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--faint);letter-spacing:.04em}
+/* cover */
+.cover{background:radial-gradient(120% 90% at 82% 12%,#2a1a0c 0%,#140d07 55%,#0c0805 100%)}
+.cover .kicker{font-family:'IBM Plex Mono',monospace;font-size:15px;letter-spacing:.2em;text-transform:uppercase;color:var(--cop-lt)}
+.cover h1{font-family:'Spectral',serif;font-weight:800;font-size:60px;line-height:1.02;letter-spacing:-.015em;margin:20px 0 0;max-width:20ch}
+.cover .sub{font-family:'Spectral',serif;font-style:italic;font-weight:400;font-size:25px;color:var(--soft);margin:20px 0 0;max-width:40ch}
+.meta{display:flex;gap:46px;margin-top:auto;flex-wrap:wrap}
+.meta .k{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin-bottom:5px}
+.meta .v{font-size:17px;color:var(--ink)}
+/* lists */
+ul.clean{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:13px}
+ul.clean li{position:relative;padding-left:26px;font-size:18px;line-height:1.45;color:var(--soft)}
+ul.clean li::before{content:"";position:absolute;left:2px;top:10px;width:8px;height:8px;background:var(--cop);border-radius:1px}
+/* numbered q/o/h */
+.stack{display:flex;flex-direction:column;gap:14px;margin-top:6px}
+.item{display:grid;grid-template-columns:44px 1fr;gap:16px;align-items:start}
+.item .tag{font-family:'IBM Plex Mono',monospace;font-size:15px;color:var(--cop-lt);font-weight:500;padding-top:3px;
+  border-top:2px solid var(--hair2)}
+.item .txt{font-size:18px;line-height:1.46;color:var(--soft)}
+.item .txt b{color:var(--ink)}
+.central{background:var(--panel);border:1px solid var(--hair2);border-left:3px solid var(--cop);border-radius:8px;
+  padding:20px 24px;margin-bottom:4px}
+.central .lbl{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--cop-lt);margin-bottom:8px}
+.central p{margin:0;font-family:'Spectral',serif;font-size:23px;line-height:1.34;color:var(--ink)}
+/* two-column grids */
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:4px}
+.cols3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px;margin-top:4px}
+.pnl{background:var(--panel);border:1px solid var(--hair);border-radius:9px;padding:20px 22px}
+.pnl h3{font-family:'Spectral',serif;font-weight:600;font-size:21px;margin:0 0 10px;color:var(--ink)}
+.pnl p,.pnl li{font-size:16px;line-height:1.46;color:var(--soft)}
+.pnl .tag{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:6px}
+/* comparison antes/ahora */
+.cmp{display:grid;grid-template-columns:1fr 54px 1fr;gap:0;align-items:stretch;margin-top:8px}
+.cmp .side{border-radius:10px;padding:22px 24px}
+.cmp .was{background:#161009;border:1px dashed var(--hair2)}
+.cmp .now{background:linear-gradient(180deg,#241705,#1a1108);border:1px solid var(--cop)}
+.cmp .arrow{display:flex;align-items:center;justify-content:center;color:var(--cop-lt);font-size:30px}
+.cmp .tag{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:12px}
+.cmp .was .tag{color:var(--mut)}
+.cmp .now .tag{color:var(--cop-lt)}
+.cmp h3{font-family:'Spectral',serif;font-weight:600;font-size:20px;margin:0 0 10px;line-height:1.2}
+.cmp .was h3{color:var(--soft)}
+.cmp .now h3{color:var(--ink)}
+.cmp ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px}
+.cmp li{font-size:15.5px;line-height:1.4;color:var(--soft);padding-left:16px;position:relative}
+.cmp li::before{content:"–";position:absolute;left:0;color:var(--faint)}
+.why{margin-top:18px;background:var(--panel2);border-left:3px solid var(--amber);border-radius:0 8px 8px 0;padding:14px 20px}
+.why .lbl{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);margin-bottom:5px}
+.why p{margin:0;font-size:16px;line-height:1.5;color:var(--soft)}
+.why p b{color:var(--ink)}
+/* section divider */
+.divider{background:radial-gradient(120% 100% at 20% 30%,#26170a,#0d0805)}
+.divider .s{justify-content:center}
+.divider .num{font-family:'IBM Plex Mono',monospace;font-size:15px;letter-spacing:.2em;color:var(--cop-lt);text-transform:uppercase}
+.divider h1{font-family:'Spectral',serif;font-weight:800;font-size:56px;line-height:1.03;margin:16px 0 0;max-width:24ch;letter-spacing:-.01em}
+.divider .lead{margin-top:20px;font-size:20px}
+/* table */
+table{border-collapse:collapse;width:100%;margin-top:6px;font-size:16px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--hair)}
+th{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);font-weight:500}
+td{color:var(--soft)}
+td b{color:var(--ink)}
+.mono-td{font-variant-numeric:tabular-nums;font-family:'IBM Plex Mono',monospace;font-size:15px}
+.chip{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:12px;padding:2px 9px;border-radius:20px;letter-spacing:.03em}
+.chip.ok{background:rgba(111,154,78,.16);color:#a7c583;border:1px solid rgba(111,154,78,.4)}
+.chip.warn{background:rgba(201,154,58,.14);color:var(--amber);border:1px solid rgba(201,154,58,.4)}
+.chip.no{background:rgba(168,72,47,.14);color:#d08a76;border:1px solid rgba(168,72,47,.4)}
+/* cronograma */
+.gantt{width:100%;border-collapse:collapse;margin-top:6px;font-size:13.5px}
+.gantt td,.gantt th{padding:5px 4px;border:0}
+.gantt th{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--faint);text-align:center;font-weight:500}
+.gantt td.act{text-align:left;color:var(--soft);font-size:14px;width:340px;padding-right:14px}
+.gantt .cell{width:100%;height:16px;border-radius:3px;background:transparent}
+.gantt .on{background:var(--cop)}
+.gantt .st{background:var(--hair2)}
+.gantt .opt{background:repeating-linear-gradient(45deg,var(--hair2),var(--hair2) 3px,transparent 3px,transparent 6px)}
+/* diagram marco */
+.flow{display:grid;grid-template-columns:1fr 60px 1fr;align-items:center;margin-top:12px;gap:0}
+.flow .box{background:var(--panel);border:1px solid var(--hair2);border-radius:10px;padding:20px 22px}
+.flow .box.accent{border-color:var(--cop);background:linear-gradient(180deg,#241705,#180f08)}
+.flow .box .t{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut);margin-bottom:8px}
+.flow .box.accent .t{color:var(--cop-lt)}
+.flow .box h3{font-family:'Spectral',serif;font-size:20px;margin:0 0 6px;color:var(--ink)}
+.flow .box p{font-size:15px;line-height:1.42;color:var(--soft);margin:0}
+.flow .ar{text-align:center;color:var(--cop-lt);font-size:13px;font-family:'IBM Plex Mono',monospace;line-height:1.3}
+.grow{flex:1}
+.two{display:grid;grid-template-columns:1.05fr .95fr;gap:34px;flex:1;align-items:start}
+/* controls */
+#bar{position:fixed;left:0;right:0;bottom:0;height:50px;display:flex;align-items:center;gap:14px;padding:0 20px;
+  background:linear-gradient(0deg,rgba(10,8,5,.94),rgba(10,8,5,0));color:#c8bfae;font-family:'IBM Plex Mono',monospace;font-size:13px;z-index:10}
+#bar button{background:#1e1810;color:#efe8dc;border:1px solid #3a3126;border-radius:7px;width:34px;height:32px;font-size:16px;cursor:pointer}
+#bar button:hover{border-color:var(--cop-lt)}
+#bar .count{min-width:70px;text-align:center}
+#bar .ttl{color:#9a9182;max-width:340px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#bar .sp{margin-left:auto}
+#bar .hint{color:#6f665a}
+.dots{display:flex;gap:6px;flex-wrap:wrap;max-width:420px}
+.dots i{width:8px;height:8px;border-radius:50%;background:#3a3126;cursor:pointer;display:block}
+.dots i.on{background:var(--cop-lt)}
+@media print{
+  @page{size:13.333in 7.5in;margin:0}
+  html,body{background:#fff;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  #deck{position:static;display:block;overflow:visible;height:auto}
+  #bar{display:none}
+  .stage{box-shadow:none;border-radius:0;transform:none !important;width:13.333in;height:auto;overflow:visible;display:block}
+  .slide{display:block !important;position:relative;inset:auto;width:13.333in;height:7.5in;overflow:hidden;page-break-before:always;break-before:page;page-break-inside:avoid}
+  .slide:first-child{page-break-before:auto;break-before:auto}
+}
+</style>
+
+<div id="deck"><div class="stage" id="stage">
+
+<!-- 1 PORTADA -->
+<section class="slide"><div class="s cover">
+  <div class="kicker">Protocolo de investigación · ICR · Maestría en Economía</div>
+  <h1>Extracción de minerales críticos y encadenamiento productivo en México, 1992–2025</h1>
+  <p class="sub">Caracterización de la estructura extractiva, de las cadenas de valor y de la inserción de México en las cadenas de valor globales.</p>
+  <div class="meta">
+    <div><div class="k">Alumno</div><div class="v">Jorge Cortés Morales</div></div>
+    <div><div class="k">Campo</div><div class="v">Empresas, Finanzas e Innovación (EFI)</div></div>
+    <div><div class="k">Asesor</div><div class="v">Dr. Jordy Micheli Thirion</div></div>
+    <div><div class="k">Enfoque</div><div class="v">Descriptivo · métodos mixtos</div></div>
+  </div>
+</div></section>
+
+<!-- 2 PLANTEAMIENTO -->
+<section class="slide"><div class="s">
+  <p class="eyebrow">1 · Planteamiento del problema</p>
+  <h2 class="head">Un modelo extractivo configurado hace tres décadas</h2>
+  <hr class="rule">
+  <div class="two">
+    <ul class="clean">
+      <li>Entre <b>1988 y 1994</b> se desincorporaron ~6.6 millones de hectáreas de reservas y se privatizaron las paraestatales (Cananea, 1990; Autlán, 1993).</li>
+      <li>La pieza central del giro fue la <b>Ley Minera de 1992</b>: estableció concesiones de hasta <b>50 años renovables</b>, <b>sin condicionar</b> la generación de valor agregado nacional. Configuró de forma durable la estructura actual <span class="cite">(Sariego, 2009; Delgado Wise y Del Pozo, 2001)</span>.</li>
+      <li>Resultado tres décadas después: México es <b>1.er productor mundial de plata</b> (≈24.7%) y actor central en varios minerales, con propiedad <b>mayoritariamente nacional</b>, pero importa los bienes de alta tecnología que usan esos minerales.</li>
+      <li>La <b>reforma a la Ley Minera de 2023</b> ajustó el marco (SGM en exploración; concesiones 50→30 años) — contexto reciente <span class="cite">(Minería en Línea, 2026)</span>.</li>
+    </ul>
+    <div class="pnl">
+      <div class="tag cop">Problema factual → de investigación</div>
+      <p class="body" style="font-size:17px">El <b>hecho</b>: México extrae y exporta minerales en formas de bajo procesamiento. El <b>problema de investigación</b> no es explicar por qué, sino <b>describir con rigor</b> cómo son esos mercados y en qué eslabón de la cadena participa el país — una descripción que hoy no existe de forma sistemática y desagregada por mineral.</p>
+    </div>
+  </div>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Planteamiento</span></div>
+</div></section>
+
+<!-- 3 JUSTIFICACION -->
+<section class="slide"><div class="s">
+  <p class="eyebrow">1 · Justificación y relevancia</p>
+  <h2 class="head">Tres literaturas que no se cruzan</h2>
+  <hr class="rule">
+  <div class="cols3">
+    <div class="pnl"><div class="tag" style="color:var(--teal)">Economía política de la privatización</div><p>Estudia la liberalización y privatización de 1988-1993 y la concentración empresarial, pero <b>no mide</b> la cadena de valor. <span class="cite">Sariego (2009); Delgado Wise y Del Pozo (2001).</span></p></div>
+    <div class="pnl"><div class="tag" style="color:var(--amber)">Estudios ambientales y sociales</div><p>Analizan el <b>impacto territorial</b> de la gran minería y el modelo primario-exportador, con poca medición económica desagregada. <span class="cite">Azamar y Ponce (2014).</span></p></div>
+    <div class="pnl"><div class="tag cop">Macroeconómicos (PIB / exportaciones)</div><p>Cuantifican el <b>aporte del sector</b> al PIB y las exportaciones, sin llegar a la estructura por mineral. <span class="cite">Aliphat Rodríguez et al. (2025).</span></p></div>
+  </div>
+  <p class="body" style="margin-top:20px;max-width:82ch">Tres líneas que <b>no se intersectan</b>. El aporte de la tesis es su <b>base empírica</b>: construir el acervo de datos e indicadores —hoy inexistente de forma sistemática y por mineral— y usarlo para describir los mercados. Ancla teórica: la <b>tradición estructuralista latinoamericana</b> —<span class="cite">Prebisch (1950), tesis Prebisch-Singer</span>— sobre el deterioro secular de los términos de intercambio del exportador primario. Responde al campo <b>EFI</b>.</p>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Justificación</span></div>
+</div></section>
+
+<!-- 4 PREGUNTAS -->
+<section class="slide"><div class="s">
+  <p class="eyebrow">2 · Preguntas de investigación</p>
+  <div class="central">
+    <div class="lbl">Pregunta central</div>
+    <p>¿Cómo son los mercados de los diez minerales críticos en México —en su estructura extractiva y en su articulación con la industria de transformación— y cómo se inserta el país en sus cadenas de valor globales?</p>
+  </div>
+  <div class="stack">
+    <div class="item"><div class="tag">P1</div><div class="txt">¿Cuál es la <b>estructura del mercado extractivo</b> de cada mineral (actores y concentración, medida con el HHI) y su grado de <b>encadenamiento hacia adelante</b>?</div></div>
+    <div class="item"><div class="tag">P2</div><div class="txt">¿Cómo son las <b>cadenas de valor locales</b> y existen empresas cuyos procesos usen estos minerales como insumo?</div></div>
+    <div class="item"><div class="tag">P3</div><div class="txt">¿Cómo y con qué magnitud se <b>inserta México en las cadenas de valor globales</b> de estos minerales?</div></div>
+  </div>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Preguntas</span></div>
+</div></section>
+
+<!-- 5 OBJETIVOS -->
+<section class="slide"><div class="s">
+  <p class="eyebrow">3 · Objetivos</p>
+  <div class="central">
+    <div class="lbl">Objetivo general</div>
+    <p>Caracterizar los mercados y las cadenas de valor —locales y globales— de los minerales críticos en México, en sus eslabones extractivo e industrial.</p>
+  </div>
+  <div class="stack">
+    <div class="item"><div class="tag">O1</div><div class="txt">Describir la <b>estructura extractiva</b> por mineral (actores, HHI) y su <b>encadenamiento hacia adelante</b> (Leontief, Ghosh, captura de valor).</div></div>
+    <div class="item"><div class="tag">O2</div><div class="txt">Mapear las <b>cadenas de valor locales</b> e identificar la industria de transformación doméstica que usa estos minerales.</div></div>
+    <div class="item"><div class="tag">O3</div><div class="txt">Situar a México en las <b>cadenas de valor globales</b> —eslabón de participación y magnitud— con datos de comercio y valor unitario por etapa.</div></div>
+  </div>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Objetivos</span></div>
+</div></section>
+
+<!-- 6 HIPOTESIS -->
+<section class="slide"><div class="s">
+  <p class="eyebrow">4 · Hipótesis de trabajo</p>
+  <div class="central">
+    <div class="lbl">Hipótesis general</div>
+    <p>Los mercados de los minerales críticos en México presentan una estructura extractiva concentrada y una débil articulación con la industria de transformación doméstica: el rasgo de <span class="cop">enclave estructural</span>.</p>
+  </div>
+  <div class="stack">
+    <div class="item"><div class="tag">H1</div><div class="txt">A mayor <b>concentración</b> en la extracción tiende a coincidir un <b>menor encadenamiento hacia adelante</b> (co-ocurrencia descriptiva, no relación causal).</div></div>
+    <div class="item"><div class="tag">H2</div><div class="txt">En varios minerales la <b>transformación doméstica es incipiente o inexistente</b>: se exporta en bruto y el bien procesado se importa.</div></div>
+    <div class="item"><div class="tag">H3</div><div class="txt">México se inserta en las CVG en los <b>eslabones primarios</b> (extracción y concentrado), con escasa captura de valor.</div></div>
+  </div>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Hipótesis</span></div>
+</div></section>
+
+<!-- 7 MARCO -->
+<section class="slide"><div class="s">
+  <p class="eyebrow">Marco teórico · concepto ordenador</p>
+  <h2 class="head">Del enclave clásico al <span class="cop">enclave estructural</span></h2>
+  <hr class="rule">
+  <div class="flow">
+    <div class="box">
+      <div class="t">Enclave clásico (referencia)</div>
+      <h3>Cardoso y Faletto (1969)</h3>
+      <p>Enclave definido por la <b>propiedad extranjera</b> del capital: la renta sale del país con la empresa.</p>
+    </div>
+    <div class="ar">se llega<br>por<br>contraste →</div>
+    <div class="box accent">
+      <div class="t">Concepto ordenador</div>
+      <h3>Enclave estructural</h3>
+      <p>Capital <b>mayoritariamente nacional</b>, pero <b>desconectado aguas abajo</b>: se extrae y exporta en bruto sin cadena industrial local. Respaldo: neo-extractivismo <span class="cite">(Svampa, 2013)</span>.</p>
+    </div>
+  </div>
+  <p class="body" style="margin-top:18px;max-width:88ch">El giro clave: el problema no es <em>de quién es</em> la mina, sino <b>dónde se detiene la cadena</b>. Raíz estructuralista <span class="cite">(Prebisch, 1950)</span>; se opera con las herramientas de la economía industrial, la integración vertical y las cadenas de valor <span class="cite">(Mason 1939; Bain 1956; Williamson 1985; North 1990; Gereffi 1994)</span>. HHI, Ghosh y CCV son los <b>descriptores</b> que hacen medible esa desconexión.</p>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Marco teórico</span></div>
+</div></section>
+
+<!-- 8 ENFOQUE / HORIZONTE -->
+<section class="slide"><div class="s">
+  <p class="eyebrow">5 · Abordaje metodológico</p>
+  <h2 class="head">Enfoque descriptivo y horizonte temporal</h2>
+  <hr class="rule">
+  <div class="cols">
+    <div class="pnl">
+      <div class="tag cop">Enfoque y unidad</div>
+      <p class="body" style="font-size:17px"><b>Descriptivo</b> y de <b>métodos mixtos</b> (cuantitativo documental + cualitativo). Unidad de observación: el <b>mineral-año</b>. Diez minerales fijos: barita, cobre, fluorita, grafito, manganeso, oro, plata, plomo, sílice, zinc.</p>
+    </div>
+    <div class="pnl">
+      <div class="tag cop">Horizonte: 1992–2025</div>
+      <p class="body" style="font-size:17px"><b>1992</b> = Ley Minera que configuró el modelo actual; <b>2025</b> = cierre de la información. El <b>detalle temporal depende de la fuente</b>: unos indicadores son series anuales continuas; otros, cortes puntuales de la Matriz Insumo-Producto.</p>
+    </div>
+  </div>
+  <p class="small" style="margin-top:18px">Congruente con EFI: economía industrial (Mason, Bain), integración vertical (Williamson; Klein-Crawford-Alchian), institucional (North) y cadenas de valor globales (Gereffi; Kaplinsky-Morris).</p>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Método · enfoque</span></div>
+</div></section>
+
+<!-- 9 FUENTES -->
+<section class="slide"><div class="s">
+  <p class="eyebrow">5 · Fuentes de información</p>
+  <h2 class="head">De dónde salen los datos</h2>
+  <hr class="rule">
+  <div class="cols">
+    <ul class="clean">
+      <li><b>MIP INEGI</b> (cortes disponibles) → Leontief y Ghosh.</li>
+      <li><b>UN Comtrade</b> (HS 6 díg.) → exportación/importación por etapa y valor unitario.</li>
+      <li><b>USGS</b> Minerals Yearbook (estructura) y Mineral Commodity Summaries (precios 1992-2025).</li>
+      <li><b>CAMIMEX</b> y Servicio Geológico Mexicano → estructura empresarial y HHI.</li>
+    </ul>
+    <ul class="clean">
+      <li><b>Reportes corporativos</b> (informes anuales, earnings calls) → dónde procesan y refinan.</li>
+      <li><b>Ley Minera 1992 / reforma 2023</b>, CAMIMEX, SE → marco institucional.</li>
+      <li><b>OECD ICIO</b> → comparación internacional de la minería y valor agregado (enclave en dinero).</li>
+      <li><b>Entrevistas semiestructuradas</b> → complemento cualitativo (opcional).</li>
+    </ul>
+  </div>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Método · fuentes</span></div>
+</div></section>
+
+<!-- 10 TECNICAS -->
+<section class="slide"><div class="s">
+  <p class="eyebrow">5 · Técnicas de análisis</p>
+  <h2 class="head">Cuatro descriptores, un objeto</h2>
+  <hr class="rule">
+  <div class="cols">
+    <div class="pnl"><div class="tag cop">O1 · concentración</div><h3>HHI</h3><p>Índice de Herfindahl-Hirschman por mineral-año: ¿pocos o muchos actores en la extracción?</p></div>
+    <div class="pnl"><div class="tag cop">O1 · encadenamiento</div><h3>Leontief · Ghosh · CCV</h3><p>Desde la MIP: empuje hacia adelante y hacia atrás; y la captura de valor en la exportación.</p></div>
+    <div class="pnl"><div class="tag cop">O2 · cadena local</div><h3>Demanda intermedia</h3><p>¿Qué sectores compran cada mineral como insumo dentro del país? ¿Existe industria usuaria?</p></div>
+    <div class="pnl"><div class="tag cop">O3 · inserción global</div><h3>Comercio por etapa</h3><p>Participación por etapa (mena→bien final), dependencia de procesado importado y análisis espejo.</p></div>
+  </div>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Método · técnicas</span></div>
+</div></section>
+
+<!-- 11 DIVIDER AJUSTES -->
+<section class="slide divider"><div class="s">
+  <div class="num">Del protocolo a la práctica</div>
+  <h1>Ajustes metodológicos:<br>lo planteado y lo ejecutado</h1>
+  <p class="lead">Al ejecutar el trabajo, algunas decisiones del protocolo se ajustaron a lo que los datos hicieron posible. Aquí, cada cambio con su justificación.</p>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Ajustes metodológicos</span></div>
+</div></section>
+
+<!-- 12 AJUSTE 1 diseño -->
+<section class="slide"><div class="s">
+  <p class="eyebrow">Ajuste 1 · el giro de fondo</p>
+  <h2 class="head">De un diseño causal a uno descriptivo</h2>
+  <div class="cmp">
+    <div class="side was">
+      <div class="tag">Como se planteaba</div>
+      <h3>Modelo causal de panel</h3>
+      <ul>
+        <li>Panel mineral-año: la concentración (HHI) <b>explica</b> el encadenamiento (Ghosh).</li>
+        <li>Event study de la reforma de 2023.</li>
+        <li>El aporte sería la estimación econométrica.</li>
+      </ul>
+    </div>
+    <div class="arrow">→</div>
+    <div class="side now">
+      <div class="tag">Como lo abordamos</div>
+      <h3>Descripción de cadenas de valor</h3>
+      <ul>
+        <li>Describir los diez mercados y la posición de México en la cadena.</li>
+        <li>HHI, Ghosh y CCV como <b>descriptores</b>, no variables de un modelo.</li>
+        <li>El aporte es la <b>construcción de datos e indicadores</b> por mineral.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="why"><div class="lbl">Por qué</div><p>Giro acordado <b>con el asesor (23-jul-2026)</b> y afinado en el análisis de consistencia (PIJCM, 31-jul): no hay base para una identificación causal creíble con tan pocos cortes de MIP, y la contribución realmente novedosa —y ausente en la literatura— es <b>medir y describir</b> la desconexión por mineral. La econometría queda abierta para investigación futura.</p></div>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Ajuste 1 / 4</span></div>
+</div></section>
+
+<!-- 13 AJUSTE 2 MIP -->
+<section class="slide"><div class="s">
+  <p class="eyebrow">Ajuste 2 · cortes de la Matriz Insumo-Producto</p>
+  <h2 class="head">Qué años de MIP se pueden usar por mineral</h2>
+  <div class="cmp">
+    <div class="side was">
+      <div class="tag">Como se planteaba</div>
+      <h3>MIP 2003, 2008, 2012, 2018</h3>
+      <ul>
+        <li>Cuatro cortes, actualizables con el <b>método RAS</b> a 2020 y 2023.</li>
+        <li>Supuesto: todos bajan a nivel de mineral.</li>
+      </ul>
+    </div>
+    <div class="arrow">→</div>
+    <div class="side now">
+      <div class="tag">Como lo abordamos</div>
+      <h3>2013 y 2018 + 2008 de referencia</h3>
+      <ul>
+        <li><b>2013 y 2018</b>: serie comparable (datos abiertos, nivel Clase).</li>
+        <li><b>2008</b>: corte de <b>referencia</b> no encadenado (base 2008/SCIAN 2007), validado a precisión de máquina.</li>
+        <li><b>2003</b> (solo Sector) y <b>2012</b> (solo Rama) quedan fuera por mineral. RAS 2020/2023: opcional.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="why"><div class="lbl">Por qué</div><p>En datos abiertos solo 2013 y 2018 llegan a <b>Clase SCIAN</b> (el mineral); 2003 no desagrega y la actualización 2012 solo llega a Rama (minería agregada). La MIP 2008 sí baja a Clase, pero en <b>año base distinto</b>: se incorpora como punto de referencia con caveats, no como serie. Da profundidad <b>2008 → 2013 → 2018</b> sin mezclar cambio real con cambio de base.</p></div>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Ajuste 2 / 4</span></div>
+</div></section>
+
+<!-- 14 AJUSTE 3 CCV -->
+<section class="slide"><div class="s">
+  <p class="eyebrow">Ajuste 3 · continuidad temporal del encadenamiento</p>
+  <h2 class="head">El CCV como serie anual, no solo como corte</h2>
+  <div class="cmp">
+    <div class="side was">
+      <div class="tag">Como se planteaba</div>
+      <h3>Captura de valor desde la MIP</h3>
+      <ul>
+        <li>El coeficiente de captura de valor junto a Leontief/Ghosh.</li>
+        <li>Ligado a los cortes discretos de la MIP.</li>
+      </ul>
+    </div>
+    <div class="arrow">→</div>
+    <div class="side now">
+      <div class="tag">Como lo abordamos</div>
+      <h3>CCV anual 1992–2025</h3>
+      <ul>
+        <li>CCV = valor unitario de exportación en bruto ÷ precio de referencia.</li>
+        <li>Numerador de <b>Comtrade</b> (fracción E1), denominador de <b>USGS</b>.</li>
+        <li>Una observación por mineral y por año, toda la ventana.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="why"><div class="lbl">Por qué</div><p>El Ghosh es un retrato de <b>dos o tres años</b>; el periodo elegido es de <b>34 años</b>. El CCV construido con comercio y precios da la <b>continuidad anual</b> que la MIP no puede, y opera como segunda medida del encadenamiento hacia adelante. Es informativo en metales base (cobre ≈0.22 estable 33 años) y se declara no informativo en oro/plata (artefacto de ley).</p></div>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Ajuste 3 / 4</span></div>
+</div></section>
+
+<!-- 15 AJUSTE 4 cobertura HHI -->
+<section class="slide"><div class="s">
+  <p class="eyebrow">Ajuste 4 · cobertura real de las series</p>
+  <h2 class="head">Hasta dónde llega cada dato</h2>
+  <div class="cmp">
+    <div class="side was">
+      <div class="tag">Como se planteaba</div>
+      <h3>Series continuas 1992–2025</h3>
+      <ul>
+        <li>HHI y comercio como series anuales para toda la ventana.</li>
+      </ul>
+    </div>
+    <div class="arrow">→</div>
+    <div class="side now">
+      <div class="tag">Como lo abordamos</div>
+      <h3>Cobertura según el dato disponible</h3>
+      <ul>
+        <li><b>HHI 1994–2024</b>: 1994-2003 reconstruido por régimen (USGS MYB) para manganeso, fluorita, grafito y cobre.</li>
+        <li>1994-2020 <b>aproximado</b> (régimen), no comparable en nivel con 2021-2024 (detalle por mina).</li>
+        <li>Comercio por etapa: <b>1992–2024</b>. CCV cubre 1992-2025.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="why"><div class="lbl">Por qué</div><p>Es un <b>límite de fuente</b>, no una decisión de diseño: el detalle por empresa/mina para reconstruir el HHI solo existe con la estructura del USGS/CAMIMEX; 1994-2003 se recupera por régimen y con método homogéneo por mina desde 2021. Se declara el hueco 1992-1993 (privatización en curso) y el quiebre de método, y se lee el HHI como <b>indicador de régimen</b>, no de nivel exacto.</p></div>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Ajuste 4 / 4</span></div>
+</div></section>
+
+<!-- 16 COBERTURA TABLA -->
+<section class="slide"><div class="s">
+  <p class="eyebrow">Cobertura del periodo elegido (1992–2025)</p>
+  <h2 class="head">¿Están cubiertos los cálculos?</h2>
+  <hr class="rule">
+  <table>
+    <tr><th>Indicador</th><th>Cobertura</th><th>Estado</th><th>Nota</th></tr>
+    <tr><td><b>CCV</b> (captura de valor)</td><td class="mono-td">1992–2025</td><td><span class="chip ok">completo</span></td><td>Serie anual mineral-año.</td></tr>
+    <tr><td><b>Precios USGS</b></td><td class="mono-td">1990–2025</td><td><span class="chip ok">completo</span></td><td>Empalmados.</td></tr>
+    <tr><td><b>HHI</b> (concentración)</td><td class="mono-td">1994–2024</td><td><span class="chip ok">extendido</span></td><td>1994-2003 por régimen (USGS MYB); hueco 1992-1993.</td></tr>
+    <tr><td><b>Comercio por etapa</b></td><td class="mono-td">1992–2024</td><td><span class="chip ok">completo</span></td><td>Detalle HS por etapa de procesamiento.</td></tr>
+    <tr><td><b>Encadenamientos MIP</b> (Ghosh/Leontief)</td><td class="mono-td">2008 · 2013 · 2018</td><td><span class="chip ok">3 cortes</span></td><td>Fotos por naturaleza; 2008 = referencia.</td></tr>
+    <tr><td><b>Comparación internacional</b> (Ghosh sector)</td><td class="mono-td">2008 · 2013 · 2018</td><td><span class="chip ok">8 países · 3 cortes</span></td><td>OECD ICIO, mismos cortes que la MIP: MEX vs. Chile, Australia, Finlandia, Suecia, China, Brasil, Perú.</td></tr>
+    <tr><td><b>DVA / reprocesamiento</b></td><td class="mono-td">1995–2020</td><td><span class="chip ok">completo</span></td><td>Valor retenido vs. reprocesado afuera (enclave en dinero).</td></tr>
+  </table>
+  <p class="body" style="margin-top:18px;max-width:84ch"><b>Sí:</b> las series continuas cubren el periodo (CCV 1992-2025; HHI 1994-2024; comercio 1992-2024), los encadenamientos tienen tres cortes, y se añaden la comparación internacional y la descomposición de valor agregado. Abiertos/opcionales: RAS 2020/2023 y el encadenamiento por estado (matriz PIB estatal por sector de INEGI).</p>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Cobertura</span></div>
+</div></section>
+
+<!-- 17 CRONOGRAMA -->
+<section class="slide"><div class="s">
+  <p class="eyebrow">6 · Cronograma de actividades</p>
+  <h2 class="head">Doce meses (jul 2026 – jun 2027)</h2>
+  <hr class="rule">
+  <table class="gantt">
+    <tr><th class="act" style="text-align:left"></th><th>M1</th><th>M2</th><th>M3</th><th>M4</th><th>M5</th><th>M6</th><th>M7</th><th>M8</th><th>M9</th><th>M10</th><th>M11</th><th>M12</th></tr>
+    <tr><td class="act">Marco teórico y literatura</td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell st"></div></td><td colspan="8"></td></tr>
+    <tr><td class="act">Base de estructura / HHI</td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell st"></div></td><td colspan="8"></td></tr>
+    <tr><td class="act">Preparación MIP, comercio, precios</td><td></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell st"></div></td><td colspan="7"></td></tr>
+    <tr><td class="act">O1 · encadenamientos (Ghosh, CCV)</td><td colspan="2"></td><td><div class="cell st"></div></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell st"></div></td><td colspan="6"></td></tr>
+    <tr><td class="act">O2 · cadenas de valor locales</td><td colspan="3"></td><td><div class="cell st"></div></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell st"></div></td><td colspan="5"></td></tr>
+    <tr><td class="act">O3 · inserción en CVG</td><td colspan="4"></td><td><div class="cell st"></div></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell st"></div></td><td colspan="4"></td></tr>
+    <tr><td class="act">Contexto institucional (opcional)</td><td colspan="4"></td><td><div class="cell opt"></div></td><td><div class="cell opt"></div></td><td><div class="cell opt"></div></td><td><div class="cell opt"></div></td><td colspan="4"></td></tr>
+    <tr><td class="act">Síntesis y bases de política</td><td colspan="7"></td><td><div class="cell st"></div></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell st"></div></td><td></td></tr>
+    <tr><td class="act">Redacción de la ICR (continua)</td><td></td><td><div class="cell st"></div></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td></tr>
+    <tr><td class="act">Revisiones con el asesor · examen</td><td><div class="cell st"></div></td><td></td><td><div class="cell st"></div></td><td></td><td><div class="cell st"></div></td><td></td><td><div class="cell st"></div></td><td></td><td><div class="cell st"></div></td><td></td><td><div class="cell on"></div></td><td><div class="cell on"></div></td></tr>
+  </table>
+  <p class="small" style="margin-top:16px"><span class="mono" style="color:var(--cop-lt)">■</span> activa &nbsp;·&nbsp; <span class="mono" style="color:var(--hair2)">■</span> inicio/cierre &nbsp;·&nbsp; <span class="mono" style="color:var(--hair2)">▨</span> opcional. Avance real: datos completos; frente activo = O3, síntesis y redacción.</p>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Cronograma</span></div>
+</div></section>
+
+<!-- 18 CIERRE -->
+<section class="slide divider"><div class="s">
+  <div class="num">Contribución</div>
+  <h1>Datos e indicadores que no existían, por mineral</h1>
+  <p class="lead">El valor de la tesis no está en un modelo, sino en <b>construir y describir</b>: HHI por mineral-año (1994-2024), encadenamientos MIP en tres cortes, CCV como serie de 34 años, comercio por etapa, la comparación internacional —que reencuadra el “éxito”: el referente real es el <b>modelo nórdico</b>, no Chile ni Australia— y la descomposición de valor agregado que mide el enclave en dinero. Todo ordenado por un concepto —el <span class="cop">enclave estructural</span>— y con bases para pensar una política industrial.</p>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A · Dr. Jordy Micheli Thirion</span><span>Cierre</span></div>
+</div></section>
+
+<!-- 19 REFERENCIAS -->
+<section class="slide"><div class="s">
+  <p class="eyebrow">Referencias principales</p>
+  <h2 class="head">Referencias</h2>
+  <hr class="rule">
+  <div class="refcols">
+    <div class="refgrp">
+      <p class="rt">Teoría · enclave y estructuralismo</p>
+      <ul>
+        <li>Cardoso, F. H. y Faletto, E. (1969). <i>Dependencia y desarrollo en América Latina</i>. Siglo XXI. — enclave clásico.</li>
+        <li>Svampa, M. (2013). Consenso de los commodities. <i>Nueva Sociedad</i>, 244. — neo-extractivismo.</li>
+        <li>Prebisch, R. (1950). <i>The economic development of Latin America and its principal problems</i>. CEPAL.</li>
+        <li>Mason, E. S. (1939); Bain, J. S. (1956) — economía industrial y de la organización.</li>
+        <li>Williamson, O. E. (1985); Klein, Crawford y Alchian (1978) — integración vertical y costos de transacción.</li>
+        <li>North, D. C. (1990). <i>Institutions, institutional change and economic performance</i>. Cambridge U. Press.</li>
+        <li>Gereffi, G. (1994); Kaplinsky y Morris (2001) — cadenas de valor globales.</li>
+        <li>Antràs, P. y Chor, D. (2013). Organizing the global value chain. <i>Econometrica</i>, 81(6).</li>
+        <li>Sachs, J. D. y Warner, A. M. (1995). <i>Natural resource abundance and economic growth</i>. NBER WP 5398.</li>
+      </ul>
+      <p class="rt">Insumo-producto y método</p>
+      <ul>
+        <li>Leontief, W. (1941). <i>The structure of the American economy, 1919-1929</i>. Harvard U. Press.</li>
+        <li>Ghosh, A. (1958). Input-output approach in an allocation system. <i>Economica</i>, 25(97).</li>
+        <li>Hirschman, A. O. (1958). <i>The strategy of economic development</i>. Yale U. Press.</li>
+        <li>Rasmussen (1956); Oosterhaven (1988); Dietzenbacher (1997) — encadenamientos y modelo de oferta.</li>
+        <li>MacKinlay (1997); Beach y Pedersen (2013); Braun y Clarke (2006); Creswell y Clark (2017) — método.</li>
+      </ul>
+    </div>
+    <div class="refgrp">
+      <p class="rt">Minería en México y contexto</p>
+      <ul>
+        <li>Sariego, J. L. (2009). <i>El Estado y la minería mexicana</i>. CIESAS/FCE.</li>
+        <li>Delgado Wise, R. y Del Pozo, R. (2001). <i>Los procesos de privatización en México</i>. Plaza y Valdés.</li>
+        <li>Azamar, A. y Ponce, J. I. (2014). Extractivismo y desarrollo. <i>Problemas del Desarrollo</i>, 45(179).</li>
+        <li>De la Garza Pedraza et al. (2021). La política de concesiones a los grupos mineros. <i>Problemas del Desarrollo</i>.</li>
+        <li>Aliphat Rodríguez et al. (2025). <i>Relevancia del sector minero mexicano</i>. CIDE/CAMIMEX.</li>
+        <li>Micheli Thirion, J. y Cortés Morales, J. (2026). Minerales críticos en México. <i>Perspectivas Energéticas</i>, 22.</li>
+        <li>Cámara Minera de México (2024); Minería en Línea (2026).</li>
+      </ul>
+      <p class="rt">Datos e institucional</p>
+      <ul>
+        <li>U.S. Geological Survey (2025a, 2025b) — <i>Mineral Commodity Summaries</i>; lista de minerales críticos.</li>
+        <li>OECD (2021) — <i>Trade in Value Added (TiVA) / ICIO</i>. European Commission (2023) — materias primas críticas.</li>
+        <li><b>Avance:</b> OECD (2023) ICIO; SGM (2024) Anuario; Aroca (2018), Atienza et al. (2018), Weldegiorgis et al. (2024) — encadenamientos mineros comparados (Chile, Australia).</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot"><span>Cortés Morales · ICR · UAM-A</span><span>Referencias · bibliografía completa en 12 Referencias</span></div>
+</div></section>
+
+</div></div>
+
+<div id="bar">
+  <button id="prev" aria-label="Anterior">‹</button>
+  <span class="count" id="count">1 / 19</span>
+  <button id="next" aria-label="Siguiente">›</button>
+  <span class="ttl" id="ttl"></span>
+  <span class="sp"></span>
+  <span class="dots" id="dots"></span>
+  <button id="full" aria-label="Pantalla completa" style="width:auto;padding:0 12px">⛶</button>
+  <span class="hint">← →  ·  imprime para PDF</span>
+</div>
+<script>
+(function(){
+var slides=[].slice.call(document.querySelectorAll('.slide'));
+var titles=["Portada","Planteamiento","Justificación","Preguntas","Objetivos","Hipótesis","Marco · enclave estructural","Enfoque y horizonte","Fuentes","Técnicas","Ajustes metodológicos","Ajuste 1 · causal→descriptivo","Ajuste 2 · cortes MIP","Ajuste 3 · CCV serie","Ajuste 4 · cobertura","Cobertura del periodo","Cronograma","Contribución","Referencias"];
+var i=0, stage=document.getElementById('stage');
+var dots=document.getElementById('dots');
+slides.forEach(function(s,k){var d=document.createElement('i');d.addEventListener('click',function(){go(k);});dots.appendChild(d);});
+function fit(){var pad=64;var s=Math.min((innerWidth-pad)/1280,(innerHeight-pad)/720);stage.style.transform='scale('+s+')';}
+function go(k){i=Math.max(0,Math.min(slides.length-1,k));
+  slides.forEach(function(s,n){s.classList.toggle('on',n===i);});
+  dots.querySelectorAll('i').forEach(function(d,n){d.classList.toggle('on',n===i);});
+  document.getElementById('count').textContent=(i+1)+' / '+slides.length;
+  document.getElementById('ttl').textContent=titles[i];
+}
+addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){go(i+1);e.preventDefault();}else if(e.key==='ArrowLeft'||e.key==='PageUp'){go(i-1);e.preventDefault();}else if(e.key==='Home'){go(0);}else if(e.key==='End'){go(slides.length-1);}});
+document.getElementById('next').addEventListener('click',function(){go(i+1);});
+document.getElementById('prev').addEventListener('click',function(){go(i-1);});
+document.getElementById('full').addEventListener('click',function(){if(!document.fullscreenElement){(document.documentElement.requestFullscreen||function(){}).call(document.documentElement);}else{document.exitFullscreen();}});
+stage.addEventListener('click',function(e){if(e.clientX> innerWidth/2)go(i+1);else go(i-1);});
+addEventListener('resize',fit);fit();go(0);
+})();
+</script>

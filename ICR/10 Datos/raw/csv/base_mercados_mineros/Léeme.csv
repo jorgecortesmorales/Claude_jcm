@@ -1,0 +1,42 @@
+﻿"Base de datos: Mercados mineros en México, 1993-2025"
+"Acompaña al informe ""Conformación histórica de los mercados de extracción minera en México"""
+Elaborado a partir de fuentes públicas disponibles a junio de 2026.
+
+
+CÓMO ESTÁ ORGANIZADA ESTA BASE DE DATOS
+
+"Esta base usa un diseño ""largo"" (tidy data): en vez de una hoja distinta por mineral, la hoja principal"
+"(Datos_Mercado) tiene una fila por cada dato individual (una empresa, en un mineral, en un año, con una métrica"
+"y un valor). Esto te permite filtrar, ordenar o construir una tabla dinámica (PivotTable) cruzando cualquier"
+"combinación de columnas: por ejemplo, filtrar solo ""Cobre"" + ""Extracción"" para ver la evolución de Grupo México,"
+"o filtrar por ""Empresa = Industrias Peñoles"" para ver todos los minerales en los que aparece."
+
+HOJAS INCLUIDAS
+
+1. Léeme — esta hoja.
+"2. Datos_Mercado — hoja principal. Una fila = una observación (mineral, empresa, año, variable, valor, fuente)."
+   Úsala para tablas dinámicas o filtros. Cada fila tiene su propia referencia de fuente y URL cuando aplica.
+"3. Comercio_Exterior — exportaciones e importaciones por mineral: destino/origen, valor en USD, año, fuente."
+"4. Anexo_1990_2020 — estructura de mercado de cada mineral en cuatro cortes temporales (1990, 2000, 2010, 2020)."
+"5. Catalogo_Minerales — ficha resumen de cada uno de los 10 minerales (concentración, mineral líder, etc.)"
+6. Catalogo_Empresas — ficha resumen de las empresas que aparecen de forma recurrente en la base.
+"7. Fuentes — listado completo de fuentes usadas, con URL, organismo y tipo de fuente."
+
+CÓMO USAR LOS FILTROS Y TABLAS DINÁMICAS
+
+Todas las hojas de datos están formateadas como Tabla de Excel (con encabezados de filtro automáticos):
+haz clic en cualquier celda dentro de una tabla y usa las flechas en los encabezados para filtrar u ordenar.
+Para una tabla dinámica: selecciona toda la tabla de la hoja Datos_Mercado → pestaña Insertar → Tabla dinámica.
+Sugerencia de pivote útil: Filas = Mineral; Columnas = Empresa; Valores = Valor_Numerico; Filtro = Variable.
+
+CONVENCIONES Y ADVERTENCIAS METODOLÓGICAS
+
+- Las cifras de distintas filas pueden corresponder a años distintos y a metodologías distintas (toneladas de
+"  mineral crudo, contenido metálico, valor en pesos, etc.). La columna 'Unidad' siempre indica qué se está"
+  midiendo. No sumes ni promedies filas sin verificar que la unidad y el año sean comparables.
+"- La columna 'Año_dato' es el año al que corresponde la cifra, no el año de publicación de la fuente."
+"- La columna 'Confiabilidad' usa: Alta (cifra oficial verificable, ej. CAMIMEX/SGM/INEGI), Media (estimación de"
+"  prensa especializada o consultora), Estimación (cálculo aproximado señalado como tal en la fuente original)."
+- Cuando una celda dice 'n.d.' significa que la fuente no desagregó ese dato.
+"- Esta base no sustituye al informe completo en Word: las explicaciones cualitativas, el marco conceptual"
+  (capítulos 2 a 4) y las conclusiones por mineral están únicamente en el documento narrativo.

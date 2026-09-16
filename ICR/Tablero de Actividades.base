@@ -1,0 +1,67 @@
+filters: file.inFolder("00 Proyecto/Actividades")
+formulas:
+  estado_icon: if(estado == "hecho", "✅", if(estado == "en-curso", "🔵", if(estado == "bloqueada", "🔴", "⚪")))
+  prioridad_icon: if(prioridad == "alta", "🔥", if(prioridad == "media", "🟡", "🟢"))
+properties:
+  fase:
+    displayName: Fase
+  tipo:
+    displayName: Tipo
+  estado:
+    displayName: Estado
+  prioridad:
+    displayName: Prioridad
+  mes_objetivo:
+    displayName: Mes objetivo
+views:
+  - type: table
+    name: Por Fase
+    groupBy:
+      property: fase
+      direction: ASC
+    order:
+      - file.name
+      - formula.estado_icon
+      - tipo
+      - formula.prioridad_icon
+      - mes_objetivo
+    sort:
+      - property: mes_objetivo
+        direction: ASC
+  - type: cards
+    name: Tablero por Estado
+    groupBy:
+      property: estado
+      direction: ASC
+    order:
+      - file.name
+      - fase
+      - formula.prioridad_icon
+      - mes_objetivo
+  - type: table
+    name: Actividades Transversales
+    filters: tipo == "transversal"
+    order:
+      - file.name
+      - formula.estado_icon
+      - mes_objetivo
+  - type: table
+    name: Pendientes de Alta Prioridad
+    filters:
+      and:
+        - estado == "pendiente"
+        - prioridad == "alta"
+    groupBy:
+      property: fase
+      direction: ASC
+    order:
+      - file.name
+      - fase
+      - mes_objetivo
+  - type: table
+    name: Completadas
+    filters: estado == "hecho"
+    order:
+      - file.name
+      - fase
+      - mes_objetivo

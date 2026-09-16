@@ -1,0 +1,10 @@
+﻿mineral,codigo_scian,clase_2008_scian2007,clase_2013_scian2013,clase_2018_scian2013,concordancia,nota
+oro,212221,Minería de oro,Minería de oro,Minería de oro,1:1,
+plata,212222,Minería de plata,Minería de plata,Minería de plata,1:1,
+cobre,212231,Minería de cobre,Minería de cobre,Minería de cobre,1:1,
+plomo-zinc,212232,Minería de plomo y zinc,Minería de plomo y zinc,Minería de plomo y zinc,1:1,combinada por coextracción en las tres añadas
+manganeso,212291,Minería de manganeso (incluye 212292 y 212299),Minería de manganeso (212299 aparte; 212292 no separado),Minería de manganeso (212292 y 212299 aparte),con caveat,"la clase agrega vecinos distintos por añada: 2008 la más amplia (+mercurio/antimonio +otros metálicos), 2018 la más estrecha"
+silice,212324,Minería de sílice,Minería de sílice,Minería de sílice,1:1,
+barita,212393,Minería de barita,Minería de barita,Minería de barita,1:1,
+fluorita,212395,Minería de fluorita,Minería de fluorita,Minería de fluorita,1:1,
+grafito,212396,Minería de grafito,Minería de grafito,Minería de grafito,1:1,

@@ -1,0 +1,79 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 720,
+      "title": "1 · Portada"
+    },
+    {
+      "file": "Marco.dc.html",
+      "x": 1400,
+      "y": 0,
+      "w": 1280,
+      "h": 720,
+      "title": "2 · Marco"
+    },
+    {
+      "file": "Indicadores.dc.html",
+      "x": 2800,
+      "y": 0,
+      "w": 1280,
+      "h": 720,
+      "title": "3 · Indicadores"
+    },
+    {
+      "file": "HHI.dc.html",
+      "x": 4200,
+      "y": 0,
+      "w": 1280,
+      "h": 720,
+      "title": "4 · HHI"
+    },
+    {
+      "file": "Ghosh.dc.html",
+      "x": 0,
+      "y": 880,
+      "w": 1280,
+      "h": 720,
+      "title": "5 · Ghosh"
+    },
+    {
+      "file": "CCV.dc.html",
+      "x": 1400,
+      "y": 880,
+      "w": 1280,
+      "h": 720,
+      "title": "6 · CCV"
+    },
+    {
+      "file": "Comercio.dc.html",
+      "x": 2800,
+      "y": 880,
+      "w": 1280,
+      "h": 720,
+      "title": "7 · Comercio"
+    },
+    {
+      "file": "Evolucion.dc.html",
+      "x": 4200,
+      "y": 880,
+      "w": 1280,
+      "h": 720,
+      "title": "8 · Evolución"
+    },
+    {
+      "file": "Tipologia.dc.html",
+      "x": 0,
+      "y": 1760,
+      "w": 1280,
+      "h": 720,
+      "title": "9 · Tipología"
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}

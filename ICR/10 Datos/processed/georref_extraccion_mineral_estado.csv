@@ -1,0 +1,11 @@
+mineral,estado_lider,estados_productores,distrito_mina_referencia,nota,fuente
+cobre,Sonora,Sonora;Zacatecas;San Luis Potosí;Chihuahua;Durango,"Buenavista del Cobre y La Caridad (Sonora)","Sonora concentra la mayor parte de la producción nacional de cobre",SGM Anuario 2024 + USGS MYB
+oro,Sonora,Sonora;Zacatecas;Chihuahua;Guerrero;Durango;Sinaloa,"Distritos de Sonora, Zacatecas, Chihuahua y Guerrero (Los Filos)","Producción dispersa en el norte y Guerrero",SGM Anuario 2024 + USGS MYB
+plata,Zacatecas,Zacatecas;Durango;Chihuahua;Sonora;Guanajuato;San Luis Potosí,"Distrito de Zacatecas (Fresnillo, Saucito)","Zacatecas es líder nacional; México es 1er productor mundial",SGM Anuario 2024 + USGS MYB
+plomo,Zacatecas,Zacatecas;Chihuahua;Durango,"Coextracción con zinc/plata (Zacatecas, Chihuahua)","Coextracción con zinc",SGM Anuario 2024 + USGS MYB
+zinc,Zacatecas,Zacatecas;Chihuahua;Durango;San Luis Potosí,"Coextracción con plomo/plata (Zacatecas, Chihuahua)","Coextracción con plomo",SGM Anuario 2024 + USGS MYB
+fluorita,San Luis Potosí,San Luis Potosí;Coahuila;Sinaloa;Jalisco,"Las Cuevas (San Luis Potosí)","Las Cuevas es la mayor mina de fluorita del mundo (Koura)",SGM Anuario 2024 + USGS MYB
+barita,Nuevo León,Nuevo León;Sonora;Coahuila;Chihuahua;Oaxaca,"Yacimientos de Nuevo León y Sonora (Baramin)","Grado API para perforación petrolera; corregido con dato cuantitativo 2024 (NL 59%, Sonora 38%)",SGM Anuario 2025 (cuantitativo)
+grafito,Sonora,Sonora,"Distrito de grafito amorfo cerca de Hermosillo (Sonora)","Prácticamente único estado productor (grafito amorfo)",SGM Anuario 2024 + USGS MYB
+manganeso,Hidalgo,Hidalgo;Durango,"Molango (Hidalgo)","Molango concentra casi toda la producción nacional (Autlán)",SGM Anuario 2024 + USGS MYB
+silice,Coahuila,Coahuila;Puebla;Baja California;Sonora,"Coahuila y Puebla (2024); Veracruz-Jáltipan histórico","Arena sílica/cuarzo; corregido con dato cuantitativo 2024 (Coahuila 52%, Puebla 39%); Veracruz cayó a ~0 en 2024",SGM Anuario 2025 (cuantitativo)

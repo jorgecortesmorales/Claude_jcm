@@ -1,0 +1,286 @@
+mineral,etapa,pais_destino,m49,valor_usd_2019_2024,share_etapa
+barita,E1 Crudo/molido,Estados Unidos,842,85527052.0,1.0
+cobre,E1 Mena/concentrado,China,156,20416199679.0,0.9474
+cobre,E1 Mena/concentrado,Japon,392,307267119.0,0.0143
+cobre,E1 Mena/concentrado,Estados Unidos,842,276483277.0,0.0128
+cobre,E1 Mena/concentrado,Corea del Sur,410,262700070.0,0.0122
+cobre,E1 Mena/concentrado,Canada,124,177848284.0,0.0083
+cobre,E1 Mena/concentrado,socio_490,490,87855057.0,0.0041
+cobre,E1 Mena/concentrado,Peru,604,19447858.0,0.0009
+cobre,E1 Mena/concentrado,Singapur,702,2005694.0,0.0001
+cobre,E1 Mena/concentrado,Hong Kong,344,386207.0,0.0
+cobre,E1 Mena/concentrado,Vietnam,704,328432.0,0.0
+cobre,E2 Metal en bruto/refinado,Estados Unidos,842,3295684924.0,0.6914
+cobre,E2 Metal en bruto/refinado,China,156,1239614636.0,0.2601
+cobre,E2 Metal en bruto/refinado,Corea del Sur,410,109773188.0,0.023
+cobre,E2 Metal en bruto/refinado,Belgica,56,77841468.0,0.0163
+cobre,E2 Metal en bruto/refinado,Canada,124,33391336.0,0.007
+cobre,E2 Metal en bruto/refinado,Alemania,276,9615556.0,0.002
+cobre,E2 Metal en bruto/refinado,Hong Kong,344,741721.0,0.0002
+cobre,E2 Metal en bruto/refinado,Guatemala,320,4274.0,0.0
+cobre,E3 Semimanufacturas,Estados Unidos,842,2968571950.0,0.834
+cobre,E3 Semimanufacturas,Colombia,170,178963118.0,0.0503
+cobre,E3 Semimanufacturas,Chile,152,104962855.0,0.0295
+cobre,E3 Semimanufacturas,socio_558,558,62525857.0,0.0176
+cobre,E3 Semimanufacturas,Canada,124,56337898.0,0.0158
+cobre,E3 Semimanufacturas,Italia,380,39296228.0,0.011
+cobre,E3 Semimanufacturas,socio_218,218,25807630.0,0.0073
+cobre,E3 Semimanufacturas,Peru,604,25618019.0,0.0072
+cobre,E3 Semimanufacturas,Guatemala,320,22041623.0,0.0062
+cobre,E3 Semimanufacturas,socio_340,340,21417001.0,0.006
+cobre,E3 Semimanufacturas,socio_188,188,18001339.0,0.0051
+cobre,E3 Semimanufacturas,socio_591,591,15092882.0,0.0042
+cobre,E3 Semimanufacturas,socio_214,214,4713101.0,0.0013
+cobre,E3 Semimanufacturas,El Salvador,222,4623796.0,0.0013
+cobre,E3 Semimanufacturas,Reino Unido,826,2721930.0,0.0008
+cobre,E3 Semimanufacturas,Argentina,32,2566887.0,0.0007
+cobre,E3 Semimanufacturas,Brasil,76,1624606.0,0.0005
+cobre,E3 Semimanufacturas,socio_68,68,1360561.0,0.0004
+cobre,E3 Semimanufacturas,socio_862,862,1205889.0,0.0003
+cobre,E3 Semimanufacturas,Japon,392,490884.0,0.0001
+cobre,E3 Semimanufacturas,socio_192,192,436302.0,0.0001
+cobre,E3 Semimanufacturas,Malasia,458,372304.0,0.0001
+cobre,E3 Semimanufacturas,socio_858,858,292872.0,0.0001
+cobre,E3 Semimanufacturas,China,156,232288.0,0.0001
+cobre,E3 Semimanufacturas,socio_208,208,123945.0,0.0
+cobre,E3 Semimanufacturas,socio_84,84,98566.0,0.0
+cobre,E3 Semimanufacturas,socio_251,251,37337.0,0.0
+cobre,E3 Semimanufacturas,socio_699,699,16615.0,0.0
+cobre,E3 Semimanufacturas,Alemania,276,16269.0,0.0
+cobre,E3 Semimanufacturas,Arabia Saudita,682,15330.0,0.0
+cobre,E3 Semimanufacturas,socio_388,388,10681.0,0.0
+cobre,E3 Semimanufacturas,socio_600,600,8444.0,0.0
+cobre,E3 Semimanufacturas,Espana,724,2968.0,0.0
+cobre,E3 Semimanufacturas,socio_332,332,1773.0,0.0
+cobre,E3 Semimanufacturas,Australia,36,1419.0,0.0
+cobre,E3 Semimanufacturas,socio_52,52,1078.0,0.0
+cobre,E4 Manufacturas,Estados Unidos,842,421014413.0,0.8935
+cobre,E4 Manufacturas,China,156,19616635.0,0.0416
+cobre,E4 Manufacturas,socio_251,251,8204389.0,0.0174
+cobre,E4 Manufacturas,Canada,124,4384240.0,0.0093
+cobre,E4 Manufacturas,Guatemala,320,2930881.0,0.0062
+cobre,E4 Manufacturas,socio_188,188,1957201.0,0.0042
+cobre,E4 Manufacturas,Peru,604,1917056.0,0.0041
+cobre,E4 Manufacturas,socio_214,214,1675108.0,0.0036
+cobre,E4 Manufacturas,Malasia,458,1608414.0,0.0034
+cobre,E4 Manufacturas,Colombia,170,1112421.0,0.0024
+cobre,E4 Manufacturas,Alemania,276,746362.0,0.0016
+cobre,E4 Manufacturas,Chile,152,717696.0,0.0015
+cobre,E4 Manufacturas,socio_340,340,692484.0,0.0015
+cobre,E4 Manufacturas,socio_558,558,626634.0,0.0013
+cobre,E4 Manufacturas,socio_490,490,611183.0,0.0013
+cobre,E4 Manufacturas,socio_591,591,592537.0,0.0013
+cobre,E4 Manufacturas,El Salvador,222,391278.0,0.0008
+cobre,E4 Manufacturas,socio_218,218,389178.0,0.0008
+cobre,E4 Manufacturas,socio_699,699,323009.0,0.0007
+cobre,E4 Manufacturas,Brasil,76,303052.0,0.0006
+cobre,E4 Manufacturas,Tailandia,764,285126.0,0.0006
+cobre,E4 Manufacturas,Chequia,203,131117.0,0.0003
+cobre,E4 Manufacturas,Japon,392,112725.0,0.0002
+cobre,E4 Manufacturas,Arabia Saudita,682,106818.0,0.0002
+cobre,E4 Manufacturas,socio_192,192,99427.0,0.0002
+cobre,E4 Manufacturas,Singapur,702,85248.0,0.0002
+cobre,E4 Manufacturas,Emiratos Arabes,784,82789.0,0.0002
+cobre,E4 Manufacturas,Hong Kong,344,81570.0,0.0002
+cobre,E4 Manufacturas,Corea del Sur,410,75631.0,0.0002
+cobre,E4 Manufacturas,Australia,36,56037.0,0.0001
+cobre,E4 Manufacturas,Reino Unido,826,53602.0,0.0001
+cobre,E4 Manufacturas,Italia,380,43735.0,0.0001
+cobre,E4 Manufacturas,socio_84,84,35427.0,0.0001
+cobre,E4 Manufacturas,socio_348,348,24363.0,0.0001
+cobre,E4 Manufacturas,socio_858,858,19930.0,0.0
+cobre,E4 Manufacturas,Paises Bajos,528,18789.0,0.0
+cobre,E4 Manufacturas,Espana,724,17730.0,0.0
+cobre,E4 Manufacturas,Belgica,56,14784.0,0.0
+cobre,E4 Manufacturas,Argentina,32,12472.0,0.0
+cobre,E4 Manufacturas,socio_862,862,9846.0,0.0
+cobre,E4 Manufacturas,socio_68,68,5912.0,0.0
+cobre,E4 Manufacturas,socio_643,643,5416.0,0.0
+cobre,E4 Manufacturas,socio_388,388,5012.0,0.0
+cobre,E4 Manufacturas,socio_600,600,3212.0,0.0
+cobre,E4 Manufacturas,Austria,40,1160.0,0.0
+cobre,E4 Manufacturas,socio_208,208,746.0,0.0
+cobre,E4 Manufacturas,socio_780,780,498.0,0.0
+cobre,E4 Manufacturas,socio_332,332,262.0,0.0
+fluorita,E1 Espato fluor (crudo),Estados Unidos,842,467183255.0,0.8812
+fluorita,E1 Espato fluor (crudo),China,156,51227516.0,0.0966
+fluorita,E1 Espato fluor (crudo),Brasil,76,8351358.0,0.0158
+fluorita,E1 Espato fluor (crudo),Espana,724,1829607.0,0.0035
+fluorita,E1 Espato fluor (crudo),Colombia,170,893127.0,0.0017
+fluorita,E1 Espato fluor (crudo),Turquia,792,615902.0,0.0012
+fluorita,E1 Espato fluor (crudo),Peru,604,93276.0,0.0002
+fluorita,E2 Fluoroquimica,Estados Unidos,842,607774446.0,1.0
+grafito,E1 Grafito natural,Estados Unidos,842,11175049.0,1.0
+grafito,E2 Grafito artificial/prep.,Estados Unidos,842,367796409.0,0.969
+grafito,E2 Grafito artificial/prep.,Brasil,76,9640087.0,0.0254
+grafito,E2 Grafito artificial/prep.,China,156,1786011.0,0.0047
+grafito,E2 Grafito artificial/prep.,Argentina,32,134148.0,0.0004
+grafito,E2 Grafito artificial/prep.,Colombia,170,91093.0,0.0002
+grafito,E2 Grafito artificial/prep.,Guatemala,320,63990.0,0.0002
+grafito,E2 Grafito artificial/prep.,Espana,724,40883.0,0.0001
+grafito,E2 Grafito artificial/prep.,socio_188,188,7492.0,0.0
+grafito,E3 Electrodos/articulos de carbono,Estados Unidos,842,430833407.0,0.7235
+grafito,E3 Electrodos/articulos de carbono,socio_251,251,54835434.0,0.0921
+grafito,E3 Electrodos/articulos de carbono,Espana,724,52528712.0,0.0882
+grafito,E3 Electrodos/articulos de carbono,Colombia,170,23343278.0,0.0392
+grafito,E3 Electrodos/articulos de carbono,Peru,604,13491766.0,0.0227
+grafito,E3 Electrodos/articulos de carbono,Argentina,32,7098611.0,0.0119
+grafito,E3 Electrodos/articulos de carbono,China,156,2608221.0,0.0044
+grafito,E3 Electrodos/articulos de carbono,Brasil,76,2399993.0,0.004
+grafito,E3 Electrodos/articulos de carbono,Guatemala,320,2215167.0,0.0037
+grafito,E3 Electrodos/articulos de carbono,socio_699,699,1768019.0,0.003
+grafito,E3 Electrodos/articulos de carbono,El Salvador,222,936623.0,0.0016
+grafito,E3 Electrodos/articulos de carbono,Belgica,56,716800.0,0.0012
+grafito,E3 Electrodos/articulos de carbono,Chile,152,637336.0,0.0011
+grafito,E3 Electrodos/articulos de carbono,socio_218,218,578551.0,0.001
+grafito,E3 Electrodos/articulos de carbono,socio_340,340,538700.0,0.0009
+grafito,E3 Electrodos/articulos de carbono,socio_558,558,424680.0,0.0007
+grafito,E3 Electrodos/articulos de carbono,socio_188,188,172042.0,0.0003
+grafito,E3 Electrodos/articulos de carbono,socio_214,214,74957.0,0.0001
+grafito,E3 Electrodos/articulos de carbono,socio_348,348,72750.0,0.0001
+grafito,E3 Electrodos/articulos de carbono,socio_192,192,68298.0,0.0001
+grafito,E3 Electrodos/articulos de carbono,Alemania,276,38095.0,0.0001
+grafito,E3 Electrodos/articulos de carbono,socio_591,591,32721.0,0.0001
+grafito,E3 Electrodos/articulos de carbono,socio_862,862,29265.0,0.0
+grafito,E3 Electrodos/articulos de carbono,Canada,124,23177.0,0.0
+grafito,E3 Electrodos/articulos de carbono,socio_388,388,17388.0,0.0
+grafito,E3 Electrodos/articulos de carbono,socio_84,84,2283.0,0.0
+grafito,E3 Electrodos/articulos de carbono,socio_68,68,1334.0,0.0
+manganeso,E2 Ferroaleaciones,Estados Unidos,842,158781624.0,0.9622
+manganeso,E2 Ferroaleaciones,Argentina,32,4398036.0,0.0267
+manganeso,E2 Ferroaleaciones,Colombia,170,1683552.0,0.0102
+manganeso,E2 Ferroaleaciones,Chile,152,158680.0,0.001
+oro,E1 Mena/concentrado,China,156,482613991.0,0.5714
+oro,E1 Mena/concentrado,Corea del Sur,410,212474100.0,0.2515
+oro,E1 Mena/concentrado,Alemania,276,123717326.0,0.1465
+oro,E1 Mena/concentrado,socio_100,100,22056246.0,0.0261
+oro,E1 Mena/concentrado,Belgica,56,3825173.0,0.0045
+oro,E2 Bruto/semilabrado,Estados Unidos,842,18640597676.0,0.7891
+oro,E2 Bruto/semilabrado,Suiza,757,4706198947.0,0.1992
+oro,E2 Bruto/semilabrado,Canada,124,142216398.0,0.006
+oro,E2 Bruto/semilabrado,Italia,380,106333253.0,0.0045
+oro,E2 Bruto/semilabrado,Turquia,792,25910551.0,0.0011
+oro-plata (manufacturas),E4 Joyeria/orfebreria,Estados Unidos,842,2335935876.0,0.9004
+oro-plata (manufacturas),E4 Joyeria/orfebreria,Canada,124,127104071.0,0.049
+oro-plata (manufacturas),E4 Joyeria/orfebreria,Reino Unido,826,68158396.0,0.0263
+oro-plata (manufacturas),E4 Joyeria/orfebreria,socio_251,251,10396041.0,0.004
+oro-plata (manufacturas),E4 Joyeria/orfebreria,Suiza,757,9189124.0,0.0035
+oro-plata (manufacturas),E4 Joyeria/orfebreria,Guatemala,320,7290455.0,0.0028
+oro-plata (manufacturas),E4 Joyeria/orfebreria,socio_591,591,6302170.0,0.0024
+oro-plata (manufacturas),E4 Joyeria/orfebreria,Espana,724,6171258.0,0.0024
+oro-plata (manufacturas),E4 Joyeria/orfebreria,Italia,380,5459026.0,0.0021
+oro-plata (manufacturas),E4 Joyeria/orfebreria,Australia,36,4254801.0,0.0016
+oro-plata (manufacturas),E4 Joyeria/orfebreria,Colombia,170,3321444.0,0.0013
+oro-plata (manufacturas),E4 Joyeria/orfebreria,Alemania,276,2089421.0,0.0008
+oro-plata (manufacturas),E4 Joyeria/orfebreria,Chile,152,1585718.0,0.0006
+oro-plata (manufacturas),E4 Joyeria/orfebreria,Japon,392,1331530.0,0.0005
+oro-plata (manufacturas),E4 Joyeria/orfebreria,El Salvador,222,899676.0,0.0003
+oro-plata (manufacturas),E4 Joyeria/orfebreria,socio_899,899,869254.0,0.0003
+oro-plata (manufacturas),E4 Joyeria/orfebreria,Hong Kong,344,861490.0,0.0003
+oro-plata (manufacturas),E4 Joyeria/orfebreria,socio_218,218,708696.0,0.0003
+oro-plata (manufacturas),E4 Joyeria/orfebreria,socio_340,340,684014.0,0.0003
+oro-plata (manufacturas),E4 Joyeria/orfebreria,socio_796,796,583180.0,0.0002
+oro-plata (manufacturas),E4 Joyeria/orfebreria,socio_188,188,411437.0,0.0002
+oro-plata (manufacturas),E4 Joyeria/orfebreria,socio_68,68,168547.0,0.0001
+oro-plata (manufacturas),E4 Joyeria/orfebreria,Paises Bajos,528,167303.0,0.0001
+oro-plata (manufacturas),E4 Joyeria/orfebreria,socio_214,214,113666.0,0.0
+oro-plata (manufacturas),E4 Joyeria/orfebreria,Nueva Zelanda,554,81880.0,0.0
+oro-plata (manufacturas),E4 Joyeria/orfebreria,socio_752,752,61137.0,0.0
+oro-plata (manufacturas),E4 Joyeria/orfebreria,socio_490,490,21676.0,0.0
+oro-plata (manufacturas),E4 Joyeria/orfebreria,socio_372,372,11811.0,0.0
+plata,E1 Mena/concentrado,Corea del Sur,410,250721122.0,0.397
+plata,E1 Mena/concentrado,Alemania,276,207746456.0,0.329
+plata,E1 Mena/concentrado,China,156,90075414.0,0.1426
+plata,E1 Mena/concentrado,socio_100,100,51727641.0,0.0819
+plata,E1 Mena/concentrado,Canada,124,15998822.0,0.0253
+plata,E1 Mena/concentrado,Estados Unidos,842,12537974.0,0.0199
+plata,E1 Mena/concentrado,Malasia,458,2657793.0,0.0042
+plata,E2 Bruto/semilabrado,Estados Unidos,842,15741522514.0,0.9826
+plata,E2 Bruto/semilabrado,Suiza,757,258233156.0,0.0161
+plata,E2 Bruto/semilabrado,Brasil,76,9483028.0,0.0006
+plata,E2 Bruto/semilabrado,Canada,124,9296296.0,0.0006
+plata,E2 Bruto/semilabrado,Italia,380,1205544.0,0.0001
+plata,E2 Bruto/semilabrado,socio_699,699,344901.0,0.0
+plata,E2 Bruto/semilabrado,socio_192,192,36998.0,0.0
+plata,E2 Bruto/semilabrado,El Salvador,222,6097.0,0.0
+plomo,E1 Mena/concentrado,China,156,4203071145.0,0.6497
+plomo,E1 Mena/concentrado,Corea del Sur,410,1716256104.0,0.2653
+plomo,E1 Mena/concentrado,Belgica,56,289408608.0,0.0447
+plomo,E1 Mena/concentrado,Suiza,757,158938853.0,0.0246
+plomo,E1 Mena/concentrado,Japon,392,101730566.0,0.0157
+plomo,E2 Metal en bruto/refinado,Estados Unidos,842,718386256.0,0.8393
+plomo,E2 Metal en bruto/refinado,Brasil,76,111469971.0,0.1302
+plomo,E2 Metal en bruto/refinado,Corea del Sur,410,16091591.0,0.0188
+plomo,E2 Metal en bruto/refinado,Suiza,757,4694324.0,0.0055
+plomo,E2 Metal en bruto/refinado,Singapur,702,2028941.0,0.0024
+plomo,E2 Metal en bruto/refinado,Japon,392,1619068.0,0.0019
+plomo,E2 Metal en bruto/refinado,socio_699,699,867175.0,0.001
+plomo,E2 Metal en bruto/refinado,Belgica,56,491526.0,0.0006
+plomo,E2 Metal en bruto/refinado,Espana,724,265334.0,0.0003
+plomo,E3 Semimanufacturas,Estados Unidos,842,2722328.0,0.9991
+plomo,E3 Semimanufacturas,Guatemala,320,2437.0,0.0009
+plomo,E4 Manufacturas,Estados Unidos,842,5265245.0,0.9329
+plomo,E4 Manufacturas,Guatemala,320,313627.0,0.0556
+plomo,E4 Manufacturas,El Salvador,222,65145.0,0.0115
+silice,E1 Arena silica/cuarzo,Estados Unidos,842,12853664.0,0.9304
+silice,E1 Arena silica/cuarzo,Guatemala,320,726427.0,0.0526
+silice,E1 Arena silica/cuarzo,Colombia,170,55680.0,0.004
+silice,E1 Arena silica/cuarzo,socio_214,214,52403.0,0.0038
+silice,E1 Arena silica/cuarzo,Chile,152,40921.0,0.003
+silice,E1 Arena silica/cuarzo,El Salvador,222,40610.0,0.0029
+silice,E1 Arena silica/cuarzo,Brasil,76,34238.0,0.0025
+silice,E1 Arena silica/cuarzo,Peru,604,6851.0,0.0005
+silice,E1 Arena silica/cuarzo,socio_188,188,3303.0,0.0002
+silice,E1 Arena silica/cuarzo,socio_591,591,1371.0,0.0001
+silice,E1 Arena silica/cuarzo,Italia,380,164.0,0.0
+silice,E2 Silicio/ferrosilicio/SiO2,Estados Unidos,842,54690647.0,0.9168
+silice,E2 Silicio/ferrosilicio/SiO2,Guatemala,320,4153456.0,0.0696
+silice,E2 Silicio/ferrosilicio/SiO2,Colombia,170,217521.0,0.0036
+silice,E2 Silicio/ferrosilicio/SiO2,socio_188,188,164398.0,0.0028
+silice,E2 Silicio/ferrosilicio/SiO2,Peru,604,159836.0,0.0027
+silice,E2 Silicio/ferrosilicio/SiO2,socio_591,591,62818.0,0.0011
+silice,E2 Silicio/ferrosilicio/SiO2,socio_340,340,57635.0,0.001
+silice,E2 Silicio/ferrosilicio/SiO2,El Salvador,222,46652.0,0.0008
+silice,E2 Silicio/ferrosilicio/SiO2,socio_192,192,32066.0,0.0005
+silice,E2 Silicio/ferrosilicio/SiO2,Argentina,32,28340.0,0.0005
+silice,E2 Silicio/ferrosilicio/SiO2,socio_558,558,16932.0,0.0003
+silice,E2 Silicio/ferrosilicio/SiO2,socio_218,218,12003.0,0.0002
+silice,E2 Silicio/ferrosilicio/SiO2,Alemania,276,8628.0,0.0001
+silice,E2 Silicio/ferrosilicio/SiO2,Brasil,76,3713.0,0.0001
+zinc,E1 Mena/concentrado,Corea del Sur,410,1997566386.0,0.5827
+zinc,E1 Mena/concentrado,Japon,392,376971330.0,0.11
+zinc,E1 Mena/concentrado,Belgica,56,364704779.0,0.1064
+zinc,E1 Mena/concentrado,China,156,273427365.0,0.0798
+zinc,E1 Mena/concentrado,Canada,124,221527202.0,0.0646
+zinc,E1 Mena/concentrado,Suiza,757,116571125.0,0.034
+zinc,E1 Mena/concentrado,Espana,724,73890397.0,0.0216
+zinc,E1 Mena/concentrado,Peru,604,3383306.0,0.001
+zinc,E2 Metal en bruto/refinado,Estados Unidos,842,1237512482.0,0.8193
+zinc,E2 Metal en bruto/refinado,Brasil,76,173269727.0,0.1147
+zinc,E2 Metal en bruto/refinado,China,156,42282156.0,0.028
+zinc,E2 Metal en bruto/refinado,Guatemala,320,31366425.0,0.0208
+zinc,E2 Metal en bruto/refinado,Italia,380,13980883.0,0.0093
+zinc,E2 Metal en bruto/refinado,Emiratos Arabes,784,9915302.0,0.0066
+zinc,E2 Metal en bruto/refinado,Belgica,56,2128327.0,0.0014
+zinc,E3 Semimanufacturas,Colombia,170,1090731.0,0.5831
+zinc,E3 Semimanufacturas,Estados Unidos,842,779759.0,0.4169
+zinc,E4 Manufacturas,Estados Unidos,842,11457380.0,0.7624
+zinc,E4 Manufacturas,Guatemala,320,748671.0,0.0498
+zinc,E4 Manufacturas,socio_340,340,592013.0,0.0394
+zinc,E4 Manufacturas,socio_188,188,466327.0,0.031
+zinc,E4 Manufacturas,socio_214,214,433293.0,0.0288
+zinc,E4 Manufacturas,El Salvador,222,383378.0,0.0255
+zinc,E4 Manufacturas,socio_591,591,225248.0,0.015
+zinc,E4 Manufacturas,socio_558,558,191541.0,0.0127
+zinc,E4 Manufacturas,socio_218,218,164571.0,0.011
+zinc,E4 Manufacturas,Colombia,170,101837.0,0.0068
+zinc,E4 Manufacturas,Chile,152,76553.0,0.0051
+zinc,E4 Manufacturas,Peru,604,74235.0,0.0049
+zinc,E4 Manufacturas,Canada,124,42483.0,0.0028
+zinc,E4 Manufacturas,Espana,724,26206.0,0.0017
+zinc,E4 Manufacturas,China,156,21642.0,0.0014
+zinc,E4 Manufacturas,Italia,380,7206.0,0.0005
+zinc,E4 Manufacturas,socio_699,699,6398.0,0.0004
+zinc,E4 Manufacturas,socio_84,84,4618.0,0.0003
+zinc,E4 Manufacturas,socio_348,348,4335.0,0.0003
+zinc,E4 Manufacturas,Alemania,276,33.0,0.0

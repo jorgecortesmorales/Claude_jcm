@@ -1,0 +1,406 @@
+{
+ "nodes": [
+  {
+   "id": "5597074c9527cf25",
+   "type": "group",
+   "x": -20,
+   "y": 0,
+   "width": 460,
+   "height": 670,
+   "label": "① Fundamentos y gestión",
+   "color": "6"
+  },
+  {
+   "id": "4d1dbb933f2949ea",
+   "type": "file",
+   "x": 0,
+   "y": 70,
+   "width": 420,
+   "height": 88,
+   "color": "6",
+   "file": "Home.md"
+  },
+  {
+   "id": "24f736a3937a8150",
+   "type": "file",
+   "x": 0,
+   "y": 184,
+   "width": 420,
+   "height": 88,
+   "color": "6",
+   "file": "CLAUDE.md"
+  },
+  {
+   "id": "a8f3a8ab9f1ccb08",
+   "type": "file",
+   "x": 0,
+   "y": 298,
+   "width": 420,
+   "height": 88,
+   "color": "6",
+   "file": "00 Proyecto/Estructura y Cronograma de la ICR.md"
+  },
+  {
+   "id": "65bb57de2e94f196",
+   "type": "file",
+   "x": 0,
+   "y": 412,
+   "width": 420,
+   "height": 88,
+   "color": "6",
+   "file": "00 Proyecto/Gestion y seguimiento/Handoff - Estado y siguiente (marco institucional, criticidad, Ghosh por eslabon, manuscrito) 2026-09-15.md"
+  },
+  {
+   "id": "6fb55eccc5da279d",
+   "type": "file",
+   "x": 0,
+   "y": 526,
+   "width": 420,
+   "height": 88,
+   "color": "6",
+   "file": "00 Proyecto/Gestion y seguimiento/Bitacora.md"
+  },
+  {
+   "id": "f4225d7f8f7aa04d",
+   "type": "group",
+   "x": 530,
+   "y": 0,
+   "width": 460,
+   "height": 670,
+   "label": "② Planteamiento",
+   "color": "4"
+  },
+  {
+   "id": "9d5cb09f106c0d1a",
+   "type": "file",
+   "x": 550,
+   "y": 70,
+   "width": 420,
+   "height": 88,
+   "color": "4",
+   "file": "01 Planteamiento/Pregunta de Investigacion.md"
+  },
+  {
+   "id": "01d8f413e931e2a6",
+   "type": "file",
+   "x": 550,
+   "y": 184,
+   "width": 420,
+   "height": 88,
+   "color": "4",
+   "file": "01 Planteamiento/Objetivos.md"
+  },
+  {
+   "id": "d82d82479c1c1ea9",
+   "type": "file",
+   "x": 550,
+   "y": 298,
+   "width": 420,
+   "height": 88,
+   "color": "4",
+   "file": "01 Planteamiento/Hipotesis.md"
+  },
+  {
+   "id": "e127840c5592b169",
+   "type": "file",
+   "x": 550,
+   "y": 412,
+   "width": 420,
+   "height": 88,
+   "color": "4",
+   "file": "01 Planteamiento/Justificacion.md"
+  },
+  {
+   "id": "30fb98b69407a3a6",
+   "type": "file",
+   "x": 550,
+   "y": 526,
+   "width": 420,
+   "height": 88,
+   "color": "4",
+   "file": "01 Planteamiento/Estructura de la Tesis.md"
+  },
+  {
+   "id": "c8a6a875d7db2e58",
+   "type": "group",
+   "x": 1080,
+   "y": 0,
+   "width": 460,
+   "height": 556,
+   "label": "③ Marco teórico",
+   "color": "3"
+  },
+  {
+   "id": "c822db0e48aaabf4",
+   "type": "file",
+   "x": 1100,
+   "y": 70,
+   "width": 420,
+   "height": 88,
+   "color": "3",
+   "file": "02 Marco Teorico/Definiciones - Mineral Critico.md"
+  },
+  {
+   "id": "68ee49649b8a21f4",
+   "type": "file",
+   "x": 1100,
+   "y": 184,
+   "width": 420,
+   "height": 88,
+   "color": "3",
+   "file": "02 Marco Teorico/Corpus de Diez Minerales.md"
+  },
+  {
+   "id": "53da55386ac81c3f",
+   "type": "file",
+   "x": 1100,
+   "y": 298,
+   "width": 420,
+   "height": 88,
+   "color": "3",
+   "file": "02 Marco Teorico/Clasificacion de productos por criticidad.md"
+  },
+  {
+   "id": "4ec41103d20a404a",
+   "type": "file",
+   "x": 1100,
+   "y": 412,
+   "width": 420,
+   "height": 88,
+   "color": "3",
+   "file": "02 Marco Teorico/Marco Teorico - Tres Tradiciones.md"
+  },
+  {
+   "id": "1df15e0e286aa464",
+   "type": "group",
+   "x": 1630,
+   "y": 0,
+   "width": 460,
+   "height": 556,
+   "label": "④ Metodología e indicadores",
+   "color": "5"
+  },
+  {
+   "id": "526962e92f2ead28",
+   "type": "file",
+   "x": 1650,
+   "y": 70,
+   "width": 420,
+   "height": 88,
+   "color": "5",
+   "file": "00 Proyecto/Metodologia y auditoria/Arquitectura del documento (estructura expositiva).md"
+  },
+  {
+   "id": "e0f4112df765bfb2",
+   "type": "file",
+   "x": 1650,
+   "y": 184,
+   "width": 420,
+   "height": 88,
+   "color": "5",
+   "file": "00 Proyecto/Metodologia y auditoria/Auditoria de indicadores (justificacion, matematica, limites).md"
+  },
+  {
+   "id": "a154d140acf43b15",
+   "type": "file",
+   "x": 1650,
+   "y": 298,
+   "width": 420,
+   "height": 88,
+   "color": "5",
+   "file": "00 Proyecto/Metodologia y auditoria/Protocolo v3 - Rediseño descriptivo (cadenas de valor).md"
+  },
+  {
+   "id": "5d566c36a2f4c0e6",
+   "type": "file",
+   "x": 1650,
+   "y": 412,
+   "width": 420,
+   "height": 88,
+   "color": "5",
+   "file": "00 Proyecto/Metodologia y auditoria/Recomendaciones de lectura por capitulo.md"
+  },
+  {
+   "id": "e9624f49cec8aa0a",
+   "type": "group",
+   "x": 2180,
+   "y": 0,
+   "width": 460,
+   "height": 784,
+   "label": "⑤ Datos y memorias",
+   "color": "2"
+  },
+  {
+   "id": "a1a73b2ce20aba69",
+   "type": "file",
+   "x": 2200,
+   "y": 70,
+   "width": 420,
+   "height": 88,
+   "color": "2",
+   "file": "10 Datos/Catalogo de Bases de Datos.md"
+  },
+  {
+   "id": "7944893e3f6892e7",
+   "type": "file",
+   "x": 2200,
+   "y": 184,
+   "width": 420,
+   "height": 88,
+   "color": "2",
+   "file": "05 Diagnostico Insumo-Producto/Memoria - Encadenamientos MIP (Leontief Ghosh Hirschman-Rasmussen).md"
+  },
+  {
+   "id": "583b3add68092e35",
+   "type": "file",
+   "x": 2200,
+   "y": 298,
+   "width": 420,
+   "height": 88,
+   "color": "2",
+   "file": "05 Diagnostico Insumo-Producto/Memoria - Encadenamientos por eslabon (extraccion, refinacion, semimanufactura).md"
+  },
+  {
+   "id": "ca344bed4248df28",
+   "type": "file",
+   "x": 2200,
+   "y": 412,
+   "width": 420,
+   "height": 88,
+   "color": "2",
+   "file": "10 Datos/Memoria - CCV (coeficiente de captura de valor, serie 1992-2025).md"
+  },
+  {
+   "id": "1a83c815d9a00b1a",
+   "type": "file",
+   "x": 2200,
+   "y": 526,
+   "width": 420,
+   "height": 88,
+   "color": "2",
+   "file": "10 Datos/Memoria - Comercio por etapa de procesamiento (Obj 3).md"
+  },
+  {
+   "id": "22239831af73fd6e",
+   "type": "file",
+   "x": 2200,
+   "y": 640,
+   "width": 420,
+   "height": 88,
+   "color": "2",
+   "file": "05 Diagnostico Insumo-Producto/Memoria - Georreferenciacion y destinos (extraccion, transformacion, exportacion).md"
+  },
+  {
+   "id": "34c28dd5f6150ba7",
+   "type": "group",
+   "x": 2730,
+   "y": 0,
+   "width": 460,
+   "height": 846,
+   "label": "⑥ Manuscrito y entregables",
+   "color": "1"
+  },
+  {
+   "id": "9cb9c9c1e018ed90",
+   "type": "text",
+   "x": 2750,
+   "y": 70,
+   "width": 420,
+   "height": 150,
+   "color": "1",
+   "text": "## Manuscrito (nueva estructura)\n**9 capítulos** + anexos B/C/D\nen `11 Redaccion/manuscrito/`\n\nI Introducción · II Marco · III Metodología · IV Contexto · V Estructura · VI Encadenamientos · VII Inserción global · VIII Tipología · IX Síntesis"
+  },
+  {
+   "id": "46e5d42b93c56d44",
+   "type": "file",
+   "x": 2750,
+   "y": 246,
+   "width": 420,
+   "height": 88,
+   "color": "1",
+   "file": "11 Redaccion/manuscrito/03-metodologia.md"
+  },
+  {
+   "id": "1d61caa5827685a7",
+   "type": "file",
+   "x": 2750,
+   "y": 360,
+   "width": 420,
+   "height": 88,
+   "color": "1",
+   "file": "11 Redaccion/manuscrito/06-encadenamientos.md"
+  },
+  {
+   "id": "af1b6df7a6875049",
+   "type": "file",
+   "x": 2750,
+   "y": 474,
+   "width": 420,
+   "height": 88,
+   "color": "1",
+   "file": "11 Redaccion/manuscrito/08-tipologia.md"
+  },
+  {
+   "id": "a5fc56971d936878",
+   "type": "file",
+   "x": 2750,
+   "y": 588,
+   "width": 420,
+   "height": 88,
+   "color": "1",
+   "file": "12 Referencias/Bibliografia.md"
+  },
+  {
+   "id": "177f49ca1ee746f1",
+   "type": "file",
+   "x": 2750,
+   "y": 702,
+   "width": 420,
+   "height": 88,
+   "color": "1",
+   "file": "00 Proyecto/Metodologia y auditoria/Resumen descriptivo de la investigacion (datos e indicadores).md"
+  }
+ ],
+ "edges": [
+  {
+   "id": "6cbf56b20e77da80",
+   "fromNode": "4d1dbb933f2949ea",
+   "fromSide": "right",
+   "toNode": "9d5cb09f106c0d1a",
+   "toSide": "left",
+   "toEnd": "arrow"
+  },
+  {
+   "id": "abcdc0f0765cf877",
+   "fromNode": "9d5cb09f106c0d1a",
+   "fromSide": "right",
+   "toNode": "c822db0e48aaabf4",
+   "toSide": "left",
+   "toEnd": "arrow"
+  },
+  {
+   "id": "7380df7a3a5f0051",
+   "fromNode": "c822db0e48aaabf4",
+   "fromSide": "right",
+   "toNode": "526962e92f2ead28",
+   "toSide": "left",
+   "toEnd": "arrow"
+  },
+  {
+   "id": "4b3bfae6c2b8319e",
+   "fromNode": "526962e92f2ead28",
+   "fromSide": "right",
+   "toNode": "a1a73b2ce20aba69",
+   "toSide": "left",
+   "toEnd": "arrow"
+  },
+  {
+   "id": "13d4be08a9155d7f",
+   "fromNode": "a1a73b2ce20aba69",
+   "fromSide": "right",
+   "toNode": "9cb9c9c1e018ed90",
+   "toSide": "left",
+   "toEnd": "arrow"
+  }
+ ]
+}

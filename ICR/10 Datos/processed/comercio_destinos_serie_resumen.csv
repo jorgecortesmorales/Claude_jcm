@@ -1,0 +1,894 @@
+anio,mineral,etapa,valor_total_usd,destino_principal,share_principal,share_china,share_eua,n_destinos
+1992,barita,E1 Crudo/molido,1244000.0,Estados Unidos,1.0,0.0,1.0,1
+1992,barita,E2 Quimicos de bario,1571000.0,Estados Unidos,0.9955,0.0,0.9955,3
+1992,cobre,E1 Mena/concentrado,31605000.0,Estados Unidos,0.7624,0.0,0.7624,2
+1992,cobre,E2 Metal en bruto/refinado,287704992.0,Estados Unidos,0.487,0.0,0.487,11
+1992,cobre,E3 Semimanufacturas,127642000.0,Estados Unidos,0.6947,0.0,0.6947,32
+1992,cobre,E4 Manufacturas,23568000.0,Estados Unidos,0.9123,0.0003,0.9123,31
+1992,fluorita,E1 Espato fluor (crudo),13929000.0,Estados Unidos,0.6031,0.0,0.6031,10
+1992,fluorita,E2 Fluoroquimica,86072000.0,Estados Unidos,0.7152,0.0,0.7152,7
+1992,grafito,E1 Grafito natural,3073000.0,Estados Unidos,0.9307,0.0,0.9307,2
+1992,grafito,E2 Grafito artificial/prep.,12300000.0,Estados Unidos,0.9893,0.0018,0.9893,5
+1992,grafito,E3 Electrodos/articulos de carbono,15432000.0,Colombia,0.2506,0.0,0.1973,19
+1992,manganeso,E1 Mena/concentrado,6044000.0,Estados Unidos,0.2631,0.0,0.2631,11
+1992,manganeso,E2 Ferroaleaciones,36349000.0,Estados Unidos,0.8301,0.0,0.8301,8
+1992,manganeso,E3 Quimicos/metal,660000.0,Guatemala,0.4318,0.0,0.0424,7
+1992,oro,E1 Mena/concentrado,71000.0,Estados Unidos,1.0,0.0,1.0,1
+1992,oro,E2 Bruto/semilabrado,41453000.0,Estados Unidos,0.4873,0.0,0.4873,6
+1992,oro-plata (manufacturas),E4 Joyeria/orfebreria,43815000.0,Estados Unidos,0.8206,0.0007,0.8206,29
+1992,plata,E1 Mena/concentrado,102000.0,Estados Unidos,1.0,0.0,1.0,1
+1992,plata,E2 Bruto/semilabrado,206749008.0,Estados Unidos,0.8464,0.0,0.8464,14
+1992,plomo,E1 Mena/concentrado,1580000.0,Estados Unidos,1.0,0.0,1.0,1
+1992,plomo,E2 Metal en bruto/refinado,55386000.0,Estados Unidos,0.5825,0.0,0.5825,21
+1992,plomo,E3 Semimanufacturas,103000.0,Reino Unido,0.4369,0.0,0.0485,4
+1992,plomo,E4 Manufacturas,780000.0,Estados Unidos,0.9295,0.0,0.9295,8
+1992,silice,E1 Arena silica/cuarzo,624000.0,Costa Rica,0.9679,0.0,0.0208,6
+1992,silice,E2 Silicio/ferrosilicio/SiO2,246000.0,Estados Unidos,0.4593,0.0,0.4593,7
+1992,zinc,E1 Mena/concentrado,81135000.0,socio_58,0.2298,0.0,0.1451,10
+1992,zinc,E2 Metal en bruto/refinado,48501000.0,Estados Unidos,0.8369,0.0022,0.8369,17
+1992,zinc,E3 Semimanufacturas,8018000.0,Estados Unidos,0.9611,0.0,0.9611,11
+1992,zinc,E4 Manufacturas,3917000.0,Estados Unidos,0.9592,0.0,0.9592,9
+1993,barita,E1 Crudo/molido,4213000.0,Estados Unidos,1.0,0.0,1.0,1
+1993,barita,E2 Quimicos de bario,1696000.0,Estados Unidos,0.9965,0.0,0.9965,2
+1993,cobre,E1 Mena/concentrado,61000.0,Estados Unidos,1.0,0.0,1.0,1
+1993,cobre,E2 Metal en bruto/refinado,360330000.0,Estados Unidos,0.512,0.0,0.512,11
+1993,cobre,E3 Semimanufacturas,133665000.0,Estados Unidos,0.7738,0.0,0.7738,31
+1993,cobre,E4 Manufacturas,28018000.0,Estados Unidos,0.9114,0.0002,0.9114,28
+1993,fluorita,E1 Espato fluor (crudo),9385000.0,Estados Unidos,0.669,0.0,0.669,7
+1993,fluorita,E2 Fluoroquimica,79869000.0,Estados Unidos,0.7465,0.0,0.7465,7
+1993,grafito,E1 Grafito natural,1995000.0,Estados Unidos,0.9534,0.0,0.9534,4
+1993,grafito,E2 Grafito artificial/prep.,18272000.0,Estados Unidos,0.9917,0.0068,0.9917,5
+1993,grafito,E3 Electrodos/articulos de carbono,13266000.0,Estados Unidos,0.2647,0.0,0.2647,21
+1993,manganeso,E1 Mena/concentrado,8842000.0,Espana,0.2943,0.0,0.217,13
+1993,manganeso,E2 Ferroaleaciones,35494000.0,Estados Unidos,0.8329,0.0,0.8329,6
+1993,manganeso,E3 Quimicos/metal,570000.0,Guatemala,0.4789,0.0,0.0035,7
+1993,oro,E1 Mena/concentrado,75000.0,Estados Unidos,0.9067,0.0,0.9067,2
+1993,oro,E2 Bruto/semilabrado,52621000.0,Italia,0.5466,0.0,0.4117,7
+1993,oro-plata (manufacturas),E4 Joyeria/orfebreria,50323000.0,Estados Unidos,0.8573,0.0,0.8573,39
+1993,plata,E1 Mena/concentrado,1231000.0,Canada,0.87,0.0,0.13,2
+1993,plata,E2 Bruto/semilabrado,186176000.0,Estados Unidos,0.9379,0.0,0.9379,9
+1993,plomo,E1 Mena/concentrado,293000.0,Estados Unidos,1.0,0.0,1.0,1
+1993,plomo,E2 Metal en bruto/refinado,42323000.0,Estados Unidos,0.545,0.0009,0.545,18
+1993,plomo,E3 Semimanufacturas,28000.0,Venezuela,0.7143,0.0,0.1429,3
+1993,plomo,E4 Manufacturas,870000.0,Estados Unidos,0.9425,0.0,0.9425,8
+1993,silice,E1 Arena silica/cuarzo,957000.0,Costa Rica,0.8777,0.0,0.0303,6
+1993,silice,E2 Silicio/ferrosilicio/SiO2,478000.0,Estados Unidos,0.7762,0.0,0.7762,9
+1993,zinc,E1 Mena/concentrado,58381000.0,Suiza,0.28,0.0,0.1781,10
+1993,zinc,E2 Metal en bruto/refinado,84903000.0,Estados Unidos,0.8457,0.0,0.8457,20
+1993,zinc,E3 Semimanufacturas,37221000.0,Estados Unidos,0.9837,0.0,0.9837,15
+1993,zinc,E4 Manufacturas,2566000.0,Estados Unidos,0.8531,0.0,0.8531,14
+1994,barita,E1 Crudo/molido,4690693.0,Estados Unidos,0.7862,0.0,0.7862,4
+1994,barita,E2 Quimicos de bario,3183808.0,Estados Unidos,0.9988,0.0,0.9988,3
+1994,cobre,E1 Mena/concentrado,4748557.0,Estados Unidos,1.0,0.0,1.0,1
+1994,cobre,E2 Metal en bruto/refinado,370218348.0,Estados Unidos,0.5673,0.0,0.5673,13
+1994,cobre,E3 Semimanufacturas,113204365.0,Estados Unidos,0.7616,0.0,0.7616,36
+1994,cobre,E4 Manufacturas,36252008.0,Estados Unidos,0.7678,0.0,0.7678,30
+1994,fluorita,E1 Espato fluor (crudo),15135902.0,Estados Unidos,0.7518,0.0,0.7518,8
+1994,fluorita,E2 Fluoroquimica,81006940.0,Estados Unidos,0.7329,0.0,0.7329,11
+1994,grafito,E1 Grafito natural,2376785.0,Estados Unidos,0.978,0.0,0.978,5
+1994,grafito,E2 Grafito artificial/prep.,16102270.0,Estados Unidos,0.9959,0.0,0.9959,6
+1994,grafito,E3 Electrodos/articulos de carbono,19876626.0,Estados Unidos,0.324,0.0,0.324,19
+1994,manganeso,E1 Mena/concentrado,3910169.0,Estados Unidos,0.5056,0.0,0.5056,9
+1994,manganeso,E2 Ferroaleaciones,32026826.0,Estados Unidos,0.8001,0.0,0.8001,11
+1994,manganeso,E3 Quimicos/metal,1691298.0,Estados Unidos,0.3366,0.0,0.3366,14
+1994,oro,E1 Mena/concentrado,13441.0,Estados Unidos,0.9368,0.0,0.9368,2
+1994,oro,E2 Bruto/semilabrado,78879612.0,Estados Unidos,0.7758,0.0,0.7758,4
+1994,oro-plata (manufacturas),E4 Joyeria/orfebreria,71155204.0,Estados Unidos,0.9002,0.0,0.9002,41
+1994,plata,E1 Mena/concentrado,23815.0,Estados Unidos,1.0,0.0,1.0,1
+1994,plata,E2 Bruto/semilabrado,214312344.0,Estados Unidos,0.4909,0.0,0.4909,13
+1994,plomo,E2 Metal en bruto/refinado,32658839.0,Estados Unidos,0.5294,0.0,0.5294,18
+1994,plomo,E3 Semimanufacturas,37806.0,Cuba,0.538,0.0,0.462,2
+1994,plomo,E4 Manufacturas,1403275.0,Estados Unidos,0.9846,0.0,0.9846,7
+1994,silice,E1 Arena silica/cuarzo,382913.0,Costa Rica,0.5982,0.0,0.2023,9
+1994,silice,E2 Silicio/ferrosilicio/SiO2,1023489.0,Estados Unidos,0.4864,0.0,0.4864,10
+1994,zinc,E1 Mena/concentrado,70061436.0,socio_58,0.5818,0.0,0.064,13
+1994,zinc,E2 Metal en bruto/refinado,75922031.0,Estados Unidos,0.7621,0.0,0.7621,14
+1994,zinc,E3 Semimanufacturas,37376920.0,Estados Unidos,0.9864,0.0,0.9864,11
+1994,zinc,E4 Manufacturas,2722911.0,Estados Unidos,0.915,0.0,0.915,15
+1995,barita,E1 Crudo/molido,6854000.0,Estados Unidos,1.0,0.0,1.0,1
+1995,barita,E2 Quimicos de bario,4728000.0,Estados Unidos,0.9996,0.0,0.9996,2
+1995,cobre,E1 Mena/concentrado,20182000.0,Estados Unidos,1.0,0.0,1.0,1
+1995,cobre,E2 Metal en bruto/refinado,581942992.0,Estados Unidos,0.6312,0.0,0.6312,8
+1995,cobre,E3 Semimanufacturas,207421000.0,Estados Unidos,0.7795,0.0,0.7795,40
+1995,cobre,E4 Manufacturas,23368000.0,Estados Unidos,0.8955,0.0,0.8955,29
+1995,fluorita,E1 Espato fluor (crudo),23708000.0,Estados Unidos,0.3995,0.0,0.3995,12
+1995,fluorita,E2 Fluoroquimica,89756000.0,Estados Unidos,0.7034,0.0,0.7034,10
+1995,grafito,E1 Grafito natural,2264000.0,Estados Unidos,0.9881,0.0,0.9881,6
+1995,grafito,E2 Grafito artificial/prep.,17075000.0,Estados Unidos,0.9974,0.0,0.9974,8
+1995,grafito,E3 Electrodos/articulos de carbono,23514000.0,Estados Unidos,0.2809,0.0,0.2809,23
+1995,manganeso,E1 Mena/concentrado,9596000.0,Estados Unidos,0.3647,0.0,0.3647,13
+1995,manganeso,E2 Ferroaleaciones,31864000.0,Estados Unidos,0.8762,0.0,0.8762,13
+1995,manganeso,E3 Quimicos/metal,1771000.0,Indonesia,0.3286,0.0,0.2134,13
+1995,oro,E1 Mena/concentrado,13000.0,Estados Unidos,1.0,0.0,1.0,1
+1995,oro,E2 Bruto/semilabrado,138916000.0,Estados Unidos,0.8109,0.0,0.8109,3
+1995,oro-plata (manufacturas),E4 Joyeria/orfebreria,101540000.0,Estados Unidos,0.902,0.0,0.902,60
+1995,plata,E1 Mena/concentrado,6883000.0,Estados Unidos,1.0,0.0,1.0,1
+1995,plata,E2 Bruto/semilabrado,300763000.0,Estados Unidos,0.8235,0.0,0.8235,13
+1995,plomo,E1 Mena/concentrado,14708000.0,Suiza,0.4633,0.0,0.0517,4
+1995,plomo,E2 Metal en bruto/refinado,68577000.0,Estados Unidos,0.6307,0.0,0.6307,18
+1995,plomo,E3 Semimanufacturas,79000.0,Cuba,0.6456,0.0,0.3544,2
+1995,plomo,E4 Manufacturas,1493000.0,Estados Unidos,0.9605,0.0,0.9605,8
+1995,silice,E1 Arena silica/cuarzo,266000.0,Estados Unidos,0.6917,0.0,0.6917,7
+1995,silice,E2 Silicio/ferrosilicio/SiO2,682000.0,Estados Unidos,0.6745,0.0,0.6745,10
+1995,zinc,E1 Mena/concentrado,69328000.0,Suiza,0.2645,0.0,0.0583,9
+1995,zinc,E2 Metal en bruto/refinado,101060000.0,Estados Unidos,0.7904,0.0,0.7904,16
+1995,zinc,E3 Semimanufacturas,44670000.0,Estados Unidos,0.9869,0.0,0.9869,14
+1995,zinc,E4 Manufacturas,1442000.0,Estados Unidos,0.8266,0.0,0.8266,16
+1996,barita,E1 Crudo/molido,7762014.0,Estados Unidos,0.8934,0.0,0.8934,5
+1996,barita,E2 Quimicos de bario,5337880.0,Estados Unidos,0.9997,0.0,0.9997,3
+1996,cobre,E1 Mena/concentrado,15994984.0,China,0.5391,0.5391,0.2364,5
+1996,cobre,E2 Metal en bruto/refinado,394431420.0,Estados Unidos,0.5835,0.0,0.5835,15
+1996,cobre,E3 Semimanufacturas,201636893.0,Estados Unidos,0.7593,0.0,0.7593,47
+1996,cobre,E4 Manufacturas,37774019.0,Estados Unidos,0.9449,0.0004,0.9449,40
+1996,fluorita,E1 Espato fluor (crudo),20073116.0,Estados Unidos,0.3057,0.0,0.3057,18
+1996,fluorita,E2 Fluoroquimica,117694924.0,Estados Unidos,0.6735,0.0,0.6735,14
+1996,grafito,E1 Grafito natural,2075280.0,Estados Unidos,0.9548,0.0,0.9548,9
+1996,grafito,E2 Grafito artificial/prep.,23634821.0,Estados Unidos,0.9373,0.0,0.9373,11
+1996,grafito,E3 Electrodos/articulos de carbono,30584127.0,Estados Unidos,0.384,0.0,0.384,25
+1996,manganeso,E1 Mena/concentrado,4363511.0,Estados Unidos,0.6328,0.0,0.6328,11
+1996,manganeso,E2 Ferroaleaciones,38492952.0,Estados Unidos,0.9226,0.0,0.9226,14
+1996,manganeso,E3 Quimicos/metal,3379504.0,Singapur,0.3976,0.0,0.0179,17
+1996,oro,E1 Mena/concentrado,8439.0,Estados Unidos,1.0,0.0,1.0,1
+1996,oro,E2 Bruto/semilabrado,234996426.0,Estados Unidos,0.9066,0.0,0.9066,3
+1996,oro-plata (manufacturas),E4 Joyeria/orfebreria,162060650.0,Estados Unidos,0.8935,0.0,0.8935,62
+1996,plata,E1 Mena/concentrado,17565198.0,Estados Unidos,1.0,0.0,1.0,3
+1996,plata,E2 Bruto/semilabrado,327489363.0,Estados Unidos,0.4968,0.0,0.4968,15
+1996,plomo,E1 Mena/concentrado,14091348.0,Canada,0.529,0.0,0.3106,4
+1996,plomo,E2 Metal en bruto/refinado,63825757.0,Estados Unidos,0.6724,0.0,0.6724,18
+1996,plomo,E3 Semimanufacturas,2851419.0,Canada,0.9274,0.0,0.0076,6
+1996,plomo,E4 Manufacturas,1098677.0,Estados Unidos,0.9431,0.0,0.9431,7
+1996,silice,E1 Arena silica/cuarzo,241041.0,Estados Unidos,0.4954,0.0,0.4954,8
+1996,silice,E2 Silicio/ferrosilicio/SiO2,787171.0,Estados Unidos,0.2953,0.0,0.2953,12
+1996,zinc,E1 Mena/concentrado,57037051.0,socio_58,0.4659,0.0,0.0493,14
+1996,zinc,E2 Metal en bruto/refinado,80596763.0,Estados Unidos,0.8656,0.0,0.8656,15
+1996,zinc,E3 Semimanufacturas,40043533.0,Estados Unidos,0.9727,0.0,0.9727,11
+1996,zinc,E4 Manufacturas,978334.0,Estados Unidos,0.8264,0.0,0.8264,15
+1997,barita,E1 Crudo/molido,4439673.0,Estados Unidos,1.0,0.0,1.0,1
+1997,barita,E2 Quimicos de bario,8189142.0,Estados Unidos,1.0,0.0,1.0,2
+1997,cobre,E1 Mena/concentrado,18588479.0,Peru,0.5415,0.0,0.2055,4
+1997,cobre,E2 Metal en bruto/refinado,508233775.0,Estados Unidos,0.6553,0.0009,0.6553,18
+1997,cobre,E3 Semimanufacturas,144051408.0,Estados Unidos,0.8362,0.0,0.8362,44
+1997,cobre,E4 Manufacturas,72261511.0,Estados Unidos,0.9596,0.0,0.9596,40
+1997,fluorita,E1 Espato fluor (crudo),23322192.0,Canada,0.2634,0.0,0.232,15
+1997,fluorita,E2 Fluoroquimica,115420618.0,Estados Unidos,0.7221,0.0,0.7221,15
+1997,grafito,E1 Grafito natural,2299340.0,Estados Unidos,0.9377,0.0,0.9377,5
+1997,grafito,E2 Grafito artificial/prep.,17296612.0,Estados Unidos,0.852,0.0,0.852,12
+1997,grafito,E3 Electrodos/articulos de carbono,53374327.0,Estados Unidos,0.5539,0.0,0.5539,29
+1997,manganeso,E1 Mena/concentrado,6756622.0,Estados Unidos,0.8113,0.0,0.8113,12
+1997,manganeso,E2 Ferroaleaciones,50073153.0,Estados Unidos,0.878,0.0,0.878,13
+1997,manganeso,E3 Quimicos/metal,4913882.0,Singapur,0.3035,0.0,0.0543,18
+1997,oro,E1 Mena/concentrado,2865503.0,socio_58,0.5049,0.0,0.0108,4
+1997,oro,E2 Bruto/semilabrado,132110309.0,Estados Unidos,0.8793,0.0,0.8793,4
+1997,oro-plata (manufacturas),E4 Joyeria/orfebreria,262748071.0,Estados Unidos,0.9349,0.0,0.9349,62
+1997,plata,E1 Mena/concentrado,232354.0,Estados Unidos,1.0,0.0,1.0,1
+1997,plata,E2 Bruto/semilabrado,322043035.0,Estados Unidos,0.4463,0.0,0.4463,17
+1997,plomo,E1 Mena/concentrado,8020893.0,Canada,0.4929,0.0,0.048,6
+1997,plomo,E2 Metal en bruto/refinado,64738481.0,Estados Unidos,0.6662,0.0,0.6662,16
+1997,plomo,E3 Semimanufacturas,5500.0,Estados Unidos,0.9635,0.0,0.9635,2
+1997,plomo,E4 Manufacturas,1324887.0,Estados Unidos,0.8734,0.0,0.8734,8
+1997,silice,E1 Arena silica/cuarzo,271128.0,Estados Unidos,0.7758,0.0,0.7758,8
+1997,silice,E2 Silicio/ferrosilicio/SiO2,2184585.0,Estados Unidos,0.4314,0.0,0.4314,22
+1997,zinc,E1 Mena/concentrado,80546676.0,socio_58,0.4184,0.0,0.0547,12
+1997,zinc,E2 Metal en bruto/refinado,96024086.0,Estados Unidos,0.766,0.0,0.766,13
+1997,zinc,E3 Semimanufacturas,52258335.0,Estados Unidos,0.9887,0.0,0.9887,11
+1997,zinc,E4 Manufacturas,2913503.0,Estados Unidos,0.9316,0.0,0.9316,13
+1998,barita,E1 Crudo/molido,1469473.0,Estados Unidos,0.9821,0.0,0.9821,2
+1998,barita,E2 Quimicos de bario,7457958.0,Estados Unidos,0.9994,0.0,0.9994,2
+1998,cobre,E1 Mena/concentrado,25456433.0,Japon,0.6286,0.0611,0.0875,9
+1998,cobre,E2 Metal en bruto/refinado,474989613.0,Estados Unidos,0.9216,0.0,0.9216,17
+1998,cobre,E3 Semimanufacturas,184281114.0,Estados Unidos,0.8681,0.0042,0.8681,47
+1998,cobre,E4 Manufacturas,33740049.0,Estados Unidos,0.9593,0.0,0.9593,33
+1998,fluorita,E1 Espato fluor (crudo),25967668.0,Canada,0.3974,0.0,0.1481,17
+1998,fluorita,E2 Fluoroquimica,103997078.0,Estados Unidos,0.737,0.0,0.737,17
+1998,grafito,E1 Grafito natural,2571031.0,Estados Unidos,0.986,0.0,0.986,4
+1998,grafito,E2 Grafito artificial/prep.,12524260.0,Estados Unidos,0.5813,0.0,0.5813,12
+1998,grafito,E3 Electrodos/articulos de carbono,47022713.0,Estados Unidos,0.4842,0.0,0.4842,22
+1998,manganeso,E1 Mena/concentrado,5560749.0,Estados Unidos,0.4957,0.0,0.4957,17
+1998,manganeso,E2 Ferroaleaciones,45119421.0,Estados Unidos,0.8456,0.0,0.8456,14
+1998,manganeso,E3 Quimicos/metal,1281013.0,Espana,0.273,0.1069,0.2101,14
+1998,oro,E1 Mena/concentrado,5512786.0,socio_58,0.7971,0.0,0.0,3
+1998,oro,E2 Bruto/semilabrado,110741498.0,Estados Unidos,0.7728,0.0,0.7728,6
+1998,oro-plata (manufacturas),E4 Joyeria/orfebreria,316111214.0,Estados Unidos,0.9464,0.0,0.9464,65
+1998,plata,E1 Mena/concentrado,115848.0,Estados Unidos,1.0,0.0,1.0,1
+1998,plata,E2 Bruto/semilabrado,425559217.0,Estados Unidos,0.5626,0.0,0.5626,20
+1998,plomo,E1 Mena/concentrado,4415557.0,Canada,0.5992,0.0,0.0,3
+1998,plomo,E2 Metal en bruto/refinado,38417546.0,Estados Unidos,0.8584,0.0,0.8584,15
+1998,plomo,E3 Semimanufacturas,4183.0,Estados Unidos,0.9515,0.0,0.9515,2
+1998,plomo,E4 Manufacturas,1828299.0,Estados Unidos,0.7783,0.0,0.7783,10
+1998,silice,E1 Arena silica/cuarzo,282720.0,Estados Unidos,0.7127,0.0,0.7127,9
+1998,silice,E2 Silicio/ferrosilicio/SiO2,3758113.0,Estados Unidos,0.1689,0.0063,0.1689,25
+1998,zinc,E1 Mena/concentrado,71915377.0,socio_58,0.3698,0.0,0.1573,15
+1998,zinc,E2 Metal en bruto/refinado,74655631.0,Estados Unidos,0.7114,0.0,0.7114,13
+1998,zinc,E3 Semimanufacturas,35625229.0,Estados Unidos,0.9759,0.0,0.9759,11
+1998,zinc,E4 Manufacturas,2121948.0,Estados Unidos,0.9221,0.0,0.9221,13
+1999,barita,E1 Crudo/molido,1030666.0,Estados Unidos,1.0,0.0,1.0,1
+1999,barita,E2 Quimicos de bario,7066859.0,Estados Unidos,0.9954,0.0,0.9954,2
+1999,cobre,E1 Mena/concentrado,24479468.0,Peru,0.4051,0.0,0.0855,6
+1999,cobre,E2 Metal en bruto/refinado,259030924.0,Estados Unidos,0.9909,0.0,0.9909,10
+1999,cobre,E3 Semimanufacturas,266371158.0,Estados Unidos,0.9136,0.0001,0.9136,45
+1999,cobre,E4 Manufacturas,38697639.0,Estados Unidos,0.9123,0.0001,0.9123,41
+1999,fluorita,E1 Espato fluor (crudo),26503055.0,Estados Unidos,0.4384,0.0,0.4384,13
+1999,fluorita,E2 Fluoroquimica,104828957.0,Estados Unidos,0.7945,0.0,0.7945,11
+1999,grafito,E1 Grafito natural,2027221.0,Estados Unidos,0.981,0.0,0.981,4
+1999,grafito,E2 Grafito artificial/prep.,10503553.0,Suiza,0.7241,0.0,0.1997,15
+1999,grafito,E3 Electrodos/articulos de carbono,53012949.0,Suiza,0.4924,0.0,0.2278,21
+1999,manganeso,E1 Mena/concentrado,4223878.0,Estados Unidos,0.4723,0.0,0.4723,18
+1999,manganeso,E2 Ferroaleaciones,40979924.0,Estados Unidos,0.9063,0.0,0.9063,12
+1999,manganeso,E3 Quimicos/metal,1447625.0,Espana,0.6286,0.0,0.0463,9
+1999,oro,E1 Mena/concentrado,11399621.0,Reino Unido,0.4122,0.0,0.0,5
+1999,oro,E2 Bruto/semilabrado,91457362.0,Estados Unidos,0.6065,0.0,0.6065,6
+1999,oro-plata (manufacturas),E4 Joyeria/orfebreria,364566620.0,Estados Unidos,0.9599,0.0,0.9599,69
+1999,plata,E1 Mena/concentrado,69904.0,Estados Unidos,1.0,0.0,1.0,1
+1999,plata,E2 Bruto/semilabrado,398687564.0,Estados Unidos,0.6662,0.0,0.6662,21
+1999,plomo,E1 Mena/concentrado,19056014.0,Estados Unidos,0.3694,0.0145,0.3694,5
+1999,plomo,E2 Metal en bruto/refinado,14698477.0,Estados Unidos,0.8917,0.0,0.8917,11
+1999,plomo,E3 Semimanufacturas,2765085.0,Belgica,0.9882,0.0,0.0036,6
+1999,plomo,E4 Manufacturas,1465745.0,Estados Unidos,0.9405,0.0,0.9405,11
+1999,silice,E1 Arena silica/cuarzo,895176.0,Estados Unidos,0.9186,0.0,0.9186,8
+1999,silice,E2 Silicio/ferrosilicio/SiO2,5948237.0,Estados Unidos,0.3843,0.0,0.3843,22
+1999,zinc,E1 Mena/concentrado,75143565.0,Suiza,0.3603,0.0,0.2169,11
+1999,zinc,E2 Metal en bruto/refinado,91230556.0,Estados Unidos,0.7159,0.0,0.7159,14
+1999,zinc,E3 Semimanufacturas,41965875.0,Estados Unidos,0.9877,0.0,0.9877,11
+1999,zinc,E4 Manufacturas,4639034.0,Estados Unidos,0.9742,0.0027,0.9742,9
+2000,barita,E1 Crudo/molido,767826.0,Estados Unidos,0.593,0.0,0.593,3
+2000,barita,E2 Quimicos de bario,6493317.0,Estados Unidos,0.9996,0.0,0.9996,2
+2000,cobre,E1 Mena/concentrado,115701455.0,Estados Unidos,0.5181,0.0045,0.5181,8
+2000,cobre,E2 Metal en bruto/refinado,224508642.0,Estados Unidos,0.991,0.0,0.991,8
+2000,cobre,E3 Semimanufacturas,405534456.0,Estados Unidos,0.8816,0.0058,0.8816,43
+2000,cobre,E4 Manufacturas,47581051.0,Estados Unidos,0.9607,0.0,0.9607,34
+2000,fluorita,E1 Espato fluor (crudo),29324727.0,Canada,0.2823,0.0,0.1944,17
+2000,fluorita,E2 Fluoroquimica,112474431.0,Estados Unidos,0.8225,0.0,0.8225,15
+2000,grafito,E1 Grafito natural,2392258.0,Estados Unidos,0.8682,0.0058,0.8682,5
+2000,grafito,E2 Grafito artificial/prep.,12771199.0,Estados Unidos,0.6638,0.0,0.6638,10
+2000,grafito,E3 Electrodos/articulos de carbono,53957736.0,Estados Unidos,0.7846,0.0,0.7846,26
+2000,manganeso,E1 Mena/concentrado,3726255.0,Estados Unidos,0.352,0.0,0.352,20
+2000,manganeso,E2 Ferroaleaciones,47135944.0,Estados Unidos,0.7845,0.0,0.7845,18
+2000,manganeso,E3 Quimicos/metal,1953211.0,Espana,0.4427,0.0,0.2645,12
+2000,oro,E1 Mena/concentrado,5583174.0,Canada,0.3807,0.0,0.3447,4
+2000,oro,E2 Bruto/semilabrado,77883164.0,Estados Unidos,0.4565,0.0,0.4565,6
+2000,oro-plata (manufacturas),E4 Joyeria/orfebreria,354905469.0,Estados Unidos,0.9626,0.0,0.9626,62
+2000,plata,E1 Mena/concentrado,108222.0,Estados Unidos,1.0,0.0,1.0,1
+2000,plata,E2 Bruto/semilabrado,431696439.0,Estados Unidos,0.5782,0.0,0.5782,16
+2000,plomo,E1 Mena/concentrado,13009691.0,Canada,0.406,0.2695,0.1814,4
+2000,plomo,E2 Metal en bruto/refinado,10457702.0,Estados Unidos,0.9148,0.0,0.9148,11
+2000,plomo,E3 Semimanufacturas,50281.0,Estados Unidos,0.8941,0.0,0.8941,2
+2000,plomo,E4 Manufacturas,1329007.0,Estados Unidos,0.711,0.0,0.711,13
+2000,silice,E1 Arena silica/cuarzo,641074.0,Estados Unidos,0.8069,0.0,0.8069,9
+2000,silice,E2 Silicio/ferrosilicio/SiO2,7071376.0,Estados Unidos,0.2332,0.0,0.2332,18
+2000,zinc,E1 Mena/concentrado,77057234.0,Belgica,0.2504,0.0299,0.0726,17
+2000,zinc,E2 Metal en bruto/refinado,126606485.0,Estados Unidos,0.7729,0.0,0.7729,14
+2000,zinc,E3 Semimanufacturas,14230694.0,Estados Unidos,0.9884,0.0,0.9884,9
+2000,zinc,E4 Manufacturas,4177312.0,Estados Unidos,0.9236,0.0,0.9236,8
+2001,barita,E1 Crudo/molido,560838.0,Panama,0.8269,0.0,0.1252,5
+2001,barita,E2 Quimicos de bario,4674324.0,Estados Unidos,0.9974,0.0,0.9974,2
+2001,cobre,E1 Mena/concentrado,39768255.0,Peru,0.3132,0.0878,0.0674,8
+2001,cobre,E2 Metal en bruto/refinado,292886149.0,Estados Unidos,0.9961,0.0015,0.9961,8
+2001,cobre,E3 Semimanufacturas,324181483.0,Estados Unidos,0.9105,0.0005,0.9105,51
+2001,cobre,E4 Manufacturas,50060449.0,Estados Unidos,0.954,0.0001,0.954,36
+2001,fluorita,E1 Espato fluor (crudo),29491564.0,Canada,0.254,0.0,0.1877,19
+2001,fluorita,E2 Fluoroquimica,98878508.0,Estados Unidos,0.8111,0.0,0.8111,13
+2001,grafito,E1 Grafito natural,2331722.0,Estados Unidos,0.8384,0.0,0.8384,6
+2001,grafito,E2 Grafito artificial/prep.,15626905.0,Estados Unidos,0.4887,0.0,0.4887,14
+2001,grafito,E3 Electrodos/articulos de carbono,51324785.0,Estados Unidos,0.8045,0.0021,0.8045,27
+2001,manganeso,E1 Mena/concentrado,1983995.0,Estados Unidos,0.34,0.0,0.34,17
+2001,manganeso,E2 Ferroaleaciones,28958764.0,Estados Unidos,0.7007,0.0,0.7007,18
+2001,manganeso,E3 Quimicos/metal,2827867.0,Paises Bajos,0.2805,0.0,0.2755,13
+2001,oro,E2 Bruto/semilabrado,54645214.0,Estados Unidos,0.7042,0.0,0.7042,4
+2001,oro-plata (manufacturas),E4 Joyeria/orfebreria,324190068.0,Estados Unidos,0.9529,0.0001,0.9529,63
+2001,plata,E2 Bruto/semilabrado,357431843.0,Estados Unidos,0.6153,0.0,0.6153,18
+2001,plomo,E1 Mena/concentrado,3044231.0,Belgica,0.533,0.4651,0.0019,3
+2001,plomo,E2 Metal en bruto/refinado,9841842.0,Estados Unidos,0.5999,0.1229,0.5999,7
+2001,plomo,E3 Semimanufacturas,59948.0,Estados Unidos,0.9409,0.0,0.9409,3
+2001,plomo,E4 Manufacturas,769632.0,Estados Unidos,0.749,0.0,0.749,10
+2001,silice,E1 Arena silica/cuarzo,625211.0,Estados Unidos,0.6789,0.0,0.6789,11
+2001,silice,E2 Silicio/ferrosilicio/SiO2,7518561.0,Canada,0.3287,0.0,0.1299,20
+2001,zinc,E1 Mena/concentrado,57019713.0,Japon,0.3862,0.1431,0.0697,9
+2001,zinc,E2 Metal en bruto/refinado,146840871.0,Estados Unidos,0.8216,0.0,0.8216,16
+2001,zinc,E3 Semimanufacturas,16308435.0,Estados Unidos,0.9797,0.0,0.9797,7
+2001,zinc,E4 Manufacturas,5068460.0,Estados Unidos,0.9616,0.0,0.9616,9
+2002,barita,E1 Crudo/molido,295067.0,Cuba,0.7158,0.0,0.0284,6
+2002,barita,E2 Quimicos de bario,1102191.0,Estados Unidos,0.9964,0.0,0.9964,2
+2002,cobre,E1 Mena/concentrado,48017012.0,Peru,0.4224,0.2836,0.0,9
+2002,cobre,E2 Metal en bruto/refinado,149454604.0,Estados Unidos,0.8989,0.0039,0.8989,10
+2002,cobre,E3 Semimanufacturas,231802524.0,Estados Unidos,0.8919,0.0013,0.8919,48
+2002,cobre,E4 Manufacturas,45013842.0,Estados Unidos,0.876,0.0,0.876,32
+2002,fluorita,E1 Espato fluor (crudo),29185599.0,Canada,0.2894,0.0,0.2114,15
+2002,fluorita,E2 Fluoroquimica,100848531.0,Estados Unidos,0.8285,0.0,0.8285,12
+2002,grafito,E1 Grafito natural,1540744.0,Estados Unidos,0.7353,0.0,0.7353,8
+2002,grafito,E2 Grafito artificial/prep.,14493558.0,Estados Unidos,0.5491,0.0,0.5491,9
+2002,grafito,E3 Electrodos/articulos de carbono,73026697.0,Estados Unidos,0.8898,0.0,0.8898,31
+2002,manganeso,E1 Mena/concentrado,2499186.0,Indonesia,0.2677,0.0,0.189,18
+2002,manganeso,E2 Ferroaleaciones,14871798.0,Estados Unidos,0.6717,0.0,0.6717,18
+2002,manganeso,E3 Quimicos/metal,1654855.0,Paises Bajos,0.2543,0.0,0.0397,14
+2002,oro,E2 Bruto/semilabrado,80204403.0,Estados Unidos,0.8779,0.0,0.8779,5
+2002,oro-plata (manufacturas),E4 Joyeria/orfebreria,337614943.0,Estados Unidos,0.9586,0.0002,0.9586,56
+2002,plata,E1 Mena/concentrado,628644.0,Suiza,0.9833,0.0,0.0167,2
+2002,plata,E2 Bruto/semilabrado,531368930.0,Estados Unidos,0.8906,0.0,0.8906,14
+2002,plomo,E1 Mena/concentrado,690361.0,China,0.6408,0.6408,0.0,2
+2002,plomo,E2 Metal en bruto/refinado,5307047.0,Estados Unidos,0.7693,0.0,0.7693,8
+2002,plomo,E3 Semimanufacturas,167820.0,Cuba,0.8889,0.0,0.0981,4
+2002,plomo,E4 Manufacturas,669643.0,Estados Unidos,0.7101,0.0,0.7101,11
+2002,silice,E1 Arena silica/cuarzo,339074.0,Estados Unidos,0.4596,0.0,0.4596,9
+2002,silice,E2 Silicio/ferrosilicio/SiO2,5684154.0,Estados Unidos,0.5791,0.0,0.5791,17
+2002,zinc,E1 Mena/concentrado,54149930.0,Canada,0.2796,0.1744,0.0788,12
+2002,zinc,E2 Metal en bruto/refinado,140721783.0,Estados Unidos,0.845,0.0,0.845,15
+2002,zinc,E3 Semimanufacturas,497806.0,Estados Unidos,0.5042,0.0,0.5042,6
+2002,zinc,E4 Manufacturas,20310677.0,Estados Unidos,0.9614,0.0,0.9614,13
+2003,barita,E1 Crudo/molido,158568.0,Estados Unidos,0.5836,0.0,0.5836,2
+2003,barita,E2 Quimicos de bario,2856761.0,Estados Unidos,0.9994,0.0,0.9994,2
+2003,cobre,E1 Mena/concentrado,55865611.0,China,0.4544,0.4544,0.1368,8
+2003,cobre,E2 Metal en bruto/refinado,95820988.0,Estados Unidos,0.9111,0.0805,0.9111,7
+2003,cobre,E3 Semimanufacturas,231848154.0,Estados Unidos,0.8106,0.0272,0.8106,48
+2003,cobre,E4 Manufacturas,36465117.0,Estados Unidos,0.9647,0.0005,0.9647,32
+2003,fluorita,E1 Espato fluor (crudo),39306023.0,Canada,0.2615,0.0,0.2338,22
+2003,fluorita,E2 Fluoroquimica,94480357.0,Estados Unidos,0.7879,0.0004,0.7879,15
+2003,grafito,E1 Grafito natural,1493698.0,Estados Unidos,0.8208,0.0,0.8208,3
+2003,grafito,E2 Grafito artificial/prep.,10553422.0,Belgica,0.5596,0.0009,0.1149,13
+2003,grafito,E3 Electrodos/articulos de carbono,108394185.0,Estados Unidos,0.8939,0.0,0.8939,24
+2003,manganeso,E1 Mena/concentrado,2311065.0,Guatemala,0.1788,0.0,0.1373,13
+2003,manganeso,E2 Ferroaleaciones,23184846.0,Estados Unidos,0.7436,0.0,0.7436,19
+2003,manganeso,E3 Quimicos/metal,973944.0,Paises Bajos,0.3358,0.0,0.1279,7
+2003,oro,E2 Bruto/semilabrado,156753172.0,Estados Unidos,0.733,0.0,0.733,7
+2003,oro-plata (manufacturas),E4 Joyeria/orfebreria,363424846.0,Estados Unidos,0.9543,0.0001,0.9543,60
+2003,plata,E1 Mena/concentrado,879148.0,Suiza,0.9722,0.0,0.0278,2
+2003,plata,E2 Bruto/semilabrado,511538513.0,Estados Unidos,0.867,0.0,0.867,13
+2003,plomo,E1 Mena/concentrado,11557733.0,Japon,0.6644,0.0059,0.0,3
+2003,plomo,E2 Metal en bruto/refinado,6707125.0,Estados Unidos,0.5953,0.0,0.5953,8
+2003,plomo,E3 Semimanufacturas,110449.0,Cuba,0.9116,0.0,0.0,3
+2003,plomo,E4 Manufacturas,721839.0,Estados Unidos,0.6855,0.0,0.6855,14
+2003,silice,E1 Arena silica/cuarzo,339166.0,Guatemala,0.5021,0.0,0.3673,8
+2003,silice,E2 Silicio/ferrosilicio/SiO2,5099616.0,Estados Unidos,0.7233,0.0,0.7233,17
+2003,zinc,E1 Mena/concentrado,54195655.0,Canada,0.337,0.0813,0.1016,12
+2003,zinc,E2 Metal en bruto/refinado,164691470.0,Estados Unidos,0.8255,0.0,0.8255,13
+2003,zinc,E3 Semimanufacturas,490938.0,Estados Unidos,0.6488,0.0,0.6488,3
+2003,zinc,E4 Manufacturas,15257973.0,Estados Unidos,0.9794,0.0,0.9794,9
+2004,barita,E1 Crudo/molido,329427.0,Uruguay,0.5637,0.0,0.1274,3
+2004,barita,E2 Quimicos de bario,1923072.0,Estados Unidos,0.9977,0.0,0.9977,2
+2004,cobre,E1 Mena/concentrado,142696018.0,Suiza,0.383,0.3414,0.2223,9
+2004,cobre,E2 Metal en bruto/refinado,180404616.0,Estados Unidos,0.8615,0.078,0.8615,14
+2004,cobre,E3 Semimanufacturas,386745985.0,Estados Unidos,0.8588,0.0004,0.8588,40
+2004,cobre,E4 Manufacturas,19801435.0,Estados Unidos,0.9441,0.0022,0.9441,30
+2004,fluorita,E1 Espato fluor (crudo),49277614.0,Estados Unidos,0.4091,0.0,0.4091,16
+2004,fluorita,E2 Fluoroquimica,87079015.0,Estados Unidos,0.8635,0.0,0.8635,9
+2004,grafito,E1 Grafito natural,2862457.0,Estados Unidos,0.897,0.0,0.897,8
+2004,grafito,E2 Grafito artificial/prep.,11097371.0,Suiza,0.8128,0.0,0.1393,10
+2004,grafito,E3 Electrodos/articulos de carbono,82879316.0,Suiza,0.8091,0.0,0.1666,22
+2004,manganeso,E1 Mena/concentrado,2135077.0,Estados Unidos,0.4492,0.0,0.4492,14
+2004,manganeso,E2 Ferroaleaciones,30747282.0,Estados Unidos,0.8758,0.0,0.8758,13
+2004,manganeso,E3 Quimicos/metal,1903742.0,Hong Kong,0.6657,0.0,0.128,6
+2004,oro,E1 Mena/concentrado,18333.0,Estados Unidos,1.0,0.0,1.0,1
+2004,oro,E2 Bruto/semilabrado,154192536.0,Estados Unidos,0.7619,0.0,0.7619,6
+2004,oro-plata (manufacturas),E4 Joyeria/orfebreria,545999372.0,Estados Unidos,0.95,0.0001,0.95,62
+2004,plata,E1 Mena/concentrado,858138.0,Suiza,0.9436,0.0,0.0564,2
+2004,plata,E2 Bruto/semilabrado,680423986.0,Estados Unidos,0.8871,0.0,0.8871,16
+2004,plomo,E1 Mena/concentrado,15726602.0,Suiza,0.6705,0.0,0.0,7
+2004,plomo,E2 Metal en bruto/refinado,7375338.0,Estados Unidos,0.7061,0.0,0.7061,8
+2004,plomo,E3 Semimanufacturas,107554.0,Cuba,0.7894,0.0,0.1852,3
+2004,plomo,E4 Manufacturas,653049.0,Estados Unidos,0.6183,0.0,0.6183,10
+2004,silice,E1 Arena silica/cuarzo,1346939.0,Estados Unidos,0.8779,0.0,0.8779,7
+2004,silice,E2 Silicio/ferrosilicio/SiO2,8423942.0,Estados Unidos,0.6336,0.0,0.6336,17
+2004,zinc,E1 Mena/concentrado,53150900.0,Francia,0.379,0.0002,0.0487,13
+2004,zinc,E2 Metal en bruto/refinado,215091995.0,Estados Unidos,0.7692,0.0,0.7692,20
+2004,zinc,E3 Semimanufacturas,274762.0,Cuba,0.3396,0.0,0.3385,4
+2004,zinc,E4 Manufacturas,12609814.0,Estados Unidos,0.995,0.0,0.995,12
+2005,barita,E1 Crudo/molido,1260125.0,Venezuela,0.5185,0.0,0.0705,4
+2005,barita,E2 Quimicos de bario,340427.0,Estados Unidos,0.992,0.0,0.992,3
+2005,cobre,E1 Mena/concentrado,89827731.0,China,0.4585,0.4585,0.0051,9
+2005,cobre,E2 Metal en bruto/refinado,279220725.0,Estados Unidos,0.4023,0.1864,0.4023,20
+2005,cobre,E3 Semimanufacturas,596649067.0,Estados Unidos,0.8607,0.0002,0.8607,62
+2005,cobre,E4 Manufacturas,23245383.0,Estados Unidos,0.9343,0.0021,0.9343,56
+2005,fluorita,E1 Espato fluor (crudo),54291105.0,Canada,0.2286,0.0,0.2154,23
+2005,fluorita,E2 Fluoroquimica,102742390.0,Estados Unidos,0.8335,0.0,0.8335,19
+2005,grafito,E1 Grafito natural,2735828.0,Estados Unidos,0.8387,0.0,0.8387,6
+2005,grafito,E2 Grafito artificial/prep.,8875480.0,Francia,0.4618,0.0,0.2415,20
+2005,grafito,E3 Electrodos/articulos de carbono,73886119.0,Estados Unidos,0.8669,0.0053,0.8669,38
+2005,manganeso,E1 Mena/concentrado,2686754.0,Estados Unidos,0.3829,0.0,0.3829,15
+2005,manganeso,E2 Ferroaleaciones,54497075.0,Estados Unidos,0.7844,0.0,0.7844,25
+2005,manganeso,E3 Quimicos/metal,2652669.0,Paises Bajos,0.4415,0.0,0.1367,12
+2005,oro,E1 Mena/concentrado,9872.0,Estados Unidos,0.9994,0.0,0.9994,2
+2005,oro,E2 Bruto/semilabrado,305410948.0,Estados Unidos,0.8959,0.0,0.8959,10
+2005,oro-plata (manufacturas),E4 Joyeria/orfebreria,588220322.0,Estados Unidos,0.9495,0.0,0.9495,76
+2005,plata,E1 Mena/concentrado,651918.0,Suiza,0.962,0.0,0.0002,4
+2005,plata,E2 Bruto/semilabrado,711743512.0,Estados Unidos,0.8301,0.0139,0.8301,23
+2005,plomo,E1 Mena/concentrado,2012224.0,Peru,0.7173,0.2145,0.0,4
+2005,plomo,E2 Metal en bruto/refinado,17596753.0,Estados Unidos,0.6898,0.0035,0.6898,12
+2005,plomo,E3 Semimanufacturas,248339.0,Estados Unidos,0.8959,0.0,0.8959,4
+2005,plomo,E4 Manufacturas,920368.0,Estados Unidos,0.5266,0.0,0.5266,14
+2005,silice,E1 Arena silica/cuarzo,1273196.0,Estados Unidos,0.8973,0.0001,0.8973,18
+2005,silice,E2 Silicio/ferrosilicio/SiO2,8490176.0,Estados Unidos,0.7182,0.0032,0.7182,24
+2005,zinc,E1 Mena/concentrado,104375797.0,Japon,0.2477,0.0449,0.1585,18
+2005,zinc,E2 Metal en bruto/refinado,285217586.0,Estados Unidos,0.8262,0.0,0.8262,18
+2005,zinc,E3 Semimanufacturas,1217878.0,Estados Unidos,0.5771,0.0347,0.5771,12
+2005,zinc,E4 Manufacturas,15185875.0,Estados Unidos,0.8061,0.1724,0.8061,27
+2006,barita,E1 Crudo/molido,1879184.0,Cuba,0.7711,0.0,0.1091,5
+2006,barita,E2 Quimicos de bario,459.0,Cuba,0.8606,0.0,0.0305,3
+2006,cobre,E1 Mena/concentrado,146021267.0,China,0.4394,0.4394,0.0,8
+2006,cobre,E2 Metal en bruto/refinado,597853304.0,Estados Unidos,0.2884,0.2385,0.2884,22
+2006,cobre,E3 Semimanufacturas,812347435.0,Estados Unidos,0.864,0.0001,0.864,61
+2006,cobre,E4 Manufacturas,31650642.0,Estados Unidos,0.9519,0.0006,0.9519,56
+2006,fluorita,E1 Espato fluor (crudo),58580333.0,Estados Unidos,0.2591,0.0,0.2591,23
+2006,fluorita,E2 Fluoroquimica,120974203.0,Estados Unidos,0.9,0.0,0.9,15
+2006,grafito,E1 Grafito natural,4131235.0,Estados Unidos,0.576,0.0,0.576,5
+2006,grafito,E2 Grafito artificial/prep.,6787108.0,Brasil,0.4157,0.0,0.3751,23
+2006,grafito,E3 Electrodos/articulos de carbono,102220223.0,Estados Unidos,0.7255,0.0059,0.7255,48
+2006,manganeso,E1 Mena/concentrado,2469130.0,Estados Unidos,0.3607,0.0,0.3607,13
+2006,manganeso,E2 Ferroaleaciones,38766932.0,Estados Unidos,0.7244,0.0,0.7244,23
+2006,manganeso,E3 Quimicos/metal,2820354.0,Paises Bajos,0.2507,0.0,0.2303,12
+2006,oro,E2 Bruto/semilabrado,1037584610.0,Estados Unidos,0.942,0.0,0.942,9
+2006,oro-plata (manufacturas),E4 Joyeria/orfebreria,587666245.0,Estados Unidos,0.927,0.0,0.927,73
+2006,plata,E1 Mena/concentrado,1354484.0,Peru,0.5101,0.0,0.0,2
+2006,plata,E2 Bruto/semilabrado,1223635743.0,Estados Unidos,0.8475,0.0,0.8475,20
+2006,plomo,E1 Mena/concentrado,10780188.0,China,0.8458,0.8458,0.0,5
+2006,plomo,E2 Metal en bruto/refinado,24505218.0,Estados Unidos,0.5682,0.0,0.5682,11
+2006,plomo,E3 Semimanufacturas,2446445.0,Estados Unidos,0.9784,0.0,0.9784,4
+2006,plomo,E4 Manufacturas,1140310.0,Estados Unidos,0.3909,0.0,0.3909,15
+2006,silice,E1 Arena silica/cuarzo,7263670.0,Rep. Dominicana,0.767,0.0,0.1916,20
+2006,silice,E2 Silicio/ferrosilicio/SiO2,11867167.0,Estados Unidos,0.9006,0.0,0.9006,19
+2006,zinc,E1 Mena/concentrado,305744554.0,Corea del Sur,0.2182,0.1003,0.07,15
+2006,zinc,E2 Metal en bruto/refinado,538598277.0,Estados Unidos,0.8015,0.0025,0.8015,15
+2006,zinc,E3 Semimanufacturas,2179434.0,Estados Unidos,0.6226,0.0163,0.6226,9
+2006,zinc,E4 Manufacturas,12141397.0,Estados Unidos,0.9912,0.0002,0.9912,29
+2007,barita,E1 Crudo/molido,1316217.0,Cuba,0.8476,0.0,0.0827,5
+2007,barita,E2 Quimicos de bario,34122.0,El Salvador,0.8341,0.0,0.1407,4
+2007,cobre,E1 Mena/concentrado,267223083.0,China,0.5806,0.5806,0.0,9
+2007,cobre,E2 Metal en bruto/refinado,774963219.0,Estados Unidos,0.6289,0.0892,0.6289,18
+2007,cobre,E3 Semimanufacturas,900602289.0,Estados Unidos,0.8443,0.0008,0.8443,64
+2007,cobre,E4 Manufacturas,30825095.0,Estados Unidos,0.9181,0.001,0.9181,59
+2007,fluorita,E1 Espato fluor (crudo),79398700.0,Estados Unidos,0.4624,0.0,0.4624,26
+2007,fluorita,E2 Fluoroquimica,127175772.0,Estados Unidos,0.9742,0.0,0.9742,14
+2007,grafito,E1 Grafito natural,3148939.0,Estados Unidos,0.5438,0.0,0.5438,5
+2007,grafito,E2 Grafito artificial/prep.,8689236.0,Estados Unidos,0.4541,0.0016,0.4541,26
+2007,grafito,E3 Electrodos/articulos de carbono,109728960.0,Estados Unidos,0.5344,0.0199,0.5344,46
+2007,manganeso,E1 Mena/concentrado,8986533.0,China,0.4053,0.4053,0.0792,17
+2007,manganeso,E2 Ferroaleaciones,43187307.0,Estados Unidos,0.5796,0.0,0.5796,23
+2007,manganeso,E3 Quimicos/metal,3387359.0,Hong Kong,0.3898,0.0,0.3233,13
+2007,oro,E1 Mena/concentrado,13935741.0,China,1.0,1.0,0.0,1
+2007,oro,E2 Bruto/semilabrado,1567465935.0,Estados Unidos,0.4898,0.0,0.4898,15
+2007,oro-plata (manufacturas),E4 Joyeria/orfebreria,582007725.0,Estados Unidos,0.8873,0.0,0.8873,68
+2007,plata,E1 Mena/concentrado,2065035.0,Estados Unidos,0.5544,0.0,0.5544,2
+2007,plata,E2 Bruto/semilabrado,1418217799.0,Estados Unidos,0.8896,0.0,0.8896,21
+2007,plomo,E1 Mena/concentrado,43483993.0,China,0.7207,0.7207,0.0,9
+2007,plomo,E2 Metal en bruto/refinado,94064529.0,Estados Unidos,0.6619,0.0,0.6619,17
+2007,plomo,E3 Semimanufacturas,2026975.0,Corea del Sur,0.7651,0.0,0.2158,3
+2007,plomo,E4 Manufacturas,21308929.0,Estados Unidos,0.7347,0.0,0.7347,18
+2007,silice,E1 Arena silica/cuarzo,1563805.0,Estados Unidos,0.8593,0.0,0.8593,21
+2007,silice,E2 Silicio/ferrosilicio/SiO2,12117116.0,Estados Unidos,0.8726,0.0,0.8726,25
+2007,zinc,E1 Mena/concentrado,236420656.0,Corea del Sur,0.3457,0.1834,0.0291,16
+2007,zinc,E2 Metal en bruto/refinado,737160452.0,Estados Unidos,0.5341,0.0005,0.5341,24
+2007,zinc,E3 Semimanufacturas,2276190.0,Estados Unidos,0.3972,0.0209,0.3972,12
+2007,zinc,E4 Manufacturas,20374019.0,Estados Unidos,0.8904,0.0003,0.8904,32
+2008,barita,E1 Crudo/molido,3232802.0,Estados Unidos,0.6085,0.0,0.6085,3
+2008,barita,E2 Quimicos de bario,19991.0,El Salvador,0.4746,0.0,0.2935,6
+2008,cobre,E1 Mena/concentrado,327348222.0,China,0.8088,0.8088,0.0,9
+2008,cobre,E2 Metal en bruto/refinado,573131718.0,Estados Unidos,0.4181,0.2452,0.4181,24
+2008,cobre,E3 Semimanufacturas,821019420.0,Estados Unidos,0.8212,0.0001,0.8212,63
+2008,cobre,E4 Manufacturas,37766933.0,Estados Unidos,0.9245,0.0022,0.9245,63
+2008,fluorita,E1 Espato fluor (crudo),96728605.0,Estados Unidos,0.4574,0.0,0.4574,31
+2008,fluorita,E2 Fluoroquimica,120119534.0,Estados Unidos,0.9769,0.0,0.9769,17
+2008,grafito,E1 Grafito natural,3017760.0,Estados Unidos,0.6978,0.0,0.6978,6
+2008,grafito,E2 Grafito artificial/prep.,14393175.0,Estados Unidos,0.5235,0.0,0.5235,23
+2008,grafito,E3 Electrodos/articulos de carbono,128018129.0,Estados Unidos,0.6014,0.0302,0.6014,43
+2008,manganeso,E1 Mena/concentrado,9138991.0,Venezuela,0.4807,0.1939,0.0762,20
+2008,manganeso,E2 Ferroaleaciones,42530266.0,Italia,0.1665,0.0,0.0491,27
+2008,manganeso,E3 Quimicos/metal,4786457.0,Estados Unidos,0.5429,0.0,0.5429,11
+2008,oro,E1 Mena/concentrado,16765160.0,Peru,0.6462,0.316,0.0,4
+2008,oro,E2 Bruto/semilabrado,2661466570.0,Estados Unidos,0.5461,0.0,0.5461,16
+2008,oro-plata (manufacturas),E4 Joyeria/orfebreria,519809584.0,Estados Unidos,0.7549,0.0,0.7549,68
+2008,plata,E1 Mena/concentrado,16080340.0,Estados Unidos,0.9604,0.0,0.9604,3
+2008,plata,E2 Bruto/semilabrado,1737248383.0,Estados Unidos,0.8107,0.0,0.8107,20
+2008,plomo,E1 Mena/concentrado,62018437.0,China,0.9061,0.9061,0.0167,7
+2008,plomo,E2 Metal en bruto/refinado,158658901.0,Estados Unidos,0.6416,0.0044,0.6416,22
+2008,plomo,E3 Semimanufacturas,233489.0,Estados Unidos,0.6996,0.0,0.6996,5
+2008,plomo,E4 Manufacturas,32200411.0,Estados Unidos,0.738,0.0255,0.738,22
+2008,silice,E1 Arena silica/cuarzo,1272115.0,Estados Unidos,0.8085,0.0001,0.8085,20
+2008,silice,E2 Silicio/ferrosilicio/SiO2,14899987.0,Estados Unidos,0.7676,0.0,0.7676,26
+2008,zinc,E1 Mena/concentrado,105236361.0,China,0.6017,0.6017,0.041,13
+2008,zinc,E2 Metal en bruto/refinado,421855000.0,Estados Unidos,0.4097,0.0008,0.4097,30
+2008,zinc,E3 Semimanufacturas,1995417.0,Estados Unidos,0.5201,0.0001,0.5201,9
+2008,zinc,E4 Manufacturas,21246402.0,Estados Unidos,0.8373,0.0,0.8373,32
+2009,barita,E1 Crudo/molido,1255779.0,Estados Unidos,0.6642,0.0,0.6642,4
+2009,barita,E2 Quimicos de bario,7664.0,Cuba,0.9859,0.0,0.0033,3
+2009,cobre,E1 Mena/concentrado,288865844.0,China,0.9164,0.9164,0.0,9
+2009,cobre,E2 Metal en bruto/refinado,446382053.0,Estados Unidos,0.5339,0.3186,0.5339,20
+2009,cobre,E3 Semimanufacturas,450229868.0,Estados Unidos,0.8259,0.0013,0.8259,69
+2009,cobre,E4 Manufacturas,38585663.0,Estados Unidos,0.689,0.0009,0.689,61
+2009,fluorita,E1 Espato fluor (crudo),91735772.0,Estados Unidos,0.518,0.0,0.518,24
+2009,fluorita,E2 Fluoroquimica,121358487.0,Estados Unidos,0.9539,0.0,0.9539,15
+2009,grafito,E1 Grafito natural,2441001.0,Estados Unidos,0.6437,0.0,0.6437,6
+2009,grafito,E2 Grafito artificial/prep.,3789945.0,Estados Unidos,0.642,0.0,0.642,21
+2009,grafito,E3 Electrodos/articulos de carbono,55119611.0,Estados Unidos,0.5543,0.0346,0.5543,49
+2009,manganeso,E1 Mena/concentrado,8789243.0,China,0.6167,0.6167,0.0568,11
+2009,manganeso,E2 Ferroaleaciones,38866109.0,Estados Unidos,0.3999,0.0,0.3999,23
+2009,manganeso,E3 Quimicos/metal,2220328.0,Estados Unidos,0.598,0.1058,0.598,9
+2009,oro,E1 Mena/concentrado,50219852.0,Belgica,0.8068,0.1493,0.0011,6
+2009,oro,E2 Bruto/semilabrado,4003673710.0,Estados Unidos,0.7383,0.0,0.7383,14
+2009,oro-plata (manufacturas),E4 Joyeria/orfebreria,519393726.0,Estados Unidos,0.8747,0.0,0.8747,67
+2009,plata,E1 Mena/concentrado,30246554.0,Estados Unidos,0.9852,0.0015,0.9852,3
+2009,plata,E2 Bruto/semilabrado,1409667143.0,Estados Unidos,0.8597,0.0,0.8597,25
+2009,plomo,E1 Mena/concentrado,160425797.0,China,0.6396,0.6396,0.0,9
+2009,plomo,E2 Metal en bruto/refinado,267855695.0,Corea del Sur,0.2789,0.0131,0.2354,29
+2009,plomo,E3 Semimanufacturas,16347.0,El Salvador,0.7632,0.0,0.0264,5
+2009,plomo,E4 Manufacturas,12522638.0,Estados Unidos,0.9035,0.0,0.9035,21
+2009,silice,E1 Arena silica/cuarzo,1000043.0,Estados Unidos,0.6503,0.0,0.6503,22
+2009,silice,E2 Silicio/ferrosilicio/SiO2,3999360.0,Estados Unidos,0.6174,0.0004,0.6174,20
+2009,zinc,E1 Mena/concentrado,136594996.0,Corea del Sur,0.4387,0.2963,0.019,14
+2009,zinc,E2 Metal en bruto/refinado,375278535.0,Estados Unidos,0.3646,0.0556,0.3646,36
+2009,zinc,E3 Semimanufacturas,2420267.0,Estados Unidos,0.4832,0.0,0.4832,11
+2009,zinc,E4 Manufacturas,19054215.0,Estados Unidos,0.8356,0.0,0.8356,34
+2010,barita,E1 Crudo/molido,1827686.0,Estados Unidos,0.8964,0.0,0.8964,3
+2010,barita,E2 Quimicos de bario,58602.0,Colombia,0.9857,0.0,0.0,5
+2010,cobre,E1 Mena/concentrado,684848560.0,China,0.8926,0.8926,0.0001,8
+2010,cobre,E2 Metal en bruto/refinado,633539739.0,Estados Unidos,0.3932,0.2784,0.3932,29
+2010,cobre,E3 Semimanufacturas,586278000.0,Estados Unidos,0.7951,0.0128,0.7951,59
+2010,cobre,E4 Manufacturas,146643411.0,China,0.2888,0.2888,0.2643,63
+2010,fluorita,E1 Espato fluor (crudo),117263814.0,Estados Unidos,0.4292,0.0,0.4292,36
+2010,fluorita,E2 Fluoroquimica,184318976.0,Estados Unidos,0.8833,0.0,0.8833,20
+2010,grafito,E1 Grafito natural,2947104.0,Estados Unidos,0.9562,0.0,0.9562,6
+2010,grafito,E2 Grafito artificial/prep.,13450836.0,Estados Unidos,0.4769,0.0,0.4769,23
+2010,grafito,E3 Electrodos/articulos de carbono,131480215.0,Estados Unidos,0.6487,0.0233,0.6487,42
+2010,manganeso,E1 Mena/concentrado,12943004.0,China,0.6793,0.6793,0.0541,13
+2010,manganeso,E2 Ferroaleaciones,114921785.0,Estados Unidos,0.5511,0.0023,0.5511,23
+2010,manganeso,E3 Quimicos/metal,2305754.0,Estados Unidos,0.801,0.0,0.801,14
+2010,oro,E1 Mena/concentrado,18554929.0,China,0.5993,0.5993,0.0017,5
+2010,oro,E2 Bruto/semilabrado,5753285176.0,Estados Unidos,0.699,0.0,0.699,12
+2010,oro-plata (manufacturas),E4 Joyeria/orfebreria,626850851.0,Estados Unidos,0.8671,0.0,0.8671,62
+2010,plata,E1 Mena/concentrado,57836501.0,Estados Unidos,0.9844,0.0026,0.9844,4
+2010,plata,E2 Bruto/semilabrado,2542827791.0,Estados Unidos,0.8544,0.0,0.8544,25
+2010,plomo,E1 Mena/concentrado,252462298.0,China,0.581,0.581,0.0,8
+2010,plomo,E2 Metal en bruto/refinado,227650816.0,Brasil,0.3868,0.0564,0.224,23
+2010,plomo,E3 Semimanufacturas,541526.0,socio_699,0.9051,0.0,0.0596,4
+2010,plomo,E4 Manufacturas,19208890.0,Estados Unidos,0.9395,0.0,0.9395,21
+2010,silice,E1 Arena silica/cuarzo,1454082.0,Estados Unidos,0.8124,0.0,0.8124,22
+2010,silice,E2 Silicio/ferrosilicio/SiO2,3059973.0,Estados Unidos,0.5621,0.0,0.5621,30
+2010,zinc,E1 Mena/concentrado,328503291.0,Corea del Sur,0.5182,0.0944,0.0011,15
+2010,zinc,E2 Metal en bruto/refinado,456832840.0,Estados Unidos,0.4029,0.0011,0.4029,33
+2010,zinc,E3 Semimanufacturas,5241474.0,Estados Unidos,0.764,0.0,0.764,12
+2010,zinc,E4 Manufacturas,15828589.0,Estados Unidos,0.8141,0.0007,0.8141,35
+2011,barita,E1 Crudo/molido,4366662.0,Estados Unidos,0.8272,0.0,0.8272,5
+2011,barita,E2 Quimicos de bario,13390.0,Estados Unidos,0.9715,0.0,0.9715,4
+2011,cobre,E1 Mena/concentrado,1170994128.0,China,0.8556,0.8556,0.0335,16
+2011,cobre,E2 Metal en bruto/refinado,1395991069.0,Estados Unidos,0.6673,0.2061,0.6673,29
+2011,cobre,E3 Semimanufacturas,689737323.0,Estados Unidos,0.7076,0.0003,0.7076,67
+2011,cobre,E4 Manufacturas,147208017.0,China,0.5765,0.5765,0.2945,63
+2011,fluorita,E1 Espato fluor (crudo),152988640.0,Estados Unidos,0.4198,0.0,0.4198,34
+2011,fluorita,E2 Fluoroquimica,176693443.0,Estados Unidos,0.9018,0.0,0.9018,18
+2011,grafito,E1 Grafito natural,5648984.0,Estados Unidos,0.9495,0.0,0.9495,8
+2011,grafito,E2 Grafito artificial/prep.,15799905.0,Estados Unidos,0.4252,0.0,0.4252,28
+2011,grafito,E3 Electrodos/articulos de carbono,119905008.0,Estados Unidos,0.5548,0.0584,0.5548,50
+2011,manganeso,E1 Mena/concentrado,3948600.0,Estados Unidos,0.2698,0.1082,0.2698,12
+2011,manganeso,E2 Ferroaleaciones,100540800.0,Estados Unidos,0.5012,0.0032,0.5012,28
+2011,manganeso,E3 Quimicos/metal,1553177.0,Estados Unidos,0.631,0.0352,0.631,17
+2011,oro,E1 Mena/concentrado,151638195.0,Peru,0.3443,0.2341,0.0001,9
+2011,oro,E2 Bruto/semilabrado,7721008673.0,Estados Unidos,0.7093,0.0,0.7093,13
+2011,oro-plata (manufacturas),E4 Joyeria/orfebreria,614406830.0,Estados Unidos,0.8837,0.0,0.8837,58
+2011,plata,E1 Mena/concentrado,109669779.0,Estados Unidos,0.9932,0.0041,0.9932,4
+2011,plata,E2 Bruto/semilabrado,4514898646.0,Estados Unidos,0.8442,0.0,0.8442,26
+2011,plomo,E1 Mena/concentrado,927940559.0,Corea del Sur,0.2911,0.1894,0.0,9
+2011,plomo,E2 Metal en bruto/refinado,306845787.0,Brasil,0.308,0.0558,0.2734,21
+2011,plomo,E3 Semimanufacturas,1019152.0,socio_699,0.9439,0.0,0.0148,4
+2011,plomo,E4 Manufacturas,17614810.0,Estados Unidos,0.9154,0.0,0.9154,21
+2011,silice,E1 Arena silica/cuarzo,1665762.0,Estados Unidos,0.5898,0.0,0.5898,21
+2011,silice,E2 Silicio/ferrosilicio/SiO2,4849218.0,Estados Unidos,0.4819,0.0,0.4819,26
+2011,zinc,E1 Mena/concentrado,441759771.0,Corea del Sur,0.546,0.0232,0.012,14
+2011,zinc,E2 Metal en bruto/refinado,464607937.0,Estados Unidos,0.4417,0.0055,0.4417,34
+2011,zinc,E3 Semimanufacturas,8537540.0,Estados Unidos,0.789,0.0,0.789,16
+2011,zinc,E4 Manufacturas,18168388.0,Estados Unidos,0.8227,0.0002,0.8227,31
+2012,barita,E1 Crudo/molido,12563124.0,Estados Unidos,0.6349,0.0,0.6349,7
+2012,barita,E2 Quimicos de bario,208.0,Estados Unidos,0.5192,0.0,0.5192,4
+2012,cobre,E1 Mena/concentrado,1362964233.0,China,0.8649,0.8649,0.0214,13
+2012,cobre,E2 Metal en bruto/refinado,1173766546.0,Estados Unidos,0.6647,0.1823,0.6647,27
+2012,cobre,E3 Semimanufacturas,657834855.0,Estados Unidos,0.666,0.0003,0.666,67
+2012,cobre,E4 Manufacturas,50509729.0,Estados Unidos,0.8421,0.0992,0.8421,63
+2012,fluorita,E1 Espato fluor (crudo),207835946.0,Estados Unidos,0.3793,0.0,0.3793,31
+2012,fluorita,E2 Fluoroquimica,244261432.0,Estados Unidos,0.8781,0.0,0.8781,19
+2012,grafito,E1 Grafito natural,7342268.0,Estados Unidos,0.8649,0.0,0.8649,7
+2012,grafito,E2 Grafito artificial/prep.,22915790.0,Brasil,0.5782,0.0517,0.2757,30
+2012,grafito,E3 Electrodos/articulos de carbono,119834149.0,Estados Unidos,0.4507,0.0684,0.4507,48
+2012,manganeso,E1 Mena/concentrado,3592455.0,Estados Unidos,0.3457,0.0129,0.3457,10
+2012,manganeso,E2 Ferroaleaciones,84064418.0,Estados Unidos,0.6166,0.0,0.6166,31
+2012,manganeso,E3 Quimicos/metal,1849397.0,Estados Unidos,0.6284,0.0,0.6284,15
+2012,oro,E1 Mena/concentrado,170876680.0,Corea del Sur,0.4609,0.1735,0.0525,9
+2012,oro,E2 Bruto/semilabrado,7974076269.0,Estados Unidos,0.6796,0.0,0.6796,11
+2012,oro-plata (manufacturas),E4 Joyeria/orfebreria,528572883.0,Estados Unidos,0.8674,0.0002,0.8674,63
+2012,plata,E1 Mena/concentrado,36011593.0,Estados Unidos,0.8401,0.0579,0.8401,7
+2012,plata,E2 Bruto/semilabrado,4269669360.0,Estados Unidos,0.8626,0.0,0.8626,28
+2012,plomo,E1 Mena/concentrado,1556786147.0,Corea del Sur,0.3358,0.2096,0.0,15
+2012,plomo,E2 Metal en bruto/refinado,217052892.0,Estados Unidos,0.3845,0.0027,0.3845,20
+2012,plomo,E3 Semimanufacturas,1002613.0,socio_699,0.4689,0.0,0.1586,6
+2012,plomo,E4 Manufacturas,7840206.0,Estados Unidos,0.8299,0.0,0.8299,21
+2012,silice,E1 Arena silica/cuarzo,1047996.0,Estados Unidos,0.7491,0.0,0.7491,17
+2012,silice,E2 Silicio/ferrosilicio/SiO2,4650019.0,Estados Unidos,0.6267,0.0001,0.6267,26
+2012,zinc,E1 Mena/concentrado,499961383.0,Corea del Sur,0.5667,0.0211,0.0098,14
+2012,zinc,E2 Metal en bruto/refinado,387819946.0,Estados Unidos,0.5029,0.0079,0.5029,31
+2012,zinc,E3 Semimanufacturas,8473268.0,Estados Unidos,0.8015,0.0,0.8015,12
+2012,zinc,E4 Manufacturas,19460306.0,Estados Unidos,0.807,0.0004,0.807,37
+2013,barita,E1 Crudo/molido,28863901.0,Estados Unidos,0.7831,0.0,0.7831,7
+2013,barita,E2 Quimicos de bario,5247.0,Guatemala,0.7993,0.0,0.0023,7
+2013,cobre,E1 Mena/concentrado,1486416565.0,China,0.7915,0.7915,0.0121,17
+2013,cobre,E2 Metal en bruto/refinado,686240869.0,Estados Unidos,0.6848,0.1269,0.6848,28
+2013,cobre,E3 Semimanufacturas,471481904.0,Estados Unidos,0.5056,0.0027,0.5056,70
+2013,cobre,E4 Manufacturas,38806308.0,Estados Unidos,0.9229,0.0128,0.9229,72
+2013,fluorita,E1 Espato fluor (crudo),164211292.0,Estados Unidos,0.4265,0.0,0.4265,34
+2013,fluorita,E2 Fluoroquimica,212052468.0,Estados Unidos,0.8831,0.0,0.8831,20
+2013,grafito,E1 Grafito natural,7102214.0,Estados Unidos,0.9642,0.0,0.9642,6
+2013,grafito,E2 Grafito artificial/prep.,26682474.0,Brasil,0.4821,0.0588,0.2398,26
+2013,grafito,E3 Electrodos/articulos de carbono,111947070.0,Estados Unidos,0.4013,0.0255,0.4013,47
+2013,manganeso,E1 Mena/concentrado,11065299.0,Espana,0.4176,0.006,0.324,11
+2013,manganeso,E2 Ferroaleaciones,51491781.0,Estados Unidos,0.6696,0.0,0.6696,32
+2013,manganeso,E3 Quimicos/metal,1453560.0,Espana,0.4823,0.0,0.0094,17
+2013,oro,E1 Mena/concentrado,228701307.0,Corea del Sur,0.3523,0.2649,0.0108,12
+2013,oro,E2 Bruto/semilabrado,5816271418.0,Estados Unidos,0.6614,0.0,0.6614,11
+2013,oro-plata (manufacturas),E4 Joyeria/orfebreria,510580647.0,Estados Unidos,0.8844,0.0001,0.8844,64
+2013,plata,E1 Mena/concentrado,2274437.0,Suiza,0.4624,0.1647,0.2906,5
+2013,plata,E2 Bruto/semilabrado,3121139286.0,Estados Unidos,0.9193,0.0,0.9193,29
+2013,plomo,E1 Mena/concentrado,1119233415.0,Corea del Sur,0.3889,0.124,0.0,15
+2013,plomo,E2 Metal en bruto/refinado,86117556.0,Brasil,0.6612,0.0048,0.0,16
+2013,plomo,E3 Semimanufacturas,44376.0,El Salvador,0.5073,0.0,0.0,4
+2013,plomo,E4 Manufacturas,10673156.0,Canada,0.7113,0.0,0.0,20
+2013,silice,E1 Arena silica/cuarzo,2163162.0,Estados Unidos,0.603,0.0,0.603,26
+2013,silice,E2 Silicio/ferrosilicio/SiO2,5835147.0,Estados Unidos,0.6454,0.0003,0.6454,32
+2013,zinc,E1 Mena/concentrado,409476638.0,Corea del Sur,0.4804,0.0732,0.0032,18
+2013,zinc,E2 Metal en bruto/refinado,177382605.0,Belgica,0.2501,0.064,0.0,31
+2013,zinc,E3 Semimanufacturas,612013.0,socio_699,0.6307,0.0499,0.0,10
+2013,zinc,E4 Manufacturas,3138358.0,Canada,0.6277,0.001,0.0,35
+2014,cobre,E1 Mena/concentrado,1170641398.0,China,0.8816,0.8816,0.0004,5
+2014,cobre,E2 Metal en bruto/refinado,801954537.0,Estados Unidos,0.7803,0.1607,0.7803,6
+2014,cobre,E3 Semimanufacturas,423515414.0,Estados Unidos,0.6692,0.0024,0.6692,18
+2014,cobre,E4 Manufacturas,66180448.0,Estados Unidos,0.6598,0.001,0.6598,27
+2014,fluorita,E1 Espato fluor (crudo),69212880.0,Estados Unidos,0.9937,0.0,0.9937,2
+2014,fluorita,E2 Fluoroquimica,186979883.0,Estados Unidos,1.0,0.0,1.0,1
+2014,grafito,E1 Grafito natural,7256629.0,Estados Unidos,0.9761,0.0,0.9761,2
+2014,grafito,E2 Grafito artificial/prep.,48800122.0,Brasil,0.7911,0.0044,0.1703,9
+2014,grafito,E3 Electrodos/articulos de carbono,57777836.0,Estados Unidos,0.9603,0.0,0.9603,7
+2014,manganeso,E1 Mena/concentrado,81079.0,China,1.0,1.0,0.0,1
+2014,manganeso,E3 Quimicos/metal,1179788.0,Estados Unidos,1.0,0.0,1.0,1
+2014,oro,E1 Mena/concentrado,123028351.0,China,0.9409,0.9409,0.0024,3
+2014,oro,E2 Bruto/semilabrado,3439635835.0,Estados Unidos,0.923,0.0,0.923,3
+2014,oro-plata (manufacturas),E4 Joyeria/orfebreria,583564487.0,Estados Unidos,0.9149,0.0,0.9149,33
+2014,plata,E1 Mena/concentrado,935178.0,Estados Unidos,0.9978,0.0,0.9978,2
+2014,plata,E2 Bruto/semilabrado,2221300717.0,Estados Unidos,0.9722,0.0,0.9722,7
+2014,plomo,E1 Mena/concentrado,1162916141.0,Corea del Sur,0.4994,0.1536,0.0,5
+2014,plomo,E4 Manufacturas,695151.0,Chile,0.3653,0.0,0.0,6
+2014,silice,E1 Arena silica/cuarzo,1977476.0,Estados Unidos,0.9287,0.0,0.9287,4
+2014,silice,E2 Silicio/ferrosilicio/SiO2,4335048.0,Estados Unidos,0.8919,0.0,0.8919,7
+2014,zinc,E1 Mena/concentrado,309233960.0,Corea del Sur,0.9287,0.0699,0.0014,3
+2014,zinc,E2 Metal en bruto/refinado,233761843.0,Estados Unidos,1.0,0.0,1.0,1
+2014,zinc,E4 Manufacturas,17071879.0,Estados Unidos,0.9714,0.0,0.9714,11
+2015,barita,E1 Crudo/molido,1595323.0,Colombia,1.0,0.0,0.0,1
+2015,cobre,E1 Mena/concentrado,933983883.0,China,0.8806,0.8806,0.0124,5
+2015,cobre,E2 Metal en bruto/refinado,727229420.0,Estados Unidos,0.7268,0.2058,0.7268,6
+2015,cobre,E3 Semimanufacturas,330099797.0,Estados Unidos,0.6731,0.0007,0.6731,25
+2015,cobre,E4 Manufacturas,49302168.0,Estados Unidos,0.9733,0.0014,0.9733,38
+2015,fluorita,E1 Espato fluor (crudo),59599502.0,Estados Unidos,0.9934,0.0,0.9934,2
+2015,fluorita,E2 Fluoroquimica,182427511.0,Estados Unidos,0.9997,0.0,0.9997,3
+2015,grafito,E1 Grafito natural,102168.0,Guatemala,1.0,0.0,0.0,1
+2015,grafito,E2 Grafito artificial/prep.,27117314.0,Brasil,0.7044,0.0,0.2889,6
+2015,grafito,E3 Electrodos/articulos de carbono,79390993.0,Estados Unidos,0.5656,0.0324,0.5656,21
+2015,manganeso,E2 Ferroaleaciones,9092986.0,Estados Unidos,1.0,0.0,1.0,1
+2015,oro,E1 Mena/concentrado,271995011.0,China,0.4497,0.4497,0.0,4
+2015,oro,E2 Bruto/semilabrado,2872369467.0,Estados Unidos,0.9883,0.0,0.9883,2
+2015,oro-plata (manufacturas),E4 Joyeria/orfebreria,602373143.0,Estados Unidos,0.9017,0.0,0.9017,33
+2015,plata,E1 Mena/concentrado,4428927.0,China,0.9413,0.9413,0.0587,2
+2015,plata,E2 Bruto/semilabrado,1854205755.0,Estados Unidos,0.9775,0.0,0.9775,4
+2015,plomo,E1 Mena/concentrado,893177730.0,Corea del Sur,0.5863,0.1463,0.0,3
+2015,plomo,E2 Metal en bruto/refinado,165850366.0,Estados Unidos,0.7878,0.0,0.7878,4
+2015,plomo,E3 Semimanufacturas,132295.0,Estados Unidos,1.0,0.0,1.0,1
+2015,silice,E1 Arena silica/cuarzo,2315668.0,Estados Unidos,0.8328,0.0,0.8328,3
+2015,silice,E2 Silicio/ferrosilicio/SiO2,5472738.0,Estados Unidos,0.9025,0.0,0.9025,7
+2015,zinc,E1 Mena/concentrado,365685096.0,Corea del Sur,0.7588,0.0437,0.0,3
+2015,zinc,E2 Metal en bruto/refinado,263224660.0,Estados Unidos,0.7798,0.0,0.7798,3
+2015,zinc,E3 Semimanufacturas,2498171.0,Estados Unidos,1.0,0.0,1.0,1
+2016,cobre,E1 Mena/concentrado,1323559500.0,China,0.794,0.794,0.0,6
+2016,cobre,E2 Metal en bruto/refinado,849212300.0,Estados Unidos,0.593,0.2806,0.593,8
+2016,cobre,E3 Semimanufacturas,423644403.0,Estados Unidos,0.7545,0.0034,0.7545,32
+2016,cobre,E4 Manufacturas,48502003.0,Estados Unidos,0.9101,0.0001,0.9101,40
+2016,fluorita,E1 Espato fluor (crudo),62572145.0,Estados Unidos,0.9932,0.0,0.9932,2
+2016,fluorita,E2 Fluoroquimica,170727897.0,Estados Unidos,0.9999,0.0,0.9999,2
+2016,grafito,E1 Grafito natural,3889142.0,Estados Unidos,0.9868,0.0,0.9868,2
+2016,grafito,E2 Grafito artificial/prep.,29900022.0,Brasil,0.5949,0.0328,0.3653,6
+2016,grafito,E3 Electrodos/articulos de carbono,60731754.0,Estados Unidos,0.6926,0.0237,0.6926,20
+2016,manganeso,E2 Ferroaleaciones,33549583.0,Estados Unidos,0.8707,0.0,0.8707,4
+2016,oro,E1 Mena/concentrado,248450033.0,China,0.5146,0.5146,0.0,4
+2016,oro,E2 Bruto/semilabrado,3239243110.0,Estados Unidos,0.9894,0.0,0.9894,3
+2016,oro-plata (manufacturas),E4 Joyeria/orfebreria,431545958.0,Estados Unidos,0.8888,0.0,0.8888,24
+2016,plata,E1 Mena/concentrado,25474960.0,China,0.9382,0.9382,0.0618,2
+2016,plata,E2 Bruto/semilabrado,1881367958.0,Estados Unidos,0.9841,0.0,0.9841,5
+2016,plomo,E1 Mena/concentrado,780501188.0,Corea del Sur,0.4248,0.2024,0.0,5
+2016,plomo,E2 Metal en bruto/refinado,4290555.0,Corea del Sur,0.4725,0.0,0.0,3
+2016,plomo,E3 Semimanufacturas,1065391.0,Estados Unidos,1.0,0.0,1.0,1
+2016,silice,E1 Arena silica/cuarzo,1864350.0,Estados Unidos,0.8986,0.0,0.8986,8
+2016,silice,E2 Silicio/ferrosilicio/SiO2,5166174.0,Estados Unidos,0.9146,0.0,0.9146,13
+2016,zinc,E1 Mena/concentrado,564250705.0,Corea del Sur,0.4711,0.0331,0.0,7
+2016,zinc,E2 Metal en bruto/refinado,199503651.0,Estados Unidos,0.9459,0.0,0.9459,2
+2016,zinc,E3 Semimanufacturas,644751.0,Estados Unidos,1.0,0.0,1.0,1
+2017,barita,E2 Quimicos de bario,27260.0,Espana,1.0,0.0,0.0,1
+2017,cobre,E1 Mena/concentrado,1568943333.0,China,0.9136,0.9136,0.0167,4
+2017,cobre,E2 Metal en bruto/refinado,880701469.0,Estados Unidos,0.5206,0.3964,0.5206,4
+2017,cobre,E3 Semimanufacturas,362960989.0,Estados Unidos,0.6904,0.0029,0.6904,29
+2017,cobre,E4 Manufacturas,48774107.0,Estados Unidos,0.8986,0.0006,0.8986,36
+2017,fluorita,E1 Espato fluor (crudo),71003890.0,Estados Unidos,0.8664,0.0,0.8664,6
+2017,fluorita,E2 Fluoroquimica,159772884.0,Estados Unidos,1.0,0.0,1.0,1
+2017,grafito,E1 Grafito natural,5527568.0,Estados Unidos,0.9946,0.0,0.9946,2
+2017,grafito,E2 Grafito artificial/prep.,7126988.0,Estados Unidos,0.7701,0.2266,0.7701,7
+2017,grafito,E3 Electrodos/articulos de carbono,82714659.0,Estados Unidos,0.6661,0.0216,0.6661,23
+2017,manganeso,E2 Ferroaleaciones,43493136.0,Estados Unidos,0.9076,0.0,0.9076,4
+2017,oro,E1 Mena/concentrado,324859161.0,China,0.427,0.427,0.0,4
+2017,oro,E2 Bruto/semilabrado,3221237216.0,Estados Unidos,0.9878,0.0,0.9878,3
+2017,oro-plata (manufacturas),E4 Joyeria/orfebreria,302267048.0,Estados Unidos,0.8606,0.0,0.8606,28
+2017,plata,E1 Mena/concentrado,35742289.0,China,1.0,1.0,0.0,1
+2017,plata,E2 Bruto/semilabrado,1820093056.0,Estados Unidos,0.9995,0.0,0.9995,2
+2017,plomo,E1 Mena/concentrado,978705634.0,Corea del Sur,0.4509,0.2309,0.0,5
+2017,plomo,E2 Metal en bruto/refinado,189087197.0,Estados Unidos,1.0,0.0,1.0,1
+2017,plomo,E3 Semimanufacturas,789774.0,Estados Unidos,1.0,0.0,1.0,1
+2017,silice,E1 Arena silica/cuarzo,1916205.0,Estados Unidos,0.9383,0.0,0.9383,6
+2017,silice,E2 Silicio/ferrosilicio/SiO2,5121738.0,Estados Unidos,0.9191,0.0,0.9191,6
+2017,zinc,E1 Mena/concentrado,640110077.0,Corea del Sur,0.3684,0.0151,0.0,6
+2017,zinc,E2 Metal en bruto/refinado,22556826.0,Guatemala,0.7733,0.0,0.0,2
+2018,cobre,E1 Mena/concentrado,2318095785.0,China,0.8162,0.8162,0.0356,7
+2018,cobre,E2 Metal en bruto/refinado,903281960.0,Estados Unidos,0.4586,0.4275,0.4586,5
+2018,cobre,E3 Semimanufacturas,322794240.0,Estados Unidos,0.6382,0.0005,0.6382,26
+2018,cobre,E4 Manufacturas,49219257.0,Estados Unidos,0.9391,0.0031,0.9391,39
+2018,fluorita,E1 Espato fluor (crudo),73420659.0,Estados Unidos,0.992,0.0,0.992,2
+2018,fluorita,E2 Fluoroquimica,162083915.0,Estados Unidos,1.0,0.0,1.0,1
+2018,grafito,E1 Grafito natural,5558473.0,Estados Unidos,0.9962,0.0,0.9962,2
+2018,grafito,E2 Grafito artificial/prep.,31848785.0,Estados Unidos,0.5615,0.0766,0.5615,7
+2018,grafito,E3 Electrodos/articulos de carbono,156134480.0,Estados Unidos,0.6148,0.0094,0.6148,21
+2018,manganeso,E2 Ferroaleaciones,41067892.0,Estados Unidos,0.9902,0.0,0.9902,3
+2018,oro,E1 Mena/concentrado,181351369.0,China,0.7072,0.7072,0.0,4
+2018,oro,E2 Bruto/semilabrado,3201011359.0,Estados Unidos,0.9872,0.0,0.9872,3
+2018,oro-plata (manufacturas),E4 Joyeria/orfebreria,353650296.0,Estados Unidos,0.8824,0.0,0.8824,31
+2018,plata,E1 Mena/concentrado,36656445.0,Alemania,0.7663,0.066,0.1677,3
+2018,plata,E2 Bruto/semilabrado,1672071037.0,Estados Unidos,0.9927,0.0,0.9927,5
+2018,plomo,E1 Mena/concentrado,770645599.0,China,0.4644,0.4644,0.0,3
+2018,plomo,E2 Metal en bruto/refinado,195438439.0,Estados Unidos,1.0,0.0,1.0,1
+2018,plomo,E3 Semimanufacturas,343471.0,Estados Unidos,1.0,0.0,1.0,1
+2018,silice,E1 Arena silica/cuarzo,1977646.0,Estados Unidos,0.8818,0.0,0.8818,8
+2018,silice,E2 Silicio/ferrosilicio/SiO2,6723754.0,Estados Unidos,0.859,0.0,0.859,9
+2018,zinc,E1 Mena/concentrado,795496776.0,Corea del Sur,0.3474,0.0055,0.0,6
+2018,zinc,E2 Metal en bruto/refinado,421209847.0,Estados Unidos,0.6937,0.0,0.6937,5
+2018,zinc,E3 Semimanufacturas,1888419.0,Colombia,0.574,0.0,0.422,3
+2019,cobre,E1 Mena/concentrado,4678537224.0,China,0.8839,0.8839,0.0591,7
+2019,cobre,E2 Metal en bruto/refinado,1592860980.0,Estados Unidos,0.635,0.2951,0.635,5
+2019,cobre,E3 Semimanufacturas,905181276.0,Estados Unidos,0.7763,0.0001,0.7763,23
+2019,cobre,E4 Manufacturas,93507012.0,Estados Unidos,0.9131,0.0013,0.9131,34
+2019,fluorita,E1 Espato fluor (crudo),214395906.0,Estados Unidos,0.7318,0.2389,0.7318,3
+2019,fluorita,E2 Fluoroquimica,359825898.0,Estados Unidos,1.0,0.0,1.0,1
+2019,grafito,E2 Grafito artificial/prep.,113041982.0,Estados Unidos,0.9856,0.0123,0.9856,6
+2019,grafito,E3 Electrodos/articulos de carbono,122510056.0,Francia,0.4476,0.0134,0.0,21
+2019,manganeso,E2 Ferroaleaciones,91946906.0,Estados Unidos,0.9502,0.0,0.9502,3
+2019,oro,E1 Mena/concentrado,435438792.0,China,0.8033,0.8033,0.0,2
+2019,oro,E2 Bruto/semilabrado,6536302078.0,Estados Unidos,0.9024,0.0,0.9024,4
+2019,oro-plata (manufacturas),E4 Joyeria/orfebreria,623073934.0,Estados Unidos,0.8733,0.0,0.8733,25
+2019,plata,E1 Mena/concentrado,63854712.0,Alemania,0.7787,0.2213,0.0,2
+2019,plata,E2 Bruto/semilabrado,3763281042.0,Estados Unidos,0.9805,0.0,0.9805,5
+2019,plomo,E1 Mena/concentrado,1478243464.0,China,0.4848,0.4848,0.0,4
+2019,plomo,E2 Metal en bruto/refinado,38897250.0,Brasil,0.9457,0.0,0.0,3
+2019,plomo,E3 Semimanufacturas,2299660.0,Estados Unidos,1.0,0.0,1.0,1
+2019,silice,E1 Arena silica/cuarzo,3177186.0,Estados Unidos,0.7719,0.0,0.7719,6
+2019,silice,E2 Silicio/ferrosilicio/SiO2,15583422.0,Estados Unidos,0.8453,0.0,0.8453,13
+2019,zinc,E1 Mena/concentrado,1311446918.0,Corea del Sur,0.4246,0.0561,0.0,7
+2019,zinc,E2 Metal en bruto/refinado,47572348.0,China,0.4546,0.4546,0.0,3
+2020,cobre,E1 Mena/concentrado,2878626776.0,China,0.9498,0.9498,0.0,6
+2020,cobre,E2 Metal en bruto/refinado,813642511.0,Estados Unidos,0.6991,0.2381,0.6991,7
+2020,cobre,E3 Semimanufacturas,408408126.0,Estados Unidos,0.7206,0.0,0.7206,26
+2020,cobre,E4 Manufacturas,52901534.0,Estados Unidos,0.9408,0.0038,0.9408,40
+2020,fluorita,E1 Espato fluor (crudo),77026577.0,Estados Unidos,0.9844,0.0,0.9844,3
+2020,fluorita,E2 Fluoroquimica,144847687.0,Estados Unidos,1.0,0.0,1.0,1
+2020,grafito,E2 Grafito artificial/prep.,45267805.0,Estados Unidos,0.7982,0.0,0.7982,5
+2020,grafito,E3 Electrodos/articulos de carbono,108236298.0,Estados Unidos,0.7367,0.0071,0.7367,22
+2020,manganeso,E2 Ferroaleaciones,20023807.0,Estados Unidos,0.9189,0.0,0.9189,4
+2020,oro,E1 Mena/concentrado,321417297.0,Corea del Sur,0.536,0.265,0.0,5
+2020,oro,E2 Bruto/semilabrado,3488850587.0,Estados Unidos,0.8699,0.0,0.8699,4
+2020,oro-plata (manufacturas),E4 Joyeria/orfebreria,262580578.0,Estados Unidos,0.8877,0.0,0.8877,20
+2020,plata,E1 Mena/concentrado,146951579.0,Corea del Sur,0.3065,0.1735,0.0,5
+2020,plata,E2 Bruto/semilabrado,2155928215.0,Estados Unidos,0.9497,0.0,0.9497,6
+2020,plomo,E1 Mena/concentrado,1482644734.0,Corea del Sur,0.533,0.3281,0.0,4
+2020,plomo,E2 Metal en bruto/refinado,144734176.0,Estados Unidos,0.8103,0.0,0.8103,5
+2020,plomo,E3 Semimanufacturas,283760.0,Estados Unidos,0.9914,0.0,0.9914,2
+2020,plomo,E4 Manufacturas,1014870.0,Estados Unidos,0.8617,0.0,0.8617,3
+2020,silice,E1 Arena silica/cuarzo,1391684.0,Estados Unidos,0.9843,0.0,0.9843,5
+2020,silice,E2 Silicio/ferrosilicio/SiO2,7400256.0,Estados Unidos,0.9024,0.0,0.9024,5
+2020,zinc,E1 Mena/concentrado,646136225.0,Corea del Sur,0.4723,0.0014,0.0,7
+2020,zinc,E2 Metal en bruto/refinado,337374838.0,Estados Unidos,0.8861,0.0612,0.8861,4
+2020,zinc,E3 Semimanufacturas,803368.0,Colombia,1.0,0.0,0.0,1
+2021,barita,E1 Crudo/molido,19124233.0,Estados Unidos,1.0,0.0,1.0,1
+2021,cobre,E1 Mena/concentrado,3420948513.0,China,0.98,0.98,0.0,3
+2021,cobre,E2 Metal en bruto/refinado,966254109.0,Estados Unidos,0.8255,0.1607,0.8255,3
+2021,cobre,E3 Semimanufacturas,519982902.0,Estados Unidos,0.8175,0.0,0.8175,22
+2021,cobre,E4 Manufacturas,78214998.0,Estados Unidos,0.8481,0.1114,0.8481,31
+2021,fluorita,E1 Espato fluor (crudo),91633901.0,Estados Unidos,0.9866,0.0,0.9866,2
+2021,fluorita,E2 Fluoroquimica,18807660.0,Estados Unidos,1.0,0.0,1.0,1
+2021,grafito,E1 Grafito natural,2113261.0,Estados Unidos,1.0,0.0,1.0,1
+2021,grafito,E2 Grafito artificial/prep.,51084472.0,Estados Unidos,0.9944,0.0045,0.9944,4
+2021,grafito,E3 Electrodos/articulos de carbono,105949967.0,Estados Unidos,0.9391,0.0012,0.9391,15
+2021,manganeso,E2 Ferroaleaciones,19983315.0,Estados Unidos,0.9981,0.0,0.9981,2
+2021,oro,E1 Mena/concentrado,2952263.0,China,1.0,1.0,0.0,1
+2021,oro,E2 Bruto/semilabrado,3413974349.0,Estados Unidos,0.7542,0.0,0.7542,3
+2021,oro-plata (manufacturas),E4 Joyeria/orfebreria,455993823.0,Estados Unidos,0.9257,0.0,0.9257,18
+2021,plata,E1 Mena/concentrado,28657175.0,Corea del Sur,0.4982,0.3511,0.1507,3
+2021,plata,E2 Bruto/semilabrado,2543070260.0,Estados Unidos,0.9996,0.0,0.9996,3
+2021,plomo,E1 Mena/concentrado,833273184.0,China,1.0,1.0,0.0,1
+2021,plomo,E2 Metal en bruto/refinado,169751570.0,Estados Unidos,0.9462,0.0,0.9462,2
+2021,plomo,E4 Manufacturas,1101224.0,Estados Unidos,0.8976,0.0,0.8976,2
+2021,silice,E1 Arena silica/cuarzo,2535528.0,Estados Unidos,0.9643,0.0,0.9643,3
+2021,silice,E2 Silicio/ferrosilicio/SiO2,11198288.0,Estados Unidos,0.9606,0.0,0.9606,5
+2021,zinc,E1 Mena/concentrado,248335725.0,Corea del Sur,0.7475,0.0,0.0,3
+2021,zinc,E2 Metal en bruto/refinado,288767583.0,Estados Unidos,0.9325,0.0,0.9325,3
+2021,zinc,E3 Semimanufacturas,50953.0,Estados Unidos,1.0,0.0,1.0,1
+2021,zinc,E4 Manufacturas,4209656.0,Estados Unidos,0.861,0.0,0.861,16
+2022,barita,E1 Crudo/molido,27236605.0,Estados Unidos,1.0,0.0,1.0,1
+2022,cobre,E1 Mena/concentrado,3137587661.0,China,0.9388,0.9388,0.0,4
+2022,cobre,E2 Metal en bruto/refinado,873308606.0,Estados Unidos,0.7687,0.1972,0.7687,3
+2022,cobre,E3 Semimanufacturas,627341853.0,Estados Unidos,0.8618,0.0,0.8618,24
+2022,cobre,E4 Manufacturas,84431303.0,Estados Unidos,0.8591,0.1,0.8591,27
+2022,fluorita,E1 Espato fluor (crudo),55800331.0,Estados Unidos,0.9852,0.0,0.9852,3
+2022,fluorita,E2 Fluoroquimica,3964092.0,Estados Unidos,1.0,0.0,1.0,1
+2022,grafito,E1 Grafito natural,3434484.0,Estados Unidos,1.0,0.0,1.0,1
+2022,grafito,E2 Grafito artificial/prep.,75419392.0,Estados Unidos,1.0,0.0,1.0,1
+2022,grafito,E3 Electrodos/articulos de carbono,101454322.0,Estados Unidos,0.9627,0.0,0.9627,15
+2022,manganeso,E2 Ferroaleaciones,11736794.0,Estados Unidos,1.0,0.0,1.0,1
+2022,oro,E1 Mena/concentrado,18427502.0,Corea del Sur,1.0,0.0,0.0,1
+2022,oro,E2 Bruto/semilabrado,3098803603.0,Estados Unidos,0.7584,0.0,0.7584,2
+2022,oro-plata (manufacturas),E4 Joyeria/orfebreria,447652908.0,Estados Unidos,0.9067,0.0,0.9067,19
+2022,plata,E1 Mena/concentrado,88920958.0,Corea del Sur,0.4755,0.0,0.0924,4
+2022,plata,E2 Bruto/semilabrado,2282303905.0,Estados Unidos,0.9611,0.0,0.9611,2
+2022,plomo,E1 Mena/concentrado,746165144.0,China,1.0,1.0,0.0,1
+2022,plomo,E2 Metal en bruto/refinado,197623384.0,Estados Unidos,0.8628,0.0,0.8628,2
+2022,plomo,E3 Semimanufacturas,79999.0,Estados Unidos,1.0,0.0,1.0,1
+2022,plomo,E4 Manufacturas,2254570.0,Estados Unidos,0.9636,0.0,0.9636,2
+2022,silice,E1 Arena silica/cuarzo,3108781.0,Estados Unidos,0.9692,0.0,0.9692,4
+2022,silice,E2 Silicio/ferrosilicio/SiO2,10001150.0,Estados Unidos,0.9342,0.0,0.9342,5
+2022,zinc,E1 Mena/concentrado,399116625.0,Corea del Sur,0.9417,0.0583,0.0,2
+2022,zinc,E2 Metal en bruto/refinado,356460312.0,Estados Unidos,0.9861,0.0,0.9861,2
+2022,zinc,E3 Semimanufacturas,444762.0,Colombia,0.6461,0.0,0.3539,2
+2022,zinc,E4 Manufacturas,4577240.0,Estados Unidos,0.7736,0.0004,0.7736,14
+2023,barita,E1 Crudo/molido,26073174.0,Estados Unidos,1.0,0.0,1.0,1
+2023,cobre,E1 Mena/concentrado,3715931601.0,China,0.9499,0.9499,0.0,4
+2023,cobre,E2 Metal en bruto/refinado,284447648.0,China,0.5272,0.5272,0.382,3
+2023,cobre,E3 Semimanufacturas,559389796.0,Estados Unidos,0.9032,0.0,0.9032,22
+2023,cobre,E4 Manufacturas,78136524.0,Estados Unidos,0.9289,0.0058,0.9289,30
+2023,fluorita,E1 Espato fluor (crudo),66031726.0,Estados Unidos,0.9884,0.0,0.9884,2
+2023,fluorita,E2 Fluoroquimica,9449698.0,Estados Unidos,1.0,0.0,1.0,1
+2023,grafito,E1 Grafito natural,1818565.0,Estados Unidos,1.0,0.0,1.0,1
+2023,grafito,E2 Grafito artificial/prep.,60460113.0,Estados Unidos,0.9889,0.002,0.9889,5
+2023,grafito,E3 Electrodos/articulos de carbono,84827072.0,Estados Unidos,0.9897,0.0008,0.9897,13
+2023,manganeso,E2 Ferroaleaciones,6893582.0,Estados Unidos,1.0,0.0,1.0,1
+2023,oro,E1 Mena/concentrado,28453111.0,Corea del Sur,0.7371,0.2629,0.0,2
+2023,oro,E2 Bruto/semilabrado,3406294650.0,Estados Unidos,0.6257,0.0,0.6257,5
+2023,oro-plata (manufacturas),E4 Joyeria/orfebreria,405779406.0,Estados Unidos,0.91,0.0,0.91,20
+2023,plata,E1 Mena/concentrado,117981985.0,Alemania,0.4721,0.0256,0.0,4
+2023,plata,E2 Bruto/semilabrado,2681768790.0,Estados Unidos,0.9991,0.0,0.9991,3
+2023,plomo,E1 Mena/concentrado,836925906.0,China,0.8762,0.8762,0.0,2
+2023,plomo,E2 Metal en bruto/refinado,127316957.0,Estados Unidos,0.9457,0.0,0.9457,3
+2023,plomo,E4 Manufacturas,1236869.0,Estados Unidos,0.9943,0.0,0.9943,2
+2023,silice,E1 Arena silica/cuarzo,1897141.0,Estados Unidos,0.9847,0.0,0.9847,2
+2023,silice,E2 Silicio/ferrosilicio/SiO2,6210015.0,Estados Unidos,0.9619,0.0,0.9619,2
+2023,zinc,E1 Mena/concentrado,245944426.0,Corea del Sur,0.8943,0.0,0.0,2
+2023,zinc,E2 Metal en bruto/refinado,337639196.0,Estados Unidos,0.8065,0.0,0.8065,3
+2023,zinc,E3 Semimanufacturas,571407.0,Estados Unidos,1.0,0.0,1.0,1
+2023,zinc,E4 Manufacturas,5267558.0,Estados Unidos,0.8148,0.0009,0.8148,12
+2024,barita,E1 Crudo/molido,13093040.0,Estados Unidos,1.0,0.0,1.0,1
+2024,cobre,E1 Mena/concentrado,3718889902.0,China,1.0,1.0,0.0,1
+2024,cobre,E2 Metal en bruto/refinado,236153249.0,Estados Unidos,0.5834,0.4166,0.5834,2
+2024,cobre,E3 Semimanufacturas,539308292.0,Estados Unidos,0.9283,0.0002,0.9283,30
+2024,cobre,E4 Manufacturas,84012184.0,Estados Unidos,0.8857,0.0201,0.8857,31
+2024,fluorita,E1 Espato fluor (crudo),25305600.0,Estados Unidos,0.9409,0.0,0.9409,4
+2024,fluorita,E2 Fluoroquimica,70879411.0,Estados Unidos,1.0,0.0,1.0,1
+2024,grafito,E1 Grafito natural,3808739.0,Estados Unidos,1.0,0.0,1.0,1
+2024,grafito,E2 Grafito artificial/prep.,34286349.0,Estados Unidos,0.9987,0.0013,0.9987,2
+2024,grafito,E3 Electrodos/articulos de carbono,72509893.0,Estados Unidos,0.9651,0.0,0.9651,12
+2024,manganeso,E2 Ferroaleaciones,14437488.0,Estados Unidos,1.0,0.0,1.0,1
+2024,oro,E1 Mena/concentrado,37997871.0,China,0.9793,0.9793,0.0,2
+2024,oro,E2 Bruto/semilabrado,3677031558.0,Estados Unidos,0.7209,0.0,0.7209,5
+2024,oro-plata (manufacturas),E4 Joyeria/orfebreria,399152449.0,Estados Unidos,0.9056,0.0,0.9056,16
+2024,plata,E1 Mena/concentrado,185098813.0,Corea del Sur,0.5421,0.2019,0.0,3
+2024,plata,E2 Bruto/semilabrado,2593776322.0,Estados Unidos,0.9984,0.0,0.9984,2
+2024,plomo,E1 Mena/concentrado,1092152844.0,China,0.6293,0.6293,0.0,2
+2024,plomo,E2 Metal en bruto/refinado,177590849.0,Estados Unidos,0.8422,0.0,0.8422,3
+2024,plomo,E3 Semimanufacturas,61346.0,Estados Unidos,1.0,0.0,1.0,1
+2024,plomo,E4 Manufacturas,36484.0,Guatemala,1.0,0.0,0.0,1
+2024,silice,E1 Arena silica/cuarzo,1705312.0,Estados Unidos,1.0,0.0,1.0,1
+2024,silice,E2 Silicio/ferrosilicio/SiO2,9261514.0,Estados Unidos,0.9466,0.0,0.9466,3
+2024,zinc,E1 Mena/concentrado,577061971.0,Corea del Sur,0.6137,0.3044,0.0,3
+2024,zinc,E2 Metal en bruto/refinado,142641025.0,Brasil,0.6496,0.0,0.3188,4
+2024,zinc,E4 Manufacturas,973514.0,Guatemala,0.2211,0.0152,0.0,17

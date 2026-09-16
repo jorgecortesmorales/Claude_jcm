@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {"id":"a1f0c2d3e4b59680","type":"text","x":-30,"y":-400,"width":1880,"height":120,"color":"6","text":"# Columna vertebral de la ICR — indicadores → concepto ordenador\nLos mercados de los minerales críticos en México, 1992-2025. **Diseño descriptivo**: los índices son *descriptores*, no un modelo causal. Se leen en conjunto, nunca uno solo."},
+
+    {"id":"b2001111aaaa0001","type":"group","x":-40,"y":-40,"width":440,"height":650,"color":"4","label":"O1 · Estructura extractiva y encadenamiento"},
+    {"id":"c1010101aaaa0001","type":"text","x":0,"y":10,"width":360,"height":160,"text":"## HHI · concentración\nConcentración de la extracción: $HHI=\\sum_i s_i^2$ (0–10 000).\nSerie **1994–2024**. Monopolios: Mn, fluorita, grafito.\n`hhi_consolidado.csv`"},
+    {"id":"c1010101aaaa0002","type":"text","x":0,"y":230,"width":360,"height":180,"text":"## Encadenamientos MIP\nLeontief (atrás) · **Ghosh (adelante)** · Hirschman-Rasmussen (media = 1). Cortes **2008/2013/2018**.\n⚠️ Ghosh alto ≠ cadena desarrollada.\n`mip_encadenamientos_minerales.csv`"},
+    {"id":"c1010101aaaa0003","type":"text","x":0,"y":460,"width":360,"height":150,"text":"## CCV · captura de valor\n$CCV=VU^{X,E1}/P^{USGS}$. Serie **1992–2025**.\nCobre ~0.22 estable = firma del enclave.\n`ccv_serie.csv`"},
+
+    {"id":"b2002222aaaa0002","type":"group","x":440,"y":-40,"width":440,"height":430,"color":"5","label":"O2 · Cadena de valor local"},
+    {"id":"c2020202aaaa0001","type":"text","x":480,"y":10,"width":360,"height":150,"text":"## Cadena local\nDemanda intermedia doméstica (MIP) + mapa de **empresas de transformación**.\n¿Existe industria usuaria del mineral?"},
+    {"id":"c2020202aaaa0002","type":"text","x":480,"y":210,"width":360,"height":160,"text":"## Georreferenciación\nExtracción por estado (2024) vs. **nodos de transformación**.\nExtracción muy localizada; el valor agregado se deslocaliza (solo el cobre lo funde en el mismo estado)."},
+
+    {"id":"b2003333aaaa0003","type":"group","x":920,"y":-40,"width":440,"height":850,"color":"2","label":"O3 · Inserción en cadenas globales"},
+    {"id":"c3030303aaaa0001","type":"text","x":960,"y":10,"width":360,"height":150,"text":"## Comercio por etapa\n% exportado en crudo (E1). **Cobre 2 % (1995) → 81 % (2024)**; zinc 32 % → 80 %.\n`comercio_posicion_1992_2024.csv`"},
+    {"id":"c3030303aaaa0002","type":"text","x":960,"y":210,"width":360,"height":150,"text":"## Destinos\nDesplazamiento a **China**: cobre en concentrado EUA 100 % (1995) → China 94 % (2022).\nDoble profundización del enclave."},
+    {"id":"c3030303aaaa0003","type":"text","x":960,"y":410,"width":360,"height":170,"text":"## Comparación internacional\nGhosh de la minería (OECD ICIO), cortes 2008/13/18.\n**Chile/Australia < 1** (no son casos de éxito); Finlandia/Suecia integran (modelo nórdico).\n`icio_comparacion_mineria.csv`"},
+    {"id":"c3030303aaaa0004","type":"text","x":960,"y":630,"width":360,"height":160,"text":"## DVA · reprocesamiento\n% del VA minero exportado en crudo (1995–2020).\n**Chile ~0.97**; México ~0.38 (agregado engañoso: funde metales preciosos, oculta el cobre).\n`icio_dva_mineria.csv`"},
+
+    {"id":"b2004444aaaa0004","type":"group","x":1400,"y":40,"width":450,"height":770,"color":"6","label":"Síntesis · concepto ordenador"},
+    {"id":"d4040404aaaa0001","type":"text","x":1430,"y":90,"width":390,"height":220,"color":"1","text":"# Enclave estructural\nCapital **mayoritariamente nacional**, pero **desconexión aguas abajo**: se extrae y exporta en bruto sin cadena industrial local.\nSe llega por contraste con el enclave clásico de propiedad (Cardoso-Faletto); respaldo neo-extractivista (Svampa).\n*Protocolo: raíz estructuralista (Prebisch).*"},
+    {"id":"d4040404aaaa0002","type":"text","x":1430,"y":350,"width":390,"height":210,"text":"## Tipología A/B/C/D (Cap. VI)\n**A** cadena local (Mn, fluorita) · **B** truncada en el metal refinado (Cu, Au, Ag, Pb, Zn) · **C** usuario con eslabón importado (sílice, grafito) · **D** exportación en bruto (barita)."},
+    {"id":"d4040404aaaa0003","type":"text","x":1430,"y":600,"width":390,"height":170,"text":"## Bases de política\nDiferenciadas por eslabón ausente y por tipo. Contrafactual: **modelo nórdico** (integrar mina → fundición → metal con capital y política domésticos)."}
+  ],
+  "edges": [
+    {"id":"e0000000000000a1","fromNode":"c1010101aaaa0001","fromSide":"bottom","toNode":"c1010101aaaa0002","toSide":"top","toEnd":"arrow","label":"concentración"},
+    {"id":"e0000000000000a2","fromNode":"c1010101aaaa0002","fromSide":"bottom","toNode":"c1010101aaaa0003","toSide":"top","toEnd":"arrow","label":"serie continua"},
+    {"id":"e0000000000000a3","fromNode":"c1010101aaaa0003","fromSide":"right","toNode":"d4040404aaaa0001","toSide":"left","toEnd":"arrow","label":"enclave en serie"},
+    {"id":"e0000000000000a4","fromNode":"c2020202aaaa0001","fromSide":"right","toNode":"d4040404aaaa0002","toSide":"left","toEnd":"arrow","label":"¿hay cadena local?"},
+    {"id":"e0000000000000a5","fromNode":"c2020202aaaa0002","fromSide":"right","toNode":"d4040404aaaa0001","toSide":"left","toEnd":"arrow","label":"desconexión espacial"},
+    {"id":"e0000000000000a6","fromNode":"c3030303aaaa0001","fromSide":"bottom","toNode":"c3030303aaaa0002","toSide":"top","toEnd":"arrow"},
+    {"id":"e0000000000000a7","fromNode":"c3030303aaaa0003","fromSide":"bottom","toNode":"c3030303aaaa0004","toSide":"top","toEnd":"arrow","label":"mismo método"},
+    {"id":"e0000000000000a8","fromNode":"c3030303aaaa0001","fromSide":"right","toNode":"d4040404aaaa0001","toSide":"left","toEnd":"arrow","label":"se exporta en bruto"},
+    {"id":"e0000000000000a9","fromNode":"c3030303aaaa0004","fromSide":"right","toNode":"d4040404aaaa0001","toSide":"left","toEnd":"arrow","label":"enclave en dinero"},
+    {"id":"e0000000000000b1","fromNode":"d4040404aaaa0001","fromSide":"bottom","toNode":"d4040404aaaa0002","toSide":"top","toEnd":"arrow","label":"ordena"},
+    {"id":"e0000000000000b2","fromNode":"d4040404aaaa0002","fromSide":"bottom","toNode":"d4040404aaaa0003","toSide":"top","toEnd":"arrow","label":"deriva"},
+    {"id":"e0000000000000b3","fromNode":"c1010101aaaa0002","fromSide":"right","toNode":"c3030303aaaa0003","toSide":"left","toEnd":"arrow","label":"like-for-like (sector)"}
+  ]
+}

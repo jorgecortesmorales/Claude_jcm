@@ -1,0 +1,30 @@
+mineral,etapa,fracciones_hs
+cobre,E1 Mena/concentrado,2603
+cobre,E2 Metal en bruto/refinado,7401;7402;7403;7405
+cobre,E3 Semimanufacturas,7407;7408;7409;7410;7411;7412;7413
+cobre,E4 Manufacturas,7415;7418;7419
+plomo,E1 Mena/concentrado,2607
+plomo,E2 Metal en bruto/refinado,7801
+plomo,E3 Semimanufacturas,7804
+plomo,E4 Manufacturas,7806
+zinc,E1 Mena/concentrado,2608
+zinc,E2 Metal en bruto/refinado,7901
+zinc,E3 Semimanufacturas,7903;7904;7905
+zinc,E4 Manufacturas,7907
+manganeso,E1 Mena/concentrado,2602
+manganeso,E2 Ferroaleaciones,720211;720219;720230
+manganeso,E3 Quimicos/metal,282010;8111
+oro,E1 Mena/concentrado,261610
+oro,E2 Bruto/semilabrado,7108
+plata,E1 Mena/concentrado,261690
+plata,E2 Bruto/semilabrado,7106
+oro-plata (manufacturas),E4 Joyeria/orfebreria,7113;7114;7115
+barita,E1 Crudo/molido,251110
+barita,E2 Quimicos de bario,281640;283660
+fluorita,E1 Espato fluor (crudo),252921;252922
+fluorita,E2 Fluoroquimica,281111;282612;282619;390461
+grafito,E1 Grafito natural,250410;250490
+grafito,E2 Grafito artificial/prep.,3801
+grafito,E3 Electrodos/articulos de carbono,8545
+silice,E1 Arena silica/cuarzo,250510;250610
+silice,E2 Silicio/ferrosilicio/SiO2,280461;280469;720221;720229;281122

@@ -1,0 +1,11 @@
+mineral,hhi_geografico,n_estados,estado_extraccion_lider,share_lider_pct,estados_transformacion,tiene_eslabon_E2,colocalizado_extraccion_E2
+cobre,5186,16,Sonora,70,Ciudad de México; Sonora,si,si
+plomo,5318,12,Zacatecas,71,Coahuila; San Luis Potosí,si,no
+zinc,3436,13,Zacatecas,56,Coahuila; San Luis Potosí,si,no
+manganeso,10000,1,Hidalgo,100,Durango; Puebla; Veracruz,si,no
+oro,2476,16,Sonora,32,Coahuila,si,no
+plata,3022,16,Zacatecas,50,Coahuila,si,no
+fluorita,9158,3,San Luis Potosi,96,Tamaulipas,si,no
+grafito,10000,1,Sonora,100,Michoacán,no,no
+barita,4907,9,Nuevo Leon,59,Campeche,no,no
+silice,4258,6,Coahuila,52,Nuevo León,si,no

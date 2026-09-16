@@ -12,8 +12,8 @@ status: en-progreso
 > [!info] Los mercados de los minerales críticos en México, 1992-2025 — estructura extractiva, cadenas de valor y bases de política industrial
 > **Diseño descriptivo** (rediseño 2026-07-23; antes era causal); concepto ordenador = **enclave estructural**. Ver [[Protocolo v3 - Rediseño descriptivo (cadenas de valor)]], [[Columna Vertebral Metodologica]] y [[Estructura de la Tesis]].
 
-> [!success] Estado (2026-09-05)
-> **Fase de datos completa** y **Caps. I-VIII en forma descriptiva** (cambios aceptados por el alumno; solo el **protocolo** conserva control de cambios a la espera del asesor). Los **cuatro indicadores** están construidos: HHI (2004-2023), encadenamientos MIP/Ghosh (2013/2018), **CCV como serie anual 1992-2025** y comercio por etapa (2015-2024). Hay un **resumen descriptivo** y tres **entregables visuales** (infografía, presentación, Word). Detalle en [[Bitacora|Bitácora]] (2026-09-05). Fuente de continuidad: [[Handoff - Siguiente fase (CCV + redaccion) 2026-08-01]].
+> [!success] Estado (2026-09-16)
+> **Manuscrito reescrito a la nueva estructura de 9 capítulos** ([[Arquitectura del documento (estructura expositiva)]]) con pipeline reproducible (`11 Redaccion/pandoc/build_book.py`): portada, índice general + de cuadros + de ilustraciones (campos de Word), 34 cuadros, 29 ilustraciones y **Anexos B (series), C (10 fichas + mapas) y D (vacíos)**. Todos los indicadores están construidos y auditados ([[Auditoria de indicadores (justificacion, matematica, limites)]]). Continuidad en [[Handoff - Estado y siguiente (marco institucional, criticidad, Ghosh por eslabon, manuscrito) 2026-09-15]]; avance por capítulo en [[Estructura y Cronograma de la ICR]].
 
 > [!tip] ¿Te pierdes entre archivos? Abre el 🗺️ [[Mapa del Proyecto]] — diagrama de dónde vive cada cosa.
 

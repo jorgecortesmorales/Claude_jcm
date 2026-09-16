@@ -1,0 +1,57 @@
+anio,mineral_codigo,mineral,comprador_codigo,comprador,valor_mmpesos,share_del_di,base_scian,comparabilidad
+2008,212393,barita,213111,Perforación de pozos petroleros y de gas,215.955,0.893,SCIAN2007_base2008,referencia
+2008,212393,barita,212393,Minería de barita,25.866,0.107,SCIAN2007_base2008,referencia
+2008,212231,cobre,331411,Fundición y refinación de cobre,6825.361,0.7447,SCIAN2007_base2008,referencia
+2008,212231,cobre,325180,Fabricación de otros productos químicos básicos inorgánicos,1404.975,0.1533,SCIAN2007_base2008,referencia
+2008,212231,cobre,331420,Laminación secundaria de cobre,710.83,0.0776,SCIAN2007_base2008,referencia
+2008,212231,cobre,331412,Fundición y refinación de metales preciosos,200.199,0.0218,SCIAN2007_base2008,referencia
+2008,212231,cobre,325999,Fabricación de otros productos químicos,17.145,0.0019,SCIAN2007_base2008,referencia
+2008,212231,cobre,331112,Fabricación de desbastes primarios y ferroaleaciones,2.718,0.0003,SCIAN2007_base2008,referencia
+2008,212231,cobre,325190,Fabricación de otros productos químicos básicos orgánicos,2.064,0.0002,SCIAN2007_base2008,referencia
+2008,212231,cobre,212231,Minería de cobre,1.782,0.0002,SCIAN2007_base2008,referencia
+2008,212395,fluorita,325180,Fabricación de otros productos químicos básicos inorgánicos,363.198,0.795,SCIAN2007_base2008,referencia
+2008,212395,fluorita,212395,Minería de fluorita,51.322,0.1123,SCIAN2007_base2008,referencia
+2008,212395,fluorita,327310,Fabricación de cemento y productos a base de cemento en plantas integr,27.804,0.0609,SCIAN2007_base2008,referencia
+2008,212395,fluorita,325999,Fabricación de otros productos químicos,4.556,0.01,SCIAN2007_base2008,referencia
+2008,212395,fluorita,333991,Fabricación de equipo para soldar y soldaduras,3.454,0.0076,SCIAN2007_base2008,referencia
+2008,212395,fluorita,327999,Fabricación de otros productos a base de minerales no metálicos,3.077,0.0067,SCIAN2007_base2008,referencia
+2008,212395,fluorita,327219,Fabricación de otros productos de vidrio,1.621,0.0035,SCIAN2007_base2008,referencia
+2008,212395,fluorita,327123,Fabricación de productos refractarios,0.894,0.002,SCIAN2007_base2008,referencia
+2008,212396,grafito,331112,Fabricación de desbastes primarios y ferroaleaciones,125.184,0.34,SCIAN2007_base2008,referencia
+2008,212396,grafito,331220,Fabricación de otros productos de hierro y acero,92.359,0.2509,SCIAN2007_base2008,referencia
+2008,212396,grafito,336340,Fabricación de partes de sistemas de frenos para vehículos automotrice,60.74,0.165,SCIAN2007_base2008,referencia
+2008,212396,grafito,327123,Fabricación de productos refractarios,58.875,0.1599,SCIAN2007_base2008,referencia
+2008,212396,grafito,336310,Fabricación de motores de gasolina y sus partes para vehículos automot,19.36,0.0526,SCIAN2007_base2008,referencia
+2008,212396,grafito,331510,Moldeo por fundición de piezas de hierro y acero,7.051,0.0192,SCIAN2007_base2008,referencia
+2008,212396,grafito,339940,"Fabricación de artículos y accesorios para escritura, pintura, dibujo ",3.099,0.0084,SCIAN2007_base2008,referencia
+2008,212396,grafito,336390,Fabricación de otras partes para vehículos automotrices,0.342,0.0009,SCIAN2007_base2008,referencia
+2008,212291,manganeso,325180,Fabricación de otros productos químicos básicos inorgánicos,1227.999,0.5544,SCIAN2007_base2008,referencia
+2008,212291,manganeso,331112,Fabricación de desbastes primarios y ferroaleaciones,950.248,0.429,SCIAN2007_base2008,referencia
+2008,212291,manganeso,331419,Fundición y refinación de otros metales no ferrosos,18.102,0.0082,SCIAN2007_base2008,referencia
+2008,212291,manganeso,325999,Fabricación de otros productos químicos,14.953,0.0068,SCIAN2007_base2008,referencia
+2008,212291,manganeso,325190,Fabricación de otros productos químicos básicos orgánicos,1.801,0.0008,SCIAN2007_base2008,referencia
+2008,212291,manganeso,212291,"Minería de manganeso (incluye a la 212292 ""Minería de mercurio y antim",1.636,0.0007,SCIAN2007_base2008,referencia
+2008,212291,manganeso,212391,Minería de sal,0.194,0.0001,SCIAN2007_base2008,referencia
+2008,212291,manganeso,327123,Fabricación de productos refractarios,0.112,0.0001,SCIAN2007_base2008,referencia
+2008,212221,oro,331412,Fundición y refinación de metales preciosos,7144.231,0.5701,SCIAN2007_base2008,referencia
+2008,212221,oro,331490,Laminación secundaria de otros metales no ferrosos,5190.756,0.4142,SCIAN2007_base2008,referencia
+2008,212221,oro,212221,Minería de oro,196.602,0.0157,SCIAN2007_base2008,referencia
+2008,212222,plata,331412,Fundición y refinación de metales preciosos,1464.91,0.4284,SCIAN2007_base2008,referencia
+2008,212222,plata,331490,Laminación secundaria de otros metales no ferrosos,1064.353,0.3113,SCIAN2007_base2008,referencia
+2008,212222,plata,212222,Minería de plata,890.18,0.2603,SCIAN2007_base2008,referencia
+2008,212232,plomo-zinc,331412,Fundición y refinación de metales preciosos,2313.1,0.3718,SCIAN2007_base2008,referencia
+2008,212232,plomo-zinc,331490,Laminación secundaria de otros metales no ferrosos,1680.69,0.2701,SCIAN2007_base2008,referencia
+2008,212232,plomo-zinc,331419,Fundición y refinación de otros metales no ferrosos,1106.017,0.1778,SCIAN2007_base2008,referencia
+2008,212232,plomo-zinc,331112,Fabricación de desbastes primarios y ferroaleaciones,930.803,0.1496,SCIAN2007_base2008,referencia
+2008,212232,plomo-zinc,335910,Fabricación de acumuladores y pilas,102.077,0.0164,SCIAN2007_base2008,referencia
+2008,212232,plomo-zinc,212232,Minería de plomo y zinc,39.208,0.0063,SCIAN2007_base2008,referencia
+2008,212232,plomo-zinc,331310,Industria básica del aluminio,19.979,0.0032,SCIAN2007_base2008,referencia
+2008,212232,plomo-zinc,331411,Fundición y refinación de cobre,16.922,0.0027,SCIAN2007_base2008,referencia
+2008,212324,silice,327213,Fabricación de envases y ampolletas de vidrio,627.847,0.6354,SCIAN2007_base2008,referencia
+2008,212324,silice,327214,Fabricación de fibra de vidrio,75.332,0.0762,SCIAN2007_base2008,referencia
+2008,212324,silice,327122,Fabricación de azulejos y losetas no refractarias,58.143,0.0588,SCIAN2007_base2008,referencia
+2008,212324,silice,325211,Fabricación de resinas sintéticas,46.45,0.047,SCIAN2007_base2008,referencia
+2008,212324,silice,327211,Fabricación de vidrio,30.535,0.0309,SCIAN2007_base2008,referencia
+2008,212324,silice,331112,Fabricación de desbastes primarios y ferroaleaciones,27.851,0.0282,SCIAN2007_base2008,referencia
+2008,212324,silice,327999,Fabricación de otros productos a base de minerales no metálicos,27.798,0.0281,SCIAN2007_base2008,referencia
+2008,212324,silice,327310,Fabricación de cemento y productos a base de cemento en plantas integr,10.736,0.0109,SCIAN2007_base2008,referencia

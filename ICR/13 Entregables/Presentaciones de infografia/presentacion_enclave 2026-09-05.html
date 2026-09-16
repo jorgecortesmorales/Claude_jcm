@@ -1,0 +1,456 @@
+<title>Enclave estructural — presentación</title>
+<meta name="description" content="Presentación de los cuatro indicadores descriptivos de diez minerales críticos de México, 1992-2025.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#0e0b07;font-family:'IBM Plex Sans',system-ui,sans-serif}
+.card{background:#f6f5f1;border:1px solid #d7d2c7;border-radius:14px;padding:24px 26px;display:flex;flex-direction:column}
+.n{font-family:'IBM Plex Mono',monospace;font-size:14px;color:#b0571e;border:1px solid #b0571e;border-radius:6px;padding:2px 8px}
+.fx{font-family:'IBM Plex Mono',monospace;font-size:15px;background:#e6e3db;border-left:3px solid #b0571e;border-radius:7px;padding:10px 13px;margin-top:auto;color:#211d18}
+.cov{font-family:'IBM Plex Mono',monospace;font-size:13px;color:#8a8175;margin-top:12px}
+.q{background:#1e1810;border:1px solid #332a1c;border-radius:12px;padding:20px 22px;position:relative;overflow:hidden}
+.q .k{font-family:'IBM Plex Mono',monospace;font-size:22px;font-weight:500}
+.q .t{font-family:'Spectral',serif;font-weight:700;font-size:20px;color:#efe8dc;margin-top:2px}
+.q .m{font-family:'IBM Plex Mono',monospace;font-size:13px;margin:8px 0 8px;font-weight:500}
+.q p{margin:0;font-size:14.5px;color:#9a9182;line-height:1.45}
+#deck{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.stage{position:relative;width:1280px;height:720px;flex:none;transform-origin:center center;box-shadow:0 20px 60px rgba(0,0,0,.5);border-radius:6px;overflow:hidden}
+.slide{position:absolute;inset:0;display:none}
+.slide.on{display:block}
+.slide>div{width:1280px !important;height:720px !important}
+/* controls */
+#bar{position:fixed;left:0;right:0;bottom:0;height:52px;display:flex;align-items:center;gap:14px;padding:0 20px;
+  background:linear-gradient(0deg,rgba(14,11,7,.92),rgba(14,11,7,0));color:#c8bfae;font-family:'IBM Plex Mono',monospace;font-size:13px;z-index:10}
+#bar button{background:#1e1810;color:#efe8dc;border:1px solid #3a3126;border-radius:7px;width:36px;height:34px;font-size:16px;cursor:pointer}
+#bar button:hover{border-color:#e07a3e}
+#bar .count{min-width:66px;text-align:center}
+#bar .ttl{color:#9a9182}
+#bar .sp{margin-left:auto}
+#bar .hint{color:#6f665a}
+.dots{display:flex;gap:7px}
+.dots i{width:9px;height:9px;border-radius:50%;background:#3a3126;cursor:pointer;display:block}
+.dots i.on{background:#e07a3e}
+@media print{
+  @page{size:1280px 720px;margin:0}
+  html,body{background:#fff}
+  #deck{position:static;display:block}
+  #bar{display:none}
+  .stage{box-shadow:none;border-radius:0;page-break-after:always;transform:none !important}
+  .slide{display:block !important;position:relative;inset:auto}
+  .stage{height:auto}
+}
+</style>
+<div id="deck"><div class="stage" id="stage">
+<section class="slide" data-i="0"><div style="width:1280px;height:720px;background:#16130f;color:#efe8dc;font-family:'IBM Plex Sans',system-ui,sans-serif;padding:80px 88px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden">
+  <div style="position:absolute;top:0;right:0;width:340px;height:720px;background:linear-gradient(180deg,rgba(224,122,62,.14),rgba(224,122,62,0));pointer-events:none"></div>
+  <div style="font-family:'IBM Plex Mono',monospace;font-size:16px;letter-spacing:.18em;text-transform:uppercase;color:#e07a3e;font-weight:500">ICR · Maestría en Economía · UAM Azcapotzalco</div>
+  <div>
+    <div style="font-family:'IBM Plex Mono',monospace;font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:#9a9182;margin-bottom:22px">Los mercados de los minerales críticos en México</div>
+    <h1 style="font-family:'Spectral',Georgia,serif;font-weight:800;font-size:74px;line-height:1.05;letter-spacing:-.02em;margin:0;max-width:20ch">México exporta el recurso, no la cadena de valor.</h1>
+    <div style="width:120px;height:5px;background:#e07a3e;margin:34px 0 30px;border-radius:3px"></div>
+    <p style="font-size:24px;line-height:1.5;color:#c8bfae;max-width:52ch;margin:0">Diez minerales críticos leídos con cuatro indicadores descriptivos. El patrón que emerge es el de un <b style="color:#efe8dc;font-weight:600">enclave estructural</b>: extracción concentrada, exportación en bruto y desconexión con los eslabones industriales aguas abajo.</p>
+  </div>
+  <div style="display:flex;gap:40px;font-family:'IBM Plex Mono',monospace;font-size:16px;color:#9a9182;border-top:1px solid #332a1c;padding-top:22px">
+    <span><b style="color:#efe8dc">10</b> minerales</span>
+    <span><b style="color:#efe8dc">1992–2025</b> serie anual</span>
+    <span><b style="color:#efe8dc">4</b> indicadores</span>
+    <span style="margin-left:auto">Diseño descriptivo · concepto ordenador: enclave estructural</span>
+  </div>
+</div></section>
+<section class="slide" data-i="1"><div style="width:1280px;height:720px;background:#efeeea;color:#211d18;font-family:'IBM Plex Sans',system-ui,sans-serif;padding:64px 80px;display:flex;flex-direction:column">
+  <div style="display:flex;align-items:baseline;gap:16px">
+    <span style="font-family:'IBM Plex Mono',monospace;font-size:14px;color:#b0571e;border:1px solid #b0571e;border-radius:6px;padding:3px 9px">MARCO</span>
+    <h2 style="font-family:'Spectral',serif;font-weight:800;font-size:40px;letter-spacing:-.01em;margin:0">Cuatro fases, un concepto ordenador</h2>
+  </div>
+  <p style="font-size:19px;color:#575048;max-width:88ch;margin:18px 0 0">Cada mineral se describe a lo largo de la cadena de valor. El aporte de la tesis es construir los datos e indicadores que ubican a México en esa cadena —los indicadores son descriptores, no variables de un modelo causal.</p>
+
+  <div style="display:flex;align-items:stretch;gap:0;margin-top:38px">
+    <div style="flex:1;background:#f6f5f1;border:1px solid #d7d2c7;border-top:4px solid #c85a1a;border-radius:12px;padding:22px 20px">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:15px;color:#b0571e;font-weight:500">E1</div>
+      <div style="font-family:'Spectral',serif;font-weight:600;font-size:22px;margin:6px 0 8px">Mena / concentrado</div>
+      <div style="font-size:15px;color:#575048;line-height:1.45">El mineral en bruto o su concentrado</div>
+    </div>
+    <div style="display:flex;align-items:center;padding:0 6px;color:#b0571e"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 6l6 6-6 6"/></svg></div>
+    <div style="flex:1;background:#f6f5f1;border:1px solid #d7d2c7;border-top:4px solid #c07a44;border-radius:12px;padding:22px 20px">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:15px;color:#b0571e;font-weight:500">E2</div>
+      <div style="font-family:'Spectral',serif;font-weight:600;font-size:22px;margin:6px 0 8px">Refinado / procesado</div>
+      <div style="font-size:15px;color:#575048;line-height:1.45">Metal refinado o mineral procesado/químico</div>
+    </div>
+    <div style="display:flex;align-items:center;padding:0 6px;color:#b0571e"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 6l6 6-6 6"/></svg></div>
+    <div style="flex:1;background:#f6f5f1;border:1px solid #d7d2c7;border-top:4px solid #8a8175;border-radius:12px;padding:22px 20px">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:15px;color:#8a8175;font-weight:500">E3</div>
+      <div style="font-family:'Spectral',serif;font-weight:600;font-size:22px;margin:6px 0 8px">Semimanufactura</div>
+      <div style="font-size:15px;color:#575048;line-height:1.45">Producto intermedio elaborado</div>
+    </div>
+    <div style="display:flex;align-items:center;padding:0 6px;color:#b0571e"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 6l6 6-6 6"/></svg></div>
+    <div style="flex:1;background:#f6f5f1;border:1px solid #d7d2c7;border-top:4px solid #5b6770;border-radius:12px;padding:22px 20px">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:15px;color:#5b6770;font-weight:500">E4</div>
+      <div style="font-family:'Spectral',serif;font-weight:600;font-size:22px;margin:6px 0 8px">Bien final</div>
+      <div style="font-size:15px;color:#575048;line-height:1.45">Manufactura atribuible al mineral</div>
+    </div>
+  </div>
+
+  <div style="margin-top:auto;display:flex;gap:20px;background:#211d18;color:#efe8dc;border-radius:14px;padding:26px 30px;align-items:center">
+    <div style="font-family:'Spectral',serif;font-weight:800;font-size:26px;color:#e07a3e;flex:none;max-width:15ch;line-height:1.15">Enclave estructural</div>
+    <div style="width:1px;align-self:stretch;background:#3a3126"></div>
+    <p style="margin:0;font-size:19px;line-height:1.5;color:#c8bfae">Desconexión con los eslabones aguas abajo <b style="color:#efe8dc;font-weight:600">aun con capital nacional</b> —al que se llega por contraste con el enclave clásico de propiedad (Cardoso-Faletto), con respaldo en el neo-extractivismo (Svampa). Los cuatro indicadores lo miden.</p>
+  </div>
+</div></section>
+<section class="slide" data-i="2"><div style="width:1280px;height:720px;background:#efeeea;color:#211d18;font-family:'IBM Plex Sans',system-ui,sans-serif;padding:60px 80px;display:flex;flex-direction:column">
+  <div style="display:flex;align-items:baseline;gap:16px">
+    <span style="font-family:'IBM Plex Mono',monospace;font-size:14px;color:#b0571e;border:1px solid #b0571e;border-radius:6px;padding:3px 9px">MÉTODO</span>
+    <h2 style="font-family:'Spectral',serif;font-weight:800;font-size:40px;letter-spacing:-.01em;margin:0">Cuatro indicadores, cuatro fórmulas</h2>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:20px;margin-top:28px;flex:1">
+    <div class="card">
+      <div style="display:flex;align-items:center;gap:12px"><span class="n">01</span><span style="font-family:'Spectral',serif;font-weight:700;font-size:23px">HHI · concentración de la extracción</span></div>
+      <p style="font-size:16px;color:#575048;line-height:1.45;margin:12px 0 0">Qué tan concentrada está la producción minera nacional en pocos grupos.</p>
+      <div class="fx">HHI = Σ s<sub>i</sub>²&nbsp;&nbsp;·&nbsp;&nbsp;s<sub>i</sub> = participación % del grupo i</div>
+      <div class="cov">Serie 2004–2023 · rango 0–10 000</div>
+    </div>
+    <div class="card">
+      <div style="display:flex;align-items:center;gap:12px"><span class="n">02</span><span style="font-family:'Spectral',serif;font-weight:700;font-size:23px">Ghosh · encadenamiento hacia adelante</span></div>
+      <p style="font-size:16px;color:#575048;line-height:1.45;margin:12px 0 0">Cuánto empuja cada sector la producción aguas abajo (Matriz Insumo-Producto).</p>
+      <div class="fx">G = (I − B)⁻¹&nbsp;&nbsp;·&nbsp;&nbsp;índice adelante &gt; 1 = empuje alto</div>
+      <div class="cov">Cortes MIP INEGI 2013 y 2018</div>
+    </div>
+    <div class="card">
+      <div style="display:flex;align-items:center;gap:12px"><span class="n">03</span><span style="font-family:'Spectral',serif;font-weight:700;font-size:23px">CCV · captura de valor en frontera</span></div>
+      <p style="font-size:16px;color:#575048;line-height:1.45;margin:12px 0 0">Qué fracción del valor del producto de referencia capta la exportación en bruto.</p>
+      <div class="fx">CCV = VU<sup>X,E1</sup> ÷ P<sup>USGS</sup>&nbsp;&nbsp;(exportación bruta ÷ referencia)</div>
+      <div class="cov">Serie anual 1992–2025 · Comtrade + USGS</div>
+    </div>
+    <div class="card">
+      <div style="display:flex;align-items:center;gap:12px"><span class="n">04</span><span style="font-family:'Spectral',serif;font-weight:700;font-size:23px">Comercio por etapa · inserción global</span></div>
+      <p style="font-size:16px;color:#575048;line-height:1.45;margin:12px 0 0">En qué eslabón de la cadena se inserta México en el mercado mundial.</p>
+      <div class="fx">X_share_crudo = X<sup>E1</sup> ÷ X<sup>total</sup></div>
+      <div class="cov">Serie 2015–2024 · UN Comtrade</div>
+    </div>
+  </div>
+</div></section>
+<section class="slide" data-i="3"><div style="width:1280px;height:720px;background:#efeeea;color:#211d18;font-family:'IBM Plex Sans',system-ui,sans-serif;padding:58px 74px;display:flex;flex-direction:column">
+  <div style="display:flex;align-items:baseline;gap:16px">
+    <span style="font-family:'IBM Plex Mono',monospace;font-size:14px;color:#b0571e;border:1px solid #b0571e;border-radius:6px;padding:3px 9px">01 · HHI</span>
+    <h2 style="font-family:'Spectral',serif;font-weight:800;font-size:38px;letter-spacing:-.01em;margin:0">Concentración de la extracción</h2>
+  </div>
+  <div style="font-family:'IBM Plex Mono',monospace;font-size:15px;color:#8a8175;margin:10px 0 0">Índice HHI de la producción minera nacional por mineral, 2023</div>
+
+  <div style="display:flex;gap:36px;margin-top:22px;flex:1;align-items:center">
+    <div style="flex:1.75;min-width:0">
+<svg viewBox="0 0 1120 470" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block">
+<line x1="150" y1="20" x2="150" y2="430" stroke="#cfc9bd"/>
+<text x="150" y="456" text-anchor="middle" fill="#8a8175" font-size="13" font-family="IBM Plex Mono, monospace">0</text>
+<line x1="375" y1="20" x2="375" y2="430" stroke="#cfc9bd"/>
+<text x="375" y="456" text-anchor="middle" fill="#8a8175" font-size="13" font-family="IBM Plex Mono, monospace">2,500</text>
+<line x1="600" y1="20" x2="600" y2="430" stroke="#cfc9bd"/>
+<text x="600" y="456" text-anchor="middle" fill="#8a8175" font-size="13" font-family="IBM Plex Mono, monospace">5,000</text>
+<line x1="825" y1="20" x2="825" y2="430" stroke="#cfc9bd"/>
+<text x="825" y="456" text-anchor="middle" fill="#8a8175" font-size="13" font-family="IBM Plex Mono, monospace">7,500</text>
+<line x1="1050" y1="20" x2="1050" y2="430" stroke="#cfc9bd"/>
+<text x="1050" y="456" text-anchor="middle" fill="#8a8175" font-size="13" font-family="IBM Plex Mono, monospace">10,000</text>
+<text x="138" y="46" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Fluorita</text>
+<rect x="150" y="30" width="900" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="30" width="900" height="22" rx="4" fill="#8a3221"/>
+<text x="1060" y="46" fill="#211d18" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">10,000</text>
+<text x="138" y="86" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Grafito</text>
+<rect x="150" y="70" width="900" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="70" width="900" height="22" rx="4" fill="#8a3221"/>
+<text x="1060" y="86" fill="#211d18" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">10,000</text>
+<text x="138" y="128" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Manganeso</text>
+<rect x="150" y="112" width="900" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="112" width="900" height="22" rx="4" fill="#8a3221"/>
+<text x="1060" y="128" fill="#211d18" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">10,000</text>
+<text x="138" y="168" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Sílice</text>
+<rect x="150" y="152" width="900" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="152" width="600" height="22" rx="4" fill="#8a3221"/>
+<text x="760" y="168" fill="#211d18" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">6,670</text>
+<text x="138" y="210" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Cobre</text>
+<rect x="150" y="194" width="900" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="194" width="339" height="22" rx="4" fill="#b0571e"/>
+<text x="499" y="210" fill="#211d18" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">3,764</text>
+<text x="138" y="250" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Plomo</text>
+<rect x="150" y="234" width="900" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="234" width="164" height="22" rx="4" fill="#b98a1e"/>
+<text x="324" y="250" fill="#211d18" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">1,823</text>
+<text x="138" y="292" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Zinc</text>
+<rect x="150" y="276" width="900" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="276" width="140" height="22" rx="4" fill="#b98a1e"/>
+<text x="300" y="292" fill="#211d18" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">1,551</text>
+<text x="138" y="332" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Barita</text>
+<rect x="150" y="316" width="900" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="316" width="124" height="22" rx="4" fill="#8a8175"/>
+<text x="284" y="332" fill="#211d18" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">1,380</text>
+<text x="138" y="374" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Plata</text>
+<rect x="150" y="358" width="900" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="358" width="82" height="22" rx="4" fill="#8a8175"/>
+<text x="242" y="374" fill="#211d18" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">914</text>
+<text x="138" y="414" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Oro</text>
+<rect x="150" y="398" width="900" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="398" width="28" height="22" rx="4" fill="#8a8175"/>
+<text x="188" y="414" fill="#211d18" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">312</text>
+</svg>
+    </div>
+    <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:18px">
+      <div style="background:#211d18;color:#efe8dc;border-radius:12px;padding:22px 24px">
+        <div style="font-family:'Spectral',serif;font-weight:800;font-size:46px;line-height:1;color:#e07a3e">3</div>
+        <div style="font-size:16px;color:#c8bfae;margin-top:8px;line-height:1.4">monopolios estructurales — manganeso, fluorita y grafito con HHI = 10 000 (un solo grupo)</div>
+      </div>
+      <p style="margin:0;font-size:17px;line-height:1.5;color:#211d18">La <b>barita se desconcentra</b> (su líder cae de 82% a 37% entre 2021 y 2023); la <b>fluorita salta a monopolio</b> tras la fusión de enero de 2012. Oro y plata, fragmentados.</p>
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#8a8175;display:flex;flex-direction:column;gap:6px;border-top:1px solid #d7d2c7;padding-top:14px">
+        <span><span style="display:inline-block;width:12px;height:12px;background:#8a3221;border-radius:3px;vertical-align:-1px"></span> muy alta (≥6 000)</span>
+        <span><span style="display:inline-block;width:12px;height:12px;background:#b0571e;border-radius:3px;vertical-align:-1px"></span> alta (2 500–6 000)</span>
+        <span><span style="display:inline-block;width:12px;height:12px;background:#b98a1e;border-radius:3px;vertical-align:-1px"></span> moderada · <span style="display:inline-block;width:12px;height:12px;background:#8a8175;border-radius:3px;vertical-align:-1px"></span> baja</span>
+      </div>
+    </div>
+  </div>
+  <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#8a8175;margin-top:8px;font-style:italic">2004–2020 aproximado por participación de líder; 2021–2023 con detalle por mina — el nivel previo a 2021 se lee como régimen, no como cifra exacta.</div>
+</div></section>
+<section class="slide" data-i="4"><div style="width:1280px;height:720px;background:#efeeea;color:#211d18;font-family:'IBM Plex Sans',system-ui,sans-serif;padding:58px 74px;display:flex;flex-direction:column">
+  <div style="display:flex;align-items:baseline;gap:16px">
+    <span style="font-family:'IBM Plex Mono',monospace;font-size:14px;color:#b0571e;border:1px solid #b0571e;border-radius:6px;padding:3px 9px">02 · GHOSH</span>
+    <h2 style="font-family:'Spectral',serif;font-weight:800;font-size:38px;letter-spacing:-.01em;margin:0">Encadenamiento hacia adelante</h2>
+  </div>
+  <div style="font-family:'IBM Plex Mono',monospace;font-size:15px;color:#8a8175;margin:10px 0 0">Índice de empuje aguas abajo (Rasmussen), Matriz Insumo-Producto 2018 · línea = umbral 1.0</div>
+
+  <div style="display:flex;gap:36px;margin-top:22px;flex:1;align-items:center">
+    <div style="flex:1.75;min-width:0">
+<svg viewBox="0 0 1120 470" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block">
+<line x1="150" y1="20" x2="150" y2="430" stroke="#cfc9bd"/>
+<text x="150" y="456" text-anchor="middle" fill="#8a8175" font-size="15" font-family="IBM Plex Mono, monospace">0</text>
+<line x1="434" y1="20" x2="434" y2="430" stroke="#cfc9bd"/>
+<text x="434" y="456" text-anchor="middle" fill="#8a8175" font-size="15" font-family="IBM Plex Mono, monospace">1</text>
+<line x1="719" y1="20" x2="719" y2="430" stroke="#cfc9bd"/>
+<text x="719" y="456" text-anchor="middle" fill="#8a8175" font-size="15" font-family="IBM Plex Mono, monospace">2</text>
+<line x1="1003" y1="20" x2="1003" y2="430" stroke="#cfc9bd"/>
+<text x="1003" y="456" text-anchor="middle" fill="#8a8175" font-size="15" font-family="IBM Plex Mono, monospace">3</text>
+<line x1="434" y1="20" x2="434" y2="430" stroke="#b0571e" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="138" y="48" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Sílice</text>
+<rect x="150" y="32" width="910" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="32" width="545" height="22" rx="4" fill="#b0571e"/>
+<text x="705" y="48" fill="#211d18" font-size="16" font-weight="500" font-family="IBM Plex Mono, monospace">1.92</text>
+<text x="138" y="93" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Grafito</text>
+<rect x="150" y="77" width="910" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="77" width="486" height="22" rx="4" fill="#b0571e"/>
+<text x="646" y="93" fill="#211d18" font-size="16" font-weight="500" font-family="IBM Plex Mono, monospace">1.71</text>
+<text x="138" y="139" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Manganeso</text>
+<rect x="150" y="123" width="910" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="123" width="438" height="22" rx="4" fill="#b0571e"/>
+<text x="598" y="139" fill="#211d18" font-size="16" font-weight="500" font-family="IBM Plex Mono, monospace">1.54</text>
+<text x="138" y="184" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Cobre</text>
+<rect x="150" y="168" width="910" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="168" width="381" height="22" rx="4" fill="#b0571e"/>
+<text x="541" y="184" fill="#211d18" font-size="16" font-weight="500" font-family="IBM Plex Mono, monospace">1.34</text>
+<text x="138" y="230" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Fluorita</text>
+<rect x="150" y="214" width="910" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="214" width="373" height="22" rx="4" fill="#b0571e"/>
+<text x="533" y="230" fill="#211d18" font-size="16" font-weight="500" font-family="IBM Plex Mono, monospace">1.31</text>
+<text x="138" y="276" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Oro</text>
+<rect x="150" y="260" width="910" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="260" width="346" height="22" rx="4" fill="#b0571e"/>
+<text x="506" y="276" fill="#211d18" font-size="16" font-weight="500" font-family="IBM Plex Mono, monospace">1.22</text>
+<text x="138" y="321" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Plata</text>
+<rect x="150" y="305" width="910" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="305" width="334" height="22" rx="4" fill="#b0571e"/>
+<text x="494" y="321" fill="#211d18" font-size="16" font-weight="500" font-family="IBM Plex Mono, monospace">1.17</text>
+<text x="138" y="367" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Plomo-zinc</text>
+<rect x="150" y="351" width="910" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="351" width="201" height="22" rx="4" fill="#8a8175"/>
+<text x="361" y="367" fill="#211d18" font-size="16" font-weight="500" font-family="IBM Plex Mono, monospace">0.71</text>
+<text x="138" y="412" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Barita</text>
+<rect x="150" y="396" width="910" height="22" rx="4" fill="#e6e3db"/>
+<rect x="150" y="396" width="183" height="22" rx="4" fill="#8a8175"/>
+<text x="343" y="412" fill="#211d18" font-size="16" font-weight="500" font-family="IBM Plex Mono, monospace">0.64</text>
+</svg>
+    </div>
+    <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:18px">
+      <p style="margin:0;font-size:19px;line-height:1.5;color:#211d18">El empuje aguas abajo es <b>alto donde existe industria usuaria local</b>:</p>
+      <div style="display:flex;flex-direction:column;gap:10px;font-size:16px;color:#575048">
+        <div style="display:flex;gap:10px"><span style="color:#b0571e;font-weight:700">→</span> sílice → vidrio</div>
+        <div style="display:flex;gap:10px"><span style="color:#b0571e;font-weight:700">→</span> grafito → siderurgia</div>
+        <div style="display:flex;gap:10px"><span style="color:#b0571e;font-weight:700">→</span> manganeso → ferroaleaciones</div>
+      </div>
+      <p style="margin:0;font-size:17px;line-height:1.5;color:#211d18;background:#e6e3db;border-radius:10px;padding:16px 18px">…y <b>bajo (índice &lt; 1) justo en lo que se exporta en bruto</b>: barita y plomo-zinc (que comparten clase por coextracción).</p>
+    </div>
+  </div>
+</div></section>
+<section class="slide" data-i="5"><div style="width:1280px;height:720px;background:#efeeea;color:#211d18;font-family:'IBM Plex Sans',system-ui,sans-serif;padding:58px 74px;display:flex;flex-direction:column">
+  <div style="display:flex;align-items:baseline;gap:16px">
+    <span style="font-family:'IBM Plex Mono',monospace;font-size:14px;color:#b0571e;border:1px solid #b0571e;border-radius:6px;padding:3px 9px">03 · CCV</span>
+    <h2 style="font-family:'Spectral',serif;font-weight:800;font-size:38px;letter-spacing:-.01em;margin:0">Captura de valor en frontera</h2>
+  </div>
+  <div style="font-family:'IBM Plex Mono',monospace;font-size:15px;color:#8a8175;margin:10px 0 0">CCV anual de los metales base, 1992–2025 · línea punteada = paridad 1.0</div>
+
+  <div style="display:flex;gap:34px;margin-top:18px;flex:1;align-items:center">
+    <div style="flex:1.85;min-width:0">
+<svg viewBox="0 0 1120 470" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block">
+<line x1="56" y1="428" x2="1100" y2="428" stroke="#cfc9bd"/>
+<text x="46" y="432" text-anchor="end" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">0.0</text>
+<line x1="56" y1="356" x2="1100" y2="356" stroke="#cfc9bd"/>
+<text x="46" y="360" text-anchor="end" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">0.5</text>
+<line x1="56" y1="284" x2="1100" y2="284" stroke="#cfc9bd"/>
+<text x="46" y="288" text-anchor="end" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">1.0</text>
+<line x1="56" y1="212" x2="1100" y2="212" stroke="#cfc9bd"/>
+<text x="46" y="216" text-anchor="end" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">1.5</text>
+<line x1="56" y1="139" x2="1100" y2="139" stroke="#cfc9bd"/>
+<text x="46" y="143" text-anchor="end" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">2.0</text>
+<line x1="56" y1="67" x2="1100" y2="67" stroke="#cfc9bd"/>
+<text x="46" y="71" text-anchor="end" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">2.5</text>
+<text x="119" y="456" text-anchor="middle" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">1994</text>
+<text x="246" y="456" text-anchor="middle" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">1998</text>
+<text x="372" y="456" text-anchor="middle" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">2002</text>
+<text x="499" y="456" text-anchor="middle" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">2006</text>
+<text x="625" y="456" text-anchor="middle" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">2010</text>
+<text x="752" y="456" text-anchor="middle" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">2014</text>
+<text x="879" y="456" text-anchor="middle" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">2018</text>
+<text x="1005" y="456" text-anchor="middle" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">2022</text>
+<line x1="56" y1="284" x2="1100" y2="284" stroke="#b0571e" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="1100" y="276" text-anchor="end" fill="#b0571e" font-size="13" font-family="IBM Plex Mono, monospace">paridad 1.0</text>
+<path d="M56.0 399.5 L87.6 375.5 L119.3 394.3 L150.9 397.8 L182.5 409.9 L214.2 402.5 L245.8 397.1 L277.5 400.5 L309.1 400.1 L340.7 394.1 L372.4 397.8 L404.0 397.6 L435.6 401.5 L467.3 402.3 L498.9 400.8 L530.5 396.2 L562.2 394.3 L593.8 395.6 L625.5 393.6 L657.1 385.1 L688.7 385.9 L720.4 386.1 L752.0 391.5 L815.3 392.9 L846.9 398.5 L878.5 396.0 L910.2 398.2 L941.8 391.8 L973.5 394.7 L1005.1 396.0 L1036.7 405.4 L1068.4 394.8 L1100.0 390.7" fill="none" stroke="#c85a1a" stroke-width="3" stroke-linejoin="round"/>
+<path d="M56.0 397.1 L87.6 399.7 L119.3 400.5 L150.9 396.0 L182.5 402.0 L214.2 400.1 L245.8 400.7 L277.5 398.2 L309.1 395.2 L340.7 391.7 L372.4 393.1 L404.0 386.6 L435.6 378.2 L467.3 395.2 L498.9 382.6 L530.5 381.0 L562.2 384.2 L593.8 390.0 L625.5 383.9 L657.1 371.7 L688.7 370.9 L720.4 375.4 L752.0 376.3 L783.6 383.7 L815.3 385.0 L846.9 378.3 L878.5 373.2 L910.2 383.1 L941.8 386.5 L973.5 364.0 L1005.1 376.9 L1036.7 373.0 L1068.4 376.7 L1100.0 371.0" fill="none" stroke="#0f6fa8" stroke-width="3" stroke-linejoin="round"/>
+<path d="M56.0 116.1 L87.6 183.6 L150.9 301.5 L182.5 315.3 L214.2 324.3 L245.8 375.9 L277.5 356.6 L309.1 394.3 L340.7 412.7 L372.4 418.0 L404.0 259.1 L435.6 362.8 L467.3 409.4 L498.9 398.9 L530.5 379.6 L562.2 360.0 L593.8 289.2 L625.5 274.8 L657.1 110.8 L688.7 104.2 L720.4 162.3 L752.0 161.0 L815.3 324.4 L846.9 343.1 L878.5 346.6 L910.2 335.0 L941.8 322.9 L973.5 206.9 L1005.1 208.0 L1036.7 181.4 L1068.4 62.6 L1100.0 39.8" fill="none" stroke="#9a5ba0" stroke-width="3" stroke-linejoin="round"/>
+</svg>
+    </div>
+    <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:16px">
+      <div style="background:#211d18;color:#efe8dc;border-radius:12px;padding:20px 24px">
+        <div style="display:flex;align-items:baseline;gap:8px"><span style="font-family:'Spectral',serif;font-weight:800;font-size:52px;line-height:1;color:#e07a3e">0.22</span><span style="font-size:15px;color:#9a9182">CCV cobre</span></div>
+        <div style="font-size:16px;color:#c8bfae;margin-top:8px;line-height:1.4">Estable ~30 años: el concentrado capta ~22% del valor del cobre refinado. <b style="color:#efe8dc">Se exporta concentrado, no cátodo.</b></div>
+      </div>
+      <p style="margin:0;font-size:16px;line-height:1.5;color:#211d18">Zinc, estable en ~0.30. El plomo sube por los créditos de plata/oro de su concentrado.</p>
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:14px;color:#575048;display:flex;flex-direction:column;gap:9px;border-top:1px solid #d7d2c7;padding-top:14px">
+        <span><span style="display:inline-block;width:16px;height:4px;background:#c85a1a;border-radius:2px;vertical-align:3px"></span> Cobre</span>
+        <span><span style="display:inline-block;width:16px;height:4px;background:#0f6fa8;border-radius:2px;vertical-align:3px"></span> Zinc</span>
+        <span><span style="display:inline-block;width:16px;height:4px;background:#9a5ba0;border-radius:2px;vertical-align:3px"></span> Plomo</span>
+      </div>
+    </div>
+  </div>
+  <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#8a8175;margin-top:6px;font-style:italic">En oro y plata el CCV es un artefacto de ley (mena bruta vs. metal puro ≈ 0); en no metálicos oscila cerca de 1 (prima de frontera).</div>
+</div></section>
+<section class="slide" data-i="6"><div style="width:1280px;height:720px;background:#efeeea;color:#211d18;font-family:'IBM Plex Sans',system-ui,sans-serif;padding:58px 74px;display:flex;flex-direction:column">
+  <div style="display:flex;align-items:baseline;gap:16px">
+    <span style="font-family:'IBM Plex Mono',monospace;font-size:14px;color:#b0571e;border:1px solid #b0571e;border-radius:6px;padding:3px 9px">04 · COMERCIO</span>
+    <h2 style="font-family:'Spectral',serif;font-weight:800;font-size:38px;letter-spacing:-.01em;margin:0">Inserción global por etapa</h2>
+  </div>
+  <div style="font-family:'IBM Plex Mono',monospace;font-size:15px;color:#8a8175;margin:10px 0 0">Composición de las exportaciones por etapa, promedio 2020–2024</div>
+
+  <div style="display:flex;gap:36px;margin-top:22px;flex:1;align-items:center">
+    <div style="flex:1.75;min-width:0">
+<svg viewBox="0 0 1120 470" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block">
+<line x1="150" y1="20" x2="150" y2="430" stroke="#cfc9bd"/>
+<text x="150" y="456" text-anchor="middle" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">0%</text>
+<line x1="388" y1="20" x2="388" y2="430" stroke="#cfc9bd"/>
+<text x="388" y="456" text-anchor="middle" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">25%</text>
+<line x1="627" y1="20" x2="627" y2="430" stroke="#cfc9bd"/>
+<text x="627" y="456" text-anchor="middle" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">50%</text>
+<line x1="866" y1="20" x2="866" y2="430" stroke="#cfc9bd"/>
+<text x="866" y="456" text-anchor="middle" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">75%</text>
+<line x1="1104" y1="20" x2="1104" y2="430" stroke="#cfc9bd"/>
+<text x="1104" y="456" text-anchor="middle" fill="#8a8175" font-size="14" font-family="IBM Plex Mono, monospace">100%</text>
+<text x="138" y="46" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Barita</text>
+<rect x="150" y="29" width="953" height="23" rx="3" fill="#c85a1a"/>
+<text x="158" y="46" fill="#fff" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">100%</text>
+<text x="138" y="86" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Plomo</text>
+<rect x="150" y="70" width="810" height="23" rx="3" fill="#c85a1a"/>
+<rect x="962" y="70" width="142" height="23" rx="3" fill="#0f6fa8"/>
+<text x="158" y="86" fill="#fff" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">85%</text>
+<text x="1096" y="86" text-anchor="end" fill="#fff" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">15%</text>
+<text x="138" y="128" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Cobre</text>
+<rect x="150" y="111" width="694" height="23" rx="3" fill="#c85a1a"/>
+<rect x="846" y="111" width="258" height="23" rx="3" fill="#0f6fa8"/>
+<text x="158" y="128" fill="#fff" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">73%</text>
+<text x="1096" y="128" text-anchor="end" fill="#fff" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">27%</text>
+<text x="138" y="168" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Zinc</text>
+<rect x="150" y="152" width="542" height="23" rx="3" fill="#c85a1a"/>
+<rect x="694" y="152" width="410" height="23" rx="3" fill="#0f6fa8"/>
+<text x="158" y="168" fill="#fff" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">57%</text>
+<text x="1096" y="168" text-anchor="end" fill="#fff" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">43%</text>
+<text x="138" y="210" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Fluorita</text>
+<rect x="150" y="193" width="619" height="23" rx="3" fill="#c85a1a"/>
+<rect x="771" y="193" width="333" height="23" rx="3" fill="#0f6fa8"/>
+<text x="158" y="210" fill="#fff" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">65%</text>
+<text x="1096" y="210" text-anchor="end" fill="#fff" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">35%</text>
+<text x="138" y="250" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Sílice</text>
+<rect x="150" y="234" width="184" height="23" rx="3" fill="#c85a1a"/>
+<rect x="336" y="234" width="768" height="23" rx="3" fill="#0f6fa8"/>
+<text x="158" y="250" fill="#fff" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">19%</text>
+<text x="1096" y="250" text-anchor="end" fill="#fff" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">81%</text>
+<text x="138" y="292" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Oro</text>
+<rect x="150" y="275" width="20" height="23" rx="3" fill="#c85a1a"/>
+<rect x="172" y="275" width="932" height="23" rx="3" fill="#0f6fa8"/>
+<text x="1096" y="292" text-anchor="end" fill="#fff" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">98%</text>
+<text x="138" y="332" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Plata</text>
+<rect x="150" y="316" width="41" height="23" rx="3" fill="#c85a1a"/>
+<rect x="193" y="316" width="911" height="23" rx="3" fill="#0f6fa8"/>
+<text x="1096" y="332" text-anchor="end" fill="#fff" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">96%</text>
+<text x="138" y="374" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Grafito</text>
+<rect x="150" y="357" width="14" height="23" rx="3" fill="#c85a1a"/>
+<rect x="166" y="357" width="938" height="23" rx="3" fill="#0f6fa8"/>
+<text x="1096" y="374" text-anchor="end" fill="#fff" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">98%</text>
+<text x="138" y="414" text-anchor="end" fill="#211d18" font-size="16" font-family="IBM Plex Mono, monospace">Manganeso</text>
+<rect x="151" y="398" width="953" height="23" rx="3" fill="#0f6fa8"/>
+<text x="1096" y="414" text-anchor="end" fill="#fff" font-size="15" font-weight="500" font-family="IBM Plex Mono, monospace">100%</text>
+</svg>
+    </div>
+    <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:18px">
+      <div style="display:flex;gap:18px;font-family:'IBM Plex Mono',monospace;font-size:14px;color:#575048">
+        <span><span style="display:inline-block;width:14px;height:14px;background:#c85a1a;border-radius:3px;vertical-align:-2px"></span> bruto (E1)</span>
+        <span><span style="display:inline-block;width:14px;height:14px;background:#0f6fa8;border-radius:3px;vertical-align:-2px"></span> procesado (E2+)</span>
+      </div>
+      <p style="margin:0;font-size:18px;line-height:1.5;color:#211d18">Patrón <b>espejo</b> nítido —exportar bruto, importar procesado— en cobre, fluorita, grafito, sílice y manganeso. Del cobre se exporta 73% en bruto; de la barita, 100%.</p>
+      <p style="margin:0;font-size:16px;line-height:1.5;color:#211d18;background:#e6e3db;border-radius:10px;padding:16px 18px">La <b>caída del ácido fluorhídrico</b> (de ~160 a ~0–6 MM USD tras 2020) muestra que incluso el único eslabón avanzado perdió su rol exportador.</p>
+      <p style="margin:0;font-size:13.5px;line-height:1.45;color:#8a8175;font-style:italic">En oro y plata el "procesado" es doré/bullion —forma estándar de exportación, no manufactura.</p>
+    </div>
+  </div>
+</div></section>
+<section class="slide" data-i="7"><div style="width:1280px;height:720px;background:#16130f;color:#efe8dc;font-family:'IBM Plex Sans',system-ui,sans-serif;padding:58px 74px;display:flex;flex-direction:column">
+  <div style="display:flex;align-items:baseline;gap:16px">
+    <span style="font-family:'IBM Plex Mono',monospace;font-size:14px;color:#e07a3e;border:1px solid #e07a3e;border-radius:6px;padding:3px 9px">SÍNTESIS</span>
+    <h2 style="font-family:'Spectral',serif;font-weight:800;font-size:40px;letter-spacing:-.01em;margin:0">Cuatro tipos de inserción en la cadena</h2>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px">
+    <div class="q"><div style="border-left:4px solid #7aa860;padding-left:14px"><span class="k" style="color:#7aa860">A</span><div class="t">Cadena local desarrollada</div><div class="m" style="color:#e07a3e">manganeso · fluorita</div><p>Existe industria de transformación que consume el mineral (ferroaleaciones de Autlán; ácido fluorhídrico de Koura).</p></div></div>
+    <div class="q"><div style="border-left:4px solid #e07a3e;padding-left:14px"><span class="k" style="color:#e07a3e">B</span><div class="t">Truncada en refinado</div><div class="m" style="color:#e07a3e">cobre · plomo · zinc · oro · plata</div><p>Integración vertical hasta metal refinado y ahí se detiene: se exporta y no se sigue aguas abajo. El CCV bajo del cobre es su firma.</p></div></div>
+    <div class="q"><div style="border-left:4px solid #d6ab52;padding-left:14px"><span class="k" style="color:#d6ab52">C</span><div class="t">Usuario con eslabón importado</div><div class="m" style="color:#e07a3e">sílice · grafito</div><p>Hay industria usuaria nacional (vidrio, siderurgia), pero el insumo procesado —silicio, electrodos— se importa.</p></div></div>
+    <div class="q"><div style="border-left:4px solid #d8674f;padding-left:14px"><span class="k" style="color:#d8674f">D</span><div class="t">Exportación en bruto</div><div class="m" style="color:#e07a3e">barita</div><p>Se exporta el mineral sin transformación (100% en bruto), con demanda intermedia doméstica casi nula. El caso más puro.</p></div></div>
+  </div>
+
+  <div style="margin-top:auto;display:flex;gap:22px;align-items:center;border-top:1px solid #332a1c;padding-top:22px">
+    <div style="font-family:'Spectral',serif;font-weight:800;font-size:28px;color:#e07a3e;flex:none;max-width:14ch;line-height:1.15">Un enclave estructural</div>
+    <p style="margin:0;font-size:19px;line-height:1.5;color:#c8bfae">Extracción concentrada, exportación en formas de bajo valor agregado y desconexión con los eslabones industriales aguas abajo —con capital mayoritariamente nacional. Cada tipo pide una respuesta de política industrial distinta.</p>
+  </div>
+</div></section>
+</div></div>
+<div id="bar">
+  <button id="prev" aria-label="Anterior">‹</button>
+  <span class="count" id="count">1 / 8</span>
+  <button id="next" aria-label="Siguiente">›</button>
+  <span class="ttl" id="ttl"></span>
+  <span class="sp"></span>
+  <span class="dots" id="dots"></span>
+  <button id="full" aria-label="Pantalla completa" style="width:auto;padding:0 12px">⛶ Pantalla completa</button>
+  <span class="hint">← →  ·  imprime para PDF</span>
+</div>
+<script>
+(function(){
+var slides=[].slice.call(document.querySelectorAll('.slide'));
+var titles=["Portada","Marco","Indicadores","HHI · Concentración","Ghosh · Encadenamiento","CCV · Captura de valor","Comercio por etapa","Evolución temporal","Tipología / síntesis"];
+var i=0, stage=document.getElementById('stage');
+var dots=document.getElementById('dots');
+slides.forEach(function(s,k){var d=document.createElement('i');d.addEventListener('click',function(){go(k);});dots.appendChild(d);});
+function fit(){var pad=70;var s=Math.min((innerWidth-pad)/1280,(innerHeight-pad)/720);stage.style.transform='scale('+s+')';}
+function go(k){i=Math.max(0,Math.min(slides.length-1,k));
+  slides.forEach(function(s,n){s.classList.toggle('on',n===i);});
+  dots.querySelectorAll('i').forEach(function(d,n){d.classList.toggle('on',n===i);});
+  document.getElementById('count').textContent=(i+1)+' / '+slides.length;
+  document.getElementById('ttl').textContent=titles[i];
+}
+addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){go(i+1);e.preventDefault();}else if(e.key==='ArrowLeft'||e.key==='PageUp'){go(i-1);e.preventDefault();}else if(e.key==='Home'){go(0);}else if(e.key==='End'){go(slides.length-1);}});
+document.getElementById('next').addEventListener('click',function(){go(i+1);});
+document.getElementById('prev').addEventListener('click',function(){go(i-1);});
+document.getElementById('full').addEventListener('click',function(){if(!document.fullscreenElement){(document.documentElement.requestFullscreen||function(){}).call(document.documentElement);}else{document.exitFullscreen();}});
+stage.addEventListener('click',function(e){if(e.clientX> innerWidth/2)go(i+1);else go(i-1);});
+addEventListener('resize',fit);fit();go(0);
+})();
+</script>

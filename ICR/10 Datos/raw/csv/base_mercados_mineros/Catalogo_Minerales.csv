@@ -1,0 +1,11 @@
+﻿Mineral,Tipo,Grado_de_concentracion,Empresa_o_grupo_lider,Pct_aprox_lider,Estado_lider_geografico,Posicion_mundial_Mexico,Destino_principal,Es_mineral_critico_segun_gobierno_MX
+Barita,No metálico,Oligopolio (4 empresas),4 empresas identificadas por la Secretaría de Economía,,Nuevo León (variable: Coahuila y Sonora),7º (referencia 2020),"Mercado interno (95%, industria petrolera)","Sí, mencionado explícitamente en feb. 2026"
+Cobre,Metal base,Cuasi-monopolio,Grupo México,78,Sonora (80.2%),8º-9º,"Exportación (China, 37%)","Sí, mencionado explícitamente en feb. 2026"
+Fluorita,No metálico,Monopolio casi absoluto,Orbia / Koura (ex Mexichem),98,San Luis Potosí,2º mundial,"Exportación (EE.UU., ≈70% de sus importaciones)","Sí, mencionado explícitamente en feb. 2026"
+Grafito,No metálico,"Monopolio geográfico, mercado atomizado",Ninguno dominante,,Sonora (100%),11º,"Exportación (EE.UU., 94.8-98%)","Sí, mencionado en cobertura 2026 (silicio/grafito)"
+Manganeso,No metálico,Monopolio absoluto,Compañía Minera Autlán,100,Hidalgo (Distrito de Molango),11º (1.1% mundial),Mercado interno (industria siderúrgica),"Sí, parte de los 9 minerales consolidados"
+Oro,Metal precioso,Oligopolio moderado-bajo (5 grandes),Torex Gold / Fresnillo plc / Alamos / Equinox / Newmont,42.4,Zacatecas (28.8%) y Sonora (25.7%),7º mundial,"Exportación (EE.UU., Canadá, Asia)","Sí, mencionado explícitamente en feb. 2026"
+Plata,Metal precioso,Oligopolio moderado (5 grandes),Fresnillo plc (extracción) / Peñoles (refinación),29.4,Zacatecas (33-39%),1º mundial (16 años consecutivos),Refinada: EE.UU.; concentrado: China,"Sí, mencionado explícitamente en feb. 2026"
+Plomo,Metal base,Monopolio refinación / oligopolio extracción,Industrias Peñoles (refinación),100,Zacatecas (65.1%),4º-5º mundial,Mercado interno (baterías),"Sí, mencionado explícitamente en feb. 2026"
+Sílice,No metálico,Mercado fragmentado,Ninguno dominante,,"Varios estados (Coahuila, Jalisco, otros)",n.d.,"Mercado interno (vidrio, construcción)","Mencionado como 'silicio industrial' en cobertura 2026, no en listas UE/EE.UU."
+Zinc,Metal base,"Oligopolio concentrado, liderazgo rotado","Newmont (extracción, 2024) / Peñoles (refinación)",33.4,Zacatecas (63.2%),6º mundial,"Exportación (Corea del Sur, España, Bélgica)","Sí, mencionado explícitamente en feb. 2026"

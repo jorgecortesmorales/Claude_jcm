@@ -1,0 +1,31 @@
+mineral,anio,hhi,cobertura_pct,lider,metodo,nota
+manganeso,2021,10000,100,,monopolio documentado,"Autlan, productor unico"
+manganeso,2022,10000,100,,monopolio documentado,"Autlan, productor unico"
+manganeso,2023,10000,100,,monopolio documentado,"Autlan, productor unico"
+fluorita,2021,10000,100,,monopolio documentado,"Koura/Orbia, monopolio de grupo desde 2012"
+fluorita,2022,10000,100,,monopolio documentado,"Koura/Orbia, monopolio de grupo desde 2012"
+fluorita,2023,10000,100,,monopolio documentado,"Koura/Orbia, monopolio de grupo desde 2012"
+grafito,2021,10000,100,,monopolio documentado,"Grafitos Mexicanos, unico desde 2014"
+grafito,2022,10000,100,,monopolio documentado,"Grafitos Mexicanos, unico desde 2014"
+grafito,2023,10000,100,,monopolio documentado,"Grafitos Mexicanos, unico desde 2014"
+silice,2021,9742,99,Grupo Materias Primas (Covia) 99%,mina->grupo vs total nacional,
+silice,2022,5519,74,Grupo Materias Primas (Covia) 74%,mina->grupo vs total nacional,
+silice,2023,6670,82,Grupo Materias Primas (Covia) 82%,mina->grupo vs total nacional,
+cobre,2021,3841,76,Grupo Mexico 62%,mina->grupo vs total nacional,
+cobre,2022,3362,75,Grupo Mexico 58%,mina->grupo vs total nacional,
+cobre,2023,3764,77,Grupo Mexico 61%,mina->grupo vs total nacional,
+barita,2021,6779,82,Baramin 82%,mina->grupo vs total nacional,
+barita,2022,2479,50,Baramin 50%,mina->grupo vs total nacional,
+barita,2023,1380,37,Baramin 37%,mina->grupo vs total nacional,
+plomo,2021,1448,80,Newmont 29%,mina->grupo vs total nacional,
+plomo,2022,1090,76,Newmont 25%,mina->grupo vs total nacional,
+plomo,2023,1823,100,Newmont 28%,mina->grupo vs total nacional,
+zinc,2021,1591,83,Newmont 28%,mina->grupo vs total nacional,
+zinc,2022,1199,80,Newmont 23%,mina->grupo vs total nacional,
+zinc,2023,1551,87,Industrias Penoles 28%,mina->grupo vs total nacional,
+plata,2021,926,69,Fresnillo plc 24%,mina->grupo vs total nacional,
+plata,2022,820,64,Fresnillo plc 23%,mina->grupo vs total nacional,
+plata,2023,914,68,Fresnillo plc 27%,mina->grupo vs total nacional,
+oro,2021,771,69,Newmont 17%,mina->grupo vs total nacional,
+oro,2022,409,53,Newmont 12%,mina->grupo vs total nacional,
+oro,2023,312,49,Fresnillo plc 11%,mina->grupo vs total nacional,

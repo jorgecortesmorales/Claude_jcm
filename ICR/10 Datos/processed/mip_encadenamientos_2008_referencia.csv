@@ -1,0 +1,10 @@
+anio,codigo,mineral,vbp_mmpesos,di_domestica_mmpesos,di_sobre_vbp,backward_L_colsum,forward_G_rowsum,backward_rasmussen,forward_rasmussen,rank_backward,rank_forward,n_sectores,base_scian,comparabilidad,nota
+2008,212393,barita,270.007,241.821,0.8956,1.461,1.9905,0.9631,1.288,465,226,814,SCIAN2007_base2008,referencia,
+2008,212231,cobre,12361.414,9165.077,0.7414,1.2752,2.5131,0.8406,1.6261,699,57,814,SCIAN2007_base2008,referencia,
+2008,212395,fluorita,1286.14,456.84,0.3552,1.4899,1.7203,0.9821,1.1131,425,292,814,SCIAN2007_base2008,referencia,
+2008,212396,grafito,403.637,368.169,0.9121,1.4781,2.6035,0.9743,1.6846,441,41,814,SCIAN2007_base2008,referencia,
+2008,212291,manganeso,8104.873,2215.048,0.2733,1.308,1.5504,0.8622,1.0032,658,329,814,SCIAN2007_base2008,referencia,clase 212291 mas amplia en 2008 (agrega 212292 mercurio/antimonio y 212299 otros metalicos); en 2018 son clases aparte -> nivel no comparable
+2008,212221,oro,12804.416,12531.589,0.9787,1.4403,2.2881,0.9494,1.4805,491,115,814,SCIAN2007_base2008,referencia,
+2008,212222,plata,19037.077,3419.443,0.1796,1.4277,1.2303,0.9412,0.7961,505,430,814,SCIAN2007_base2008,referencia,
+2008,212232,plomo-zinc,7929.981,6222.117,0.7846,1.4914,2.0911,0.9831,1.3531,422,176,814,SCIAN2007_base2008,referencia,
+2008,212324,silice,1216.574,988.052,0.8122,1.3574,2.4723,0.8948,1.5997,605,69,814,SCIAN2007_base2008,referencia,

@@ -1,0 +1,189 @@
+mineral,anio,hhi,cobertura_pct,lider,metodo,nota
+cobre,1997,6241,79,Grupo Mexico ~79%,lider-grupo Grupo Mexico (narrativa USGS),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: La Caridad+Cananea 79% del cobre mina nacional; cota inferior; nivel grupo (no comparable con 2004+)"
+cobre,1998,6724,82,Grupo Mexico ~82%,lider-grupo Grupo Mexico (narrativa USGS),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: La Caridad+Cananea 82% del cobre mina nacional; cota inferior; nivel grupo (no comparable con 2004+)"
+cobre,2000,6400,80,Grupo Mexico ~80%,lider-grupo Grupo Mexico (narrativa USGS),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: La Caridad+Cananea 80% del cobre mina nacional; cota inferior; nivel grupo (no comparable con 2004+)"
+cobre,2001,7225,85,Grupo Mexico ~85%,lider-grupo Grupo Mexico (narrativa USGS),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: La Caridad+Cananea 85% del cobre mina nacional; cota inferior; nivel grupo (no comparable con 2004+)"
+cobre,2002,6889,83,Grupo Mexico ~83%,lider-grupo Grupo Mexico (narrativa USGS),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: La Caridad+Cananea 83% del cobre mina nacional; cota inferior; nivel grupo (no comparable con 2004+)"
+cobre,2003,6400,80,Grupo Mexico ~80%,lider-grupo Grupo Mexico (narrativa USGS),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: La Caridad+Cananea 80% del cobre mina nacional; cota inferior; nivel grupo (no comparable con 2004+)"
+cobre,2005,7500,87,Grupo Mexico 86.6%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+cobre,2006,6806,82,Grupo Mexico 82.5%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+cobre,2008,2570,51,Grupo Mexico 50.7%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+cobre,2010,2621,51,Grupo Mexico 51.2%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+cobre,2011,4356,66,Grupo Mexico 66.0%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+cobre,2013,4147,64,Grupo Mexico 64.4%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+cobre,2018,5417,74,Grupo Mexico 73.6%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+cobre,2019,5625,75,Grupo Mexico 75.0%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+cobre,2020,6209,79,Grupo Mexico 78.8%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+cobre,2021,3841,76,Grupo Mexico 62%,mina->grupo vs total nacional,
+cobre,2022,3362,75,Grupo Mexico 58%,mina->grupo vs total nacional,
+cobre,2023,3764,77,Grupo Mexico 61%,mina->grupo vs total nacional,
+cobre,2024,3557,74,Grupo Mexico 59%,mina->grupo vs total nacional (total cobre estimado),"detalle por mina 2024 (CAMIMEX/SGM); total nacional 2024 estimado ~755,000 t (grafico SGM)"
+zinc,2009,1149,34,Industrias Penoles 33.9%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+zinc,2010,773,28,Industrias Penoles 27.8%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+zinc,2011,635,25,Industrias Penoles 25.2%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+zinc,2012,566,24,Industrias Penoles 23.8%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+zinc,2015,1024,32,Industrias Penoles 32.0%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+zinc,2020,692,26,Industrias Penoles 26.3%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+zinc,2021,1591,83,Newmont 28%,mina->grupo vs total nacional,
+zinc,2022,1199,80,Newmont 23%,mina->grupo vs total nacional,
+zinc,2023,1551,87,Industrias Penoles 28%,mina->grupo vs total nacional,
+zinc,2024,1683,81,Newmont 33%,mina->grupo vs total nacional,detalle por mina 2024 (CAMIMEX/SGM)
+plomo,2010,524,23,Goldcorp 22.9%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plomo,2011,986,31,Goldcorp 31.4%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plomo,2012,858,29,Goldcorp 29.3%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plomo,2013,812,28,Goldcorp 28.5%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plomo,2015,961,31,Goldcorp 31.0%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plomo,2016,441,21,Goldcorp 21.0%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plomo,2020,973,31,Newmont 31.2%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plomo,2021,1448,80,Newmont 29%,mina->grupo vs total nacional,
+plomo,2022,1090,76,Newmont 25%,mina->grupo vs total nacional,
+plomo,2023,1823,100,Newmont 28%,mina->grupo vs total nacional,
+plomo,2024,2465,94,Newmont 41%,mina->grupo vs total nacional,detalle por mina 2024 (CAMIMEX/SGM)
+oro,2004,2043,45,Industrias Penoles 45.2%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+oro,2005,1197,35,Industrias Penoles 34.6%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+oro,2007,702,26,Industrias Penoles 26.5%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+oro,2008,1296,36,Goldcorp 36.0%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+oro,2009,1296,36,Goldcorp 36.0%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+oro,2010,708,27,Goldcorp 26.6%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+oro,2011,590,24,Goldcorp 24.3%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+oro,2012,676,26,Goldcorp 26.0%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+oro,2021,771,69,Newmont 17%,mina->grupo vs total nacional,
+oro,2022,409,53,Newmont 12%,mina->grupo vs total nacional,
+oro,2023,312,49,Fresnillo plc 11%,mina->grupo vs total nacional,
+oro,2024,429,53,Torex Gold 12%,mina->grupo vs total nacional,detalle por mina 2024 (CAMIMEX/SGM)
+plata,2005,1318,36,Industrias Penoles 36.3%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plata,2006,1218,35,Industrias Penoles 34.9%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plata,2007,1109,33,Industrias Penoles 33.3%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plata,2008,1005,32,Fresnillo plc 31.7%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plata,2009,1102,33,Fresnillo plc 33.2%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plata,2010,640,25,Fresnillo plc 25.3%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plata,2011,610,25,Fresnillo plc 24.7%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plata,2012,562,24,Fresnillo plc 23.7%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plata,2018,1109,33,Fresnillo plc 33.3%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plata,2019,762,28,Fresnillo plc 27.6%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plata,2020,864,29,Fresnillo plc 29.4%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+plata,2021,926,69,Fresnillo plc 24%,mina->grupo vs total nacional,
+plata,2022,820,64,Fresnillo plc 23%,mina->grupo vs total nacional,
+plata,2023,914,68,Fresnillo plc 27%,mina->grupo vs total nacional,
+plata,2024,1147,63,Fresnillo plc 27%,mina->grupo vs total nacional,detalle por mina 2024 (CAMIMEX/SGM)
+barita,2004,3069,55,Baramin 55.4%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+barita,2006,5655,75,Baramin 75.2%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+barita,2007,3576,60,Baramin 59.8%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+barita,2009,6257,79,Baramin 79.1%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+barita,2011,5141,72,Baramin 71.7%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+barita,2012,10000,100,Baramin 100.0%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+barita,2013,7022,84,Baramin 83.8%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+barita,2014,10000,100,Baramin 100.0%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+barita,2017,4638,68,Baramin 68.1%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+barita,2018,6400,80,Baramin 80.0%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+barita,2019,8317,91,Baramin 91.2%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+barita,2020,3982,63,Baramin 63.1%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+barita,2021,6779,82,Baramin 82%,mina->grupo vs total nacional,
+barita,2022,2479,50,Baramin 50%,mina->grupo vs total nacional,
+barita,2023,1380,37,Baramin 37%,mina->grupo vs total nacional,
+barita,2024,605,25,Baramin 25%,"lider + residual atomistico (aprox., solo lider 2024)",cota inferior: solo participacion del lider disponible en 2024
+silice,2006,5271,73,Grupo Materias Primas 72.6%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+silice,2007,4409,66,Grupo Materias Primas 66.4%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+silice,2009,4147,64,Grupo Materias Primas 64.4%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+silice,2010,4251,65,Grupo Materias Primas 65.2%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+silice,2011,5242,72,Grupo Materias Primas 72.4%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+silice,2012,2884,54,Grupo Materias Primas 53.7%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+silice,2013,4356,66,Grupo Materias Primas 66.0%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+silice,2018,10000,100,Grupo Materias Primas 100.0%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+silice,2019,10000,100,Grupo Materias Primas (Covia) 100.0%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+silice,2020,8519,92,Grupo Materias Primas (Covia) 92.3%,lider/grupos conocidos + residual atomistico (aprox.),cota inferior: solo participaciones documentadas; residual tratado como atomistico
+silice,2021,9742,99,Grupo Materias Primas (Covia) 99%,mina->grupo vs total nacional,
+silice,2022,5519,74,Grupo Materias Primas (Covia) 74%,mina->grupo vs total nacional,
+silice,2023,6670,82,Grupo Materias Primas (Covia) 82%,mina->grupo vs total nacional,
+fluorita,1994,6001,95,Cia. Minera Las Cuevas ~75-80%,lider dominante + fringe (narrativa USGS),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Las Cuevas ~75% (1999/2001), 76% (2002), >80% (2003); cota inferior"
+fluorita,1995,6001,95,Cia. Minera Las Cuevas ~75-80%,lider dominante + fringe (narrativa USGS),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Las Cuevas ~75% (1999/2001), 76% (2002), >80% (2003); cota inferior"
+fluorita,1996,6001,95,Cia. Minera Las Cuevas ~75-80%,lider dominante + fringe (narrativa USGS),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Las Cuevas ~75% (1999/2001), 76% (2002), >80% (2003); cota inferior"
+fluorita,1997,6001,95,Cia. Minera Las Cuevas ~75-80%,lider dominante + fringe (narrativa USGS),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Las Cuevas ~75% (1999/2001), 76% (2002), >80% (2003); cota inferior"
+fluorita,1998,6001,95,Cia. Minera Las Cuevas ~75-80%,lider dominante + fringe (narrativa USGS),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Las Cuevas ~75% (1999/2001), 76% (2002), >80% (2003); cota inferior"
+fluorita,1999,6001,95,Cia. Minera Las Cuevas ~75-80%,lider dominante + fringe (narrativa USGS),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Las Cuevas ~75% (1999/2001), 76% (2002), >80% (2003); cota inferior"
+fluorita,2000,6001,95,Cia. Minera Las Cuevas ~75-80%,lider dominante + fringe (narrativa USGS),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Las Cuevas ~75% (1999/2001), 76% (2002), >80% (2003); cota inferior"
+fluorita,2001,6001,95,Cia. Minera Las Cuevas ~75-80%,lider dominante + fringe (narrativa USGS),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Las Cuevas ~75% (1999/2001), 76% (2002), >80% (2003); cota inferior"
+fluorita,2002,6001,95,Cia. Minera Las Cuevas ~75-80%,lider dominante + fringe (narrativa USGS),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Las Cuevas ~75% (1999/2001), 76% (2002), >80% (2003); cota inferior"
+fluorita,2003,6001,95,Cia. Minera Las Cuevas ~75-80%,lider dominante + fringe (narrativa USGS),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Las Cuevas ~75% (1999/2001), 76% (2002), >80% (2003); cota inferior"
+fluorita,2004,6001,96,Cia. Minera Las Cuevas (Mexichem) 74.4%,duopolio (capacidades USGS Tabla 2),reparto por capacidad 77.61/22.39 (Bitacora 2026-07-21)
+fluorita,2005,6525,100,Cia. Minera Las Cuevas (Mexichem) 77.6%,duopolio (capacidades USGS Tabla 2),reparto por capacidad 77.61/22.39 (Bitacora 2026-07-21)
+fluorita,2006,6525,100,Cia. Minera Las Cuevas (Mexichem) 77.6%,duopolio (capacidades USGS Tabla 2),reparto por capacidad 77.61/22.39 (Bitacora 2026-07-21)
+fluorita,2007,6525,100,Cia. Minera Las Cuevas (Mexichem) 77.6%,duopolio (capacidades USGS Tabla 2),reparto por capacidad 77.61/22.39 (Bitacora 2026-07-21)
+fluorita,2008,6525,100,Cia. Minera Las Cuevas (Mexichem) 77.6%,duopolio (capacidades USGS Tabla 2),reparto por capacidad 77.61/22.39 (Bitacora 2026-07-21)
+fluorita,2009,6525,100,Cia. Minera Las Cuevas (Mexichem) 77.6%,duopolio (capacidades USGS Tabla 2),reparto por capacidad 77.61/22.39 (Bitacora 2026-07-21)
+fluorita,2010,6525,100,Cia. Minera Las Cuevas (Mexichem) 77.6%,duopolio (capacidades USGS Tabla 2),reparto por capacidad 77.61/22.39 (Bitacora 2026-07-21)
+fluorita,2011,6525,100,Cia. Minera Las Cuevas (Mexichem) 77.6%,duopolio (capacidades USGS Tabla 2),reparto por capacidad 77.61/22.39 (Bitacora 2026-07-21)
+fluorita,2012,10000,100,Koura/Orbia (Mexichem) 100%,monopolio documentado,monopolio de grupo desde ene-2012 (fusion Fluorita de Mexico); cubre hueco 2019-2020
+fluorita,2013,10000,100,Koura/Orbia (Mexichem) 100%,monopolio documentado,monopolio de grupo desde ene-2012 (fusion Fluorita de Mexico); cubre hueco 2019-2020
+fluorita,2014,10000,100,Koura/Orbia (Mexichem) 100%,monopolio documentado,monopolio de grupo desde ene-2012 (fusion Fluorita de Mexico); cubre hueco 2019-2020
+fluorita,2015,10000,100,Koura/Orbia (Mexichem) 100%,monopolio documentado,monopolio de grupo desde ene-2012 (fusion Fluorita de Mexico); cubre hueco 2019-2020
+fluorita,2016,10000,100,Koura/Orbia (Mexichem) 100%,monopolio documentado,monopolio de grupo desde ene-2012 (fusion Fluorita de Mexico); cubre hueco 2019-2020
+fluorita,2017,10000,100,Koura/Orbia (Mexichem) 100%,monopolio documentado,monopolio de grupo desde ene-2012 (fusion Fluorita de Mexico); cubre hueco 2019-2020
+fluorita,2018,10000,100,Koura/Orbia (Mexichem) 100%,monopolio documentado,monopolio de grupo desde ene-2012 (fusion Fluorita de Mexico); cubre hueco 2019-2020
+fluorita,2019,10000,100,Koura/Orbia (Mexichem) 100%,monopolio documentado,monopolio de grupo desde ene-2012 (fusion Fluorita de Mexico); cubre hueco 2019-2020
+fluorita,2020,10000,100,Koura/Orbia (Mexichem) 100%,monopolio documentado,monopolio de grupo desde ene-2012 (fusion Fluorita de Mexico); cubre hueco 2019-2020
+fluorita,2021,10000,100,,monopolio documentado,"Koura/Orbia, monopolio de grupo desde 2012"
+fluorita,2022,10000,100,,monopolio documentado,"Koura/Orbia, monopolio de grupo desde 2012"
+fluorita,2023,10000,100,,monopolio documentado,"Koura/Orbia, monopolio de grupo desde 2012"
+fluorita,2024,10000,100,Koura/Orbia 100%,monopolio documentado,monopolio de grupo (Koura) continua
+grafito,1994,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: 2 productores; mismo regimen que 2004-2013"
+grafito,1995,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: 2 productores; mismo regimen que 2004-2013"
+grafito,1996,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: 2 productores; mismo regimen que 2004-2013"
+grafito,1997,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: 2 productores; mismo regimen que 2004-2013"
+grafito,1998,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: 2 productores; mismo regimen que 2004-2013"
+grafito,1999,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: 2 productores; mismo regimen que 2004-2013"
+grafito,2000,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: 2 productores; mismo regimen que 2004-2013"
+grafito,2001,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: 2 productores; mismo regimen que 2004-2013"
+grafito,2002,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: 2 productores; mismo regimen que 2004-2013"
+grafito,2003,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: 2 productores; mismo regimen que 2004-2013"
+grafito,2004,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,duopolio Grafitos Mexicanos / Grafito Superior hasta 2013 (Bitacora 2026-07-21)
+grafito,2005,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,duopolio Grafitos Mexicanos / Grafito Superior hasta 2013 (Bitacora 2026-07-21)
+grafito,2006,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,duopolio Grafitos Mexicanos / Grafito Superior hasta 2013 (Bitacora 2026-07-21)
+grafito,2007,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,duopolio Grafitos Mexicanos / Grafito Superior hasta 2013 (Bitacora 2026-07-21)
+grafito,2008,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,duopolio Grafitos Mexicanos / Grafito Superior hasta 2013 (Bitacora 2026-07-21)
+grafito,2009,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,duopolio Grafitos Mexicanos / Grafito Superior hasta 2013 (Bitacora 2026-07-21)
+grafito,2010,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,duopolio Grafitos Mexicanos / Grafito Superior hasta 2013 (Bitacora 2026-07-21)
+grafito,2011,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,duopolio Grafitos Mexicanos / Grafito Superior hasta 2013 (Bitacora 2026-07-21)
+grafito,2012,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,duopolio Grafitos Mexicanos / Grafito Superior hasta 2013 (Bitacora 2026-07-21)
+grafito,2013,5848,100,Grafitos Mexicanos (duopolio),duopolio documentado,duopolio Grafitos Mexicanos / Grafito Superior hasta 2013 (Bitacora 2026-07-21)
+grafito,2014,10000,100,Grafitos Mexicanos 100%,monopolio documentado,unico desde 2014 (sale Grafito Superior)
+grafito,2015,10000,100,Grafitos Mexicanos 100%,monopolio documentado,unico desde 2014 (sale Grafito Superior)
+grafito,2016,10000,100,Grafitos Mexicanos 100%,monopolio documentado,unico desde 2014 (sale Grafito Superior)
+grafito,2017,10000,100,Grafitos Mexicanos 100%,monopolio documentado,unico desde 2014 (sale Grafito Superior)
+grafito,2018,10000,100,Grafitos Mexicanos 100%,monopolio documentado,unico desde 2014 (sale Grafito Superior)
+grafito,2019,10000,100,Grafitos Mexicanos 100%,monopolio documentado,unico desde 2014 (sale Grafito Superior)
+grafito,2020,10000,100,Grafitos Mexicanos 100%,monopolio documentado,unico desde 2014 (sale Grafito Superior)
+grafito,2021,10000,100,,monopolio documentado,"Grafitos Mexicanos, unico desde 2014"
+grafito,2022,10000,100,,monopolio documentado,"Grafitos Mexicanos, unico desde 2014"
+grafito,2023,10000,100,,monopolio documentado,"Grafitos Mexicanos, unico desde 2014"
+manganeso,1994,10000,100,Cia. Minera Autlan 100%,monopolio documentado (USGS Tabla 2),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Autlan productor unico"
+manganeso,1995,10000,100,Cia. Minera Autlan 100%,monopolio documentado (USGS Tabla 2),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Autlan productor unico"
+manganeso,1996,10000,100,Cia. Minera Autlan 100%,monopolio documentado (USGS Tabla 2),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Autlan productor unico"
+manganeso,1997,10000,100,Cia. Minera Autlan 100%,monopolio documentado (USGS Tabla 2),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Autlan productor unico"
+manganeso,1998,10000,100,Cia. Minera Autlan 100%,monopolio documentado (USGS Tabla 2),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Autlan productor unico"
+manganeso,1999,10000,100,Cia. Minera Autlan 100%,monopolio documentado (USGS Tabla 2),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Autlan productor unico"
+manganeso,2000,10000,100,Cia. Minera Autlan 100%,monopolio documentado (USGS Tabla 2),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Autlan productor unico"
+manganeso,2001,10000,100,Cia. Minera Autlan 100%,monopolio documentado (USGS Tabla 2),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Autlan productor unico"
+manganeso,2002,10000,100,Cia. Minera Autlan 100%,monopolio documentado (USGS Tabla 2),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Autlan productor unico"
+manganeso,2003,10000,100,Cia. Minera Autlan 100%,monopolio documentado (USGS Tabla 2),"USGS MYB Mexico 1994-2003, Tabla 2 + narrativa: Autlan productor unico"
+manganeso,2004,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2005,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2006,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2007,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2008,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2009,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2010,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2011,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2012,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2013,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2014,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2015,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2016,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2017,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2018,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2019,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2020,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico toda la serie"
+manganeso,2021,10000,100,,monopolio documentado,"Autlan, productor unico"
+manganeso,2022,10000,100,,monopolio documentado,"Autlan, productor unico"
+manganeso,2023,10000,100,,monopolio documentado,"Autlan, productor unico"
+manganeso,2024,10000,100,Cia. Minera Autlan 100%,monopolio documentado,"Autlan, productor unico (Molango) continua"

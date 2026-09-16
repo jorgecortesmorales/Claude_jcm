@@ -1,0 +1,815 @@
+codigo,nombre,vbp,di_domestica
+111110,Cultivo de soya,696.7639999999992,341.20300000000003
+111121,Cultivo de cártamo,355.236,329.342
+111122,Cultivo de girasol,0.33100000000000307,0.053
+111129,Cultivo anual de otras semillas oleaginosas,353.0579999999991,4.5680000000000005
+111131,Cultivo de frijol grano,12341.119999999999,927.4139999999998
+111132,Cultivo de garbanzo grano,1281.6609999999998,2.969
+111139,Cultivo de otras leguminosas,427.27000000000004,104.16700000000003
+111140,Cultivo de trigo,15966.845000000001,3801.379
+111151,Cultivo de maíz grano,68776.45799999998,47663.249
+111152,Cultivo de maíz forrajero,4657.049999999999,3736.3509999999997
+111160,Cultivo de arroz,813.7130000000002,761.9980000000002
+111191,Cultivo de sorgo grano,15235.287,11382.334
+111192,Cultivo de avena grano,312.6580000000001,311.695
+111193,Cultivo de cebada grano,2547.215,2504.16
+111194,Cultivo de sorgo forrajero,6942.084,5417.258
+111195,Cultivo de avena forrajera,7589.705000000001,6257.362000000001
+111199,Cultivo de otros cereales,279.62799999999993,164.82299999999998
+111211,Cultivo de jitomate o tomate rojo,13009.426,517.7719999999999
+111212,Cultivo de chile,11689.723999999998,1381.847999999999
+111213,Cultivo de cebolla,4378.514999999999,310.439
+111214,Cultivo de melón o sandía,4280.12,14.64
+111215,Cultivo de tomate verde,2288.6339999999996,14.209
+111216,Cultivo de papa,7844.701000000001,1156.3480000000002
+111217,Cultivo de calabaza,1833.7540000000001,61.413
+111219,Cultivo de otras hortalizas,13468.09,1741.4589999999994
+111310,Cultivo de naranja,3757.3050000000003,372.97600000000006
+111321,Cultivo de limón,4840.307,994.3219999999999
+111329,Cultivo de otros cítricos,1039.921,364.4759999999999
+111331,Cultivo de café,5701.61,3020.612
+111332,Cultivo de plátano,4657.005999999999,24.427
+111333,Cultivo de mango,5575.4130000000005,304.9729999999998
+111334,Cultivo de aguacate,14024.354,193.675
+111335,Cultivo de uva,3480.3859999999995,532.036
+111336,Cultivo de manzana,2925.8039999999996,185.304
+111337,Cultivo de cacao,714.2199999999999,697.7359999999999
+111338,Cultivo de coco,2960.0170000000003,449.572
+111339,Cultivo de otros frutales no cítricos y de nueces,19670.364000000005,2396.4930000000018
+111410,Cultivo de productos alimenticios en invernaderos,3347.321999999999,436.102
+111421,Floricultura a cielo abierto,3372.9509999999996,61.682
+111422,Floricultura en invernadero,1327.513,63.45299999999998
+111423,Cultivo de árboles de ciclo productivo de 10 años o menos,27.279999999999976,18.495000000000008
+111429,Otros cultivos no alimenticios en invernaderos y viveros,1035.5079999999996,222.643
+111910,Cultivo de tabaco,264.05299999999977,182.137
+111920,Cultivo de algodón,1820.5180000000023,1709.6269999999986
+111930,Cultivo de caña de azúcar,20963.749,19758.969
+111941,Cultivo de alfalfa,13262.099,6945.875000000001
+111942,Cultivo de pastos y zacates,12796.944000000001,8363.379
+111991,Cultivo de agaves alcoholeros,4532.957000000001,4338.051000000001
+111992,Cultivo de cacahuate,552.807,546.891
+111999,Otros cultivos,3586.6900000000096,2014.9359999999988
+112110,Explotación de bovinos para la producción de carne,35117.797999999995,33374.325000000004
+112120,Explotación de bovinos para la producción de leche,36705.39399999998,36305.576999999976
+112131,"Explotación de bovinos para la producción conjunta de leche y carne (incluye a la clase 112139 ""Explotación de bovinos para otros propósitos"").",22723.031000000003,19168.917
+112211,Explotación de porcinos en granja,23491.861,22011.798000000003
+112311,Explotación de gallinas para la producción de huevo fértil,1700.069,0.0
+112312,Explotación de gallinas para la producción de huevo para plato,28508.159000000007,2861.4040000000014
+112320,Explotación de pollos para la producción de carne,48886.945,48654.343
+112330,Explotación de guajolotes o pavos,810.911,724.114
+112340,Producción de aves en incubadora,4250.173,0.0
+112390,Explotación de otras aves para producción de carne y huevo,318.87,214.26999999999998
+112410,Explotación de ovinos,2303.8410000000017,2192.5170000000016
+112420,Explotación de caprinos,2560.928000000001,2439.135000000001
+112511,Camaronicultura,5176.400000000001,0.0
+112512,"Piscicultura y otra acuicultura, excepto camaronicultura",569.1239999999999,112.892
+112910,Apicultura,1701.3460000000002,391.64900000000006
+112920,Explotación de équidos,94.86900000000003,73.707
+112930,Cunicultura y explotación de animales con pelaje fino,3.0300000000000002,2.3860000000000006
+112999,Explotación de otros animales,129.36,33.165
+113110,Silvicultura,130.185,130.184
+113211,Viveros forestales,303.45300000000003,303.45300000000003
+113212,Recolección de productos forestales,5983.455000000002,3494.5769999999998
+113310,Tala de árboles,12090.637000000004,11626.031000000003
+114111,Pesca de camarón,3640.977999999999,281.2879999999997
+114112,Pesca de túnidos,1876.9159999999997,1621.8149999999998
+114113,Pesca de sardina y anchoveta,371.92900000000003,43.437
+114119,"Pesca y captura de peces, crustáceos, moluscos y otras especies",5811.646000000001,201.68300000000002
+114210,Caza y captura,402.686,0.0
+115111,Servicios de fumigación agrícola,94.0,94.0
+115112,Despepite de algodón,1456.4140000000043,0.001
+115113,Beneficio de productos agrícolas,347.728,19.658
+115119,Otros servicios relacionados con la agricultura,3948.7989999999995,3948.7989999999995
+115210,Servicios relacionados con la cría y explotación de animales,96.93100000000001,96.93100000000001
+115310,Servicios relacionados con el aprovechamiento forestal,1104.501,1104.501
+211110,Extracción de petróleo y gas,964196.196,524386.872
+212110,Minería de carbón mineral,13085.635,12244.178999999998
+212210,Minería de hierro,11632.177,9273.998
+212221,Minería de oro,12804.416000000001,12531.589
+212222,Minería de plata,19037.077,3419.443
+212231,Minería de cobre,12361.414,9165.077
+212232,Minería de plomo y zinc,7929.981000000002,6222.117000000001
+212291,"Minería de manganeso (incluye a la 212292 ""Minería de mercurio y antimonio"" y a la 212299 ""Minería de otros minerales metálicos""",8104.873000000005,2215.0480000000002
+212311,Minería de piedra caliza,4067.4020000000014,4017.9390000000008
+212312,Minería de mármol,730.5539999999996,624.909
+212319,Minería de otras piedras dimensionadas,3587.5470000000046,3571.3920000000003
+212321,Minería de arena y grava para la construcción,19279.08100000001,18789.644
+212322,Minería de tezontle y tepetate,401.97400000000005,401.79300000000006
+212323,Minería de feldespato,503.34799999999984,496.5009999999998
+212324,Minería de sílice,1216.573999999999,988.0519999999999
+212325,Minería de caolín,896.8919999999988,937.231
+212329,Minería de otras arcillas y de otros minerales refractarios,7870.262000000008,7763.576000000001
+212391,Minería de sal,1614.2869999999984,452.14199999999994
+212392,Minería de piedra de yeso,744.8999999999997,659.765
+212393,Minería de barita,270.0069999999998,241.82100000000003
+212394,Minería de roca fosfórica,880.2909999999997,850.214
+212395,Minería de fluorita,1286.1399999999996,456.8399999999999
+212396,Minería de grafito,403.63700000000006,368.1689999999999
+212397,Minería de azufre,2175.349000000003,1231.1539999999998
+212398,Minería de minerales no metálicos para productos químicos,858.3529999999996,855.2969999999999
+212399,Minería de otros minerales no metálicos,2950.302999999999,2762.3050000000003
+213111,Perforación de pozos petroleros y de gas,132090.311,0.0
+213119,Otros servicios relacionados con la minería,7379.557,0.0
+221110,"Generación, transmisión y distribución de energía eléctrica (incluye a la 221120 ""Transmisión y distribución de energía eléctrica"")",410192.96699999995,261589.589
+222111,"Captación, tratamiento y suministro de agua realizados por el sector público (incluye a la 222112 "" Captación, tratamiento y suministro de agua realizados por el sector privado"")",41560.931000000026,32595.82100000002
+222210,Suministro de gas por ductos al consumidor final,2990.485,0.0
+236111,Edificación de vivienda unifamiliar,693190.443,0.0
+236112,Edificación de vivienda multifamiliar,174216.739,0.0
+236113,Supervisión de edificación residencial,1553.6370000000002,1553.6370000000002
+236211,"Edificación de naves y plantas industriales, excepto la supervisión",120554.068,0.0
+236212,Supervisión de edificación de naves y plantas industriales,1246.365,1246.365
+236221,"Edificación de inmuebles comerciales y de servicios, excepto la supervisión",317900.588,0.0
+236222,Supervisión de edificación de inmuebles comerciales y de servicios,2017.661,1983.255
+237111,"Construcción de obras para el tratamiento, distribución y suministro de agua y drenaje",33716.351,0.0
+237112,Construcción de sistemas de riego agrícola,10178.103,0.0
+237113,"Supervisión de construcción de obras para el tratamiento, distribución y suministro de agua, drenaje y riego",1068.929,1068.929
+237121,Construcción de sistemas de distribución de petróleo y gas,26105.512,0.0
+237122,Construcción de plantas de refinería y petroquímica,88322.807,0.0
+237123,Supervisión de construcción de obras para petróleo y gas,11689.329999999998,11689.329999999998
+237131,Construcción de obras de generación y conducción de energía eléctrica,44697.854,0.0
+237132,Construcción de obras para telecomunicaciones,4960.725,0.0
+237133,Supervisión de construcción de obras de generación y conducción de energía eléctrica y de obras para telecomunicaciones,401.696,401.696
+237211,División de terrenos,1266.611,0.0
+237212,Construcción de obras de urbanización,112801.113,0.0
+237213,Supervisión de división de terrenos y de construcción de obras de urbanización,1421.715,1421.715
+237311,Instalación de señalamientos y protecciones en obras viales,3996.664,0.0
+237312,"Construcción de carreteras, puentes y similares",100998.311,0.0
+237313,Supervisión de construcción de vías de comunicación,3318.9129999999996,3318.9129999999996
+237991,Construcción de presas y represas,2820.543,0.0
+237992,"Construcción de obras marítimas, fluviales y subacuáticas",16182.597,0.0
+237993,Construcción de obras para transporte eléctrico y ferroviario,8858.104,0.0
+237994,Supervisión de construcción de otras obras de ingeniería civil,423.424,423.424
+237999,Otras construcciones de ingeniería civil,7592.128,0.0
+238110,Trabajos de cimentaciones,7910.113999999998,5158.522999999998
+238121,Montaje de estructuras de concreto prefabricadas,2935.619,0.0
+238122,Montaje de estructuras de acero prefabricadas,9640.532000000001,126.629
+238130,Trabajos de albañilería,3212.187999999999,3212.187999999999
+238190,Otros trabajos en exteriores,503.808,503.808
+238210,Instalaciones eléctricas en construcciones,16290.046999999993,16290.046999999993
+238221,Instalaciones hidrosanitarias y de gas,30833.94200000002,30833.94200000002
+238222,Instalaciones de sistemas centrales de aire acondicionado y calefacción,36396.2809999999,36396.2809999999
+238290,Otras instalaciones y equipamiento en construcciones,7125.65700000002,7125.65700000002
+238311,Colocación de muros falsos y aislamiento,3648.706,3648.706
+238312,"Trabajos de enyesado, empastado y tiroleado",1288.375999999999,1288.375999999999
+238320,Trabajos de pintura y otros cubrimientos de paredes,2262.346000000001,2262.346000000001
+238330,Colocación de pisos flexibles y de madera,151.69400000000005,151.69400000000005
+238340,Colocación de pisos cerámicos y azulejos,482.6679999999994,482.6679999999994
+238350,Realización de trabajos de carpintería en el lugar de la construcción,286.4059999999999,286.4059999999999
+238390,Otros trabajos de acabados en edificaciones,3279.467000000002,3279.467000000002
+238910,Preparación de terrenos para la construcción,5542.165999999999,5542.165999999999
+238990,Otros trabajos especializados para la construcción,2422.5420000000017,2422.5420000000017
+311110,Elaboración de alimentos para animales,65312.29100000001,41116.478
+311211,Beneficio del arroz,5120.424999999999,0.059000000000000004
+311212,Elaboración de harina de trigo,23233.350000000006,18838.302000000007
+311213,Elaboración de harina de maíz,12101.098000000013,10208.73500000001
+311214,Elaboración de harina de otros productos agrícolas,6864.76,4995.225000000001
+311215,Elaboración de malta,3666.943,3464.876
+311221,Elaboración de féculas y otros almidones y sus derivados,10474.895000000006,5901.048999999999
+311222,Elaboración de aceites y grasas vegetales comestibles,55699.45200000001,885.3249999999996
+311230,Elaboración de cereales para el desayuno,8402.948,95.649
+311311,Elaboración de azúcar de caña,32753.559000000016,15030.081000000011
+311319,Elaboración de otros azúcares,1834.8360000000002,0.0
+311320,Elaboración de chocolate y productos de chocolate a partir de cacao,10553.683000000003,1798.3429999999996
+311330,Elaboración de productos de chocolate a partir de chocolate,4596.705,76.25800000000001
+311340,"Elaboración de dulces, chicles y productos de confitería que no sean de chocolate",31534.625000000004,138.963
+311411,Congelación de frutas y verduras,6971.982999999999,165.887
+311412,Congelación de alimentos preparados,1032.0349999999999,340.86699999999996
+311421,Deshidratación de frutas y verduras,1078.8989999999994,789.3419999999996
+311422,Conservación de frutas y verduras por procesos distintos a la congelación y la deshidratación,45271.38700000002,6963.860000000001
+311423,Conservación de alimentos preparados por procesos distintos a la congelación,10183.313,1162.5719999999997
+311511,Elaboración de leche líquida,48094.47,4260.214000000003
+311512,"Elaboración de leche en polvo, condensada y evaporada",19776.35900000001,7283.573000000006
+311513,Elaboración de derivados y fermentos lácteos,70380.22800000002,3860.7250000000017
+311520,Elaboración de helados y paletas,8710.566,0.212
+311611,"Matanza de ganado, aves y otros animales comestibles",247817.685,29299.63600000002
+311612,"Corte y empacado de carne de ganado, aves y otros animales comestibles",20006.83,11670.391999999998
+311613,"Preparación de embutidos y otras conservas de carne de ganado, aves y otros animales  comestibles",26172.709,1527.3439999999996
+311614,Elaboración de manteca y otras grasas animales comestibles,3955.188000000002,835.0559999999996
+311710,Preparación y envasado de pescados y mariscos,10234.624,2023.8569999999986
+311811,Panificación industrial,33990.885,2509.6110000000003
+311812,Panificación tradicional,37881.462999999996,11.004000000000001
+311820,Elaboración de galletas y pastas para sopa,28499.786999999997,1515.5140000000001
+311830,Elaboración de tortillas de maíz y molienda de nixtamal,208349.382,16093.940000000006
+311910,Elaboración de botanas,34920.054,657.2209999999999
+311921,Beneficio del café,6120.839999999998,5546.124999999999
+311922,Elaboración de café tostado y molido,3473.049,0.576
+311923,Elaboración de café instantáneo,7415.366,218.23199999999997
+311924,Preparación y envasado de té,295.82899999999995,11.09
+311930,"Elaboración de concentrados, polvos, jarabes y esencias de sabor para bebidas",24577.21100000001,15599.774000000007
+311940,Elaboración de condimentos y aderezos,11938.760999999999,2588.3529999999996
+311991,Elaboración de gelatinas y otros postres en polvo,2266.813,382.73500000000007
+311992,Elaboración de levadura,1646.9400000000005,983.3729999999999
+311993,Elaboración de alimentos frescos para consumo inmediato,1877.847,78.624
+311999,Elaboración de otros alimentos,5288.004999999999,616.377
+312111,Elaboración de refrescos y otras bebidas no alcohólicas,99144.00899999998,2684.703
+312112,Purificación y embotellado de agua,17948.348,1437.5459999999994
+312113,Elaboración de hielo,3156.2249999999995,1287.1309999999999
+312120,Elaboración de cerveza,57388.288,691.463
+312131,Elaboración de bebidas alcohólicas a base de uva,3231.004000000001,442.769
+312132,Elaboración de pulque,1772.004,0.0
+312139,Elaboración de sidra y otras bebidas fermentadas,119.77099999999999,0.0
+312141,Elaboración de ron y otras bebidas destiladas de caña,1958.13,431.35900000000004
+312142,Elaboración de bebidas destiladas de agave,19038.744,0.0
+312143,Obtención de alcohol etílico potable,321.936,236.85000000000005
+312149,Elaboración de otras bebidas destiladas,928.0470000000014,25.560000000000002
+312210,Beneficio del tabaco,502.19600000000014,224.7970000000001
+312221,Elaboración de cigarros,18833.591,131.82
+312222,Elaboración de puros y otros productos de tabaco,224.87300000000002,0.0
+313111,Preparación e hilado de fibras duras naturales,1676.5889999999995,695.2060000000001
+313112,Preparación e hilado de fibras blandas naturales,7640.582999999996,3342.6890000000026
+313113,Fabricación de hilos para coser y bordar,4742.9839999999995,3534.8560000000075
+313210,Fabricación de telas anchas de trama,19997.956999999988,14594.842000000017
+313220,Fabricación de telas angostas de trama y pasamanería,2842.010000000002,1582.2119999999993
+313230,Fabricación de telas no tejidas (comprimidas),6057.022000000002,3288.793000000002
+313240,Fabricación de telas de punto,4476.277000000002,918.8359999999996
+313310,Acabado de productos textiles,2139.9920000000147,1066.0709999999997
+313320,Fabricación de telas recubiertas,2913.3820000000005,1923.4389999999999
+314110,Fabricación de alfombras y tapetes,2045.7749999999992,544.9319999999999
+314120,"Confección de cortinas, blancos y similares",14932.615,3448.5549999999994
+314911,Confección de costales,2773.2969999999996,1960.769999999999
+314912,Confección de productos de textiles recubiertos y de materiales sucedáneos,800.106,335.41599999999994
+314991,"Confección, bordado y deshilado de productos textiles",2204.394,407.21399999999994
+314992,Fabricación de redes y otros productos de cordelería,5799.789999999999,973.1469999999999
+314993,Fabricación de productos textiles reciclados,1534.4059999999993,364.99700000000007
+314999,Fabricación de banderas y otros productos textiles no clasificados en otra parte,5235.795,70.13
+315110,Fabricación de calcetines y medias de punto,4176.468,232.749
+315191,Fabricación de ropa interior de punto,1801.102,57.785
+315192,Fabricación de ropa exterior de punto,15035.858999999999,466.7169999999998
+315210,"Confección de prendas de vestir de cuero, piel y de materiales sucedáneos",253.073,14.238
+315221,Confección en serie de ropa interior y de dormir,15040.930000000004,609.0409999999997
+315222,Confección en serie de camisas,7200.222,494.78099999999995
+315223,Confección en serie de uniformes,9384.180999999999,2787.3089999999993
+315224,Confección en serie de disfraces y trajes típicos,845.465,18.649
+315225,Confección de prendas de vestir sobre medida,8622.648,185.494
+315229,Confección en serie de otra ropa exterior de materiales textiles,60806.076000000015,5779.636999999999
+315991,Confección de sombreros y gorras,1085.005,72.23600000000002
+315999,Confección de otros accesorios y prendas de vestir no clasificados en otra parte,2717.8790000000004,227.48499999999987
+316110,Curtido y acabado de cuero y piel,9426.042000000003,6842.4070000000065
+316211,Fabricación de calzado con corte de piel y cuero,24070.618,2136.0130000000004
+316212,Fabricación de calzado con corte de tela,1666.9050000000002,19.454
+316213,Fabricación de calzado de plástico,3243.688,5.348
+316214,Fabricación de calzado de hule,887.108,219.47699999999992
+316219,Fabricación de huaraches y calzado de otro tipo de materiales,1323.5590000000002,0.0
+316991,"Fabricación de bolsos de mano, maletas y similares",2027.2309999999993,179.78500000000003
+316999,"Fabricación de otros productos de cuero, piel y materiales sucedáneos",4622.193000000002,848.9819999999997
+321111,"Aserraderos integrados (incluye a la 321112 ""Aserrado de tablas y tablones"" y a la 321113 ""Tratamiento de la madera y fabricación de postes y durmientes"")",24727.112,23793.360000000004
+321210,Fabricación de laminados y aglutinados de madera,3662.6990000000023,3188.0099999999984
+321910,Fabricación de productos de madera para la construcción,8357.33,7102.836000000003
+321920,Fabricación de productos para embalaje y envases de madera,4503.980000000002,4036.5179999999987
+321991,"Fabricación de productos de materiales trenzables, excepto palma",1616.083,14.4
+321992,Fabricación de artículos y utensilios de madera para el hogar,2263.5890000000004,1.268
+321993,Fabricación de productos de madera de uso industrial,753.6349999999995,711.1019999999999
+321999,Fabricación de otros productos de madera,1844.5159999999996,229.69200000000006
+322122,"Fabricación de pulpa y papel (incluye a la 322110 ""Fabricación de pulpa"" y 322121 ""Fabricación de papel en plantas integradas""",39467.613999999936,36381.84999999999
+322132,"Fabricación de cartón y cartoncillo a partir de pulpa (incluye a la 322131 ""Fabricación de cartón en plantas integradas"")",6108.519000000006,4627.008999999998
+322210,Fabricación de envases de cartón,43772.24099999999,33759.981000000036
+322220,Fabricación de bolsas de papel y productos celulósicos recubiertos y tratados,11159.625000000002,3730.002000000001
+322230,Fabricación de productos de papelería,7349.216999999999,2724.5889999999977
+322291,Fabricación de pañales desechables y productos sanitarios,15920.622,1623.3220000000001
+322299,Fabricación de otros productos de cartón y papel,9147.982000000002,4940.902999999999
+323111,"Impresión de libros, periódicos y revistas",10398.032,2077.2490000000003
+323119,Impresión de formas continuas y otros impresos,32201.532000000007,28390.44599999998
+323120,Industrias conexas a la impresión,1234.1119999999987,1216.0189999999996
+324110,Refinación de petróleo,747829.867,446474.4370000005
+324120,Fabricación de productos de asfalto,7995.310000000007,7691.181000000002
+324191,Fabricación de aceites y grasas lubricantes,16162.677000000005,12616.167000000014
+324199,Fabricación de coque y otros productos derivados del petróleo refinado y del carbón mineral,424.14500000000044,2.42
+325110,Fabricación de petroquímicos básicos del gas natural y del petróleo refinado,355972.5400000002,238412.69400000005
+325120,Fabricación de gases industriales,4058.4260000000017,3833.355000000001
+325130,Fabricación de pigmentos y colorantes sintéticos,6738.811999999993,3589.456000000003
+325180,Fabricación de otros productos químicos básicos inorgánicos,27627.824999999997,18729.949
+325190,Fabricación de otros productos químicos básicos orgánicos,36869.79800000007,21205.691000000003
+325211,Fabricación de resinas sintéticas,50966.69399999994,34185.57999999997
+325212,Fabricación de hules sintéticos,6264.745999999999,2522.0750000000025
+325220,Fabricación de fibras químicas,10001.74600000001,6417.4150000000045
+325310,Fabricación de fertilizantes,13537.923000000024,7542.809
+325320,"Fabricación de pesticidas y otros agroquímicos, excepto fertilizantes",11945.852000000014,9423.932000000012
+325411,Fabricación de materias primas para la industria farmacéutica,3922.143000000002,2941.1800000000007
+325412,Fabricación de preparaciones farmacéuticas,155679.223,32183.095999999994
+325510,Fabricación de pinturas y recubrimientos,24365.670000000006,18490.587999999996
+325520,Fabricación de adhesivos,9241.210000000015,6899.725000000001
+325610,"Fabricación de jabones, limpiadores y dentífricos",53490.495,21542.393
+325620,"Fabricación de cosméticos, perfumes y otras preparaciones de tocador",33479.19699999999,4048.653999999999
+325910,Fabricación de tintas para impresión,3059.4279999999994,2907.613000000001
+325920,Fabricación de explosivos,2424.095000000003,1347.8000000000004
+325991,Fabricación de cerillos,581.629,0.0
+325992,"Fabricación de películas, placas y papel fotosensible para fotografía",4309.441999999999,938.7879999999999
+325993,Fabricación de resinas de plásticos reciclados,1206.54,1121.149
+325999,Fabricación de otros productos químicos,16964.497000000032,6574.997000000005
+326110,Fabricación de bolsas y películas de plástico flexible,33130.03699999995,21718.812
+326120,"Fabricación de tubería y conexiones, y tubos para embalaje",12074.988000000008,7373.140000000006
+326130,Fabricación de laminados de plástico rígido,5257.217000000001,3286.253000000004
+326140,Fabricación de espumas y productos de poliestireno,7867.612000000006,5191.55
+326150,Fabricación de espumas y productos de uretano,7431.5850000000055,7235.570000000005
+326160,Fabricación de botellas de plástico,18112.317000000035,16951.654999999995
+326191,Fabricación de productos de plástico para el hogar con y sin reforzamiento,8158.011,768.125
+326192,Fabricación de autopartes de plástico con y sin reforzamiento,30459.267000000007,15114.230000000009
+326193,Fabricación de envases y contenedores de plástico para embalaje con y sin reforzamiento,16726.865000000016,7843.852000000015
+326194,Fabricación de otros productos de plástico de uso industrial sin reforzamiento,10553.398999999994,9284.537999999999
+326198,Fabricación de otros productos de plástico con reforzamiento,2293.433,53.25299999999999
+326199,Fabricación de otros productos de plástico sin reforzamiento,13352.676999999985,1149.3749999999995
+326211,Fabricación de llantas y cámaras,11969.355000000007,1252.1530000000002
+326212,Revitalización de llantas,748.961,0.802
+326220,Fabricación de bandas y mangueras de hule y de plástico,7616.058999999998,4099.061000000001
+326290,Fabricación de otros productos de hule,8895.490999999995,5350.847000000003
+327111,"Fabricación de artículos de alfarería, porcelana y loza",33953.863000000005,1269.2859999999998
+327112,Fabricación de muebles de baño,5901.078999999999,1201.7469999999994
+327121,Fabricación de ladrillos no refractarios,4367.396000000001,3790.4
+327122,Fabricación de azulejos y losetas no refractarias,16705.828000000012,12387.796999999999
+327123,Fabricación de productos refractarios,2766.485,899.9229999999998
+327211,Fabricación de vidrio,13476.549999999996,7781.813000000006
+327212,Fabricación de espejos,1083.7599999999993,124.14600000000006
+327213,Fabricación de envases y ampolletas de vidrio,20281.91,16508.189000000013
+327214,Fabricación de fibra de vidrio,3384.3539999999985,500.4039999999999
+327215,Fabricación de artículos de vidrio de uso doméstico,5786.9710000000005,557.4249999999998
+327216,Fabricación de artículos de vidrio de uso industrial y comercial,1079.5539999999992,153.31
+327219,Fabricación de otros productos de vidrio,3036.915,2416.831
+327310,Fabricación de cemento y productos a base de cemento en plantas integradas,55499.72799999994,53717.897000000004
+327320,Fabricación de concreto,20702.946000000007,20702.946000000007
+327330,Fabricación de tubos y bloques de cemento y concreto,10118.675000000005,7610.898
+327391,Fabricación de productos preesforzados de concreto,4029.233,3934.6100000000006
+327399,Fabricación de otros productos de cemento y concreto,1756.1379999999995,413.318
+327410,Fabricación de cal,4109.926000000004,4042.508000000001
+327420,Fabricación de yeso y productos de yeso,3364.2699999999977,1535.2769999999996
+327910,Fabricación de productos abrasivos,2947.4840000000017,1094.543999999999
+327991,Fabricación de productos a base de piedras de cantera,4917.137000000008,2002.8279999999995
+327999,Fabricación de otros productos a base de minerales no metálicos,4310.134999999996,3386.047000000002
+331111,Complejos siderúrgicos,129882.62699999996,103952.49999999999
+331112,Fabricación de desbastes primarios y ferroaleaciones,37451.19099999999,17620.716000000004
+331210,Fabricación de tubos y postes de hierro y acero,36043.34300000004,28510.34600000003
+331220,Fabricación de otros productos de hierro y acero,99709.29900000001,94189.63999999993
+331310,Industria básica del aluminio,14339.68600000002,6281.954000000009
+331411,Fundición y refinación de cobre,19380.247000000003,13757.69700000001
+331412,Fundición y refinación de metales preciosos,30578.089999999997,0.0
+331419,Fundición y refinación de otros metales no ferrosos,7252.6539999999995,1281.066
+331420,Laminación secundaria de cobre,32740.097999999984,17680.40100000002
+331490,Laminación secundaria de otros metales no ferrosos,23564.054000000004,13177.574000000008
+331510,Moldeo por fundición de piezas de hierro y acero,13276.669000000005,11020.368000000002
+331520,Moldeo por fundición de piezas metálicas no ferrosas,3493.9559999999997,3390.9480000000003
+332110,Fabricación de productos metálicos forjados y troquelados,15809.539999999997,9559.047000000011
+332211,Fabricación de herramientas de mano metálicas sin motor,10655.768000000007,4026.0390000000034
+332212,Fabricación de utensilios de cocina metálicos,2758.074,167.68900000000002
+332310,Fabricación de estructuras metálicas,22133.927000000007,14167.785999999995
+332320,Fabricación de productos de herrería,23561.17500000001,10404.474000000013
+332410,Fabricación de calderas industriales,6174.424999999996,438.90599999999904
+332420,Fabricación de tanques metálicos de calibre grueso,6678.421999999999,3382.6909999999993
+332430,Fabricación de envases metálicos de calibre ligero,13367.868000000006,8291.176000000001
+332510,Fabricación de herrajes y cerraduras,16496.39300000002,775.2799999999992
+332610,"Fabricación de alambre, productos de alambre y resortes",17393.357,5950.441000000003
+332710,Maquinado de piezas metálicas para maquinaria y equipo en general,10451.028999999995,9900.013999999996
+332720,"Fabricación de tornillos, tuercas, remaches y similares",2873.6979999999785,1923.2599999999993
+332810,Recubrimientos y terminados metálicos,28258.695000000007,14347.244000000008
+332910,Fabricación de válvulas metálicas,22579.027000000006,1180.3549999999996
+332991,Fabricación de baleros y rodamientos,2671.467999999999,480.93499999999966
+332999,Fabricación de otros productos metálicos,23111.40699999998,4306.232000000002
+333111,Fabricación de maquinaria y equipo agrícola,11173.816000000003,343.60799999999983
+333112,Fabricación de maquinaria y equipo pecuario,158.2430000000001,61.08699999999999
+333120,Fabricación de maquinaria y equipo para la construcción,12668.136000000002,500.962
+333130,Fabricación de maquinaria y equipo para la industria extractiva,2794.0660000000044,452.00199999999955
+333210,Fabricación de maquinaria y equipo para la industria de la madera,781.7869999999994,106.018
+333220,Fabricación de maquinaria y equipo para la industria del hule y del plástico,538.1220000000019,0.0
+333291,Fabricación de maquinaria y equipo para la industria alimentaria y de las bebidas,3064.9039999999973,127.25100000000005
+333292,Fabricación de maquinaria y equipo para la industria textil,998.0690000000013,17.85900000000001
+333293,Fabricación de maquinaria y equipo para la industria de la impresión,3770.0740000000005,52.355999999999995
+333294,Fabricación de maquinaria y equipo para la industria del vidrio y otros minerales no metálicos,1232.767,279.094
+333299,Fabricación de maquinaria y equipo para otras industrias manufactureras,6673.324000000006,1068.6569999999997
+333312,"Fabricación de máquinas fotocopiadoras (incluye a la 333311 ""Fabricación de aparatos fotográficos"")",3982.8789999999995,171.04500000000002
+333319,Fabricación de otra maquinaria y equipo para el comercio y los servicios,7483.306999999957,1.867
+333411,Fabricación de equipo de aire acondicionado y calefacción,21262.562000000013,2994.5980000000022
+333412,Fabricación de equipo de refrigeración industrial y comercial,29779.388000000003,6.567000000000003
+333510,Fabricación de maquinaria y equipo para la industria metalmecánica,2882.641999999997,359.3019999999999
+333610,"Fabricación de motores de combustión interna, turbinas y transmisiones",54663.89999999999,6440.846000000002
+333910,Fabricación de bombas y sistemas de bombeo,17199.801,195.52200000000008
+333920,Fabricación de maquinaria y equipo para levantar y trasladar,8103.091000000005,62.17100000000001
+333991,Fabricación de equipo para soldar y soldaduras,4519.7890000000025,2250.952999999999
+333992,Fabricación de maquinaria y equipo para envasar y empacar,385.2619999999999,0.001
+333993,Fabricación de aparatos e instrumentos para pesar,478.59100000000007,23.055
+333999,Fabricación de otra maquinaria y equipo para la industria en general,19432.199999999986,1608.7499999999993
+334110,Fabricación de computadoras y equipo periférico,106270.63100000005,3160.3740000000003
+334210,Fabricación de equipo telefónico,30296.696999999996,974.619
+334220,"Fabricación de equipo de transmisión y recepción de señales de radio y televisión, y equipo de comunicación inalámbrico",161665.99699999997,2267.3970000000004
+334290,Fabricación de otros equipos de comunicación,7610.476999999999,9.883000000000001
+334310,Fabricación de equipo de audio y de video,273679.745,278.76599999999996
+334410,Fabricación de componentes electrónicos,63332.091000000044,3236.7769999999996
+334511,Fabricación de relojes,1662.5870000000002,0.0
+334519,"Fabricación de otros instrumentos de medición, control, navegación, y equipo médico electrónico",68941.33999999998,1701.199999999999
+334610,Fabricación y reproducción de medios magnéticos y ópticos,8016.832000000003,694.188
+335110,Fabricación de focos,3221.641999999999,164.91700000000012
+335120,Fabricación de lámparas ornamentales,10795.268,605.1309999999999
+335210,Fabricación de enseres electrodomésticos menores,9702.172,180.64800000000002
+335220,Fabricación de aparatos de línea blanca,41761.793,2885.9820000000013
+335311,Fabricación de motores y generadores eléctricos,37718.83700000001,366.3379999999999
+335312,Fabricación de equipo y aparatos de distribución de energía eléctrica,74788.99999999999,917.6009999999993
+335910,Fabricación de acumuladores y pilas,13396.440999999997,362.7519999999996
+335920,Fabricación de cables de conducción eléctrica,40425.08200000001,18042.620000000006
+335930,"Fabricación de enchufes, contactos, fusibles y otros accesorios para instalaciones eléctricas",19926.969000000005,3988.8840000000105
+335991,Fabricación de productos eléctricos de carbón y grafito,2116.8610000000044,618.0349999999999
+335999,Fabricación de otros productos eléctricos,51713.74199999997,1181.2699999999998
+336110,Fabricación de automóviles y camionetas,368949.571,0.0
+336120,Fabricación de camiones y tractocamiones,56259.581000000006,581.651
+336210,Fabricación de carrocerías y remolques,18869.529000000002,5340.331
+336310,Fabricación de motores de gasolina y sus partes para vehículos automotrices,60211.491999999984,30610.721999999998
+336320,Fabricación de equipo eléctrico y electrónico y sus partes para vehículos automotores,117323.91199999995,16302.456000000006
+336330,Fabricación de partes de sistemas de dirección y de suspensión para vehículos automotrices,25538.866,6324.978
+336340,Fabricación de partes de sistemas de frenos para vehículos automotrices,15163.117000000002,1395.5679999999995
+336350,Fabricación de partes de sistemas de transmisión para vehículos automotores,33428.89799999998,86.23400000000001
+336360,Fabricación de asientos y accesorios interiores para vehículos automotores,75323.75699999998,22893.64000000001
+336370,Fabricación de piezas metálicas troqueladas para vehículos automotrices,28841.55400000001,5133.805999999998
+336390,Fabricación de otras partes para vehículos automotrices,70229.72700000003,2565.145000000001
+336410,Fabricación de equipo aeroespacial,17187.424000000003,2903.729
+336510,Fabricación de equipo ferroviario,15604.162,35.564
+336610,Fabricación de embarcaciones,2151.449,0.012
+336991,Fabricación de motocicletas,3082.8329999999987,3.3770000000000002
+336992,Fabricación de bicicletas y triciclos,1893.604,0.0
+336999,Fabricación de otro equipo de transporte,836.9629999999997,0.136
+337110,Fabricación de cocinas integrales y muebles modulares de baño,3194.7869999999984,1315.1119999999999
+337120,"Fabricación de muebles, excepto cocinas integrales, muebles modulares de baño y muebles de oficina y estantería",43804.813,4713.506000000003
+337210,Fabricación de muebles de oficina y estantería,9212.292,331.84299999999985
+337910,Fabricación de colchones,4818.455,616.7689999999999
+337920,Fabricación de persianas y cortineros,2103.9389999999994,248.03200000000004
+339111,"Fabricación de equipo no electrónico para uso médico, dental y para laboratorio",16248.248999999996,259.37300000000005
+339112,Fabricación de material desechable de uso médico,26142.194,2910.0050000000006
+339113,Fabricación de artículos oftálmicos,2783.5920000000006,112.307
+339911,Acuñación e impresión de monedas,1193.416,298.702
+339912,Orfebrería y joyería de metales y piedras preciosos,14055.041999999998,0.8310000000000001
+339913,Joyería de metales y piedras no preciosos y de otros materiales,2575.9919999999997,0.652
+339914,Metalistería de metales no preciosos,3296.1040000000003,9.067
+339920,Fabricación de artículos deportivos,2482.456,402.5589999999999
+339930,Fabricación de juguetes,21232.236,103.58000000000001
+339940,"Fabricación de artículos y accesorios para escritura, pintura, dibujo y actividades de oficina",7711.241000000002,2064.436999999999
+339950,Fabricación de anuncios y señalamientos,1921.3509999999999,1795.6700000000003
+339991,Fabricación de instrumentos musicales,2495.8,34.804
+339992,"Fabricación de cierres, botones y agujas",1138.945,620.7939999999994
+339993,"Fabricación de escobas, cepillos y similares",3644.107,1115.0669999999993
+339994,Fabricación de velas y veladoras,5614.2249999999985,1185.9479999999996
+339995,Fabricación de ataúdes,2257.276,545.6379999999999
+339999,Otras industrias manufactureras,11731.392000000009,249.87299999999993
+431110,Comercio,2332612.656,773964.3989999997
+481111,Transporte aéreo regular en líneas aéreas nacionales,58077.74600000003,19419.71900000003
+481112,Transporte aéreo regular en líneas aéreas extranjeras,9760.88200000002,7738.791000000015
+481210,Transporte aéreo no regular,6314.199,671.5549999999997
+482110,Transporte por ferrocarril,26204.369999999995,5849.068999999997
+483111,"Transporte marítimo de altura, excepto de petróleo y gas natural",3018.1589999999997,676.9229999999998
+483112,"Transporte marítimo de cabotaje, excepto de petróleo y gas natural",3468.699999999999,831.5719999999991
+483113,Transporte marítimo de petróleo y gas natural,7391.1669999999995,1657.7169999999992
+483210,Transporte por aguas interiores,138.59,6.157000000000003
+484111,"Autotransporte local de productos agrícolas sin refrigeración (Incluye de la 484119 ""Otro autotransporte local de carga general"" a la 484239 ""Otro autotransporte foráneo de carga especializado"")",481650.99199999997,115468.08499999993
+485111,Transporte colectivo urbano y suburbano de pasajeros en autobuses de ruta fija,29271.845,4555.687000000003
+485112,Transporte colectivo urbano y suburbano de pasajeros en automóviles de ruta fija,46354.015999999996,646.274
+485113,Transporte colectivo urbano y suburbano de pasajeros en trolebuses y trenes ligeros,1488.242,0.432
+485114,Transporte colectivo urbano y suburbano de pasajeros en metro,7255.331999999999,3.891
+485210,Transporte colectivo foráneo de pasajeros de ruta fija,215239.418,4688.32
+485311,Transporte de pasajeros en taxis de sitio,19176.38,2273.612000000002
+485312,Transporte de pasajeros en taxis de ruleteo,87930.397,0.0
+485320,Alquiler de automóviles con chofer,42.717999999999996,29.563
+485410,Transporte escolar y de personal,2988.5739999999996,1451.6269999999997
+485510,Alquiler de autobuses con chofer,356.50199999999984,289.8029999999998
+485990,Otro transporte terrestre de pasajeros,987.5980000000001,2.325999999999989
+486210,Transporte de gas natural por ductos,7909.679999999996,1774.010999999996
+486910,Transporte por ductos de productos refinados del petróleo,4817.682,1154.9709999999993
+487110,Transporte turístico por tierra,3028.5710000000004,2.9349999999999836
+487210,Transporte turístico por agua,895.159,0.6270000000000002
+487990,Otro transporte turístico,11.13,0.0
+488111,Servicios a la navegación aérea,3423.2039999999997,1303.303
+488112,Administración de aeropuertos y helipuertos,12819.709,8947.384000000002
+488190,Otros servicios relacionados con el transporte aéreo,708.681,708.681
+488210,Servicios relacionados con el transporte por ferrocarril,2717.498000000001,2717.498000000001
+488310,Administración de puertos y muelles,4916.977,1411.1299999999994
+488320,Servicios de carga y descarga para el transporte por agua,936.8309999999996,210.11499999999958
+488330,Servicios para la navegación por agua,2920.504,834.6340000000001
+488390,Otros servicios relacionados con el transporte por agua,2804.1310000000008,628.9200000000004
+488410,Servicios de grúa,1118.752,0.0
+488491,Servicios de administración de centrales camioneras,1705.487,0.0
+488492,"Servicios de administración de carreteras, puentes y servicios auxiliares",22615.666000000005,7230.196000000006
+488493,Servicios de báscula para el transporte y otros servicios relacionados con el transporte por carretera,81.01400000000002,18.171000000000024
+488511,Servicios de agencias aduanales,9424.424,2113.7419999999997
+488519,Otros servicios de intermediación para el transporte de carga,14698.632,3296.6599999999994
+488990,Otros servicios relacionados con el transporte,1564.6290000000001,1564.629
+491110,Servicios postales,3828.2589999999996,3489.3029999999994
+492110,"Servicios de mensajería y paquetería foránea (incluye a la 492210 ""Servicios de mensajería y paquetería local"")",22705.581000000006,14857.116000000005
+493111,Almacenes generales de depósito,1733.8569999999997,1733.8569999999997
+493119,Otros servicios de almacenamiento general sin instalaciones especializadas,5444.410000000002,5444.410000000002
+493120,Almacenamiento con refrigeración,869.4079999999999,869.4079999999999
+493130,Almacenamiento de productos agrícolas que no requieren refrigeración,758.777,758.777
+493190,Otros servicios de almacenamiento con instalaciones especializadas,11004.911,11004.911
+511111,Edición de periódicos,368.30999999999995,368.30999999999995
+511112,Edición de periódicos integrada con la impresión,9651.197000000006,9001.944000000005
+511121,Edición de revistas y otras publicaciones periódicas,410.30899999999997,59.04900000000001
+511122,Edición de revistas y otras publicaciones periódicas integrada con la impresión,2059.5379999999977,2059.5379999999977
+511131,Edición de libros,2252.3849999999998,2252.3849999999998
+511132,Edición de libros integrada con la impresión,5981.199,598.1780000000002
+511141,Edición de directorios y de listas de correo,2.5180000000000002,2.5180000000000002
+511142,Edición de directorios y de listas de correo integrada con la impresión,200.506,200.506
+511191,Edición de otros materiales,101.669,101.669
+511192,Edición de otros materiales integrada con la impresión,211.42600000000004,211.42600000000004
+511210,Edición de software y edición de software integrada con la reproducción,3715.624,0.0
+512111,Producción de películas,189.482,0.338
+512112,Producción de programas para la televisión,1823.351,1823.351
+512113,"Producción de videoclips, comerciales y otros materiales audiovisuales",1971.165,1971.165
+512120,Distribución de películas y de otros materiales audiovisuales,589.4119999999999,589.4119999999999
+512130,Exhibición de películas y otros materiales audiovisuales,6475.383,0.0
+512190,Servicios de postproducción y otros servicios para la industria fílmica y del video,600.414,600.414
+512210,Productoras discográficas,19.493,0.0
+512220,Producción de material discográfico integrada con su reproducción y distribución,438.906,56.199
+512230,Editoras de música,5.797999999999999,5.797999999999999
+512240,Grabación de discos compactos (CD) y de video digital (DVD) o casetes musicales,47.126,47.126
+512290,Otros servicios de grabación del sonido,120.482,120.482
+515110,Transmisión de programas de radio,4829.605,121.782
+515120,Transmisión de programas de televisión,28422.648,1603.7489999999998
+515210,Producción de programación de canales para sistemas de televisión por cable o satelitales,661.005,483.374
+517111,"Operadores de telecomunicaciones alámbricas, excepto por suscripción",205281.5680000001,83937.34700000007
+517112,Operadores de telecomunicaciones alámbricas por suscripción,19252.869,2.573
+517210,"Operadores de telecomunicaciones inalámbricas, excepto servicios de satélite",171311.47299999997,48705.16999999998
+517410,Servicios de telecomunicaciones por satélite,1274.677,899.1329999999999
+517910,Otros servicios de telecomunicaciones,13375.034000000003,9025.476000000002
+518210,"Procesamiento electrónico de información, hospedaje y otros servicios relacionados",4815.677000000003,4815.677000000003
+519110,Agencias noticiosas,393.56399999999996,393.56399999999996
+519121,Bibliotecas y archivos del sector privado,37.257999999999996,25.625
+519130,Edición y difusión de contenido exclusivamente a través de Internet y servicios de búsqueda en la red,388.677,82.469
+519190,Otros servicios de suministro de información,82.993,0.0
+521110,Banca central,25237.441999999995,22902.718999999997
+522110,Banca múltiple,310431.23400000005,108600.44099999992
+522210,Banca de desarrollo,24406.481999999996,16716.531999999996
+522220,Fondos y fideicomisos financieros,26384.489000000005,6678.445000000002
+522310,Uniones de crédito,515.9849999999994,515.9849999999994
+522320,Cajas de ahorro popular,8936.548,0.0
+522390,Otras instituciones de ahorro y préstamo,1585.319,4.945999999999997
+522410,Arrendadoras financieras,1111.018999999999,1111.018999999999
+522420,Compañías de factoraje financiero,444.7289999999993,444.7289999999993
+522430,Sociedades financieras de objeto limitado,25196.074999999997,8533.341999999997
+522440,Compañías de autofinanciamiento,1661.782,0.0
+522451,Montepíos,6600.455,0.0
+522452,Casas de empeño,6013.977,0.0
+522490,Otras instituciones de intermediación crediticia y financiera no bursátil,8777.024,0.0
+522510,Servicios relacionados con la intermediación crediticia no bursátil,783.070999999999,783.070999999999
+523110,Casas de bolsa,14691.974999999999,9079.641
+523121,Casas de cambio,351.97799999999995,296.703
+523122,Centros cambiarios,2584.747,0.0
+523210,Bolsa de valores,795.7610000000001,163.518
+523910,Asesoría en inversiones,422.4389999999999,373.6079999999999
+523990,Otros servicios relacionados con la intermediación bursátil,3722.044,2300.223
+524110,Compañías de seguros,88662.842,9125.529000000004
+524120,Fondos de aseguramiento campesino,61.853,61.853
+524130,Compañías afianzadoras,4894.718999999999,4679.350999999999
+524210,"Agentes, ajustadores y gestores de seguros y fianzas",19285.164999999994,19285.164999999994
+524220,Administración de cajas de pensión y de seguros independientes,14738.443,71.783
+531111,Alquiler sin intermediación de viviendas amuebladas,27695.187,0.0
+531112,Alquiler sin intermediación de viviendas no amuebladas,1218819.132,13.769000000000002
+531113,Alquiler sin intermediación de salones para fiestas y convenciones,6335.867,3068.448
+531114,Alquiler sin intermediación de oficinas y locales comerciales,187350.622,187350.622
+531115,"Alquiler sin intermediación de teatros, estadios, auditorios y similares",256.12100000000004,256.12100000000004
+531119,Alquiler sin intermediación de otros bienes raíces,33323.36000000002,33323.36200000002
+531210,Inmobiliarias y corredores de bienes raíces,44425.526000000005,12.618
+531311,Servicios de administración de bienes raíces,9152.788,7067.842000000001
+531319,Otros servicios relacionados con los servicios inmobiliarios,2893.835,2698.138
+532110,Alquiler de automóviles sin chofer,3099.575,2505.1769999999997
+532121,Alquiler de camiones de carga sin chofer,3984.798000000001,3984.798000000001
+532122,"Alquiler de autobuses, minibuses y remolques sin chofer",482.78800000000007,350.42800000000005
+532210,Alquiler de aparatos eléctricos y electrónicos para el hogar y personales,75.306,0.002
+532220,Alquiler de prendas de vestir,368.045,0.0
+532230,Alquiler de videocasetes y discos,2143.832,0.0
+532291,"Alquiler de mesas, sillas, vajillas y similares",2041.1660000000002,544.4190000000001
+532292,Alquiler de instrumentos musicales,33.93,33.93
+532299,Alquiler de otros artículos para el hogar y personales,383.817,0.0
+532310,Centros generales de alquiler,1084.749,155.225
+532411,"Alquiler de maquinaria y equipo para construcción, minería y actividades forestales",11735.440000000013,11735.440000000013
+532412,"Alquiler de equipo de transporte, excepto terrestre",3141.946,3141.9459999999995
+532420,Alquiler de equipo de cómputo y de otras máquinas y mobiliario de oficina,1951.2529999999995,1951.2529999999995
+532491,"Alquiler de maquinaria y equipo agropecuario, pesquero y para la industria manufacturera",8496.375000000002,8496.375000000002
+532492,"Alquiler de maquinaria y equipo para mover, levantar y acomodar materiales",2688.6449999999986,2688.6449999999986
+532493,Alquiler de maquinaria y equipo comercial y de servicios,2724.005000000001,2724.005000000001
+533110,"Servicios de alquiler de marcas registradas, patentes y franquicias",40736.812000000005,7694.054000000004
+541110,Bufetes jurídicos,56525.553000000014,35970.947000000015
+541120,Notarías públicas,5405.881,997.419
+541190,Servicios de apoyo para efectuar trámites legales,2214.5289999999995,1337.8499999999995
+541211,Servicios de contabilidad y auditoría,170617.51200000005,157499.25800000003
+541219,Otros servicios relacionados con la contabilidad,767.536,666.953
+541310,Servicios de arquitectura,7255.884,2383.1199999999994
+541320,Servicios de arquitectura de paisaje y urbanismo,715.1710000000002,715.1710000000002
+541330,Servicios de ingeniería,13778.476999999997,13778.476999999997
+541340,Servicios de dibujo,543.4569999999999,543.4569999999999
+541350,Servicios de inspección de edificios,107.177,107.177
+541360,Servicios de levantamiento geofísico,5288.445000000001,5288.445000000001
+541370,Servicios de elaboración de mapas,419.352,419.352
+541380,Laboratorios de pruebas,3010.6500000000015,3010.6500000000015
+541410,Diseño y decoración de interiores,829.038,199.95699999999997
+541420,Diseño industrial,407.32800000000015,407.32800000000015
+541430,Diseño gráfico,4284.133000000001,4240.990000000001
+541490,Diseño de modas y otros diseños especializados,237.685,237.685
+541510,Servicios de diseño de sistemas de cómputo y servicios relacionados,19119.968999999997,19119.968999999997
+541610,Servicios de consultoría en administración,20417.489000000005,20417.490000000005
+541620,Servicios de consultoría en medio ambiente,990.6209999999996,990.6209999999996
+541690,Otros servicios de consultoría científica y técnica,10741.480000000001,10741.480000000001
+541711,"Servicios de investigación científica y desarrollo en ciencias naturales y exactas, ingeniería, y ciencias de la vida, prestados por el sector privado",616.372,226.65799999999996
+541712,"Servicios de investigación científica y desarrollo en ciencias naturales y exactas, ingeniería, y ciencias de la vida, prestados por el sector público",7933.387,544.648
+541721,"Servicios de investigación científica y desarrollo en ciencias sociales y humanidades, prestados por el sector privado",76.18299999999998,76.18299999999998
+541722,"Servicios de investigación científica y desarrollo en ciencias sociales y humanidades, prestados por el sector público",8419.684000000001,194.814
+541810,Agencias de publicidad,13383.985999999988,13166.022999999988
+541820,Agencias de relaciones públicas,1179.9799999999993,1179.9799999999993
+541830,Agencias de compra de medios a petición del cliente,3678.445000000001,3678.445000000001
+541840,Agencias de representación de medios,8936.627999999993,8936.627999999993
+541850,Agencias de anuncios publicitarios,1734.4399999999994,1734.4399999999994
+541860,Agencias de correo directo,68.193,68.193
+541870,Distribución de material publicitario,681.6569999999986,681.6569999999986
+541890,Servicios de rotulación y otros servicios de publicidad,2939.147,2939.147
+541910,Servicios de investigación de mercados y encuestas de opinión pública,6100.611000000003,6100.611000000001
+541920,Servicios de fotografía y videograbación,1834.117,24.805
+541930,Servicios de traducción e interpretación,63.91299999999998,63.91299999999998
+541941,Servicios veterinarios para mascotas prestados por el sector privado,1506.144,3.311
+541943,Servicios veterinarios para la ganadería prestados por el sector privado,202.36499999999998,202.36499999999998
+541990,"Otros servicios profesionales, científicos y técnicos",19871.754999999997,12562.053
+551111,Corporativos,49117.790999999976,49117.790999999976
+551112,Tenedoras de acciones,35142.414,35142.414
+561110,Servicios de administración de negocios,80344.63000000002,80344.63000000002
+561210,Servicios combinados de apoyo en instalaciones,5068.360999999999,5068.360999999999
+561310,Agencias de colocación,4942.559999999997,4875.691999999996
+561320,Agencias de empleo temporal,8115.075000000002,8115.075000000002
+561330,Suministro de personal permanente,291230.409,291230.409
+561410,Servicios de preparación de documentos,159.668,0.847
+561421,Servicios de casetas telefónicas,1116.086,0.0
+561422,Servicios de recepción de llamadas telefónicas y promoción por teléfono,2659.079,2659.079
+561431,"Servicios de fotocopiado, fax y afines",1883.157,913.6819999999999
+561432,Servicios de acceso a computadoras,5274.486,0.0
+561440,Agencias de cobranza,3598.812,3598.812
+561450,Despachos de investigación de solvencia financiera,983.337,983.337
+561490,Otros servicios de apoyo secretarial y similares,29.169,29.169
+561510,Agencias de viajes,9967.231,2691.152
+561520,Organización de excursiones y paquetes turísticos para agencias de viajes,4938.497,0.0
+561590,Otros servicios de reservaciones,4111.8099999999995,870.132
+561610,"Servicios de investigación y de protección y custodia, excepto mediante monitoreo",22697.912,21094.147
+561620,Servicios de protección y custodia mediante el monitoreo de sistemas de seguridad,3669.380999999999,3669.380999999999
+561710,Servicios de control y exterminación de plagas,813.05,633.7059999999999
+561720,Servicios de limpieza de inmuebles,6846.555000000002,5813.254000000003
+561730,Servicios de instalación y mantenimiento de áreas verdes,289.985,241.72600000000003
+561740,"Servicios de limpieza de tapicería, alfombras y muebles",115.48200000000001,21.546000000000003
+561790,Otros servicios de limpieza,1203.2499999999993,1187.5959999999993
+561910,Servicios de empacado y etiquetado,3201.616,3201.616
+561920,Organizadores de convenciones y ferias comerciales e industriales,1558.923,1558.923
+561990,Otros servicios de apoyo a los negocios,4287.138000000002,4287.138000000002
+562111,Manejo de residuos peligrosos y servicios de remediación a zonas dañadas por materiales o residuos peligrosos,1505.9920000000002,1505.9920000000002
+562112,Manejo de desechos no peligrosos y servicios de remediación a zonas dañadas por desechos no peligrosos,4489.532,0.0
+611111,Escuelas de educación preescolar del sector privado,11173.422,0.0
+611112,Escuelas de educación preescolar del sector público,44773.135,0.0
+611121,Escuelas de educación primaria del sector privado,25986.988,0.0
+611122,Escuelas de educación primaria del sector público,129392.934,0.0
+611131,Escuelas de educación secundaria general del sector privado,11928.885,0.0
+611132,Escuelas de educación secundaria general del sector público,74869.079,0.0
+611141,Escuelas de educación secundaria técnica del sector privado,749.43,0.0
+611142,Escuelas de educación secundaria técnica del sector público,224.863,0.0
+611151,Escuelas de educación media técnica terminal del sector privado,1106.476,0.0
+611161,Escuelas de educación media superior del sector privado,14276.477,0.0
+611162,Escuelas de educación media superior del sector público,54112.485,0.0
+611172,Escuelas del sector público que combinan diversos niveles de educación,1168.039,0.0
+611181,Escuelas del sector privado de educación para necesidades especiales,229.122,0.0
+611211,Escuelas de educación postbachillerato del sector privado,374.559,0.0
+611311,Escuelas de educación superior del sector privado,48261.918,0.0
+611312,Escuelas de educación superior del sector público,107120.355,0.0
+611411,Escuelas comerciales y secretariales del sector privado,991.426,0.0
+611421,Escuelas de computación del sector privado,1350.854,18.137
+611431,Escuelas para la capacitación de ejecutivos del sector privado,1410.2639999999997,1410.2639999999997
+611511,Escuelas del sector privado dedicadas a la enseñanza de oficios,1861.211,1343.901
+611611,Escuelas de arte del sector privado,778.485,0.0
+611621,Escuelas de deporte del sector privado,1446.129,0.0
+611631,Escuelas de idiomas del sector privado,3031.244,0.0
+611691,Servicios de profesores particulares,113.795,0.0
+611698,Otros servicios educativos proporcionados por el sector privado,2249.061,0.0
+611710,Servicios de apoyo a la educación,258.258,229.34799999999998
+621111,Consultorios de medicina general del sector privado,6829.79,0.0
+621112,Consultorios de medicina general del sector público,53859.146,0.0
+621113,Consultorios de medicina especializada del sector privado,24038.545,0.0
+621114,Consultorios de medicina especializada del sector público,24527.25,0.0
+621211,Consultorios dentales del sector privado,20887.202,0.0
+621212,Consultorios dentales del sector público,4421.529,0.0
+621311,Consultorios de quiropráctica del sector privado,289.499,0.0
+621320,Consultorios de optometría,322.004,0.0
+621331,Consultorios de psicología del sector privado,459.19,0.0
+621341,"Consultorios del sector privado de audiología y de terapia ocupacional, física y del lenguaje",396.775,0.0
+621391,Consultorios de nutriólogos y dietistas del sector privado,542.561,0.0
+621398,Otros consultorios del sector privado para el cuidado de la salud,716.947,0.0
+621411,Centros de planificación familiar del sector privado,34.916,0.0
+621421,Centros del sector privado de atención médica externa para enfermos mentales y adictos,72.811,0.0
+621491,Otros centros del sector privado para la atención de pacientes que no requieren hospitalización,885.326,0.0
+621511,Laboratorios médicos y de diagnóstico del sector privado,12014.974,0.0
+621610,Servicios de enfermería a domicilio,274.293,0.0
+621910,Servicios de ambulancias,490.577,0.0
+621991,"Servicios de bancos de órganos, bancos de sangre y otros servicios auxiliares al tratamiento médico prestados por el sector privado",188.127,0.0
+621992,"Servicios de bancos de órganos, bancos de sangre y otros servicios auxiliares al tratamiento médico prestados por el sector público",81.906,0.0
+622111,Hospitales generales del sector privado,23568.528,0.0
+622112,Hospitales generales del sector público,119036.33200000001,0.0
+622211,Hospitales psiquiátricos y para el tratamiento por adicción del sector privado,142.965,0.0
+622311,Hospitales del sector privado de otras especialidades médicas,5962.126,0.0
+622312,Hospitales del sector público de otras especialidades médicas,42245.962,0.0
+623111,"Residencias del sector privado con cuidados de enfermeras para enfermos convalecientes, en rehabilitación, incurables y terminales",62.593,0.0
+623211,Residencias del sector privado para el cuidado de personas con problemas de retardo mental,56.95,0.0
+623212,Residencias del sector público para el cuidado de personas con problemas de retardo mental,604.073,0.0
+623221,Residencias del sector privado para el cuidado de personas con problemas de trastorno mental y adicción,34.747,0.0
+623311,Asilos y otras residencias del sector privado para el cuidado de ancianos,462.061,0.0
+623991,Orfanatos y otras residencias de asistencia social del sector privado,953.3,0.0
+624111,Servicios de orientación y trabajo social para la niñez y la juventud prestados por el sector privado,48.224,0.0
+624112,Servicios de orientación y trabajo social para la niñez y la juventud prestados por el sector público,3105.242,0.0
+624121,Centros del sector privado dedicados a la atención y cuidado diurno de ancianos y discapacitados,32.941,0.0
+624191,Agrupaciones de autoayuda para alcohólicos y personas con otras adicciones,412.148,0.0
+624198,Otros servicios de orientación y trabajo social prestados por el sector privado,443.111,0.0
+624199,Otros servicios de orientación y trabajo social prestados por el sector público,1711.797,0.0
+624211,Servicios de alimentación comunitarios prestados por el sector privado,205.44,0.0
+624221,Refugios temporales comunitarios del sector privado,83.698,0.0
+624231,Servicios de emergencia comunitarios prestados por el sector privado,20.722,0.0
+624311,"Servicios de capacitación para el trabajo prestados por el sector privado para personas desempleadas, subempleadas o discapacitadas",56.647,0.0
+624411,Guarderías del sector privado,4576.67,0.0
+624412,Guarderías del sector público,7675.197,0.0
+711111,Compañías de teatro del sector privado,111.803,0.0
+711121,Compañías de danza del sector privado,1.544,0.0
+711131,Cantantes y grupos musicales del sector privado,543.421,0.0
+711191,Otras compañías y grupos de espectáculos artísticos del sector privado,155.02700000000002,66.76400000000001
+711211,Deportistas profesionales,6.459,0.0
+711212,Equipos deportivos profesionales,2586.724,0.0
+711311,"Promotores del sector privado de espectáculos artísticos, culturales, deportivos y similares que cuentan con instalaciones para presentarlos",1109.709,0.0
+711312,"Promotores del sector público de espectáculos artísticos, culturales, deportivos y similares que cuentan con instalaciones para presentarlos",671.7460000000001,0.0
+711320,"Promotores de espectáculos artísticos, culturales, deportivos y similares que no cuentan con instalaciones para presentarlos",733.4239999999999,733.4239999999999
+711410,"Agentes y representantes de artistas, deportistas y similares",281.543,0.0
+711510,"Artistas, escritores y técnicos independientes",17248.960000000003,575.7019999999998
+712111,Museos del sector privado,559.32,0.0
+712120,Sitios históricos,4535.302,0.0
+712131,Jardines botánicos y zoológicos del sector privado,256.994,25.272
+713111,Parques de diversiones y temáticos del sector privado,2617.147,0.0
+713113,Parques acuáticos y balnearios del sector privado,467.599,0.0
+713120,Casas de juegos electrónicos,2825.461,0.0
+713291,"Venta de billetes de lotería, pronósticos deportivos y otros boletos de sorteo",17682.111,0.0
+713299,Otros juegos de azar,7523.368,0.0
+713910,Campos de golf,1965.561,0.0
+713930,Marinas turísticas,290.823,0.0
+713941,Clubes deportivos del sector privado,5794.636,0.0
+713943,Centros de acondicionamiento físico del sector privado,2475.607,0.0
+713944,Centros de acondicionamiento físico del sector público,561.87,0.0
+713950,Boliches,379.901,0.0
+713991,Billares,1307.459,0.0
+713992,Clubes o ligas de aficionados,196.297,0.0
+713998,Otros servicios recreativos prestados por el sector privado,1154.453,0.0
+721111,Hoteles con otros servicios integrados,138605.84900000005,34870.63500000003
+721112,Hoteles sin otros servicios integrados,17159.404000000002,3585.4210000000003
+721113,Moteles,14170.126,0.0
+721190,"Cabañas, villas y similares",1021.5260000000001,43.042
+721210,Campamentos y albergues recreativos,176.519,0.0
+721311,Pensiones y casas de huéspedes,536.089,0.0
+721312,Departamentos y casas amueblados con servicios de hotelería,109.362,0.0
+722110,Restaurantes con servicio completo,55014.11700000001,13691.398000000012
+722211,Restaurantes de autoservicio,22468.157,0.0
+722212,Restaurantes de comida para llevar,43265.592,0.0
+722219,Otros restaurantes con servicio limitado,55342.075,3150.8239999999996
+722310,Servicios de comedor para empresas e instituciones,7836.2429999999995,7836.2429999999995
+722320,Servicios de preparación de alimentos para ocasiones especiales,1495.374,37.605000000000004
+722330,Servicios de preparación de alimentos en unidades móviles,27417.009,0.0
+722411,"Centros nocturnos, discotecas y similares",4092.501,0.0
+722412,"Bares, cantinas y similares",10443.766,0.0
+811111,Reparación mecánica en general de automóviles y camiones,26659.36400000001,14147.962000000014
+811112,Reparación del sistema eléctrico de automóviles y camiones,5296.651999999998,2723.498999999999
+811113,Rectificación de partes de motor de automóviles y camiones,1115.164,209.56600000000003
+811114,Reparación de transmisiones de automóviles y camiones,1059.177,416.50299999999993
+811115,Reparación de suspensiones de automóviles y camiones,1561.5259999999998,545.9259999999997
+811116,Alineación y balanceo de automóviles y camiones,1963.2050000000002,195.01699999999997
+811119,Otras reparaciones mecánicas de automóviles y camiones,6697.961999999998,4882.494999999997
+811121,Hojalatería y pintura de automóviles y camiones,13158.435999999998,4601.61
+811122,Tapicería de automóviles y camiones,568.381,190.609
+811129,Instalación de cristales y otras reparaciones a la carrocería de automóviles y camiones,380.958,0.0
+811191,Reparación menor de llantas,5042.977999999999,1083.803999999999
+811192,Lavado y lubricado de automóviles y camiones,5523.221,1192.7509999999993
+811199,Otros servicios de reparación y mantenimiento de automóviles y camiones,3578.541,969.2189999999998
+811211,Reparación y mantenimiento de equipo electrónico de uso doméstico,2654.6229999999996,1033.6309999999999
+811219,Reparación y mantenimiento de otro equipo electrónico y de equipo de precisión,4279.597999999998,3885.3969999999986
+811311,Reparación y mantenimiento de maquinaria y equipo agropecuario y forestal,295.1190000000001,295.1190000000001
+811312,Reparación y mantenimiento de maquinaria y equipo industrial,14343.635,14343.635
+811313,"Reparación y mantenimiento de maquinaria y equipo para mover, levantar y acomodar materiales",1363.0009999999997,1363.0009999999997
+811314,Reparación y mantenimiento de maquinaria y equipo comercial y de servicios,1651.8589999999997,1651.8589999999997
+811410,Reparación y mantenimiento de aparatos eléctricos para el hogar y personales,4091.8260000000005,1161.1040000000003
+811420,Reparación de tapicería de muebles para el hogar,1965.7799999999997,775.3149999999999
+811430,Reparación de calzado y otros artículos de piel y cuero,870.616,0.0
+811491,Cerrajerías,1584.5359999999998,990.4309999999998
+811492,Reparación y mantenimiento de motocicletas,634.396,311.4259999999999
+811493,Reparación y mantenimiento de bicicletas,689.67,40.16
+811499,Reparación y mantenimiento de otros artículos para el hogar y personales,3657.848,138.374
+812110,Salones y clínicas de belleza y peluquerías,14175.016,0.0
+812120,Baños públicos,354.371,0.0
+812130,Sanitarios públicos y bolerías,1172.581,0.0
+812210,Lavanderías y tintorerías,8920.608,3476.074000000001
+812310,Servicios funerarios,2724.29,0.0
+812320,Administración de cementerios,3961.018,0.0
+812410,Estacionamientos y pensiones para vehículos automotores,40314.305,4070.705
+812910,Servicios de revelado e impresión de fotografías,1406.112,3.508
+812990,Otros servicios personales,58384.099,0.0
+813110,"Asociaciones, organizaciones y cámaras de productores, comerciantes y prestadores de servicios",6941.492999999992,6941.492999999992
+813120,Asociaciones y organizaciones laborales y sindicales,3775.74,0.0
+813130,Asociaciones y organizaciones de profesionistas,1811.2100000000005,1253.3010000000004
+813140,Asociaciones regulatorias de actividades recreativas,411.516,411.516
+813210,Asociaciones y organizaciones religiosas,25775.632,0.0
+813220,Asociaciones y organizaciones políticas,4454.473,0.0
+813230,Asociaciones y organizaciones civiles,3353.268,0.0
+814110,Hogares con empleados domésticos,57703.061,0.0
+931110,Órganos legislativos,50351.914,0.0
+931210,Administración pública en general,154855.206,0.0
+931310,Regulación y fomento del desarrollo económico,62237.995,254.04399999999998
+931410,Impartición de justicia y mantenimiento de la seguridad y el orden público,138076.129,0.0
+931510,Regulación y fomento de actividades para mejorar y preservar el medio ambiente,6893.888,0.0
+931610,Actividades administrativas de instituciones de bienestar social,200015.722,0.0
+931710,Relaciones exteriores,4841.278,0.0
+931810,Actividades de seguridad nacional,40342.407,0.0
+932110,Organismos internacionales,533.306,0.0

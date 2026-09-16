@@ -1,0 +1,21 @@
+mineral,anio_dato,empresa_lider,volumen_lider_t,total_nacional_inegi_t,participacion_lider_pct,estructura,fuente_numerador,nota
+Barita,2020,Baramin,,,,oligopolio,Informe CAMIMEX 2021,Pendiente numerador Baramin 2020 (informe 2021)
+Barita,2021,Baramin,264000,1007118,,oligopolio-lider-decreciente,Informe CAMIMEX 2022 p76,"OJO: denominador barita, no fluorita; total barita INEGI 2021 a confirmar (CAMIMEX da 320k rev). Baramin 264k"
+Barita,2022,Baramin,152000,,49.8,oligopolio-lider-decreciente,Informe CAMIMEX 2023 p74,Baramin 152k de 305k nacional (CAMIMEX)
+Barita,2023,Baramin,109953,,37.1,oligopolio-lider-decreciente,Informe CAMIMEX 2024 p87,Baramin 109953 de 295989 nacional
+Barita,2024,Baramin,59980,244269,24.6,oligopolio-lider-decreciente,Informe CAMIMEX 2025 p72,Baramin 59980 de 244269; agotamiento mina Grecia
+Fluorita,2020,Koura,,914597,,monopolio-de-facto,INEGI + CAMIMEX,Koura unica extractora de Las Cuevas; ~95-100pct
+Fluorita,2021,Koura,1100000,1007118,100,monopolio-de-facto,Informe CAMIMEX 2022 p79,"Koura ~1.1Mt aprox = total INEGI 1.007Mt -> ~100pct (monopolio)"
+Fluorita,2022,Koura,,1000626,100,monopolio-de-facto,Informe CAMIMEX 2023 p91,"Koura unica empresa que extrae el crudo de la mina mas grande del mundo"
+Fluorita,2023,Koura,,1162591,100,monopolio-de-facto,Informe CAMIMEX 2024 p91,Koura reservas 66.2 Mt; produccion +
+Fluorita,2024,Koura,,1505071,100,monopolio-de-facto,Informe CAMIMEX 2025 p74,Koura principal; reservas 108.25 Mt
+Silice,2020,Grupo Materias Primas (Covia),2320000,2514378,92.3,concentrado,Informe CAMIMEX 2021,GMP 2.32Mt de 2.514Mt = 92.3pct
+Silice,2021,Grupo Materias Primas (Covia),2630000,2664642,98.7,concentrado,Informe CAMIMEX 2022 p75,GMP 2.63Mt de 2.665Mt = 98.7pct
+Silice,2022,Grupo Materias Primas (Covia),3000000,4038190,74.3,concentrado,Informe CAMIMEX 2023 p75,GMP 3.0Mt (+14pct vs 2021) de 4.038Mt = 74.3pct
+Silice,2023,Grupo Materias Primas (Covia),3002000,3675666,81.7,concentrado,Informe CAMIMEX 2024 p87,GMP 3.002Mt de 3.6757Mt = 81.7pct
+Silice,2024,Grupo Materias Primas (Covia),,3051507,,concentrado,Informe CAMIMEX 2025,Numerador GMP 2024 no reportado explicitamente en informe 2025; total INEGI 3.05Mt
+Grafito,2020,ninguno,,,,atomizado,CAMIMEX no desglosa,Caso de contraste; HHI bajo por Anuario SGM (num. productores)
+Grafito,2021,ninguno,,,,atomizado,CAMIMEX no desglosa,Caso de contraste
+Grafito,2022,ninguno,,,,atomizado,CAMIMEX no desglosa,Caso de contraste
+Grafito,2023,ninguno,,,,atomizado,CAMIMEX no desglosa,Caso de contraste
+Grafito,2024,ninguno,,,,atomizado,CAMIMEX no desglosa,Caso de contraste

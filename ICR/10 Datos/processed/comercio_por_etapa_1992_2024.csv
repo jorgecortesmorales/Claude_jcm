@@ -1,0 +1,1900 @@
+anio,mineral,etapa,flujo,valor_usd
+1992,barita,E1 Crudo/molido,M,1032000.0
+1992,barita,E1 Crudo/molido,X,1244000.0
+1992,barita,E2 Quimicos de bario,M,360000.0
+1992,barita,E2 Quimicos de bario,X,1571000.0
+1992,cobre,E1 Mena/concentrado,M,27437000.0
+1992,cobre,E1 Mena/concentrado,X,31605000.0
+1992,cobre,E2 Metal en bruto/refinado,M,100243000.0
+1992,cobre,E2 Metal en bruto/refinado,X,287704992.0
+1992,cobre,E3 Semimanufacturas,M,184950000.0
+1992,cobre,E3 Semimanufacturas,X,127642000.0
+1992,cobre,E4 Manufacturas,M,96622000.0
+1992,cobre,E4 Manufacturas,X,23568000.0
+1992,fluorita,E1 Espato fluor (crudo),M,4243000.0
+1992,fluorita,E1 Espato fluor (crudo),X,13929000.0
+1992,fluorita,E2 Fluoroquimica,M,3968000.0
+1992,fluorita,E2 Fluoroquimica,X,86072000.0
+1992,grafito,E1 Grafito natural,M,2584000.0
+1992,grafito,E1 Grafito natural,X,3073000.0
+1992,grafito,E2 Grafito artificial/prep.,M,8204000.0
+1992,grafito,E2 Grafito artificial/prep.,X,12300000.0
+1992,grafito,E3 Electrodos/articulos de carbono,M,20386000.0
+1992,grafito,E3 Electrodos/articulos de carbono,X,15432000.0
+1992,manganeso,E1 Mena/concentrado,M,12647000.0
+1992,manganeso,E1 Mena/concentrado,X,6044000.0
+1992,manganeso,E2 Ferroaleaciones,M,9295000.0
+1992,manganeso,E2 Ferroaleaciones,X,36349000.0
+1992,manganeso,E3 Quimicos/metal,M,5433000.0
+1992,manganeso,E3 Quimicos/metal,X,660000.0
+1992,oro,E1 Mena/concentrado,M,1000.0
+1992,oro,E1 Mena/concentrado,X,71000.0
+1992,oro,E2 Bruto/semilabrado,M,9767000.0
+1992,oro,E2 Bruto/semilabrado,X,41453000.0
+1992,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,41595000.0
+1992,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,43815000.0
+1992,plata,E1 Mena/concentrado,M,5000.0
+1992,plata,E1 Mena/concentrado,X,102000.0
+1992,plata,E2 Bruto/semilabrado,M,2758000.0
+1992,plata,E2 Bruto/semilabrado,X,206748992.0
+1992,plomo,E1 Mena/concentrado,M,42822000.0
+1992,plomo,E1 Mena/concentrado,X,1580000.0
+1992,plomo,E2 Metal en bruto/refinado,M,60000.0
+1992,plomo,E2 Metal en bruto/refinado,X,55386000.0
+1992,plomo,E3 Semimanufacturas,M,222000.0
+1992,plomo,E3 Semimanufacturas,X,103000.0
+1992,plomo,E4 Manufacturas,M,2356000.0
+1992,plomo,E4 Manufacturas,X,780000.0
+1992,silice,E1 Arena silica/cuarzo,M,10362000.0
+1992,silice,E1 Arena silica/cuarzo,X,624000.0
+1992,silice,E2 Silicio/ferrosilicio/SiO2,M,26608000.0
+1992,silice,E2 Silicio/ferrosilicio/SiO2,X,246000.0
+1992,zinc,E1 Mena/concentrado,M,3000.0
+1992,zinc,E1 Mena/concentrado,X,81135000.0
+1992,zinc,E2 Metal en bruto/refinado,M,1447000.0
+1992,zinc,E2 Metal en bruto/refinado,X,48501000.0
+1992,zinc,E3 Semimanufacturas,M,9686000.0
+1992,zinc,E3 Semimanufacturas,X,8018000.0
+1992,zinc,E4 Manufacturas,M,10481000.0
+1992,zinc,E4 Manufacturas,X,3917000.0
+1993,barita,E1 Crudo/molido,M,3986000.0
+1993,barita,E1 Crudo/molido,X,4213000.0
+1993,barita,E2 Quimicos de bario,M,465000.0
+1993,barita,E2 Quimicos de bario,X,1696000.0
+1993,cobre,E1 Mena/concentrado,M,33123000.0
+1993,cobre,E1 Mena/concentrado,X,61000.0
+1993,cobre,E2 Metal en bruto/refinado,M,93003000.0
+1993,cobre,E2 Metal en bruto/refinado,X,360329984.0
+1993,cobre,E3 Semimanufacturas,M,191840000.0
+1993,cobre,E3 Semimanufacturas,X,133665000.0
+1993,cobre,E4 Manufacturas,M,119411000.0
+1993,cobre,E4 Manufacturas,X,28018000.0
+1993,fluorita,E1 Espato fluor (crudo),M,3722000.0
+1993,fluorita,E1 Espato fluor (crudo),X,9385000.0
+1993,fluorita,E2 Fluoroquimica,M,4084000.0
+1993,fluorita,E2 Fluoroquimica,X,79869000.0
+1993,grafito,E1 Grafito natural,M,1678000.0
+1993,grafito,E1 Grafito natural,X,1995000.0
+1993,grafito,E2 Grafito artificial/prep.,M,5955000.0
+1993,grafito,E2 Grafito artificial/prep.,X,18272000.0
+1993,grafito,E3 Electrodos/articulos de carbono,M,18168000.0
+1993,grafito,E3 Electrodos/articulos de carbono,X,13266000.0
+1993,manganeso,E1 Mena/concentrado,M,6155000.0
+1993,manganeso,E1 Mena/concentrado,X,8842000.0
+1993,manganeso,E2 Ferroaleaciones,M,7688000.0
+1993,manganeso,E2 Ferroaleaciones,X,35494000.0
+1993,manganeso,E3 Quimicos/metal,M,5408000.0
+1993,manganeso,E3 Quimicos/metal,X,570000.0
+1993,oro,E1 Mena/concentrado,X,75000.0
+1993,oro,E2 Bruto/semilabrado,M,84320000.0
+1993,oro,E2 Bruto/semilabrado,X,52621000.0
+1993,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,54601000.0
+1993,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,50323000.0
+1993,plata,E1 Mena/concentrado,X,1231000.0
+1993,plata,E2 Bruto/semilabrado,M,2198000.0
+1993,plata,E2 Bruto/semilabrado,X,186176000.0
+1993,plomo,E1 Mena/concentrado,M,15435000.0
+1993,plomo,E1 Mena/concentrado,X,293000.0
+1993,plomo,E2 Metal en bruto/refinado,M,22000.0
+1993,plomo,E2 Metal en bruto/refinado,X,42323000.0
+1993,plomo,E3 Semimanufacturas,M,317000.0
+1993,plomo,E3 Semimanufacturas,X,28000.0
+1993,plomo,E4 Manufacturas,M,2954000.0
+1993,plomo,E4 Manufacturas,X,870000.0
+1993,silice,E1 Arena silica/cuarzo,M,7201000.0
+1993,silice,E1 Arena silica/cuarzo,X,957000.0
+1993,silice,E2 Silicio/ferrosilicio/SiO2,M,29005000.0
+1993,silice,E2 Silicio/ferrosilicio/SiO2,X,478000.0
+1993,zinc,E1 Mena/concentrado,M,2000.0
+1993,zinc,E1 Mena/concentrado,X,58381000.0
+1993,zinc,E2 Metal en bruto/refinado,M,2502000.0
+1993,zinc,E2 Metal en bruto/refinado,X,84903000.0
+1993,zinc,E3 Semimanufacturas,M,9500000.0
+1993,zinc,E3 Semimanufacturas,X,37221000.0
+1993,zinc,E4 Manufacturas,M,6629000.0
+1993,zinc,E4 Manufacturas,X,2566000.0
+1994,barita,E1 Crudo/molido,M,2336000.0
+1994,barita,E1 Crudo/molido,X,4690693.0
+1994,barita,E2 Quimicos de bario,M,880000.0
+1994,barita,E2 Quimicos de bario,X,3183808.0
+1994,cobre,E1 Mena/concentrado,M,31391000.0
+1994,cobre,E1 Mena/concentrado,X,4748557.0
+1994,cobre,E2 Metal en bruto/refinado,M,98262000.0
+1994,cobre,E2 Metal en bruto/refinado,X,370218347.0
+1994,cobre,E3 Semimanufacturas,M,244636000.0
+1994,cobre,E3 Semimanufacturas,X,113204367.0
+1994,cobre,E4 Manufacturas,M,166713000.0
+1994,cobre,E4 Manufacturas,X,36252007.0
+1994,fluorita,E1 Espato fluor (crudo),M,2995000.0
+1994,fluorita,E1 Espato fluor (crudo),X,15135902.0
+1994,fluorita,E2 Fluoroquimica,M,4952000.0
+1994,fluorita,E2 Fluoroquimica,X,81006939.0
+1994,grafito,E1 Grafito natural,M,2180000.0
+1994,grafito,E1 Grafito natural,X,2376785.0
+1994,grafito,E2 Grafito artificial/prep.,M,7535000.0
+1994,grafito,E2 Grafito artificial/prep.,X,16102270.0
+1994,grafito,E3 Electrodos/articulos de carbono,M,22494000.0
+1994,grafito,E3 Electrodos/articulos de carbono,X,19876626.0
+1994,manganeso,E1 Mena/concentrado,M,5279000.0
+1994,manganeso,E1 Mena/concentrado,X,3910169.0
+1994,manganeso,E2 Ferroaleaciones,M,15133000.0
+1994,manganeso,E2 Ferroaleaciones,X,32026827.0
+1994,manganeso,E3 Quimicos/metal,M,5902000.0
+1994,manganeso,E3 Quimicos/metal,X,1691298.0
+1994,oro,E1 Mena/concentrado,X,13441.0
+1994,oro,E2 Bruto/semilabrado,M,134356992.0
+1994,oro,E2 Bruto/semilabrado,X,78879608.0
+1994,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,83091000.0
+1994,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,71155206.0
+1994,plata,E1 Mena/concentrado,X,23815.0
+1994,plata,E2 Bruto/semilabrado,M,3751000.0
+1994,plata,E2 Bruto/semilabrado,X,214312352.0
+1994,plomo,E1 Mena/concentrado,M,12683000.0
+1994,plomo,E2 Metal en bruto/refinado,M,770000.0
+1994,plomo,E2 Metal en bruto/refinado,X,32658840.0
+1994,plomo,E3 Semimanufacturas,M,397000.0
+1994,plomo,E3 Semimanufacturas,X,37806.0
+1994,plomo,E4 Manufacturas,M,2577000.0
+1994,plomo,E4 Manufacturas,X,1403275.0
+1994,silice,E1 Arena silica/cuarzo,M,9667000.0
+1994,silice,E1 Arena silica/cuarzo,X,382913.0
+1994,silice,E2 Silicio/ferrosilicio/SiO2,M,38436000.0
+1994,silice,E2 Silicio/ferrosilicio/SiO2,X,1023489.0
+1994,zinc,E1 Mena/concentrado,M,1000.0
+1994,zinc,E1 Mena/concentrado,X,70061440.0
+1994,zinc,E2 Metal en bruto/refinado,M,895000.0
+1994,zinc,E2 Metal en bruto/refinado,X,75922032.0
+1994,zinc,E3 Semimanufacturas,M,10767000.0
+1994,zinc,E3 Semimanufacturas,X,37376920.0
+1994,zinc,E4 Manufacturas,M,7732000.0
+1994,zinc,E4 Manufacturas,X,2722911.0
+1995,barita,E1 Crudo/molido,M,863000.0
+1995,barita,E1 Crudo/molido,X,6854000.0
+1995,barita,E2 Quimicos de bario,M,565000.0
+1995,barita,E2 Quimicos de bario,X,4728000.0
+1995,cobre,E1 Mena/concentrado,M,18094000.0
+1995,cobre,E1 Mena/concentrado,X,20182000.0
+1995,cobre,E2 Metal en bruto/refinado,M,59671000.0
+1995,cobre,E2 Metal en bruto/refinado,X,581942992.0
+1995,cobre,E3 Semimanufacturas,M,246944000.0
+1995,cobre,E3 Semimanufacturas,X,207421000.0
+1995,cobre,E4 Manufacturas,M,237946008.0
+1995,cobre,E4 Manufacturas,X,23368000.0
+1995,fluorita,E1 Espato fluor (crudo),M,3838000.0
+1995,fluorita,E1 Espato fluor (crudo),X,23708000.0
+1995,fluorita,E2 Fluoroquimica,M,5539000.0
+1995,fluorita,E2 Fluoroquimica,X,89756000.0
+1995,grafito,E1 Grafito natural,M,3211000.0
+1995,grafito,E1 Grafito natural,X,2264000.0
+1995,grafito,E2 Grafito artificial/prep.,M,8667000.0
+1995,grafito,E2 Grafito artificial/prep.,X,17075000.0
+1995,grafito,E3 Electrodos/articulos de carbono,M,27600000.0
+1995,grafito,E3 Electrodos/articulos de carbono,X,23514000.0
+1995,manganeso,E1 Mena/concentrado,M,9469000.0
+1995,manganeso,E1 Mena/concentrado,X,9596000.0
+1995,manganeso,E2 Ferroaleaciones,M,13290000.0
+1995,manganeso,E2 Ferroaleaciones,X,31864000.0
+1995,manganeso,E3 Quimicos/metal,M,7672000.0
+1995,manganeso,E3 Quimicos/metal,X,1771000.0
+1995,oro,E1 Mena/concentrado,M,1713000.0
+1995,oro,E1 Mena/concentrado,X,13000.0
+1995,oro,E2 Bruto/semilabrado,M,51335000.0
+1995,oro,E2 Bruto/semilabrado,X,138916000.0
+1995,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,63467000.0
+1995,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,101540000.0
+1995,plata,E1 Mena/concentrado,M,1000.0
+1995,plata,E1 Mena/concentrado,X,6883000.0
+1995,plata,E2 Bruto/semilabrado,M,6594000.0
+1995,plata,E2 Bruto/semilabrado,X,300763008.0
+1995,plomo,E1 Mena/concentrado,M,13816000.0
+1995,plomo,E1 Mena/concentrado,X,14708000.0
+1995,plomo,E2 Metal en bruto/refinado,M,954000.0
+1995,plomo,E2 Metal en bruto/refinado,X,68577000.0
+1995,plomo,E3 Semimanufacturas,M,1389000.0
+1995,plomo,E3 Semimanufacturas,X,79000.0
+1995,plomo,E4 Manufacturas,M,3957000.0
+1995,plomo,E4 Manufacturas,X,1493000.0
+1995,silice,E1 Arena silica/cuarzo,M,10993000.0
+1995,silice,E1 Arena silica/cuarzo,X,266000.0
+1995,silice,E2 Silicio/ferrosilicio/SiO2,M,35506000.0
+1995,silice,E2 Silicio/ferrosilicio/SiO2,X,682000.0
+1995,zinc,E1 Mena/concentrado,M,7000.0
+1995,zinc,E1 Mena/concentrado,X,69328000.0
+1995,zinc,E2 Metal en bruto/refinado,M,364000.0
+1995,zinc,E2 Metal en bruto/refinado,X,101060000.0
+1995,zinc,E3 Semimanufacturas,M,11066000.0
+1995,zinc,E3 Semimanufacturas,X,44670000.0
+1995,zinc,E4 Manufacturas,M,9973000.0
+1995,zinc,E4 Manufacturas,X,1442000.0
+1996,barita,E1 Crudo/molido,M,1186200.0
+1996,barita,E1 Crudo/molido,X,7762014.0
+1996,barita,E2 Quimicos de bario,M,966392.0
+1996,barita,E2 Quimicos de bario,X,5337880.0
+1996,cobre,E1 Mena/concentrado,M,9210064.0
+1996,cobre,E1 Mena/concentrado,X,15994984.0
+1996,cobre,E2 Metal en bruto/refinado,M,124146544.0
+1996,cobre,E2 Metal en bruto/refinado,X,394431403.0
+1996,cobre,E3 Semimanufacturas,M,314257791.0
+1996,cobre,E3 Semimanufacturas,X,201636897.0
+1996,cobre,E4 Manufacturas,M,385171708.0
+1996,cobre,E4 Manufacturas,X,37774017.0
+1996,fluorita,E1 Espato fluor (crudo),M,11029607.0
+1996,fluorita,E1 Espato fluor (crudo),X,20073116.0
+1996,fluorita,E2 Fluoroquimica,M,7674898.0
+1996,fluorita,E2 Fluoroquimica,X,117694927.0
+1996,grafito,E1 Grafito natural,M,3979502.0
+1996,grafito,E1 Grafito natural,X,2075280.0
+1996,grafito,E2 Grafito artificial/prep.,M,14616611.0
+1996,grafito,E2 Grafito artificial/prep.,X,23634820.0
+1996,grafito,E3 Electrodos/articulos de carbono,M,34134892.0
+1996,grafito,E3 Electrodos/articulos de carbono,X,30584128.0
+1996,manganeso,E1 Mena/concentrado,M,9034818.0
+1996,manganeso,E1 Mena/concentrado,X,4363511.0
+1996,manganeso,E2 Ferroaleaciones,M,23168942.0
+1996,manganeso,E2 Ferroaleaciones,X,38492953.0
+1996,manganeso,E3 Quimicos/metal,M,9114074.0
+1996,manganeso,E3 Quimicos/metal,X,3379504.0
+1996,oro,E1 Mena/concentrado,M,3633791.0
+1996,oro,E1 Mena/concentrado,X,8439.0
+1996,oro,E2 Bruto/semilabrado,M,71577960.0
+1996,oro,E2 Bruto/semilabrado,X,234996432.0
+1996,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,67785305.0
+1996,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,162060646.0
+1996,plata,E1 Mena/concentrado,M,939.0
+1996,plata,E1 Mena/concentrado,X,17565200.0
+1996,plata,E2 Bruto/semilabrado,M,7820642.0
+1996,plata,E2 Bruto/semilabrado,X,327489376.0
+1996,plomo,E1 Mena/concentrado,M,26420036.0
+1996,plomo,E1 Mena/concentrado,X,14091348.0
+1996,plomo,E2 Metal en bruto/refinado,M,32644092.0
+1996,plomo,E2 Metal en bruto/refinado,X,63825756.0
+1996,plomo,E3 Semimanufacturas,M,2941619.0
+1996,plomo,E3 Semimanufacturas,X,2851419.0
+1996,plomo,E4 Manufacturas,M,11137910.0
+1996,plomo,E4 Manufacturas,X,1098677.0
+1996,silice,E1 Arena silica/cuarzo,M,16402577.0
+1996,silice,E1 Arena silica/cuarzo,X,241041.0
+1996,silice,E2 Silicio/ferrosilicio/SiO2,M,56073015.0
+1996,silice,E2 Silicio/ferrosilicio/SiO2,X,787171.0
+1996,zinc,E1 Mena/concentrado,M,9004.0
+1996,zinc,E1 Mena/concentrado,X,57037052.0
+1996,zinc,E2 Metal en bruto/refinado,M,1308278.0
+1996,zinc,E2 Metal en bruto/refinado,X,80596768.0
+1996,zinc,E3 Semimanufacturas,M,11729789.0
+1996,zinc,E3 Semimanufacturas,X,40043533.0
+1996,zinc,E4 Manufacturas,M,11911154.0
+1996,zinc,E4 Manufacturas,X,978334.0
+1997,barita,E1 Crudo/molido,M,7740104.0
+1997,barita,E1 Crudo/molido,X,4439673.0
+1997,barita,E2 Quimicos de bario,M,1329093.0
+1997,barita,E2 Quimicos de bario,X,8189142.0
+1997,cobre,E1 Mena/concentrado,M,71556216.0
+1997,cobre,E1 Mena/concentrado,X,18588480.0
+1997,cobre,E2 Metal en bruto/refinado,M,192268946.0
+1997,cobre,E2 Metal en bruto/refinado,X,508233791.0
+1997,cobre,E3 Semimanufacturas,M,358012914.0
+1997,cobre,E3 Semimanufacturas,X,144051405.0
+1997,cobre,E4 Manufacturas,M,394298853.0
+1997,cobre,E4 Manufacturas,X,72261513.0
+1997,fluorita,E1 Espato fluor (crudo),M,862890.0
+1997,fluorita,E1 Espato fluor (crudo),X,23322192.0
+1997,fluorita,E2 Fluoroquimica,M,6522555.0
+1997,fluorita,E2 Fluoroquimica,X,115420620.0
+1997,grafito,E1 Grafito natural,M,6252207.0
+1997,grafito,E1 Grafito natural,X,2299340.0
+1997,grafito,E2 Grafito artificial/prep.,M,11461433.0
+1997,grafito,E2 Grafito artificial/prep.,X,17296612.0
+1997,grafito,E3 Electrodos/articulos de carbono,M,77598640.0
+1997,grafito,E3 Electrodos/articulos de carbono,X,53374328.0
+1997,manganeso,E1 Mena/concentrado,M,15531310.0
+1997,manganeso,E1 Mena/concentrado,X,6756622.0
+1997,manganeso,E2 Ferroaleaciones,M,19478960.0
+1997,manganeso,E2 Ferroaleaciones,X,50073152.0
+1997,manganeso,E3 Quimicos/metal,M,11544204.0
+1997,manganeso,E3 Quimicos/metal,X,4913882.0
+1997,oro,E1 Mena/concentrado,M,89.0
+1997,oro,E1 Mena/concentrado,X,2865503.0
+1997,oro,E2 Bruto/semilabrado,M,132854040.0
+1997,oro,E2 Bruto/semilabrado,X,132110312.0
+1997,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,88313319.0
+1997,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,262748067.0
+1997,plata,E1 Mena/concentrado,M,4747.0
+1997,plata,E1 Mena/concentrado,X,232354.0
+1997,plata,E2 Bruto/semilabrado,M,4766381.0
+1997,plata,E2 Bruto/semilabrado,X,322043040.0
+1997,plomo,E1 Mena/concentrado,M,14987782.0
+1997,plomo,E1 Mena/concentrado,X,8020893.0
+1997,plomo,E2 Metal en bruto/refinado,M,45291044.0
+1997,plomo,E2 Metal en bruto/refinado,X,64738484.0
+1997,plomo,E3 Semimanufacturas,M,4498247.0
+1997,plomo,E3 Semimanufacturas,X,5500.0
+1997,plomo,E4 Manufacturas,M,4302514.0
+1997,plomo,E4 Manufacturas,X,1324887.0
+1997,silice,E1 Arena silica/cuarzo,M,30041982.0
+1997,silice,E1 Arena silica/cuarzo,X,271128.0
+1997,silice,E2 Silicio/ferrosilicio/SiO2,M,58669643.0
+1997,silice,E2 Silicio/ferrosilicio/SiO2,X,2184585.0
+1997,zinc,E1 Mena/concentrado,M,103704.0
+1997,zinc,E1 Mena/concentrado,X,80546680.0
+1997,zinc,E2 Metal en bruto/refinado,M,16338950.0
+1997,zinc,E2 Metal en bruto/refinado,X,96024088.0
+1997,zinc,E3 Semimanufacturas,M,13597789.0
+1997,zinc,E3 Semimanufacturas,X,52258335.0
+1997,zinc,E4 Manufacturas,M,28619460.0
+1997,zinc,E4 Manufacturas,X,2913503.0
+1998,barita,E1 Crudo/molido,M,2487643.0
+1998,barita,E1 Crudo/molido,X,1469473.0
+1998,barita,E2 Quimicos de bario,M,1068855.0
+1998,barita,E2 Quimicos de bario,X,7457958.0
+1998,cobre,E1 Mena/concentrado,M,47495780.0
+1998,cobre,E1 Mena/concentrado,X,25456432.0
+1998,cobre,E2 Metal en bruto/refinado,M,322311150.0
+1998,cobre,E2 Metal en bruto/refinado,X,474989593.0
+1998,cobre,E3 Semimanufacturas,M,407576832.0
+1998,cobre,E3 Semimanufacturas,X,184281113.0
+1998,cobre,E4 Manufacturas,M,446216625.0
+1998,cobre,E4 Manufacturas,X,33740049.0
+1998,fluorita,E1 Espato fluor (crudo),M,3799935.0
+1998,fluorita,E1 Espato fluor (crudo),X,25967668.0
+1998,fluorita,E2 Fluoroquimica,M,6059626.0
+1998,fluorita,E2 Fluoroquimica,X,103997082.0
+1998,grafito,E1 Grafito natural,M,2787792.0
+1998,grafito,E1 Grafito natural,X,2571031.0
+1998,grafito,E2 Grafito artificial/prep.,M,9467145.0
+1998,grafito,E2 Grafito artificial/prep.,X,12524260.0
+1998,grafito,E3 Electrodos/articulos de carbono,M,81837880.0
+1998,grafito,E3 Electrodos/articulos de carbono,X,47022712.0
+1998,manganeso,E1 Mena/concentrado,M,8119599.0
+1998,manganeso,E1 Mena/concentrado,X,5560749.0
+1998,manganeso,E2 Ferroaleaciones,M,22549556.0
+1998,manganeso,E2 Ferroaleaciones,X,45119422.0
+1998,manganeso,E3 Quimicos/metal,M,11487277.0
+1998,manganeso,E3 Quimicos/metal,X,1281013.0
+1998,oro,E1 Mena/concentrado,M,1766045.0
+1998,oro,E1 Mena/concentrado,X,5512786.0
+1998,oro,E2 Bruto/semilabrado,M,262973040.0
+1998,oro,E2 Bruto/semilabrado,X,110741496.0
+1998,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,265527958.0
+1998,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,316111215.0
+1998,plata,E1 Mena/concentrado,M,1243470.0
+1998,plata,E1 Mena/concentrado,X,115848.0
+1998,plata,E2 Bruto/semilabrado,M,6618087.0
+1998,plata,E2 Bruto/semilabrado,X,425559200.0
+1998,plomo,E1 Mena/concentrado,M,30821808.0
+1998,plomo,E1 Mena/concentrado,X,4415557.0
+1998,plomo,E2 Metal en bruto/refinado,M,53648224.0
+1998,plomo,E2 Metal en bruto/refinado,X,38417544.0
+1998,plomo,E3 Semimanufacturas,M,4102224.0
+1998,plomo,E3 Semimanufacturas,X,4183.0
+1998,plomo,E4 Manufacturas,M,4361741.0
+1998,plomo,E4 Manufacturas,X,1828299.0
+1998,silice,E1 Arena silica/cuarzo,M,25813379.0
+1998,silice,E1 Arena silica/cuarzo,X,282720.0
+1998,silice,E2 Silicio/ferrosilicio/SiO2,M,50783444.0
+1998,silice,E2 Silicio/ferrosilicio/SiO2,X,3758113.0
+1998,zinc,E1 Mena/concentrado,M,158743.0
+1998,zinc,E1 Mena/concentrado,X,71915376.0
+1998,zinc,E2 Metal en bruto/refinado,M,27000012.0
+1998,zinc,E2 Metal en bruto/refinado,X,74655632.0
+1998,zinc,E3 Semimanufacturas,M,14072870.0
+1998,zinc,E3 Semimanufacturas,X,35625231.0
+1998,zinc,E4 Manufacturas,M,35608304.0
+1998,zinc,E4 Manufacturas,X,2121948.0
+1999,barita,E1 Crudo/molido,M,1072172.0
+1999,barita,E1 Crudo/molido,X,1030666.0
+1999,barita,E2 Quimicos de bario,M,1341212.0
+1999,barita,E2 Quimicos de bario,X,7066859.0
+1999,cobre,E1 Mena/concentrado,M,61506632.0
+1999,cobre,E1 Mena/concentrado,X,24479468.0
+1999,cobre,E2 Metal en bruto/refinado,M,313297570.0
+1999,cobre,E2 Metal en bruto/refinado,X,259030925.0
+1999,cobre,E3 Semimanufacturas,M,425286085.0
+1999,cobre,E3 Semimanufacturas,X,266371165.0
+1999,cobre,E4 Manufacturas,M,568074113.0
+1999,cobre,E4 Manufacturas,X,38697639.0
+1999,fluorita,E1 Espato fluor (crudo),M,6037645.0
+1999,fluorita,E1 Espato fluor (crudo),X,26503055.0
+1999,fluorita,E2 Fluoroquimica,M,7356569.0
+1999,fluorita,E2 Fluoroquimica,X,104828952.0
+1999,grafito,E1 Grafito natural,M,3283814.0
+1999,grafito,E1 Grafito natural,X,2027221.0
+1999,grafito,E2 Grafito artificial/prep.,M,11001472.0
+1999,grafito,E2 Grafito artificial/prep.,X,10503553.0
+1999,grafito,E3 Electrodos/articulos de carbono,M,86166304.0
+1999,grafito,E3 Electrodos/articulos de carbono,X,53012948.0
+1999,manganeso,E1 Mena/concentrado,M,7393816.0
+1999,manganeso,E1 Mena/concentrado,X,4223878.0
+1999,manganeso,E2 Ferroaleaciones,M,12324046.0
+1999,manganeso,E2 Ferroaleaciones,X,40979925.0
+1999,manganeso,E3 Quimicos/metal,M,6299990.0
+1999,manganeso,E3 Quimicos/metal,X,1447625.0
+1999,oro,E1 Mena/concentrado,M,9859581.0
+1999,oro,E1 Mena/concentrado,X,11399621.0
+1999,oro,E2 Bruto/semilabrado,M,393583712.0
+1999,oro,E2 Bruto/semilabrado,X,91457360.0
+1999,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,262082999.0
+1999,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,364566621.0
+1999,plata,E1 Mena/concentrado,M,26612968.0
+1999,plata,E1 Mena/concentrado,X,69904.0
+1999,plata,E2 Bruto/semilabrado,M,9217919.0
+1999,plata,E2 Bruto/semilabrado,X,398687552.0
+1999,plomo,E1 Mena/concentrado,M,24015528.0
+1999,plomo,E1 Mena/concentrado,X,19056014.0
+1999,plomo,E2 Metal en bruto/refinado,M,109415248.0
+1999,plomo,E2 Metal en bruto/refinado,X,14698477.0
+1999,plomo,E3 Semimanufacturas,M,5052306.0
+1999,plomo,E3 Semimanufacturas,X,2765085.0
+1999,plomo,E4 Manufacturas,M,3007372.0
+1999,plomo,E4 Manufacturas,X,1465745.0
+1999,silice,E1 Arena silica/cuarzo,M,24336059.0
+1999,silice,E1 Arena silica/cuarzo,X,895176.0
+1999,silice,E2 Silicio/ferrosilicio/SiO2,M,57214862.0
+1999,silice,E2 Silicio/ferrosilicio/SiO2,X,5948237.0
+1999,zinc,E1 Mena/concentrado,M,1213003.0
+1999,zinc,E1 Mena/concentrado,X,75143568.0
+1999,zinc,E2 Metal en bruto/refinado,M,50573136.0
+1999,zinc,E2 Metal en bruto/refinado,X,91230552.0
+1999,zinc,E3 Semimanufacturas,M,12724475.0
+1999,zinc,E3 Semimanufacturas,X,41965874.0
+1999,zinc,E4 Manufacturas,M,43916540.0
+1999,zinc,E4 Manufacturas,X,4639034.0
+2000,barita,E1 Crudo/molido,M,1436416.0
+2000,barita,E1 Crudo/molido,X,767826.0
+2000,barita,E2 Quimicos de bario,M,1133257.0
+2000,barita,E2 Quimicos de bario,X,6493317.0
+2000,cobre,E1 Mena/concentrado,M,87515611.0
+2000,cobre,E1 Mena/concentrado,X,115701455.0
+2000,cobre,E2 Metal en bruto/refinado,M,462671107.0
+2000,cobre,E2 Metal en bruto/refinado,X,224508642.0
+2000,cobre,E3 Semimanufacturas,M,492553936.0
+2000,cobre,E3 Semimanufacturas,X,405534456.0
+2000,cobre,E4 Manufacturas,M,595955555.0
+2000,cobre,E4 Manufacturas,X,47581051.0
+2000,fluorita,E1 Espato fluor (crudo),M,5861398.0
+2000,fluorita,E1 Espato fluor (crudo),X,29324727.0
+2000,fluorita,E2 Fluoroquimica,M,5266773.0
+2000,fluorita,E2 Fluoroquimica,X,112474431.0
+2000,grafito,E1 Grafito natural,M,2919029.0
+2000,grafito,E1 Grafito natural,X,2392258.0
+2000,grafito,E2 Grafito artificial/prep.,M,12506104.0
+2000,grafito,E2 Grafito artificial/prep.,X,12771199.0
+2000,grafito,E3 Electrodos/articulos de carbono,M,84532084.0
+2000,grafito,E3 Electrodos/articulos de carbono,X,53957736.0
+2000,manganeso,E1 Mena/concentrado,M,9065652.0
+2000,manganeso,E1 Mena/concentrado,X,3726255.0
+2000,manganeso,E2 Ferroaleaciones,M,14294653.0
+2000,manganeso,E2 Ferroaleaciones,X,47135944.0
+2000,manganeso,E3 Quimicos/metal,M,8424777.0
+2000,manganeso,E3 Quimicos/metal,X,1953211.0
+2000,oro,E1 Mena/concentrado,M,18869888.0
+2000,oro,E1 Mena/concentrado,X,5583174.0
+2000,oro,E2 Bruto/semilabrado,M,517511513.0
+2000,oro,E2 Bruto/semilabrado,X,77883164.0
+2000,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,180465148.0
+2000,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,354905469.0
+2000,plata,E1 Mena/concentrado,M,54777784.0
+2000,plata,E1 Mena/concentrado,X,108222.0
+2000,plata,E2 Bruto/semilabrado,M,10425481.0
+2000,plata,E2 Bruto/semilabrado,X,431696439.0
+2000,plomo,E1 Mena/concentrado,M,36649870.0
+2000,plomo,E1 Mena/concentrado,X,13009691.0
+2000,plomo,E2 Metal en bruto/refinado,M,77732328.0
+2000,plomo,E2 Metal en bruto/refinado,X,10457702.0
+2000,plomo,E3 Semimanufacturas,M,3944511.0
+2000,plomo,E3 Semimanufacturas,X,50281.0
+2000,plomo,E4 Manufacturas,M,4068251.0
+2000,plomo,E4 Manufacturas,X,1329007.0
+2000,silice,E1 Arena silica/cuarzo,M,26026818.0
+2000,silice,E1 Arena silica/cuarzo,X,641074.0
+2000,silice,E2 Silicio/ferrosilicio/SiO2,M,59642662.0
+2000,silice,E2 Silicio/ferrosilicio/SiO2,X,7071376.0
+2000,zinc,E1 Mena/concentrado,M,561133.0
+2000,zinc,E1 Mena/concentrado,X,77057234.0
+2000,zinc,E2 Metal en bruto/refinado,M,42083127.0
+2000,zinc,E2 Metal en bruto/refinado,X,126606485.0
+2000,zinc,E3 Semimanufacturas,M,14142422.0
+2000,zinc,E3 Semimanufacturas,X,14230694.0
+2000,zinc,E4 Manufacturas,M,51803944.0
+2000,zinc,E4 Manufacturas,X,4177312.0
+2001,barita,E1 Crudo/molido,M,1405133.0
+2001,barita,E1 Crudo/molido,X,560838.0
+2001,barita,E2 Quimicos de bario,M,1157115.0
+2001,barita,E2 Quimicos de bario,X,4674324.0
+2001,cobre,E1 Mena/concentrado,M,21794732.0
+2001,cobre,E1 Mena/concentrado,X,39768255.0
+2001,cobre,E2 Metal en bruto/refinado,M,437104208.0
+2001,cobre,E2 Metal en bruto/refinado,X,292886149.0
+2001,cobre,E3 Semimanufacturas,M,512404170.0
+2001,cobre,E3 Semimanufacturas,X,324181483.0
+2001,cobre,E4 Manufacturas,M,562024160.0
+2001,cobre,E4 Manufacturas,X,50060449.0
+2001,fluorita,E1 Espato fluor (crudo),M,3795656.0
+2001,fluorita,E1 Espato fluor (crudo),X,29491564.0
+2001,fluorita,E2 Fluoroquimica,M,6575219.0
+2001,fluorita,E2 Fluoroquimica,X,98878508.0
+2001,grafito,E1 Grafito natural,M,1795212.0
+2001,grafito,E1 Grafito natural,X,2331722.0
+2001,grafito,E2 Grafito artificial/prep.,M,10427550.0
+2001,grafito,E2 Grafito artificial/prep.,X,15626905.0
+2001,grafito,E3 Electrodos/articulos de carbono,M,64981547.0
+2001,grafito,E3 Electrodos/articulos de carbono,X,51324785.0
+2001,manganeso,E1 Mena/concentrado,M,5902160.0
+2001,manganeso,E1 Mena/concentrado,X,1983995.0
+2001,manganeso,E2 Ferroaleaciones,M,22694687.0
+2001,manganeso,E2 Ferroaleaciones,X,28958764.0
+2001,manganeso,E3 Quimicos/metal,M,7915705.0
+2001,manganeso,E3 Quimicos/metal,X,2827867.0
+2001,oro,E1 Mena/concentrado,M,86041036.0
+2001,oro,E2 Bruto/semilabrado,M,486402671.0
+2001,oro,E2 Bruto/semilabrado,X,54645214.0
+2001,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,169112377.0
+2001,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,324190068.0
+2001,plata,E1 Mena/concentrado,M,47867310.0
+2001,plata,E2 Bruto/semilabrado,M,10184107.0
+2001,plata,E2 Bruto/semilabrado,X,357431843.0
+2001,plomo,E1 Mena/concentrado,M,40451353.0
+2001,plomo,E1 Mena/concentrado,X,3044231.0
+2001,plomo,E2 Metal en bruto/refinado,M,30011191.0
+2001,plomo,E2 Metal en bruto/refinado,X,9841842.0
+2001,plomo,E3 Semimanufacturas,M,1536741.0
+2001,plomo,E3 Semimanufacturas,X,59948.0
+2001,plomo,E4 Manufacturas,M,3686207.0
+2001,plomo,E4 Manufacturas,X,769632.0
+2001,silice,E1 Arena silica/cuarzo,M,23458093.0
+2001,silice,E1 Arena silica/cuarzo,X,625211.0
+2001,silice,E2 Silicio/ferrosilicio/SiO2,M,50384036.0
+2001,silice,E2 Silicio/ferrosilicio/SiO2,X,7518561.0
+2001,zinc,E1 Mena/concentrado,M,354325.0
+2001,zinc,E1 Mena/concentrado,X,57019713.0
+2001,zinc,E2 Metal en bruto/refinado,M,1186899.0
+2001,zinc,E2 Metal en bruto/refinado,X,146840871.0
+2001,zinc,E3 Semimanufacturas,M,15545094.0
+2001,zinc,E3 Semimanufacturas,X,16308435.0
+2001,zinc,E4 Manufacturas,M,42790600.0
+2001,zinc,E4 Manufacturas,X,5068460.0
+2002,barita,E1 Crudo/molido,M,3320508.0
+2002,barita,E1 Crudo/molido,X,295067.0
+2002,barita,E2 Quimicos de bario,M,1411989.0
+2002,barita,E2 Quimicos de bario,X,1102191.0
+2002,cobre,E1 Mena/concentrado,M,4336574.0
+2002,cobre,E1 Mena/concentrado,X,48017012.0
+2002,cobre,E2 Metal en bruto/refinado,M,233622475.0
+2002,cobre,E2 Metal en bruto/refinado,X,149454604.0
+2002,cobre,E3 Semimanufacturas,M,520399971.0
+2002,cobre,E3 Semimanufacturas,X,231802524.0
+2002,cobre,E4 Manufacturas,M,439314286.0
+2002,cobre,E4 Manufacturas,X,45013842.0
+2002,fluorita,E1 Espato fluor (crudo),M,3016017.0
+2002,fluorita,E1 Espato fluor (crudo),X,29185599.0
+2002,fluorita,E2 Fluoroquimica,M,14581026.0
+2002,fluorita,E2 Fluoroquimica,X,100848531.0
+2002,grafito,E1 Grafito natural,M,36696347.0
+2002,grafito,E1 Grafito natural,X,1540744.0
+2002,grafito,E2 Grafito artificial/prep.,M,12741220.0
+2002,grafito,E2 Grafito artificial/prep.,X,14493558.0
+2002,grafito,E3 Electrodos/articulos de carbono,M,67523311.0
+2002,grafito,E3 Electrodos/articulos de carbono,X,73026697.0
+2002,manganeso,E1 Mena/concentrado,M,5581467.0
+2002,manganeso,E1 Mena/concentrado,X,2499186.0
+2002,manganeso,E2 Ferroaleaciones,M,21130409.0
+2002,manganeso,E2 Ferroaleaciones,X,14871798.0
+2002,manganeso,E3 Quimicos/metal,M,4232621.0
+2002,manganeso,E3 Quimicos/metal,X,1654855.0
+2002,oro,E1 Mena/concentrado,M,126586349.0
+2002,oro,E2 Bruto/semilabrado,M,290071067.0
+2002,oro,E2 Bruto/semilabrado,X,80204403.0
+2002,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,219020443.0
+2002,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,337614943.0
+2002,plata,E1 Mena/concentrado,M,95976856.0
+2002,plata,E1 Mena/concentrado,X,628644.0
+2002,plata,E2 Bruto/semilabrado,M,35094157.0
+2002,plata,E2 Bruto/semilabrado,X,531368930.0
+2002,plomo,E1 Mena/concentrado,M,55745001.0
+2002,plomo,E1 Mena/concentrado,X,690361.0
+2002,plomo,E2 Metal en bruto/refinado,M,27476387.0
+2002,plomo,E2 Metal en bruto/refinado,X,5307047.0
+2002,plomo,E3 Semimanufacturas,M,1153423.0
+2002,plomo,E3 Semimanufacturas,X,167820.0
+2002,plomo,E4 Manufacturas,M,3782065.0
+2002,plomo,E4 Manufacturas,X,669643.0
+2002,silice,E1 Arena silica/cuarzo,M,28535857.0
+2002,silice,E1 Arena silica/cuarzo,X,339074.0
+2002,silice,E2 Silicio/ferrosilicio/SiO2,M,53627912.0
+2002,silice,E2 Silicio/ferrosilicio/SiO2,X,5684154.0
+2002,zinc,E1 Mena/concentrado,M,22654.0
+2002,zinc,E1 Mena/concentrado,X,54149930.0
+2002,zinc,E2 Metal en bruto/refinado,M,812599.0
+2002,zinc,E2 Metal en bruto/refinado,X,140721783.0
+2002,zinc,E3 Semimanufacturas,M,17327671.0
+2002,zinc,E3 Semimanufacturas,X,497806.0
+2002,zinc,E4 Manufacturas,M,29196836.0
+2002,zinc,E4 Manufacturas,X,20310677.0
+2003,barita,E1 Crudo/molido,M,9568479.0
+2003,barita,E1 Crudo/molido,X,158568.0
+2003,barita,E2 Quimicos de bario,M,1659397.0
+2003,barita,E2 Quimicos de bario,X,2856761.0
+2003,cobre,E1 Mena/concentrado,M,49285.0
+2003,cobre,E1 Mena/concentrado,X,55865611.0
+2003,cobre,E2 Metal en bruto/refinado,M,234595409.0
+2003,cobre,E2 Metal en bruto/refinado,X,95820988.0
+2003,cobre,E3 Semimanufacturas,M,532673983.0
+2003,cobre,E3 Semimanufacturas,X,231848154.0
+2003,cobre,E4 Manufacturas,M,441731514.0
+2003,cobre,E4 Manufacturas,X,36465117.0
+2003,fluorita,E1 Espato fluor (crudo),M,2214955.0
+2003,fluorita,E1 Espato fluor (crudo),X,39306023.0
+2003,fluorita,E2 Fluoroquimica,M,16800532.0
+2003,fluorita,E2 Fluoroquimica,X,94480357.0
+2003,grafito,E1 Grafito natural,M,1813564.0
+2003,grafito,E1 Grafito natural,X,1493698.0
+2003,grafito,E2 Grafito artificial/prep.,M,16760381.0
+2003,grafito,E2 Grafito artificial/prep.,X,10553422.0
+2003,grafito,E3 Electrodos/articulos de carbono,M,76176123.0
+2003,grafito,E3 Electrodos/articulos de carbono,X,108394185.0
+2003,manganeso,E1 Mena/concentrado,M,8919599.0
+2003,manganeso,E1 Mena/concentrado,X,2311065.0
+2003,manganeso,E2 Ferroaleaciones,M,16833540.0
+2003,manganeso,E2 Ferroaleaciones,X,23184846.0
+2003,manganeso,E3 Quimicos/metal,M,3558251.0
+2003,manganeso,E3 Quimicos/metal,X,973944.0
+2003,oro,E1 Mena/concentrado,M,64009451.0
+2003,oro,E2 Bruto/semilabrado,M,260938511.0
+2003,oro,E2 Bruto/semilabrado,X,156753172.0
+2003,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,258332154.0
+2003,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,363424846.0
+2003,plata,E1 Mena/concentrado,M,169638822.0
+2003,plata,E1 Mena/concentrado,X,879148.0
+2003,plata,E2 Bruto/semilabrado,M,15915860.0
+2003,plata,E2 Bruto/semilabrado,X,511538513.0
+2003,plomo,E1 Mena/concentrado,M,37859211.0
+2003,plomo,E1 Mena/concentrado,X,11557733.0
+2003,plomo,E2 Metal en bruto/refinado,M,21778342.0
+2003,plomo,E2 Metal en bruto/refinado,X,6707125.0
+2003,plomo,E3 Semimanufacturas,M,1386480.0
+2003,plomo,E3 Semimanufacturas,X,110449.0
+2003,plomo,E4 Manufacturas,M,4350390.0
+2003,plomo,E4 Manufacturas,X,721839.0
+2003,silice,E1 Arena silica/cuarzo,M,38264441.0
+2003,silice,E1 Arena silica/cuarzo,X,339166.0
+2003,silice,E2 Silicio/ferrosilicio/SiO2,M,59349418.0
+2003,silice,E2 Silicio/ferrosilicio/SiO2,X,5099616.0
+2003,zinc,E1 Mena/concentrado,M,2560672.0
+2003,zinc,E1 Mena/concentrado,X,54195655.0
+2003,zinc,E2 Metal en bruto/refinado,M,1525599.0
+2003,zinc,E2 Metal en bruto/refinado,X,164691470.0
+2003,zinc,E3 Semimanufacturas,M,15539599.0
+2003,zinc,E3 Semimanufacturas,X,490938.0
+2003,zinc,E4 Manufacturas,M,19838004.0
+2003,zinc,E4 Manufacturas,X,15257973.0
+2004,barita,E1 Crudo/molido,M,14660982.0
+2004,barita,E1 Crudo/molido,X,329427.0
+2004,barita,E2 Quimicos de bario,M,956308.0
+2004,barita,E2 Quimicos de bario,X,1923072.0
+2004,cobre,E1 Mena/concentrado,M,66430.0
+2004,cobre,E1 Mena/concentrado,X,142696018.0
+2004,cobre,E2 Metal en bruto/refinado,M,370184910.0
+2004,cobre,E2 Metal en bruto/refinado,X,180404616.0
+2004,cobre,E3 Semimanufacturas,M,795978014.0
+2004,cobre,E3 Semimanufacturas,X,386745985.0
+2004,cobre,E4 Manufacturas,M,502134814.0
+2004,cobre,E4 Manufacturas,X,19801435.0
+2004,fluorita,E1 Espato fluor (crudo),M,465818.0
+2004,fluorita,E1 Espato fluor (crudo),X,49277614.0
+2004,fluorita,E2 Fluoroquimica,M,16653591.0
+2004,fluorita,E2 Fluoroquimica,X,87079015.0
+2004,grafito,E1 Grafito natural,M,1529160.0
+2004,grafito,E1 Grafito natural,X,2862457.0
+2004,grafito,E2 Grafito artificial/prep.,M,18982949.0
+2004,grafito,E2 Grafito artificial/prep.,X,11097371.0
+2004,grafito,E3 Electrodos/articulos de carbono,M,86338722.0
+2004,grafito,E3 Electrodos/articulos de carbono,X,82879316.0
+2004,manganeso,E1 Mena/concentrado,M,14386747.0
+2004,manganeso,E1 Mena/concentrado,X,2135077.0
+2004,manganeso,E2 Ferroaleaciones,M,35104199.0
+2004,manganeso,E2 Ferroaleaciones,X,30747282.0
+2004,manganeso,E3 Quimicos/metal,M,9404155.0
+2004,manganeso,E3 Quimicos/metal,X,1903742.0
+2004,oro,E1 Mena/concentrado,M,51309643.0
+2004,oro,E1 Mena/concentrado,X,18333.0
+2004,oro,E2 Bruto/semilabrado,M,205424035.0
+2004,oro,E2 Bruto/semilabrado,X,154192536.0
+2004,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,268750294.0
+2004,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,545999372.0
+2004,plata,E1 Mena/concentrado,M,143759859.0
+2004,plata,E1 Mena/concentrado,X,858138.0
+2004,plata,E2 Bruto/semilabrado,M,18761728.0
+2004,plata,E2 Bruto/semilabrado,X,680423986.0
+2004,plomo,E1 Mena/concentrado,M,91511837.0
+2004,plomo,E1 Mena/concentrado,X,15726602.0
+2004,plomo,E2 Metal en bruto/refinado,M,22573193.0
+2004,plomo,E2 Metal en bruto/refinado,X,7375338.0
+2004,plomo,E3 Semimanufacturas,M,1174965.0
+2004,plomo,E3 Semimanufacturas,X,107554.0
+2004,plomo,E4 Manufacturas,M,5295130.0
+2004,plomo,E4 Manufacturas,X,653049.0
+2004,silice,E1 Arena silica/cuarzo,M,29951217.0
+2004,silice,E1 Arena silica/cuarzo,X,1346939.0
+2004,silice,E2 Silicio/ferrosilicio/SiO2,M,77609738.0
+2004,silice,E2 Silicio/ferrosilicio/SiO2,X,8423942.0
+2004,zinc,E1 Mena/concentrado,M,10425464.0
+2004,zinc,E1 Mena/concentrado,X,53150900.0
+2004,zinc,E2 Metal en bruto/refinado,M,3496011.0
+2004,zinc,E2 Metal en bruto/refinado,X,215091995.0
+2004,zinc,E3 Semimanufacturas,M,18421258.0
+2004,zinc,E3 Semimanufacturas,X,274762.0
+2004,zinc,E4 Manufacturas,M,23648037.0
+2004,zinc,E4 Manufacturas,X,12609814.0
+2005,barita,E1 Crudo/molido,M,15716290.0
+2005,barita,E1 Crudo/molido,X,1260125.0
+2005,barita,E2 Quimicos de bario,M,1743774.0
+2005,barita,E2 Quimicos de bario,X,340427.0
+2005,cobre,E1 Mena/concentrado,M,13185742.0
+2005,cobre,E1 Mena/concentrado,X,89827731.0
+2005,cobre,E2 Metal en bruto/refinado,M,438032319.0
+2005,cobre,E2 Metal en bruto/refinado,X,279220725.0
+2005,cobre,E3 Semimanufacturas,M,992766871.0
+2005,cobre,E3 Semimanufacturas,X,596649067.0
+2005,cobre,E4 Manufacturas,M,486486355.0
+2005,cobre,E4 Manufacturas,X,23245383.0
+2005,fluorita,E1 Espato fluor (crudo),M,2302224.0
+2005,fluorita,E1 Espato fluor (crudo),X,54291105.0
+2005,fluorita,E2 Fluoroquimica,M,20897113.0
+2005,fluorita,E2 Fluoroquimica,X,102742390.0
+2005,grafito,E1 Grafito natural,M,2719838.0
+2005,grafito,E1 Grafito natural,X,2735828.0
+2005,grafito,E2 Grafito artificial/prep.,M,19111180.0
+2005,grafito,E2 Grafito artificial/prep.,X,8875480.0
+2005,grafito,E3 Electrodos/articulos de carbono,M,87686777.0
+2005,grafito,E3 Electrodos/articulos de carbono,X,73886119.0
+2005,manganeso,E1 Mena/concentrado,M,26796170.0
+2005,manganeso,E1 Mena/concentrado,X,2686754.0
+2005,manganeso,E2 Ferroaleaciones,M,55946547.0
+2005,manganeso,E2 Ferroaleaciones,X,54497075.0
+2005,manganeso,E3 Quimicos/metal,M,8240330.0
+2005,manganeso,E3 Quimicos/metal,X,2652669.0
+2005,oro,E1 Mena/concentrado,M,70251536.0
+2005,oro,E1 Mena/concentrado,X,9872.0
+2005,oro,E2 Bruto/semilabrado,M,123429522.0
+2005,oro,E2 Bruto/semilabrado,X,305410948.0
+2005,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,316272023.0
+2005,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,588220322.0
+2005,plata,E1 Mena/concentrado,M,163702677.0
+2005,plata,E1 Mena/concentrado,X,651918.0
+2005,plata,E2 Bruto/semilabrado,M,16802760.0
+2005,plata,E2 Bruto/semilabrado,X,711743512.0
+2005,plomo,E1 Mena/concentrado,M,102195732.0
+2005,plomo,E1 Mena/concentrado,X,2012224.0
+2005,plomo,E2 Metal en bruto/refinado,M,43333927.0
+2005,plomo,E2 Metal en bruto/refinado,X,17596753.0
+2005,plomo,E3 Semimanufacturas,M,1772883.0
+2005,plomo,E3 Semimanufacturas,X,248339.0
+2005,plomo,E4 Manufacturas,M,5026322.0
+2005,plomo,E4 Manufacturas,X,920368.0
+2005,silice,E1 Arena silica/cuarzo,M,35710658.0
+2005,silice,E1 Arena silica/cuarzo,X,1273196.0
+2005,silice,E2 Silicio/ferrosilicio/SiO2,M,68474472.0
+2005,silice,E2 Silicio/ferrosilicio/SiO2,X,8490176.0
+2005,zinc,E1 Mena/concentrado,M,1747375.0
+2005,zinc,E1 Mena/concentrado,X,104375797.0
+2005,zinc,E2 Metal en bruto/refinado,M,2786641.0
+2005,zinc,E2 Metal en bruto/refinado,X,285217586.0
+2005,zinc,E3 Semimanufacturas,M,18825013.0
+2005,zinc,E3 Semimanufacturas,X,1217878.0
+2005,zinc,E4 Manufacturas,M,23219686.0
+2005,zinc,E4 Manufacturas,X,15185875.0
+2006,barita,E1 Crudo/molido,M,6225408.0
+2006,barita,E1 Crudo/molido,X,1879184.0
+2006,barita,E2 Quimicos de bario,M,2073422.0
+2006,barita,E2 Quimicos de bario,X,459.0
+2006,cobre,E1 Mena/concentrado,M,175256304.0
+2006,cobre,E1 Mena/concentrado,X,146021267.0
+2006,cobre,E2 Metal en bruto/refinado,M,870855020.0
+2006,cobre,E2 Metal en bruto/refinado,X,597853304.0
+2006,cobre,E3 Semimanufacturas,M,1625914189.0
+2006,cobre,E3 Semimanufacturas,X,812347435.0
+2006,cobre,E4 Manufacturas,M,387150013.0
+2006,cobre,E4 Manufacturas,X,31650642.0
+2006,fluorita,E1 Espato fluor (crudo),M,9268714.0
+2006,fluorita,E1 Espato fluor (crudo),X,58580333.0
+2006,fluorita,E2 Fluoroquimica,M,18153279.0
+2006,fluorita,E2 Fluoroquimica,X,120974203.0
+2006,grafito,E1 Grafito natural,M,2559622.0
+2006,grafito,E1 Grafito natural,X,4131235.0
+2006,grafito,E2 Grafito artificial/prep.,M,17247154.0
+2006,grafito,E2 Grafito artificial/prep.,X,6787108.0
+2006,grafito,E3 Electrodos/articulos de carbono,M,99338043.0
+2006,grafito,E3 Electrodos/articulos de carbono,X,102220223.0
+2006,manganeso,E1 Mena/concentrado,M,12871594.0
+2006,manganeso,E1 Mena/concentrado,X,2469130.0
+2006,manganeso,E2 Ferroaleaciones,M,26891427.0
+2006,manganeso,E2 Ferroaleaciones,X,38766932.0
+2006,manganeso,E3 Quimicos/metal,M,7353507.0
+2006,manganeso,E3 Quimicos/metal,X,2820354.0
+2006,oro,E1 Mena/concentrado,M,119004365.0
+2006,oro,E2 Bruto/semilabrado,M,271065050.0
+2006,oro,E2 Bruto/semilabrado,X,1037584610.0
+2006,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,376550331.0
+2006,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,587666245.0
+2006,plata,E1 Mena/concentrado,M,127555458.0
+2006,plata,E1 Mena/concentrado,X,1354484.0
+2006,plata,E2 Bruto/semilabrado,M,48722772.0
+2006,plata,E2 Bruto/semilabrado,X,1223635743.0
+2006,plomo,E1 Mena/concentrado,M,80548043.0
+2006,plomo,E1 Mena/concentrado,X,10780188.0
+2006,plomo,E2 Metal en bruto/refinado,M,57893732.0
+2006,plomo,E2 Metal en bruto/refinado,X,24505218.0
+2006,plomo,E3 Semimanufacturas,M,3337755.0
+2006,plomo,E3 Semimanufacturas,X,2446445.0
+2006,plomo,E4 Manufacturas,M,6929127.0
+2006,plomo,E4 Manufacturas,X,1140310.0
+2006,silice,E1 Arena silica/cuarzo,M,41834648.0
+2006,silice,E1 Arena silica/cuarzo,X,7263670.0
+2006,silice,E2 Silicio/ferrosilicio/SiO2,M,78037553.0
+2006,silice,E2 Silicio/ferrosilicio/SiO2,X,11867167.0
+2006,zinc,E1 Mena/concentrado,M,20709.0
+2006,zinc,E1 Mena/concentrado,X,305744554.0
+2006,zinc,E2 Metal en bruto/refinado,M,32819599.0
+2006,zinc,E2 Metal en bruto/refinado,X,538598277.0
+2006,zinc,E3 Semimanufacturas,M,22812092.0
+2006,zinc,E3 Semimanufacturas,X,2179434.0
+2006,zinc,E4 Manufacturas,M,23651988.0
+2006,zinc,E4 Manufacturas,X,12141397.0
+2007,barita,E1 Crudo/molido,M,19880925.0
+2007,barita,E1 Crudo/molido,X,1316217.0
+2007,barita,E2 Quimicos de bario,M,2222482.0
+2007,barita,E2 Quimicos de bario,X,34122.0
+2007,cobre,E1 Mena/concentrado,M,47603.0
+2007,cobre,E1 Mena/concentrado,X,267223083.0
+2007,cobre,E2 Metal en bruto/refinado,M,744227363.0
+2007,cobre,E2 Metal en bruto/refinado,X,774963219.0
+2007,cobre,E3 Semimanufacturas,M,1702943694.0
+2007,cobre,E3 Semimanufacturas,X,900602289.0
+2007,cobre,E4 Manufacturas,M,401027444.0
+2007,cobre,E4 Manufacturas,X,30825095.0
+2007,fluorita,E1 Espato fluor (crudo),M,45819.0
+2007,fluorita,E1 Espato fluor (crudo),X,79398700.0
+2007,fluorita,E2 Fluoroquimica,M,15705414.0
+2007,fluorita,E2 Fluoroquimica,X,127175772.0
+2007,grafito,E1 Grafito natural,M,3524904.0
+2007,grafito,E1 Grafito natural,X,3148939.0
+2007,grafito,E2 Grafito artificial/prep.,M,17687287.0
+2007,grafito,E2 Grafito artificial/prep.,X,8689236.0
+2007,grafito,E3 Electrodos/articulos de carbono,M,126205786.0
+2007,grafito,E3 Electrodos/articulos de carbono,X,109728960.0
+2007,manganeso,E1 Mena/concentrado,M,24351292.0
+2007,manganeso,E1 Mena/concentrado,X,8986533.0
+2007,manganeso,E2 Ferroaleaciones,M,30052179.0
+2007,manganeso,E2 Ferroaleaciones,X,43187307.0
+2007,manganeso,E3 Quimicos/metal,M,8925725.0
+2007,manganeso,E3 Quimicos/metal,X,3387359.0
+2007,oro,E1 Mena/concentrado,M,87104368.0
+2007,oro,E1 Mena/concentrado,X,13935741.0
+2007,oro,E2 Bruto/semilabrado,M,376051727.0
+2007,oro,E2 Bruto/semilabrado,X,1567465935.0
+2007,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,409623434.0
+2007,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,582007725.0
+2007,plata,E1 Mena/concentrado,M,115309153.0
+2007,plata,E1 Mena/concentrado,X,2065035.0
+2007,plata,E2 Bruto/semilabrado,M,75797393.0
+2007,plata,E2 Bruto/semilabrado,X,1418217799.0
+2007,plomo,E1 Mena/concentrado,M,126775866.0
+2007,plomo,E1 Mena/concentrado,X,43483993.0
+2007,plomo,E2 Metal en bruto/refinado,M,85186050.0
+2007,plomo,E2 Metal en bruto/refinado,X,94064529.0
+2007,plomo,E3 Semimanufacturas,M,4197111.0
+2007,plomo,E3 Semimanufacturas,X,2026975.0
+2007,plomo,E4 Manufacturas,M,6802028.0
+2007,plomo,E4 Manufacturas,X,21308929.0
+2007,silice,E1 Arena silica/cuarzo,M,45313437.0
+2007,silice,E1 Arena silica/cuarzo,X,1563805.0
+2007,silice,E2 Silicio/ferrosilicio/SiO2,M,99583151.0
+2007,silice,E2 Silicio/ferrosilicio/SiO2,X,12117116.0
+2007,zinc,E1 Mena/concentrado,M,32889.0
+2007,zinc,E1 Mena/concentrado,X,236420656.0
+2007,zinc,E2 Metal en bruto/refinado,M,18333390.0
+2007,zinc,E2 Metal en bruto/refinado,X,737160452.0
+2007,zinc,E3 Semimanufacturas,M,38518873.0
+2007,zinc,E3 Semimanufacturas,X,2276190.0
+2007,zinc,E4 Manufacturas,M,28627395.0
+2007,zinc,E4 Manufacturas,X,20374019.0
+2008,barita,E1 Crudo/molido,M,5224010.0
+2008,barita,E1 Crudo/molido,X,3232802.0
+2008,barita,E2 Quimicos de bario,M,1845339.0
+2008,barita,E2 Quimicos de bario,X,19991.0
+2008,cobre,E1 Mena/concentrado,M,248024092.0
+2008,cobre,E1 Mena/concentrado,X,327348222.0
+2008,cobre,E2 Metal en bruto/refinado,M,844007888.0
+2008,cobre,E2 Metal en bruto/refinado,X,573131718.0
+2008,cobre,E3 Semimanufacturas,M,1577243783.0
+2008,cobre,E3 Semimanufacturas,X,821019420.0
+2008,cobre,E4 Manufacturas,M,338813149.0
+2008,cobre,E4 Manufacturas,X,37766933.0
+2008,fluorita,E1 Espato fluor (crudo),M,158439.0
+2008,fluorita,E1 Espato fluor (crudo),X,96728605.0
+2008,fluorita,E2 Fluoroquimica,M,20714161.0
+2008,fluorita,E2 Fluoroquimica,X,120119534.0
+2008,grafito,E1 Grafito natural,M,3970013.0
+2008,grafito,E1 Grafito natural,X,3017760.0
+2008,grafito,E2 Grafito artificial/prep.,M,18264708.0
+2008,grafito,E2 Grafito artificial/prep.,X,14393175.0
+2008,grafito,E3 Electrodos/articulos de carbono,M,147452133.0
+2008,grafito,E3 Electrodos/articulos de carbono,X,128018129.0
+2008,manganeso,E1 Mena/concentrado,M,61829442.0
+2008,manganeso,E1 Mena/concentrado,X,9138991.0
+2008,manganeso,E2 Ferroaleaciones,M,53640260.0
+2008,manganeso,E2 Ferroaleaciones,X,42530266.0
+2008,manganeso,E3 Quimicos/metal,M,11335019.0
+2008,manganeso,E3 Quimicos/metal,X,4786457.0
+2008,oro,E1 Mena/concentrado,M,26977262.0
+2008,oro,E1 Mena/concentrado,X,16765160.0
+2008,oro,E2 Bruto/semilabrado,M,334658649.0
+2008,oro,E2 Bruto/semilabrado,X,2661466570.0
+2008,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,337295910.0
+2008,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,519809584.0
+2008,plata,E1 Mena/concentrado,M,73049310.0
+2008,plata,E1 Mena/concentrado,X,16080340.0
+2008,plata,E2 Bruto/semilabrado,M,92170480.0
+2008,plata,E2 Bruto/semilabrado,X,1737248383.0
+2008,plomo,E1 Mena/concentrado,M,113584590.0
+2008,plomo,E1 Mena/concentrado,X,62018437.0
+2008,plomo,E2 Metal en bruto/refinado,M,109263074.0
+2008,plomo,E2 Metal en bruto/refinado,X,158658901.0
+2008,plomo,E3 Semimanufacturas,M,3684024.0
+2008,plomo,E3 Semimanufacturas,X,233489.0
+2008,plomo,E4 Manufacturas,M,11405335.0
+2008,plomo,E4 Manufacturas,X,32200411.0
+2008,silice,E1 Arena silica/cuarzo,M,49929656.0
+2008,silice,E1 Arena silica/cuarzo,X,1272115.0
+2008,silice,E2 Silicio/ferrosilicio/SiO2,M,120308799.0
+2008,silice,E2 Silicio/ferrosilicio/SiO2,X,14899987.0
+2008,zinc,E1 Mena/concentrado,M,613343.0
+2008,zinc,E1 Mena/concentrado,X,105236361.0
+2008,zinc,E2 Metal en bruto/refinado,M,33181528.0
+2008,zinc,E2 Metal en bruto/refinado,X,421855000.0
+2008,zinc,E3 Semimanufacturas,M,31036597.0
+2008,zinc,E3 Semimanufacturas,X,1995417.0
+2008,zinc,E4 Manufacturas,M,37911499.0
+2008,zinc,E4 Manufacturas,X,21246402.0
+2009,barita,E1 Crudo/molido,M,17308641.0
+2009,barita,E1 Crudo/molido,X,1255779.0
+2009,barita,E2 Quimicos de bario,M,1577343.0
+2009,barita,E2 Quimicos de bario,X,7664.0
+2009,cobre,E1 Mena/concentrado,M,12805982.0
+2009,cobre,E1 Mena/concentrado,X,288865844.0
+2009,cobre,E2 Metal en bruto/refinado,M,489428470.0
+2009,cobre,E2 Metal en bruto/refinado,X,446382053.0
+2009,cobre,E3 Semimanufacturas,M,994580561.0
+2009,cobre,E3 Semimanufacturas,X,450229868.0
+2009,cobre,E4 Manufacturas,M,231995679.0
+2009,cobre,E4 Manufacturas,X,38585663.0
+2009,fluorita,E1 Espato fluor (crudo),M,481978.0
+2009,fluorita,E1 Espato fluor (crudo),X,91735772.0
+2009,fluorita,E2 Fluoroquimica,M,21957722.0
+2009,fluorita,E2 Fluoroquimica,X,121358487.0
+2009,grafito,E1 Grafito natural,M,3704391.0
+2009,grafito,E1 Grafito natural,X,2441001.0
+2009,grafito,E2 Grafito artificial/prep.,M,13503442.0
+2009,grafito,E2 Grafito artificial/prep.,X,3789945.0
+2009,grafito,E3 Electrodos/articulos de carbono,M,90697264.0
+2009,grafito,E3 Electrodos/articulos de carbono,X,55119611.0
+2009,manganeso,E1 Mena/concentrado,M,24539355.0
+2009,manganeso,E1 Mena/concentrado,X,8789243.0
+2009,manganeso,E2 Ferroaleaciones,M,32587999.0
+2009,manganeso,E2 Ferroaleaciones,X,38866109.0
+2009,manganeso,E3 Quimicos/metal,M,3355021.0
+2009,manganeso,E3 Quimicos/metal,X,2220328.0
+2009,oro,E1 Mena/concentrado,M,56055900.0
+2009,oro,E1 Mena/concentrado,X,50219852.0
+2009,oro,E2 Bruto/semilabrado,M,152421151.0
+2009,oro,E2 Bruto/semilabrado,X,4003673710.0
+2009,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,435881867.0
+2009,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,519393726.0
+2009,plata,E1 Mena/concentrado,M,35916135.0
+2009,plata,E1 Mena/concentrado,X,30246554.0
+2009,plata,E2 Bruto/semilabrado,M,48501301.0
+2009,plata,E2 Bruto/semilabrado,X,1409667143.0
+2009,plomo,E1 Mena/concentrado,M,83255644.0
+2009,plomo,E1 Mena/concentrado,X,160425797.0
+2009,plomo,E2 Metal en bruto/refinado,M,60169798.0
+2009,plomo,E2 Metal en bruto/refinado,X,267855695.0
+2009,plomo,E3 Semimanufacturas,M,4002624.0
+2009,plomo,E3 Semimanufacturas,X,16347.0
+2009,plomo,E4 Manufacturas,M,8597454.0
+2009,plomo,E4 Manufacturas,X,12522638.0
+2009,silice,E1 Arena silica/cuarzo,M,43655811.0
+2009,silice,E1 Arena silica/cuarzo,X,1000043.0
+2009,silice,E2 Silicio/ferrosilicio/SiO2,M,104430972.0
+2009,silice,E2 Silicio/ferrosilicio/SiO2,X,3999360.0
+2009,zinc,E1 Mena/concentrado,M,1362505.0
+2009,zinc,E1 Mena/concentrado,X,136594996.0
+2009,zinc,E2 Metal en bruto/refinado,M,10751182.0
+2009,zinc,E2 Metal en bruto/refinado,X,375278535.0
+2009,zinc,E3 Semimanufacturas,M,16235427.0
+2009,zinc,E3 Semimanufacturas,X,2420267.0
+2009,zinc,E4 Manufacturas,M,24509393.0
+2009,zinc,E4 Manufacturas,X,19054215.0
+2010,barita,E1 Crudo/molido,M,11740693.0
+2010,barita,E1 Crudo/molido,X,1827686.0
+2010,barita,E2 Quimicos de bario,M,2690782.0
+2010,barita,E2 Quimicos de bario,X,58602.0
+2010,cobre,E1 Mena/concentrado,M,65824669.0
+2010,cobre,E1 Mena/concentrado,X,684848560.0
+2010,cobre,E2 Metal en bruto/refinado,M,774262960.0
+2010,cobre,E2 Metal en bruto/refinado,X,633539739.0
+2010,cobre,E3 Semimanufacturas,M,1623756551.0
+2010,cobre,E3 Semimanufacturas,X,586278000.0
+2010,cobre,E4 Manufacturas,M,322305060.0
+2010,cobre,E4 Manufacturas,X,146643411.0
+2010,fluorita,E1 Espato fluor (crudo),M,264070.0
+2010,fluorita,E1 Espato fluor (crudo),X,117263814.0
+2010,fluorita,E2 Fluoroquimica,M,29531913.0
+2010,fluorita,E2 Fluoroquimica,X,184318976.0
+2010,grafito,E1 Grafito natural,M,5942397.0
+2010,grafito,E1 Grafito natural,X,2947104.0
+2010,grafito,E2 Grafito artificial/prep.,M,17927966.0
+2010,grafito,E2 Grafito artificial/prep.,X,13450836.0
+2010,grafito,E3 Electrodos/articulos de carbono,M,142776116.0
+2010,grafito,E3 Electrodos/articulos de carbono,X,131480215.0
+2010,manganeso,E1 Mena/concentrado,M,52375782.0
+2010,manganeso,E1 Mena/concentrado,X,12943004.0
+2010,manganeso,E2 Ferroaleaciones,M,38871938.0
+2010,manganeso,E2 Ferroaleaciones,X,114921785.0
+2010,manganeso,E3 Quimicos/metal,M,7280708.0
+2010,manganeso,E3 Quimicos/metal,X,2305754.0
+2010,oro,E1 Mena/concentrado,M,51483903.0
+2010,oro,E1 Mena/concentrado,X,18554929.0
+2010,oro,E2 Bruto/semilabrado,M,173696224.0
+2010,oro,E2 Bruto/semilabrado,X,5753285176.0
+2010,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,537885550.0
+2010,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,626850851.0
+2010,plata,E1 Mena/concentrado,M,82440569.0
+2010,plata,E1 Mena/concentrado,X,57836501.0
+2010,plata,E2 Bruto/semilabrado,M,58797880.0
+2010,plata,E2 Bruto/semilabrado,X,2542827791.0
+2010,plomo,E1 Mena/concentrado,M,59226401.0
+2010,plomo,E1 Mena/concentrado,X,252462298.0
+2010,plomo,E2 Metal en bruto/refinado,M,55410578.0
+2010,plomo,E2 Metal en bruto/refinado,X,227650816.0
+2010,plomo,E3 Semimanufacturas,M,5100952.0
+2010,plomo,E3 Semimanufacturas,X,541526.0
+2010,plomo,E4 Manufacturas,M,12499775.0
+2010,plomo,E4 Manufacturas,X,19208890.0
+2010,silice,E1 Arena silica/cuarzo,M,75468158.0
+2010,silice,E1 Arena silica/cuarzo,X,1454082.0
+2010,silice,E2 Silicio/ferrosilicio/SiO2,M,147806890.0
+2010,silice,E2 Silicio/ferrosilicio/SiO2,X,3059973.0
+2010,zinc,E1 Mena/concentrado,M,7494504.0
+2010,zinc,E1 Mena/concentrado,X,328503291.0
+2010,zinc,E2 Metal en bruto/refinado,M,18930426.0
+2010,zinc,E2 Metal en bruto/refinado,X,456832840.0
+2010,zinc,E3 Semimanufacturas,M,26984644.0
+2010,zinc,E3 Semimanufacturas,X,5241474.0
+2010,zinc,E4 Manufacturas,M,38163717.0
+2010,zinc,E4 Manufacturas,X,15828589.0
+2011,barita,E1 Crudo/molido,M,18861108.0
+2011,barita,E1 Crudo/molido,X,4366662.0
+2011,barita,E2 Quimicos de bario,M,3145613.0
+2011,barita,E2 Quimicos de bario,X,13390.0
+2011,cobre,E1 Mena/concentrado,M,175159411.0
+2011,cobre,E1 Mena/concentrado,X,1170994128.0
+2011,cobre,E2 Metal en bruto/refinado,M,817970494.0
+2011,cobre,E2 Metal en bruto/refinado,X,1395991069.0
+2011,cobre,E3 Semimanufacturas,M,1922363460.0
+2011,cobre,E3 Semimanufacturas,X,689737347.0
+2011,cobre,E4 Manufacturas,M,330249620.0
+2011,cobre,E4 Manufacturas,X,147208350.0
+2011,fluorita,E1 Espato fluor (crudo),M,375736.0
+2011,fluorita,E1 Espato fluor (crudo),X,152988640.0
+2011,fluorita,E2 Fluoroquimica,M,28285189.0
+2011,fluorita,E2 Fluoroquimica,X,176693443.0
+2011,grafito,E1 Grafito natural,M,4451104.0
+2011,grafito,E1 Grafito natural,X,5648984.0
+2011,grafito,E2 Grafito artificial/prep.,M,26946947.0
+2011,grafito,E2 Grafito artificial/prep.,X,15799905.0
+2011,grafito,E3 Electrodos/articulos de carbono,M,125911258.0
+2011,grafito,E3 Electrodos/articulos de carbono,X,119905008.0
+2011,manganeso,E1 Mena/concentrado,M,32211311.0
+2011,manganeso,E1 Mena/concentrado,X,3948600.0
+2011,manganeso,E2 Ferroaleaciones,M,68230989.0
+2011,manganeso,E2 Ferroaleaciones,X,100540800.0
+2011,manganeso,E3 Quimicos/metal,M,6619265.0
+2011,manganeso,E3 Quimicos/metal,X,1553177.0
+2011,oro,E1 Mena/concentrado,M,25527362.0
+2011,oro,E1 Mena/concentrado,X,151638195.0
+2011,oro,E2 Bruto/semilabrado,M,212839764.0
+2011,oro,E2 Bruto/semilabrado,X,7721008673.0
+2011,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,557956528.0
+2011,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,614406830.0
+2011,plata,E1 Mena/concentrado,M,118244332.0
+2011,plata,E1 Mena/concentrado,X,109669779.0
+2011,plata,E2 Bruto/semilabrado,M,120273346.0
+2011,plata,E2 Bruto/semilabrado,X,4514898646.0
+2011,plomo,E1 Mena/concentrado,M,124363837.0
+2011,plomo,E1 Mena/concentrado,X,927940559.0
+2011,plomo,E2 Metal en bruto/refinado,M,27419685.0
+2011,plomo,E2 Metal en bruto/refinado,X,306845787.0
+2011,plomo,E3 Semimanufacturas,M,5013081.0
+2011,plomo,E3 Semimanufacturas,X,1019152.0
+2011,plomo,E4 Manufacturas,M,15909534.0
+2011,plomo,E4 Manufacturas,X,17614810.0
+2011,silice,E1 Arena silica/cuarzo,M,94456467.0
+2011,silice,E1 Arena silica/cuarzo,X,1665762.0
+2011,silice,E2 Silicio/ferrosilicio/SiO2,M,180350573.0
+2011,silice,E2 Silicio/ferrosilicio/SiO2,X,4849218.0
+2011,zinc,E1 Mena/concentrado,M,23723165.0
+2011,zinc,E1 Mena/concentrado,X,441759771.0
+2011,zinc,E2 Metal en bruto/refinado,M,36097854.0
+2011,zinc,E2 Metal en bruto/refinado,X,464607937.0
+2011,zinc,E3 Semimanufacturas,M,36014153.0
+2011,zinc,E3 Semimanufacturas,X,8537576.0
+2011,zinc,E4 Manufacturas,M,45940325.0
+2011,zinc,E4 Manufacturas,X,18168388.0
+2012,barita,E1 Crudo/molido,M,23800033.0
+2012,barita,E1 Crudo/molido,X,12563124.0
+2012,barita,E2 Quimicos de bario,M,3132242.0
+2012,barita,E2 Quimicos de bario,X,208.0
+2012,cobre,E1 Mena/concentrado,M,271081215.0
+2012,cobre,E1 Mena/concentrado,X,1362964233.0
+2012,cobre,E2 Metal en bruto/refinado,M,643725879.0
+2012,cobre,E2 Metal en bruto/refinado,X,1173766546.0
+2012,cobre,E3 Semimanufacturas,M,1796126178.0
+2012,cobre,E3 Semimanufacturas,X,657836493.0
+2012,cobre,E4 Manufacturas,M,331688723.0
+2012,cobre,E4 Manufacturas,X,50515727.0
+2012,fluorita,E1 Espato fluor (crudo),M,150722.0
+2012,fluorita,E1 Espato fluor (crudo),X,207835946.0
+2012,fluorita,E2 Fluoroquimica,M,35642020.0
+2012,fluorita,E2 Fluoroquimica,X,244261432.0
+2012,grafito,E1 Grafito natural,M,5182543.0
+2012,grafito,E1 Grafito natural,X,7342268.0
+2012,grafito,E2 Grafito artificial/prep.,M,28527042.0
+2012,grafito,E2 Grafito artificial/prep.,X,22915790.0
+2012,grafito,E3 Electrodos/articulos de carbono,M,120308617.0
+2012,grafito,E3 Electrodos/articulos de carbono,X,119836696.0
+2012,manganeso,E1 Mena/concentrado,M,34912180.0
+2012,manganeso,E1 Mena/concentrado,X,3592455.0
+2012,manganeso,E2 Ferroaleaciones,M,34761081.0
+2012,manganeso,E2 Ferroaleaciones,X,84064418.0
+2012,manganeso,E3 Quimicos/metal,M,8745110.0
+2012,manganeso,E3 Quimicos/metal,X,1849397.0
+2012,oro,E1 Mena/concentrado,M,26718.0
+2012,oro,E1 Mena/concentrado,X,170876680.0
+2012,oro,E2 Bruto/semilabrado,M,170333625.0
+2012,oro,E2 Bruto/semilabrado,X,7974076269.0
+2012,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,551473361.0
+2012,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,528572883.0
+2012,plata,E1 Mena/concentrado,M,74758538.0
+2012,plata,E1 Mena/concentrado,X,36011593.0
+2012,plata,E2 Bruto/semilabrado,M,96015571.0
+2012,plata,E2 Bruto/semilabrado,X,4269669360.0
+2012,plomo,E1 Mena/concentrado,M,35653192.0
+2012,plomo,E1 Mena/concentrado,X,1556786147.0
+2012,plomo,E2 Metal en bruto/refinado,M,34908996.0
+2012,plomo,E2 Metal en bruto/refinado,X,217052892.0
+2012,plomo,E3 Semimanufacturas,M,3930133.0
+2012,plomo,E3 Semimanufacturas,X,1002613.0
+2012,plomo,E4 Manufacturas,M,16431335.0
+2012,plomo,E4 Manufacturas,X,7840881.0
+2012,silice,E1 Arena silica/cuarzo,M,93524659.0
+2012,silice,E1 Arena silica/cuarzo,X,1047996.0
+2012,silice,E2 Silicio/ferrosilicio/SiO2,M,206368451.0
+2012,silice,E2 Silicio/ferrosilicio/SiO2,X,4650019.0
+2012,zinc,E1 Mena/concentrado,M,14761826.0
+2012,zinc,E1 Mena/concentrado,X,499961383.0
+2012,zinc,E2 Metal en bruto/refinado,M,39132421.0
+2012,zinc,E2 Metal en bruto/refinado,X,387819946.0
+2012,zinc,E3 Semimanufacturas,M,29575433.0
+2012,zinc,E3 Semimanufacturas,X,8473968.0
+2012,zinc,E4 Manufacturas,M,51229874.0
+2012,zinc,E4 Manufacturas,X,19460506.0
+2013,barita,E1 Crudo/molido,M,14289184.0
+2013,barita,E1 Crudo/molido,X,28863901.0
+2013,barita,E2 Quimicos de bario,M,3436040.0
+2013,barita,E2 Quimicos de bario,X,5247.0
+2013,cobre,E1 Mena/concentrado,M,195992835.0
+2013,cobre,E1 Mena/concentrado,X,1486416565.0
+2013,cobre,E2 Metal en bruto/refinado,M,570170762.0
+2013,cobre,E2 Metal en bruto/refinado,X,686240869.0
+2013,cobre,E3 Semimanufacturas,M,1841421483.0
+2013,cobre,E3 Semimanufacturas,X,651056794.0
+2013,cobre,E4 Manufacturas,M,348973664.0
+2013,cobre,E4 Manufacturas,X,46582968.0
+2013,fluorita,E1 Espato fluor (crudo),M,162622.0
+2013,fluorita,E1 Espato fluor (crudo),X,164211292.0
+2013,fluorita,E2 Fluoroquimica,M,36514196.0
+2013,fluorita,E2 Fluoroquimica,X,212052468.0
+2013,grafito,E1 Grafito natural,M,5372411.0
+2013,grafito,E1 Grafito natural,X,7102214.0
+2013,grafito,E2 Grafito artificial/prep.,M,27474014.0
+2013,grafito,E2 Grafito artificial/prep.,X,26682474.0
+2013,grafito,E3 Electrodos/articulos de carbono,M,95913754.0
+2013,grafito,E3 Electrodos/articulos de carbono,X,111952011.0
+2013,manganeso,E1 Mena/concentrado,M,10853699.0
+2013,manganeso,E1 Mena/concentrado,X,11065299.0
+2013,manganeso,E2 Ferroaleaciones,M,25236681.0
+2013,manganeso,E2 Ferroaleaciones,X,51491781.0
+2013,manganeso,E3 Quimicos/metal,M,10295345.0
+2013,manganeso,E3 Quimicos/metal,X,2617203.0
+2013,oro,E1 Mena/concentrado,M,8140.0
+2013,oro,E1 Mena/concentrado,X,228701307.0
+2013,oro,E2 Bruto/semilabrado,M,140882683.0
+2013,oro,E2 Bruto/semilabrado,X,5816271418.0
+2013,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,555608589.0
+2013,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,510580647.0
+2013,plata,E1 Mena/concentrado,M,18798012.0
+2013,plata,E1 Mena/concentrado,X,2274437.0
+2013,plata,E2 Bruto/semilabrado,M,150369731.0
+2013,plata,E2 Bruto/semilabrado,X,3121139286.0
+2013,plomo,E1 Mena/concentrado,M,45778831.0
+2013,plomo,E1 Mena/concentrado,X,1119233415.0
+2013,plomo,E2 Metal en bruto/refinado,M,42123814.0
+2013,plomo,E2 Metal en bruto/refinado,X,232936591.0
+2013,plomo,E3 Semimanufacturas,M,4387823.0
+2013,plomo,E3 Semimanufacturas,X,50814.0
+2013,plomo,E4 Manufacturas,M,17063731.0
+2013,plomo,E4 Manufacturas,X,11744015.0
+2013,silice,E1 Arena silica/cuarzo,M,93755773.0
+2013,silice,E1 Arena silica/cuarzo,X,2163162.0
+2013,silice,E2 Silicio/ferrosilicio/SiO2,M,189922819.0
+2013,silice,E2 Silicio/ferrosilicio/SiO2,X,5835147.0
+2013,zinc,E1 Mena/concentrado,M,11159583.0
+2013,zinc,E1 Mena/concentrado,X,409476638.0
+2013,zinc,E2 Metal en bruto/refinado,M,37028728.0
+2013,zinc,E2 Metal en bruto/refinado,X,376631319.0
+2013,zinc,E3 Semimanufacturas,M,58888752.0
+2013,zinc,E3 Semimanufacturas,X,6378431.0
+2013,zinc,E4 Manufacturas,M,55223531.0
+2013,zinc,E4 Manufacturas,X,19171217.0
+2014,barita,E1 Crudo/molido,M,15052174.0
+2014,barita,E2 Quimicos de bario,M,2743143.0
+2014,cobre,E1 Mena/concentrado,M,72372802.0
+2014,cobre,E1 Mena/concentrado,X,1170641398.0
+2014,cobre,E2 Metal en bruto/refinado,M,580509855.0
+2014,cobre,E2 Metal en bruto/refinado,X,801954537.0
+2014,cobre,E3 Semimanufacturas,M,1899632807.0
+2014,cobre,E3 Semimanufacturas,X,578809007.0
+2014,cobre,E4 Manufacturas,M,348660405.0
+2014,cobre,E4 Manufacturas,X,74317651.0
+2014,fluorita,E1 Espato fluor (crudo),M,86828.0
+2014,fluorita,E1 Espato fluor (crudo),X,69212880.0
+2014,fluorita,E2 Fluoroquimica,M,29985153.0
+2014,fluorita,E2 Fluoroquimica,X,186979883.0
+2014,grafito,E1 Grafito natural,M,3980528.0
+2014,grafito,E1 Grafito natural,X,7256629.0
+2014,grafito,E2 Grafito artificial/prep.,M,32093022.0
+2014,grafito,E2 Grafito artificial/prep.,X,48800122.0
+2014,grafito,E3 Electrodos/articulos de carbono,M,93625513.0
+2014,grafito,E3 Electrodos/articulos de carbono,X,109462664.0
+2014,manganeso,E1 Mena/concentrado,M,49782.0
+2014,manganeso,E1 Mena/concentrado,X,81079.0
+2014,manganeso,E2 Ferroaleaciones,M,12809455.0
+2014,manganeso,E3 Quimicos/metal,M,16970485.0
+2014,manganeso,E3 Quimicos/metal,X,1179788.0
+2014,oro,E1 Mena/concentrado,M,10107.0
+2014,oro,E1 Mena/concentrado,X,123028351.0
+2014,oro,E2 Bruto/semilabrado,M,83831607.0
+2014,oro,E2 Bruto/semilabrado,X,3439635835.0
+2014,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,688401424.0
+2014,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,583564487.0
+2014,plata,E1 Mena/concentrado,M,1748125.0
+2014,plata,E1 Mena/concentrado,X,935178.0
+2014,plata,E2 Bruto/semilabrado,M,132186041.0
+2014,plata,E2 Bruto/semilabrado,X,2221300717.0
+2014,plomo,E1 Mena/concentrado,M,11561780.0
+2014,plomo,E1 Mena/concentrado,X,1162916141.0
+2014,plomo,E2 Metal en bruto/refinado,M,39387386.0
+2014,plomo,E2 Metal en bruto/refinado,X,146807743.0
+2014,plomo,E4 Manufacturas,M,5956647.0
+2014,plomo,E4 Manufacturas,X,2384658.0
+2014,silice,E1 Arena silica/cuarzo,M,103118227.0
+2014,silice,E1 Arena silica/cuarzo,X,1977476.0
+2014,silice,E2 Silicio/ferrosilicio/SiO2,M,192968718.0
+2014,silice,E2 Silicio/ferrosilicio/SiO2,X,4335048.0
+2014,zinc,E1 Mena/concentrado,M,365.0
+2014,zinc,E1 Mena/concentrado,X,309233960.0
+2014,zinc,E2 Metal en bruto/refinado,M,36467236.0
+2014,zinc,E2 Metal en bruto/refinado,X,248728844.0
+2014,zinc,E3 Semimanufacturas,M,79875690.0
+2014,zinc,E3 Semimanufacturas,X,4250412.0
+2014,zinc,E4 Manufacturas,M,61847538.0
+2014,zinc,E4 Manufacturas,X,17071879.0
+2015,barita,E1 Crudo/molido,M,11869579.0
+2015,barita,E1 Crudo/molido,X,1595323.0
+2015,barita,E2 Quimicos de bario,M,4064525.0
+2015,barita,E2 Quimicos de bario,X,0.0
+2015,cobre,E1 Mena/concentrado,M,79571708.0
+2015,cobre,E1 Mena/concentrado,X,933983883.0
+2015,cobre,E2 Metal en bruto/refinado,M,521537971.0
+2015,cobre,E2 Metal en bruto/refinado,X,727229420.0
+2015,cobre,E3 Semimanufacturas,M,1804060147.0
+2015,cobre,E3 Semimanufacturas,X,505836887.0
+2015,cobre,E4 Manufacturas,M,339599551.0
+2015,cobre,E4 Manufacturas,X,53044708.0
+2015,fluorita,E1 Espato fluor (crudo),M,91308.0
+2015,fluorita,E1 Espato fluor (crudo),X,59599502.0
+2015,fluorita,E2 Fluoroquimica,M,29375593.0
+2015,fluorita,E2 Fluoroquimica,X,182427511.0
+2015,grafito,E1 Grafito natural,M,3819388.0
+2015,grafito,E1 Grafito natural,X,102168.0
+2015,grafito,E2 Grafito artificial/prep.,M,25997286.0
+2015,grafito,E2 Grafito artificial/prep.,X,27117314.0
+2015,grafito,E3 Electrodos/articulos de carbono,M,86603082.0
+2015,grafito,E3 Electrodos/articulos de carbono,X,79721767.0
+2015,manganeso,E1 Mena/concentrado,M,13687005.0
+2015,manganeso,E1 Mena/concentrado,X,0.0
+2015,manganeso,E2 Ferroaleaciones,M,6280428.0
+2015,manganeso,E2 Ferroaleaciones,X,9092986.0
+2015,manganeso,E3 Quimicos/metal,M,11003004.0
+2015,manganeso,E3 Quimicos/metal,X,1794022.0
+2015,oro,E1 Mena/concentrado,M,5396.0
+2015,oro,E1 Mena/concentrado,X,271995011.0
+2015,oro,E2 Bruto/semilabrado,M,176632602.0
+2015,oro,E2 Bruto/semilabrado,X,2872369467.0
+2015,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,696050390.0
+2015,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,602373143.0
+2015,plata,E1 Mena/concentrado,M,2719.0
+2015,plata,E1 Mena/concentrado,X,4428927.0
+2015,plata,E2 Bruto/semilabrado,M,78763755.0
+2015,plata,E2 Bruto/semilabrado,X,1854205755.0
+2015,plomo,E1 Mena/concentrado,M,19654172.0
+2015,plomo,E1 Mena/concentrado,X,893177730.0
+2015,plomo,E2 Metal en bruto/refinado,M,34652673.0
+2015,plomo,E2 Metal en bruto/refinado,X,166257785.0
+2015,plomo,E3 Semimanufacturas,M,0.0
+2015,plomo,E3 Semimanufacturas,X,132295.0
+2015,plomo,E4 Manufacturas,M,7122679.0
+2015,plomo,E4 Manufacturas,X,1949557.0
+2015,silice,E1 Arena silica/cuarzo,M,66621984.0
+2015,silice,E1 Arena silica/cuarzo,X,2315668.0
+2015,silice,E2 Silicio/ferrosilicio/SiO2,M,212679881.0
+2015,silice,E2 Silicio/ferrosilicio/SiO2,X,5472738.0
+2015,zinc,E1 Mena/concentrado,M,3175749.0
+2015,zinc,E1 Mena/concentrado,X,365685096.0
+2015,zinc,E2 Metal en bruto/refinado,M,40010130.0
+2015,zinc,E2 Metal en bruto/refinado,X,263224660.0
+2015,zinc,E3 Semimanufacturas,M,41284254.0
+2015,zinc,E3 Semimanufacturas,X,2498986.0
+2015,zinc,E4 Manufacturas,M,63625654.0
+2015,zinc,E4 Manufacturas,X,15449208.0
+2016,barita,E1 Crudo/molido,M,1870242.0
+2016,barita,E1 Crudo/molido,X,0.0
+2016,barita,E2 Quimicos de bario,M,2512718.0
+2016,barita,E2 Quimicos de bario,X,0.0
+2016,cobre,E1 Mena/concentrado,M,131899433.0
+2016,cobre,E1 Mena/concentrado,X,1323559500.0
+2016,cobre,E2 Metal en bruto/refinado,M,544439957.0
+2016,cobre,E2 Metal en bruto/refinado,X,849212300.0
+2016,cobre,E3 Semimanufacturas,M,1615400657.0
+2016,cobre,E3 Semimanufacturas,X,439471037.0
+2016,cobre,E4 Manufacturas,M,329722817.0
+2016,cobre,E4 Manufacturas,X,58244998.0
+2016,fluorita,E1 Espato fluor (crudo),M,88162.0
+2016,fluorita,E1 Espato fluor (crudo),X,62572145.0
+2016,fluorita,E2 Fluoroquimica,M,31373703.0
+2016,fluorita,E2 Fluoroquimica,X,170727897.0
+2016,grafito,E1 Grafito natural,M,2645553.0
+2016,grafito,E1 Grafito natural,X,3889142.0
+2016,grafito,E2 Grafito artificial/prep.,M,25385642.0
+2016,grafito,E2 Grafito artificial/prep.,X,29900022.0
+2016,grafito,E3 Electrodos/articulos de carbono,M,77598064.0
+2016,grafito,E3 Electrodos/articulos de carbono,X,60943822.0
+2016,manganeso,E1 Mena/concentrado,M,11562621.0
+2016,manganeso,E1 Mena/concentrado,X,0.0
+2016,manganeso,E2 Ferroaleaciones,M,16343053.0
+2016,manganeso,E2 Ferroaleaciones,X,33549583.0
+2016,manganeso,E3 Quimicos/metal,M,10951881.0
+2016,manganeso,E3 Quimicos/metal,X,904551.0
+2016,oro,E1 Mena/concentrado,M,26.0
+2016,oro,E1 Mena/concentrado,X,248450033.0
+2016,oro,E2 Bruto/semilabrado,M,146370633.0
+2016,oro,E2 Bruto/semilabrado,X,3239243110.0
+2016,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,506342288.0
+2016,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,431545958.0
+2016,plata,E1 Mena/concentrado,M,5836.0
+2016,plata,E1 Mena/concentrado,X,25474960.0
+2016,plata,E2 Bruto/semilabrado,M,67779605.0
+2016,plata,E2 Bruto/semilabrado,X,1881367958.0
+2016,plomo,E1 Mena/concentrado,M,16344571.0
+2016,plomo,E1 Mena/concentrado,X,780501188.0
+2016,plomo,E2 Metal en bruto/refinado,M,41185464.0
+2016,plomo,E2 Metal en bruto/refinado,X,120293116.0
+2016,plomo,E3 Semimanufacturas,M,0.0
+2016,plomo,E3 Semimanufacturas,X,1065391.0
+2016,plomo,E4 Manufacturas,M,13653640.0
+2016,plomo,E4 Manufacturas,X,2817684.0
+2016,silice,E1 Arena silica/cuarzo,M,62535076.0
+2016,silice,E1 Arena silica/cuarzo,X,1864350.0
+2016,silice,E2 Silicio/ferrosilicio/SiO2,M,199757518.0
+2016,silice,E2 Silicio/ferrosilicio/SiO2,X,5166174.0
+2016,zinc,E1 Mena/concentrado,M,223633.0
+2016,zinc,E1 Mena/concentrado,X,564250705.0
+2016,zinc,E2 Metal en bruto/refinado,M,70221667.0
+2016,zinc,E2 Metal en bruto/refinado,X,199503651.0
+2016,zinc,E3 Semimanufacturas,M,40460111.0
+2016,zinc,E3 Semimanufacturas,X,763102.0
+2016,zinc,E4 Manufacturas,M,63308575.0
+2016,zinc,E4 Manufacturas,X,15652596.0
+2017,barita,E1 Crudo/molido,M,0.0
+2017,barita,E1 Crudo/molido,X,0.0
+2017,barita,E2 Quimicos de bario,M,3296871.0
+2017,barita,E2 Quimicos de bario,X,27260.0
+2017,cobre,E1 Mena/concentrado,M,202968540.0
+2017,cobre,E1 Mena/concentrado,X,1568943333.0
+2017,cobre,E2 Metal en bruto/refinado,M,709165802.0
+2017,cobre,E2 Metal en bruto/refinado,X,880701469.0
+2017,cobre,E3 Semimanufacturas,M,1852285355.0
+2017,cobre,E3 Semimanufacturas,X,456944268.0
+2017,cobre,E4 Manufacturas,M,345524237.0
+2017,cobre,E4 Manufacturas,X,71863309.0
+2017,fluorita,E1 Espato fluor (crudo),M,112831.0
+2017,fluorita,E1 Espato fluor (crudo),X,71003890.0
+2017,fluorita,E2 Fluoroquimica,M,39618086.0
+2017,fluorita,E2 Fluoroquimica,X,159772884.0
+2017,grafito,E1 Grafito natural,M,2372290.0
+2017,grafito,E1 Grafito natural,X,5527568.0
+2017,grafito,E2 Grafito artificial/prep.,M,30467825.0
+2017,grafito,E2 Grafito artificial/prep.,X,7126988.0
+2017,grafito,E3 Electrodos/articulos de carbono,M,98095042.0
+2017,grafito,E3 Electrodos/articulos de carbono,X,82925863.0
+2017,manganeso,E1 Mena/concentrado,M,13373540.0
+2017,manganeso,E1 Mena/concentrado,X,0.0
+2017,manganeso,E2 Ferroaleaciones,M,1105918.0
+2017,manganeso,E2 Ferroaleaciones,X,43493136.0
+2017,manganeso,E3 Quimicos/metal,M,12531958.0
+2017,manganeso,E3 Quimicos/metal,X,1472630.0
+2017,oro,E1 Mena/concentrado,M,6100.0
+2017,oro,E1 Mena/concentrado,X,324859161.0
+2017,oro,E2 Bruto/semilabrado,M,99519567.0
+2017,oro,E2 Bruto/semilabrado,X,3221237216.0
+2017,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,440057843.0
+2017,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,302267048.0
+2017,plata,E1 Mena/concentrado,M,244266.0
+2017,plata,E1 Mena/concentrado,X,35742289.0
+2017,plata,E2 Bruto/semilabrado,M,73737863.0
+2017,plata,E2 Bruto/semilabrado,X,1820093056.0
+2017,plomo,E1 Mena/concentrado,M,39520177.0
+2017,plomo,E1 Mena/concentrado,X,978705634.0
+2017,plomo,E2 Metal en bruto/refinado,M,46311606.0
+2017,plomo,E2 Metal en bruto/refinado,X,189087197.0
+2017,plomo,E3 Semimanufacturas,M,0.0
+2017,plomo,E3 Semimanufacturas,X,789774.0
+2017,plomo,E4 Manufacturas,M,8173859.0
+2017,plomo,E4 Manufacturas,X,1504115.0
+2017,silice,E1 Arena silica/cuarzo,M,92334106.0
+2017,silice,E1 Arena silica/cuarzo,X,1916205.0
+2017,silice,E2 Silicio/ferrosilicio/SiO2,M,222884956.0
+2017,silice,E2 Silicio/ferrosilicio/SiO2,X,5121738.0
+2017,zinc,E1 Mena/concentrado,M,13554993.0
+2017,zinc,E1 Mena/concentrado,X,640110077.0
+2017,zinc,E2 Metal en bruto/refinado,M,55451923.0
+2017,zinc,E2 Metal en bruto/refinado,X,289562676.0
+2017,zinc,E3 Semimanufacturas,M,49545064.0
+2017,zinc,E3 Semimanufacturas,X,1741515.0
+2017,zinc,E4 Manufacturas,M,60531762.0
+2017,zinc,E4 Manufacturas,X,17520702.0
+2018,barita,E1 Crudo/molido,M,0.0
+2018,barita,E1 Crudo/molido,X,0.0
+2018,barita,E2 Quimicos de bario,M,4347703.0
+2018,barita,E2 Quimicos de bario,X,0.0
+2018,cobre,E1 Mena/concentrado,M,529371003.0
+2018,cobre,E1 Mena/concentrado,X,2318095785.0
+2018,cobre,E2 Metal en bruto/refinado,M,881905570.0
+2018,cobre,E2 Metal en bruto/refinado,X,903281960.0
+2018,cobre,E3 Semimanufacturas,M,2019301355.0
+2018,cobre,E3 Semimanufacturas,X,515022778.0
+2018,cobre,E4 Manufacturas,M,407010351.0
+2018,cobre,E4 Manufacturas,X,57368602.0
+2018,fluorita,E1 Espato fluor (crudo),M,122086.0
+2018,fluorita,E1 Espato fluor (crudo),X,73420659.0
+2018,fluorita,E2 Fluoroquimica,M,49309108.0
+2018,fluorita,E2 Fluoroquimica,X,162083915.0
+2018,grafito,E1 Grafito natural,M,3733179.0
+2018,grafito,E1 Grafito natural,X,5558473.0
+2018,grafito,E2 Grafito artificial/prep.,M,38518509.0
+2018,grafito,E2 Grafito artificial/prep.,X,31848785.0
+2018,grafito,E3 Electrodos/articulos de carbono,M,339596286.0
+2018,grafito,E3 Electrodos/articulos de carbono,X,156500823.0
+2018,manganeso,E1 Mena/concentrado,M,40295389.0
+2018,manganeso,E1 Mena/concentrado,X,0.0
+2018,manganeso,E2 Ferroaleaciones,M,3576624.0
+2018,manganeso,E2 Ferroaleaciones,X,41067892.0
+2018,manganeso,E3 Quimicos/metal,M,14342489.0
+2018,manganeso,E3 Quimicos/metal,X,1055454.0
+2018,oro,E1 Mena/concentrado,M,0.0
+2018,oro,E1 Mena/concentrado,X,181351369.0
+2018,oro,E2 Bruto/semilabrado,M,140327330.0
+2018,oro,E2 Bruto/semilabrado,X,3201011359.0
+2018,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,504147073.0
+2018,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,353650296.0
+2018,plata,E1 Mena/concentrado,M,225818.0
+2018,plata,E1 Mena/concentrado,X,36656445.0
+2018,plata,E2 Bruto/semilabrado,M,86360400.0
+2018,plata,E2 Bruto/semilabrado,X,1672071037.0
+2018,plomo,E1 Mena/concentrado,M,59846274.0
+2018,plomo,E1 Mena/concentrado,X,770645599.0
+2018,plomo,E2 Metal en bruto/refinado,M,41419479.0
+2018,plomo,E2 Metal en bruto/refinado,X,212767132.0
+2018,plomo,E3 Semimanufacturas,M,0.0
+2018,plomo,E3 Semimanufacturas,X,343471.0
+2018,plomo,E4 Manufacturas,M,8112175.0
+2018,plomo,E4 Manufacturas,X,990322.0
+2018,silice,E1 Arena silica/cuarzo,M,82996662.0
+2018,silice,E1 Arena silica/cuarzo,X,1977646.0
+2018,silice,E2 Silicio/ferrosilicio/SiO2,M,266925595.0
+2018,silice,E2 Silicio/ferrosilicio/SiO2,X,6723754.0
+2018,zinc,E1 Mena/concentrado,M,35979309.0
+2018,zinc,E1 Mena/concentrado,X,795496776.0
+2018,zinc,E2 Metal en bruto/refinado,M,63439674.0
+2018,zinc,E2 Metal en bruto/refinado,X,421209847.0
+2018,zinc,E3 Semimanufacturas,M,63049260.0
+2018,zinc,E3 Semimanufacturas,X,3119267.0
+2018,zinc,E4 Manufacturas,M,68318160.0
+2018,zinc,E4 Manufacturas,X,15428635.0
+2019,barita,E1 Crudo/molido,M,0.0
+2019,barita,E1 Crudo/molido,X,0.0
+2019,barita,E2 Quimicos de bario,M,4154051.0
+2019,barita,E2 Quimicos de bario,X,0.0
+2019,cobre,E1 Mena/concentrado,M,780369161.0
+2019,cobre,E1 Mena/concentrado,X,2339268612.0
+2019,cobre,E2 Metal en bruto/refinado,M,869535577.0
+2019,cobre,E2 Metal en bruto/refinado,X,796430490.0
+2019,cobre,E3 Semimanufacturas,M,1833340059.0
+2019,cobre,E3 Semimanufacturas,X,488807777.0
+2019,cobre,E4 Manufacturas,M,385132787.0
+2019,cobre,E4 Manufacturas,X,61529228.0
+2019,fluorita,E1 Espato fluor (crudo),M,20658.0
+2019,fluorita,E1 Espato fluor (crudo),X,107197953.0
+2019,fluorita,E2 Fluoroquimica,M,46872930.0
+2019,fluorita,E2 Fluoroquimica,X,179912949.0
+2019,grafito,E1 Grafito natural,M,3030676.0
+2019,grafito,E1 Grafito natural,X,0.0
+2019,grafito,E2 Grafito artificial/prep.,M,48350059.0
+2019,grafito,E2 Grafito artificial/prep.,X,56520991.0
+2019,grafito,E3 Electrodos/articulos de carbono,M,210434995.0
+2019,grafito,E3 Electrodos/articulos de carbono,X,166748311.0
+2019,manganeso,E1 Mena/concentrado,M,30606114.0
+2019,manganeso,E1 Mena/concentrado,X,0.0
+2019,manganeso,E2 Ferroaleaciones,M,3004341.0
+2019,manganeso,E2 Ferroaleaciones,X,45973453.0
+2019,manganeso,E3 Quimicos/metal,M,14740410.0
+2019,manganeso,E3 Quimicos/metal,X,0.0
+2019,oro,E1 Mena/concentrado,M,0.0
+2019,oro,E1 Mena/concentrado,X,217719396.0
+2019,oro,E2 Bruto/semilabrado,M,125837047.0
+2019,oro,E2 Bruto/semilabrado,X,3268151039.0
+2019,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,505348329.0
+2019,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,311536967.0
+2019,plata,E1 Mena/concentrado,M,4712.0
+2019,plata,E1 Mena/concentrado,X,31927356.0
+2019,plata,E2 Bruto/semilabrado,M,92438614.0
+2019,plata,E2 Bruto/semilabrado,X,1881640521.0
+2019,plomo,E1 Mena/concentrado,M,53017207.0
+2019,plomo,E1 Mena/concentrado,X,739121732.0
+2019,plomo,E2 Metal en bruto/refinado,M,33490361.0
+2019,plomo,E2 Metal en bruto/refinado,X,190220069.0
+2019,plomo,E3 Semimanufacturas,M,0.0
+2019,plomo,E3 Semimanufacturas,X,1169084.0
+2019,plomo,E4 Manufacturas,M,7354441.0
+2019,plomo,E4 Manufacturas,X,878243.0
+2019,silice,E1 Arena silica/cuarzo,M,78459709.0
+2019,silice,E1 Arena silica/cuarzo,X,1588593.0
+2019,silice,E2 Silicio/ferrosilicio/SiO2,M,229280208.0
+2019,silice,E2 Silicio/ferrosilicio/SiO2,X,7791711.0
+2019,zinc,E1 Mena/concentrado,M,32297975.0
+2019,zinc,E1 Mena/concentrado,X,655723459.0
+2019,zinc,E2 Metal en bruto/refinado,M,51957113.0
+2019,zinc,E2 Metal en bruto/refinado,X,372975923.0
+2019,zinc,E3 Semimanufacturas,M,55197046.0
+2019,zinc,E3 Semimanufacturas,X,1710494.0
+2019,zinc,E4 Manufacturas,M,70612488.0
+2019,zinc,E4 Manufacturas,X,15357548.0
+2020,barita,E1 Crudo/molido,M,898377.0
+2020,barita,E1 Crudo/molido,X,0.0
+2020,barita,E2 Quimicos de bario,M,2480157.0
+2020,barita,E2 Quimicos de bario,X,0.0
+2020,cobre,E1 Mena/concentrado,M,1132333334.0
+2020,cobre,E1 Mena/concentrado,X,2878626776.0
+2020,cobre,E2 Metal en bruto/refinado,M,828881738.0
+2020,cobre,E2 Metal en bruto/refinado,X,813642511.0
+2020,cobre,E3 Semimanufacturas,M,1441095349.0
+2020,cobre,E3 Semimanufacturas,X,461341926.0
+2020,cobre,E4 Manufacturas,M,315959308.0
+2020,cobre,E4 Manufacturas,X,53887119.0
+2020,fluorita,E1 Espato fluor (crudo),M,88512.0
+2020,fluorita,E1 Espato fluor (crudo),X,77026577.0
+2020,fluorita,E2 Fluoroquimica,M,31201273.0
+2020,fluorita,E2 Fluoroquimica,X,144847687.0
+2020,grafito,E1 Grafito natural,M,2431212.0
+2020,grafito,E1 Grafito natural,X,0.0
+2020,grafito,E2 Grafito artificial/prep.,M,39306796.0
+2020,grafito,E2 Grafito artificial/prep.,X,45267805.0
+2020,grafito,E3 Electrodos/articulos de carbono,M,109660246.0
+2020,grafito,E3 Electrodos/articulos de carbono,X,108307232.0
+2020,manganeso,E1 Mena/concentrado,M,10640285.0
+2020,manganeso,E1 Mena/concentrado,X,0.0
+2020,manganeso,E2 Ferroaleaciones,M,1962726.0
+2020,manganeso,E2 Ferroaleaciones,X,20023807.0
+2020,manganeso,E3 Quimicos/metal,M,8597925.0
+2020,manganeso,E3 Quimicos/metal,X,0.0
+2020,oro,E1 Mena/concentrado,M,0.0
+2020,oro,E1 Mena/concentrado,X,321417297.0
+2020,oro,E2 Bruto/semilabrado,M,102059665.0
+2020,oro,E2 Bruto/semilabrado,X,3488850587.0
+2020,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,312791730.0
+2020,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,262580578.0
+2020,plata,E1 Mena/concentrado,M,0.0
+2020,plata,E1 Mena/concentrado,X,146951579.0
+2020,plata,E2 Bruto/semilabrado,M,84417579.0
+2020,plata,E2 Bruto/semilabrado,X,2155928215.0
+2020,plomo,E1 Mena/concentrado,M,25062021.0
+2020,plomo,E1 Mena/concentrado,X,1482644734.0
+2020,plomo,E2 Metal en bruto/refinado,M,31820608.0
+2020,plomo,E2 Metal en bruto/refinado,X,157430330.0
+2020,plomo,E3 Semimanufacturas,M,0.0
+2020,plomo,E3 Semimanufacturas,X,283760.0
+2020,plomo,E4 Manufacturas,M,6802521.0
+2020,plomo,E4 Manufacturas,X,1014870.0
+2020,silice,E1 Arena silica/cuarzo,M,43823853.0
+2020,silice,E1 Arena silica/cuarzo,X,1391684.0
+2020,silice,E2 Silicio/ferrosilicio/SiO2,M,184682777.0
+2020,silice,E2 Silicio/ferrosilicio/SiO2,X,7400256.0
+2020,zinc,E1 Mena/concentrado,M,58476613.0
+2020,zinc,E1 Mena/concentrado,X,646136225.0
+2020,zinc,E2 Metal en bruto/refinado,M,33227518.0
+2020,zinc,E2 Metal en bruto/refinado,X,337374838.0
+2020,zinc,E3 Semimanufacturas,M,51941401.0
+2020,zinc,E3 Semimanufacturas,X,2642365.0
+2020,zinc,E4 Manufacturas,M,66021404.0
+2020,zinc,E4 Manufacturas,X,8221681.0
+2021,barita,E1 Crudo/molido,M,2054187.0
+2021,barita,E1 Crudo/molido,X,19124233.0
+2021,barita,E2 Quimicos de bario,M,5062044.0
+2021,barita,E2 Quimicos de bario,X,0.0
+2021,cobre,E1 Mena/concentrado,M,404006811.0
+2021,cobre,E1 Mena/concentrado,X,3420948513.0
+2021,cobre,E2 Metal en bruto/refinado,M,1631520548.0
+2021,cobre,E2 Metal en bruto/refinado,X,966254109.0
+2021,cobre,E3 Semimanufacturas,M,2165544665.0
+2021,cobre,E3 Semimanufacturas,X,519982902.0
+2021,cobre,E4 Manufacturas,M,401687485.0
+2021,cobre,E4 Manufacturas,X,78214998.0
+2021,fluorita,E1 Espato fluor (crudo),M,0.0
+2021,fluorita,E1 Espato fluor (crudo),X,91633901.0
+2021,fluorita,E2 Fluoroquimica,M,37534566.0
+2021,fluorita,E2 Fluoroquimica,X,18807660.0
+2021,grafito,E1 Grafito natural,M,1414873.0
+2021,grafito,E1 Grafito natural,X,2113261.0
+2021,grafito,E2 Grafito artificial/prep.,M,52613865.0
+2021,grafito,E2 Grafito artificial/prep.,X,51084472.0
+2021,grafito,E3 Electrodos/articulos de carbono,M,124091170.0
+2021,grafito,E3 Electrodos/articulos de carbono,X,105949967.0
+2021,manganeso,E1 Mena/concentrado,M,5787193.0
+2021,manganeso,E1 Mena/concentrado,X,0.0
+2021,manganeso,E2 Ferroaleaciones,M,1065675.0
+2021,manganeso,E2 Ferroaleaciones,X,19983315.0
+2021,manganeso,E3 Quimicos/metal,M,14514220.0
+2021,manganeso,E3 Quimicos/metal,X,0.0
+2021,oro,E1 Mena/concentrado,M,0.0
+2021,oro,E1 Mena/concentrado,X,2952263.0
+2021,oro,E2 Bruto/semilabrado,M,113669695.0
+2021,oro,E2 Bruto/semilabrado,X,3413974349.0
+2021,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,615963341.0
+2021,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,455993823.0
+2021,plata,E1 Mena/concentrado,M,65186.0
+2021,plata,E1 Mena/concentrado,X,28657175.0
+2021,plata,E2 Bruto/semilabrado,M,131348613.0
+2021,plata,E2 Bruto/semilabrado,X,2543070260.0
+2021,plomo,E1 Mena/concentrado,M,0.0
+2021,plomo,E1 Mena/concentrado,X,833273184.0
+2021,plomo,E2 Metal en bruto/refinado,M,20357719.0
+2021,plomo,E2 Metal en bruto/refinado,X,169751570.0
+2021,plomo,E3 Semimanufacturas,M,1572094.0
+2021,plomo,E3 Semimanufacturas,X,0.0
+2021,plomo,E4 Manufacturas,M,4284464.0
+2021,plomo,E4 Manufacturas,X,1101224.0
+2021,silice,E1 Arena silica/cuarzo,M,70700145.0
+2021,silice,E1 Arena silica/cuarzo,X,2535528.0
+2021,silice,E2 Silicio/ferrosilicio/SiO2,M,250482158.0
+2021,silice,E2 Silicio/ferrosilicio/SiO2,X,11198288.0
+2021,zinc,E1 Mena/concentrado,M,2788.0
+2021,zinc,E1 Mena/concentrado,X,248335725.0
+2021,zinc,E2 Metal en bruto/refinado,M,83950373.0
+2021,zinc,E2 Metal en bruto/refinado,X,288767583.0
+2021,zinc,E3 Semimanufacturas,M,54235392.0
+2021,zinc,E3 Semimanufacturas,X,50953.0
+2021,zinc,E4 Manufacturas,M,69839464.0
+2021,zinc,E4 Manufacturas,X,4209656.0
+2022,barita,E1 Crudo/molido,M,12708428.0
+2022,barita,E1 Crudo/molido,X,27236605.0
+2022,barita,E2 Quimicos de bario,M,4025822.0
+2022,barita,E2 Quimicos de bario,X,0.0
+2022,cobre,E1 Mena/concentrado,M,660205189.0
+2022,cobre,E1 Mena/concentrado,X,3137587661.0
+2022,cobre,E2 Metal en bruto/refinado,M,399000027.0
+2022,cobre,E2 Metal en bruto/refinado,X,873308606.0
+2022,cobre,E3 Semimanufacturas,M,2451466773.0
+2022,cobre,E3 Semimanufacturas,X,627341853.0
+2022,cobre,E4 Manufacturas,M,452497706.0
+2022,cobre,E4 Manufacturas,X,84431303.0
+2022,fluorita,E1 Espato fluor (crudo),M,0.0
+2022,fluorita,E1 Espato fluor (crudo),X,55800331.0
+2022,fluorita,E2 Fluoroquimica,M,42522829.0
+2022,fluorita,E2 Fluoroquimica,X,3964092.0
+2022,grafito,E1 Grafito natural,M,5637878.0
+2022,grafito,E1 Grafito natural,X,3434484.0
+2022,grafito,E2 Grafito artificial/prep.,M,82581604.0
+2022,grafito,E2 Grafito artificial/prep.,X,75419392.0
+2022,grafito,E3 Electrodos/articulos de carbono,M,156227694.0
+2022,grafito,E3 Electrodos/articulos de carbono,X,101454322.0
+2022,manganeso,E1 Mena/concentrado,M,0.0
+2022,manganeso,E1 Mena/concentrado,X,0.0
+2022,manganeso,E2 Ferroaleaciones,M,0.0
+2022,manganeso,E2 Ferroaleaciones,X,11736794.0
+2022,manganeso,E3 Quimicos/metal,M,20767956.0
+2022,manganeso,E3 Quimicos/metal,X,0.0
+2022,oro,E1 Mena/concentrado,M,0.0
+2022,oro,E1 Mena/concentrado,X,18427502.0
+2022,oro,E2 Bruto/semilabrado,M,121944913.0
+2022,oro,E2 Bruto/semilabrado,X,3098803603.0
+2022,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,875153546.0
+2022,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,447652908.0
+2022,plata,E1 Mena/concentrado,M,408098.0
+2022,plata,E1 Mena/concentrado,X,88920958.0
+2022,plata,E2 Bruto/semilabrado,M,124089522.0
+2022,plata,E2 Bruto/semilabrado,X,2282303905.0
+2022,plomo,E1 Mena/concentrado,M,0.0
+2022,plomo,E1 Mena/concentrado,X,746165144.0
+2022,plomo,E2 Metal en bruto/refinado,M,27626080.0
+2022,plomo,E2 Metal en bruto/refinado,X,197623384.0
+2022,plomo,E3 Semimanufacturas,M,825140.0
+2022,plomo,E3 Semimanufacturas,X,79999.0
+2022,plomo,E4 Manufacturas,M,6993358.0
+2022,plomo,E4 Manufacturas,X,2254570.0
+2022,silice,E1 Arena silica/cuarzo,M,79368931.0
+2022,silice,E1 Arena silica/cuarzo,X,3108781.0
+2022,silice,E2 Silicio/ferrosilicio/SiO2,M,359549723.0
+2022,silice,E2 Silicio/ferrosilicio/SiO2,X,10001150.0
+2022,zinc,E1 Mena/concentrado,M,15709723.0
+2022,zinc,E1 Mena/concentrado,X,399116625.0
+2022,zinc,E2 Metal en bruto/refinado,M,111980751.0
+2022,zinc,E2 Metal en bruto/refinado,X,356460312.0
+2022,zinc,E3 Semimanufacturas,M,35961789.0
+2022,zinc,E3 Semimanufacturas,X,444762.0
+2022,zinc,E4 Manufacturas,M,84729358.0
+2022,zinc,E4 Manufacturas,X,4577240.0
+2023,barita,E1 Crudo/molido,M,12329472.0
+2023,barita,E1 Crudo/molido,X,26073174.0
+2023,barita,E2 Quimicos de bario,M,1470327.0
+2023,barita,E2 Quimicos de bario,X,0.0
+2023,cobre,E1 Mena/concentrado,M,528570456.0
+2023,cobre,E1 Mena/concentrado,X,3715931601.0
+2023,cobre,E2 Metal en bruto/refinado,M,1185615399.0
+2023,cobre,E2 Metal en bruto/refinado,X,284447648.0
+2023,cobre,E3 Semimanufacturas,M,2688805069.0
+2023,cobre,E3 Semimanufacturas,X,559389796.0
+2023,cobre,E4 Manufacturas,M,448972895.0
+2023,cobre,E4 Manufacturas,X,78136524.0
+2023,fluorita,E1 Espato fluor (crudo),M,0.0
+2023,fluorita,E1 Espato fluor (crudo),X,66031726.0
+2023,fluorita,E2 Fluoroquimica,M,37581961.0
+2023,fluorita,E2 Fluoroquimica,X,9449698.0
+2023,grafito,E1 Grafito natural,M,5915485.0
+2023,grafito,E1 Grafito natural,X,1818565.0
+2023,grafito,E2 Grafito artificial/prep.,M,61133138.0
+2023,grafito,E2 Grafito artificial/prep.,X,60460113.0
+2023,grafito,E3 Electrodos/articulos de carbono,M,129093090.0
+2023,grafito,E3 Electrodos/articulos de carbono,X,84827072.0
+2023,manganeso,E1 Mena/concentrado,M,0.0
+2023,manganeso,E1 Mena/concentrado,X,0.0
+2023,manganeso,E2 Ferroaleaciones,M,0.0
+2023,manganeso,E2 Ferroaleaciones,X,6893582.0
+2023,manganeso,E3 Quimicos/metal,M,135746166.0
+2023,manganeso,E3 Quimicos/metal,X,0.0
+2023,oro,E1 Mena/concentrado,M,0.0
+2023,oro,E1 Mena/concentrado,X,28453111.0
+2023,oro,E2 Bruto/semilabrado,M,136279165.0
+2023,oro,E2 Bruto/semilabrado,X,3406294650.0
+2023,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,1000085991.0
+2023,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,405779406.0
+2023,plata,E1 Mena/concentrado,M,216365.0
+2023,plata,E1 Mena/concentrado,X,117981985.0
+2023,plata,E2 Bruto/semilabrado,M,118033277.0
+2023,plata,E2 Bruto/semilabrado,X,2681768790.0
+2023,plomo,E1 Mena/concentrado,M,8788092.0
+2023,plomo,E1 Mena/concentrado,X,836925906.0
+2023,plomo,E2 Metal en bruto/refinado,M,33801842.0
+2023,plomo,E2 Metal en bruto/refinado,X,127316957.0
+2023,plomo,E3 Semimanufacturas,M,1416236.0
+2023,plomo,E3 Semimanufacturas,X,0.0
+2023,plomo,E4 Manufacturas,M,15123895.0
+2023,plomo,E4 Manufacturas,X,1236869.0
+2023,silice,E1 Arena silica/cuarzo,M,87052719.0
+2023,silice,E1 Arena silica/cuarzo,X,1897141.0
+2023,silice,E2 Silicio/ferrosilicio/SiO2,M,291626006.0
+2023,silice,E2 Silicio/ferrosilicio/SiO2,X,6210015.0
+2023,zinc,E1 Mena/concentrado,M,0.0
+2023,zinc,E1 Mena/concentrado,X,245944426.0
+2023,zinc,E2 Metal en bruto/refinado,M,97052042.0
+2023,zinc,E2 Metal en bruto/refinado,X,337639196.0
+2023,zinc,E3 Semimanufacturas,M,27902639.0
+2023,zinc,E3 Semimanufacturas,X,571407.0
+2023,zinc,E4 Manufacturas,M,82892240.0
+2023,zinc,E4 Manufacturas,X,5267558.0
+2024,barita,E1 Crudo/molido,M,6139913.0
+2024,barita,E1 Crudo/molido,X,13093040.0
+2024,barita,E2 Quimicos de bario,M,1902550.0
+2024,barita,E2 Quimicos de bario,X,0.0
+2024,cobre,E1 Mena/concentrado,M,1077080598.0
+2024,cobre,E1 Mena/concentrado,X,3718889902.0
+2024,cobre,E2 Metal en bruto/refinado,M,1721661059.0
+2024,cobre,E2 Metal en bruto/refinado,X,236153249.0
+2024,cobre,E3 Semimanufacturas,M,2760318391.0
+2024,cobre,E3 Semimanufacturas,X,551811551.0
+2024,cobre,E4 Manufacturas,M,451136600.0
+2024,cobre,E4 Manufacturas,X,84012184.0
+2024,fluorita,E1 Espato fluor (crudo),M,0.0
+2024,fluorita,E1 Espato fluor (crudo),X,25305600.0
+2024,fluorita,E2 Fluoroquimica,M,41449465.0
+2024,fluorita,E2 Fluoroquimica,X,70879411.0
+2024,grafito,E1 Grafito natural,M,5697909.0
+2024,grafito,E1 Grafito natural,X,3808739.0
+2024,grafito,E2 Grafito artificial/prep.,M,52981712.0
+2024,grafito,E2 Grafito artificial/prep.,X,34286349.0
+2024,grafito,E3 Electrodos/articulos de carbono,M,106967768.0
+2024,grafito,E3 Electrodos/articulos de carbono,X,72509893.0
+2024,manganeso,E1 Mena/concentrado,M,0.0
+2024,manganeso,E1 Mena/concentrado,X,0.0
+2024,manganeso,E2 Ferroaleaciones,M,0.0
+2024,manganeso,E2 Ferroaleaciones,X,14437488.0
+2024,manganeso,E3 Quimicos/metal,M,12820753.0
+2024,manganeso,E3 Quimicos/metal,X,0.0
+2024,oro,E1 Mena/concentrado,M,0.0
+2024,oro,E1 Mena/concentrado,X,37997871.0
+2024,oro,E2 Bruto/semilabrado,M,131625321.0
+2024,oro,E2 Bruto/semilabrado,X,3677031558.0
+2024,oro-plata (manufacturas),E4 Joyeria/orfebreria,M,1237524159.0
+2024,oro-plata (manufacturas),E4 Joyeria/orfebreria,X,399152449.0
+2024,plata,E1 Mena/concentrado,M,7585944.0
+2024,plata,E1 Mena/concentrado,X,185098813.0
+2024,plata,E2 Bruto/semilabrado,M,130663338.0
+2024,plata,E2 Bruto/semilabrado,X,2593776322.0
+2024,plomo,E1 Mena/concentrado,M,0.0
+2024,plomo,E1 Mena/concentrado,X,1092152844.0
+2024,plomo,E2 Metal en bruto/refinado,M,58671759.0
+2024,plomo,E2 Metal en bruto/refinado,X,177590849.0
+2024,plomo,E3 Semimanufacturas,M,1039853.0
+2024,plomo,E3 Semimanufacturas,X,61346.0
+2024,plomo,E4 Manufacturas,M,8185673.0
+2024,plomo,E4 Manufacturas,X,1176433.0
+2024,silice,E1 Arena silica/cuarzo,M,68537200.0
+2024,silice,E1 Arena silica/cuarzo,X,1705312.0
+2024,silice,E2 Silicio/ferrosilicio/SiO2,M,293421133.0
+2024,silice,E2 Silicio/ferrosilicio/SiO2,X,9261514.0
+2024,zinc,E1 Mena/concentrado,M,0.0
+2024,zinc,E1 Mena/concentrado,X,577061971.0
+2024,zinc,E2 Metal en bruto/refinado,M,126691395.0
+2024,zinc,E2 Metal en bruto/refinado,X,142641025.0
+2024,zinc,E3 Semimanufacturas,M,28297205.0
+2024,zinc,E3 Semimanufacturas,X,238268.0
+2024,zinc,E4 Manufacturas,M,91590967.0
+2024,zinc,E4 Manufacturas,X,5516170.0

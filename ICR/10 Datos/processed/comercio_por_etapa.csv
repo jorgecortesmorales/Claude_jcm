@@ -1,0 +1,581 @@
+anio,mineral,etapa,flujo,hs,valor_usd
+2015,cobre,E1 Mena/concentrado,Exportacion,2603,933983883.0
+2015,cobre,E1 Mena/concentrado,Importacion,2603,79571708.0
+2016,cobre,E1 Mena/concentrado,Exportacion,2603,1323559500.0
+2016,cobre,E1 Mena/concentrado,Importacion,2603,131899433.0
+2017,cobre,E1 Mena/concentrado,Exportacion,2603,1568943333.0
+2017,cobre,E1 Mena/concentrado,Importacion,2603,202968540.0
+2018,cobre,E1 Mena/concentrado,Exportacion,2603,2318095785.0
+2018,cobre,E1 Mena/concentrado,Importacion,2603,529371003.0
+2019,cobre,E1 Mena/concentrado,Exportacion,2603,2339268612.0
+2019,cobre,E1 Mena/concentrado,Importacion,2603,780369161.0
+2020,cobre,E1 Mena/concentrado,Exportacion,2603,2878626776.0
+2020,cobre,E1 Mena/concentrado,Importacion,2603,1132333334.0
+2021,cobre,E1 Mena/concentrado,Exportacion,2603,3420948513.0
+2021,cobre,E1 Mena/concentrado,Importacion,2603,404006811.0
+2022,cobre,E1 Mena/concentrado,Exportacion,2603,3137587661.0
+2022,cobre,E1 Mena/concentrado,Importacion,2603,660205189.0
+2023,cobre,E1 Mena/concentrado,Exportacion,2603,3715931601.0
+2023,cobre,E1 Mena/concentrado,Importacion,2603,528570456.0
+2024,cobre,E1 Mena/concentrado,Exportacion,2603,3718889902.0
+2024,cobre,E1 Mena/concentrado,Importacion,2603,1077080598.0
+2015,cobre,E2 Metal en bruto/refinado,Exportacion,7401;7402;7403;7405,727229420.0
+2015,cobre,E2 Metal en bruto/refinado,Importacion,7401;7402;7403;7405,521537971.0
+2016,cobre,E2 Metal en bruto/refinado,Exportacion,7401;7402;7403;7405,849212300.0
+2016,cobre,E2 Metal en bruto/refinado,Importacion,7401;7402;7403;7405,544439957.0
+2017,cobre,E2 Metal en bruto/refinado,Exportacion,7401;7402;7403;7405,880701469.0
+2017,cobre,E2 Metal en bruto/refinado,Importacion,7401;7402;7403;7405,709165802.0
+2018,cobre,E2 Metal en bruto/refinado,Exportacion,7401;7402;7403;7405,903281960.0
+2018,cobre,E2 Metal en bruto/refinado,Importacion,7401;7402;7403;7405,881905570.0
+2019,cobre,E2 Metal en bruto/refinado,Exportacion,7401;7402;7403;7405,796430490.0
+2019,cobre,E2 Metal en bruto/refinado,Importacion,7401;7402;7403;7405,869535577.0
+2020,cobre,E2 Metal en bruto/refinado,Exportacion,7401;7402;7403;7405,813642511.0
+2020,cobre,E2 Metal en bruto/refinado,Importacion,7401;7402;7403;7405,828881738.0
+2021,cobre,E2 Metal en bruto/refinado,Exportacion,7401;7402;7403;7405,966254109.0
+2021,cobre,E2 Metal en bruto/refinado,Importacion,7401;7402;7403;7405,1631520548.0
+2022,cobre,E2 Metal en bruto/refinado,Exportacion,7401;7402;7403;7405,873308606.0
+2022,cobre,E2 Metal en bruto/refinado,Importacion,7401;7402;7403;7405,399000027.0
+2023,cobre,E2 Metal en bruto/refinado,Exportacion,7401;7402;7403;7405,284447648.0
+2023,cobre,E2 Metal en bruto/refinado,Importacion,7401;7402;7403;7405,1185615399.0
+2024,cobre,E2 Metal en bruto/refinado,Exportacion,7401;7402;7403;7405,236153249.0
+2024,cobre,E2 Metal en bruto/refinado,Importacion,7401;7402;7403;7405,1721661059.0
+2015,cobre,E3 Semimanufacturas,Exportacion,7407;7408;7409;7410;7411;7412;7413,505836887.0
+2015,cobre,E3 Semimanufacturas,Importacion,7407;7408;7409;7410;7411;7412;7413,1804060147.0
+2016,cobre,E3 Semimanufacturas,Exportacion,7407;7408;7409;7410;7411;7412;7413,439471037.0
+2016,cobre,E3 Semimanufacturas,Importacion,7407;7408;7409;7410;7411;7412;7413,1615400657.0
+2017,cobre,E3 Semimanufacturas,Exportacion,7407;7408;7409;7410;7411;7412;7413,456944268.0
+2017,cobre,E3 Semimanufacturas,Importacion,7407;7408;7409;7410;7411;7412;7413,1852285355.0
+2018,cobre,E3 Semimanufacturas,Exportacion,7407;7408;7409;7410;7411;7412;7413,515022778.0
+2018,cobre,E3 Semimanufacturas,Importacion,7407;7408;7409;7410;7411;7412;7413,2019301355.0
+2019,cobre,E3 Semimanufacturas,Exportacion,7407;7408;7409;7410;7411;7412;7413,488807777.0
+2019,cobre,E3 Semimanufacturas,Importacion,7407;7408;7409;7410;7411;7412;7413,1833340059.0
+2020,cobre,E3 Semimanufacturas,Exportacion,7407;7408;7409;7410;7411;7412;7413,461341926.0
+2020,cobre,E3 Semimanufacturas,Importacion,7407;7408;7409;7410;7411;7412;7413,1441095349.0
+2021,cobre,E3 Semimanufacturas,Exportacion,7407;7408;7409;7410;7411;7412;7413,519982902.0
+2021,cobre,E3 Semimanufacturas,Importacion,7407;7408;7409;7410;7411;7412;7413,2165544665.0
+2022,cobre,E3 Semimanufacturas,Exportacion,7407;7408;7409;7410;7411;7412;7413,627341853.0
+2022,cobre,E3 Semimanufacturas,Importacion,7407;7408;7409;7410;7411;7412;7413,2451466773.0
+2023,cobre,E3 Semimanufacturas,Exportacion,7407;7408;7409;7410;7411;7412;7413,559389796.0
+2023,cobre,E3 Semimanufacturas,Importacion,7407;7408;7409;7410;7411;7412;7413,2688805069.0
+2024,cobre,E3 Semimanufacturas,Exportacion,7407;7408;7409;7410;7411;7412;7413,551811551.0
+2024,cobre,E3 Semimanufacturas,Importacion,7407;7408;7409;7410;7411;7412;7413,2760318391.0
+2015,cobre,E4 Manufacturas,Exportacion,7415;7418;7419,53044708.0
+2015,cobre,E4 Manufacturas,Importacion,7415;7418;7419,339599551.0
+2016,cobre,E4 Manufacturas,Exportacion,7415;7418;7419,58244998.0
+2016,cobre,E4 Manufacturas,Importacion,7415;7418;7419,329722817.0
+2017,cobre,E4 Manufacturas,Exportacion,7415;7418;7419,71863309.0
+2017,cobre,E4 Manufacturas,Importacion,7415;7418;7419,345524237.0
+2018,cobre,E4 Manufacturas,Exportacion,7415;7418;7419,57368602.0
+2018,cobre,E4 Manufacturas,Importacion,7415;7418;7419,407010351.0
+2019,cobre,E4 Manufacturas,Exportacion,7415;7418;7419,61529228.0
+2019,cobre,E4 Manufacturas,Importacion,7415;7418;7419,385132787.0
+2020,cobre,E4 Manufacturas,Exportacion,7415;7418;7419,53887119.0
+2020,cobre,E4 Manufacturas,Importacion,7415;7418;7419,315959308.0
+2021,cobre,E4 Manufacturas,Exportacion,7415;7418;7419,78214998.0
+2021,cobre,E4 Manufacturas,Importacion,7415;7418;7419,401687485.0
+2022,cobre,E4 Manufacturas,Exportacion,7415;7418;7419,84431303.0
+2022,cobre,E4 Manufacturas,Importacion,7415;7418;7419,452497706.0
+2023,cobre,E4 Manufacturas,Exportacion,7415;7418;7419,78136524.0
+2023,cobre,E4 Manufacturas,Importacion,7415;7418;7419,448972895.0
+2024,cobre,E4 Manufacturas,Exportacion,7415;7418;7419,84012184.0
+2024,cobre,E4 Manufacturas,Importacion,7415;7418;7419,451136600.0
+2015,plomo,E1 Mena/concentrado,Exportacion,2607,893177730.0
+2015,plomo,E1 Mena/concentrado,Importacion,2607,19654172.0
+2016,plomo,E1 Mena/concentrado,Exportacion,2607,780501188.0
+2016,plomo,E1 Mena/concentrado,Importacion,2607,16344571.0
+2017,plomo,E1 Mena/concentrado,Exportacion,2607,978705634.0
+2017,plomo,E1 Mena/concentrado,Importacion,2607,39520177.0
+2018,plomo,E1 Mena/concentrado,Exportacion,2607,770645599.0
+2018,plomo,E1 Mena/concentrado,Importacion,2607,59846274.0
+2019,plomo,E1 Mena/concentrado,Exportacion,2607,739121732.0
+2019,plomo,E1 Mena/concentrado,Importacion,2607,53017207.0
+2020,plomo,E1 Mena/concentrado,Exportacion,2607,1482644734.0
+2020,plomo,E1 Mena/concentrado,Importacion,2607,25062021.0
+2021,plomo,E1 Mena/concentrado,Exportacion,2607,833273184.0
+2021,plomo,E1 Mena/concentrado,Importacion,2607,0.0
+2022,plomo,E1 Mena/concentrado,Exportacion,2607,746165144.0
+2022,plomo,E1 Mena/concentrado,Importacion,2607,0.0
+2023,plomo,E1 Mena/concentrado,Exportacion,2607,836925906.0
+2023,plomo,E1 Mena/concentrado,Importacion,2607,8788092.0
+2024,plomo,E1 Mena/concentrado,Exportacion,2607,1092152844.0
+2024,plomo,E1 Mena/concentrado,Importacion,2607,0.0
+2015,plomo,E2 Metal en bruto/refinado,Exportacion,7801,166257785.0
+2015,plomo,E2 Metal en bruto/refinado,Importacion,7801,34652673.0
+2016,plomo,E2 Metal en bruto/refinado,Exportacion,7801,120293116.0
+2016,plomo,E2 Metal en bruto/refinado,Importacion,7801,41185464.0
+2017,plomo,E2 Metal en bruto/refinado,Exportacion,7801,189087197.0
+2017,plomo,E2 Metal en bruto/refinado,Importacion,7801,46311606.0
+2018,plomo,E2 Metal en bruto/refinado,Exportacion,7801,212767132.0
+2018,plomo,E2 Metal en bruto/refinado,Importacion,7801,41419479.0
+2019,plomo,E2 Metal en bruto/refinado,Exportacion,7801,190220069.0
+2019,plomo,E2 Metal en bruto/refinado,Importacion,7801,33490361.0
+2020,plomo,E2 Metal en bruto/refinado,Exportacion,7801,157430330.0
+2020,plomo,E2 Metal en bruto/refinado,Importacion,7801,31820608.0
+2021,plomo,E2 Metal en bruto/refinado,Exportacion,7801,169751570.0
+2021,plomo,E2 Metal en bruto/refinado,Importacion,7801,20357719.0
+2022,plomo,E2 Metal en bruto/refinado,Exportacion,7801,197623384.0
+2022,plomo,E2 Metal en bruto/refinado,Importacion,7801,27626080.0
+2023,plomo,E2 Metal en bruto/refinado,Exportacion,7801,127316957.0
+2023,plomo,E2 Metal en bruto/refinado,Importacion,7801,33801842.0
+2024,plomo,E2 Metal en bruto/refinado,Exportacion,7801,177590849.0
+2024,plomo,E2 Metal en bruto/refinado,Importacion,7801,58671759.0
+2015,plomo,E3 Semimanufacturas,Exportacion,7804,132295.0
+2015,plomo,E3 Semimanufacturas,Importacion,7804,0.0
+2016,plomo,E3 Semimanufacturas,Exportacion,7804,1065391.0
+2016,plomo,E3 Semimanufacturas,Importacion,7804,0.0
+2017,plomo,E3 Semimanufacturas,Exportacion,7804,789774.0
+2017,plomo,E3 Semimanufacturas,Importacion,7804,0.0
+2018,plomo,E3 Semimanufacturas,Exportacion,7804,343471.0
+2018,plomo,E3 Semimanufacturas,Importacion,7804,0.0
+2019,plomo,E3 Semimanufacturas,Exportacion,7804,1169084.0
+2019,plomo,E3 Semimanufacturas,Importacion,7804,0.0
+2020,plomo,E3 Semimanufacturas,Exportacion,7804,283760.0
+2020,plomo,E3 Semimanufacturas,Importacion,7804,0.0
+2021,plomo,E3 Semimanufacturas,Exportacion,7804,0.0
+2021,plomo,E3 Semimanufacturas,Importacion,7804,1572094.0
+2022,plomo,E3 Semimanufacturas,Exportacion,7804,79999.0
+2022,plomo,E3 Semimanufacturas,Importacion,7804,825140.0
+2023,plomo,E3 Semimanufacturas,Exportacion,7804,0.0
+2023,plomo,E3 Semimanufacturas,Importacion,7804,1416236.0
+2024,plomo,E3 Semimanufacturas,Exportacion,7804,61346.0
+2024,plomo,E3 Semimanufacturas,Importacion,7804,1039853.0
+2015,plomo,E4 Manufacturas,Exportacion,7806,1949557.0
+2015,plomo,E4 Manufacturas,Importacion,7806,7122679.0
+2016,plomo,E4 Manufacturas,Exportacion,7806,2817684.0
+2016,plomo,E4 Manufacturas,Importacion,7806,13653640.0
+2017,plomo,E4 Manufacturas,Exportacion,7806,1504115.0
+2017,plomo,E4 Manufacturas,Importacion,7806,8173859.0
+2018,plomo,E4 Manufacturas,Exportacion,7806,990322.0
+2018,plomo,E4 Manufacturas,Importacion,7806,8112175.0
+2019,plomo,E4 Manufacturas,Exportacion,7806,878243.0
+2019,plomo,E4 Manufacturas,Importacion,7806,7354441.0
+2020,plomo,E4 Manufacturas,Exportacion,7806,1014870.0
+2020,plomo,E4 Manufacturas,Importacion,7806,6802521.0
+2021,plomo,E4 Manufacturas,Exportacion,7806,1101224.0
+2021,plomo,E4 Manufacturas,Importacion,7806,4284464.0
+2022,plomo,E4 Manufacturas,Exportacion,7806,2254570.0
+2022,plomo,E4 Manufacturas,Importacion,7806,6993358.0
+2023,plomo,E4 Manufacturas,Exportacion,7806,1236869.0
+2023,plomo,E4 Manufacturas,Importacion,7806,15123895.0
+2024,plomo,E4 Manufacturas,Exportacion,7806,1176433.0
+2024,plomo,E4 Manufacturas,Importacion,7806,8185673.0
+2015,zinc,E1 Mena/concentrado,Exportacion,2608,365685096.0
+2015,zinc,E1 Mena/concentrado,Importacion,2608,3175749.0
+2016,zinc,E1 Mena/concentrado,Exportacion,2608,564250705.0
+2016,zinc,E1 Mena/concentrado,Importacion,2608,223633.0
+2017,zinc,E1 Mena/concentrado,Exportacion,2608,640110077.0
+2017,zinc,E1 Mena/concentrado,Importacion,2608,13554993.0
+2018,zinc,E1 Mena/concentrado,Exportacion,2608,795496776.0
+2018,zinc,E1 Mena/concentrado,Importacion,2608,35979309.0
+2019,zinc,E1 Mena/concentrado,Exportacion,2608,655723459.0
+2019,zinc,E1 Mena/concentrado,Importacion,2608,32297975.0
+2020,zinc,E1 Mena/concentrado,Exportacion,2608,646136225.0
+2020,zinc,E1 Mena/concentrado,Importacion,2608,58476613.0
+2021,zinc,E1 Mena/concentrado,Exportacion,2608,248335725.0
+2021,zinc,E1 Mena/concentrado,Importacion,2608,2788.0
+2022,zinc,E1 Mena/concentrado,Exportacion,2608,399116625.0
+2022,zinc,E1 Mena/concentrado,Importacion,2608,15709723.0
+2023,zinc,E1 Mena/concentrado,Exportacion,2608,245944426.0
+2023,zinc,E1 Mena/concentrado,Importacion,2608,0.0
+2024,zinc,E1 Mena/concentrado,Exportacion,2608,577061971.0
+2024,zinc,E1 Mena/concentrado,Importacion,2608,0.0
+2015,zinc,E2 Metal en bruto/refinado,Exportacion,7901,263224660.0
+2015,zinc,E2 Metal en bruto/refinado,Importacion,7901,40010130.0
+2016,zinc,E2 Metal en bruto/refinado,Exportacion,7901,199503651.0
+2016,zinc,E2 Metal en bruto/refinado,Importacion,7901,70221667.0
+2017,zinc,E2 Metal en bruto/refinado,Exportacion,7901,289562676.0
+2017,zinc,E2 Metal en bruto/refinado,Importacion,7901,55451923.0
+2018,zinc,E2 Metal en bruto/refinado,Exportacion,7901,421209847.0
+2018,zinc,E2 Metal en bruto/refinado,Importacion,7901,63439674.0
+2019,zinc,E2 Metal en bruto/refinado,Exportacion,7901,372975923.0
+2019,zinc,E2 Metal en bruto/refinado,Importacion,7901,51957113.0
+2020,zinc,E2 Metal en bruto/refinado,Exportacion,7901,337374838.0
+2020,zinc,E2 Metal en bruto/refinado,Importacion,7901,33227518.0
+2021,zinc,E2 Metal en bruto/refinado,Exportacion,7901,288767583.0
+2021,zinc,E2 Metal en bruto/refinado,Importacion,7901,83950373.0
+2022,zinc,E2 Metal en bruto/refinado,Exportacion,7901,356460312.0
+2022,zinc,E2 Metal en bruto/refinado,Importacion,7901,111980751.0
+2023,zinc,E2 Metal en bruto/refinado,Exportacion,7901,337639196.0
+2023,zinc,E2 Metal en bruto/refinado,Importacion,7901,97052042.0
+2024,zinc,E2 Metal en bruto/refinado,Exportacion,7901,142641025.0
+2024,zinc,E2 Metal en bruto/refinado,Importacion,7901,126691395.0
+2015,zinc,E3 Semimanufacturas,Exportacion,7903;7904;7905,2498986.0
+2015,zinc,E3 Semimanufacturas,Importacion,7903;7904;7905,41284254.0
+2016,zinc,E3 Semimanufacturas,Exportacion,7903;7904;7905,763102.0
+2016,zinc,E3 Semimanufacturas,Importacion,7903;7904;7905,40460111.0
+2017,zinc,E3 Semimanufacturas,Exportacion,7903;7904;7905,1741515.0
+2017,zinc,E3 Semimanufacturas,Importacion,7903;7904;7905,49545064.0
+2018,zinc,E3 Semimanufacturas,Exportacion,7903;7904;7905,3119267.0
+2018,zinc,E3 Semimanufacturas,Importacion,7903;7904;7905,63049260.0
+2019,zinc,E3 Semimanufacturas,Exportacion,7903;7904;7905,1710494.0
+2019,zinc,E3 Semimanufacturas,Importacion,7903;7904;7905,55197046.0
+2020,zinc,E3 Semimanufacturas,Exportacion,7903;7904;7905,2642365.0
+2020,zinc,E3 Semimanufacturas,Importacion,7903;7904;7905,51941401.0
+2021,zinc,E3 Semimanufacturas,Exportacion,7903;7904;7905,50953.0
+2021,zinc,E3 Semimanufacturas,Importacion,7903;7904;7905,54235392.0
+2022,zinc,E3 Semimanufacturas,Exportacion,7903;7904;7905,444762.0
+2022,zinc,E3 Semimanufacturas,Importacion,7903;7904;7905,35961789.0
+2023,zinc,E3 Semimanufacturas,Exportacion,7903;7904;7905,571407.0
+2023,zinc,E3 Semimanufacturas,Importacion,7903;7904;7905,27902639.0
+2024,zinc,E3 Semimanufacturas,Exportacion,7903;7904;7905,238268.0
+2024,zinc,E3 Semimanufacturas,Importacion,7903;7904;7905,28297205.0
+2015,zinc,E4 Manufacturas,Exportacion,7907,15449208.0
+2015,zinc,E4 Manufacturas,Importacion,7907,63625654.0
+2016,zinc,E4 Manufacturas,Exportacion,7907,15652596.0
+2016,zinc,E4 Manufacturas,Importacion,7907,63308575.0
+2017,zinc,E4 Manufacturas,Exportacion,7907,17520702.0
+2017,zinc,E4 Manufacturas,Importacion,7907,60531762.0
+2018,zinc,E4 Manufacturas,Exportacion,7907,15428635.0
+2018,zinc,E4 Manufacturas,Importacion,7907,68318160.0
+2019,zinc,E4 Manufacturas,Exportacion,7907,15357548.0
+2019,zinc,E4 Manufacturas,Importacion,7907,70612488.0
+2020,zinc,E4 Manufacturas,Exportacion,7907,8221681.0
+2020,zinc,E4 Manufacturas,Importacion,7907,66021404.0
+2021,zinc,E4 Manufacturas,Exportacion,7907,4209656.0
+2021,zinc,E4 Manufacturas,Importacion,7907,69839464.0
+2022,zinc,E4 Manufacturas,Exportacion,7907,4577240.0
+2022,zinc,E4 Manufacturas,Importacion,7907,84729358.0
+2023,zinc,E4 Manufacturas,Exportacion,7907,5267558.0
+2023,zinc,E4 Manufacturas,Importacion,7907,82892240.0
+2024,zinc,E4 Manufacturas,Exportacion,7907,5516170.0
+2024,zinc,E4 Manufacturas,Importacion,7907,91590967.0
+2015,manganeso,E1 Mena/concentrado,Exportacion,2602,0.0
+2015,manganeso,E1 Mena/concentrado,Importacion,2602,13687005.0
+2016,manganeso,E1 Mena/concentrado,Exportacion,2602,0.0
+2016,manganeso,E1 Mena/concentrado,Importacion,2602,11562621.0
+2017,manganeso,E1 Mena/concentrado,Exportacion,2602,0.0
+2017,manganeso,E1 Mena/concentrado,Importacion,2602,13373540.0
+2018,manganeso,E1 Mena/concentrado,Exportacion,2602,0.0
+2018,manganeso,E1 Mena/concentrado,Importacion,2602,40295389.0
+2019,manganeso,E1 Mena/concentrado,Exportacion,2602,0.0
+2019,manganeso,E1 Mena/concentrado,Importacion,2602,30606114.0
+2020,manganeso,E1 Mena/concentrado,Exportacion,2602,0.0
+2020,manganeso,E1 Mena/concentrado,Importacion,2602,10640285.0
+2021,manganeso,E1 Mena/concentrado,Exportacion,2602,0.0
+2021,manganeso,E1 Mena/concentrado,Importacion,2602,5787193.0
+2022,manganeso,E1 Mena/concentrado,Exportacion,2602,0.0
+2022,manganeso,E1 Mena/concentrado,Importacion,2602,0.0
+2023,manganeso,E1 Mena/concentrado,Exportacion,2602,0.0
+2023,manganeso,E1 Mena/concentrado,Importacion,2602,0.0
+2024,manganeso,E1 Mena/concentrado,Exportacion,2602,0.0
+2024,manganeso,E1 Mena/concentrado,Importacion,2602,0.0
+2015,manganeso,E2 Ferroaleaciones,Exportacion,720211;720219;720230,9092986.0
+2015,manganeso,E2 Ferroaleaciones,Importacion,720211;720219;720230,6280428.0
+2016,manganeso,E2 Ferroaleaciones,Exportacion,720211;720219;720230,33549583.0
+2016,manganeso,E2 Ferroaleaciones,Importacion,720211;720219;720230,16343053.0
+2017,manganeso,E2 Ferroaleaciones,Exportacion,720211;720219;720230,43493136.0
+2017,manganeso,E2 Ferroaleaciones,Importacion,720211;720219;720230,1105918.0
+2018,manganeso,E2 Ferroaleaciones,Exportacion,720211;720219;720230,41067892.0
+2018,manganeso,E2 Ferroaleaciones,Importacion,720211;720219;720230,3576624.0
+2019,manganeso,E2 Ferroaleaciones,Exportacion,720211;720219;720230,45973453.0
+2019,manganeso,E2 Ferroaleaciones,Importacion,720211;720219;720230,3004341.0
+2020,manganeso,E2 Ferroaleaciones,Exportacion,720211;720219;720230,20023807.0
+2020,manganeso,E2 Ferroaleaciones,Importacion,720211;720219;720230,1962726.0
+2021,manganeso,E2 Ferroaleaciones,Exportacion,720211;720219;720230,19983315.0
+2021,manganeso,E2 Ferroaleaciones,Importacion,720211;720219;720230,1065675.0
+2022,manganeso,E2 Ferroaleaciones,Exportacion,720211;720219;720230,11736794.0
+2022,manganeso,E2 Ferroaleaciones,Importacion,720211;720219;720230,0.0
+2023,manganeso,E2 Ferroaleaciones,Exportacion,720211;720219;720230,6893582.0
+2023,manganeso,E2 Ferroaleaciones,Importacion,720211;720219;720230,0.0
+2024,manganeso,E2 Ferroaleaciones,Exportacion,720211;720219;720230,14437488.0
+2024,manganeso,E2 Ferroaleaciones,Importacion,720211;720219;720230,0.0
+2015,manganeso,E3 Quimicos/metal,Exportacion,282010;8111,1794022.0
+2015,manganeso,E3 Quimicos/metal,Importacion,282010;8111,11003004.0
+2016,manganeso,E3 Quimicos/metal,Exportacion,282010;8111,904551.0
+2016,manganeso,E3 Quimicos/metal,Importacion,282010;8111,10951881.0
+2017,manganeso,E3 Quimicos/metal,Exportacion,282010;8111,1472630.0
+2017,manganeso,E3 Quimicos/metal,Importacion,282010;8111,12531958.0
+2018,manganeso,E3 Quimicos/metal,Exportacion,282010;8111,1055454.0
+2018,manganeso,E3 Quimicos/metal,Importacion,282010;8111,14342489.0
+2019,manganeso,E3 Quimicos/metal,Exportacion,282010;8111,0.0
+2019,manganeso,E3 Quimicos/metal,Importacion,282010;8111,14740410.0
+2020,manganeso,E3 Quimicos/metal,Exportacion,282010;8111,0.0
+2020,manganeso,E3 Quimicos/metal,Importacion,282010;8111,8597925.0
+2021,manganeso,E3 Quimicos/metal,Exportacion,282010;8111,0.0
+2021,manganeso,E3 Quimicos/metal,Importacion,282010;8111,14514220.0
+2022,manganeso,E3 Quimicos/metal,Exportacion,282010;8111,0.0
+2022,manganeso,E3 Quimicos/metal,Importacion,282010;8111,20767956.0
+2023,manganeso,E3 Quimicos/metal,Exportacion,282010;8111,0.0
+2023,manganeso,E3 Quimicos/metal,Importacion,282010;8111,135746166.0
+2024,manganeso,E3 Quimicos/metal,Exportacion,282010;8111,0.0
+2024,manganeso,E3 Quimicos/metal,Importacion,282010;8111,12820753.0
+2015,oro,E1 Mena/concentrado,Exportacion,261610,271995011.0
+2015,oro,E1 Mena/concentrado,Importacion,261610,5396.0
+2016,oro,E1 Mena/concentrado,Exportacion,261610,248450033.0
+2016,oro,E1 Mena/concentrado,Importacion,261610,26.0
+2017,oro,E1 Mena/concentrado,Exportacion,261610,324859161.0
+2017,oro,E1 Mena/concentrado,Importacion,261610,6100.0
+2018,oro,E1 Mena/concentrado,Exportacion,261610,181351369.0
+2018,oro,E1 Mena/concentrado,Importacion,261610,0.0
+2019,oro,E1 Mena/concentrado,Exportacion,261610,217719396.0
+2019,oro,E1 Mena/concentrado,Importacion,261610,0.0
+2020,oro,E1 Mena/concentrado,Exportacion,261610,321417297.0
+2020,oro,E1 Mena/concentrado,Importacion,261610,0.0
+2021,oro,E1 Mena/concentrado,Exportacion,261610,2952263.0
+2021,oro,E1 Mena/concentrado,Importacion,261610,0.0
+2022,oro,E1 Mena/concentrado,Exportacion,261610,18427502.0
+2022,oro,E1 Mena/concentrado,Importacion,261610,0.0
+2023,oro,E1 Mena/concentrado,Exportacion,261610,28453111.0
+2023,oro,E1 Mena/concentrado,Importacion,261610,0.0
+2024,oro,E1 Mena/concentrado,Exportacion,261610,37997871.0
+2024,oro,E1 Mena/concentrado,Importacion,261610,0.0
+2015,oro,E2 Bruto/semilabrado,Exportacion,7108,2872369467.0
+2015,oro,E2 Bruto/semilabrado,Importacion,7108,176632602.0
+2016,oro,E2 Bruto/semilabrado,Exportacion,7108,3239243110.0
+2016,oro,E2 Bruto/semilabrado,Importacion,7108,146370633.0
+2017,oro,E2 Bruto/semilabrado,Exportacion,7108,3221237216.0
+2017,oro,E2 Bruto/semilabrado,Importacion,7108,99519567.0
+2018,oro,E2 Bruto/semilabrado,Exportacion,7108,3201011359.0
+2018,oro,E2 Bruto/semilabrado,Importacion,7108,140327330.0
+2019,oro,E2 Bruto/semilabrado,Exportacion,7108,3268151039.0
+2019,oro,E2 Bruto/semilabrado,Importacion,7108,125837047.0
+2020,oro,E2 Bruto/semilabrado,Exportacion,7108,3488850587.0
+2020,oro,E2 Bruto/semilabrado,Importacion,7108,102059665.0
+2021,oro,E2 Bruto/semilabrado,Exportacion,7108,3413974349.0
+2021,oro,E2 Bruto/semilabrado,Importacion,7108,113669695.0
+2022,oro,E2 Bruto/semilabrado,Exportacion,7108,3098803603.0
+2022,oro,E2 Bruto/semilabrado,Importacion,7108,121944913.0
+2023,oro,E2 Bruto/semilabrado,Exportacion,7108,3406294650.0
+2023,oro,E2 Bruto/semilabrado,Importacion,7108,136279165.0
+2024,oro,E2 Bruto/semilabrado,Exportacion,7108,3677031558.0
+2024,oro,E2 Bruto/semilabrado,Importacion,7108,131625321.0
+2015,plata,E1 Mena/concentrado,Exportacion,261690,4428927.0
+2015,plata,E1 Mena/concentrado,Importacion,261690,2719.0
+2016,plata,E1 Mena/concentrado,Exportacion,261690,25474960.0
+2016,plata,E1 Mena/concentrado,Importacion,261690,5836.0
+2017,plata,E1 Mena/concentrado,Exportacion,261690,35742289.0
+2017,plata,E1 Mena/concentrado,Importacion,261690,244266.0
+2018,plata,E1 Mena/concentrado,Exportacion,261690,36656445.0
+2018,plata,E1 Mena/concentrado,Importacion,261690,225818.0
+2019,plata,E1 Mena/concentrado,Exportacion,261690,31927356.0
+2019,plata,E1 Mena/concentrado,Importacion,261690,4712.0
+2020,plata,E1 Mena/concentrado,Exportacion,261690,146951579.0
+2020,plata,E1 Mena/concentrado,Importacion,261690,0.0
+2021,plata,E1 Mena/concentrado,Exportacion,261690,28657175.0
+2021,plata,E1 Mena/concentrado,Importacion,261690,65186.0
+2022,plata,E1 Mena/concentrado,Exportacion,261690,88920958.0
+2022,plata,E1 Mena/concentrado,Importacion,261690,408098.0
+2023,plata,E1 Mena/concentrado,Exportacion,261690,117981985.0
+2023,plata,E1 Mena/concentrado,Importacion,261690,216365.0
+2024,plata,E1 Mena/concentrado,Exportacion,261690,185098813.0
+2024,plata,E1 Mena/concentrado,Importacion,261690,7585944.0
+2015,plata,E2 Bruto/semilabrado,Exportacion,7106,1854205755.0
+2015,plata,E2 Bruto/semilabrado,Importacion,7106,78763755.0
+2016,plata,E2 Bruto/semilabrado,Exportacion,7106,1881367958.0
+2016,plata,E2 Bruto/semilabrado,Importacion,7106,67779605.0
+2017,plata,E2 Bruto/semilabrado,Exportacion,7106,1820093056.0
+2017,plata,E2 Bruto/semilabrado,Importacion,7106,73737863.0
+2018,plata,E2 Bruto/semilabrado,Exportacion,7106,1672071037.0
+2018,plata,E2 Bruto/semilabrado,Importacion,7106,86360400.0
+2019,plata,E2 Bruto/semilabrado,Exportacion,7106,1881640521.0
+2019,plata,E2 Bruto/semilabrado,Importacion,7106,92438614.0
+2020,plata,E2 Bruto/semilabrado,Exportacion,7106,2155928215.0
+2020,plata,E2 Bruto/semilabrado,Importacion,7106,84417579.0
+2021,plata,E2 Bruto/semilabrado,Exportacion,7106,2543070260.0
+2021,plata,E2 Bruto/semilabrado,Importacion,7106,131348613.0
+2022,plata,E2 Bruto/semilabrado,Exportacion,7106,2282303905.0
+2022,plata,E2 Bruto/semilabrado,Importacion,7106,124089522.0
+2023,plata,E2 Bruto/semilabrado,Exportacion,7106,2681768790.0
+2023,plata,E2 Bruto/semilabrado,Importacion,7106,118033277.0
+2024,plata,E2 Bruto/semilabrado,Exportacion,7106,2593776322.0
+2024,plata,E2 Bruto/semilabrado,Importacion,7106,130663338.0
+2015,oro-plata (manufacturas),E4 Joyeria/orfebreria,Exportacion,7113;7114;7115,602373143.0
+2015,oro-plata (manufacturas),E4 Joyeria/orfebreria,Importacion,7113;7114;7115,696050390.0
+2016,oro-plata (manufacturas),E4 Joyeria/orfebreria,Exportacion,7113;7114;7115,431545958.0
+2016,oro-plata (manufacturas),E4 Joyeria/orfebreria,Importacion,7113;7114;7115,506342288.0
+2017,oro-plata (manufacturas),E4 Joyeria/orfebreria,Exportacion,7113;7114;7115,302267048.0
+2017,oro-plata (manufacturas),E4 Joyeria/orfebreria,Importacion,7113;7114;7115,440057843.0
+2018,oro-plata (manufacturas),E4 Joyeria/orfebreria,Exportacion,7113;7114;7115,353650296.0
+2018,oro-plata (manufacturas),E4 Joyeria/orfebreria,Importacion,7113;7114;7115,504147073.0
+2019,oro-plata (manufacturas),E4 Joyeria/orfebreria,Exportacion,7113;7114;7115,311536967.0
+2019,oro-plata (manufacturas),E4 Joyeria/orfebreria,Importacion,7113;7114;7115,505348329.0
+2020,oro-plata (manufacturas),E4 Joyeria/orfebreria,Exportacion,7113;7114;7115,262580578.0
+2020,oro-plata (manufacturas),E4 Joyeria/orfebreria,Importacion,7113;7114;7115,312791730.0
+2021,oro-plata (manufacturas),E4 Joyeria/orfebreria,Exportacion,7113;7114;7115,455993823.0
+2021,oro-plata (manufacturas),E4 Joyeria/orfebreria,Importacion,7113;7114;7115,615963341.0
+2022,oro-plata (manufacturas),E4 Joyeria/orfebreria,Exportacion,7113;7114;7115,447652908.0
+2022,oro-plata (manufacturas),E4 Joyeria/orfebreria,Importacion,7113;7114;7115,875153546.0
+2023,oro-plata (manufacturas),E4 Joyeria/orfebreria,Exportacion,7113;7114;7115,405779406.0
+2023,oro-plata (manufacturas),E4 Joyeria/orfebreria,Importacion,7113;7114;7115,1000085991.0
+2024,oro-plata (manufacturas),E4 Joyeria/orfebreria,Exportacion,7113;7114;7115,399152449.0
+2024,oro-plata (manufacturas),E4 Joyeria/orfebreria,Importacion,7113;7114;7115,1237524159.0
+2015,barita,E1 Crudo/molido,Exportacion,251110,1595323.0
+2015,barita,E1 Crudo/molido,Importacion,251110,11869579.0
+2016,barita,E1 Crudo/molido,Exportacion,251110,0.0
+2016,barita,E1 Crudo/molido,Importacion,251110,1870242.0
+2017,barita,E1 Crudo/molido,Exportacion,251110,0.0
+2017,barita,E1 Crudo/molido,Importacion,251110,0.0
+2018,barita,E1 Crudo/molido,Exportacion,251110,0.0
+2018,barita,E1 Crudo/molido,Importacion,251110,0.0
+2019,barita,E1 Crudo/molido,Exportacion,251110,0.0
+2019,barita,E1 Crudo/molido,Importacion,251110,0.0
+2020,barita,E1 Crudo/molido,Exportacion,251110,0.0
+2020,barita,E1 Crudo/molido,Importacion,251110,898377.0
+2021,barita,E1 Crudo/molido,Exportacion,251110,19124233.0
+2021,barita,E1 Crudo/molido,Importacion,251110,2054187.0
+2022,barita,E1 Crudo/molido,Exportacion,251110,27236605.0
+2022,barita,E1 Crudo/molido,Importacion,251110,12708428.0
+2023,barita,E1 Crudo/molido,Exportacion,251110,26073174.0
+2023,barita,E1 Crudo/molido,Importacion,251110,12329472.0
+2024,barita,E1 Crudo/molido,Exportacion,251110,13093040.0
+2024,barita,E1 Crudo/molido,Importacion,251110,6139913.0
+2015,barita,E2 Quimicos de bario,Exportacion,281640;283660,0.0
+2015,barita,E2 Quimicos de bario,Importacion,281640;283660,4064525.0
+2016,barita,E2 Quimicos de bario,Exportacion,281640;283660,0.0
+2016,barita,E2 Quimicos de bario,Importacion,281640;283660,2512718.0
+2017,barita,E2 Quimicos de bario,Exportacion,281640;283660,27260.0
+2017,barita,E2 Quimicos de bario,Importacion,281640;283660,3296871.0
+2018,barita,E2 Quimicos de bario,Exportacion,281640;283660,0.0
+2018,barita,E2 Quimicos de bario,Importacion,281640;283660,4347703.0
+2019,barita,E2 Quimicos de bario,Exportacion,281640;283660,0.0
+2019,barita,E2 Quimicos de bario,Importacion,281640;283660,4154051.0
+2020,barita,E2 Quimicos de bario,Exportacion,281640;283660,0.0
+2020,barita,E2 Quimicos de bario,Importacion,281640;283660,2480157.0
+2021,barita,E2 Quimicos de bario,Exportacion,281640;283660,0.0
+2021,barita,E2 Quimicos de bario,Importacion,281640;283660,5062044.0
+2022,barita,E2 Quimicos de bario,Exportacion,281640;283660,0.0
+2022,barita,E2 Quimicos de bario,Importacion,281640;283660,4025822.0
+2023,barita,E2 Quimicos de bario,Exportacion,281640;283660,0.0
+2023,barita,E2 Quimicos de bario,Importacion,281640;283660,1470327.0
+2024,barita,E2 Quimicos de bario,Exportacion,281640;283660,0.0
+2024,barita,E2 Quimicos de bario,Importacion,281640;283660,1902550.0
+2015,fluorita,E1 Espato fluor (crudo),Exportacion,252921;252922,59599502.0
+2015,fluorita,E1 Espato fluor (crudo),Importacion,252921;252922,91308.0
+2016,fluorita,E1 Espato fluor (crudo),Exportacion,252921;252922,62572145.0
+2016,fluorita,E1 Espato fluor (crudo),Importacion,252921;252922,88162.0
+2017,fluorita,E1 Espato fluor (crudo),Exportacion,252921;252922,71003890.0
+2017,fluorita,E1 Espato fluor (crudo),Importacion,252921;252922,112831.0
+2018,fluorita,E1 Espato fluor (crudo),Exportacion,252921;252922,73420659.0
+2018,fluorita,E1 Espato fluor (crudo),Importacion,252921;252922,122086.0
+2019,fluorita,E1 Espato fluor (crudo),Exportacion,252921;252922,107197953.0
+2019,fluorita,E1 Espato fluor (crudo),Importacion,252921;252922,20658.0
+2020,fluorita,E1 Espato fluor (crudo),Exportacion,252921;252922,77026577.0
+2020,fluorita,E1 Espato fluor (crudo),Importacion,252921;252922,88512.0
+2021,fluorita,E1 Espato fluor (crudo),Exportacion,252921;252922,91633901.0
+2021,fluorita,E1 Espato fluor (crudo),Importacion,252921;252922,0.0
+2022,fluorita,E1 Espato fluor (crudo),Exportacion,252921;252922,55800331.0
+2022,fluorita,E1 Espato fluor (crudo),Importacion,252921;252922,0.0
+2023,fluorita,E1 Espato fluor (crudo),Exportacion,252921;252922,66031726.0
+2023,fluorita,E1 Espato fluor (crudo),Importacion,252921;252922,0.0
+2024,fluorita,E1 Espato fluor (crudo),Exportacion,252921;252922,25305600.0
+2024,fluorita,E1 Espato fluor (crudo),Importacion,252921;252922,0.0
+2015,fluorita,E2 Fluoroquimica,Exportacion,281111;282612;282619;390461,182427511.0
+2015,fluorita,E2 Fluoroquimica,Importacion,281111;282612;282619;390461,29375593.0
+2016,fluorita,E2 Fluoroquimica,Exportacion,281111;282612;282619;390461,170727897.0
+2016,fluorita,E2 Fluoroquimica,Importacion,281111;282612;282619;390461,31373703.0
+2017,fluorita,E2 Fluoroquimica,Exportacion,281111;282612;282619;390461,159772884.0
+2017,fluorita,E2 Fluoroquimica,Importacion,281111;282612;282619;390461,39618086.0
+2018,fluorita,E2 Fluoroquimica,Exportacion,281111;282612;282619;390461,162083915.0
+2018,fluorita,E2 Fluoroquimica,Importacion,281111;282612;282619;390461,49309108.0
+2019,fluorita,E2 Fluoroquimica,Exportacion,281111;282612;282619;390461,179912949.0
+2019,fluorita,E2 Fluoroquimica,Importacion,281111;282612;282619;390461,46872930.0
+2020,fluorita,E2 Fluoroquimica,Exportacion,281111;282612;282619;390461,144847687.0
+2020,fluorita,E2 Fluoroquimica,Importacion,281111;282612;282619;390461,31201273.0
+2021,fluorita,E2 Fluoroquimica,Exportacion,281111;282612;282619;390461,18807660.0
+2021,fluorita,E2 Fluoroquimica,Importacion,281111;282612;282619;390461,37534566.0
+2022,fluorita,E2 Fluoroquimica,Exportacion,281111;282612;282619;390461,3964092.0
+2022,fluorita,E2 Fluoroquimica,Importacion,281111;282612;282619;390461,42522829.0
+2023,fluorita,E2 Fluoroquimica,Exportacion,281111;282612;282619;390461,9449698.0
+2023,fluorita,E2 Fluoroquimica,Importacion,281111;282612;282619;390461,37581961.0
+2024,fluorita,E2 Fluoroquimica,Exportacion,281111;282612;282619;390461,70879411.0
+2024,fluorita,E2 Fluoroquimica,Importacion,281111;282612;282619;390461,41449465.0
+2015,grafito,E1 Grafito natural,Exportacion,250410;250490,102168.0
+2015,grafito,E1 Grafito natural,Importacion,250410;250490,3819388.0
+2016,grafito,E1 Grafito natural,Exportacion,250410;250490,3889142.0
+2016,grafito,E1 Grafito natural,Importacion,250410;250490,2645553.0
+2017,grafito,E1 Grafito natural,Exportacion,250410;250490,5527568.0
+2017,grafito,E1 Grafito natural,Importacion,250410;250490,2372290.0
+2018,grafito,E1 Grafito natural,Exportacion,250410;250490,5558473.0
+2018,grafito,E1 Grafito natural,Importacion,250410;250490,3733179.0
+2019,grafito,E1 Grafito natural,Exportacion,250410;250490,0.0
+2019,grafito,E1 Grafito natural,Importacion,250410;250490,3030676.0
+2020,grafito,E1 Grafito natural,Exportacion,250410;250490,0.0
+2020,grafito,E1 Grafito natural,Importacion,250410;250490,2431212.0
+2021,grafito,E1 Grafito natural,Exportacion,250410;250490,2113261.0
+2021,grafito,E1 Grafito natural,Importacion,250410;250490,1414873.0
+2022,grafito,E1 Grafito natural,Exportacion,250410;250490,3434484.0
+2022,grafito,E1 Grafito natural,Importacion,250410;250490,5637878.0
+2023,grafito,E1 Grafito natural,Exportacion,250410;250490,1818565.0
+2023,grafito,E1 Grafito natural,Importacion,250410;250490,5915485.0
+2024,grafito,E1 Grafito natural,Exportacion,250410;250490,3808739.0
+2024,grafito,E1 Grafito natural,Importacion,250410;250490,5697909.0
+2015,grafito,E2 Grafito artificial/prep.,Exportacion,3801,27117314.0
+2015,grafito,E2 Grafito artificial/prep.,Importacion,3801,25997286.0
+2016,grafito,E2 Grafito artificial/prep.,Exportacion,3801,29900022.0
+2016,grafito,E2 Grafito artificial/prep.,Importacion,3801,25385642.0
+2017,grafito,E2 Grafito artificial/prep.,Exportacion,3801,7126988.0
+2017,grafito,E2 Grafito artificial/prep.,Importacion,3801,30467825.0
+2018,grafito,E2 Grafito artificial/prep.,Exportacion,3801,31848785.0
+2018,grafito,E2 Grafito artificial/prep.,Importacion,3801,38518509.0
+2019,grafito,E2 Grafito artificial/prep.,Exportacion,3801,56520991.0
+2019,grafito,E2 Grafito artificial/prep.,Importacion,3801,48350059.0
+2020,grafito,E2 Grafito artificial/prep.,Exportacion,3801,45267805.0
+2020,grafito,E2 Grafito artificial/prep.,Importacion,3801,39306796.0
+2021,grafito,E2 Grafito artificial/prep.,Exportacion,3801,51084472.0
+2021,grafito,E2 Grafito artificial/prep.,Importacion,3801,52613865.0
+2022,grafito,E2 Grafito artificial/prep.,Exportacion,3801,75419392.0
+2022,grafito,E2 Grafito artificial/prep.,Importacion,3801,82581604.0
+2023,grafito,E2 Grafito artificial/prep.,Exportacion,3801,60460113.0
+2023,grafito,E2 Grafito artificial/prep.,Importacion,3801,61133138.0
+2024,grafito,E2 Grafito artificial/prep.,Exportacion,3801,34286349.0
+2024,grafito,E2 Grafito artificial/prep.,Importacion,3801,52981712.0
+2015,grafito,E3 Electrodos/articulos de carbono,Exportacion,8545,79721767.0
+2015,grafito,E3 Electrodos/articulos de carbono,Importacion,8545,86603082.0
+2016,grafito,E3 Electrodos/articulos de carbono,Exportacion,8545,60943822.0
+2016,grafito,E3 Electrodos/articulos de carbono,Importacion,8545,77598064.0
+2017,grafito,E3 Electrodos/articulos de carbono,Exportacion,8545,82925863.0
+2017,grafito,E3 Electrodos/articulos de carbono,Importacion,8545,98095042.0
+2018,grafito,E3 Electrodos/articulos de carbono,Exportacion,8545,156500823.0
+2018,grafito,E3 Electrodos/articulos de carbono,Importacion,8545,339596286.0
+2019,grafito,E3 Electrodos/articulos de carbono,Exportacion,8545,166748311.0
+2019,grafito,E3 Electrodos/articulos de carbono,Importacion,8545,210434995.0
+2020,grafito,E3 Electrodos/articulos de carbono,Exportacion,8545,108307232.0
+2020,grafito,E3 Electrodos/articulos de carbono,Importacion,8545,109660246.0
+2021,grafito,E3 Electrodos/articulos de carbono,Exportacion,8545,105949967.0
+2021,grafito,E3 Electrodos/articulos de carbono,Importacion,8545,124091170.0
+2022,grafito,E3 Electrodos/articulos de carbono,Exportacion,8545,101454322.0
+2022,grafito,E3 Electrodos/articulos de carbono,Importacion,8545,156227694.0
+2023,grafito,E3 Electrodos/articulos de carbono,Exportacion,8545,84827072.0
+2023,grafito,E3 Electrodos/articulos de carbono,Importacion,8545,129093090.0
+2024,grafito,E3 Electrodos/articulos de carbono,Exportacion,8545,72509893.0
+2024,grafito,E3 Electrodos/articulos de carbono,Importacion,8545,106967768.0
+2015,silice,E1 Arena silica/cuarzo,Exportacion,250510;250610,2315668.0
+2015,silice,E1 Arena silica/cuarzo,Importacion,250510;250610,66621984.0
+2016,silice,E1 Arena silica/cuarzo,Exportacion,250510;250610,1864350.0
+2016,silice,E1 Arena silica/cuarzo,Importacion,250510;250610,62535076.0
+2017,silice,E1 Arena silica/cuarzo,Exportacion,250510;250610,1916205.0
+2017,silice,E1 Arena silica/cuarzo,Importacion,250510;250610,92334106.0
+2018,silice,E1 Arena silica/cuarzo,Exportacion,250510;250610,1977646.0
+2018,silice,E1 Arena silica/cuarzo,Importacion,250510;250610,82996662.0
+2019,silice,E1 Arena silica/cuarzo,Exportacion,250510;250610,1588593.0
+2019,silice,E1 Arena silica/cuarzo,Importacion,250510;250610,78459709.0
+2020,silice,E1 Arena silica/cuarzo,Exportacion,250510;250610,1391684.0
+2020,silice,E1 Arena silica/cuarzo,Importacion,250510;250610,43823853.0
+2021,silice,E1 Arena silica/cuarzo,Exportacion,250510;250610,2535528.0
+2021,silice,E1 Arena silica/cuarzo,Importacion,250510;250610,70700145.0
+2022,silice,E1 Arena silica/cuarzo,Exportacion,250510;250610,3108781.0
+2022,silice,E1 Arena silica/cuarzo,Importacion,250510;250610,79368931.0
+2023,silice,E1 Arena silica/cuarzo,Exportacion,250510;250610,1897141.0
+2023,silice,E1 Arena silica/cuarzo,Importacion,250510;250610,87052719.0
+2024,silice,E1 Arena silica/cuarzo,Exportacion,250510;250610,1705312.0
+2024,silice,E1 Arena silica/cuarzo,Importacion,250510;250610,68537200.0
+2015,silice,E2 Silicio/ferrosilicio/SiO2,Exportacion,280461;280469;720221;720229;281122,5472738.0
+2015,silice,E2 Silicio/ferrosilicio/SiO2,Importacion,280461;280469;720221;720229;281122,212679881.0
+2016,silice,E2 Silicio/ferrosilicio/SiO2,Exportacion,280461;280469;720221;720229;281122,5166174.0
+2016,silice,E2 Silicio/ferrosilicio/SiO2,Importacion,280461;280469;720221;720229;281122,199757518.0
+2017,silice,E2 Silicio/ferrosilicio/SiO2,Exportacion,280461;280469;720221;720229;281122,5121738.0
+2017,silice,E2 Silicio/ferrosilicio/SiO2,Importacion,280461;280469;720221;720229;281122,222884956.0
+2018,silice,E2 Silicio/ferrosilicio/SiO2,Exportacion,280461;280469;720221;720229;281122,6723754.0
+2018,silice,E2 Silicio/ferrosilicio/SiO2,Importacion,280461;280469;720221;720229;281122,266925595.0
+2019,silice,E2 Silicio/ferrosilicio/SiO2,Exportacion,280461;280469;720221;720229;281122,7791711.0
+2019,silice,E2 Silicio/ferrosilicio/SiO2,Importacion,280461;280469;720221;720229;281122,229280208.0
+2020,silice,E2 Silicio/ferrosilicio/SiO2,Exportacion,280461;280469;720221;720229;281122,7400256.0
+2020,silice,E2 Silicio/ferrosilicio/SiO2,Importacion,280461;280469;720221;720229;281122,184682777.0
+2021,silice,E2 Silicio/ferrosilicio/SiO2,Exportacion,280461;280469;720221;720229;281122,11198288.0
+2021,silice,E2 Silicio/ferrosilicio/SiO2,Importacion,280461;280469;720221;720229;281122,250482158.0
+2022,silice,E2 Silicio/ferrosilicio/SiO2,Exportacion,280461;280469;720221;720229;281122,10001150.0
+2022,silice,E2 Silicio/ferrosilicio/SiO2,Importacion,280461;280469;720221;720229;281122,359549723.0
+2023,silice,E2 Silicio/ferrosilicio/SiO2,Exportacion,280461;280469;720221;720229;281122,6210015.0
+2023,silice,E2 Silicio/ferrosilicio/SiO2,Importacion,280461;280469;720221;720229;281122,291626006.0
+2024,silice,E2 Silicio/ferrosilicio/SiO2,Exportacion,280461;280469;720221;720229;281122,9261514.0
+2024,silice,E2 Silicio/ferrosilicio/SiO2,Importacion,280461;280469;720221;720229;281122,293421133.0

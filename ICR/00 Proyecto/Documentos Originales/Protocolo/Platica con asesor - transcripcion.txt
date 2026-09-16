@@ -1,0 +1,54 @@
+Transcripcion automatica (faster-whisper large-v3) - 'Platica con asesor'
+Duracion 142s | idioma es (prob 1.00) | generada 2026-07-23 15:06
+
+=== TEXTO CORRIDO ===
+¿Y quita litio de ahí y no se produce litio en México? Sí, sí, no, no lo... Es que pusiste entrevistas a litio en México. Ah, sí, sí, sí, sí. Ok, te voy a decir, pues no hay litio. Sí, sí. Ah, gracias. Sí. Entonces, lo voy a llevar más para... El marco geopolítico, el marco del mercado mexicano y esbozo, fijamientos, preguntas de política industrial hacia... Ha habido, ha habido, ha habido cuentas de que ese es el modelo. Sí. Bueno, entonces, recapitulándole la... Es... Sería como no centrar en buscar como tal desde un inicio causas de las cosas, sino lo que tengo, usarlo para describir, ¿no? O sea, ya con eso... Ya con eso tendría... Muchísimo. Una buena descripción es todo morido. Describir bien los mercados de estos 10 minerales. Sí, sí, sí, sí. Describir el panorama en el cual está México dentro de la geopolítica, alrededor de los minerales críticos. Y plantear que lo que estás haciendo son las bases para la discusión de una política industrial. Ok. No habría ninguna posibilidad de política industrial si antes no le dicen al equipo que va a hacer política industrial cómo es el modelo. Sí, sí, sí. Y entonces no solamente me basta, también eso es con describir el sector extractivo de los minerales, ¿no? Sino también intentar... Entender cómo es el sector de transformación. Sí. Y para eso sería necesario entender también cómo es fuera de México, ¿o no? O con que entienda... Lo que puedas saber. Sí. Ok. Ok. Vamos a ver, no sé. Muchas gracias. Porque sí me... Sí me ayuda bastante.
+
+=== POR SEGMENTOS CON TIEMPOS ===
+[00:00 -> 00:03] ¿Y quita litio de ahí y no se produce litio en México?
+[00:03 -> 00:05] Sí, sí, no, no lo...
+[00:05 -> 00:07] Es que pusiste entrevistas a litio en México.
+[00:07 -> 00:08] Ah, sí, sí, sí, sí.
+[00:08 -> 00:10] Ok, te voy a decir, pues no hay litio.
+[00:11 -> 00:12] Sí, sí.
+[00:12 -> 00:13] Ah, gracias.
+[00:15 -> 00:15] Sí.
+[00:18 -> 00:24] Entonces, lo voy a llevar más para...
+[00:24 -> 00:30] El marco geopolítico, el marco del mercado mexicano
+[00:30 -> 00:41] y esbozo, fijamientos, preguntas de política industrial hacia...
+[00:42 -> 00:45] Ha habido, ha habido, ha habido cuentas de que ese es el modelo.
+[00:45 -> 00:45] Sí.
+[00:47 -> 00:50] Bueno, entonces, recapitulándole la...
+[00:50 -> 00:51] Es...
+[00:51 -> 00:58] Sería como no centrar en buscar como tal desde un inicio causas de las cosas,
+[00:58 -> 01:02] sino lo que tengo, usarlo para describir, ¿no?
+[01:02 -> 01:03] O sea, ya con eso...
+[01:03 -> 01:05] Ya con eso tendría...
+[01:05 -> 01:05] Muchísimo.
+[01:05 -> 01:08] Una buena descripción es todo morido.
+[01:08 -> 01:12] Describir bien los mercados de estos 10 minerales.
+[01:12 -> 01:12] Sí, sí, sí, sí.
+[01:13 -> 01:16] Describir el panorama en el cual está México dentro de la geopolítica,
+[01:17 -> 01:18] alrededor de los minerales críticos.
+[01:18 -> 01:21] Y plantear que lo que estás haciendo son las bases
+[01:21 -> 01:24] para la discusión de una política industrial.
+[01:25 -> 01:25] Ok.
+[01:26 -> 01:29] No habría ninguna posibilidad de política industrial
+[01:29 -> 01:32] si antes no le dicen al equipo que va a hacer política industrial
+[01:32 -> 01:33] cómo es el modelo.
+[01:33 -> 01:36] Sí, sí, sí.
+[01:36 -> 01:37] Y entonces no solamente me basta,
+[01:38 -> 01:45] también eso es con describir el sector extractivo de los minerales, ¿no?
+[01:45 -> 01:48] Sino también intentar...
+[01:48 -> 01:51] Entender cómo es el sector de transformación.
+[01:51 -> 01:51] Sí.
+[01:51 -> 01:59] Y para eso sería necesario entender también cómo es fuera de México, ¿o no?
+[01:59 -> 02:02] O con que entienda...
+[02:02 -> 02:03] Lo que puedas saber.
+[02:03 -> 02:03] Sí.
+[02:04 -> 02:04] Ok.
+[02:04 -> 02:07] Ok.
+[02:09 -> 02:10] Vamos a ver, no sé.
+[02:14 -> 02:15] Muchas gracias.
+[02:16 -> 02:17] Porque sí me...
+[02:17 -> 02:19] Sí me ayuda bastante.

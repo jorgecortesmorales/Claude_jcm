@@ -1,0 +1,20 @@
+mineral,eslabon,empresa,rol,ubicacion,propiedad,confianza,fuente
+cobre,E2 fundición/refinación,Grupo México (Mexicana de Cobre),Fundición y refinería La Caridad,"Nacozari, Son.",nacional,sourced-USGS Tabla 2,
+cobre,E2 fundición,Grupo México (Mexicana de Cananea/Buenavista),Fundición,"Cananea, Son.",nacional,sourced-USGS Tabla 2,
+cobre,E2 refinación,"Cobre de México, S.A.",Refinería primaria,Ciudad de México,nacional,sourced-USGS Tabla 2,
+cobre,E3 semis (alambre/cable),Viakable (Grupo Xignux),Mayor fabricante de conductores de cobre; plantas Monterrey y S.L.P.,"Monterrey, N.L. / S.L.P.",nacional,verificado-web,viakable.com
+cobre,E3 semis (alambre/cable),Condumex (Grupo Carso),"Conductores de cobre (Condumex, Latincasa); desde 1954","Vallejo, CDMX / varias",nacional,verificado-web,grupocarso.com
+oro-plata,E2 refinación metales preciosos,Met-Mex Peñoles,Refinería de oro y plata,"Torreón, Coah.",nacional,sourced-USGS Tabla 2,
+plomo-zinc,E2 fundición/refinación,Met-Mex Peñoles,"Refinería de plomo, zinc, plata y oro","Torreón, Coah.",nacional,sourced-USGS Tabla 2,
+plomo-zinc,E2 refinación zinc,Grupo México (IMMSA),Refinería de zinc,"San Luis Potosí, S.L.P.",nacional,sourced-USGS Tabla 2,
+plomo-zinc,E4 baterías,Clarios (marca LTH),Baterías plomo-ácido + reciclaje (~184 mil t Pb/año recuperado),Nuevo León,"extranjera (marca nacional LTH, 1928)",verificado-web,clarios.com
+manganeso,E2 ferroaleaciones,Compañía Minera Autlán,"Ferro- y silicomanganeso (Tamós, Teziutlán, Gómez Palacio); ~225 mil t/año",Veracruz / Puebla / Durango,nacional,verificado-web,autlan.com.mx
+fluorita,E2 fluoroquímica (HF),Koura (Orbia),Planta de ácido fluorhídrico más grande del mundo; integrada con mina Las Cuevas,"Matamoros, Tamps.",nacional,verificado-web,kouraglobal.com
+fluorita,E4 fluoropolímeros,(no se produce en México),PTFE/fluoropolímeros importados (~30-40 MM USD/año),—,—,verificado-comercio (ausente),
+fluorita,usuario (cemento),CEMEX; Holcim México; Cruz Azul; GCC,Fluorita como mineralizador del clínker (baja 60-100°C la clinkerización),varias,nacional/extranjera,verificado-web,scielo/CEMEX
+silice,usuario (vidrio),Vitro; Owens-Illinois de México,Vidrio (funde arena sílica); O-I opera además extracción de arena,Monterrey / varias,nacional/extranjera,verificado-web,vitro.com / o-i.com
+silice,usuario (cemento/cerámica),CEMEX; Holcim México; GCC,Insumo de cemento y cerámica,varias,nacional/extranjera,verificado-web,cemexmexico.com
+silice,E2 silicio/ferrosilicio,(mayormente importado),Silicio metálico/ferrosilicio importados (importador neto),—,—,verificado-comercio,
+grafito,E4 siderurgia (EAF),Ternium; ArcelorMittal; DeAcero; Gerdau Corsa (CANACERO),"Acero por horno de arco eléctrico (96.7%): electrodos de grafito, refractarios, recarburación",varias,nacional/extranjera,verificado-web,canacero.org.mx
+grafito,E3 electrodos,(mayormente importado),Electrodos de grafito importados (importador neto),—,—,verificado-comercio,
+barita,usuario (perforación),"PEMEX (+ servicios: Halliburton, Baker Hughes, SLB)",Barita grado API como densificante de lodos; PEMEX se abastece de Coahuila y Sonora,Cuenca de Campeche / Golfo,estatal + extranjera (servicios),verificado-web,PEMEX/QuimiNet
