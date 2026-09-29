@@ -324,7 +324,7 @@ El proyecto más relevante de expansión reciente en zinc ---Buenavista Zinc de 
 
 ## V.12 Síntesis comparativa de la estructura empresarial
 
-La síntesis cuantitativa de la estructura extractiva es el índice HHI por mineral, cuya definición y cautelas de comparabilidad se exponen en el Capítulo III (III.4). La Ilustración {{fig:hhiesp}} ordena los diez mercados por su concentración reciente y la Ilustración {{fig:hhievo}} muestra su evolución; el Cuadro {{cua:hhi}} reúne los valores.
+La síntesis cuantitativa de la estructura extractiva es el índice HHI por mineral, cuya definición y cautelas de comparabilidad se exponen en el Capítulo III (III.4). La Ilustración {{fig:hhiesp}} ordena los diez mercados por su concentración reciente y la Ilustración {{fig:hhievo}} muestra su evolución; el {{cua:hhi}} reúne los valores.
 
 ![Ilustración {#fig:hhiesp}: Índice HHI de la producción por mineral (año más reciente con dato). En rojo, concentración alta (HHI ≥ 2 500); en azul, moderada; en gris, baja. Fuente: cálculo propio, base B5 (CAMIMEX y USGS).](figuras/v1_hhi_mineral.png){width=90%}
 

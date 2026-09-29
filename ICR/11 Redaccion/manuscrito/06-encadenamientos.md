@@ -22,7 +22,7 @@ La exposición procede de lo agregado a lo desagregado. Primero se presentan los
 
 ## VI.2 Encadenamientos por mineral: dos regularidades
 
-El Cuadro {{cua:enc2018}} presenta, para el corte de 2018, el valor bruto de producción (VBP), la fracción de esa producción destinada a demanda intermedia doméstica (DI/VBP) y los índices normalizados de encadenamiento hacia atrás ($U_j$) y hacia adelante ($U_i$); el Cuadro {{cua:enc2013}} replica el ejercicio para 2013. En ambos, un índice superior a la unidad señala un encadenamiento por encima del promedio de la economía.
+El {{cua:enc2018}} presenta, para el corte de 2018, el valor bruto de producción (VBP), la fracción de esa producción destinada a demanda intermedia doméstica (DI/VBP) y los índices normalizados de encadenamiento hacia atrás ($U_j$) y hacia adelante ($U_i$); el {{cua:enc2013}} replica el ejercicio para 2013. En ambos, un índice superior a la unidad señala un encadenamiento por encima del promedio de la economía.
 
 Cuadro {#cua:enc2018}: Encadenamientos productivos de los minerales críticos, 2018 (base doméstica, clase SCIAN, ordenado por encadenamiento hacia adelante). VBP en millones de pesos corrientes. Fuente: cálculo propio con la MIP del INEGI 2018.
 
@@ -62,7 +62,7 @@ La comparación de los dos cortes revela, además, movimiento. Entre 2013 y 2018
 
 ## VI.3 La demanda intermedia doméstica: dónde se interrumpe la cadena
 
-El índice hacia adelante gana sentido al identificar qué sectores compran cada mineral dentro del país. El Cuadro {{cua:demanda}} resume los principales compradores domésticos en 2018, a partir de la fila de cada mineral en la matriz de flujos, y matiza el significado de los índices anteriores.
+El índice hacia adelante gana sentido al identificar qué sectores compran cada mineral dentro del país. El {{cua:demanda}} resume los principales compradores domésticos en 2018, a partir de la fila de cada mineral en la matriz de flujos, y matiza el significado de los índices anteriores.
 
 Cuadro {#cua:demanda}: Destino intermedio doméstico de cada mineral: principales sectores compradores y su participación en la demanda intermedia (2018). Fuente: cálculo propio con la MIP del INEGI 2018.
 
@@ -82,7 +82,7 @@ La lectura por mineral revela dónde se interrumpe la cadena. En los **metales p
 
 ## VI.4 El encadenamiento por eslabón: dónde se corta el arrastre
 
-La distinción anterior —cadena larga frente a un solo eslabón metalúrgico— se vuelve visible al calcular el índice de Ghosh no solo para la extracción, sino también para la refinación y la semimanufactura de cada mineral (Cuadro {{cua:eslabon}}, Ilustración {{fig:eslabon}}). Si el arrastre hacia adelante probara una cadena desarrollada, debería sostenerse o crecer al descender por ella; lo que se observa es lo contrario: se debilita o se corta en cada paso.
+La distinción anterior —cadena larga frente a un solo eslabón metalúrgico— se vuelve visible al calcular el índice de Ghosh no solo para la extracción, sino también para la refinación y la semimanufactura de cada mineral ({{cua:eslabon}}, Ilustración {{fig:eslabon}}). Si el arrastre hacia adelante probara una cadena desarrollada, debería sostenerse o crecer al descender por ella; lo que se observa es lo contrario: se debilita o se corta en cada paso.
 
 Cuadro {#cua:eslabon}: Índice de Ghosh hacia adelante (Rasmussen, media = 1) por eslabón, corte 2018. Las clases marcadas como no atribuibles agregan químicos o metales que no pueden separarse por mineral. Fuente: cálculo propio con la MIP del INEGI 2018 (base `mip_encadenamientos_eslabones.csv`).
 
@@ -122,7 +122,7 @@ En consecuencia, el índice de Ghosh es una condición necesaria pero no suficie
 
 ## VI.6 El coeficiente de captura de valor: una serie continua
 
-El índice de Ghosh está atado a los dos cortes de la MIP. Para darle profundidad temporal se construye el coeficiente de captura de valor (CCV), definido en el Capítulo III como el cociente entre el valor unitario de exportación en bruto (etapa 1) y el precio del producto refinado de referencia del USGS, en serie anual 1992-2025. El Cuadro {{cua:ccv}} resume su media y rango por mineral, y la Ilustración {{fig:ccv}} muestra la serie de los dos metales base donde el indicador es más informativo.
+El índice de Ghosh está atado a los dos cortes de la MIP. Para darle profundidad temporal se construye el coeficiente de captura de valor (CCV), definido en el Capítulo III como el cociente entre el valor unitario de exportación en bruto (etapa 1) y el precio del producto refinado de referencia del USGS, en serie anual 1992-2025. El {{cua:ccv}} resume su media y rango por mineral, y la Ilustración {{fig:ccv}} muestra la serie de los dos metales base donde el indicador es más informativo.
 
 Cuadro {#cua:ccv}: Coeficiente de captura de valor por mineral, 1992-2025 (media y rango de los años con dato). La serie completa año por año obra en el Anexo B. Fuente: cálculo propio con UN Comtrade (numerador) y precios del USGS empalmados (denominador).
 
@@ -149,7 +149,7 @@ A los dos cortes comparables se añade la MIP de 2008 como referencia histórica
 
 ## VI.8 Peso económico y comparación metodológica: la extracción hipotética
 
-Los índices de Rasmussen empleados hasta aquí miden la *intensidad* del encadenamiento —qué tan articulado está cada mineral por unidad de producción—, pero no su *peso* en la economía. Una medida complementaria, la extracción hipotética (HEM) descrita en el Capítulo III —ecuaciones (9) y (10)—, responde a la pregunta distinta de cuánto del valor bruto de producción nacional se perdería si el mineral dejara de comprar insumos (hacia atrás) o de vender su producto (hacia adelante). Es, además, el método que @morales2023 aplica al caso interregional mexicano, por lo que su cálculo permite un contraste directo con ese antecedente. El Cuadro {{cua:hem}} presenta el resultado para el corte de 2018, junto al índice de Ghosh-Rasmussen hacia adelante para su comparación; la Ilustración {{fig:hem}} confronta ambas medidas.
+Los índices de Rasmussen empleados hasta aquí miden la *intensidad* del encadenamiento —qué tan articulado está cada mineral por unidad de producción—, pero no su *peso* en la economía. Una medida complementaria, la extracción hipotética (HEM) descrita en el Capítulo III —ecuaciones (9) y (10)—, responde a la pregunta distinta de cuánto del valor bruto de producción nacional se perdería si el mineral dejara de comprar insumos (hacia atrás) o de vender su producto (hacia adelante). Es, además, el método que @morales2023 aplica al caso interregional mexicano, por lo que su cálculo permite un contraste directo con ese antecedente. El {{cua:hem}} presenta el resultado para el corte de 2018, junto al índice de Ghosh-Rasmussen hacia adelante para su comparación; la Ilustración {{fig:hem}} confronta ambas medidas.
 
 Cuadro {#cua:hem}: Extracción hipotética (HEM) por mineral, 2018: porcentaje del VBP nacional que se perdería al extraer las compras (hacia atrás) o las ventas (hacia adelante) del mineral, y rango del mineral entre los 834 sectores de la economía por el HEM total. Se añade el índice de Ghosh-Rasmussen hacia adelante para contraste. Ordenado por HEM total. Fuente: cálculo propio con la MIP del INEGI 2018 (`mip_hem_minerales.csv`).
 

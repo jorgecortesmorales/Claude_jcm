@@ -22,7 +22,7 @@ La pregunta central —cómo son los mercados de los diez minerales críticos y 
 
 ## IX.3 Bases para una política industrial diferenciada
 
-Las recomendaciones se enuncian como bases descriptivas —dónde intervendría una política que quisiera prolongar la cadena—, no como un plan cuya efectividad se estime aquí. La referencia internacional orienta el criterio: el contraste con Finlandia, Suecia y China indica que la palanca no es la escala ni la dotación extractiva (Chile y Perú las tienen y no integran), sino la capacidad de transformación doméstica acompañada de arreglos de propiedad y política que la retengan en el país. El Cuadro {{cua:pol}} ordena las bases por tipo de mercado.
+Las recomendaciones se enuncian como bases descriptivas —dónde intervendría una política que quisiera prolongar la cadena—, no como un plan cuya efectividad se estime aquí. La referencia internacional orienta el criterio: el contraste con Finlandia, Suecia y China indica que la palanca no es la escala ni la dotación extractiva (Chile y Perú las tienen y no integran), sino la capacidad de transformación doméstica acompañada de arreglos de propiedad y política que la retengan en el país. El {{cua:pol}} ordena las bases por tipo de mercado.
 
 Cuadro {#cua:pol}: Bases de política diferenciadas por tipo de mercado (eslabón ausente). Fuente: elaboración propia.
 
@@ -39,7 +39,7 @@ Un corolario del análisis del contexto institucional (Capítulo IV): la reforma
 
 ## IX.5 Limitaciones y declaración de vacíos
 
-Fiel al criterio de no imputar (Capítulo III, III.11), la investigación declara los vacíos de sus series y cómo se intentó llenar cada uno; ninguno se rellenó con supuestos (Cuadro {{cua:vac}}). Estas limitaciones no comprometen el retrato descriptivo, que se sostiene en la convergencia de indicadores independientes: estructura, encadenamientos, captura de valor, comercio por etapa y comparación internacional.
+Fiel al criterio de no imputar (Capítulo III, III.11), la investigación declara los vacíos de sus series y cómo se intentó llenar cada uno; ninguno se rellenó con supuestos ({{cua:vac}}). Estas limitaciones no comprometen el retrato descriptivo, que se sostiene en la convergencia de indicadores independientes: estructura, encadenamientos, captura de valor, comercio por etapa y comparación internacional.
 
 Cuadro {#cua:vac}: Declaración de vacíos por indicador y su tratamiento (criterio: declarar, no imputar). Fuente: elaboración propia.
 
