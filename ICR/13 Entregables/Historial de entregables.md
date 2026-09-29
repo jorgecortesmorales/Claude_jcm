@@ -3,7 +3,7 @@ title: "Historial de entregables"
 type: indice
 tags: [icr, entregables, historial]
 created: 2026-09-06
-updated: 2026-09-08
+updated: 2026-09-28
 ---
 
 # Historial de entregables
@@ -52,5 +52,14 @@ Cada entregable se archiva **fechado** en su subcarpeta (no se borran versiones 
 - **Mapa conceptual (Canvas)**: `00 Proyecto/Mapa conceptual - columna vertebral (indicadores y enclave).canvas` — columna vertebral de la tesis (los 8 indicadores agrupados por objetivo → enclave estructural → tipología → bases de política). Se abre en Obsidian (Canvas).
 - **Skill `explicar-icr`** (en `~/.claude/skills/explicar-icr/SKILL.md`): fija un formato de explicación para la tesis (qué es → intuición → matemática → datos/fuente → interpretación → caveats), anclado a las fuentes reales. Se activa sola al pedir explicar/aclarar cualquier tema de la ICR.
 
+## 6. Consolidado de datos y cálculos (Excel) + auditoría de consistencia + cotejo de certificación (2026-09-28)
+- **Carpeta**: `Consolidado datos y calculos/`
+- **Libro maestro**: `Consolidado ICR - datos, calculos e indicadores.xlsx` — **27 hojas**: `00 Índice`, `01 Bases de datos` (inventario de las fuentes usadas), `02 Catálogo de calculos` (todos los indicadores con fórmula, insumos, script y CSV) y **19 hojas de indicadores** por bloque (HHI numeradores/serie, CCV, precios, peso del bloque, MIP nacional/eslabones/demanda intermedia, comercio posición/etapa/destinos, georref + HHI geográfico + Ghosh estatal/interestatal, ICIO comparación/DVA, cadena local + tipología, criticidad). Reúne todo en un mismo sitio para consulta y para armar tablas propias.
+- **Trazabilidad (fórmulas)**: columnas **verdes** = fórmula viva de Excel que recomputa el indicador desde sus insumos, con columna `dif`≈0 (el libro se auto-audita); columnas **naranjas** = resultado de inversión matricial (Leontief/Ghosh nacional/estatal/ICIO) validado contra INEGI (~1e-15), con su script y CSV.
+- **Generador**: `gen_consolidado.py` (solo LEE `10 Datos/processed/`, no lo modifica). Regenerar: `py "13 Entregables/Consolidado datos y calculos/gen_consolidado.py"`.
+- **Auditoría de consistencia (formato reproducible)**: `auditoria_consistencia.py` → `Auditoria de consistencia.html` (reporte autónomo para navegador) + `ledger_auditoria.csv` (tabla máquina-legible). Recomputa cada indicador desde los CSV y emite veredicto. **Dictamen 2026-09-28: 15 indicadores reproducidos exactos (PASA) · 4 inversiones matriciales validadas por script · 0 a revisar.** Correr: `py "13 Entregables/Consolidado datos y calculos/auditoria_consistencia.py"`.
+- **Cotejo de certificación (manuscrito ↔ datos)**: `cotejo_certificacion.py` → `Cotejo de certificacion.html` + `cotejo_certificacion.csv`. Extrae los **37 cuadros y 29 ilustraciones** del manuscrito renderizado (`11 Redaccion/manuscrito/ICR - Manuscrito (nueva estructura).docx`) y confronta cada número impreso contra el CSV que lo origina (celda a celda en los anexos B.1/B.2/B.3; por-entidad en las tablas de cuerpo; las figuras por identidad de fuente vía sus `fig_*.py`). **Resultado 2026-09-28: 1 070 números confrontados, 1 070 coinciden, 0 difieren.** Certifica que lo impreso en el manuscrito = la capa `processed/`. Correr: `py "13 Entregables/Consolidado datos y calculos/cotejo_certificacion.py"`.
+- **Nota**: todo el paquete es una **reexposición/verificación** de lo ya calculado (solo lectura); no altera ningún dato, indicador ni capítulo. Alcance del cotejo: certifica manuscrito ↔ `processed/`; no re-verifica la extracción primaria (PDF CAMIMEX, USGS, Comtrade).
+
 ---
-← [[Bitacora]] · [[Resumen descriptivo de la investigacion (datos e indicadores)]] · [[Mapa conceptual - columna vertebral (indicadores y enclave)]]
+← [[Bitacora]] · [[Resumen descriptivo de la investigacion (datos e indicadores)]] · [[Mapa conceptual - columna vertebral (indicadores y enclave)]] · [[Catalogo de Bases de Datos]]

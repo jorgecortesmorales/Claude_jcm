@@ -160,4 +160,7 @@ Scripts: `scripts/comercio_etapa.py`, `scripts/comercio_summary.py`. Método, re
 - `processed/ghosh_interestatal_mineria.csv` (32 filas): **Ghosh INTER-ESTATAL** con la **MIP birregional** (`mip_ixi_br_<edo>_d`, entidad + resto del país, 2×35 industrias, flujos inter-estatales endógenos). Script `scripts/ghosh_interestatal.py`; gráfica `ghosh_interestatal.png`. Descompone el producto minero de cada estado en `intra_share` / `inter_estatal_share` (a industria de otros estados = cadena nacional) / `final_nacional_share` / **`export_abroad_share`** (fuga real al extranjero), + `forward_rasmussen_br`. **Reencuadre**: la fuga intra-estatal exagera el enclave; el **enclave real (al extranjero)** se concentra en **Chihuahua 76 %, Guerrero 59 %, Zacatecas 53 %**; Durango manda 46 % a otros estados (cadena nacional), SLP 48 % con solo 1 % afuera. Existe una **cadena metalúrgica nacional inter-estatal** (extractivos → fundición de Coahuila/SLP/NL).
 - **Caveat**: 35 industrias (minería agregada, no por mineral); el birregional agrega el «resto del país» (no dice a qué estado; el detalle estado-a-estado requiere la MIP multiestatal 1120×1120 del mismo `.zip`, pendiente). Ver [[Memoria - Georreferenciacion y destinos (extraccion, transformacion, exportacion)]] §3bis-3ter.
 
-← [[Home]] · [[Variables y Datos]] · [[Diccionario de Variables]]
+> [!tip] Consolidado con trazabilidad (2026-09-28)
+> Todas estas bases y **todos** los cálculos están reexpuestos en un solo libro de Excel con fórmulas vivas, más una auditoría de consistencia reproducible, en `13 Entregables/Consolidado datos y calculos/`. Ver [[Historial de entregables]] §6.
+
+← [[Home]] · [[Variables y Datos]] · [[Diccionario de Variables]] · [[Historial de entregables]]

@@ -3,10 +3,17 @@ title: Bitácora de Trabajo
 type: proyecto
 tags: [icr, proyecto, bitacora]
 created: 2026-07-16
-updated: 2026-09-09
+updated: 2026-09-28
 ---
 
 # Bitácora de Trabajo
+
+## 2026-09-28 (Consolidado de datos y cálculos en Excel + auditoría de consistencia)
+- A pedido del alumno, se construyó un **libro maestro de Excel** que reúne en un solo sitio (27 hojas) el **inventario de bases**, el **catálogo de TODOS los cálculos** y una hoja por bloque de indicadores: `13 Entregables/Consolidado datos y calculos/Consolidado ICR - datos, calculos e indicadores.xlsx`. **Trazabilidad**: columnas verdes con **fórmula viva de Excel** que recomputa cada indicador desde sus insumos (con columna `dif`≈0 → auto-auditoría); columnas naranjas = resultados de **inversión matricial** (Leontief/Ghosh nacional/estatal/ICIO) con procedencia y residual validado contra INEGI (~1e-15), porque no es práctico invertir matrices de 822×822 en hoja de cálculo. Generador `gen_consolidado.py` (solo LEE `10 Datos/processed/`).
+- **Verificación con motor real de fórmulas** (`formulas`, evaluación fuera de Excel): todas las columnas `dif` dan 0 (o ≤5e-4 por redondeo) y los checks de identidad (crudo+reproc=1; shares suman 1) dan 1 exacto. Las únicas 3 diferencias mayores son **marcas de calidad ya documentadas** en la fuente: limpieza de valor unitario en 5 filas del CCV (tonelaje atípico), redondeo de despliegue del precio (<0.02% en peso de producción) y filas de capacidad/dominancia declarada en los numeradores del HHI.
+- **Formato de auditoría (Parte 2)**: arnés reproducible `auditoria_consistencia.py` que recomputa cada indicador desde los CSV fuente y emite dictamen; reporte autónomo `Auditoria de consistencia.html` + `ledger_auditoria.csv`. **Resultado: 15 indicadores reproducidos exactos (PASA), 4 inversiones matriciales validadas por script, 0 a revisar.** Cierra el hueco que el Excel no cubre (las inversiones).
+- **Cotejo de certificación manuscrito ↔ datos** (`cotejo_certificacion.py`, solo lectura): se extrajeron los **37 cuadros y 29 ilustraciones** del manuscrito renderizado (`ICR - Manuscrito (nueva estructura).docx`) y se confrontó **cada número impreso** contra el CSV de `processed/` que lo origina — celda a celda en las matrices año×mineral de los anexos (B.1 CCV, B.2 HHI, B.3 posición) y por-entidad en las tablas de cuerpo. **Resultado: 1 070 números confrontados, 1 070 coinciden, 0 difieren**; las 29 ilustraciones trazan a los mismos CSV vía sus `fig_*.py`. Reporte `Cotejo de certificacion.html` + `cotejo_certificacion.csv`. Confirma que **lo impreso en el manuscrito = la capa `processed/`** (auditada, a su vez, por `auditoria_consistencia.py`). No re-verifica la extracción primaria (PDF CAMIMEX, USGS, Comtrade).
+- **Ningún dato ni cálculo del proyecto se modificó**: el consolidado, la auditoría y el cotejo solo LEEN los CSV de `processed/` (y el manuscrito, en el cotejo); los indicadores, el manuscrito y los elementos gráficos quedan intactos. Ver [[Historial de entregables]] §6.
 
 ## 2026-09-15 (Ghosh por eslabón: extracción, refinación, semimanufactura)
 - A pedido del alumno, se calcula el **Ghosh hacia adelante no solo del eslabón extractivo**, sino también de **refinación (L2)** y **semimanufactura (L3)**, en los tres frentes: **nacional por mineral** (MIP 2013/2018, `mip_eslabones.py` → `mip_encadenamientos_eslabones.csv`), **estatal** (MIP estatal 2018, `ghosh_estatal_eslabones.py` → `ghosh_estatal_eslabones.csv`) e **internacional** (OECD ICIO 2018/2020, `icio_eslabones.py` → `icio_eslabones_metal.csv`). Mapeos: L2/L3 = clases SCIAN 331411/331420 (cobre), 331412 (preciosos), 331419/331490 (Pb-Zn), 331112 (ferroaleaciones); estatal 331-332 combinado; ICIO C24/C25.

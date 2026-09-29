@@ -1,0 +1,38 @@
+cuadro,csv,modo,n,coincide,difieren,detalle,nota
+Cuadro B.1,ccv_serie.csv,celda anio x mineral,323,323,0,,
+Cuadro B.2,hhi_consolidado.csv,celda anio x mineral,152,152,0,,
+Cuadro B.3,comercio_posicion_1992_2024.csv,celda anio x mineral,96,96,0,,
+Cuadro V.1,hhi_consolidado.csv,por-entidad (valor en fila),36,36,0,,
+Cuadro VI.1,mip_encadenamientos_minerales.csv,por-entidad (valor en fila),36,36,0,,
+Cuadro VI.2,mip_encadenamientos_minerales.csv,por-entidad (valor en fila),36,36,0,,
+Cuadro VI.5,ccv_serie.csv,por-entidad (media/rango),19,19,0,,
+Cuadro VII.1,icio_comparacion_mineria.csv,por-entidad (valor en fila),8,8,0,,
+Cuadro VII.2,icio_dva_mineria.csv,por-entidad (valor en fila),8,8,0,,
+Cuadro VIII.3,ghosh_estatal_mineria.csv,por-entidad (valor en fila),10,10,0,,
+Cuadro VIII.4,ghosh_interestatal_mineria.csv,por-entidad (valor en fila),24,24,0,,
+Cuadro C.1,cv_eslabones_cuantificado.csv,por-mineral (ficha),17,17,0,,
+Cuadro C.2,cv_eslabones_cuantificado.csv,por-mineral (ficha),14,14,0,,
+Cuadro C.3,cv_eslabones_cuantificado.csv,por-mineral (ficha),14,14,0,,
+Cuadro C.4,cv_eslabones_cuantificado.csv,por-mineral (ficha),10,10,0,,
+Cuadro C.5,cv_eslabones_cuantificado.csv,por-mineral (ficha),10,10,0,,
+Cuadro C.6,cv_eslabones_cuantificado.csv,por-mineral (ficha),12,12,0,,
+Cuadro C.7,cv_eslabones_cuantificado.csv,por-mineral (ficha),7,7,0,,
+Cuadro C.8,cv_eslabones_cuantificado.csv,por-mineral (ficha),9,9,0,,
+Cuadro C.9,cv_eslabones_cuantificado.csv,por-mineral (ficha),7,7,0,,
+Cuadro C.10,cv_eslabones_cuantificado.csv,por-mineral (ficha),7,7,0,,
+Cuadro I.1,peso_bloque_hist_produccion.csv + _exportaciones,por-entidad (composicion),40,40,0,,
+Cuadro VI.3,mip_demanda_intermedia_minerales.csv,por-entidad (% comprador),19,19,0,,
+Cuadro VI.4,mip_encadenamientos_eslabones.csv,por-entidad (valor en fila),25,25,0,,
+Cuadro VII.3,icio_eslabones_metal.csv,por-entidad (valor en fila),24,24,0,,
+Cuadro VIII.2,georref_regionalizacion.csv,por-entidad (valor en fila),10,10,0,,
+Cuadro B.4,mip_encadenamientos_minerales.csv + _2008_referencia,por-entidad (cortes),48,48,0,,
+Cuadro B.5,mip_encadenamientos_eslabones.csv,por-entidad (valor en fila),25,25,0,,
+Cuadro B.6,icio_eslabones_metal.csv,por-entidad (valor en fila),24,24,0,,
+Cuadro II.1,criticidad_productos.csv,clasificacion / texto,0,0,0,,Clasificacion de criticidad por producto (estrategico/critico/...) — trazable a su CSV; sin cifras de indicador que diferir.
+Cuadro III.1,concordancia_scian_2007_2013_minerales.csv,clasificacion / texto,0,0,0,,Correspondencia mineral -> clase SCIAN (codigos) — trazable a su CSV; sin cifras de indicador que diferir.
+Cuadro III.2,(catalogo de indicadores),clasificacion / texto,0,0,0,,Sintesis de indicadores: que describe cada uno y su base (texto) — trazable a su CSV; sin cifras de indicador que diferir.
+Cuadro VII.4,criticidad_productos.csv,clasificacion / texto,0,0,0,,Criticidad por producto + capacidad de Mexico (clasificacion/texto) — trazable a su CSV; sin cifras de indicador que diferir.
+Cuadro VIII.1,cv_tipologia.csv,clasificacion / texto,0,0,0,,Tipologia A/B/C/D y punto de ruptura (clasificacion) — trazable a su CSV; sin cifras de indicador que diferir.
+Cuadro IX.1,(elaboracion propia),clasificacion / texto,0,0,0,,Bases de politica por tipo de mercado (texto) — trazable a su CSV; sin cifras de indicador que diferir.
+Cuadro IX.2,(declaracion de vacios),clasificacion / texto,0,0,0,,Declaracion de vacios por indicador (texto) — trazable a su CSV; sin cifras de indicador que diferir.
+Cuadro D.1,(declaracion de vacios),clasificacion / texto,0,0,0,,"Declaracion de vacios por indicador, causa y tratamiento (texto) — trazable a su CSV; sin cifras de indicador que diferir."

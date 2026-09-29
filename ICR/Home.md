@@ -91,6 +91,7 @@ Vista interactiva (filtrable/agrupable, nativa de Obsidian — función *Bases*)
 ## 13 · Entregables
 - 📊 **Infografía interactiva** (Artifact HTML) y **presentación** (deck HTML / canvas de Claude Design) de los cuatro indicadores + tipología.
 - 📄 **Resumen en Word** (`.docx`) descriptivo con fórmulas, fuentes y gráficos.
+- 🧮 **Consolidado de datos y cálculos** (Excel, 27 hojas con fórmulas vivas) + **auditoría de consistencia** (reporte HTML + arnés reproducible) en `13 Entregables/Consolidado datos y calculos/` — ver [[Historial de entregables]] §6.
 - Fuentes en `13 Entregables/`; texto base en [[Resumen descriptivo de la investigacion (datos e indicadores)]].
 
 ## 11 · Redacción (manuscrito por capítulo)
