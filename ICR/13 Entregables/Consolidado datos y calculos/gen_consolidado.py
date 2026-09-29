@@ -145,6 +145,8 @@ CALC = [
  ("2 MIP nacional","Demanda intermedia (DI/VBP)","Fraccion a uso intermedio interno y sectores compradores","DI/VBP ; share de la fila del mineral","MIP INEGI","mip_calc.py","mip_demanda_intermedia_minerales.csv","16 Demanda interm.","Formula viva"),
  ("2 MIP nacional","Encadenamiento por eslabon","Si el arrastre se sostiene al descender L1->L2->L3","Ghosh-Rasmussen por clase SCIAN 331... por mineral","MIP INEGI","mip_eslabones.py","mip_encadenamientos_eslabones.csv","15 MIP eslabones","Resultado + Rasmussen formula viva"),
  ("2 MIP nacional","Corte de referencia 2008","Tercer punto historico no encadenado","idem MIP (base 2008 / SCIAN 2007)","MIP INEGI 2008","mip2008_calc.py","mip_encadenamientos_2008_referencia.csv","14 MIP encadenam.","Resultado validado"),
+ ("2 MIP nacional","Extraccion hipotetica (HEM) por mineral","% del VBP nacional que se pierde al extraer compras/ventas del mineral","BL=100*i'(x-xhat)/i'x, xhat=(I-A^(-k))^-1 f; FL analogo con Ghosh (Miller-Lahr casos 3/4)","MIP INEGI 2013/2018 (A,B,x,Y,V)","mip_hem.py","mip_hem_minerales.csv","23 HEM nacional","Resultado validado (SM vs bruta 1e-14) + total formula viva"),
+ ("6 Territorial","Extraccion hipotetica (HEM) estatal","% del VBP birregional que se pierde al extraer la mineria de la entidad","idem HEM sobre la MIP birregional 2018 (extraer sector 21-2 de la entidad)","MIP Estatal birregional 2018","hem_estatal.py","hem_estatal_mineria.csv","24 HEM estatal","Resultado validado + total formula viva"),
  ("3 CCV","Coeficiente de captura de valor","Cuanto del valor del refinado capta la forma bruta exportada","CCV = v_E1 / p_USGS ; v_E1 = valor_E1 / peso_E1","Comtrade E1 (valor y peso) / USGS empalmado","ccv_download.py, ccv_calc.py, ccv_fill_gaps.py","ccv_serie.csv","09 CCV","Formula viva"),
  ("4 Comercio","Concordancia HS x etapa","Asigna cada fraccion HS a una etapa E1-E4","(tabla de concordancia)","clasificacion propia","comercio_etapa.py","concordancia_hs_etapa.csv","18 Comercio etapa","Clasificacion"),
  ("4 Comercio","Comercio por etapa y posicion","Exportaciones por etapa y share exportado en crudo","X_share_crudo = X_E1 / X_total","Comtrade por HS","comercio_etapa*.py","comercio_por_etapa_1992_2024.csv, comercio_posicion_1992_2024.csv","18 Comercio etapa","Formula viva"),
@@ -605,6 +607,43 @@ dump("22 Criticidad","criticidad_productos.csv",
   "Base oficial USGS (2022/2025), UE (CRMA 2023), IEA. Muestra que la criticidad se concentra en productos y grados, no en el mineral.",
   wrapcols=(3,), widths={"A":11,"B":8,"C":28,"D":16,"E":16,"F":16,"G":8,"H":10,"I":10}, tipo="Clasificacion", script="(fichado)",
   index_content="Nivel de criticidad por producto/eslabon")
+
+# ============================================================
+# 23 HEM nacional por mineral (Miller-Lahr casos 3/4)  -- total = back + fwd formula viva
+# ============================================================
+ws, dfhem, hr = dump("23 HEM nacional","mip_hem_minerales.csv",
+  "Extraccion hipotetica (HEM) por mineral, 2013/2018",
+  "HEM = % del VBP nacional que se perderia al extraer las compras (hacia atras) o ventas (hacia adelante) del mineral "
+  "(Miller-Lahr 2001, casos 3/4; metodo de Morales-Lopez 2023). Inversion de matriz validada por Sherman-Morrison vs fuerza bruta a 1e-14 (script). "
+  "Columna verde: hem_total recomputado = back + fwd; 'rank_*' = rango del mineral entre los n sectores. Mide PESO economico (complementa a Rasmussen, que mide intensidad).",
+  widths={"A":6,"B":9,"C":12,"D":13,"E":15,"F":15,"G":13,"H":12,"I":12,"J":11,"K":11},
+  tipo="Resultado validado + total formula viva", script="mip_hem.py",
+  index_content="HEM backward/forward/total y rango por mineral (2013/2018)")
+cols=list(dfhem.columns)
+cb=col_letter(cols.index("hem_backward_pct")+1); cf=col_letter(cols.index("hem_forward_pct")+1)
+ct=col_letter(cols.index("hem_total_pct")+1); b=dfhem.shape[1]
+add_formula_cols(ws, dfhem, hr, [
+  ("hem_total (=formula)",FILL_FORM, lambda rn: f'=ROUND({cb}{rn}+{cf}{rn},4)'),
+  ("dif",FILL_FORM, lambda rn: f'=ROUND({col_letter(b+1)}{rn}-{ct}{rn},4)'),
+])
+
+# ============================================================
+# 24 HEM estatal (birregional 2018)
+# ============================================================
+ws, dfhe, hr = dump("24 HEM estatal","hem_estatal_mineria.csv",
+  "Extraccion hipotetica (HEM) de la mineria por entidad, 2018",
+  "HEM = % del VBP birregional (entidad + resto del pais) que se perderia al extraer la mineria de la entidad. "
+  "MIP birregional INEGI 2018; inversion validada por Sherman-Morrison vs fuerza bruta a 1e-14. Columna verde: hem_total = back + fwd.",
+  widths={"A":18,"B":8,"C":16,"D":15,"E":15,"F":13},
+  tipo="Resultado validado + total formula viva", script="hem_estatal.py",
+  index_content="HEM backward/forward/total de la mineria por entidad (2018)")
+cols=list(dfhe.columns)
+cb=col_letter(cols.index("hem_backward_pct")+1); cf=col_letter(cols.index("hem_forward_pct")+1)
+ct=col_letter(cols.index("hem_total_pct")+1); b=dfhe.shape[1]
+add_formula_cols(ws, dfhe, hr, [
+  ("hem_total (=formula)",FILL_FORM, lambda rn: f'=ROUND({cb}{rn}+{cf}{rn},4)'),
+  ("dif",FILL_FORM, lambda rn: f'=ROUND({col_letter(b+1)}{rn}-{ct}{rn},4)'),
+])
 
 # ============================================================
 # rellenar 00 Indice

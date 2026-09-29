@@ -96,6 +96,14 @@ Notación de eslabones: **L0** recurso · **L1** extracción/beneficio · **L2**
 - **Límites.** No forma serie comparable (mezcla cambio real con cambio de año base/clasificación); el manganeso 2008 no es comparable (clase 212291 agrupa vecinos). Se lee por **patrón y orden**, no por nivel.
 - **Por qué se incorpora.** Muestra que el mapa de eslabonamientos es **estructural y persistente**, no de un solo año.
 
+### 2.7 Extracción hipotética (HEM) por mineral
+- **Qué mide.** El **peso económico** del encadenamiento: cuánto del VBP nacional se perdería si el mineral dejara de comprar (hacia atrás) o de vender (hacia adelante). Complementa a Rasmussen, que mide **intensidad** por unidad de producto.
+- **Matemática.** Miller-Lahr (2001), casos 3 y 4. Hacia atrás: $BL_k=100\cdot\mathbf{i}'(\mathbf{x}-\hat{\mathbf{x}}^{(-k)})/\mathbf{i}'\mathbf{x}$, con $\hat{\mathbf{x}}^{(-k)}=(\mathbf{I}-\mathbf{A}^{(-k)})^{-1}\mathbf{f}$ (columna $k$ de $\mathbf{A}$ anulada); hacia adelante, simétrico anulando la fila $k$ de $\mathbf{B}$ y resolviendo Ghosh. El HEM de los $n$ sectores se obtiene por **Sherman-Morrison** (la extracción es una actualización rango-1 de la inversa ya calculada).
+- **Fuente / operacionalización.** `mip_hem_minerales.csv` (nacional 2013/2018) y `hem_estatal_mineria.csv` (minería por entidad, MIP birregional 2018). Scripts `mip_hem.py`, `hem_estatal.py`. Y=x−ΣZ_fila; V=x−ΣZ_col.
+- **Supuestos / límites.** Los mismos del modelo I-O; el HEM pondera por tamaño, por lo que reordena a los minerales respecto de Rasmussen (dominan cobre/oro/plata; sílice/grafito/manganeso, intensos pero pequeños, quedan al fondo). No sustituye a los indicadores centrales.
+- **Validación.** Sherman-Morrison vs extracción por fuerza bruta a **1e-14**; $X=LY$ a 1e-9.
+- **Por qué se incorpora.** Es el método de **Morales-López (2023)** (I-O interregional); su cálculo permite el **contraste directo** con ese antecedente y separa la lectura de intensidad de la de peso económico. Resultados en Cap. VI (§VI.8) y Cap. VIII (§VIII.7.3, estatal); series en Anexo B.7/B.8.
+
 > **Validación (todos los MIP).** La matriz $\mathbf{A}$ reproduce el archivo publicado por INEGI y $\mathbf{L}$ los coeficientes directos e indirectos, con diferencias de $10^{-15}$ (precisión de máquina). Script `mip_calc.py`; base `mip_encadenamientos_minerales.csv`. Límite estructural: la MIP **no separa plomo de zinc** (clase 212232) → encadenamientos conjuntos.
 
 ---

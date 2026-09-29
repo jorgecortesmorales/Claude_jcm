@@ -126,5 +126,36 @@ def fig4():
                 bbox_inches="tight", facecolor="white")
     plt.close(fig)
 
-for f in (fig1, fig2, fig3, fig4):
+# ---------- VI.5: HEM (peso) frente a Rasmussen (intensidad), 2018 ----------
+def fig5():
+    hem = {r["mineral"]: r for r in cargar("mip_hem_minerales.csv") if r["anio"] == "2018"}
+    ras = {r["mineral"]: float(r["forward_rasmussen"])
+           for r in cargar("mip_encadenamientos_minerales.csv") if r["anio"] == "2018"}
+    fig, (axA, axB) = plt.subplots(1, 2, figsize=(11.5, 4.6))
+    # --- Panel A: HEM total por mineral (peso economico) ---
+    data = sorted(((NOMBRE[m], float(hem[m]["hem_total_pct"])) for m in hem), key=lambda x: x[1])
+    labels = [d[0] for d in data]; vals = [d[1] for d in data]
+    axA.barh(labels, vals, color=AZUL, edgecolor="#2b3a46", linewidth=0.6)
+    for i, v in enumerate(vals):
+        axA.text(v + 0.004, i, f"{v:.3f}", va="center", fontsize=8)
+    axA.set_xlabel("HEM total (% del VBP nacional, 2018)")
+    axA.set_xlim(0, 0.37)
+    axA.set_title("Peso económico (extracción hipotética)", fontsize=10)
+    axA.spines[["top", "right"]].set_visible(False)
+    # --- Panel B: Rasmussen (intensidad) vs HEM adelante (peso) ---
+    for m in hem:
+        x = ras[m]; y = float(hem[m]["hem_forward_pct"])
+        axB.scatter(x, y, s=44, color=ROJO, edgecolor="#5a2018", zorder=3)
+        axB.annotate(NOMBRE[m], (x, y), xytext=(5, 3), textcoords="offset points", fontsize=8.3)
+    axB.axvline(1.0, color=GRIS, lw=1.0, ls="--")
+    axB.set_yscale("log")
+    axB.set_xlabel("Ghosh-Rasmussen hacia adelante (intensidad)")
+    axB.set_ylabel("HEM hacia adelante (% del VBP, escala log)")
+    axB.set_title("Intensidad vs. peso", fontsize=10)
+    axB.spines[["top", "right"]].set_visible(False)
+    fig.tight_layout()
+    fig.savefig(os.path.join(HERE, "vi5_hem.png"), dpi=200, bbox_inches="tight", facecolor="white")
+    plt.close(fig)
+
+for f in (fig1, fig2, fig3, fig4, fig5):
     f(); print("ok", f.__name__)

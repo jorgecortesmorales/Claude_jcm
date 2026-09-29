@@ -143,3 +143,58 @@ Cuadro {#cua:beslintl}: Índice de Ghosh hacia adelante (Rasmussen, media país 
 | Australia | 0.96 / 0.82 / 0.83 / 0.91 | 0.92 / 0.80 / 0.83 / 0.77 | 1.24 / 1.21 / 1.24 / 1.24 |
 | Chile | 0.89 / 0.85 / 0.73 / 0.79 | 1.18 / 1.32 / 1.23 / 1.23 | 1.11 / 1.07 / 1.12 / 1.16 |
 | Perú | 0.67 / 0.63 / 0.62 / 0.62 | 0.81 / 0.82 / 0.98 / 0.99 | 1.09 / 1.05 / 1.06 / 1.14 |
+
+## B.7 Extracción hipotética (HEM) por mineral, cortes 2013/2018
+
+Cuadro {#cua:bhem}: Extracción hipotética por mineral: porcentaje del VBP nacional que se perdería al extraer las compras (hacia atrás), las ventas (hacia adelante) o ambas (total) del mineral; cada celda muestra los cortes 2013 / 2018. Ordenado por HEM total de 2018. Fuente: cálculo propio con la MIP del INEGI (`mip_hem_minerales.csv`).
+
+| Mineral | HEM hacia atrás (%) | HEM hacia adelante (%) | HEM total (%) |
+|---|---|---|---|
+| Cobre | 0.049 / 0.076 | 0.124 / 0.250 | 0.173 / 0.325 |
+| Oro | 0.068 / 0.079 | 0.198 / 0.159 | 0.266 / 0.238 |
+| Plata | 0.060 / 0.051 | 0.169 / 0.106 | 0.229 / 0.156 |
+| Plomo-zinc | 0.025 / 0.035 | 0.010 / 0.012 | 0.035 / 0.046 |
+| Sílice | 0.007 / 0.006 | 0.033 / 0.035 | 0.039 / 0.041 |
+| Fluorita | 0.002 / 0.006 | 0.003 / 0.015 | 0.005 / 0.021 |
+| Grafito | 0.000 / 0.000 | 0.001 / 0.003 | 0.001 / 0.004 |
+| Manganeso | 0.000 / 0.001 | 0.003 / 0.002 | 0.004 / 0.003 |
+| Barita | 0.001 / 0.001 | 0.000 / 0.000 | 0.001 / 0.001 |
+
+## B.8 Extracción hipotética (HEM) de la minería por entidad, 2018
+
+Cuadro {#cua:bhemest}: Extracción hipotética de la minería por entidad, 2018: porcentaje del VBP birregional (entidad más resto del país) que se perdería al extraer las compras, las ventas o ambas de la minería de la entidad. Las 32 entidades, ordenadas por HEM total. Fuente: cálculo propio con la MIP birregional del INEGI 2018 (`hem_estatal_mineria.csv`).
+
+| Entidad | HEM hacia atrás (%) | HEM hacia adelante (%) | HEM total (%) |
+|---|---:|---:|---:|
+| Sonora | 0.140 | 0.388 | 0.528 |
+| Coahuila | 0.037 | 0.158 | 0.195 |
+| Durango | 0.041 | 0.089 | 0.130 |
+| San Luis Potosí | 0.015 | 0.077 | 0.092 |
+| Zacatecas | 0.034 | 0.055 | 0.089 |
+| Jalisco | 0.012 | 0.050 | 0.062 |
+| Nuevo León | 0.011 | 0.046 | 0.056 |
+| Chihuahua | 0.026 | 0.019 | 0.045 |
+| Aguascalientes | 0.008 | 0.036 | 0.044 |
+| Michoacán | 0.008 | 0.030 | 0.038 |
+| México | 0.005 | 0.032 | 0.037 |
+| Hidalgo | 0.008 | 0.029 | 0.037 |
+| Veracruz | 0.007 | 0.027 | 0.034 |
+| Sinaloa | 0.006 | 0.023 | 0.030 |
+| Baja California Sur | 0.007 | 0.022 | 0.030 |
+| Querétaro | 0.004 | 0.023 | 0.028 |
+| Quintana Roo | 0.005 | 0.023 | 0.028 |
+| Guerrero | 0.010 | 0.017 | 0.027 |
+| Guanajuato | 0.005 | 0.021 | 0.026 |
+| Yucatán | 0.004 | 0.020 | 0.023 |
+| Oaxaca | 0.006 | 0.017 | 0.023 |
+| Colima | 0.006 | 0.015 | 0.021 |
+| Puebla | 0.003 | 0.016 | 0.019 |
+| Tabasco | 0.003 | 0.013 | 0.016 |
+| Baja California | 0.003 | 0.010 | 0.013 |
+| Nayarit | 0.002 | 0.009 | 0.011 |
+| Chiapas | 0.001 | 0.006 | 0.007 |
+| Tamaulipas | 0.001 | 0.004 | 0.005 |
+| Morelos | 0.001 | 0.004 | 0.004 |
+| Campeche | 0.001 | 0.003 | 0.004 |
+| Tlaxcala | 0.001 | 0.003 | 0.003 |
+| Ciudad de México | 0.001 | 0.001 | 0.001 |

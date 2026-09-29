@@ -1,0 +1,33 @@
+estado,abrev,vbp_mineria_mdp,hem_backward_pct,hem_forward_pct,hem_total_pct
+Sonora,son,140608.2,0.1404,0.3875,0.5278
+Coahuila,coah,42338.9,0.037,0.1577,0.1948
+Durango,dgo,36058.7,0.0405,0.0895,0.13
+San Luis Potosi,slp,19628.6,0.0149,0.0768,0.0917
+Zacatecas,zac,34470.9,0.0342,0.0547,0.089
+Jalisco,jal,12982.8,0.0117,0.0498,0.0616
+Nuevo Leon,nl,11947.1,0.0105,0.0457,0.0562
+Chihuahua,chih,23906.3,0.0256,0.0192,0.0449
+Aguascalientes,ags,9530.5,0.0076,0.0362,0.0437
+Michoacan,mich,8896.6,0.0077,0.0302,0.0379
+Mexico,mex,8584.5,0.0052,0.0319,0.0372
+Hidalgo,hgo,7493.7,0.0077,0.0292,0.0369
+Veracruz,ver,7749.3,0.0072,0.0269,0.0341
+Sinaloa,sin,6801.2,0.0063,0.0233,0.0297
+Baja California Sur,bcs,8986.8,0.0072,0.0224,0.0296
+Queretaro,qro,6071.3,0.0045,0.0232,0.0278
+Quintana Roo,qr,6135.3,0.0047,0.0228,0.0275
+Guerrero,gro,11208.4,0.0099,0.0171,0.027
+Guanajuato,gto,5465.6,0.0048,0.0209,0.0257
+Yucatan,yuc,5171.4,0.0037,0.0197,0.0234
+Oaxaca,oax,4309.0,0.006,0.0166,0.0226
+Colima,col,6548.1,0.0063,0.0149,0.0213
+Puebla,pue,4097.9,0.0028,0.0159,0.0186
+Tabasco,tab,3473.6,0.0031,0.0129,0.016
+Baja California,bc,2917.0,0.0027,0.0101,0.0128
+Nayarit,nay,2491.4,0.0019,0.0092,0.0111
+Chiapas,chis,1486.3,0.0013,0.0057,0.007
+Tamaulipas,tamps,1038.9,0.0012,0.0041,0.0053
+Morelos,mor,923.4,0.0006,0.0035,0.0041
+Campeche,camp,707.6,0.0007,0.0028,0.0035
+Tlaxcala,tlax,646.1,0.0005,0.0025,0.003
+Ciudad de Mexico,cdmx,429.5,0.0006,0.0007,0.0013

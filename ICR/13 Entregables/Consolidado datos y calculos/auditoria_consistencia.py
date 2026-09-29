@@ -104,6 +104,12 @@ cite("2 MIP nacional","Leontief L=(I-A)^-1 / Ghosh G=(I-B)^-1 (nacional)","a_ij=
      "Inversion de matriz 822x822: no reproducible en hoja de calculo. Validada contra ctec/cdi de INEGI a 1e-15 por el script original.")
 cite("2 MIP nacional","Encadenamiento por eslabon (SCIAN 331...)","Ghosh-Rasmussen por clase de refinacion/semimanufactura",
      "py \"10 Datos/scripts/mip_eslabones.py\"","Mismo metodo validado que la MIP nacional.")
+d = rd("mip_hem_minerales.csv")
+check("2 MIP nacional","HEM - total = atras + adelante","hem_total_pct = hem_backward_pct + hem_forward_pct",
+      d.hem_backward_pct + d.hem_forward_pct, d.hem_total_pct, tol=1e-3,
+      nota="Extraccion hipotetica (Miller-Lahr casos 3/4); el total es la suma de ambos sentidos.")
+cite("2 MIP nacional","HEM por mineral (inversion de matriz)","BL=100 i'(x-xhat)/i'x, xhat=(I-A^(-k))^-1 f; FL dual de Ghosh",
+     "py \"10 Datos/scripts/mip_hem.py\"","Inversion sobre la MIP nacional; validada por Sherman-Morrison vs fuerza bruta a 1e-14, y X=LY a 1e-9.")
 
 # ---------------- 3 CCV ----------------
 d = rd("ccv_serie.csv").dropna(subset=["precio_refinado_usgs_usd_t"])
@@ -137,6 +143,12 @@ check("6 Territorial","Ghosh interestatal - shares suman 1","intra + inter_estat
 cite("6 Territorial","Ghosh estatal e interestatal (inversion)","B=Z/x (fila); G=(I-B)^-1 sobre MIP estatal/birregional 2018",
      "py \"10 Datos/scripts/ghosh_estatal.py\" ; py \"10 Datos/scripts/ghosh_interestatal.py\"",
      "Inversion sobre MIP Multi-Estatal INEGI 2018; metodo identico al nacional.")
+d = rd("hem_estatal_mineria.csv")
+check("6 Territorial","HEM estatal - total = atras + adelante","hem_total_pct = hem_backward_pct + hem_forward_pct",
+      d.hem_backward_pct + d.hem_forward_pct, d.hem_total_pct, tol=1e-3,
+      nota="Extraccion hipotetica de la mineria por entidad (MIP birregional 2018).")
+cite("6 Territorial","HEM estatal (inversion birregional)","idem HEM sobre la MIP birregional 2018 (sector 21-2 de la entidad)",
+     "py \"10 Datos/scripts/hem_estatal.py\"","Validada por Sherman-Morrison vs fuerza bruta a 1e-14.")
 
 # ---------------- 7 Internacional ----------------
 d = rd("icio_dva_mineria.csv")

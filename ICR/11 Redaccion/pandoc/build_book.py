@@ -21,14 +21,20 @@ ANNEXES = ["10-anexo-B","11-anexo-C","12-anexo-D"]
 # --- conversion de las citas @ a texto (bibliografia unica al final) ---
 CITE_BRACKET = {
     "[@dietzenbacher1997; @oosterhaven1988]": "(Dietzenbacher, 1997; Oosterhaven, 1988)",
+    "[@millerlahr2001; @dietzenbacherlinden1997]": "(Miller y Lahr, 2001; Dietzenbacher y Van der Linden, 1997)",
     "[@millerblair2009]": "(Miller y Blair, 2009)",
     "[@dietzenbacher1997]": "(Dietzenbacher, 1997)",
+    "[@millerlahr2001]": "(Miller y Lahr, 2001)",
+    "[@dietzenbacherlinden1997]": "(Dietzenbacher y Van der Linden, 1997)",
+    "[@morales2023]": "(Morales-López, 2023)",
 }
 CITE_NARR = {
     "@leontief1941":"Leontief (1941)","@ghosh1958":"Ghosh (1958)",
     "@rasmussen1956":"Rasmussen (1956)","@hirschman1958":"Hirschman (1958)",
     "@dietzenbacher1997":"Dietzenbacher (1997)","@millerblair2009":"Miller y Blair (2009)",
     "@oosterhaven1988":"Oosterhaven (1988)",
+    "@morales2023":"Morales-López (2023)","@millerlahr2001":"Miller y Lahr (2001)",
+    "@dietzenbacherlinden1997":"Dietzenbacher y Van der Linden (1997)",
 }
 def decite(t):
     for a,b in CITE_BRACKET.items(): t = t.replace(a,b)

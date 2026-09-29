@@ -28,6 +28,10 @@ Cuadro VIII.2,georref_regionalizacion.csv,por-entidad (valor en fila),10,10,0,,
 Cuadro B.4,mip_encadenamientos_minerales.csv + _2008_referencia,por-entidad (cortes),48,48,0,,
 Cuadro B.5,mip_encadenamientos_eslabones.csv,por-entidad (valor en fila),25,25,0,,
 Cuadro B.6,icio_eslabones_metal.csv,por-entidad (valor en fila),24,24,0,,
+Cuadro VI.6,mip_hem_minerales.csv,por-mineral (HEM+rango+Rasmussen),45,45,0,,
+Cuadro VIII.5,hem_estatal_mineria.csv,por-entidad (valor en fila),24,24,0,,
+Cuadro B.7,mip_hem_minerales.csv,por-mineral (HEM 2013/2018),54,54,0,,
+Cuadro B.8,hem_estatal_mineria.csv,por-entidad (valor en fila),96,96,0,,
 Cuadro II.1,criticidad_productos.csv,clasificacion / texto,0,0,0,,Clasificacion de criticidad por producto (estrategico/critico/...) — trazable a su CSV; sin cifras de indicador que diferir.
 Cuadro III.1,concordancia_scian_2007_2013_minerales.csv,clasificacion / texto,0,0,0,,Correspondencia mineral -> clase SCIAN (codigos) — trazable a su CSV; sin cifras de indicador que diferir.
 Cuadro III.2,(catalogo de indicadores),clasificacion / texto,0,0,0,,Sintesis de indicadores: que describe cada uno y su base (texto) — trazable a su CSV; sin cifras de indicador que diferir.

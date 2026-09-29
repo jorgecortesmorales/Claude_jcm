@@ -3,10 +3,16 @@ title: Bitácora de Trabajo
 type: proyecto
 tags: [icr, proyecto, bitacora]
 created: 2026-07-16
-updated: 2026-09-28
+updated: 2026-09-29
 ---
 
 # Bitácora de Trabajo
+
+## 2026-09-29 (Encadenamientos por extracción hipotética (HEM) + comparación con Morales-López 2023)
+- A partir del artículo de **Morales-López (2023)** (*El Trimestre Económico* 90(359), encadenamientos clave por **método de extracción hipotética, HEM**, insumo-producto interregional), se añadió el HEM como **medida complementaria** a los índices de Hirschman-Rasmussen. Coinciden el marco insumo-producto y las fórmulas de Leontief/Ghosh; difiere el indicador (HEM = % del VBP que se pierde al extraer el sector; Rasmussen = intensidad normalizada).
+- **Cálculo (validado)**: `scripts/mip_hem.py` (nacional por mineral, MIP 2013/2018 → `mip_hem_minerales.csv`) y `scripts/hem_estatal.py` (minería por entidad, MIP birregional 2018 → `hem_estatal_mineria.csv`). Miller-Lahr casos 3 (atrás) y 4 (adelante). HEM de todos los sectores por **Sherman-Morrison** (extraer una columna/fila = actualización rango-1 de la inversa), **validado vs fuerza bruta a 1e-14** y `X=LY` a 1e-9. **Hallazgo**: el HEM pondera por tamaño → dominan cobre/oro/plata (cobre/oro/plata ranks 25/49/70 de 834 por HEM adelante, coherente con Morales-López); sílice/grafito/manganeso —altos por Rasmussen— casi desaparecen. Intensidad y peso son complementarios; ninguno solo prueba cadena desarrollada. Estatal: Sonora domina por peso (0.53 %), luego Coahuila/Durango/SLP/Zacatecas; forward>backward.
+- **Integrado al manuscrito**: §III.2 (método HEM), nueva **§VI.8** (Cuadro VI.6 + Ilustración VI.5, comparación intensidad/peso y contraste con Morales-López; síntesis renumerada a VI.9), **§VIII.7.3** (Cuadro VIII.5 + Ilustración VIII.6, HEM estatal) y **Anexo B.7/B.8** (series). Cita **Morales-López (2023)**, **Miller y Lahr (2001)** y **Dietzenbacher y Van der Linden (1997)** en `references.bib` y `12 Referencias/Bibliografia.md`. Manuscrito reconstruido: **41 cuadros, 31 ilustraciones**, 0 referencias cruzadas rotas (DOCX + PDF 170 pp; índices TOC actualizados por Word COM).
+- **Propagado y re-certificado**: consolidado Excel con 2 hojas nuevas (`23 HEM nacional`, `24 HEM estatal`, con fórmula viva `total = atrás + adelante`); auditoría de consistencia **17 PASA · 6 validados por script · 0 a revisar**; **cotejo de certificación 41 cuadros, 1 289 números confrontados, 1 289 coinciden, 0 difieren**. Figuras `figuras/vi5_hem.py`→`vi5_hem.png` y `figuras/fig_cap8_hem.py`→`viii5_hem_estatal.png`.
 
 ## 2026-09-28 (Consolidado de datos y cálculos en Excel + auditoría de consistencia)
 - A pedido del alumno, se construyó un **libro maestro de Excel** que reúne en un solo sitio (27 hojas) el **inventario de bases**, el **catálogo de TODOS los cálculos** y una hoja por bloque de indicadores: `13 Entregables/Consolidado datos y calculos/Consolidado ICR - datos, calculos e indicadores.xlsx`. **Trazabilidad**: columnas verdes con **fórmula viva de Excel** que recomputa cada indicador desde sus insumos (con columna `dif`≈0 → auto-auditoría); columnas naranjas = resultados de **inversión matricial** (Leontief/Ghosh nacional/estatal/ICIO) con procedencia y residual validado contra INEGI (~1e-15), porque no es práctico invertir matrices de 822×822 en hoja de cálculo. Generador `gen_consolidado.py` (solo LEE `10 Datos/processed/`).

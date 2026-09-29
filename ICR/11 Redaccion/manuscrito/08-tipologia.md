@@ -111,6 +111,25 @@ Cuadro {#cua:ginter}: Destino de la producción minera por entidad (modelo inter
 
 ![Ilustración {#fig:ginter}: Destino de la producción minera por entidad (modelo interestatal, 2018), principales estados mineros. La franja roja es la fuga por exportación; las verdes y azules, el encadenamiento dentro del país. Fuente: cálculo propio.](figuras/viii4_interestatal.png){width=95%}
 
+### VIII.7.3 El peso de la minería estatal por extracción hipotética (HEM)
+
+El índice de Ghosh-Rasmussen estatal (VIII.7.1) ordena a las entidades por la *intensidad* de su arrastre; la extracción hipotética (HEM) —el método de @morales2023, aquí aplicado a la matriz birregional de cada entidad (Capítulo III)— las ordena por el *peso económico* de su minería: cuánto del valor bruto de producción del conjunto (entidad más resto del país) se perdería si la minería de esa entidad dejara de comprar o de vender (Cuadro {{cua:hemest}}, Ilustración {{fig:hemest}}). Las dos lecturas convergen en las mismas entidades pero con distinto orden. Por peso, **Sonora** encabeza con holgura (0.53 % del VBP, más del doble que la siguiente), reflejo de su gran minería de cobre integrada; le siguen **Coahuila** (0.19 %), **Durango** (0.13 %), **San Luis Potosí** (0.09 %) y **Zacatecas** (0.09 %). Por intensidad, en cambio, encabezaban Coahuila, Sonora y San Luis Potosí (VIII.7.1). La diferencia es informativa: Sonora pesa por tamaño aunque su arrastre por unidad sea intermedio, mientras que Coahuila combina intensidad alta y peso considerable por su eje siderúrgico. En todas las entidades el HEM hacia adelante supera al de hacia atrás —la minería estatal importa más como proveedora que como compradora—, y unas pocas entidades concentran el grueso del encadenamiento, el mismo patrón de concentración territorial que @morales2023 documenta a escala interregional.
+
+Cuadro {#cua:hemest}: Extracción hipotética (HEM) de la minería por entidad, 2018: porcentaje del VBP birregional (entidad más resto del país) que se perdería al extraer las compras (hacia atrás) o las ventas (hacia adelante) de la minería de la entidad. Principales entidades por HEM total. Fuente: cálculo propio con la MIP birregional del INEGI 2018 (`hem_estatal_mineria.csv`).
+
+| Entidad | HEM hacia atrás (%) | HEM hacia adelante (%) | HEM total (%) |
+|---|---:|---:|---:|
+| Sonora | 0.140 | 0.388 | 0.528 |
+| Coahuila | 0.037 | 0.158 | 0.195 |
+| Durango | 0.041 | 0.090 | 0.130 |
+| San Luis Potosí | 0.015 | 0.077 | 0.092 |
+| Zacatecas | 0.034 | 0.055 | 0.089 |
+| Jalisco | 0.012 | 0.050 | 0.062 |
+| Nuevo León | 0.011 | 0.046 | 0.056 |
+| Chihuahua | 0.026 | 0.019 | 0.045 |
+
+![Ilustración {#fig:hemest}: Extracción hipotética de la minería por entidad, 2018 (% del VBP birregional), hacia atrás y hacia adelante, principales estados. Fuente: cálculo propio con la MIP birregional del INEGI 2018.](figuras/viii5_hem_estatal.png){width=90%}
+
 ## VIII.8 Síntesis: el enclave estructural no es uniforme
 
 La caracterización integrada muestra que el enclave estructural no es uniforme, sino que adopta cuatro formas distintas: la cadena que se detiene en el intermedio pese a estar integrada (A), la que se trunca en el metal refinado bajo control del extractor (B), la que importa el eslabón de mayor valor pese a tener industria usuaria (C) y la que se exporta en bruto (D). En todas, el punto de ruptura se sitúa en L1 o L2, y ningún mineral alcanza la manufactura final dentro del país. Esta tipología —y el mapa de puntos de ruptura que la sostiene— es el retrato descriptivo que la investigación aporta, y la base sobre la que el Capítulo IX deriva las bases de una política industrial diferenciada.

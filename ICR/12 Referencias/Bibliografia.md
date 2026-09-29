@@ -22,6 +22,7 @@ Formato APA. Consolidada del Protocolo y de Caps I-IV (docx en `00 Proyecto/Docu
 - De la Garza Pedraza, E. M., et al. (2021). La política de concesiones a los grupos mineros de México. *Problemas del Desarrollo*.
 - Delgado Wise, R., y Del Pozo, R. (2001). *Los procesos de privatización en México*. Plaza y Valdés.
 - Dietzenbacher, E. (1997). In vindication of the Ghosh model: A reinterpretation as a price model. *Journal of Regional Science*, 37(4), 629-651.
+- Dietzenbacher, E., y Van der Linden, J. A. (1997). Sectoral and spatial linkages in the EC production structure. *Journal of Regional Science*, 37(2), 235-257.
 - Furtado, C. (1966). *Subdesarrollo y estancamiento en América Latina*. EUDEBA.
 - Ghosh, A. (1958). Input-output approach in an allocation system. *Economica*, 25(97), 58-64.
 - Hendriwardani, M., y Ramdoo, I. (2022). *Minerales críticos: datos básicos*. IGF.
@@ -31,6 +32,8 @@ Formato APA. Consolidada del Protocolo y de Caps I-IV (docx en `00 Proyecto/Docu
 - Leontief, W. (1941). *The structure of the American economy, 1919-1929*. Harvard University Press.
 - MacKinlay, A. C. (1997). Event studies in economics and finance. *Journal of Economic Literature*, 35(1), 13-39.
 - Mason, E. S. (1939). Price and production policies of large-scale enterprise. *American Economic Review*, 29(1), 61-74.
+- Miller, R. E., y Lahr, M. L. (2001). A taxonomy of extractions. En M. L. Lahr y R. E. Miller (Eds.), *Regional science perspectives in economic analysis* (pp. 407-441). Elsevier.
+- Morales-López, R. (2023). Encadenamientos productivos clave para la economía mexicana: un análisis insumo-producto interregional. *El Trimestre Económico*, 90(359), 671-701.
 - North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.
 - Oosterhaven, J. (1988). On the plausibility of the supply-driven input-output model. *Journal of Regional Science*, 28(2), 203-217.
 - Prebisch, R. (1950). *The economic development of Latin America and its principal problems*. CEPAL.

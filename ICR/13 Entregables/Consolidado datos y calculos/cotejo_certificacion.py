@@ -278,6 +278,53 @@ cotejo_entidad('B.5','mip_encadenamientos_eslabones.csv','mineral',['forward_ras
 # B.6 Ghosh por eslabon pais (4 cortes) -> icio_eslabones_metal
 cotejo_entidad('B.6','icio_eslabones_metal.csv','pais',['forward_rasmussen'],0.02,keymap=PAISMAP)
 
+# VI.6 HEM nacional por mineral (2018): back/fwd/total + rango + Rasmussen
+c=getcap('VI.6')
+if c:
+    h=rd('mip_hem_minerales.csv'); h=h[h.anio==2018]
+    ras=rd('mip_encadenamientos_minerales.csv'); ras=ras[ras.anio==2018]
+    pool={}
+    for _,r in h.iterrows():
+        pool.setdefault(norm(r['mineral']),[]).extend([float(r.hem_backward_pct),float(r.hem_forward_pct),
+                                                        float(r.hem_total_pct),float(r.rank_total)])
+    for _,r in ras.iterrows():
+        pool.setdefault(norm(r['mineral']),[]).append(float(r.forward_rasmussen))
+    ncmp=nm=0; mis=[]
+    for row in c['m'][1:]:
+        key=norm(row[0])
+        if key not in pool: continue
+        for cell in row[1:]:
+            for tok in re.findall(r'-?\d+(?:\.\d+)?', cell):
+                v=float(tok); ncmp+=1
+                if any(match(v,x,0.02 if abs(x)<50 else 1.0) for x in pool[key]): nm+=1
+                else: mis.append(f"{key}: {v}")
+    add('Cuadro VI.6','mip_hem_minerales.csv','por-mineral (HEM+rango+Rasmussen)',ncmp,nm,mis)
+
+# VIII.5 HEM estatal 2018
+cotejo_entidad('VIII.5','hem_estatal_mineria.csv','estado',
+               ['hem_backward_pct','hem_forward_pct','hem_total_pct'],0.001)
+
+# B.7 HEM nacional serie (cada celda '2013 / 2018')
+c=getcap('B.7')
+if c:
+    h=rd('mip_hem_minerales.csv'); pool={}
+    for _,r in h.iterrows():
+        pool.setdefault(norm(r['mineral']),[]).extend([float(r.hem_backward_pct),float(r.hem_forward_pct),float(r.hem_total_pct)])
+    ncmp=nm=0; mis=[]
+    for row in c['m'][1:]:
+        key=norm(row[0])
+        if key not in pool: continue
+        for cell in row[1:]:
+            for tok in re.findall(r'-?\d+(?:\.\d+)?', cell):
+                v=float(tok); ncmp+=1
+                if any(match(v,x,0.001) for x in pool[key]): nm+=1
+                else: mis.append(f"{key}: {v}")
+    add('Cuadro B.7','mip_hem_minerales.csv','por-mineral (HEM 2013/2018)',ncmp,nm,mis)
+
+# B.8 HEM estatal serie (32 entidades)
+cotejo_entidad('B.8','hem_estatal_mineria.csv','estado',
+               ['hem_backward_pct','hem_forward_pct','hem_total_pct'],0.001)
+
 # ---------- cuadros cualitativos / de clasificacion / codigos (sin cifras de indicador que diferir) ----------
 CUALI={
  'II.1':('criticidad_productos.csv','Clasificacion de criticidad por producto (estrategico/critico/...)'),
@@ -318,10 +365,10 @@ for n,p,cs in figrows: print(f"  {n}: {cs}")
 # ---------- reporte HTML autonomo ----------
 import html, datetime
 FIGMAP={ 'fig_cap1.py':'I.1 (peso en exportaciones)','fig_cap1_composicion.py':'I.2 (composicion del bloque)',
- 'fig_cap5.py':'V.1-V.2 (HHI por mineral y evolucion)','fig_cap6.py':'VI.1-VI.4 (Ghosh, CCV, eslabones)',
+ 'fig_cap5.py':'V.1-V.2 (HHI por mineral y evolucion)','fig_cap6.py':'VI.1-VI.5 (Ghosh, CCV, eslabones, HEM)',
  'fig_cap7.py':'VII.1-VII.5 (comercio, destinos, ICIO)','fig_cap8_estatal.py':'VIII.3 (Ghosh estatal)',
  'fig_cap8_interestatal.py':'VIII.4 (interestatal)','fig_cap8.py':'VIII.1-VIII.2 (plano tipologia, punto de ruptura)',
- 'fig_cadena_L0_L4.py':'III.1 (esquema de la cadena L0-L4)'}
+ 'fig_cap8_hem.py':'VIII.6 (HEM estatal)','fig_cadena_L0_L4.py':'III.1 (esquema de la cadena L0-L4)'}
 figtr=[]
 for n,p,cs in figrows:
     src = ", ".join(cs) if cs else "esquema (datos en el script; deriva de cv_tipologia.csv / diseno)"
@@ -361,11 +408,11 @@ DOC=f"""<!DOCTYPE html><html lang=es><head><meta charset=utf-8><meta name=viewpo
 <h1>Cotejo de certificacion — manuscrito vs. bases de datos</h1>
 <p class=sub>Se confronta cada numero impreso en los cuadros e ilustraciones del manuscrito (<i>ICR - Manuscrito (nueva estructura).docx</i>) contra el CSV de <code>10 Datos/processed/</code> que lo origina. Solo lectura. Generado {datetime.date.today().isoformat()}.</p>
 <div class=cards>
- <div class=card><div class=big>37</div><div class=lbl>cuadros del manuscrito<br>({n_num} con cifras · {n_cual} de clasificacion)</div></div>
+ <div class=card><div class=big>{sum(1 for c in CUAD if c['cap'])}</div><div class=lbl>cuadros del manuscrito<br>({n_num} con cifras · {n_cual} de clasificacion)</div></div>
  <div class=card><div class=big>{tot_n}</div><div class=lbl>numeros confrontados<br>celda por celda</div></div>
  <div class=card><div class=big style=color:#1a7f37>{tot_ok}</div><div class=lbl>coinciden con el CSV<br>(dentro del redondeo mostrado)</div></div>
  <div class=card><div class=big style=color:{'#9a6700' if tot_n-tot_ok else '#1a7f37'}>{tot_n-tot_ok}</div><div class=lbl>difieren</div></div>
- <div class=card><div class=big>29</div><div class=lbl>ilustraciones<br>trazadas a su CSV/fuente</div></div>
+ <div class=card><div class=big>{len(FIGS)}</div><div class=lbl>ilustraciones<br>trazadas a su CSV/fuente</div></div>
 </div>
 <h2>Cuadros</h2>
 <table><thead><tr><th>Cuadro</th><th>CSV fuente</th><th>Modo de cotejo</th><th class=num>n</th><th class=num>coinc.</th><th>Resultado</th><th>Nota / diferencias</th></tr></thead><tbody>{trs}</tbody></table>
