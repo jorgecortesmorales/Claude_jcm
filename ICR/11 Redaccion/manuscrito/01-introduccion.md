@@ -56,7 +56,7 @@ La elección de los diez minerales —barita, cobre, fluorita, grafito, manganes
 
 ### I.3.1 El peso del bloque en la economía y en el sector
 
-Aunque el conjunto aporta apenas alrededor del 0.7 % del producto interno bruto nacional (matriz insumo-producto de 2013 y 2018), concentra cerca del 60-65 % del PIB de la minería no petrolera y del 77 % de las exportaciones mineras del país. Su participación en las exportaciones totales no es estática: oscila entre 1.2 % (mínimo, 2002) y 5.5 % (máximo, 2011) siguiendo el ciclo internacional de precios de los metales (Ilustración {{fig:peso}}), rasgo de una economía primario-exportadora tomadora de precios.
+Aunque el conjunto aporta apenas alrededor del 0.7 % del producto interno bruto nacional (matriz insumo-producto de 2013 y 2018), concentra cerca del 60-65 % del PIB de la minería no petrolera y del 77 % de las exportaciones mineras del país. Su participación en las exportaciones totales no es estática: oscila entre 1.2 % (mínimo, 2002) y 5.5 % (máximo, 2011) siguiendo el ciclo internacional de precios de los metales ({{fig:peso}}), rasgo de una economía primario-exportadora tomadora de precios.
 
 ![Ilustración {#fig:peso}: Participación del bloque de diez minerales en las exportaciones totales de México, 1992-2024. Fuente: cálculo propio con UN Comtrade y Banco Mundial.](figuras/i1_peso_exportaciones.png){width=95%}
 
@@ -64,7 +64,7 @@ El valor de la producción del bloque se multiplica por cerca de nueve entre 199
 
 ### I.3.2 La composición del bloque: el peso de cada mineral
 
-El peso del bloque está muy desigualmente repartido entre sus diez componentes ({{cua:comp}}, Ilustración {{fig:comp}}). Cinco metales —cobre, oro, plata, zinc y plomo— concentran alrededor del 95 % del valor de producción y de las exportaciones del bloque; los cinco minerales industriales y no metálicos restantes —manganeso, fluorita, sílice, barita y grafito— suman en conjunto menos del 5 % del valor. Dentro del grupo dominante hay, además, un **desplazamiento histórico hacia los metales preciosos**: la participación del oro en el valor de producción del bloque pasó de cerca del 10 % en los años noventa a alrededor del 30 % en 2018-2022, mientras la del cobre descendió de más del 41 % a cerca del 30 %, y la plata se sostuvo en torno al 19 %.
+El peso del bloque está muy desigualmente repartido entre sus diez componentes ({{cua:comp}}, {{fig:comp}}). Cinco metales —cobre, oro, plata, zinc y plomo— concentran alrededor del 95 % del valor de producción y de las exportaciones del bloque; los cinco minerales industriales y no metálicos restantes —manganeso, fluorita, sílice, barita y grafito— suman en conjunto menos del 5 % del valor. Dentro del grupo dominante hay, además, un **desplazamiento histórico hacia los metales preciosos**: la participación del oro en el valor de producción del bloque pasó de cerca del 10 % en los años noventa a alrededor del 30 % en 2018-2022, mientras la del cobre descendió de más del 41 % a cerca del 30 %, y la plata se sostuvo en torno al 19 %.
 
 Cuadro {#cua:comp}: Composición del bloque por mineral: participación en el valor de producción (años seleccionados) y en las exportaciones del bloque (2024). Fuente: cálculo propio con volúmenes USGS/CAMIMEX, precios USGS y UN Comtrade.
 

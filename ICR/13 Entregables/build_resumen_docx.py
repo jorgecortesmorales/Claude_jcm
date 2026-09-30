@@ -14,7 +14,7 @@ from docx.oxml import OxmlElement
 PROC=r"C:\Users\Jorge\OneDrive\Escritorio\Claude CODE\ICR\10 Datos\processed"
 PNG=r"C:\Users\Jorge\OneDrive\Escritorio\Claude CODE\ICR\13 Entregables\png_charts"
 # Historial de resumenes fechados: subir FECHA para generar una version nueva sin borrar las previas.
-FECHA="2026-09-08"
+FECHA="2026-09-29"
 OUTDIR=r"C:\Users\Jorge\OneDrive\Escritorio\Claude CODE\ICR\13 Entregables\Resumenes descriptivos"
 os.makedirs(OUTDIR, exist_ok=True)
 OUT=os.path.join(OUTDIR, f"Resumen descriptivo - datos e indicadores {FECHA}.docx")
@@ -168,6 +168,20 @@ h2('Tres cortes en el tiempo (2008 → 2013 → 2018)')
 para('El índice de Ghosh es una “foto” del año de la matriz, no una serie anual. Se dispone de tres cortes: 2013 y 2018 son comparables entre sí (datos abiertos, bases contiguas); 2008 se incorpora como referencia histórica, en una base y clasificación anteriores, por lo que su nivel no es estrictamente comparable —se lee el orden, no la cifra exacta—. Aun así, el patrón es estable: sílice, grafito, cobre y oro empujan por encima del promedio en los tres cortes, y barita queda abajo. El manganeso aparece bajo en 2008 (1.00) porque en esa clasificación su clase agrupa actividades vecinas más amplias; en 2013 y 2018, ya separado, sube por encima de 1.5.')
 add_chart('ghosh_cortes.png','Gráfico 2b. Evolución del índice de encadenamiento hacia adelante en los tres cortes de la MIP (2008 de referencia, 2013 y 2018). Fuente: elaboración propia con la MIP del INEGI.')
 
+# ---------- 3b. Segunda variante: extraccion hipotetica (HEM) ----------
+hm={r['mineral']:r for r in rd('mip_hem_minerales.csv') if r['anio']=='2018'}
+def hv(m,k): return float(hm[m][k])
+h2('Segunda variante: el peso económico (extracción hipotética)')
+para('El índice anterior mide la intensidad del arrastre: qué tan articulado está cada mineral por unidad de producción, comparado con el promedio. No dice cuánto pesa ese arrastre en la economía. Para eso se añade la extracción hipotética (HEM): se “extrae” el mineral de la matriz —como si dejara de comprar insumos (hacia atrás) o de vender su producto (hacia adelante)— y se calcula cuánto del valor bruto de producción (VBP) nacional se perdería. Es el método de Miller y Lahr (2001) que Morales-López (2023) aplica al caso mexicano.')
+formula([('HEM adelante',''),('k','sub'),(' = 100 × [ Σ x − Σ x̂',''),('(−k)','sup'),(' ] ÷ Σ x','')])
+para('x es la producción de cada sector y x̂ la producción recalculada con el modelo de Ghosh después de anular la fila del mineral k en la matriz B (hacia adelante); hacia atrás se anula su columna en la matriz A y se recalcula con el modelo de Leontief. El resultado se expresa en porcentaje del VBP nacional. Se calculó para todos los sectores de la MIP 2013 y 2018 y se validó contra el cálculo directo de cada extracción (diferencias del orden de 10⁻¹⁴). Datos en mip_hem_minerales.csv.')
+para(f"Por HEM total (2018) encabezan el cobre ({hv('cobre','hem_total_pct'):.3f} % del VBP), el oro ({hv('oro','hem_total_pct'):.3f} %) y la plata ({hv('plata','hem_total_pct'):.3f} %); la sílice ({hv('silice','hem_total_pct'):.3f} %), el grafito ({hv('grafito','hem_total_pct'):.3f} %) y el manganeso ({hv('manganeso','hem_total_pct'):.3f} %) quedan entre los valores más bajos. El HEM hacia adelante es mayor que el de hacia atrás en el cobre, el oro, la plata y el manganeso; en el plomo-zinc y la barita ocurre lo contrario.")
+add_chart('hem.png','Gráfico 2c. Extracción hipotética por mineral, 2018: HEM total (% del VBP nacional) y dispersión del índice de Ghosh-Rasmussen (intensidad) frente al HEM hacia adelante (peso, escala logarítmica). Fuente: elaboración propia con la MIP del INEGI (2018).')
+para('Leídas en conjunto, las dos variantes ordenan a los minerales de forma distinta: la sílice, el grafito y el manganeso combinan el índice de Rasmussen más alto con un HEM bajo; el cobre, el oro y la plata combinan un índice intermedio con el HEM más alto. El índice de Rasmussen describe la articulación por unidad de producto; el HEM, la fracción del VBP nacional que depende del mineral.')
+h2('Las dos variantes por eslabón (extracción, refinación, semimanufactura)')
+para('Ambos coeficientes se calcularon también para las clases de la MIP que corresponden a la refinación (L2) y a la semimanufactura (L3) de cada mineral. En el cobre —el único con clase propia en los tres eslabones— las dos variantes se mantienen altas en la extracción y la refinación y descienden en la semimanufactura (Rasmussen 1.34 → 1.37 → 0.95; HEM 0.250 → 0.234 → 0.046 %). En el oro y la plata, ambas registran su valor mínimo en la refinación (Rasmussen 0.62; HEM 0.001 %). En la fluorita, el grafito y la sílice las dos variantes divergen: el índice de Rasmussen queda por encima de 1 en los tres eslabones y el HEM es bajo en la extracción; en la barita ambas son bajas en la extracción (0.64 y 0.001 %). En las clases compartidas o agregadas (tramadas en el gráfico) el valor corresponde a la clase completa, no al mineral: por eso el HEM de refinación es el mismo (0.185 %) en los cuatro no metálicos. Datos en mip_hem_eslabones.csv.')
+add_chart('hem_eslabon.png','Gráfico 2d. Extracción hipotética hacia adelante por eslabón y mineral, 2018 (% del VBP nacional). Fuente: elaboración propia con la MIP del INEGI (2018).')
+
 # ================= 4. CCV =================
 h1('4. Captura de valor en frontera (CCV)')
 h2('Qué mide')
@@ -228,17 +242,26 @@ for r in rd('icio_dva_mineria.csv'):
 mx=dict(dser.get('MEX',[])); chl=dict(dser.get('CHL',[])); cnd=dict(dser.get('CHN',[])); ped=dict(dser.get('PER',[]))
 para(f"Chile y Perú exportan en crudo casi todo el valor de su minería (≈{ped.get(2018,0)*100:.0f} % Perú, ≈{chl.get(2018,0)*100:.0f} % Chile en 2018) —los enclaves más profundos; Perú comparte la canasta polimetálica de México, lo que muestra que el enclave no es un rasgo idiosincrásico sino de la (falta de) integración aguas abajo—. En el extremo opuesto, China exporta en crudo solo el {cnd.get(2018,0)*100:.0f} %: funde casi todo, es a donde va el valor que los demás no capturan. México aparece bajo en el agregado (≈{round(100*sum(v for _,v in dser['MEX'])/len(dser['MEX']))} %), pero por la misma razón que su índice de Ghosh alto: promedia los metales preciosos que sí se funden en el país con el cobre que sale 94.7 % en concentrado. Que México (Ghosh 1.51, crudo 38 %) y China (1.53, crudo 7 %) tengan un Ghosh casi idéntico pero una realidad opuesta es la prueba más clara de que el enclave del cobre solo se ve al desagregar. Además, de punta a punta el patrón mexicano se profundiza: el crudo pasa de {mx.get(1995,0)*100:.0f} % (1995) a {mx.get(2020,0)*100:.0f} % (2020), y el valor de su minería absorbido en el extranjero sube del 21 % al 65 %.")
 add_chart('dva.png','Gráfico 6. Fracción del valor agregado minero exportado en crudo (a reprocesar en el extranjero), corte 2018, ocho países. Fuente: elaboración propia con OECD ICIO.')
+h2('El peso de la minería por país (extracción hipotética)')
+hi={r['pais']:r for r in rd('icio_hem_mineria.csv') if r['anio']=='2018' and r['sector']=='B07_08'}
+def hp(p): return float(hi[p]['hem_total_pct'])
+para(f"Sobre el mismo bloque doméstico de cada país se calcula también la segunda variante del encadenamiento: el porcentaje del VBP del país que se perdería si su minería dejara de comprar o de vender. En 2018 los valores más altos son los de Chile ({hp('CHL'):.2f} %), Australia ({hp('AUS'):.2f} %) y Perú ({hp('PER'):.2f} %), seguidos de China ({hp('CHN'):.2f} %) y Brasil ({hp('BRA'):.2f} %); México registra {hp('MEX'):.2f} % y Suecia y Finlandia, menos de 1 %. Leídas en conjunto con el índice de Ghosh, las dos variantes ordenan a los países de forma casi inversa: México y los nórdicos combinan intensidad alta con peso bajo; Chile, Perú y Australia, intensidad baja con el peso más alto; China registra valores altos en ambas. La serie se calculó para 2008, 2013, 2018 y 2020 (icio_hem_mineria.csv).")
+add_chart('hem_intl.png','Gráfico 6b. Extracción hipotética de la minería no energética por país, 2018: HEM total (% del VBP doméstico) y dispersión del índice de Ghosh-Rasmussen frente al HEM hacia adelante. Fuente: elaboración propia con OECD ICIO.')
 h2('La dimensión regional (geografía de la cadena)')
 reg=rd('georref_regionalizacion.csv'); ncol=sum(1 for r in reg if r['colocalizado_extraccion_E2']=='si')
 para(f"La cadena también tiene una dimensión territorial. La extracción está muy localizada (grafito y manganeso son monopolios de un solo estado; la fluorita, 96 % en San Luis Potosí), pero la transformación se concentra en unos pocos nodos metalúrgicos que casi nunca coinciden con el estado extractor: de los diez minerales, solo el cobre tiene su fundición en el mismo estado que la mina (Sonora); en los otros nueve el valor agregado —cuando existe— se deslocaliza a hubs como Torreón (Coahuila), Nuevo León o Tamaulipas, o simplemente no ocurre. Esa desconexión espacial entre extracción y transformación es la expresión geográfica del enclave. (El cálculo del encadenamiento por estado con cocientes de localización requiere la matriz de PIB por entidad y sector de INEGI, sólo disponible por descarga interactiva; se documenta como pendiente.)")
+
+he=sorted(rd('hem_estatal_mineria.csv'),key=lambda x:-float(x['hem_total_pct']))
+para(f"La extracción hipotética también se calculó para la minería de cada entidad, sobre la matriz birregional del INEGI (la entidad y el resto del país, 2018). Por peso encabezan Sonora ({float(he[0]['hem_total_pct']):.2f} % del VBP birregional), Coahuila ({float(he[1]['hem_total_pct']):.2f} %) y Durango ({float(he[2]['hem_total_pct']):.2f} %); en todas las entidades salvo Chihuahua el HEM hacia adelante supera al de hacia atrás (hem_estatal_mineria.csv).")
+add_chart('hem_estatal.png','Gráfico 6c. Extracción hipotética de la minería por entidad, 2018 (% del VBP birregional), diez principales. Fuente: elaboración propia con la MIP birregional del INEGI.')
 
 # ================= 7. CUADRO RESUMEN =================
 h1('7. Cuadro resumen de los datos')
 para('Las cifras principales de los cuatro indicadores, por mineral.')
 orden=['cobre','zinc','plomo','oro','plata','barita','fluorita','grafito','silice','manganeso']
-t=doc.add_table(rows=1,cols=5); t.style='Table Grid'; t.alignment=WD_TABLE_ALIGNMENT.CENTER
-widths=[Cm(3.3),Cm(3.1),Cm(3.4),Cm(2.9),Cm(3.3)]
-hdr=['Mineral','HHI (2023)','Ghosh adelante (2018)','CCV (media)','% exportado en bruto (2020–24)']
+t=doc.add_table(rows=1,cols=6); t.style='Table Grid'; t.alignment=WD_TABLE_ALIGNMENT.CENTER
+widths=[Cm(2.8),Cm(2.4),Cm(2.9),Cm(2.6),Cm(2.4),Cm(2.9)]
+hdr=['Mineral','HHI (2023)','Ghosh adelante (2018)','HEM total (2018, % VBP)','CCV (media)','% exportado en bruto (2020–24)']
 for j,htxt in enumerate(hdr):
     set_cell(t.rows[0].cells[j],htxt,bold=True,size=9.5,color=RGBColor(0xff,0xff,0xff),align=WD_ALIGN_PARAGRAPH.CENTER)
     shade(t.rows[0].cells[j],'211d18'); t.rows[0].cells[j].width=widths[j]
@@ -247,13 +270,15 @@ for m in orden:
     ghv=gh18.get(m);
     if ghv is None and m in ('plomo','zinc'): ghv=gh18.get('plomo-zinc')
     gh_txt=(f"{ghv:.2f}"+(" *" if m in ('plomo','zinc') else "")) if ghv else "—"
-    vals=[NAMES[m], f"{hhi23.get(m,'—'):,}" if m in hhi23 else "—", gh_txt,
+    hmk=m if m in hm else ('plomo-zinc' if m in ('plomo','zinc') else None)
+    hem_txt=(f"{float(hm[hmk]['hem_total_pct']):.3f}"+(" *" if m in ('plomo','zinc') else "")) if hmk else "—"
+    vals=[NAMES[m], f"{hhi23.get(m,'—'):,}" if m in hhi23 else "—", gh_txt, hem_txt,
           f"{ccvmean[m]:.2f}" if m in ccvmean else "—",
           f"{round(crudo[m]*100)}%" if m in crudo else "—"]
     for j,v in enumerate(vals):
         set_cell(row.cells[j],v,size=9.5,align=(WD_ALIGN_PARAGRAPH.LEFT if j==0 else WD_ALIGN_PARAGRAPH.CENTER))
         row.cells[j].width=widths[j]
-caption('* Plomo y zinc comparten una sola clase en la MIP (se extraen juntos): el índice de Ghosh es conjunto. El CCV de oro y plata no es informativo (ver sección 4). El HHI de 2004–2020 es aproximado; aquí se muestra el dato de 2023.')
+caption('* Plomo y zinc comparten una sola clase en la MIP (se extraen juntos): el índice de Ghosh y el HEM son conjuntos. El CCV de oro y plata no es informativo (ver sección 4). El HHI de 2004–2020 es aproximado; aquí se muestra el dato de 2023.')
 
 # ================= 7. FUENTES =================
 h1('8. De dónde salen los datos (fuentes)')
@@ -275,7 +300,7 @@ para('Todos los indicadores son de elaboración propia a partir de estas fuentes
 # ================= 8. GUION DE LA PRESENTACION DEL PROTOCOLO =================
 doc.add_page_break()
 h1('9. Guion de la presentación del protocolo (diapositiva por diapositiva)')
-para('Esta sección acompaña la presentación del protocolo de investigación (18 diapositivas). Para cada una se indica qué muestra y qué conviene decir al exponerla. Donde una decisión del protocolo tuvo que ajustarse en la práctica, se explica cómo se planteaba al inicio, cómo se aborda ahora y por qué; en la presentación esas diapositivas van agrupadas al final (“Ajustes metodológicos”).')
+para('Esta sección acompaña la presentación del protocolo de investigación (19 diapositivas). Para cada una se indica qué muestra y qué conviene decir al exponerla. Donde una decisión del protocolo tuvo que ajustarse en la práctica, se explica cómo se planteaba al inicio, cómo se aborda ahora y por qué; en la presentación esas diapositivas van agrupadas al final (“Ajustes metodológicos”).')
 
 def slide(n,title,text,extra=None):
     p=doc.add_paragraph(); p.paragraph_format.space_before=Pt(8); p.paragraph_format.space_after=Pt(2)
@@ -295,7 +320,7 @@ slide(6,'Hipótesis','La hipótesis general nombra el rasgo que se espera descri
 slide(7,'Marco teórico — enclave estructural','Es el concepto que ordena todo el trabajo. Se llega a él por contraste: el enclave clásico (Cardoso y Faletto) se define por la propiedad extranjera del capital; aquí el capital es mayoritariamente nacional, pero la cadena se desconecta aguas abajo. Ese es el enclave estructural, con respaldo en el neo-extractivismo (Svampa). El mensaje: el problema no es de quién es la mina, sino dónde se detiene la cadena.')
 slide(8,'Enfoque y horizonte temporal','El enfoque es descriptivo y de métodos mixtos; la unidad de observación es el mineral-año. El horizonte es 1992–2025 (de la Ley Minera al cierre de datos). Punto importante para el público: el detalle temporal depende de la fuente —unos indicadores son series anuales, otros son cortes puntuales de la matriz insumo-producto—.')
 slide(9,'Fuentes de información','Enumera de dónde sale cada dato: MIP del INEGI, comercio de UN Comtrade, estructura y precios del USGS, participaciones de CAMIMEX, reportes corporativos para la cadena, y el marco legal (Ley Minera 1992 y reforma 2023). TiVA/ICIO y entrevistas quedan como complementos opcionales.')
-slide(10,'Técnicas de análisis','Presenta los cuatro descriptores y a qué objetivo sirve cada uno: HHI (concentración), Leontief/Ghosh/CCV (encadenamiento), demanda intermedia (cadena local), comercio por etapa (inserción global). Aquí se puede remitir a las secciones 2–5 de este documento para la matemática.')
+slide(10,'Técnicas de análisis','Presenta los cuatro descriptores y a qué objetivo sirve cada uno: HHI (concentración), Leontief/Ghosh/CCV (encadenamiento; el Ghosh en dos variantes, intensidad y peso por extracción hipotética), demanda intermedia (cadena local), comercio por etapa (inserción global). Aquí se puede remitir a las secciones 2–5 de este documento para la matemática.')
 slide(11,'Ajustes metodológicos (portada de sección)','Diapositiva de transición: anuncia que, al ejecutar el trabajo, algunas decisiones del protocolo se ajustaron a lo que los datos y el asesor hicieron posible, y que el protocolo conserva esas marcas a la espera del visto bueno del asesor. Sirve para dar transparencia metodológica.')
 slide(12,'Ajuste 1 — de causal a descriptivo','Es el cambio de fondo. Explicar el giro y por qué mejora la investigación.',
       'Se planteaba un modelo causal de panel (la concentración explicaría el encadenamiento) con un event study de la reforma. Ahora es una descripción de las cadenas de valor: HHI, Ghosh y CCV se usan como descriptores, no como variables de un modelo, y el aporte es la construcción de datos e indicadores por mineral. Por qué: se acordó con el asesor (jul-2026) y se afinó en el análisis de consistencia; con tan pocos cortes de matriz no hay base para una identificación causal creíble, y la contribución novedosa —ausente en la literatura— es medir y describir la desconexión.')
@@ -305,9 +330,11 @@ slide(14,'Ajuste 3 — el CCV como serie anual','Cómo se dio continuidad tempor
       'El coeficiente de captura de valor se planteaba junto a Leontief/Ghosh, ligado a los cortes discretos de la matriz. Ahora se construye como serie anual 1992–2025, con el valor unitario de exportación en bruto (Comtrade) sobre el precio de referencia (USGS). Por qué: el Ghosh es una foto de dos o tres años y el periodo elegido abarca 34; el CCV aporta la continuidad anual y funciona como segunda medida del encadenamiento hacia adelante (informativa en metales base; no informativa en oro/plata).')
 slide(15,'Ajuste 4 — cobertura real de las series','Hasta dónde llega efectivamente cada dato.',
       'Se planteaban series continuas 1992–2025 para HHI y comercio. En la práctica el HHI cubre 1994–2024 (los años 1994–2003 se reconstruyeron por régimen con el USGS Minerals Yearbook para manganeso, fluorita, grafito y cobre; 1994–2020 es aproximado y no comparable en nivel con 2021–2024), el comercio por etapa 1992–2024, y el CCV todo el periodo. Por qué: donde el dato de estructura por empresa no existe se declara el hueco (1992–1993) y el quiebre de método, y el HHI se lee como indicador de régimen.')
-slide(16,'Cobertura del periodo elegido','Responde directamente si están cubiertos los cálculos para 1992–2025. Sí: las series continuas cubren el periodo (CCV 1992–2025; HHI 1994–2024; comercio por etapa 1992–2024) y los encadenamientos tienen tres cortes de matriz (2008/2013/2018), complementados con la comparación internacional (ICIO, cortes 2008/2013/2018) y la descomposición de valor agregado (1995–2020). Quedan como opcionales/pendientes el RAS 2020/2023 y el encadenamiento por estado con la matriz PIB estatal por sector de INEGI.')
-slide(17,'Cronograma','Muestra las fases sobre doce meses (jul 2026 – jun 2027). Al exponer, situar el avance real: la fase de datos está completa, el frente activo es la inserción global, la síntesis y la redacción, y las revisiones con el asesor son continuas.')
-slide(18,'Contribución (cierre)','Cierra con el mensaje central: el valor de la tesis no está en un modelo econométrico, sino en construir y describir datos e indicadores que no existían por mineral —HHI 1994–2024, encadenamientos en tres cortes, CCV de 34 años, comercio por etapa, la comparación internacional (que reencuadra el “éxito”: el referente real es el modelo nórdico, no Chile/Australia) y la descomposición de valor agregado que mide el enclave en dinero—, ordenados por el concepto de enclave estructural y con bases para pensar una política industrial.')
+slide(16,'Ajuste 5 — dos variantes del encadenamiento hacia adelante','Cómo se complementó el índice de Ghosh.',
+      'Se planteaba un solo índice de encadenamiento hacia adelante: el Ghosh normalizado de Hirschman-Rasmussen, que mide intensidad (media de la economía = 1). Ahora se añade la extracción hipotética (HEM; Miller y Lahr, 2001; método de Morales-López, 2023), que mide el peso: el porcentaje del VBP que se perdería si el sector dejara de comprar o de vender; se calcula por mineral, por eslabón, por entidad y por país. Por qué: el índice de Rasmussen no distingue el tamaño del sector; el HEM ordena distinto (por peso encabezan cobre, oro y plata; por intensidad, sílice, grafito y manganeso) y permite el contraste con ese antecedente. Las dos variantes se leen por separado y en conjunto.')
+slide(17,'Cobertura del periodo elegido','Responde directamente si están cubiertos los cálculos para 1992–2025. Sí: las series continuas cubren el periodo (CCV 1992–2025; HHI 1994–2024; comercio por etapa 1992–2024) y los encadenamientos tienen tres cortes de matriz (2008/2013/2018), complementados con la comparación internacional (ICIO, cortes 2008/2013/2018) y la descomposición de valor agregado (1995–2020). Quedan como opcionales/pendientes el RAS 2020/2023 y el encadenamiento por estado con la matriz PIB estatal por sector de INEGI.')
+slide(18,'Cronograma','Muestra las fases sobre doce meses (jul 2026 – jun 2027). Al exponer, situar el avance real: la fase de datos está completa, el frente activo es la inserción global, la síntesis y la redacción, y las revisiones con el asesor son continuas.')
+slide(19,'Contribución (cierre)','Cierra con el mensaje central: el valor de la tesis no está en un modelo econométrico, sino en construir y describir datos e indicadores que no existían por mineral —HHI 1994–2024, encadenamientos en tres cortes, CCV de 34 años, comercio por etapa, la comparación internacional (que reencuadra el “éxito”: el referente real es el modelo nórdico, no Chile/Australia) y la descomposición de valor agregado que mide el enclave en dinero—, ordenados por el concepto de enclave estructural y con bases para pensar una política industrial.')
 
 doc.save(OUT)
 print('escrito:',OUT)

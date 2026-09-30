@@ -125,7 +125,7 @@ Para observar en qué grado de transformación comercia México cada mineral se 
 
 El dato sectorial de la MIP no observa la transformación que ocurre **dentro** de las firmas extractivas verticalmente integradas. Para corregir esa subestimación, se levantó un mapa de empresas de transformación por mineral —quién procesa, en qué eslabón, dónde y bajo qué propiedad— a partir de reportes corporativos y perfiles de mercado. Ese mapa se organiza en diez **fichas de cadena de valor**, una por mineral, que descomponen cada mercado en cinco eslabones y localizan el **punto de ruptura**: el eslabón a partir del cual el país deja de agregar valor.
 
-La notación de eslabones, común a los capítulos de resultados, se ilustra en la Ilustración {{fig:cadena}}. Los eslabones L1 a L4 coinciden con las cuatro fases de transformación y con las etapas comerciales E1-E4; se añade L0 para ubicar la dotación previa a toda actividad.
+La notación de eslabones, común a los capítulos de resultados, se ilustra en la {{fig:cadena}}. Los eslabones L1 a L4 coinciden con las cuatro fases de transformación y con las etapas comerciales E1-E4; se añade L0 para ubicar la dotación previa a toda actividad.
 
 ![Ilustración {#fig:cadena}: Los cinco eslabones de la cadena de valor de un mineral (notación L0-L4) y su equivalencia con las etapas comerciales E1-E4. Elaboración propia.](figuras/cadena_L0_L4.png){width=100%}
 

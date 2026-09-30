@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-"""Ensambla las 8 diapositivas .dc.html en un deck HTML autonomo (navegable + imprimible a PDF).
+"""Ensambla las 11 diapositivas .dc.html en un deck HTML autonomo (navegable + imprimible a PDF).
 Extrae el markup de cada slide (entre </helmet> y </x-dc>) y las reglas <style> del helmet."""
 import re, os
 D=r"C:\Users\Jorge\OneDrive\Escritorio\Claude CODE\ICR\13 Entregables"
 # Historial de presentaciones de la infografia (deck autonomo): subir FECHA para una version nueva.
-FECHA="2026-09-07"
+FECHA="2026-09-29"
 OUTDIR=os.path.join(D,"Presentaciones de infografia")
 os.makedirs(OUTDIR, exist_ok=True)
 OUT=os.path.join(OUTDIR, f"presentacion_enclave {FECHA}.html")
-ORDER=["Main","Marco","Indicadores","HHI","Ghosh","CCV","Comercio","Evolucion","Internacional","Tipologia"]
+ORDER=["Main","Marco","Indicadores","HHI","Ghosh","HEM","CCV","Comercio","Evolucion","Internacional","Tipologia"]
 styles=[]; slides=[]
 for name in ORDER:
     src=open(os.path.join(D,name+".dc.html"),encoding="utf-8").read()
@@ -75,7 +75,7 @@ html,body{{margin:0;height:100%;background:#0e0b07;font-family:'IBM Plex Sans',s
 <script>
 (function(){{
 var slides=[].slice.call(document.querySelectorAll('.slide'));
-var titles=["Portada","Marco","Indicadores","HHI · Concentración","Ghosh · Encadenamiento","CCV · Captura de valor","Comercio por etapa","Evolución temporal","Tipología / síntesis"];
+var titles=["Portada","Marco","Indicadores","HHI · Concentración","Ghosh · Encadenamiento","HEM · Peso del encadenamiento","CCV · Captura de valor","Comercio por etapa","Evolución temporal","Internacional","Tipología / síntesis"];
 var i=0, stage=document.getElementById('stage');
 var dots=document.getElementById('dots');
 slides.forEach(function(s,k){{var d=document.createElement('i');d.addEventListener('click',function(){{go(k);}});dots.appendChild(d);}});

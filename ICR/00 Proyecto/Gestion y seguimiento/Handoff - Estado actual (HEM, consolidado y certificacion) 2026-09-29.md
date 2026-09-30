@@ -17,7 +17,7 @@ status: activo
 - **Diseño descriptivo**, no causal. Concepto ordenador = **enclave estructural**. HHI, Ghosh, HEM, CCV son **descriptores**.
 - **Pauta de redacción del alumno (2026-09-29):** la interpretación de resultados es **solo descriptiva** —describir y analizar resultados, **sin implicaciones ni búsqueda de relaciones**—. **Excepción:** los dos coeficientes de Ghosh (**Rasmussen** = intensidad; **HEM** = peso) se interpretan **por separado y en conjunto**.
 - **Estilo matemático (Cap. III):** el de **Morales-López (2023)** — ecuaciones **numeradas (1)-(13)**, glosario "donde X es … de orden n×1" tras cada ecuación, identidad contable dual primero, referencias por número de ecuación. En Pandoc la numeración se escribe `$$ … \qquad\qquad (n)$$` (Pandoc→Word **ignora** `\tag`).
-- **Referencias cruzadas del manuscrito:** escribir `{{cua:X}}` / `{{fig:X}}` **solos** (ya se expanden a "Cuadro N.M" / "Ilustración N.M"); nunca "Cuadro {{cua:X}}" (producía "Cuadro Cuadro", corregido 2026-09-29).
+- **Referencias cruzadas del manuscrito:** escribir `{{cua:X}}` / `{{fig:X}}` **solos** (ya se expanden a "Cuadro N.M" / "Ilustración N.M"); nunca "Cuadro {{cua:X}}" ni "Ilustración {{fig:X}}" (producían "Cuadro Cuadro" e "Ilustración Ilustración"; ambos corregidos 2026-09-29).
 - **Sin voz de IA**; versionar en git; handoff antes de agotar contexto.
 - **No aceptar el control de cambios del PROTOCOLO** — espera al asesor (Dr. Jordy Micheli Thirion).
 - Git: rama `main`, remoto `git@github.com:jorgecortesmorales/Claude_jcm.git`. Todo pusheado al cierre de este handoff (ver `git log`). El DOCX del manuscrito está en `.gitignore` y el PDF no se versiona (ambos se regeneran).
@@ -64,7 +64,7 @@ py "13 Entregables/Consolidado datos y calculos/cotejo_certificacion.py"   # deb
 ## 3. Qué sigue (todo opcional salvo 1)
 1. **Versión de entrega del alumno** (voz propia) de los Caps. **III y V-IX** (+ §II.2.5). Guía de lecturas: [[Recomendaciones de lectura por capitulo]].
 2. **Protocolo**: control de cambios en espera del asesor (no aceptar antes).
-3. **Entregables fechados** (resumen descriptivo en Word, infografía, presentaciones, resumen metodológico 2026-09-07) **no incluyen** el HEM: si se requieren para exponer, generar una **versión nueva fechada** (ver [[Historial de entregables]]).
+3. ~~Entregables sin HEM~~ → **hecho 2026-09-29 (d)**: todos los entregables tienen versión 2026-09-29 con el HEM (ver [[Historial de entregables]]). Queda: (i) las secciones anteriores de esos entregables conservan su redacción interpretativa previa (solo lo nuevo sigue la pauta descriptiva); alinearlas si se van a presentar. (ii) El cotejo certifica **números**, no afirmaciones de dirección u orden («supera», «en todos»); al preparar los entregables se encontraron y corrigieron cuatro de ese tipo, así que conviene revisarlas a mano en cada texto nuevo. (iii) El canvas de Claude Design sigue en 2026-09-06 (requiere Node).
 4. **Bibliografía**: migrar [[Bibliografia]] a Zotero → `.bib` gestionado.
 5. **Agenda de datos** (Cap. IX): HHI 1994-2003 con USGS histórico; cocientes de localización por entidad; desagregar la comparación internacional por mineral si el dato lo permite.
 

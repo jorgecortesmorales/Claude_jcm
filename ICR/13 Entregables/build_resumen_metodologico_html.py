@@ -5,7 +5,7 @@ tablas estilizados, y los gráficos PNG embebidos (base64) en cada indicador."""
 import re, os, base64
 import markdown
 
-FECHA="2026-09-07"
+FECHA="2026-09-29"
 BASE=r"C:\Users\Jorge\OneDrive\Escritorio\Claude CODE\ICR"
 SRC=os.path.join(BASE,"13 Entregables","Resumenes descriptivos",f"Resumen metodologico y de resultados {FECHA}.md")
 OUT=os.path.join(BASE,"13 Entregables","Resumenes descriptivos",f"Resumen metodologico y de resultados {FECHA}.html")
@@ -18,10 +18,11 @@ def b64(name):
 # graficos por sección (número de encabezado H2 -> [(archivo, pie)])
 CHARTS={
  "2":[("hhi.png","HHI por mineral, 2023."),("hhi_traj.png","Trayectoria del HHI 1994-2024 (minerales ilustrativos).")],
- "3":[("ghosh.png","Encadenamiento hacia adelante por mineral, 2018."),("ghosh_cortes.png","Ghosh en los 3 cortes MIP (2008/2013/2018).")],
+ "3":[("ghosh.png","Encadenamiento hacia adelante por mineral, 2018."),("ghosh_cortes.png","Ghosh en los 3 cortes MIP (2008/2013/2018)."),("hem.png","Extracción hipotética por mineral, 2018: HEM total y Rasmussen frente a HEM hacia adelante."),("hem_eslabon.png","HEM hacia adelante por eslabón y mineral, 2018 (tramado: clase compartida o agregada).")],
  "4":[("ccv.png","CCV anual de los metales base, 1992-2025.")],
  "5":[("comercio.png","Composición de exportaciones por etapa, prom. 2020-2024."),("comercio_evo.png","% exportado en bruto, evolución.")],
- "8":[("intl_ghosh.png","Comparación internacional: Ghosh de la minería en 3 cortes (2008/2013/2018).")],
+ "7":[("hem_estatal.png","Extracción hipotética de la minería por entidad, 2018 (diez principales).")],
+ "8":[("intl_ghosh.png","Comparación internacional: Ghosh de la minería en 3 cortes (2008/2013/2018)."),("hem_intl.png","Extracción hipotética de la minería no energética por país, 2018.")],
  "9":[("dva.png","% del valor agregado minero exportado en crudo, prom. 1995-2020.")],
 }
 

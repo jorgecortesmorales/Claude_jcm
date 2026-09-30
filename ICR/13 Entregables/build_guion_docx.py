@@ -9,7 +9,7 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
 OUTDIR = r"C:\Users\Jorge\OneDrive\Escritorio\Claude CODE\ICR\13 Entregables\Resumenes descriptivos"
-FECHA = "2026-09-08"
+FECHA = "2026-09-29"
 OUT = os.path.join(OUTDIR, f"Guion de la exposicion (desde diapo 2) {FECHA}.docx")
 INK = RGBColor(0x21,0x1d,0x18); COP = RGBColor(0xb0,0x57,0x1e); MUT = RGBColor(0x6b,0x64,0x5a)
 
@@ -93,6 +93,7 @@ slide(10, 'Técnicas de análisis', '2 min', [
  'A cada objetivo le corresponde una técnica, y las presento de lo simple a lo elaborado.',
  'Para la estructura extractiva, el índice de Herfindahl-Hirschman: la suma de los cuadrados de las participaciones. Como eleva al cuadrado, un líder dominante pesa mucho más que varios productores pequeños, así que distingue bien un monopolio de un mercado repartido.',
  'Para el encadenamiento, dos modelos duales de la matriz insumo-producto. El de Leontief mide hacia atrás —cuánto arrastra un mineral a sus proveedores— y en minería suele ser bajo. El de Ghosh mide hacia adelante —cuánto alimenta a las industrias que lo usan como insumo—, que es justo la pregunta de la tesis. A esos dos sumo el coeficiente de captura de valor, que da la versión anual y continua del encadenamiento hacia adelante, año con año.',
+ 'El índice de Ghosh lo calculo en dos variantes. La primera, la normalización de Hirschman-Rasmussen, mide la intensidad: qué tan articulado está el mineral por unidad de producción, con la media de la economía igual a uno. La segunda, la extracción hipotética, mide el peso: cuánto del valor de la producción nacional se perdería si el mineral dejara de comprar o de vender. Es el método que aplica Morales-López para México.',
  'Para la cadena local, la demanda intermedia: qué sectores compran cada mineral dentro del país, complementada con un mapa de empresas, porque buena parte de la cadena ocurre dentro de los propios grupos.',
  'Y para la inserción global, el comercio por etapa: qué parte se exporta en bruto y qué parte procesada, con el análisis espejo —si exportamos en bruto e importamos el producto procesado del mismo mineral, la transformación se hace afuera—.',
  'Insisto en un punto: todos son descriptores, no un modelo causal. Y el índice de Ghosh se lee con cautela, como posición estructural, nunca como prueba por sí solo de que existe una cadena desarrollada.',
@@ -119,24 +120,29 @@ slide(15, 'Ajuste 4 · la cobertura real de las series', '1 min', [
  'El cuarto ajuste es de honestidad sobre hasta dónde llega cada dato. Algunas series no cubren toda la ventana con la misma granularidad, y eso es un límite de la fuente, no una decisión de diseño. Donde falta el dato, lo declaro. Es lo que detallo en la siguiente diapositiva.',
 ])
 
-slide(16, 'Cobertura del periodo: ¿están cubiertos los cálculos?', '2 min', [
+slide(16, 'Ajuste 5 · dos variantes del encadenamiento hacia adelante', '1 min', [
+ 'El quinto ajuste es un complemento. En el protocolo tenía un solo índice de encadenamiento hacia adelante, el Ghosh normalizado, que mide intensidad. Le añadí una segunda variante, la extracción hipotética, que mide el peso: el porcentaje del valor de la producción que se perdería si el sector dejara de comprar o de vender.',
+ 'Las dos ordenan distinto. Por peso encabezan el cobre, el oro y la plata; por intensidad, la sílice, el grafito y el manganeso. En la comparación internacional pasa algo parecido: México tiene intensidad alta y peso bajo, y Chile, intensidad baja y peso alto. Por eso las leo por separado y en conjunto, y el método me permite compararme con Morales-López, que lo aplica al caso mexicano.',
+])
+
+slide(17, 'Cobertura del periodo: ¿están cubiertos los cálculos?', '2 min', [
  'La respuesta corta es sí, y quiero mostrarlo con transparencia. El coeficiente de captura de valor cubre todo el periodo, de 1992 a 2025, año con año, igual que los precios de referencia. El comercio por etapa, de 1992 a 2024. El HHI, de 1994 a 2024: los años más antiguos, de 1994 a 2003, los reconstruí por régimen a partir de la estructura del USGS para los minerales donde el patrón es inequívoco —manganeso, fluorita, grafito y cobre—.',
- 'Los encadenamientos de la matriz son, por naturaleza, fotos: tengo tres cortes, 2008, 2013 y 2018. Y sobre esa misma base comparo internacionalmente a México con Chile, Australia, Finlandia y Suecia, en los mismos tres cortes, y añado una descomposición de valor agregado, de 1995 a 2020.',
+ 'Los encadenamientos de la matriz son, por naturaleza, fotos: tengo tres cortes, 2008, 2013 y 2018. Y sobre esa misma base comparo internacionalmente a México con Chile, Australia, Finlandia y Suecia, en los mismos tres cortes, y añado una descomposición de valor agregado, de 1995 a 2020. La extracción hipotética la tengo por mineral y eslabón, por entidad y por país, en 2008, 2013, 2018 y 2020.',
  'Hay huecos, y los declaro en voz alta en vez de rellenarlos con supuestos: el HHI de 1992 y 1993 no es reconstruible, porque en plena privatización no hay una estructura de mercado estable por empresa. Y quedan como opcionales o pendientes una actualización por el método RAS —inviable por mineral, porque la matriz a ese nivel solo existe para años base— y el encadenamiento por estado, que requiere una matriz de PIB estatal por sector.',
  'Este criterio —declarar, no imputar— es deliberado: prefiero una descripción honesta y auditable, sostenida en la convergencia de varios indicadores, a una serie aparentemente completa pero fabricada.',
 ])
 
-slide(17, 'Cronograma', '45 s', [
+slide(18, 'Cronograma', '45 s', [
  'El cronograma organiza el trabajo en doce meses. Al día de hoy, la fase de datos está completa: los indicadores construidos y validados. El frente activo es la inserción global, la síntesis y la redacción, con revisiones continuas con el asesor.',
 ])
 
-slide(18, 'Contribución (cierre)', '1 min 40 s', [
+slide(19, 'Contribución (cierre)', '1 min 40 s', [
  'Cierro con el mensaje central. El valor de esta tesis no está en un modelo econométrico, sino en construir y describir algo que no existía: datos e indicadores por mineral —el HHI de 1994 a 2024, los encadenamientos en tres cortes, el coeficiente de captura de valor de treinta y cuatro años, y el comercio por etapa—.',
  'A eso sumo dos piezas que reencuadran el debate. La comparación internacional muestra que ni Chile ni Australia son casos de éxito en el encadenamiento hacia adelante; el verdadero referente de integración es el modelo nórdico. Y la descomposición de valor agregado mide el enclave en dinero: cuánto del valor de la minería se queda transformado en casa y cuánto se va en crudo para procesarse afuera.',
  'Todo ordenado por un solo concepto —el enclave estructural— y con bases concretas para pensar una política industrial, diferenciadas por mineral y por eslabón ausente. Gracias.',
 ])
 
-slide(19, 'Referencias', '20 s', [
+slide(20, 'Referencias', '20 s', [
  'Estas son las referencias principales del trabajo, organizadas por marco teórico, insumo-producto y método, minería en México, y fuentes de datos. La bibliografía completa está en el documento. Quedo atento a sus comentarios.',
 ])
 

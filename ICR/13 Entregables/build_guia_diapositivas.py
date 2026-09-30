@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Guía de exposición a fondo — diapositivas 3, 7, 8, 10 y 16 del protocolo ICR.
+"""Guía de exposición a fondo — diapositivas 3, 7, 8, 10 y 17 del protocolo ICR.
 Combina el contenido del proyecto con el marco conceptual amplio (autores, mecanismos,
 supuestos y críticas) necesario para entender y defender cada tema. python-docx, formato
 tesis (Times New Roman 12, Carta, márgenes 3 cm)."""
@@ -11,8 +11,8 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
 OUTDIR = r"C:\Users\Jorge\OneDrive\Escritorio\Claude CODE\ICR\13 Entregables\Resumenes descriptivos"
-FECHA = "2026-09-07"
-OUT = os.path.join(OUTDIR, f"Guia de exposicion - diapositivas 3,7,8,10,16 {FECHA}.docx")
+FECHA = "2026-09-29"
+OUT = os.path.join(OUTDIR, f"Guia de exposicion - diapositivas 3,7,8,10,17 {FECHA}.docx")
 INK = RGBColor(0x21,0x1d,0x18); COP = RGBColor(0xb0,0x57,0x1e); MUT = RGBColor(0x6b,0x64,0x5a)
 
 doc = Document()
@@ -193,7 +193,7 @@ qa('¿Por qué empezar en 1992?',
    'Porque la Ley Minera de 1992 configuró el régimen de concesiones y el modelo extractivo vigente; es el punto de partida institucional del fenómeno que se describe.')
 
 H2('Errores a evitar')
-bullet('No afirmar “serie continua 1992-2025 para todos los indicadores”: la MIP son cortes; declararlo (ver diapositiva 16).')
+bullet('No afirmar “serie continua 1992-2025 para todos los indicadores”: la MIP son cortes; declararlo (ver diapositiva 17).')
 bullet('No confundir “descriptivo” con “superficial”: es descriptivo en el sentido metodológico (no causal), pero con rigor cuantitativo.')
 
 # ==================================================================
@@ -210,6 +210,8 @@ P('El índice de Herfindahl-Hirschman es la suma de los cuadrados de las partici
 H3('Leontief y Ghosh — encadenamiento (Objetivo 1)')
 P('Ambos se derivan de la Matriz Insumo-Producto, que registra cuánto le vende cada sector a cada otro. El modelo de Leontief (1941) es de demanda: a partir de coeficientes técnicos (cuánto insumo requiere cada sector) mide los encadenamientos hacia atrás —cuánto arrastra un sector a sus proveedores—. El modelo de Ghosh (1958) es su dual, de oferta: a partir de coeficientes de distribución (a dónde va la producción de cada sector) mide los encadenamientos hacia adelante —cuánto empuja un sector a las industrias que lo usan como insumo—. Los índices se normalizan con la fórmula de Hirschman-Rasmussen (media de la economía = 1) para comparar sectores de tamaños distintos. Hirschman (1958) es el origen conceptual de los “eslabonamientos”; Rasmussen (1956), de los índices normalizados.')
 P('Dos cautelas teóricas que conviene tener a la mano: el modelo de Ghosh ha sido cuestionado como modelo de cantidades (Oosterhaven, 1988) y se defiende mejor como modelo de precios (Dietzenbacher, 1997); por eso aquí se usa como descriptor de posición, no como predicción. Y un valor alto de Ghosh indica arrastre estructural, no captura de valor: puede ser un solo eslabón (la fundición) y no una cadena larga.')
+H3('Extracción hipotética — segunda variante del Ghosh (Objetivo 1)')
+P('El índice de Ghosh-Rasmussen mide la intensidad del encadenamiento hacia adelante (media de la economía = 1), sin distinguir el tamaño del sector. La extracción hipotética (Miller y Lahr, 2001; aplicada al caso mexicano por Morales-López, 2023) mide el peso: se anula la fila del sector en la matriz de distribución (o su columna en la de coeficientes técnicos, hacia atrás), se vuelve a resolver el modelo y se calcula el porcentaje del VBP que se perdería. Se calcula por mineral, por eslabón, por entidad y por país. Las dos variantes ordenan distinto: por peso encabezan cobre, oro y plata; por intensidad, sílice, grafito y manganeso. Se leen por separado y en conjunto (diapositiva 16).')
 H3('CCV — captura de valor (Objetivo 1)')
 P('El coeficiente de captura de valor es un aporte de la tesis: el cociente entre el valor unitario de lo que México exporta en bruto y el precio del producto de referencia refinado. Da la versión anual y continua del encadenamiento hacia adelante, que el Ghosh —atado a los cortes de la MIP— no ofrece. Es informativo sobre todo en metales base (cobre, zinc).')
 H3('Demanda intermedia — cadena local (Objetivo 2)')
@@ -225,6 +227,8 @@ qa('¿Por qué el Ghosh (hacia adelante) y no solo Leontief (hacia atrás)?',
    'Porque la pregunta de la tesis es si el mineral alimenta una industria transformadora dentro del país; eso es hacia adelante. Leontief (proveedores) se reporta como complemento, pero en minería es bajo por naturaleza.')
 qa('¿Qué es exactamente el análisis espejo?',
    'Comparar los flujos que México reporta exportar con los que los socios reportan importar desde México, y comparar la composición por etapa de exportaciones e importaciones. Si se exporta bruto y se importa procesado del mismo mineral, la transformación se hace afuera.')
+qa('¿Por qué dos variantes del Ghosh?',
+   'Porque responden preguntas distintas: el índice de Rasmussen, qué tan articulado está el sector por unidad de producto; la extracción hipotética, cuánto del valor de la producción nacional depende de él. Un mineral puede tener intensidad alta y peso bajo (sílice, grafito, manganeso) o intensidad intermedia y peso alto (cobre, oro, plata).')
 qa('¿El CCV no duplica al Ghosh?',
    'No: lo complementa. El Ghosh es discreto (dos o tres cortes de MIP) y el CCV es una serie anual continua de 34 años; miden lo mismo (encadenamiento hacia adelante) desde ángulos distintos.')
 qa('¿Por qué el HHI y no otra medida de concentración (C4, entropía)?',
@@ -235,9 +239,9 @@ bullet('No presentar Leontief/Ghosh como un modelo predictivo o causal: son desc
 bullet('Tener presente la cautela del Ghosh (arrastre ≠ captura de valor) por si preguntan por un valor alto.')
 
 # ==================================================================
-# DIAPOSITIVA 16 — COBERTURA
+# DIAPOSITIVA 17 — COBERTURA
 # ==================================================================
-H1('Diapositiva 16 — Cobertura del periodo (¿están cubiertos los cálculos?)')
+H1('Diapositiva 17 — Cobertura del periodo (¿están cubiertos los cálculos?)')
 
 H2('Qué muestra')
 P('Una tabla que responde, indicador por indicador, si el cálculo cubre el periodo 1992-2025, con su estado y una nota; y qué queda como opcional o pendiente. El mensaje es que sí está cubierto, y que los huecos se declaran, no se imputan.')
@@ -249,6 +253,7 @@ bullet('HHI (concentración): 1994-2024. 1994-2003 reconstruido por régimen con
 bullet('Comercio por etapa: 1992-2024, con detalle por fracción arancelaria.')
 bullet('Encadenamientos MIP (Leontief/Ghosh): tres cortes, 2008 · 2013 · 2018 (son “fotos” por naturaleza; 2008 como referencia histórica).')
 bullet('Comparación internacional (Ghosh sector, OECD ICIO): mismos tres cortes 2008 · 2013 · 2018.')
+bullet('Extracción hipotética (HEM): por mineral y eslabón (MIP 2013 · 2018), por entidad (2018) y por país (OECD ICIO 2008 · 2013 · 2018 · 2020).')
 bullet('DVA / reprocesamiento (OECD ICIO): serie anual 1995-2020.')
 bullet('Opcional o pendiente: actualización RAS 2020/2023 (inviable por mineral, porque la MIP a nivel Clase solo existe para años base); encadenamiento por estado con cocientes de localización (requiere la matriz de PIB estatal por sector de INEGI); comercio bilateral por socio.')
 H3('El principio que la sostiene: declarar, no imputar')
@@ -274,7 +279,7 @@ bullet('No confundir “corte” con “serie”: los encadenamientos MIP son fo
 
 # cierre
 P('')
-P('Para las cifras exactas de cada indicador y las fórmulas completas, remitirse al «Resumen metodológico y de resultados 2026-09-07». Esta guía se centra en el porqué y el cómo explicar.', size=10.5, italic=True, color=MUT)
+P('Para las cifras exactas de cada indicador y las fórmulas completas, remitirse al «Resumen metodológico y de resultados 2026-09-29». Esta guía se centra en el porqué y el cómo explicar.', size=10.5, italic=True, color=MUT)
 
 doc.save(OUT)
 print('escrito:', OUT)

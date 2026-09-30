@@ -226,5 +226,91 @@ def dva():
     ax.legend(frameon=False,loc="upper center",bbox_to_anchor=(0.5,1.12),ncol=1,fontsize=10)
     savefig(fig,"dva.png")
 
-hhi();ghosh();ccv();comercio();hhi_traj();ghosh_cortes();comercio_evo();intl();dva()
+
+# 10) HEM por mineral (peso) + dispersion Rasmussen (intensidad) vs HEM, corte 2018
+def hem():
+    h={r['mineral']:r for r in rd('mip_hem_minerales.csv') if r['anio']=='2018'}
+    ras={r['mineral']:float(r['forward_rasmussen']) for r in rd('mip_encadenamientos_minerales.csv') if r['anio']=='2018'}
+    fig,(a1,a2)=plt.subplots(1,2,figsize=(12.5,5.0))
+    d=sorted(((m,float(h[m]['hem_total_pct'])) for m in h),key=lambda x:x[1])
+    ys=range(len(d))
+    a1.barh(list(ys),[v for _,v in d],color=COP,height=0.62,zorder=3)
+    a1.set_yticks(list(ys));a1.set_yticklabels([NAMES.get(m,m) for m,_ in d])
+    for i,(m,v) in enumerate(d): a1.text(v+0.004,i,f"{v:.3f}",va="center",fontsize=10,color=INK)
+    a1.set_xlim(0,0.38);a1.set_xlabel("HEM total (% del VBP nacional)");a1.set_title("Peso económico",fontsize=12)
+    for s_ in ["top","right","left"]:a1.spines[s_].set_visible(False)
+    a1.tick_params(length=0)
+    for m in h:
+        x=ras[m];y=float(h[m]['hem_forward_pct'])
+        a2.scatter(x,y,s=55,color=COP,edgecolor=INK,zorder=3)
+        a2.annotate(NAMES.get(m,m),(x,y),xytext=(5,3),textcoords="offset points",fontsize=10)
+    a2.axvline(1.0,color=MUT,lw=1.2,ls=(0,(5,4)))
+    a2.set_yscale("log");a2.set_xlabel("Ghosh-Rasmussen hacia adelante (intensidad)")
+    a2.set_ylabel("HEM hacia adelante (% del VBP, log)");a2.set_title("Intensidad frente a peso",fontsize=12)
+    for s_ in ["top","right"]:a2.spines[s_].set_visible(False)
+    fig.tight_layout();savefig(fig,"hem.png")
+
+# 11) HEM hacia adelante por eslabon (L1/L2/L3), corte 2018
+def hem_eslabon():
+    rows=[r for r in rd('mip_hem_eslabones.csv') if r['anio']=='2018']
+    orden=['cobre','oro','plata','plomo-zinc','manganeso','silice','grafito','fluorita','barita']
+    E=['L1','L2','L3'];CL={'L1':COP,'L2':"#0f6fa8",'L3':"#7fb3d5"};NM={'L1':'L1 extracción','L2':'L2 refinación','L3':'L3 semimanufactura'}
+    fig,ax=plt.subplots(figsize=(12.5,5.0));w=0.27
+    for j,e in enumerate(E):
+        xs=[i+(j-1)*w for i in range(len(orden))];ys_=[];hat=[]
+        for m in orden:
+            r=next((x for x in rows if x['mineral']==m and x['eslabon']==e),None)
+            ys_.append(float(r['hem_forward_pct']) if r and r['hem_forward_pct']!='' else 0)
+            hat.append('' if (r and r['atribuible']=='si') else '//')
+        bars=ax.bar(xs,ys_,w,color=CL[e],edgecolor=INK,linewidth=0.5,label=NM[e],zorder=3)
+        for b,hh in zip(bars,hat):
+            if hh: b.set_hatch(hh)
+    ax.set_xticks(range(len(orden)));ax.set_xticklabels([NAMES.get(m,m) for m in orden],fontsize=11,rotation=15,ha="right")
+    ax.set_ylabel("HEM hacia adelante (% del VBP nacional)")
+    ax.legend(frameon=False,fontsize=10,ncol=3,loc="lower center",bbox_to_anchor=(0.5,1.0))
+    for s_ in ["top","right"]:ax.spines[s_].set_visible(False)
+    ax.text(0,-0.22,"Tramado: clase de transformación compartida o agregada (el valor es de la clase completa, no del mineral).",transform=ax.transAxes,fontsize=9,color=MUT)
+    savefig(fig,"hem_eslabon.png")
+
+# 12) HEM internacional (peso) + dispersion Rasmussen vs HEM, B07_08 corte 2018
+def hem_intl():
+    PN={'MEX':'México','CHL':'Chile','AUS':'Australia','FIN':'Finlandia','SWE':'Suecia','CHN':'China','BRA':'Brasil','PER':'Perú'}
+    h={r['pais']:r for r in rd('icio_hem_mineria.csv') if r['anio']=='2018' and r['sector']=='B07_08'}
+    ras={r['pais']:float(r['forward_rasmussen']) for r in rd('icio_comparacion_mineria.csv') if r['anio']=='2018' and r['sector']=='B07_08'}
+    fig,(a1,a2)=plt.subplots(1,2,figsize=(12.5,5.0))
+    d=sorted(((p,float(h[p]['hem_total_pct'])) for p in h),key=lambda x:x[1])
+    ys=range(len(d))
+    a1.barh(list(ys),[v for _,v in d],color=[COBRE if p=='MEX' else "#0f6fa8" for p,_ in d],height=0.62,zorder=3)
+    a1.set_yticks(list(ys));a1.set_yticklabels([PN[p] for p,_ in d])
+    for i,(p,v) in enumerate(d): a1.text(v+0.08,i,f"{v:.2f}",va="center",fontsize=10,color=INK)
+    a1.set_xlim(0,7.8);a1.set_xlabel("HEM total de la minería (% del VBP doméstico)");a1.set_title("Peso económico",fontsize=12)
+    for s_ in ["top","right","left"]:a1.spines[s_].set_visible(False)
+    a1.tick_params(length=0)
+    for p in h:
+        x=ras[p];y=float(h[p]['hem_forward_pct'])
+        a2.scatter(x,y,s=55,color=(COBRE if p=='MEX' else "#0f6fa8"),edgecolor=INK,zorder=3)
+        a2.annotate(PN[p],(x,y),xytext=((5,-13) if p=="FIN" else (5,3)),textcoords="offset points",fontsize=10)
+    a2.axvline(1.0,color=MUT,lw=1.2,ls=(0,(5,4)))
+    a2.set_xlabel("Ghosh-Rasmussen hacia adelante (media país = 1)");a2.set_ylabel("HEM hacia adelante (% del VBP)")
+    a2.set_title("Intensidad frente a peso",fontsize=12)
+    for s_ in ["top","right"]:a2.spines[s_].set_visible(False)
+    fig.tight_layout();savefig(fig,"hem_intl.png")
+
+# 13) HEM estatal (top 10 entidades), corte 2018
+def hem_estatal():
+    ACC={"San Luis Potosi":"San Luis Potosí","Nuevo Leon":"Nuevo León","Mexico":"México","Michoacan":"Michoacán"}
+    r=sorted(rd('hem_estatal_mineria.csv'),key=lambda x:-float(x['hem_total_pct']))[:10][::-1]
+    fig,ax=plt.subplots(figsize=(9.2,5.0));ys=range(len(r))
+    f=[float(x['hem_forward_pct']) for x in r];b=[float(x['hem_backward_pct']) for x in r]
+    ax.barh(list(ys),f,color=COP,height=0.62,zorder=3,label="Hacia adelante")
+    ax.barh(list(ys),b,left=f,color="#0f6fa8",height=0.62,zorder=3,label="Hacia atrás")
+    ax.set_yticks(list(ys));ax.set_yticklabels([ACC.get(x['estado'],x['estado']) for x in r])
+    for i,x in enumerate(r): ax.text(float(x['hem_total_pct'])+0.006,i,f"{float(x['hem_total_pct']):.3f}",va="center",fontsize=10)
+    ax.set_xlim(0,0.6);ax.set_xlabel("HEM de la minería (% del VBP birregional, 2018)")
+    ax.legend(frameon=False,fontsize=10,loc="lower right")
+    for s_ in ["top","right","left"]:ax.spines[s_].set_visible(False)
+    ax.tick_params(length=0)
+    savefig(fig,"hem_estatal.png")
+
+hhi();ghosh();ccv();comercio();hhi_traj();ghosh_cortes();comercio_evo();intl();dva();hem();hem_eslabon();hem_intl();hem_estatal()
 print("OK")

@@ -163,6 +163,6 @@ HEM del sector 21-2 de cada entidad sobre su MIP birregional 2018 (entidad + res
 | San Luis Potosí | 0.015 | 0.077 | 0.092 | 1.40 |
 | Zacatecas | 0.034 | 0.055 | 0.089 | 1.04 |
 
-**Lectura (descriptiva y conjunta).** Sonora registra el mayor peso con intensidad intermedia; Coahuila, intensidad alta con peso menor; Sonora, Coahuila y San Luis Potosí aparecen entre las primeras en ambas ordenaciones. En todas las entidades el HEM hacia adelante supera al de hacia atrás.
+**Lectura (descriptiva y conjunta).** Sonora registra el mayor peso y la segunda intensidad; Coahuila, la mayor intensidad con un peso menor; Sonora, Coahuila y San Luis Potosí aparecen entre las primeras en ambas ordenaciones. En todas las entidades salvo Chihuahua (0.026 % hacia atrás frente a 0.019 % hacia adelante) el HEM hacia adelante supera al de hacia atrás.
 
 ← [[Memoria - Encadenamientos MIP (Leontief Ghosh Hirschman-Rasmussen)]] · [[Memoria - Comercio por etapa de procesamiento (Obj 3)]] · [[Catalogo de Bases de Datos]]
