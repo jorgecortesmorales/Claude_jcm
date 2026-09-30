@@ -1,0 +1,73 @@
+anio,pais,pais_nombre,sector,sector_nombre,vbp_musd,hem_backward_pct,hem_forward_pct,hem_total_pct
+2008,MEX,Mexico,B05_06,mineria energeticos,94774.7,0.8448,5.2669,6.1117
+2008,MEX,Mexico,B07_08,mineria no energetica (metales+otra),13243.4,0.3529,1.0382,1.3911
+2008,MEX,Mexico,B09,servicios apoyo mineria,11605.6,0.3484,0.1636,0.512
+2008,CHL,Chile,B05_06,mineria energeticos,496.5,0.0894,0.2586,0.348
+2008,CHL,Chile,B07_08,mineria no energetica (metales+otra),56714.8,9.92,6.9384,16.8584
+2008,CHL,Chile,B09,servicios apoyo mineria,107.1,0.013,0.0252,0.0382
+2008,AUS,Australia,B05_06,mineria energeticos,80664.0,1.7516,3.3889,5.1405
+2008,AUS,Australia,B07_08,mineria no energetica (metales+otra),59701.6,2.4606,2.5012,4.9618
+2008,AUS,Australia,B09,servicios apoyo mineria,12119.2,0.5754,0.7404,1.3158
+2008,FIN,Finlandia,B05_06,mineria energeticos,533.4,0.0686,0.1971,0.2657
+2008,FIN,Finlandia,B07_08,mineria no energetica (metales+otra),1877.8,0.2401,0.4961,0.7362
+2008,FIN,Finlandia,B09,servicios apoyo mineria,38.9,0.0054,0.0066,0.012
+2008,SWE,Suecia,B05_06,mineria energeticos,290.5,0.0203,0.0547,0.0751
+2008,SWE,Suecia,B07_08,mineria no energetica (metales+otra),4852.6,0.227,0.592,0.819
+2008,SWE,Suecia,B09,servicios apoyo mineria,286.6,0.0221,0.0064,0.0285
+2008,CHN,China,B05_06,mineria energeticos,281922.7,1.3736,6.349,7.7226
+2008,CHN,China,B07_08,mineria no energetica (metales+otra),138839.2,1.12,2.8158,3.9358
+2008,CHN,China,B09,servicios apoyo mineria,10999.6,0.0883,0.2954,0.3837
+2008,BRA,Brasil,B05_06,mineria energeticos,67998.2,1.4875,4.428,5.9154
+2008,BRA,Brasil,B07_08,mineria no energetica (metales+otra),30852.7,0.8304,0.8743,1.7046
+2008,BRA,Brasil,B09,servicios apoyo mineria,2821.3,0.0424,0.2202,0.2626
+2008,PER,Peru,B05_06,mineria energeticos,5508.3,1.2389,4.6155,5.8544
+2008,PER,Peru,B07_08,mineria no energetica (metales+otra),16941.0,3.4796,1.5268,5.0064
+2008,PER,Peru,B09,servicios apoyo mineria,1226.5,0.1495,0.6513,0.8008
+2018,MEX,Mexico,B05_06,mineria energeticos,46900.8,0.6617,1.8721,2.5338
+2018,MEX,Mexico,B07_08,mineria no energetica (metales+otra),18673.1,0.3101,1.133,1.4432
+2018,MEX,Mexico,B09,servicios apoyo mineria,7921.5,0.1866,0.1305,0.3171
+2018,CHL,Chile,B05_06,mineria energeticos,331.2,0.0443,0.1152,0.1595
+2018,CHL,Chile,B07_08,mineria no energetica (metales+otra),48030.3,4.6496,2.0923,6.7419
+2018,CHL,Chile,B09,servicios apoyo mineria,138.0,0.0134,0.0282,0.0416
+2018,AUS,Australia,B05_06,mineria energeticos,114355.2,2.4329,1.7941,4.227
+2018,AUS,Australia,B07_08,mineria no energetica (metales+otra),104872.3,2.9532,2.2757,5.229
+2018,AUS,Australia,B09,servicios apoyo mineria,12015.2,0.4007,0.552,0.9528
+2018,FIN,Finlandia,B05_06,mineria energeticos,646.4,0.0872,0.242,0.3291
+2018,FIN,Finlandia,B07_08,mineria no energetica (metales+otra),2077.7,0.2471,0.5363,0.7834
+2018,FIN,Finlandia,B09,servicios apoyo mineria,307.4,0.0393,0.1053,0.1445
+2018,SWE,Suecia,B05_06,mineria energeticos,381.2,0.0316,0.0682,0.0998
+2018,SWE,Suecia,B07_08,mineria no energetica (metales+otra),5367.4,0.2741,0.5823,0.8564
+2018,SWE,Suecia,B09,servicios apoyo mineria,141.0,0.0148,0.0002,0.015
+2018,CHN,China,B05_06,mineria energeticos,614013.3,2.029,4.9164,6.9454
+2018,CHN,China,B07_08,mineria no energetica (metales+otra),311518.7,1.2472,2.2854,3.5325
+2018,CHN,China,B09,servicios apoyo mineria,28094.6,0.1346,0.325,0.4596
+2018,BRA,Brasil,B05_06,mineria energeticos,54078.8,1.2806,2.0939,3.3744
+2018,BRA,Brasil,B07_08,mineria no energetica (metales+otra),39989.0,1.0697,1.0746,2.1444
+2018,BRA,Brasil,B09,servicios apoyo mineria,3328.4,0.0747,0.2287,0.3033
+2018,PER,Peru,B05_06,mineria energeticos,7126.6,1.3296,3.222,4.5515
+2018,PER,Peru,B07_08,mineria no energetica (metales+otra),28115.7,3.6552,0.8365,4.4917
+2018,PER,Peru,B09,servicios apoyo mineria,618.4,0.04,0.2598,0.2999
+2020,MEX,Mexico,B05_06,mineria energeticos,32375.1,0.49,0.9405,1.4305
+2020,MEX,Mexico,B07_08,mineria no energetica (metales+otra),20512.9,0.3455,1.2614,1.607
+2020,MEX,Mexico,B09,servicios apoyo mineria,9287.1,0.2398,0.1442,0.384
+2020,CHL,Chile,B05_06,mineria energeticos,167.1,0.0343,0.0678,0.1021
+2020,CHL,Chile,B07_08,mineria no energetica (metales+otra),50459.5,4.9666,3.622,8.5885
+2020,CHL,Chile,B09,servicios apoyo mineria,118.8,0.0137,0.0298,0.0435
+2020,AUS,Australia,B05_06,mineria energeticos,77688.0,2.5137,0.6282,3.1419
+2020,AUS,Australia,B07_08,mineria no energetica (metales+otra),158631.3,3.183,4.344,7.527
+2020,AUS,Australia,B09,servicios apoyo mineria,12533.6,0.3686,0.5821,0.9507
+2020,FIN,Finlandia,B05_06,mineria energeticos,626.4,0.0913,0.2529,0.3442
+2020,FIN,Finlandia,B07_08,mineria no energetica (metales+otra),2012.4,0.257,0.4927,0.7497
+2020,FIN,Finlandia,B09,servicios apoyo mineria,294.6,0.0407,0.1018,0.1425
+2020,SWE,Suecia,B05_06,mineria energeticos,388.3,0.0366,0.0738,0.1104
+2020,SWE,Suecia,B07_08,mineria no energetica (metales+otra),5684.6,0.3076,0.6658,0.9734
+2020,SWE,Suecia,B09,servicios apoyo mineria,166.5,0.0193,0.0003,0.0196
+2020,CHN,China,B05_06,mineria energeticos,660359.1,2.1402,5.1164,7.2566
+2020,CHN,China,B07_08,mineria no energetica (metales+otra),335021.5,1.2864,2.3476,3.634
+2020,CHN,China,B09,servicios apoyo mineria,30213.3,0.141,0.3388,0.4798
+2020,BRA,Brasil,B05_06,mineria energeticos,41229.4,1.1997,1.7491,2.9488
+2020,BRA,Brasil,B07_08,mineria no energetica (metales+otra),36005.6,1.2917,0.6409,1.9327
+2020,BRA,Brasil,B09,servicios apoyo mineria,2537.7,0.0661,0.2117,0.2778
+2020,PER,Peru,B05_06,mineria energeticos,4617.1,0.8831,2.4047,3.2878
+2020,PER,Peru,B07_08,mineria no energetica (metales+otra),24887.0,3.4451,0.8337,4.2788
+2020,PER,Peru,B09,servicios apoyo mineria,489.3,0.0475,0.2147,0.2621

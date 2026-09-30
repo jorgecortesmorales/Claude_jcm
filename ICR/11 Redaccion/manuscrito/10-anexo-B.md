@@ -198,3 +198,34 @@ Cuadro {#cua:bhemest}: Extracción hipotética de la minería por entidad, 2018:
 | Campeche | 0.001 | 0.003 | 0.004 |
 | Tlaxcala | 0.001 | 0.003 | 0.003 |
 | Ciudad de México | 0.001 | 0.001 | 0.001 |
+
+## B.9 Extracción hipotética (HEM) hacia adelante por eslabón, cortes 2013/2018
+
+Cuadro {#cua:bhemesl}: Extracción hipotética hacia adelante por eslabón y mineral: porcentaje del VBP nacional que se perdería al extraer las ventas de la clase de cada eslabón; cada celda muestra los cortes 2013 / 2018. En las clases compartidas o agregadas (L2/L3 de los no metálicos y de los preciosos/no ferrosos) el valor mide la clase completa, no el mineral. Fuente: cálculo propio con la MIP del INEGI (`mip_hem_eslabones.csv`).
+
+| Mineral | L1 extracción | L2 refinación | L3 semimanufactura |
+|---|---|---|---|
+| Cobre | 0.124 / 0.250 | 0.093 / 0.234 | 0.162 / 0.046 |
+| Oro | 0.198 / 0.159 | 0.020 / 0.001 | 0.040 / 0.017 |
+| Plata | 0.169 / 0.106 | 0.020 / 0.001 | 0.040 / 0.017 |
+| Plomo-zinc | 0.009 / 0.012 | 0.002 / 0.001 | 0.040 / 0.017 |
+| Manganeso | 0.003 / 0.002 | 0.227 / 0.126 | — / — |
+| Sílice | 0.033 / 0.035 | 0.121 / 0.185 | 0.074 / 0.061 |
+| Grafito | 0.001 / 0.003 | 0.121 / 0.185 | 0.070 / 0.062 |
+| Fluorita | 0.003 / 0.015 | 0.121 / 0.185 | 0.223 / 0.289 |
+| Barita | 0.000 / 0.000 | 0.121 / 0.185 | — / — |
+
+## B.10 Extracción hipotética (HEM) de la minería por país, cortes 2008/2018/2020
+
+Cuadro {#cua:bhempais}: Extracción hipotética total de la minería no energética (B07_08) por país: porcentaje del VBP doméstico que se perdería al extraer las compras y ventas de la minería; cortes 2008 / 2018 / 2020. Los niveles entre añadas no son estrictamente comparables (año base, precios y clasificación distintos; 2008 corresponde al pico del superciclo de precios); se leen por su orden. Fuente: cálculo propio con OECD ICIO 2023 (`icio_hem_mineria.csv`).
+
+| País | HEM total 2008 (%) | HEM total 2018 (%) | HEM total 2020 (%) |
+|---|---:|---:|---:|
+| Chile | 16.86 | 6.74 | 8.59 |
+| Australia | 4.96 | 5.23 | 7.53 |
+| Perú | 5.01 | 4.49 | 4.28 |
+| China | 3.94 | 3.53 | 3.63 |
+| Brasil | 1.70 | 2.14 | 1.93 |
+| México | 1.39 | 1.44 | 1.61 |
+| Suecia | 0.82 | 0.86 | 0.97 |
+| Finlandia | 0.74 | 0.78 | 0.75 |

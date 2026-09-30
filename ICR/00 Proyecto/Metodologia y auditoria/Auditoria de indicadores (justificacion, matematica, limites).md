@@ -103,6 +103,8 @@ Notación de eslabones: **L0** recurso · **L1** extracción/beneficio · **L2**
 - **Supuestos / límites.** Los mismos del modelo I-O; el HEM pondera por tamaño, por lo que reordena a los minerales respecto de Rasmussen (dominan cobre/oro/plata; sílice/grafito/manganeso, intensos pero pequeños, quedan al fondo). No sustituye a los indicadores centrales.
 - **Validación.** Sherman-Morrison vs extracción por fuerza bruta a **1e-14**; $X=LY$ a 1e-9.
 - **Por qué se incorpora.** Es el método de **Morales-López (2023)** (I-O interregional); su cálculo permite el **contraste directo** con ese antecedente y separa la lectura de intensidad de la de peso económico. Resultados en Cap. VI (§VI.8) y Cap. VIII (§VIII.7.3, estatal); series en Anexo B.7/B.8.
+- **Por eslabón.** También se calcula para las clases L1/L2/L3 de cada mineral (`mip_hem_eslabones.csv`, `mip_hem_eslabones.py`): segunda variante del encadenamiento por eslabón (§2.5). En clases compartidas/agregadas mide la clase completa, no el mineral. Resultados en §VI.4.1; serie en Anexo B.9.
+- **Pauta de lectura (del alumno).** La interpretación de estos resultados es **descriptiva**; los dos coeficientes de Ghosh (Rasmussen y HEM) se interpretan por separado y en conjunto.
 
 > **Validación (todos los MIP).** La matriz $\mathbf{A}$ reproduce el archivo publicado por INEGI y $\mathbf{L}$ los coeficientes directos e indirectos, con diferencias de $10^{-15}$ (precisión de máquina). Script `mip_calc.py`; base `mip_encadenamientos_minerales.csv`. Límite estructural: la MIP **no separa plomo de zinc** (clase 212232) → encadenamientos conjuntos.
 
@@ -189,6 +191,13 @@ Notación de eslabones: **L0** recurso · **L1** extracción/beneficio · **L2**
 - **Matemática.** Sobre la matriz global: `dva_share`, `vax_mineria`, `reproc_domestico_share`, **`crudo_share`**, `foreign_abs_share`. Un `crudo_share` alto = firma del enclave.
 - **Fuente.** `icio_dva_mineria.csv`. Script `icio_dva.py`.
 - **Por qué se incorpora.** **Separa** a México (Ghosh 1.51, crudo 0.38) de China (1.53, crudo 0.07) — asignación casi idéntica, captura opuesta. Chile y Perú ≈0.98 (los enclaves más profundos). Es la evidencia más nítida de por qué el Ghosh no se lee solo, y de que el agregado de México engaña (promedia preciosos fundidos con cobre exportado en concentrado).
+
+### 7.3 Extracción hipotética (HEM) por país (ICIO)
+- **Qué mide.** El **peso económico** de la minería en cada economía: % del VBP doméstico que se perdería al extraer las compras (atrás) o ventas (adelante) del sector minero. Segunda variante del encadenamiento hacia adelante internacional (7.1 mide intensidad).
+- **Matemática.** Igual que 2.7 (Miller-Lahr casos 3/4), sobre el **bloque doméstico 45×45** de cada país en la matriz ICIO.
+- **Fuente.** `icio_hem_mineria.csv` (8 países × B05_06/B07_08/B09; 2008/2018/2020). Script `icio_hem.py`. Validado SM vs fuerza bruta a 1e-14.
+- **Límites.** Sector-minería agregado (ISIC), no por mineral; niveles entre añadas no estrictamente comparables (2008 = pico del superciclo).
+- **Por qué se incorpora.** Completa la comparación internacional con las dos variantes del Ghosh; se lee por separado y en conjunto con 7.1. Resultados en §VII.4.1; serie en Anexo B.10.
 
 ---
 

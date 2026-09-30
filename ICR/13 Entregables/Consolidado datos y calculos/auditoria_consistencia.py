@@ -110,6 +110,12 @@ check("2 MIP nacional","HEM - total = atras + adelante","hem_total_pct = hem_bac
       nota="Extraccion hipotetica (Miller-Lahr casos 3/4); el total es la suma de ambos sentidos.")
 cite("2 MIP nacional","HEM por mineral (inversion de matriz)","BL=100 i'(x-xhat)/i'x, xhat=(I-A^(-k))^-1 f; FL dual de Ghosh",
      "py \"10 Datos/scripts/mip_hem.py\"","Inversion sobre la MIP nacional; validada por Sherman-Morrison vs fuerza bruta a 1e-14, y X=LY a 1e-9.")
+d = rd("mip_hem_eslabones.csv"); d = d[d.hem_backward_pct.notna() & d.hem_forward_pct.notna()]
+check("2 MIP nacional","HEM por eslabon - total = atras + adelante","hem_total_pct = hem_backward_pct + hem_forward_pct",
+      d.hem_backward_pct + d.hem_forward_pct, d.hem_total_pct, tol=1e-3,
+      nota="HEM por eslabon L1/L2/L3 (segunda variante del encadenamiento por eslabon).")
+cite("2 MIP nacional","HEM por eslabon (clases SCIAN por eslabon)","HEM de las clases L1/L2/L3 de cada mineral (mip_hem.hem_all)",
+     "py \"10 Datos/scripts/mip_hem_eslabones.py\"","Reutiliza el HEM validado de todos los sectores; clases compartidas/agregadas miden la clase completa.")
 
 # ---------------- 3 CCV ----------------
 d = rd("ccv_serie.csv").dropna(subset=["precio_refinado_usgs_usd_t"])
@@ -158,6 +164,12 @@ check("7 Internacional","DVA - identidad crudo+reproc=1","crudo_share + reproc_d
 cite("7 Internacional","Ghosh por pais / DVA (ICIO, matriz global)","Ghosh-Rasmussen y descomposicion Leontief sobre la matriz inter-pais OCDE",
      "py \"10 Datos/scripts/icio_comparacion.py\" ; py \"10 Datos/scripts/icio_dva.py\"",
      "Inversion de la matriz global ICIO 2023; CSV fuente re-descargables del OCDE.")
+d = rd("icio_hem_mineria.csv")
+check("7 Internacional","HEM por pais - total = atras + adelante","hem_total_pct = hem_backward_pct + hem_forward_pct",
+      d.hem_backward_pct + d.hem_forward_pct, d.hem_total_pct, tol=1e-3,
+      nota="Extraccion hipotetica de la mineria por pais (bloque domestico ICIO, 2008/2018/2020).")
+cite("7 Internacional","HEM por pais (inversion bloque domestico)","idem HEM sobre el bloque domestico 45x45 de cada pais",
+     "py \"10 Datos/scripts/icio_hem.py\"","Validada por Sherman-Morrison vs fuerza bruta a 1e-14.")
 
 # =================== salidas ===================
 led = pd.DataFrame(rows)[["grupo","indicador","formula","n","residual","tol","unidad","veredicto","nota"]]

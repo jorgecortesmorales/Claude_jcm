@@ -53,6 +53,10 @@ def getcap(tag):
     for c in CUAD:
         if c['cap'].startswith('Cuadro '+tag+'.'): return c
     return None
+def getcap_text(sub):
+    for c in CUAD:
+        if sub.lower() in c['cap'].lower(): return c
+    return None
 
 NUM = re.compile(r'-?\d[\d\s.,]*')
 def pnum(s):
@@ -160,7 +164,7 @@ enc=['vbp_mmpesos','di_sobre_vbp','backward_rasmussen','forward_rasmussen','back
 cotejo_entidad('VI.1','mip_encadenamientos_minerales.csv','mineral',enc,0.02,filtro=lambda d:d.anio==2018)
 cotejo_entidad('VI.2','mip_encadenamientos_minerales.csv','mineral',enc,0.02,filtro=lambda d:d.anio==2013)
 # VI.5 CCV medio -> media por mineral de ccv_serie (+min/max en rango)
-c=getcap('VI.5')
+c=getcap('VI.6')
 if c:
     df=rd('ccv_serie.csv')
     agg=df.groupby(df.mineral.map(norm)).ccv.agg(['mean','min','max'])
@@ -175,12 +179,12 @@ if c:
             ncmp+=1
             if any(match(v,x,0.02) for x in pool): nm+=1
             else: mis.append(f"{key}: {v}")
-    add('Cuadro VI.5','ccv_serie.csv','por-entidad (media/rango)',ncmp,nm,mis)
+    add('Cuadro VI.6','ccv_serie.csv','por-entidad (media/rango)',ncmp,nm,mis)
 # VII.1 Ghosh pais / VII.2 crudo_share  (ICIO B07_08 2018)
 PAISMAP={'china':'chn','mexico':'mex','suecia':'swe','finlandia':'fin','brasil':'bra','peru':'per','australia':'aus','chile':'chl'}
 cotejo_entidad('VII.1','icio_comparacion_mineria.csv','pais',['forward_rasmussen'],0.02,
                keymap=PAISMAP, filtro=lambda d:(d.sector=='B07_08')&(d.anio==2018))
-cotejo_entidad('VII.2','icio_dva_mineria.csv','pais',['crudo_share'],0.02,
+cotejo_entidad('VII.3','icio_dva_mineria.csv','pais',['crudo_share'],0.02,
                keymap=PAISMAP, filtro=lambda d:(d.sector=='B07_08')&(d.anio==2018))
 # VIII.3 Ghosh estatal / VIII.4 interestatal (por estado)
 gest=['forward_rasmussen','fuga_export_share','backward_rasmussen','share_vbp_estatal_pct']
@@ -249,7 +253,7 @@ if c:
 cotejo_entidad('VI.4','mip_encadenamientos_eslabones.csv','mineral',['forward_rasmussen'],0.02,
                filtro=lambda d:d.anio==2018)
 # VII.3 Ghosh por eslabon pais 2018
-cotejo_entidad('VII.3','icio_eslabones_metal.csv','pais',['forward_rasmussen'],0.02,
+cotejo_entidad('VII.4','icio_eslabones_metal.csv','pais',['forward_rasmussen'],0.02,
                keymap=PAISMAP, filtro=lambda d:d.anio==2018)
 # VIII.2 geografia de la cadena (participacion lider)
 cotejo_entidad('VIII.2','georref_regionalizacion.csv','mineral',['share_lider_pct'],0.6)
@@ -279,7 +283,7 @@ cotejo_entidad('B.5','mip_encadenamientos_eslabones.csv','mineral',['forward_ras
 cotejo_entidad('B.6','icio_eslabones_metal.csv','pais',['forward_rasmussen'],0.02,keymap=PAISMAP)
 
 # VI.6 HEM nacional por mineral (2018): back/fwd/total + rango + Rasmussen
-c=getcap('VI.6')
+c=getcap('VI.7')
 if c:
     h=rd('mip_hem_minerales.csv'); h=h[h.anio==2018]
     ras=rd('mip_encadenamientos_minerales.csv'); ras=ras[ras.anio==2018]
@@ -298,7 +302,7 @@ if c:
                 v=float(tok); ncmp+=1
                 if any(match(v,x,0.02 if abs(x)<50 else 1.0) for x in pool[key]): nm+=1
                 else: mis.append(f"{key}: {v}")
-    add('Cuadro VI.6','mip_hem_minerales.csv','por-mineral (HEM+rango+Rasmussen)',ncmp,nm,mis)
+    add('Cuadro VI.7','mip_hem_minerales.csv','por-mineral (HEM+rango+Rasmussen)',ncmp,nm,mis)
 
 # VIII.5 HEM estatal 2018
 cotejo_entidad('VIII.5','hem_estatal_mineria.csv','estado',
@@ -325,12 +329,98 @@ if c:
 cotejo_entidad('B.8','hem_estatal_mineria.csv','estado',
                ['hem_backward_pct','hem_forward_pct','hem_total_pct'],0.001)
 
+# Cuadro de VI.4.1: dos coeficientes por eslabon (Rasmussen + HEM, 2018) — se localiza por texto del caption
+def _cotejo_eslabon(cap_sub, incluir_ras):
+    c=getcap_text(cap_sub)
+    if not c: return
+    hem=rd('mip_hem_eslabones.csv'); hem=hem[hem.anio==2018]
+    pool={}
+    for _,r in hem.iterrows():
+        v=r['hem_forward_pct']
+        if pd.notna(v): pool.setdefault(norm(r['mineral']),[]).append(float(v))
+    if incluir_ras:
+        ras=rd('mip_encadenamientos_eslabones.csv'); ras=ras[ras.anio==2018]
+        for _,r in ras.iterrows():
+            v=r['forward_rasmussen']
+            if pd.notna(v): pool.setdefault(norm(r['mineral']),[]).append(float(v))
+    ncmp=nm=0; mis=[]
+    for row in c['m'][1:]:
+        key=norm(row[0])
+        if key not in pool: continue
+        for cell in row[1:]:
+            for tok in re.findall(r'-?\d+(?:\.\d+)?', cell):
+                v=float(tok); ncmp+=1
+                if any(match(v,x,0.006) for x in pool[key]): nm+=1
+                else: mis.append(f"{key}: {v}")
+    mt=re.match(r'(Cuadro\s+[IVXBCD0-9]+\.[0-9]+)', c['cap']); lbl=mt.group(1) if mt else 'Cuadro (eslabon 2 variantes)'
+    add(lbl,'mip_hem_eslabones.csv'+(' + _encadenamientos_eslabones' if incluir_ras else ''),
+        'por-mineral (eslabon L1/L2/L3)',ncmp,nm,mis)
+_cotejo_eslabon('dos coeficientes de encadenamiento', True)
+
+# B.9 HEM por eslabon serie (2013/2018): pool = HEM forward de ambos anios por mineral
+c=getcap('B.9')
+if c:
+    hem=rd('mip_hem_eslabones.csv'); pool={}
+    for _,r in hem.iterrows():
+        v=r['hem_forward_pct']
+        if pd.notna(v): pool.setdefault(norm(r['mineral']),[]).append(float(v))
+    ncmp=nm=0; mis=[]
+    for row in c['m'][1:]:
+        key=norm(row[0])
+        if key not in pool: continue
+        for cell in row[1:]:
+            for tok in re.findall(r'-?\d+(?:\.\d+)?', cell):
+                v=float(tok); ncmp+=1
+                if any(match(v,x,0.001) for x in pool[key]): nm+=1
+                else: mis.append(f"{key}: {v}")
+    add('Cuadro B.9','mip_hem_eslabones.csv','por-mineral (HEM eslabon 2013/2018)',ncmp,nm,mis)
+
+# VII.4.1 HEM internacional por pais (2018): HEM back/fwd/total + Ghosh-Rasmussen; se localiza por texto
+c=getcap_text('energetica (b07_08) por pais') or getcap_text('minería no energética (b07_08) por país')
+if c:
+    hem=rd('icio_hem_mineria.csv'); hem=hem[(hem.anio==2018)&(hem.sector=='B07_08')]
+    ras=rd('icio_comparacion_mineria.csv'); ras=ras[(ras.anio==2018)&(ras.sector=='B07_08')]
+    pool={}
+    for _,r in hem.iterrows():
+        pool.setdefault(norm(r['pais_nombre']),[]).extend([float(r.hem_backward_pct),float(r.hem_forward_pct),float(r.hem_total_pct)])
+    for _,r in ras.iterrows():
+        pool.setdefault(norm(r['pais_nombre']),[]).append(float(r.forward_rasmussen))
+    ncmp=nm=0; mis=[]
+    for row in c['m'][1:]:
+        key=norm(row[0])
+        if key not in pool: continue
+        for cell in row[1:]:
+            for tok in re.findall(r'-?\d+(?:\.\d+)?', cell):
+                v=float(tok); ncmp+=1
+                if any(match(v,x,0.01) for x in pool[key]): nm+=1
+                else: mis.append(f"{key}: {v}")
+    mt=re.match(r'(Cuadro\s+[IVXBCD0-9]+\.[0-9]+)', c['cap']); lbl=mt.group(1) if mt else 'Cuadro (HEM pais)'
+    add(lbl,'icio_hem_mineria.csv + _comparacion','por-pais (HEM+Rasmussen)',ncmp,nm,mis)
+
+# B.10 HEM internacional serie (2008/2018/2020)
+c=getcap('B.10')
+if c:
+    hem=rd('icio_hem_mineria.csv'); hem=hem[hem.sector=='B07_08']
+    pool={}
+    for _,r in hem.iterrows():
+        pool.setdefault(norm(r['pais_nombre']),[]).append(float(r.hem_total_pct))
+    ncmp=nm=0; mis=[]
+    for row in c['m'][1:]:
+        key=norm(row[0])
+        if key not in pool: continue
+        for cell in row[1:]:
+            for tok in re.findall(r'-?\d+(?:\.\d+)?', cell):
+                v=float(tok); ncmp+=1
+                if any(match(v,x,0.01) for x in pool[key]): nm+=1
+                else: mis.append(f"{key}: {v}")
+    add('Cuadro B.10','icio_hem_mineria.csv','por-pais (HEM total 2008/2018/2020)',ncmp,nm,mis)
+
 # ---------- cuadros cualitativos / de clasificacion / codigos (sin cifras de indicador que diferir) ----------
 CUALI={
  'II.1':('criticidad_productos.csv','Clasificacion de criticidad por producto (estrategico/critico/...)'),
  'III.1':('concordancia_scian_2007_2013_minerales.csv','Correspondencia mineral -> clase SCIAN (codigos)'),
  'III.2':('(catalogo de indicadores)','Sintesis de indicadores: que describe cada uno y su base (texto)'),
- 'VII.4':('criticidad_productos.csv','Criticidad por producto + capacidad de Mexico (clasificacion/texto)'),
+ 'VII.5':('criticidad_productos.csv','Criticidad por producto + capacidad de Mexico (clasificacion/texto)'),
  'VIII.1':('cv_tipologia.csv','Tipologia A/B/C/D y punto de ruptura (clasificacion)'),
  'IX.1':('(elaboracion propia)','Bases de politica por tipo de mercado (texto)'),
  'IX.2':('(declaracion de vacios)','Declaracion de vacios por indicador (texto)'),
@@ -365,10 +455,10 @@ for n,p,cs in figrows: print(f"  {n}: {cs}")
 # ---------- reporte HTML autonomo ----------
 import html, datetime
 FIGMAP={ 'fig_cap1.py':'I.1 (peso en exportaciones)','fig_cap1_composicion.py':'I.2 (composicion del bloque)',
- 'fig_cap5.py':'V.1-V.2 (HHI por mineral y evolucion)','fig_cap6.py':'VI.1-VI.5 (Ghosh, CCV, eslabones, HEM)',
- 'fig_cap7.py':'VII.1-VII.5 (comercio, destinos, ICIO)','fig_cap8_estatal.py':'VIII.3 (Ghosh estatal)',
+ 'fig_cap5.py':'V.1-V.2 (HHI por mineral y evolucion)','fig_cap6.py':'VI.1-VI.3, VI.5-VI.6 (Ghosh, CCV, eslabones, HEM)',
+ 'fig_cap7.py':'VII.1-VII.3, VII.5-VII.6 (comercio, destinos, ICIO)','fig_cap8_estatal.py':'VIII.3 (Ghosh estatal)',
  'fig_cap8_interestatal.py':'VIII.4 (interestatal)','fig_cap8.py':'VIII.1-VIII.2 (plano tipologia, punto de ruptura)',
- 'fig_cap8_hem.py':'VIII.6 (HEM estatal)','fig_cadena_L0_L4.py':'III.1 (esquema de la cadena L0-L4)'}
+ 'fig_cap8_hem.py':'VIII.6 (HEM estatal)','fig_hem_eslabones.py':'VI.4 (dos coeficientes por eslabon)','fig_hem_internacional.py':'VII.4 (HEM internacional)','fig_cadena_L0_L4.py':'III.1 (esquema de la cadena L0-L4)'}
 figtr=[]
 for n,p,cs in figrows:
     src = ", ".join(cs) if cs else "esquema (datos en el script; deriva de cv_tipologia.csv / diseno)"

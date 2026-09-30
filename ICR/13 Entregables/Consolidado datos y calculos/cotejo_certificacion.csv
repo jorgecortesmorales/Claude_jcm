@@ -5,9 +5,9 @@ Cuadro B.3,comercio_posicion_1992_2024.csv,celda anio x mineral,96,96,0,,
 Cuadro V.1,hhi_consolidado.csv,por-entidad (valor en fila),36,36,0,,
 Cuadro VI.1,mip_encadenamientos_minerales.csv,por-entidad (valor en fila),36,36,0,,
 Cuadro VI.2,mip_encadenamientos_minerales.csv,por-entidad (valor en fila),36,36,0,,
-Cuadro VI.5,ccv_serie.csv,por-entidad (media/rango),19,19,0,,
+Cuadro VI.6,ccv_serie.csv,por-entidad (media/rango),19,19,0,,
 Cuadro VII.1,icio_comparacion_mineria.csv,por-entidad (valor en fila),8,8,0,,
-Cuadro VII.2,icio_dva_mineria.csv,por-entidad (valor en fila),8,8,0,,
+Cuadro VII.3,icio_dva_mineria.csv,por-entidad (valor en fila),8,8,0,,
 Cuadro VIII.3,ghosh_estatal_mineria.csv,por-entidad (valor en fila),10,10,0,,
 Cuadro VIII.4,ghosh_interestatal_mineria.csv,por-entidad (valor en fila),24,24,0,,
 Cuadro C.1,cv_eslabones_cuantificado.csv,por-mineral (ficha),17,17,0,,
@@ -23,19 +23,23 @@ Cuadro C.10,cv_eslabones_cuantificado.csv,por-mineral (ficha),7,7,0,,
 Cuadro I.1,peso_bloque_hist_produccion.csv + _exportaciones,por-entidad (composicion),40,40,0,,
 Cuadro VI.3,mip_demanda_intermedia_minerales.csv,por-entidad (% comprador),19,19,0,,
 Cuadro VI.4,mip_encadenamientos_eslabones.csv,por-entidad (valor en fila),25,25,0,,
-Cuadro VII.3,icio_eslabones_metal.csv,por-entidad (valor en fila),24,24,0,,
+Cuadro VII.4,icio_eslabones_metal.csv,por-entidad (valor en fila),24,24,0,,
 Cuadro VIII.2,georref_regionalizacion.csv,por-entidad (valor en fila),10,10,0,,
 Cuadro B.4,mip_encadenamientos_minerales.csv + _2008_referencia,por-entidad (cortes),48,48,0,,
 Cuadro B.5,mip_encadenamientos_eslabones.csv,por-entidad (valor en fila),25,25,0,,
 Cuadro B.6,icio_eslabones_metal.csv,por-entidad (valor en fila),24,24,0,,
-Cuadro VI.6,mip_hem_minerales.csv,por-mineral (HEM+rango+Rasmussen),45,45,0,,
+Cuadro VI.7,mip_hem_minerales.csv,por-mineral (HEM+rango+Rasmussen),45,45,0,,
 Cuadro VIII.5,hem_estatal_mineria.csv,por-entidad (valor en fila),24,24,0,,
 Cuadro B.7,mip_hem_minerales.csv,por-mineral (HEM 2013/2018),54,54,0,,
 Cuadro B.8,hem_estatal_mineria.csv,por-entidad (valor en fila),96,96,0,,
+Cuadro VI.5,mip_hem_eslabones.csv + _encadenamientos_eslabones,por-mineral (eslabon L1/L2/L3),50,50,0,,
+Cuadro B.9,mip_hem_eslabones.csv,por-mineral (HEM eslabon 2013/2018),50,50,0,,
+Cuadro VII.2,icio_hem_mineria.csv + _comparacion,por-pais (HEM+Rasmussen),32,32,0,,
+Cuadro B.10,icio_hem_mineria.csv,por-pais (HEM total 2008/2018/2020),24,24,0,,
 Cuadro II.1,criticidad_productos.csv,clasificacion / texto,0,0,0,,Clasificacion de criticidad por producto (estrategico/critico/...) — trazable a su CSV; sin cifras de indicador que diferir.
 Cuadro III.1,concordancia_scian_2007_2013_minerales.csv,clasificacion / texto,0,0,0,,Correspondencia mineral -> clase SCIAN (codigos) — trazable a su CSV; sin cifras de indicador que diferir.
 Cuadro III.2,(catalogo de indicadores),clasificacion / texto,0,0,0,,Sintesis de indicadores: que describe cada uno y su base (texto) — trazable a su CSV; sin cifras de indicador que diferir.
-Cuadro VII.4,criticidad_productos.csv,clasificacion / texto,0,0,0,,Criticidad por producto + capacidad de Mexico (clasificacion/texto) — trazable a su CSV; sin cifras de indicador que diferir.
+Cuadro VII.5,criticidad_productos.csv,clasificacion / texto,0,0,0,,Criticidad por producto + capacidad de Mexico (clasificacion/texto) — trazable a su CSV; sin cifras de indicador que diferir.
 Cuadro VIII.1,cv_tipologia.csv,clasificacion / texto,0,0,0,,Tipologia A/B/C/D y punto de ruptura (clasificacion) — trazable a su CSV; sin cifras de indicador que diferir.
 Cuadro IX.1,(elaboracion propia),clasificacion / texto,0,0,0,,Bases de politica por tipo de mercado (texto) — trazable a su CSV; sin cifras de indicador que diferir.
 Cuadro IX.2,(declaracion de vacios),clasificacion / texto,0,0,0,,Declaracion de vacios por indicador (texto) — trazable a su CSV; sin cifras de indicador que diferir.

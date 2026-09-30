@@ -159,6 +159,7 @@ CALC = [
  ("6 Territorial","Ghosh interestatal","Descompone producto minero: intra / inter-estatal / export","Ghosh sobre MIP birregional (rank 70)","MIP Estatal 2018 (birregional)","ghosh_interestatal.py","ghosh_interestatal_mineria.csv, ghosh_interestatal_eslabones.csv","17 Georref","Resultado + procedencia"),
  ("7 Internacional","Ghosh por pais (ICIO)","Encadenamiento adelante de la mineria de 8 paises","Ghosh-Rasmussen (media pais=1) sobre bloque domestico","OECD ICIO 2023","icio_comparacion.py, icio_eslabones.py","icio_comparacion_mineria.csv, icio_eslabones_metal.csv","21 ICIO","Resultado + procedencia"),
  ("7 Internacional","DVA / crudo_share (ICIO)","El enclave en dinero: fraccion del VA minero exportado en crudo","descomposicion Leontief global: dva_share, crudo_share, foreign_abs","OECD ICIO 2023 (matriz global)","icio_dva.py","icio_dva_mineria.csv","21 ICIO","Resultado + identidad crudo+reproc=1 formula viva"),
+ ("7 Internacional","Extraccion hipotetica (HEM) por pais","% del VBP domestico que se pierde al extraer la mineria del pais (peso, 2a variante del Ghosh)","HEM sobre el bloque domestico ICIO de cada pais (Miller-Lahr 3/4)","OECD ICIO 2023 (bloque domestico)","icio_hem.py","icio_hem_mineria.csv","26 HEM internacional","Resultado validado (SM vs bruta 1e-14) + total formula viva"),
  ("8 Criticidad","Criticidad por producto","Eslabon de mayor criticidad de cada mineral y si Mexico lo produce/exporta/importa","(clasificacion oficial USGS/UE/IEA)","listas oficiales","(fichado)","criticidad_productos.csv","22 Criticidad","Clasificacion"),
 ]
 ws = wb.create_sheet("02 Catalogo de calculos")
@@ -641,6 +642,44 @@ cols=list(dfhe.columns)
 cb=col_letter(cols.index("hem_backward_pct")+1); cf=col_letter(cols.index("hem_forward_pct")+1)
 ct=col_letter(cols.index("hem_total_pct")+1); b=dfhe.shape[1]
 add_formula_cols(ws, dfhe, hr, [
+  ("hem_total (=formula)",FILL_FORM, lambda rn: f'=ROUND({cb}{rn}+{cf}{rn},4)'),
+  ("dif",FILL_FORM, lambda rn: f'=ROUND({col_letter(b+1)}{rn}-{ct}{rn},4)'),
+])
+
+# ============================================================
+# 25 HEM por eslabon (L1/L2/L3)
+# ============================================================
+ws, dfhl, hr = dump("25 HEM eslabon","mip_hem_eslabones.csv",
+  "Extraccion hipotetica (HEM) hacia adelante/atras por eslabon (L1/L2/L3), 2013/2018",
+  "HEM por eslabon de cada mineral (extraccion L1, refinacion L2, semimanufactura L3), como % del VBP nacional. "
+  "'atribuible': si = clase propia; comp = compartida; no = agregada (en comp/no el HEM mide la clase completa, no el mineral). "
+  "Segunda variante del coeficiente de encadenamiento hacia adelante por eslabon (complementa al Ghosh-Rasmussen de '15 MIP eslabones').",
+  wrapcols=(6,), widths={"A":6,"B":11,"C":8,"D":15,"E":9,"F":26,"G":11,"H":15,"I":15,"J":13,"K":12},
+  tipo="Resultado validado + total formula viva", script="mip_hem_eslabones.py",
+  index_content="HEM por eslabon (L1/L2/L3) y mineral (2013/2018)")
+cols=list(dfhl.columns)
+cb=col_letter(cols.index("hem_backward_pct")+1); cf=col_letter(cols.index("hem_forward_pct")+1)
+ct=col_letter(cols.index("hem_total_pct")+1); b=dfhl.shape[1]
+add_formula_cols(ws, dfhl, hr, [
+  ("hem_total (=formula)",FILL_FORM, lambda rn: f'=IF(AND(ISNUMBER({cb}{rn}),ISNUMBER({cf}{rn})),ROUND({cb}{rn}+{cf}{rn},4),"")'),
+  ("dif",FILL_FORM, lambda rn: f'=IF(ISNUMBER({col_letter(b+1)}{rn}),ROUND({col_letter(b+1)}{rn}-{ct}{rn},4),"")'),
+])
+
+# ============================================================
+# 26 HEM internacional por pais (OECD ICIO, bloque domestico)
+# ============================================================
+ws, dfhi, hr = dump("26 HEM internacional","icio_hem_mineria.csv",
+  "Extraccion hipotetica (HEM) de la mineria por pais (OECD ICIO), 2008/2018/2020",
+  "HEM sobre el bloque domestico de cada pais: % del VBP nacional que se perderia al extraer la mineria. "
+  "Sector comparable B07_08 (mineria no energetica). Segunda variante del encadenamiento internacional (complementa al Ghosh-Rasmussen de '21 ICIO comparacion'). "
+  "Validado por Sherman-Morrison vs fuerza bruta a 1e-14. Niveles entre anios no estrictamente comparables (ver Anexo B.10).",
+  widths={"A":6,"B":7,"C":12,"D":9,"E":26,"F":13,"G":15,"H":15,"I":13},
+  tipo="Resultado validado + total formula viva", script="icio_hem.py",
+  index_content="HEM de la mineria por pais/sector (2008/2018/2020)")
+cols=list(dfhi.columns)
+cb=col_letter(cols.index("hem_backward_pct")+1); cf=col_letter(cols.index("hem_forward_pct")+1)
+ct=col_letter(cols.index("hem_total_pct")+1); b=dfhi.shape[1]
+add_formula_cols(ws, dfhi, hr, [
   ("hem_total (=formula)",FILL_FORM, lambda rn: f'=ROUND({cb}{rn}+{cf}{rn},4)'),
   ("dif",FILL_FORM, lambda rn: f'=ROUND({col_letter(b+1)}{rn}-{ct}{rn},4)'),
 ])

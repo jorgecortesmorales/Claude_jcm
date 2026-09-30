@@ -55,6 +55,29 @@ Cuadro {#cua:ghpais}: Encadenamiento hacia adelante del sector de minería no en
 
 Cuatro lecturas se derivan. Primera: Chile, Australia, Brasil y Perú **no** son casos de éxito en el encadenamiento hacia adelante; su minería se sitúa en o por debajo del promedio de su propia economía. Lo que distingue a algunos no es una cadena manufacturera lograda, sino la respuesta institucional —la propiedad estatal y la captura fiscal (Codelco) en Chile, los servicios y la tecnología minera en Australia—. Segunda: el referente en integración aguas abajo es China y el modelo nórdico (Finlandia y Suecia), no los productores latinoamericanos. Tercera: el coeficiente agregado de México (1.51) es engañosamente alto, porque promedia los metales que sí se funden en el país con el cobre que se exporta en concentrado. Cuarta, y la más ilustrativa: México (1.51) y China (1.53) tienen un índice casi idéntico, pero significan cosas opuestas, como muestra la descomposición de valor agregado de la sección siguiente.
 
+### VII.4.1 El peso de la minería por país: la extracción hipotética
+
+Al índice de Ghosh-Rasmussen —que mide la intensidad del arrastre de la minería relativa al promedio de cada economía— se añade la segunda variante, la extracción hipotética (HEM), calculada sobre el mismo bloque doméstico de cada país (Capítulo III, ecuaciones (9)-(10)): el porcentaje del VBP del país que se perdería si su minería dejara de comprar o de vender. El {{cua:hempais}} reúne ambos coeficientes para el corte de 2018 y la Ilustración {{fig:hempais}} los confronta.
+
+Cuadro {#cua:hempais}: Los dos coeficientes de encadenamiento hacia adelante de la minería no energética (B07_08) por país, 2018 — extracción hipotética HEM (peso, % del VBP doméstico del país) e índice de Ghosh-Rasmussen (intensidad, media país = 1). Ordenado por HEM total. Caveat: sector-minería agregado, no por mineral (ISIC). Fuente: cálculo propio con OECD ICIO 2023 (`icio_hem_mineria.csv`, `icio_comparacion_mineria.csv`).
+
+| País | HEM hacia atrás (%) | HEM hacia adelante (%) | HEM total (%) | Ghosh-Rasmussen adelante |
+|---|---:|---:|---:|---:|
+| Chile | 4.65 | 2.09 | 6.74 | 0.73 |
+| Australia | 2.95 | 2.28 | 5.23 | 0.83 |
+| Perú | 3.66 | 0.84 | 4.49 | 0.62 |
+| China | 1.25 | 2.29 | 3.53 | 1.53 |
+| Brasil | 1.07 | 1.07 | 2.14 | 0.99 |
+| México | 0.31 | 1.13 | 1.44 | 1.51 |
+| Suecia | 0.27 | 0.58 | 0.86 | 1.27 |
+| Finlandia | 0.25 | 0.54 | 0.78 | 1.31 |
+
+![Ilustración {#fig:hempais}: Comparación internacional de la minería no energética (B07_08), 2018, con las dos variantes. Panel izquierdo: HEM total por país (% del VBP doméstico); México en rojo. Panel derecho: índice de Ghosh-Rasmussen (intensidad, eje horizontal) frente a HEM hacia adelante (peso, eje vertical). Fuente: cálculo propio con OECD ICIO 2023.](figuras/vii5_hem_internacional.png){width=100%}
+
+*La extracción hipotética (peso).* Por el HEM total, la minería representa la mayor fracción del VBP doméstico en Chile (6.74 %), Australia (5.23 %) y Perú (4.49 %), seguidos de China (3.53 %) y Brasil (2.14 %); México se sitúa en 1.44 % y los países nórdicos por debajo del 1 % (Suecia 0.86 %, Finlandia 0.78 %). El HEM hacia adelante supera al de hacia atrás en México, China, Australia y los nórdicos; en Perú y Chile ocurre lo contrario.
+
+*Los dos coeficientes en conjunto.* Las dos variantes ordenan a los países de forma casi inversa. México registra el segundo índice de Rasmussen más alto (1.51) y, a la vez, uno de los pesos más bajos (HEM total 1.44 %); los países nórdicos combinan también intensidad alta (1.31 y 1.27) con peso bajo (0.78 y 0.86). En el extremo opuesto, Chile, Perú y Australia registran los índices de Rasmussen más bajos (0.73, 0.62 y 0.83) y, a la vez, los pesos más altos (6.74, 4.49 y 5.23). China es el único país con valores altos en las dos variantes (Rasmussen 1.53; HEM 3.53). El índice de Rasmussen describe la articulación de la minería por unidad de producto dentro de cada economía; el HEM, la fracción del VBP de cada país que depende de su minería.
+
 ## VII.5 El enclave en dinero: la descomposición de valor agregado
 
 El índice de Ghosh es un coeficiente de asignación; no mide cuánto valor retiene el país. Para verlo se descompone, sobre la matriz global, el valor agregado minero que cada país exporta, separando la parte que sale ya transformada en casa de la que sale como producto minero en crudo para reprocesarse en el extranjero (*crudo_share*). Un valor alto de ese cociente es la firma del enclave en dinero. La Ilustración {{fig:ghcrudo}} cruza ambos indicadores y el {{cua:crudo}} los reúne.
