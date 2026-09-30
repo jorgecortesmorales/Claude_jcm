@@ -3,7 +3,7 @@ title: Memoria — Encadenamientos productivos por mineral (MIP INEGI)
 type: resultados
 tags: [icr, insumo-producto, encadenamientos, ghosh, leontief, datos]
 created: 2026-07-30
-updated: 2026-09-05
+updated: 2026-09-29
 status: activo
 ---
 
@@ -127,5 +127,22 @@ Base: `10 Datos/processed/mip_demanda_intermedia_minerales.csv` (top compradores
 > - **Índices Rasmussen normalizados**: su nivel **no es estrictamente comparable entre añadas** (la normalización usa el promedio de una economía cuya clasificación y tamaño cambian). Por eso se reporta también el **Ghosh crudo (suma de fila)** y **DI/VBP**, y la lectura se apoya en el **patrón/orden**.
 > - **Manganeso (212291) ⚠️**: en 2008 la clase es **más amplia** (agrega 212292 mercurio/antimonio y 212299 otros metálicos), lo que **infla su VBP** (8,105 MM$, muy por encima de 2013/2018) y **contamina** su encadenamiento hacia adelante (1.00 vs 1.79 en 2013). **No comparable** ni en nivel ni en posición. En 2018 esas clases van aparte.
 > - **Plomo-zinc** sigue combinado (coextracción), como en la serie comparable.
+
+## 9. Extracción hipotética (HEM) por mineral — segunda variante (2026-09-29)
+Método de **Miller y Lahr (2001)**, casos 3 (extraer compras, columna de $\mathbf{A}$) y 4 (extraer ventas, fila de $\mathbf{B}$), el que aplica **Morales-López (2023)** al caso interregional mexicano. HEM = % del VBP nacional que se perdería al extraer el sector; mide **peso económico**, mientras Rasmussen mide **intensidad**. Script `10 Datos/scripts/mip_hem.py` → `processed/mip_hem_minerales.csv` (2013/2018). Todos los sectores por **Sherman-Morrison**; validado vs extracción por fuerza bruta a 1e-14 y $\mathbf{x}=\mathbf{L}\mathbf{f}$ a 1e-9. En el manuscrito: §III.2 (ecs. 9-10) y §VI.8 (Cuadro VI.7, Ilustración VI.6); serie en Anexo B.7.
+
+| Mineral (2018) | HEM atrás % | HEM adelante % | HEM total % | Rango (de 834) | Rasmussen adelante |
+|---|---:|---:|---:|---:|---:|
+| Cobre | 0.076 | 0.250 | 0.325 | 46 | 1.34 |
+| Oro | 0.079 | 0.159 | 0.238 | 72 | 1.22 |
+| Plata | 0.051 | 0.106 | 0.156 | 104 | 1.17 |
+| Plomo-zinc | 0.035 | 0.012 | 0.046 | 257 | 0.71 |
+| Sílice | 0.006 | 0.035 | 0.041 | 276 | 1.92 |
+| Fluorita | 0.006 | 0.015 | 0.021 | 395 | 1.31 |
+| Grafito | 0.000 | 0.003 | 0.004 | 663 | 1.71 |
+| Manganeso | 0.001 | 0.002 | 0.003 | 683 | 1.54 |
+| Barita | 0.001 | 0.000 | 0.001 | 781 | 0.64 |
+
+**Lectura (descriptiva).** Por HEM hacia adelante, cobre, oro y plata ocupan los lugares 25, 49 y 70 de 834. **En conjunto con Rasmussen:** sílice, grafito y manganeso combinan intensidad alta con peso bajo; cobre, oro y plata, intensidad intermedia con el peso más alto. Solo la barita coincide en el último lugar de ambas ordenaciones.
 
 ← [[Indice Diagnostico Insumo-Producto]] · [[Columna Vertebral Metodologica]] · [[Catalogo de Bases de Datos]]

@@ -23,6 +23,8 @@ Cuadro {#cua:dvac}: Declaración de vacíos por indicador, causa y tratamiento. 
 | Encadenamientos | Corte 2008 no encadenado | Cambio de año base y de clasificación SCIAN | Referencia histórica; se lee por patrón y orden, no por nivel |
 | Comercio por etapa | Destino = socio declarado (Comtrade) | Reexportación y *entrepôt* no depurados | Declarado; no altera la dirección del desplazamiento |
 | Comparación internacional | Nivel sector-minería agregado, no por mineral | La clasificación ISIC de OECD ICIO no desagrega por mineral | Se cruza con el comercio por etapa por mineral |
+| Extracción hipotética (HEM) | En clases compartidas o agregadas mide la clase completa, no el mineral | Las clases de transformación 331/325 agregan varios minerales | Se marca la atribuibilidad de cada clase; el valor no se asigna al mineral |
+| Extracción hipotética internacional | Niveles no estrictamente comparables entre añadas | Año base, precios y clasificación distintos (2008 = pico del superciclo) | Se lee por el orden entre países, no por el nivel |
 | Peso del bloque | PIB y empleo solo en cortes de MIP (2013, 2018) | La MIP no es anual | Declarado; las series de valor y exportaciones sí son anuales |
 
 La convergencia de indicadores independientes —estructura, encadenamientos, captura de valor, comercio por etapa y comparación internacional— sostiene el retrato descriptivo sin que ninguno de estos vacíos comprometa las conclusiones.

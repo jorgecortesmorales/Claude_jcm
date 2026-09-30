@@ -3,7 +3,7 @@ title: "Arquitectura del documento — estructura expositiva de la ICR"
 type: arquitectura
 tags: [icr, arquitectura, estructura, redaccion, metodologia]
 created: 2026-09-15
-updated: 2026-09-15
+updated: 2026-09-29
 status: activo
 ---
 
@@ -48,7 +48,7 @@ Planteamiento del problema · preguntas (central y subsidiarias) · objetivos ·
 ### Capítulo III — Marco metodológico y analítico  *(NUEVO / consolidado)*
 Diseño descriptivo. **Todos** los indicadores en un solo lugar, cada uno con: qué mide · matemática · fuente y operacionalización · supuestos · límites · **justificación de su incorporación**. Detalle exhaustivo en [[Auditoria de indicadores (justificacion, matematica, limites)]]; el capítulo es su versión redactada.
 - III.1 Diseño descriptivo y estrategia analítica (por qué descriptivo; cómo se articulan los indicadores bajo el enclave estructural).
-- III.2 Contabilidad insumo-producto: identidad contable, Leontief (hacia atrás), Ghosh (hacia adelante), Hirschman-Rasmussen (normalización). Operacionalización con la MIP INEGI (2013, 2018; 2008 de referencia) y validación.
+- III.2 Contabilidad insumo-producto: identidad contable, Leontief (hacia atrás), Ghosh (hacia adelante), Hirschman-Rasmussen (normalización) y **extracción hipotética (HEM)** como segunda variante (peso económico). Redacción matemática al estilo de Morales-López (2023): **ecuaciones numeradas (1)-(13)** con glosario "donde … de orden n×1" tras cada una. Operacionalización con la MIP INEGI (2013, 2018; 2008 de referencia) y validación.
 - III.3 Encadenamiento **por eslabón** (extracción / refinación / semimanufactura).
 - III.4 Concentración de mercado: HHI (numeradores, consolidado 2004-2024, cautelas de comparabilidad).
 - III.5 Coeficiente de captura de valor (CCV): serie 1992-2025, numerador/denominador, comercio espejo, caveats.
@@ -70,20 +70,20 @@ Diseño descriptivo. **Todos** los indicadores en un solo lugar, cada uno con: q
 El actual Cap. IV. Coextracción · estructura por mineral · concentración (HHI) · hitos corporativos 1993-2025 · síntesis comparativa (tres patrones de concentración). Solo descripción; método en III.4.
 
 ### Capítulo VI — Encadenamientos productivos
-Resultados MIP: Leontief y Ghosh por mineral (cortes 2013/2018 + 2008 referencia) · demanda intermedia doméstica · encadenamiento **por eslabón** · **CCV** como serie continua. Cada cuadro remite a III.2–III.5 para el método. Los cuadros de datos completos por mineral → **Anexo B**.
+Resultados MIP: Leontief y Ghosh por mineral (cortes 2013/2018 + 2008 referencia) · demanda intermedia doméstica · encadenamiento **por eslabón** en sus dos variantes (§VI.4.1: Rasmussen y HEM) · **CCV** como serie continua · **HEM por mineral** y contraste con Morales-López (2023) (§VI.8). Cada cuadro remite a III.2–III.5 para el método. Los cuadros de datos completos por mineral → **Anexo B**.
 
 ### Capítulo VII — Inserción en las cadenas de valor globales
-Comercio por etapa (E1–E4, 1992-2024) · desplazamiento de destinos hacia Asia/China · comparación internacional ICIO (Ghosh por país y eslabón) · descomposición de valor agregado (*crudo_share*) · **criticidad y dependencia** (el eslabón estratégico se importa).
+Comercio por etapa (E1–E4, 1992-2024) · desplazamiento de destinos hacia Asia/China · comparación internacional ICIO (Ghosh por país y eslabón; **HEM por país**, §VII.4.1) · descomposición de valor agregado (*crudo_share*) · **criticidad y dependencia** (el eslabón estratégico se importa).
 
 ### Capítulo VIII — Caracterización integrada y tipología de los mercados
-Integra V–VII por mineral: fichas L0–L4 · **tipología A/B/C/D** · punto de ruptura · criticidad sobre los eslabones · geografía de la cadena (mapas). Cierra con la lectura de conjunto del enclave estructural.
+Integra V–VII por mineral: fichas L0–L4 · **tipología A/B/C/D** · punto de ruptura · criticidad sobre los eslabones · geografía de la cadena (mapas) · Ghosh estatal e interestatal y **HEM estatal** (§VIII.7.3). Cierra con la lectura de conjunto del enclave estructural.
 
 ### Capítulo IX — Síntesis, conclusiones y bases de política
 Síntesis de hallazgos · respuesta a las preguntas · bases de política diferenciadas por tipo · limitaciones y **declaración de vacíos** · agenda futura.
 
 ### Anexos
 - **A. Método extenso y derivaciones** (álgebra I-O completa, validaciones contra INEGI, concordancias).
-- **B. Cuadros de datos por mineral** (encadenamientos, CCV año a año, comercio por etapa, HHI serie completa).
+- **B. Cuadros de datos por mineral** (encadenamientos, CCV año a año, comercio por etapa, HHI serie completa; **B.7-B.10: HEM por mineral, estatal, por eslabón e internacional**).
 - **C. Las diez fichas de cadena de valor** (L0–L4 cuantificadas).
 - **D. Declaración de vacíos por indicador.**
 - **E. Correspondencias** SCIAN 2007/2013/2018 y HS×etapa.
@@ -108,6 +108,7 @@ Bibliografía única en APA ([[Bibliografia]]), gestionada para exportar `.bib`.
 | DVA / crudo_share | III.9 | VII | Anexo B |
 | Criticidad y dependencia | III.9 / II.3 | VII | — |
 | Georreferenciación / Ghosh estatal | III.8 | VIII (+ V) | Anexo B |
+| Extracción hipotética (HEM): mineral, eslabón, estatal, país | III.2 (ecs. 9-10), III.8, III.9 | VI (VI.4.1, VI.8), VII (VII.4.1), VIII (VIII.7.3) | Anexo B (B.7-B.10) |
 | Fichas L0–L4 / tipología A-D | III.7 | VIII | Anexo C |
 | Reforma 2023 (contexto) | — | IV | — |
 | Referencia institucional intl. | — | IV | — |

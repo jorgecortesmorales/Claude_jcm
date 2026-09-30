@@ -82,16 +82,16 @@ Vista interactiva (filtrable/agrupable, nativa de Obsidian — función *Bases*)
 - Fichas nuevas → `09 Revision de Literatura/Fichas/`
 
 ## 10 · Datos ✅ fase de datos completa
-- [[Catalogo de Bases de Datos|Catálogo de Bases de Datos]] — inventario de bases originales e indicadores construidos (HHI, MIP, comercio, empresas, CCV)
+- [[Catalogo de Bases de Datos|Catálogo de Bases de Datos]] — inventario de bases originales e indicadores construidos (HHI, MIP, HEM, comercio, empresas, CCV, ICIO)
 - **Memorias de indicadores**: [[Memoria - Encadenamientos MIP (Leontief Ghosh Hirschman-Rasmussen)]] · [[Memoria - Comercio por etapa de procesamiento (Obj 3)]] · [[Memoria - Empresas de transformacion (Obj 2 - cadena local)]] · [[Memoria - CCV (coeficiente de captura de valor, serie 1992-2025)]]
 - [[Memoria Metodologica de Bases de Datos|Memoria Metodológica de Bases de Datos]] — documento vivo: diseño y estado de cada base
 - [[Validacion de Fuentes de Precios|Validación de Fuentes de Precios]] · [[Definicion de Series USGS|Definición de Series USGS]] · [[Diccionario de Variables]]
-- `processed/` — indicadores: `hhi_consolidado.csv` (2004-2023), `mip_encadenamientos_minerales.csv`, `ccv_serie.csv` (1992-2025), `comercio_posicion_resumen.csv`, `empresas_transformacion.csv`. Scripts en `scripts/`.
+- `processed/` — indicadores: `hhi_consolidado.csv` (2004-2023), `mip_encadenamientos_minerales.csv`, `ccv_serie.csv` (1992-2025), `comercio_posicion_resumen.csv`, `empresas_transformacion.csv`; extracción hipotética: `mip_hem_minerales.csv`, `mip_hem_eslabones.csv`, `hem_estatal_mineria.csv`, `icio_hem_mineria.csv`. Scripts en `scripts/`. Índice de memorias de encadenamiento: [[Indice Diagnostico Insumo-Producto]].
 
 ## 13 · Entregables
 - 📊 **Infografía interactiva** (Artifact HTML) y **presentación** (deck HTML / canvas de Claude Design) de los cuatro indicadores + tipología.
 - 📄 **Resumen en Word** (`.docx`) descriptivo con fórmulas, fuentes y gráficos.
-- 🧮 **Consolidado de datos y cálculos** (Excel, 27 hojas con fórmulas vivas) + **auditoría de consistencia** (reporte HTML + arnés reproducible) en `13 Entregables/Consolidado datos y calculos/` — ver [[Historial de entregables]] §6.
+- 🧮 **Consolidado de datos y cálculos** (Excel, 31 hojas con fórmulas vivas) + **auditoría de consistencia** + **cotejo de certificación** manuscrito↔datos (reportes HTML + arneses reproducibles) en `13 Entregables/Consolidado datos y calculos/` — ver [[Historial de entregables]] §6.
 - Fuentes en `13 Entregables/`; texto base en [[Resumen descriptivo de la investigacion (datos e indicadores)]].
 
 ## 11 · Redacción (manuscrito por capítulo)

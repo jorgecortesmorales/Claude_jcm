@@ -6,7 +6,7 @@ tipo: "D — se detiene en el mineral en bruto"
 eslabon_ruptura: "L1→L2 (no hay química del bario; uso como mineral molido)"
 tags: [icr, cadena-de-valor, barita, ficha, enclave]
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-29
 status: escalado
 ---
 
@@ -69,6 +69,7 @@ Fuente: [[cv_eslabones_cuantificado]].
 
 - **A quién le vende dentro del país (2018):** **58 %** a *Perforación de pozos petroleros y de gas* (213111) y **14 %** a *Extracción de petróleo* → la barita es, esencialmente, un **insumo petrolero**.
 - **Arrastre (Rasmussen 2018):** hacia atrás 0.96, hacia adelante **0.64** (rank 614/834), de los **más bajos** del bloque: casi no arrastra aguas adelante. Fuente: [[mip_encadenamientos_minerales]].
+- **Peso (HEM 2018):** hacia atrás 0.001 %, hacia adelante 0.000 %, total **0.001 %** del VBP nacional (rango 781 de 834). Por eslabón (HEM adelante, L1/L2/L3): 0.000 / 0.185 / — % (clase L2 agregada: en clases compartidas o agregadas el valor es de la clase completa). Segunda variante del encadenamiento, junto al Rasmussen (manuscrito §VI.4.1 y §VI.8). Fuente: [[mip_hem_minerales]] · [[mip_hem_eslabones]].
 
 ## 5. Cierre aguas abajo
 

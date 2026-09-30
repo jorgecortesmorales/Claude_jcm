@@ -12,7 +12,7 @@ lang: es-ES
 
 ## IX.1 Síntesis de los hallazgos
 
-La investigación reunió y validó un conjunto de indicadores desagregados por mineral —la estructura empresarial y la concentración (HHI), los encadenamientos de Leontief y Ghosh, el coeficiente de captura de valor como serie continua, el comercio por etapa de procesamiento y su geografía, y la comparación internacional con su descomposición de valor agregado— y los leyó de forma conjunta bajo el concepto de enclave estructural. Cuatro resultados transversales resumen el retrato.
+La investigación reunió y validó un conjunto de indicadores desagregados por mineral —la estructura empresarial y la concentración (HHI), los encadenamientos de Leontief y Ghosh en sus dos variantes —intensidad (Hirschman-Rasmussen) y peso económico (extracción hipotética)—, el coeficiente de captura de valor como serie continua, el comercio por etapa de procesamiento y su geografía, y la comparación internacional con su descomposición de valor agregado— y los leyó de forma conjunta bajo el concepto de enclave estructural. Cuatro resultados transversales resumen el retrato.
 
 *Primero*, los minerales críticos mexicanos tienen un encadenamiento hacia atrás bajo: la extracción es intensiva en el recurso y arrastra poco a sus proveedores. *Segundo*, su encadenamiento hacia adelante es heterogéneo, pero la lectura conjunta de los indicadores —no del índice de Ghosh aislado— revela que la cadena, cuando existe, suele detenerse en el metal refinado; el punto de ruptura de los diez mercados se sitúa en L1 o L2, y ninguno alcanza la manufactura final dentro del país. *Tercero*, el patrón se profundiza en el tiempo: se exporta en fases cada vez más crudas (la fracción del bloque exportada en bruto pasó de ~8 % a ~41 % entre los años noventa y 2024) y con destino crecientemente concentrado en China (del ~0 % al 35 % de las exportaciones del bloque). *Cuarto*, la comparación internacional con ocho países muestra que ni Chile, ni Australia, ni Brasil ni Perú superan ese patrón en el encadenamiento hacia adelante, y que el referente real de integración es China —el procesador global— y el modelo nórdico; la descomposición de valor agregado lo confirma en dinero (Chile y Perú exportan en crudo cerca del 98 % del valor de su minería, mientras China solo el 7 %) y revela que el agregado de México engaña, porque promedia los metales que sí se funden con el cobre que sale en concentrado: México y China tienen un índice de Ghosh casi idéntico (1.51 y 1.53) pero una captura de valor opuesta.
 
@@ -52,6 +52,7 @@ Cuadro {#cua:vac}: Declaración de vacíos por indicador y su tratamiento (crite
 | Encadenamientos MIP | Plomo y zinc en clase combinada | Reportados de forma conjunta |
 | Encadenamientos por eslabón | Clases de transformación no atribuibles por mineral | Ancladas con comercio y capacidad instalada |
 | Comparación internacional | Nivel sector-minería agregado, no por mineral | Se cruza con el comercio por etapa |
+| Extracción hipotética (HEM) | Clases compartidas o agregadas miden la clase completa | Atribuibilidad marcada; valor no asignado al mineral |
 
 ## IX.6 Agenda futura y aporte
 

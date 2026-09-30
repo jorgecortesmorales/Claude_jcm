@@ -94,7 +94,7 @@ RESUMEN = (
     "(barita, cobre, fluorita, grafito, manganeso, oro, plata, plomo, sílice y zinc) entre 1992 y 2025, "
     "en sus eslabones extractivo e industrial, y describe la inserción del país en las cadenas de valor "
     "locales y globales. A partir de bases de datos e indicadores construidos y desagregados por mineral "
-    "—concentración (HHI), encadenamientos de insumo-producto (Leontief, Ghosh, Hirschman-Rasmussen), "
+    "—concentración (HHI), encadenamientos de insumo-producto (Leontief, Ghosh, Hirschman-Rasmussen y extracción hipotética), "
     "coeficiente de captura de valor, comercio por etapa de procesamiento y comparación internacional con "
     "descomposición de valor agregado—, el trabajo documenta un patrón de **enclave estructural**: una minería "
     "concentrada y desarticulada de la transformación doméstica, cuya cadena se trunca en el metal refinado y "

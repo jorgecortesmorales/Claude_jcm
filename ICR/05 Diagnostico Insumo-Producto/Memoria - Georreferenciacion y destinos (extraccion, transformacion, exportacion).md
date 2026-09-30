@@ -3,7 +3,7 @@ title: "Memoria — Georreferenciación y destinos (extracción, transformación
 type: resultados
 tags: [icr, georreferenciacion, comercio, destinos, cadenas-de-valor, enclave]
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-29
 status: activo
 ---
 
@@ -151,5 +151,18 @@ La versión intra-estatal (§3bis) no distingue si el mineral que «sale» del e
 - Refuerza **H3** (inserción en eslabones primarios): el concentrado de cobre a China (94.7 %) es la imagen más nítida del enclave.
 - Complementa el **Objetivo 2** (cadena local): los nodos de transformación existentes y su localización, ahora con el **Ghosh por estado** (§3bis) que cuantifica dónde la cadena se queda y dónde se fuga.
 - Insumo para **bases de política** (Cap. VIII): dónde estarían los eslabones ausentes y en qué territorio; el contraste Sonora/Coahuila (integran) vs Zacatecas/Durango (fugan) señala el tipo de intervención regional.
+
+## 3quater. Extracción hipotética (HEM) de la minería por entidad (2026-09-29)
+HEM del sector 21-2 de cada entidad sobre su MIP birregional 2018 (entidad + resto del país): % del VBP birregional que se perdería al extraer sus compras o ventas. `10 Datos/scripts/hem_estatal.py` → `processed/hem_estatal_mineria.csv` (32 entidades; validado SM vs fuerza bruta a 1e-14). En el manuscrito: §VIII.7.3 (Cuadro VIII.5, Ilustración VIII.6); serie completa en Anexo B.8.
+
+| Entidad (2018) | HEM atrás % | HEM adelante % | HEM total % | Ghosh-Rasmussen estatal |
+|---|---:|---:|---:|---:|
+| Sonora | 0.140 | 0.388 | 0.528 | 1.41 |
+| Coahuila | 0.037 | 0.158 | 0.195 | 1.61 |
+| Durango | 0.041 | 0.089 | 0.130 | 1.03 |
+| San Luis Potosí | 0.015 | 0.077 | 0.092 | 1.40 |
+| Zacatecas | 0.034 | 0.055 | 0.089 | 1.04 |
+
+**Lectura (descriptiva y conjunta).** Sonora registra el mayor peso con intensidad intermedia; Coahuila, intensidad alta con peso menor; Sonora, Coahuila y San Luis Potosí aparecen entre las primeras en ambas ordenaciones. En todas las entidades el HEM hacia adelante supera al de hacia atrás.
 
 ← [[Memoria - Encadenamientos MIP (Leontief Ghosh Hirschman-Rasmussen)]] · [[Memoria - Comercio por etapa de procesamiento (Obj 3)]] · [[Catalogo de Bases de Datos]]

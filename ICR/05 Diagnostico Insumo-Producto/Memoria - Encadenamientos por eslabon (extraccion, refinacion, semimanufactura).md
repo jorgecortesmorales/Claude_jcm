@@ -3,7 +3,7 @@ title: "Memoria — Encadenamientos por eslabón (extracción, refinación, semi
 type: memoria
 tags: [icr, encadenamientos, ghosh, eslabones, insumo-producto]
 created: 2026-09-15
-updated: 2026-09-15
+updated: 2026-09-29
 status: vigente
 ---
 
@@ -88,5 +88,22 @@ El perfil por eslabón de México —extracción alta, refinación media, semis 
 - **Estatal**: 35 industrias combinan refinación y semis (no separables); intra-estatal.
 - **Internacional**: sector agregado (toda la industria metálica), no por mineral; ISIC Rev.4.
 - Niveles **no comparables entre años base** ni entre frentes (distinta agregación); se comparan posiciones relativas.
+
+## 4. Segunda variante: extracción hipotética por eslabón (2026-09-29)
+HEM de las clases SCIAN de cada eslabón (L1/L2/L3), cortes 2013/2018: `10 Datos/scripts/mip_hem_eslabones.py` → `processed/mip_hem_eslabones.csv` (reutiliza `mip_hem.hem_all`, validado). En el manuscrito: §VI.4.1 (Cuadro VI.5, Ilustración VI.4 `hem_eslabones_2variantes.png`); serie en Anexo B.9.
+
+| Mineral (2018) | Rasmussen L1/L2/L3 | HEM % L1/L2/L3 | Clase L2/L3 |
+|---|---|---|---|
+| Cobre | 1.34 / 1.37 / 0.95 | 0.250 / 0.234 / 0.046 | propia |
+| Oro | 1.22 / 0.62 / 1.02 | 0.159 / 0.001 / 0.017 | compartida |
+| Plata | 1.17 / 0.62 / 1.02 | 0.106 / 0.001 / 0.017 | compartida |
+| Plomo-zinc | 0.71 / 0.63 / 1.02 | 0.012 / 0.001 / 0.017 | compartida |
+| Manganeso | 1.54 / 1.34 / — | 0.002 / 0.126 / — | compartida |
+| Sílice | 1.92 / 1.44 / 1.34 | 0.035 / 0.185 / 0.061 | agregada |
+| Grafito | 1.71 / 1.44 / 1.24 | 0.003 / 0.185 / 0.062 | agregada |
+| Fluorita | 1.31 / 1.44 / 1.31 | 0.015 / 0.185 / 0.289 | agregada |
+| Barita | 0.64 / 1.44 / — | 0.000 / 0.185 / — | agregada |
+
+**Lectura (descriptiva y conjunta).** En el cobre (única clase propia en los tres eslabones) ambos coeficientes se mantienen en L1-L2 y descienden en L3; en los preciosos ambos tocan su mínimo en la refinación; en los no metálicos divergen (Rasmussen >1 en los tres eslabones, HEM bajo en extracción). **Caveat:** en clases compartidas/agregadas ambos coeficientes miden la clase completa (el 0.185 de refinación es el mismo para los cuatro no metálicos, clase 325180).
 
 ← [[Memoria - Encadenamientos MIP (Leontief Ghosh Hirschman-Rasmussen)]] · [[Memoria - Comparacion internacional (Chile, Australia) encadenamientos]] · [[Indice Diagnostico Insumo-Producto]]

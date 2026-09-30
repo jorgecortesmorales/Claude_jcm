@@ -6,7 +6,7 @@ tipo: "B — truncada en el metal"
 eslabon_ruptura: "L1→L2 (se exporta concentrado; refinación existe pero semis débil)"
 tags: [icr, cadena-de-valor, plomo, ficha, enclave]
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-29
 status: escalado
 ---
 
@@ -70,6 +70,7 @@ flowchart LR
 
 - **A quién le vende dentro del país (2018, plomo-zinc):** **79.5 %** a *Fundición y refinación de otros metales no ferrosos* (331419) y **5.2 %** a *Fabricación de acumuladores y pilas* (baterías).
 - **Arrastre (Rasmussen 2018, plomo-zinc):** hacia atrás 0.99, hacia adelante **0.71** (rank 527/834) — de los **más bajos** del bloque: el plomo-zinc jala poco aguas adelante. Fuente: [[mip_encadenamientos_minerales]].
+- **Peso (HEM 2018, plomo-zinc):** hacia atrás 0.035 %, hacia adelante 0.012 %, total **0.046 %** del VBP nacional (rango 257 de 834). Por eslabón (HEM adelante, L1/L2/L3): 0.012 / 0.001 / 0.017 % (clase L2 compartida: en clases compartidas o agregadas el valor es de la clase completa). Segunda variante del encadenamiento, junto al Rasmussen (manuscrito §VI.4.1 y §VI.8). Fuente: [[mip_hem_minerales]] · [[mip_hem_eslabones]].
 
 ## 5. Cierre aguas abajo
 

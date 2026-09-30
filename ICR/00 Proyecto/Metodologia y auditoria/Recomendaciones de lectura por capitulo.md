@@ -3,7 +3,7 @@ title: "Recomendaciones de lectura por capítulo (revisión de literatura pendie
 type: guia
 tags: [icr, literatura, recomendaciones, redaccion]
 created: 2026-09-15
-updated: 2026-09-15
+updated: 2026-09-29
 status: activo
 ---
 
@@ -24,7 +24,9 @@ El aparato metodológico (insumo-producto, Ghosh, Rasmussen) ya está citado. Lo
 - **Miller, R. E. y Blair, P. D. (2009). *Input-Output Analysis*.** ✓ — Manual de referencia; capítulos 2, 6 y 12 para respaldar la operacionalización y las limitaciones.
 - **Opcional — Perez, C. (2010). Technological dynamism and social inclusion in Latin America.** o **Lall, S. (2000)** sobre capacidades tecnológicas: para matizar que el eslabón faltante es también de capacidades, no solo de política.
 
-*Dónde citar en el capítulo:* VI.1 (Hirschman; marco de linkages) · VI.5 (Dietzenbacher, Oosterhaven, Gereffi) · VI.6 (Kaplinsky-Morris, captura de valor) · VI.8 (Morris-Kaplinsky-Kaplan, puente a política).
+- **Morales-López, R. (2023). Encadenamientos productivos clave para la economía mexicana: un análisis insumo-producto interregional. *El Trimestre Económico*, 90(359).** ✓ — Antecedente directo del HEM (extracción hipotética) para México; ya citado en VI.8, VI.4.1, VII.4.1 y VIII.7.3. Léelo completo: es el referente con el que se compara el ejercicio y el modelo de la redacción matemática del Cap. III.
+
+*Dónde citar en el capítulo:* VI.1 (Hirschman; marco de linkages) · VI.4.1 y VI.8 (Morales-López; HEM) · VI.5 (Dietzenbacher, Oosterhaven, Gereffi) · VI.6 (Kaplinsky-Morris, captura de valor) · VI.9 (Morris-Kaplinsky-Kaplan, puente a política).
 
 ## Capítulo III — Marco metodológico y analítico
 
@@ -33,6 +35,7 @@ Método bien cubierto (Leontief, Ghosh, Rasmussen, Miller-Blair, Dietzenbacher, 
 - **Dietzenbacher (1997)** ✓ y **Oosterhaven (1988, 1996)** — la crítica al modelo de Ghosh; imprescindibles para sostener que se usa como **descriptor**, no como modelo causal (III.2).
 - **Timmer et al. (2015)** *An Illustrated User Guide to the World Input-Output Database* — para el uso de tablas inter-país (III.9).
 - **Los Reyes / Koopman, Wang y Wei (2014)** sobre descomposición de valor agregado en el comercio — sostiene el `crudo_share`/DVA (III.9).
+- **Miller, R. E. y Lahr, M. L. (2001). A taxonomy of extractions.** ✓ y **Dietzenbacher, E. y Van der Linden, J. A. (1997). Sectoral and spatial linkages in the EC production structure.** ✓ — Fundamento del método de extracción hipotética (III.2, ecs. 9-10; casos 3 y 4 de la taxonomía).
 
 ## Capítulo VII — Inserción en las cadenas de valor globales
 
@@ -41,6 +44,7 @@ Método bien cubierto (Leontief, Ghosh, Rasmussen, Miller-Blair, Dietzenbacher, 
 - **Weldegiorgis, Dietsche et al.** sobre linkages mineros en Australia (sector METS) (VII.4).
 - **IEA (2021, 2023), *The Role of Critical Minerals in Clean Energy Transitions*** — cuotas de refinación de China (VII.6-VII.7).
 - **OCDE (2023)**, documentación ICIO — nota metodológica de la fuente.
+- **Morales-López (2023)** ✓ — para VII.4.1 (HEM por país): mismo método aplicado a la escala interregional mexicana.
 
 ## Capítulo VIII — Caracterización integrada y tipología
 

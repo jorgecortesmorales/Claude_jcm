@@ -3,12 +3,15 @@ title: Memoria Metodológica de Bases de Datos
 type: datos
 tags: [icr, datos, metodologia, memoria]
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-09-29
 status: documento-vivo
 version: "1.0"
 ---
 
 # Memoria metodológica de construcción de bases de datos
+
+> [!warning] Nota de 2026-07-17 (diseño de panel, anterior al rediseño descriptivo)
+> Documenta el diseño original de las bases B1-B9 para el panel causal. El inventario vigente de bases e indicadores —incluida la extracción hipotética (HEM, 2026-09-29)— está en [[Catalogo de Bases de Datos]]; la auditoría de cada indicador, en [[Auditoria de indicadores (justificacion, matematica, limites)]].
 
 > [!info] Naturaleza de este documento
 > Documento **vivo**: registra, en el orden lógico y secuencial de la investigación, el diseño, las fuentes, las decisiones metodológicas y las validaciones de cada base de datos del proyecto. Se actualiza con cada base nueva construida (ver §7, control de cambios). Su destino final es servir de insumo directo para la sección de datos del Capítulo VI y para el apéndice metodológico de la ICR — el texto está redactado para que pueda migrarse con edición mínima.

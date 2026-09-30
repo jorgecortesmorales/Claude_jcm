@@ -8,6 +8,15 @@ updated: 2026-09-29
 
 # Bitácora de Trabajo
 
+## 2026-09-29 (c) Verificación integral del proyecto + handoff nuevo
+- Barrido de todo el vault para confirmar que los cálculos nuevos (consolidado/auditoría/cotejo; HEM nacional, estatal, por eslabón e internacional; estilo matemático; referencias nuevas) estén reflejados donde corresponde. Los registros fechados (handoffs, planes, protocolo, notas del diseño causal, entregables fechados) se dejan como están.
+- **Manuscrito**: el HEM se añadió al Cuadro III.2 (síntesis de indicadores), a III.8 y III.9, al Anexo D y al Cuadro IX.2 (vacíos), a la lista de indicadores del Cap. IX, a la síntesis VI.9 y al Resumen del libro (`build_book.py`). Recompilado: 45 cuadros, 33 ilustraciones, 0 referencias rotas; cotejo 1 453/1 453.
+- **Entregables**: fila del HEM por eslabón en el catálogo de cálculos del Excel; utilidad de las bases MIP INEGI, MIP Estatal y OECD ICIO actualizada.
+- **Vault**: secciones de HEM en las memorias de encadenamientos MIP (§9), por eslabón (§4), comparación internacional (§5bis) y georreferenciación (§3quater); línea de peso HEM en las 10 fichas de cadena de valor; Arquitectura del documento; Estructura y Cronograma (aviso de reestructura a 9 caps. y tabla de indicadores); Índice del Diagnóstico I-P reescrito (ya no causal); Diccionario de Variables al diseño descriptivo; avisos de vigencia en el Resumen descriptivo y la Memoria Metodológica de Bases; Recomendaciones de lectura (Morales-López, Miller-Lahr, Dietzenbacher-Van der Linden); Mapa del Proyecto, Home y CLAUDE.md.
+- **Tablero**: "Ghosh comparativo internacional" y "Matrices Chile Australia" → hecho; "Integración final manuscrito" → en curso; nuevas actividades "Extracción hipotética (HEM)" y "Consolidado y certificación de cálculos" (hecho).
+- `update_pdf.py` (índices + PDF vía Word) se guardó en `11 Redaccion/pandoc/` (antes solo en un temporal).
+- Handoff nuevo: [[Handoff - Estado actual (HEM, consolidado y certificacion) 2026-09-29]] (reemplaza al del 2026-09-16) y [[Mensaje de arranque - nuevo chat 2026-09-29]].
+
 ## 2026-09-29 (b) HEM por eslabón e internacional; redacción descriptiva de los dos coeficientes de Ghosh
 - **HEM por eslabón** (L1/L2/L3, 2013/2018): `scripts/mip_hem_eslabones.py` → `processed/mip_hem_eslabones.csv` (reutiliza `mip_hem.hem_all`, validado). En clases compartidas/agregadas el HEM mide la clase completa (p. ej. 325180 da 0.185 a los cuatro no metálicos).
 - **HEM internacional** (minería B07_08, 8 países, 2008/2018/2020): `scripts/icio_hem.py` → `processed/icio_hem_mineria.csv`, sobre el bloque doméstico ICIO de cada país; validado SM vs fuerza bruta a 1e-14. Se descargó el bloque ICIO 2016-2020 (curl, ~85 MB; el servidor no admite reanudar); 2008 del zip 2006-2010 en Downloads. CSV completos no conservados (convención previa). Resultado 2018 (% del VBP doméstico): Chile 6.74, Australia 5.23, Perú 4.49, China 3.53, Brasil 2.14, México 1.44, Suecia 0.86, Finlandia 0.78 — orden casi inverso al Ghosh-Rasmussen.

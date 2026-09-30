@@ -4,10 +4,13 @@ type: handoff
 tags: [icr, handoff, estado, reestructura, manuscrito, pipeline]
 created: 2026-09-16
 updated: 2026-09-16
-status: activo
+status: reemplazado
 ---
 
 # Handoff — arrancar un chat nuevo (ICR minerales críticos)
+
+> [!warning] Reemplazado (2026-09-29)
+> Este handoff ya no es la fuente vigente. Usar [[Handoff - Estado actual (HEM, consolidado y certificacion) 2026-09-29]].
 
 > [!info] Qué es esto
 > Fuente única de verdad para continuar la tesis en un chat con contexto limpio. **Reemplaza** al handoff del 2026-09-15. **No confundir** con el otro proyecto (ICR de Diana, vivienda Colombia, en `ICR DIANA/`).

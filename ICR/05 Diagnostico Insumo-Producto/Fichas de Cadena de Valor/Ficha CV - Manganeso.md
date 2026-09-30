@@ -6,7 +6,7 @@ tipo: "A — desarrollada hasta la ferroaleación"
 eslabon_ruptura: "L2→L3 (ferroaleación presente; química de Mn ausente/importada)"
 tags: [icr, cadena-de-valor, manganeso, ficha, enclave]
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-29
 status: escalado
 ---
 
@@ -71,6 +71,7 @@ flowchart LR
 
 - **A quién le vende dentro del país:** en 2013, **89 %** a *Desbastes primarios y ferroaleaciones* (siderurgia); en 2018 la demanda intermedia registrada aparece más dispersa (farmacéutica, alimentos para animales, ladrillos, químicos), reflejo de que la **mena doméstica es pequeña** y de usos químicos variados, mientras Autlán alimenta sus hornos con mineral propio (y algo importado).
 - **Arrastre (Rasmussen 2018):** hacia atrás **1.05**, hacia adelante **1.54** (rank 77/834) — **arrastre alto** aguas adelante, coherente con su papel de insumo siderúrgico. Fuente: [[mip_encadenamientos_minerales]].
+- **Peso (HEM 2018):** hacia atrás 0.001 %, hacia adelante 0.002 %, total **0.003 %** del VBP nacional (rango 683 de 834). Por eslabón (HEM adelante, L1/L2/L3): 0.002 / 0.126 / — % (clase L2 compartida: en clases compartidas o agregadas el valor es de la clase completa). Segunda variante del encadenamiento, junto al Rasmussen (manuscrito §VI.4.1 y §VI.8). Fuente: [[mip_hem_minerales]] · [[mip_hem_eslabones]].
 
 ## 5. Cierre aguas abajo
 

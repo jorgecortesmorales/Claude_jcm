@@ -3,7 +3,7 @@ title: Mapa del Proyecto
 type: moc
 tags: [icr, moc, mapa]
 created: 2026-07-16
-updated: 2026-09-16
+updated: 2026-09-29
 status: activo
 ---
 
@@ -33,6 +33,7 @@ status: activo
 - [[Arquitectura del documento (estructura expositiva)]] — estructura expositiva del documento
 - [[Auditoria de indicadores (justificacion, matematica, limites)]] — los ~50 indicadores, uno por uno
 - [[Protocolo v3 - Rediseño descriptivo (cadenas de valor)]] · [[Recomendaciones de lectura por capitulo]]
+- Dos variantes del encadenamiento hacia adelante: **Ghosh-Rasmussen** (intensidad) y **extracción hipotética / HEM** (peso; Morales-López, 2023) — nacional, por eslabón, estatal e internacional
 
 ## ⑤ Datos y memorias
 - [[Catalogo de Bases de Datos]] (`10 Datos/`) — inventario de bases; `processed/` = indicadores; `scripts/` = cálculo
@@ -44,6 +45,7 @@ status: activo
   - [[Memoria - Georreferenciacion y destinos (extraccion, transformacion, exportacion)]]
   - [[Memoria - Comparacion internacional (Chile, Australia) encadenamientos]]
   - [[Memoria - Peso del bloque de 10 minerales (PIB, exportaciones, empleo)]]
+  - Índice de las memorias de encadenamiento (con el HEM): [[Indice Diagnostico Insumo-Producto]]
 
 ## ⑥ Manuscrito y entregables
 - **Manuscrito (nueva estructura)** → `11 Redaccion/manuscrito/` (fuentes Markdown) → `ICR - Manuscrito (nueva estructura).docx`
@@ -52,5 +54,7 @@ status: activo
 - [[Resumen descriptivo de la investigacion (datos e indicadores)]]
 - **Bibliografía** → [[Bibliografia]] (`12 Referencias/`)
 - **Entregables visuales** → `13 Entregables/` (mapas, infografías, presentaciones)
+- **Consolidado de datos y cálculos + auditoría + cotejo de certificación** → `13 Entregables/Consolidado datos y calculos/` (Excel de 31 hojas con fórmulas vivas; 1 453 números del manuscrito cotejados, 0 difieren) — [[Historial de entregables]] §6
+- **Handoff vigente** → [[Handoff - Estado actual (HEM, consolidado y certificacion) 2026-09-29]]
 
 ← [[Home]] · [[CLAUDE]] · [[Estructura y Cronograma de la ICR]]

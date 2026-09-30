@@ -3,7 +3,7 @@ title: "Estructura y Cronograma de la ICR — panorama de avance"
 type: proyecto
 tags: [icr, proyecto, cronograma, avance, estructura, dashboard]
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-29
 status: vigente
 ---
 
@@ -16,6 +16,12 @@ status: vigente
 > Tablero **desplegable** (capítulos → subtemas → actividades) con filtros por estado y línea de tiempo plan vs. real sin encimes: **https://claude.ai/code/artifact/d020c84f-0043-4943-a46a-a57c6a10dca9** (privado; requiere tu sesión de Claude). Esta nota es el respaldo enlazado dentro del vault (para no perder ningún dato/cálculo/redacción); el artefacto es la vista para ver el avance de un vistazo.
 
 ## 1. Panorama (dashboard)
+
+> [!info] Actualización 2026-09-29 (lo más reciente manda sobre el resto de la nota)
+> - **Manuscrito reestructurado (2026-09-16)** a **9 capítulos + Anexos B/C/D**, con pipeline Pandoc reproducible: `11 Redaccion/manuscrito/ICR - Manuscrito (nueva estructura).docx` (**45 cuadros, 33 ilustraciones**, 0 referencias rotas). El desglose del §4 conserva la **numeración anterior (8 caps.)**; correspondencia: III contexto → **IV** · IV estructura → **V** · V encadenamientos → **VI** · VI caracterización → **VIII** · VII reforma/intl. → **IV y VII** · VIII síntesis → **IX**; el nuevo **Cap. III** es el marco metodológico consolidado.
+> - **Nuevos cálculos (sep-29):** extracción hipotética (**HEM**) por mineral, estatal, por eslabón e internacional (2008/2013/2018/2020), a partir de Morales-López (2023); integrada en §III.2 (ecs. 9-10), §VI.4.1, §VI.8, §VII.4.1, §VIII.7.3 y Anexo B.7-B.10. Redacción matemática del Cap. III homologada al estilo de Morales-López (ecuaciones numeradas 1-13).
+> - **Verificación:** consolidado Excel de datos y cálculos (31 hojas, fórmulas vivas), auditoría de consistencia (19 PASA · 8 validados · 0 a revisar) y cotejo de certificación manuscrito↔datos (45 cuadros, 1 453 números, 0 difieren) — [[Historial de entregables]] §6.
+> - Handoff vigente: [[Handoff - Estado actual (HEM, consolidado y certificacion) 2026-09-29]].
 
 > [!success] Estado global (2026-09-11)
 > - **Datos e indicadores:** ✅ **completos y validados** (8 indicadores + Actividad A histórica + Actividad B de cadenas de valor). Es el aporte central y está terminado.
@@ -199,11 +205,13 @@ gantt
 | A | Peso del bloque (PIB, exportaciones, empleo) 1992–2024 | ✅ | sep 2026 | [[Memoria - Peso del bloque de 10 minerales (PIB, exportaciones, empleo)]] |
 | B | Cadenas de valor locales (10 fichas L0–L4 + mapas + socios) | ✅ | sep 2026 | [[Indice - Fichas de Cadena de Valor]] |
 | C | Clasificación de productos por criticidad (USGS/UE/IEA) | ✅ | sep 2026 | [[Clasificacion de productos por criticidad]] · `criticidad_productos.csv` |
+| D | Extracción hipotética (HEM): mineral, estatal, por eslabón, internacional | ✅ | sep 2026 | `mip_hem_minerales.csv` · `hem_estatal_mineria.csv` · `mip_hem_eslabones.csv` · `icio_hem_mineria.csv` |
+| E | Consolidado Excel + auditoría de consistencia + cotejo de certificación | ✅ | sep 2026 | `13 Entregables/Consolidado datos y calculos/` · [[Historial de entregables]] §6 |
 
 ## 6. Ruta crítica y siguientes pasos
 
-> [!todo] Lo que falta para cerrar (en orden)
-> 1. **📝 Versión de entrega de Caps. V–VIII** — adaptar a mi redacción/voz los borradores con resultados (yo, Jorge). *Es la ruta crítica.* Prioridad: V → VI → VIII → VII.
+> [!todo] Lo que falta para cerrar (en orden) — numeración nueva al 2026-09-29: versión de entrega de **Caps. III y V–IX** (y §II.2.5)
+> 1. **📝 Versión de entrega de Caps. V–VIII** *(numeración anterior; hoy V–IX)* — adaptar a mi redacción/voz los borradores con resultados (yo, Jorge). *Es la ruta crítica.* Prioridad: V → VI → VIII → VII.
 > 2. **📝 Integrar el inserto de justificación** (peso del bloque) al Cap. I.
 > 3. **⏸️ Protocolo** — esperar al asesor para aceptar el control de cambios (no tocar antes).
 > 4. **⭕ Opcionales** (no bloquean): event study y entrevistas del Cap. VII; migración de la redacción íntegra a Markdown; bilateral de comercio por socio.

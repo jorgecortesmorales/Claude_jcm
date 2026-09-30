@@ -3,11 +3,14 @@ title: "Resumen descriptivo de la investigación (datos e indicadores)"
 type: sintesis
 tags: [icr, resumen, indicadores, ccv, hhi, ghosh, comercio, cadenas-de-valor, enclave]
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-09-29
 status: hecho
 ---
 
 # Resumen descriptivo de la investigación — qué calculamos, con qué fórmulas y qué muestran los datos
+
+> [!warning] Nota de 2026-09-05 — conjunto de indicadores ampliado después
+> Este resumen cubre los cuatro indicadores iniciales. Después se añadieron la comparación internacional (Ghosh por país, DVA/crudo_share), el Ghosh estatal/interestatal, el encadenamiento por eslabón, la criticidad por producto y la **extracción hipotética (HEM)** —nacional, por eslabón, estatal e internacional (2026-09-29)—. El conjunto vigente, con su matemática, está en [[Auditoria de indicadores (justificacion, matematica, limites)]] y en el Cap. III del manuscrito; los resultados, en [[Indice Diagnostico Insumo-Producto]].
 
 > [!info] Propósito
 > Síntesis **descriptiva** (no analítica) de la fase de datos de la tesis: los indicadores construidos, sus fórmulas y los datos resultantes. Es la base textual de la **infografía interactiva** y de las **presentaciones**. Concepto ordenador: **enclave estructural** (desconexión aguas abajo con capital nacional). 10 minerales, 1992-2025.

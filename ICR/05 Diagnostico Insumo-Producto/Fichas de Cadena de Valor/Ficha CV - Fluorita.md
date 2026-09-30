@@ -6,7 +6,7 @@ tipo: "A — desarrollada hasta el fluoroquímico (límite A/B)"
 eslabon_ruptura: "L2→L3 (HF presente; fluoropolímeros ausentes/importados)"
 tags: [icr, cadena-de-valor, fluorita, ficha, enclave]
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-29
 status: piloto-formato
 ---
 
@@ -88,6 +88,7 @@ Fuente: [[cv_eslabones_cuantificado]].
 
 - **A quién le vende dentro del país (2018):** **82.3 % a *Fabricación de cemento*** (como aditivo), 12.6 % a otros no metálicos; sólo 3.4 % autoconsumo minero. **El HF no aparece** como comprador interno porque Koura usa su propio espato y **exporta** el ácido → el único vínculo local visible es el cemento, no la química del flúor.
 - **Arrastre (Rasmussen 2018):** hacia atrás **0.97**, hacia adelante **1.31** (rank 200 de 834). En 2013 el empuje hacia adelante era menor (0.87) → **se fortaleció** con el corte 2018. Fuente: [[mip_encadenamientos_minerales]] · [[mip_demanda_intermedia_minerales]].
+- **Peso (HEM 2018):** hacia atrás 0.005 %, hacia adelante 0.015 %, total **0.021 %** del VBP nacional (rango 395 de 834). Por eslabón (HEM adelante, L1/L2/L3): 0.015 / 0.185 / 0.289 % (clase L2 agregada: en clases compartidas o agregadas el valor es de la clase completa). Segunda variante del encadenamiento, junto al Rasmussen (manuscrito §VI.4.1 y §VI.8). Fuente: [[mip_hem_minerales]] · [[mip_hem_eslabones]].
 
 ## 5. Cierre aguas abajo (¿la cadena se cierra o se importa?)
 

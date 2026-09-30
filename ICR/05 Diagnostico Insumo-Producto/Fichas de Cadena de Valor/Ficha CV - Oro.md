@@ -6,7 +6,7 @@ tipo: "B — truncada en el metal refinado"
 eslabon_ruptura: "L2→L4 (se exporta como oro refinado/doré; joyería importada)"
 tags: [icr, cadena-de-valor, oro, ficha, enclave]
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-29
 status: escalado
 ---
 
@@ -69,6 +69,7 @@ flowchart LR
 
 - **A quién le vende dentro del país (2018):** **99.5 %** a *Fundición y refinación de metales preciosos* (331412); prácticamente todo el oro minero va a la refinería y de ahí a exportación.
 - **Arrastre (Rasmussen 2018):** hacia atrás 1.03, hacia adelante 1.22 (rank 271/834). Arrastre moderado; la conexión aguas adelante se agota en la refinación. Fuente: [[mip_encadenamientos_minerales]] · [[mip_demanda_intermedia_minerales]].
+- **Peso (HEM 2018):** hacia atrás 0.079 %, hacia adelante 0.159 %, total **0.238 %** del VBP nacional (rango 72 de 834). Por eslabón (HEM adelante, L1/L2/L3): 0.159 / 0.001 / 0.017 % (clase L2 compartida: en clases compartidas o agregadas el valor es de la clase completa). Segunda variante del encadenamiento, junto al Rasmussen (manuscrito §VI.4.1 y §VI.8). Fuente: [[mip_hem_minerales]] · [[mip_hem_eslabones]].
 
 ## 5. Cierre aguas abajo (¿la cadena se cierra o se importa?)
 

@@ -6,7 +6,7 @@ tipo: "C — usuario doméstico con eslabón importado"
 eslabon_ruptura: "L1→L2 (el silicio/ferrosilicio se importa; sólo el vidrio/cemento es local)"
 tags: [icr, cadena-de-valor, silice, ficha, enclave]
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-29
 status: escalado
 ---
 
@@ -70,6 +70,7 @@ Fuente: [[cv_eslabones_cuantificado]].
 
 - **A quién le vende dentro del país (2018):** **43 %** a *Envases de vidrio*, **39 %** a *Cemento* y el resto a otros no metálicos/cerámica → uso doméstico concentrado en vidrio y cemento.
 - **Arrastre (Rasmussen 2018):** hacia atrás 0.94, hacia adelante **1.92** (rank **18/834**, el **más alto** del bloque): la sílice alimenta muchas industrias, pero el eslabón de silicio de alto valor está fuera. Fuente: [[mip_encadenamientos_minerales]].
+- **Peso (HEM 2018):** hacia atrás 0.006 %, hacia adelante 0.035 %, total **0.041 %** del VBP nacional (rango 276 de 834). Por eslabón (HEM adelante, L1/L2/L3): 0.035 / 0.185 / 0.061 % (clase L2 agregada: en clases compartidas o agregadas el valor es de la clase completa). Segunda variante del encadenamiento, junto al Rasmussen (manuscrito §VI.4.1 y §VI.8). Fuente: [[mip_hem_minerales]] · [[mip_hem_eslabones]].
 
 ## 5. Cierre aguas abajo
 

@@ -6,7 +6,7 @@ tipo: "B — truncada en el metal refinado"
 eslabon_ruptura: "L2→L4 (se exporta como plata refinada; joyería/orfebrería importada)"
 tags: [icr, cadena-de-valor, plata, ficha, enclave]
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-29
 status: escalado
 ---
 
@@ -69,6 +69,7 @@ flowchart LR
 
 - **A quién le vende dentro del país (2018):** **99 %** a *Fundición y refinación de metales preciosos* (331412).
 - **Arrastre (Rasmussen 2018):** hacia atrás 0.99, hacia adelante 1.17 (rank 288/834). Moderado; se agota en la refinación. Fuente: [[mip_encadenamientos_minerales]].
+- **Peso (HEM 2018):** hacia atrás 0.051 %, hacia adelante 0.106 %, total **0.156 %** del VBP nacional (rango 104 de 834). Por eslabón (HEM adelante, L1/L2/L3): 0.106 / 0.001 / 0.017 % (clase L2 compartida: en clases compartidas o agregadas el valor es de la clase completa). Segunda variante del encadenamiento, junto al Rasmussen (manuscrito §VI.4.1 y §VI.8). Fuente: [[mip_hem_minerales]] · [[mip_hem_eslabones]].
 
 ## 5. Cierre aguas abajo
 

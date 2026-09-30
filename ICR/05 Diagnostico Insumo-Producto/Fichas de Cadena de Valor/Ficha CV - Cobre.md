@@ -6,7 +6,7 @@ tipo: "B — truncada en el metal"
 eslabon_ruptura: "L2→L3 (metal refinado exportado / semis importados)"
 tags: [icr, cadena-de-valor, cobre, ficha, enclave]
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-29
 status: piloto-formato
 ---
 
@@ -87,6 +87,7 @@ Fuente: [[cv_eslabones_cuantificado]] · [[peso_bloque_mineria]].
 
 - **A quién le vende dentro del país (2018):** 93.5 % a *Fundición y refinación de cobre*; el resto es autoconsumo minero. En 2013 la venta se repartía 52 % fundición / 45 % laminación → la conexión con la **laminación se debilitó** (señal de que la cadena se acortó, no se profundizó).
 - **Arrastre (Rasmussen 2018):** hacia atrás 0.94 (jala poco a proveedores), hacia adelante **1.34** (rank 185 de 834). El empuje "hacia adelante" es alto **pero se materializa como exportación de metal**, no como más eslabones locales. Fuente: [[mip_encadenamientos_minerales]] · [[mip_demanda_intermedia_minerales]].
+- **Peso (HEM 2018):** hacia atrás 0.076 %, hacia adelante 0.250 %, total **0.325 %** del VBP nacional (rango 46 de 834). Por eslabón (HEM adelante, L1/L2/L3): 0.250 / 0.234 / 0.046 % (clase L2 propia: en clases compartidas o agregadas el valor es de la clase completa). Segunda variante del encadenamiento, junto al Rasmussen (manuscrito §VI.4.1 y §VI.8). Fuente: [[mip_hem_minerales]] · [[mip_hem_eslabones]].
 
 ## 5. Cierre aguas abajo (¿la cadena se cierra o se importa?)
 

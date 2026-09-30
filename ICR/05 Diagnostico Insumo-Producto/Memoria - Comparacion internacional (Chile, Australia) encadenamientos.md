@@ -3,7 +3,7 @@ title: "Memoria — Comparación internacional (minería): ¿casos de éxito?"
 type: resultados
 tags: [icr, comparacion-internacional, chile, australia, finlandia, suecia, china, brasil, peru, encadenamientos, ghosh, enclave, icio]
 created: 2026-09-06
-updated: 2026-09-08
+updated: 2026-09-29
 status: activo
 ---
 
@@ -184,5 +184,21 @@ El índice de Ghosh (§1) es un coeficiente de **asignación**; no mide cuánto 
 - **"Digging in the dark"** (2021), *Mineral Economics* (Springer) — revisión de política minera sueca y finlandesa. https://link.springer.com/article/10.1007/s13563-021-00255-6
 - Datos de concentrado de cobre chileno (2024, ~94% exportado; 50.9% concentrado / 33% procesado): Springer y análisis sectoriales 2025. https://link.springer.com/article/10.1007/s40171-025-00464-w · https://en.wikipedia.org/wiki/List_of_copper_smelters_in_Chile
 - Método de encadenamientos (Rasmussen 1956; Hirschman 1958); comparación UE: https://www.sciencedirect.com/science/article/abs/pii/S0301420706000055
+
+## 5bis. Extracción hipotética (HEM) de la minería por país (2026-09-29)
+Segunda variante del encadenamiento internacional: HEM del sector minero sobre el **bloque doméstico 45×45** de cada país (OECD ICIO 2023). `10 Datos/scripts/icio_hem.py` → `processed/icio_hem_mineria.csv` (8 países × B05_06/B07_08/B09; cortes 2008/2013/2018/2020; validado SM vs fuerza bruta ≤2.3e-14). Fuentes: zips ICIO 2006-2010, 2011-2015 y 2016-2020 (CSV completos no conservados; ver README de ICIO). En el manuscrito: §VII.4.1 (Cuadro VII.2, Ilustración VII.4); serie en Anexo B.10.
+
+| País (B07_08) | HEM total 2008 | 2013 | 2018 | 2020 | Rasmussen 2018 |
+|---|---:|---:|---:|---:|---:|
+| Chile | 16.86 | 12.21 | 6.74 | 8.59 | 0.73 |
+| Australia | 4.96 | 5.31 | 5.23 | 7.53 | 0.83 |
+| Perú | 5.01 | 4.09 | 4.49 | 4.28 | 0.62 |
+| China | 3.94 | 4.29 | 3.53 | 3.63 | 1.53 |
+| Brasil | 1.70 | 1.66 | 2.14 | 1.93 | 0.99 |
+| México | 1.39 | 1.69 | 1.44 | 1.61 | 1.51 |
+| Suecia | 0.82 | 0.95 | 0.86 | 0.97 | 1.27 |
+| Finlandia | 0.74 | 0.82 | 0.78 | 0.75 | 1.31 |
+
+**Lectura (descriptiva y conjunta, 2018).** Las dos variantes ordenan a los países de forma casi inversa: México y los nórdicos combinan intensidad alta (Rasmussen 1.27-1.51) con peso bajo (HEM 0.78-1.44 %); Chile, Perú y Australia, intensidad baja (0.62-0.83) con el peso más alto (4.49-6.74 %); China registra valores altos en ambas (1.53; 3.53 %). Los niveles entre añadas no son estrictamente comparables (2008 = pico del superciclo).
 
 ← [[Memoria - Encadenamientos MIP (Leontief Ghosh Hirschman-Rasmussen)]] · [[Memoria - Georreferenciacion y destinos (extraccion, transformacion, exportacion)]]

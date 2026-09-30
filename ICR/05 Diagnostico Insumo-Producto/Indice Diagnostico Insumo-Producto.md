@@ -1,31 +1,33 @@
 ---
 title: Índice — Diagnóstico Insumo-Producto
 type: resultados
-tags: [icr, insumo-producto]
+tags: [icr, insumo-producto, indice]
 created: 2026-07-16
-status: pendiente
+updated: 2026-09-29
+status: vigente
 ---
 
-> [!warning] Reencuadre pendiente (2026-07-23) — diseño descriptivo
-> El proyecto pasó de un diseño causal (panel HHI→Ghosh) a uno **descriptivo de cadenas de valor**. Esta nota aún refleja el enfoque causal y se reescribirá en la fase de capítulos. Ver [[Protocolo v3 - Rediseño descriptivo (cadenas de valor)]] y [[Columna Vertebral Metodologica]].
+# Índice — Diagnóstico insumo-producto (encadenamientos)
 
+Carpeta de **memorias de cálculo** de los encadenamientos productivos. En el manuscrito (estructura de 9 capítulos) el método vive en el **Cap. III** (§III.2-III.3, III.8-III.9; ecuaciones numeradas 1-10) y los resultados en los **Caps. VI, VII y VIII**; las series completas en el **Anexo B**. Diseño descriptivo: los coeficientes son descriptores, no variables de un modelo causal.
 
-# Capítulo V — Diagnóstico de encadenamientos productivos ⏳ Pendiente
+## Dos variantes del encadenamiento hacia adelante
+- **Intensidad — Ghosh-Rasmussen** (media de la economía = 1): cuán articulado está un sector por unidad de producto.
+- **Peso — extracción hipotética (HEM)** (Miller y Lahr, 2001; método de Morales-López, 2023): % del VBP que se perdería al extraer las compras o ventas del sector.
+- Pauta de lectura (del alumno): interpretación **descriptiva**; los dos coeficientes se leen **por separado y en conjunto**.
 
-Objetivo específico 1: calcular Leontief (hacia atrás), Ghosh (hacia adelante) e índices normalizados Hirschman-Rasmussen para los 10 minerales, y contrastarlos con Chile y Australia.
+## Memorias
+| Memoria | Qué contiene | Manuscrito | Datos |
+|---|---|---|---|
+| [[Memoria - Encadenamientos MIP (Leontief Ghosh Hirschman-Rasmussen)]] | Leontief, Ghosh, Rasmussen y demanda intermedia por mineral (2013/2018 + 2008 ref.); **§9 HEM por mineral** | §VI.2-VI.3, VI.7, **VI.8** | `mip_encadenamientos_minerales`, `mip_demanda_intermedia_minerales`, `mip_hem_minerales` |
+| [[Memoria - Encadenamientos por eslabon (extraccion, refinacion, semimanufactura)]] | Ghosh por eslabón L1/L2/L3 (nacional, estatal, internacional); **§4 HEM por eslabón** | §VI.4, **VI.4.1**, VII | `mip_encadenamientos_eslabones`, `mip_hem_eslabones`, `icio_eslabones_metal` |
+| [[Memoria - Comparacion internacional (Chile, Australia) encadenamientos]] | Ghosh por país (8 países, OECD ICIO), DVA/crudo_share; **§5bis HEM por país 2008-2020** | §VII.4, **VII.4.1**, VII.5 | `icio_comparacion_mineria`, `icio_dva_mineria`, `icio_hem_mineria` |
+| [[Memoria - Georreferenciacion y destinos (extraccion, transformacion, exportacion)]] | Extracción por estado, nodos, destinos; Ghosh estatal e interestatal; **§3quater HEM estatal** | §VIII.7 (incl. **VIII.7.3**) | `georref_*`, `ghosh_estatal_mineria`, `ghosh_interestatal_mineria`, `hem_estatal_mineria` |
+| [[Memoria - Peso del bloque de 10 minerales (PIB, exportaciones, empleo)]] | Relevancia económica del bloque | §I | `peso_bloque_*` |
+| [[Indice - Fichas de Cadena de Valor]] | 10 fichas L0-L4 (incluyen Rasmussen y HEM 2018 en su §4) | Cap. VIII, Anexo C | `cv_*` |
 
-**Depende de**: acceso y procesamiento de las Matrices Insumo-Producto de INEGI (cortes 2003, 2008, 2012, 2018; actualización RAS a 2020/2023) y de las bases EORA/OECD TiVA para Chile y Australia. Ver [[Diseno Metodologico|Diseño Metodológico]].
+## Verificación
+- Matemática y validación de cada indicador: [[Auditoria de indicadores (justificacion, matematica, limites)]] (§2.1-2.7, 6, 7.1-7.3).
+- Reproducción y cotejo manuscrito ↔ datos: `13 Entregables/Consolidado datos y calculos/` (ver [[Historial de entregables]] §6).
 
-**Produce**: la variable dependiente principal (coeficiente de Ghosh) que alimenta el [[Modelo Econometrico|modelo de panel del Cap. VI]] — dependencia técnica declarada en el cronograma: la Fase 1 debe completarse antes de que la Fase 2 estime el panel.
-
-> [!done] Fase de datos (2026-07-30) — MIP calculada
-> Encadenamientos por mineral (Leontief, Ghosh, Hirschman-Rasmussen) + demanda intermedia doméstica ya construidos y validados. Ver [[Memoria - Encadenamientos MIP (Leontief Ghosh Hirschman-Rasmussen)]]. Falta reescribir este índice y el Cap. V al marco descriptivo (fase de capítulos).
-
-## Pendientes concretos
-- [x] Obtener/depurar MIP INEGI por corte disponible (2013 + 2018, nivel Clase)
-- [x] Calcular Leontief y Ghosh por mineral y corte
-- [x] Calcular índices normalizados Hirschman-Rasmussen
-- [x] Demanda intermedia doméstica por mineral (Obj. 2)
-- [ ] (Opcional) Matrices EORA/OECD TiVA para Chile y Australia — comparación internacional opcional en el diseño descriptivo
-
-← [[Home]] · [[Estructura de la Tesis]]
+← [[Home]] · [[Catalogo de Bases de Datos]] · [[Arquitectura del documento (estructura expositiva)]]
