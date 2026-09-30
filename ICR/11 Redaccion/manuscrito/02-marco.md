@@ -61,7 +61,7 @@ En lugar de designar un único mineral como caso de contraste, el corpus se desc
 
   Cobre         Sí                    Sí                  \~6,000-7,000                       Cuasi-monopolio (Grupo México ≈78%)
 
-  Fluorita      Sí                    Sí                  ≈6,525 (2004-11) → 10,000 (2012+)   Duopolio hasta 2011; monopolio de grupo (Orbia/Koura) desde ene-2012
+  Fluorita      Sí                    Sí                  ≈6,525 (2005-11) → 10,000 (2012+)   Duopolio hasta 2011; monopolio de grupo (Orbia/Koura) desde ene-2012
 
   Grafito       Sí                    Sí                  ≈5,848 (2004-13) → 10,000 (2014+)   Duopolio hasta 2013; monopolio de Grafitos Mexicanos desde 2014
 

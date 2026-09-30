@@ -3,7 +3,7 @@ title: "Handoff — Estado actual (HEM, consolidado y certificación) 2026-09-29
 type: handoff
 tags: [icr, handoff, estado, hem, consolidado, certificacion, manuscrito]
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-09-30
 status: activo
 ---
 
@@ -24,7 +24,7 @@ status: activo
 
 ## 1. Estado actual
 
-**Manuscrito** — `11 Redaccion/manuscrito/ICR - Manuscrito (nueva estructura).docx` (+ PDF, 170 pp. aprox.):
+**Manuscrito** — `11 Redaccion/manuscrito/ICR - Manuscrito (nueva estructura).docx` (+ PDF, 176 pp.):
 - 9 capítulos + Anexos B/C/D; **45 cuadros, 33 ilustraciones**, índices como campos de Word, citas y bibliografía APA, **0 referencias rotas**.
 - Fuentes en `11 Redaccion/manuscrito/*.md`; figuras en `11 Redaccion/figuras/` (`fig_*.py`).
 
@@ -43,6 +43,7 @@ status: activo
 3. **Redacción matemática del Cap. III** homologada a Morales-López (ecuaciones numeradas 1-13).
 4. **Referencias nuevas**: Morales-López (2023), Miller y Lahr (2001), Dietzenbacher y Van der Linden (1997) — en `pandoc/references.bib`, `12 Referencias/Bibliografia.md` y el mapa de citas de `pandoc/build_book.py`.
 5. Cuadro III.2 (síntesis de indicadores), Anexo D y Cuadro IX.2 (vacíos) y la síntesis (VI.9, IX) ya incluyen el HEM.
+6. **Pauta descriptiva aplicada (2026-09-30)** a los pasajes que interpretaban cálculos en V.12.1, VI.2-VI.7, VI.9, VII.2-VII.8, VIII.2, VIII.5-VIII.8, IX.1 y IX.2; dos inconsistencias de HHI corregidas (sílice en la ilustración del plano; fluorita 2004). Detalle en [[Bitacora]] (2026-09-30). **No se tocaron** y quedan a decisión del alumno: IX.3-IX.4 (bases de política), dos frases de método en §III.2 y §III.7, la columna «Lectura» del cuadro del CCV y V.2-V.11.
 
 ## 2. Cómo regenerar todo (orden)
 Desde `ICR/`:
@@ -62,7 +63,7 @@ py "13 Entregables/Consolidado datos y calculos/cotejo_certificacion.py"   # deb
 - **Word**: si `update_pdf.py` deja un `WINWORD.EXE` colgado, el PDF ya está escrito; cerrar ese proceso.
 
 ## 3. Qué sigue (todo opcional salvo 1)
-1. **Versión de entrega del alumno** (voz propia) de los Caps. **III y V-IX** (+ §II.2.5). Guía de lecturas: [[Recomendaciones de lectura por capitulo]].
+1. **Versión de entrega del alumno** (voz propia) de los Caps. **III y V-IX** (+ §II.2.5). La versión base ya sigue la pauta descriptiva (2026-09-30); sigue la primera revisión del alumno. Guía de lecturas: [[Recomendaciones de lectura por capitulo]].
 2. **Protocolo**: control de cambios en espera del asesor (no aceptar antes).
 3. ~~Entregables sin HEM~~ → **hecho 2026-09-29 (d)**: todos los entregables tienen versión 2026-09-29 con el HEM (ver [[Historial de entregables]]). Queda: (i) las secciones anteriores de esos entregables conservan su redacción interpretativa previa (solo lo nuevo sigue la pauta descriptiva); alinearlas si se van a presentar. (ii) El cotejo certifica **números**, no afirmaciones de dirección u orden («supera», «en todos»); al preparar los entregables se encontraron y corrigieron cuatro de ese tipo, así que conviene revisarlas a mano en cada texto nuevo. (iii) El canvas de Claude Design sigue en 2026-09-06 (requiere Node).
 4. **Bibliografía**: migrar [[Bibliografia]] a Zotero → `.bib` gestionado.

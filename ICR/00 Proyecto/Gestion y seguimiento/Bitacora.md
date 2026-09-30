@@ -3,10 +3,17 @@ title: Bitácora de Trabajo
 type: proyecto
 tags: [icr, proyecto, bitacora]
 created: 2026-07-16
-updated: 2026-09-29
+updated: 2026-09-30
 ---
 
 # Bitácora de Trabajo
+
+## 2026-09-30 Pauta descriptiva en los pasajes que interpretan cálculos (Caps. V-IX) + dos inconsistencias de HHI
+- **Redacción** (commit `d8456e8`): se reescribieron los pasajes del manuscrito que interpretaban resultados calculados con implicaciones o relaciones («confirma», «revela», «engaña», «señal de», explicaciones causales). Quedan valores, órdenes y rangos. Secciones: V.12.1; VI.2-VI.7 y VI.9; VII.2-VII.8 (salvo VII.4.1); VIII.2, VIII.5, VIII.6, VIII.7, VIII.7.1, VIII.7.2, VIII.8; IX.1 y IX.2. Seis títulos de sección neutralizados; la columna «Lectura» de los cuadros de Ghosh por país y de *crudo_share* pasa a «Posición». Los cuadros numéricos no cambian.
+- **Sin tocar, a revisión del alumno**: secciones HEM (ya seguían la pauta); V.2-V.11 (documentales); VIII.3-VIII.4 (tipología); IX.3-IX.4 (bases de política; IX.3 deriva una implicación de la comparación internacional); §III.2 y §III.7 (dos frases de método); columna «Lectura» del cuadro del CCV.
+- **Correcciones de hecho** al reescribir: V.12.1 decía que el Ghosh de manganeso y fluorita «tiende a ser bajo» (son 1.54 y 1.31) y conservaba el mecanismo causal HHI→Ghosh; VIII.2 llamaba a la barita «igualmente concentrada» (HHI 605); VII.6 daba a Chile «la refinación más integrada» (es el segundo valor, 1.23, tras China 1.30); VIII.7 decía «nueve minerales restantes» con transformación separada (son siete: grafito y barita no tienen refinación).
+- **Inconsistencias de HHI corregidas contra `hhi_consolidado.csv`**: (i) sílice en la ilustración del plano HHI-Ghosh (`fig_cap8.py`) usaba 9 742 (dato de 2021) y pasa a 6 670 (2023, el reciente del cuadro de HHI); (ii) fluorita: el texto decía ≈6 525 en 2004-2011; el dato es 6 001 en 2004 (cobertura 96 %) y 6 525 en 2005-2011. Corregido en V.4.2, V.12.1 y el cuadro del Cap. II.
+- Manuscrito recompilado (PDF de 176 págs.); cotejo 1 453/1 453, 0 difieren.
 
 ## 2026-09-29 (d) Entregables con el HEM + correcciones de redacción detectadas al prepararlos
 - **Versiones 2026-09-29 de todos los entregables** con la extracción hipotética (ver [[Historial de entregables]]): resumen descriptivo docx (gráficos 2c, 2d, 6b y 6c; columna HEM en el cuadro resumen), resumen metodológico md + HTML (indicador 10 en el mapa; §3bis con matemática y tablas por mineral y eslabón; HEM estatal en §7bis y por país en §8), infografía (paneles HEM en §02 y §05; generador `gen_infografia_hem.py`), deck de la infografía (slide «02b · HEM», `gen_hem_slide.py`; 11 diapositivas), ambas presentaciones del protocolo (HTML + PDF, 20 diapositivas, nueva «Ajuste 5»), guion y guía de exposición. Gráficos nuevos en `png_charts/`: `hem`, `hem_eslabon`, `hem_intl`, `hem_estatal`. El canvas de Claude Design no se regeneró porque no hay Node.
