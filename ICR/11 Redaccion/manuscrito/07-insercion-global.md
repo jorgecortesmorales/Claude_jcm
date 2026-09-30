@@ -18,11 +18,11 @@ lang: es-ES
 
 Los capítulos V y VI describieron la estructura extractiva y los encadenamientos internos de cada mineral. Este capítulo completa el retrato hacia afuera: en qué eslabón de la cadena global participa México, hacia dónde se dirige su producción y cómo se compara su inserción con la de otras economías mineras. El análisis sigue siendo descriptivo y se apoya en tres cuerpos de evidencia construidos para esta investigación: el comercio por etapa de procesamiento (1992-2024), las tablas de insumo-producto inter-país de la OCDE (edición 2023, corte 2018) y la clasificación de criticidad producto por producto. El método de cada indicador se expone en el Capítulo III (III.6 y III.9).
 
-## VII.2 El comercio por etapa: una posición que se hace más cruda con el tiempo
+## VII.2 El comercio por etapa de procesamiento
 
-El indicador de posición comercial mide qué fracción de la exportación de cada mineral sale en su forma más cruda (etapa 1: mena o concentrado). Agregado para el bloque de diez minerales, ese indicador describe una **profundización del enclave a lo largo de la serie**: la fracción exportada en bruto pasó de alrededor del 8-11 % en los años noventa y dos mil a 26 % en 2015 y 41 % en 2020-2024 ({{fig:crudo}}). No es que México exporte más, sino que exporta en una fase cada vez menos procesada.
+El indicador de posición comercial mide qué fracción de la exportación de cada mineral sale en su forma más cruda (etapa 1: mena o concentrado). Agregada para el bloque de diez minerales, la fracción exportada en bruto pasó de alrededor del 8-11 % en los años noventa y dos mil a 26 % en 2015 y 41 % en 2020-2024 ({{fig:crudo}}).
 
-El caso del cobre es el más nítido y concentra buena parte del movimiento agregado: la fracción de su exportación que sale como concentrado subió del 42 % en 2015 al 81 % en 2024, al tiempo que crecía la extracción sin ampliarse la capacidad de refinación doméstica. En el otro extremo del flujo, las importaciones confirman el patrón: en cobre, la fracción procesada de las importaciones se mantiene por encima del 80-95 % en toda la serie —se exporta concentrado y se importan semimanufacturas—.
+El cobre concentra buena parte del movimiento agregado: la fracción de su exportación que sale como concentrado subió del 42 % en 2015 al 81 % en 2024. En las importaciones de cobre, la fracción procesada se mantiene por encima del 80-95 % en toda la serie.
 
 ![Ilustración {#fig:crudo}: Fracción de la exportación que sale en bruto (etapa 1), bloque de diez minerales y cobre, 1992-2024. Fuente: cálculo propio con UN Comtrade.](figuras/vii1_crudo_share.png){width=95%}
 
@@ -32,28 +32,28 @@ La segunda cara del comercio es su geografía. El destino de las exportaciones e
 
 ![Ilustración {#fig:china}: Participación de China en las exportaciones del bloque de diez minerales, 1992-2024. Fuente: cálculo propio con UN Comtrade (socio declarado; reexportación y *entrepôt* no depurados).](figuras/vii2_china_share.png){width=95%}
 
-El patrón describe una doble profundización del enclave: se exporta en una fase cada vez más cruda y ese crudo se dirige de forma creciente a un solo comprador, donde ocurre la transformación que no se hace en México.
+Las dos series describen, así, el mismo periodo desde dos ángulos: aumenta la fracción exportada en bruto y aumenta la participación de China como destino.
 
-## VII.4 La comparación internacional: ¿casos de éxito?
+## VII.4 La comparación internacional
 
-El protocolo de esta investigación tomaba a Chile y Australia como referencias de «casos de éxito» en generar cadenas de valor a partir de la minería. Puesto a prueba con una fuente comparable —las tablas insumo-producto inter-país de la OCDE, corte 2018, el mismo año del índice de Ghosh nacional del Capítulo VI—, ese supuesto se matiza. Sobre el bloque doméstico de cada país se calculó el encadenamiento hacia adelante del sector de minería no energética con el mismo método del Capítulo VI (índice de Ghosh-Rasmussen, media de cada economía = 1). Además de Chile y Australia se incorporaron seis comparables con una lógica explícita: dos referentes del clúster nórdico —Finlandia y Suecia—, reconocidos por su integración metalúrgica; China, el procesador global al que se dirige el grueso del concentrado de cobre mexicano; Brasil, el par latinoamericano por tamaño industrial; y Perú, el vecino andino con la misma canasta polimetálica que México ({{fig:ghpais}}, {{cua:ghpais}}).
+El protocolo de esta investigación tomaba a Chile y Australia como referencias de «casos de éxito» en generar cadenas de valor a partir de la minería. Para compararlos con una fuente homogénea se emplean las tablas insumo-producto inter-país de la OCDE, corte 2018, el mismo año del índice de Ghosh nacional del Capítulo VI. Sobre el bloque doméstico de cada país se calculó el encadenamiento hacia adelante del sector de minería no energética con el mismo método del Capítulo VI (índice de Ghosh-Rasmussen, media de cada economía = 1). Además de Chile y Australia se incorporaron seis comparables con una lógica explícita: dos referentes del clúster nórdico —Finlandia y Suecia—, reconocidos por su integración metalúrgica; China, el procesador global al que se dirige el grueso del concentrado de cobre mexicano; Brasil, el par latinoamericano por tamaño industrial; y Perú, el vecino andino con la misma canasta polimetálica que México ({{fig:ghpais}}, {{cua:ghpais}}).
 
 ![Ilustración {#fig:ghpais}: Encadenamiento hacia adelante del sector de minería no energética (Ghosh-Rasmussen, media país = 1), OCDE ICIO, corte 2018. México en rojo. Fuente: cálculo propio con OECD ICIO 2023.](figuras/vii3_ghosh_paises.png){width=85%}
 
 Cuadro {#cua:ghpais}: Encadenamiento hacia adelante del sector de minería no energética por país (Ghosh-Rasmussen, media país = 1), 2018. Caveat: comparación a nivel de sector-minería agregado, no por mineral (clasificación ISIC). Fuente: cálculo propio con OECD ICIO 2023; base `icio_comparacion_mineria.csv`.
 
-| País | Ghosh hacia adelante | Lectura |
+| País | Ghosh hacia adelante | Posición |
 |---|---:|---|
-| China | 1.53 | Procesador integrado de escala global |
-| México | 1.51 | Alto en el agregado, pero engaña (véase VII.5) |
-| Finlandia | 1.31 | Integración metalúrgica (Boliden, refinación) |
-| Suecia | 1.27 | Fundición y refinación domésticas |
-| Brasil | 0.99 | En la media; siderurgia |
-| Australia | 0.83 | Por debajo de la media; servicios mineros (METS) |
-| Chile | 0.73 | Por debajo de la media; propiedad estatal y fisco |
-| Perú | 0.62 | El más bajo; misma canasta polimetálica que México |
+| China | 1.53 | Por encima de la media; el más alto |
+| México | 1.51 | Por encima de la media |
+| Finlandia | 1.31 | Por encima de la media |
+| Suecia | 1.27 | Por encima de la media |
+| Brasil | 0.99 | En la media |
+| Australia | 0.83 | Por debajo de la media |
+| Chile | 0.73 | Por debajo de la media |
+| Perú | 0.62 | Por debajo de la media; el más bajo |
 
-Cuatro lecturas se derivan. Primera: Chile, Australia, Brasil y Perú **no** son casos de éxito en el encadenamiento hacia adelante; su minería se sitúa en o por debajo del promedio de su propia economía. Lo que distingue a algunos no es una cadena manufacturera lograda, sino la respuesta institucional —la propiedad estatal y la captura fiscal (Codelco) en Chile, los servicios y la tecnología minera en Australia—. Segunda: el referente en integración aguas abajo es China y el modelo nórdico (Finlandia y Suecia), no los productores latinoamericanos. Tercera: el coeficiente agregado de México (1.51) es engañosamente alto, porque promedia los metales que sí se funden en el país con el cobre que se exporta en concentrado. Cuarta, y la más ilustrativa: México (1.51) y China (1.53) tienen un índice casi idéntico, pero significan cosas opuestas, como muestra la descomposición de valor agregado de la sección siguiente.
+El índice ordena a los países en tres grupos. China (1.53), México (1.51), Finlandia (1.31) y Suecia (1.27) se sitúan por encima de la media de su propia economía; Brasil (0.99), en la media; y Australia (0.83), Chile (0.73) y Perú (0.62), por debajo. Los dos países que el protocolo tomaba como referencia quedan, así, por debajo de la media en este indicador. México registra el segundo valor más alto, a dos centésimas del de China. El dato corresponde al sector de minería no energética en conjunto y no distingue minerales; la sección VII.5 añade, para los mismos países, la descomposición de valor agregado.
 
 ### VII.4.1 El peso de la minería por país: la extracción hipotética
 
@@ -78,34 +78,34 @@ Cuadro {#cua:hempais}: Los dos coeficientes de encadenamiento hacia adelante de 
 
 *Los dos coeficientes en conjunto.* Las dos variantes ordenan a los países de forma casi inversa. México registra el segundo índice de Rasmussen más alto (1.51) y, a la vez, uno de los pesos más bajos (HEM total 1.44 %); los países nórdicos combinan también intensidad alta (1.31 y 1.27) con peso bajo (0.78 y 0.86). En el extremo opuesto, Chile, Perú y Australia registran los índices de Rasmussen más bajos (0.73, 0.62 y 0.83) y, a la vez, los pesos más altos (6.74, 4.49 y 5.23). China es el único país con valores altos en las dos variantes (Rasmussen 1.53; HEM 3.53). El índice de Rasmussen describe la articulación de la minería por unidad de producto dentro de cada economía; el HEM, la fracción del VBP de cada país que depende de su minería.
 
-## VII.5 El enclave en dinero: la descomposición de valor agregado
+## VII.5 La descomposición de valor agregado
 
-El índice de Ghosh es un coeficiente de asignación; no mide cuánto valor retiene el país. Para verlo se descompone, sobre la matriz global, el valor agregado minero que cada país exporta, separando la parte que sale ya transformada en casa de la que sale como producto minero en crudo para reprocesarse en el extranjero (*crudo_share*). Un valor alto de ese cociente es la firma del enclave en dinero. La {{fig:ghcrudo}} cruza ambos indicadores y el {{cua:crudo}} los reúne.
+El índice de Ghosh es un coeficiente de asignación; no mide cuánto valor retiene el país. Para medirlo se descompone, sobre la matriz global, el valor agregado minero que cada país exporta, separando la parte que sale ya transformada en casa de la que sale como producto minero en crudo para reprocesarse en el extranjero (*crudo_share*). La {{fig:ghcrudo}} cruza ambos indicadores y el {{cua:crudo}} los reúne.
 
-![Ilustración {#fig:ghcrudo}: Encadenamiento hacia adelante (Ghosh) frente a fracción del valor minero exportado en crudo (crudo_share), 2018. México y China tienen un Ghosh casi idéntico pero una captura de valor opuesta. Fuente: cálculo propio con OECD ICIO 2023.](figuras/vii4_ghosh_vs_crudo.png){width=75%}
+![Ilustración {#fig:ghcrudo}: Encadenamiento hacia adelante (Ghosh) frente a fracción del valor minero exportado en crudo (crudo_share), 2018. Fuente: cálculo propio con OECD ICIO 2023.](figuras/vii4_ghosh_vs_crudo.png){width=75%}
 
 Cuadro {#cua:crudo}: Fracción del valor agregado minero exportado que sale en crudo (*crudo_share*), minería no energética, 2018, y su trayectoria. Fuente: cálculo propio con OECD ICIO 2023; base `icio_dva_mineria.csv`.
 
-| País | crudo_share (2018) | Trayectoria | Lectura |
+| País | crudo_share (2018) | Trayectoria | Posición |
 |---|---:|---|---|
-| China | 0.07 | 0.20 → 0.07 | Funde casi todo lo que extrae |
-| México | 0.38 | 0.24 → 0.48 | El agregado engaña; el cobre sale en concentrado |
-| Finlandia | 0.45 | 0.31 → 0.51 | Integra vía refinación de metales de batería |
-| Suecia | 0.48 | 0.42 → 0.46 | Fundición doméstica (Boliden) |
-| Australia | 0.77 | 0.52 → 0.84 | Exporta mineral, servicios como palanca |
-| Brasil | 0.82 | 0.61 → 0.93 | Exporta mineral de hierro |
-| Chile | 0.97 | ≈ 0.98 | El «referente» del protocolo, enclave profundo |
-| Perú | 0.98 | 0.92 → 0.98 | Misma canasta que México; el más profundo |
+| China | 0.07 | 0.20 → 0.07 | El más bajo; desciende |
+| México | 0.38 | 0.24 → 0.48 | Segundo más bajo; asciende |
+| Finlandia | 0.45 | 0.31 → 0.51 | Asciende |
+| Suecia | 0.48 | 0.42 → 0.46 | Variación menor |
+| Australia | 0.77 | 0.52 → 0.84 | Asciende |
+| Brasil | 0.82 | 0.61 → 0.93 | Asciende |
+| Chile | 0.97 | ≈ 0.98 | Sin cambio en la serie |
+| Perú | 0.98 | 0.92 → 0.98 | El más alto; asciende |
 
-La descomposición confirma cuatro cosas. En términos de valor, Chile y Perú son los enclaves más profundos (cerca del 98 % de su valor minero exportado sale en crudo): el «referente» del protocolo es, en dinero, uno de los casos menos integrados, y Perú —con la misma canasta que México— muestra que el enclave no es idiosincrásico, sino resultado de la falta de transformación doméstica. En el extremo opuesto, China exporta en crudo apenas el 7 %: funde casi todo, y es a donde va el valor que los demás no retienen. En México, el agregado vuelve a engañar: su *crudo_share* (0.38) es incluso menor que el de Suecia porque promedia los metales preciosos que sí se funden en el país con el cobre que sale casi por completo en concentrado —el enclave del cobre solo aparece al desagregar—. La comparación México (Ghosh 1.51, crudo 0.38) frente a China (1.53, crudo 0.07) —arrastre casi idéntico, captura opuesta— es la prueba más clara de por qué el índice de Ghosh no debe leerse solo. Con todo, de punta a punta el patrón mexicano se profundiza: el *crudo_share* pasa de 0.24 (1995) a 0.48 (2020), coherente con el desplazamiento de destinos hacia China.
+Por el *crudo_share* de 2018, Perú (0.98) y Chile (0.97) registran los valores más altos: cerca del 98 % del valor agregado minero que exportan sale en crudo. Les siguen Brasil (0.82) y Australia (0.77). Suecia (0.48), Finlandia (0.45) y México (0.38) quedan por debajo de 0.5, y China registra el valor más bajo (0.07). El valor de México es un agregado del sector: reúne los metales preciosos, que se funden en el país, con el cobre, cuya exportación sale mayoritariamente como concentrado (VII.2). México y China registran un índice de Ghosh casi igual (1.51 y 1.53) y un *crudo_share* distinto (0.38 y 0.07). En la serie, el *crudo_share* de México pasa de 0.24 (1995) a 0.48 (2020), y el de China desciende de 0.20 a 0.07.
 
 ## VII.6 El encadenamiento por eslabón entre países
 
-La comparación gana precisión al calcular el encadenamiento no solo para la extracción, sino también para la refinación (industrias metálicas básicas) y la semimanufactura (productos metálicos) de cada país ({{fig:eslintl}}). El contraste es nítido: **China** sostiene el arrastre de la extracción a la refinación (1.53 → 1.30): es el procesador integrado. **México** cae más (1.51 → 1.17): su alto arrastre extractivo no se prolonga con la misma fuerza a la transformación. En el otro extremo, **Chile** —con una extracción de arrastre bajísimo (0.73)— tiene la refinación más integrada (1.23): su poca fundición sí alimenta industria, lo que confirma que el índice extractivo aislado engaña en ambos sentidos. Este patrón coincide con el observado por mineral en el Capítulo VI (la refinación de metales preciosos cae a 0.62) y por entidad, donde la transformación metálica con más arrastre se concentra en el eje siderúrgico del noreste.
+El encadenamiento se calcula también para la refinación (industrias metálicas básicas) y la semimanufactura (productos metálicos) de cada país ({{fig:eslintl}}). En **China**, el índice pasa de 1.53 en la extracción a 1.30 en la refinación; en **México**, de 1.51 a 1.17; y en **Chile**, de 0.73 a 1.23, el segundo valor de refinación más alto de los ocho países.
 
 ![Ilustración {#fig:eslintl}: Encadenamiento hacia adelante por eslabón de la cadena metálica (extracción, refinación, semimanufactura), China, México y Chile, 2018. Fuente: cálculo propio con OECD ICIO 2023.](figuras/vii5_eslabones_intl.png){width=90%}
 
-El {{cua:eslintl}} extiende el ejercicio a los ocho países. La lectura por eslabón separa dos trayectorias: las economías integradas (China y los nórdicos) parten de un arrastre extractivo alto que se sostiene en la refinación, mientras que los exportadores de mineral (Chile, Perú, Australia, Brasil) parten de un arrastre extractivo bajo y solo lo recuperan aguas abajo —donde su escasa fundición sí alimenta industria—. México ocupa una posición intermedia y reveladora: su arrastre extractivo es de los más altos (1.51), pero cae en la refinación (1.17) más de lo que cae en China (1.30), señal de que su alto arrastre en la mina no se prolonga con la misma fuerza a la transformación.
+El {{cua:eslintl}} extiende el ejercicio a los ocho países. En China, México, Finlandia y Suecia el índice de la extracción supera la media y desciende en la refinación (de 1.53 a 1.30, de 1.51 a 1.17, de 1.31 a 1.06 y de 1.27 a 1.08). En Brasil, Chile y Perú la extracción queda en la media o por debajo y el índice sube en la refinación (de 0.99 a 1.19, de 0.73 a 1.23 y de 0.62 a 0.98); en Australia se mantiene en 0.83 en los dos primeros eslabones y sube a 1.24 en la semimanufactura. La caída entre extracción y refinación es de 0.34 en México y de 0.23 en China.
 
 Cuadro {#cua:eslintl}: Índice de Ghosh hacia adelante por eslabón de la cadena metálica (extracción, refinación C24, semimanufactura C25), ocho países, 2018 (Rasmussen, media país = 1). C24/C25 son toda la industria metálica, no solo los diez minerales. Fuente: cálculo propio con OECD ICIO 2023 (`icio_eslabones_metal.csv`).
 
@@ -120,9 +120,9 @@ Cuadro {#cua:eslintl}: Índice de Ghosh hacia adelante por eslabón de la cadena
 | Chile | 0.73 | 1.23 | 1.12 |
 | Perú | 0.62 | 0.98 | 1.06 |
 
-## VII.7 Criticidad y dependencia: el eslabón estratégico se importa
+## VII.7 Criticidad por producto y capacidad productiva
 
-La comparación se agudiza al recordar que las listas oficiales de criticidad no señalan minerales genéricos, sino productos y grados específicos (Capítulo II): la Unión Europea (Critical Raw Materials Act, 2023) designa estratégicos el silicio metálico, el grafito natural grado batería y el manganeso grado batería, y el USGS (2025) añadió el silicio, el cobre, el plomo y la plata a su lista. Cruzando esa criticidad producto por producto con lo que México efectivamente produce, aparece un patrón nítido ({{cua:crit}}): en los minerales cuyo eslabón de mayor criticidad es de grado batería o electrónico, México extrae y exporta el crudo de baja criticidad e importa —o no accede a— el producto estratégico.
+Las listas oficiales de criticidad no señalan minerales genéricos, sino productos y grados específicos (Capítulo II): la Unión Europea (Critical Raw Materials Act, 2023) designa estratégicos el silicio metálico, el grafito natural grado batería y el manganeso grado batería, y el USGS (2025) añadió el silicio, el cobre, el plomo y la plata a su lista. El {{cua:crit}} cruza esa criticidad producto por producto con lo que México efectivamente produce.
 
 Cuadro {#cua:crit}: Producto de mayor criticidad por mineral y capacidad productiva de México. Fuente: USGS (2022, 2025), UE (CRMA, 2023) e IEA; clasificación propia en `criticidad_productos.csv`.
 
@@ -135,10 +135,10 @@ Cuadro {#cua:crit}: Producto de mayor criticidad por mineral y capacidad product
 | Cobre | Cátodo de cobre refinado | Sí (parcial) |
 | Oro | Oro refinado | Sí |
 
-La lectura de política es directa: México no solo exporta con menos transformación que China o los nórdicos, sino que el eslabón de mayor valor y criticidad —el que una política de seguridad de suministro o de captura de valor buscaría asegurar— es justo el ausente en grafito, sílice y manganeso, y el que se exporta como intermedio en la fluorita. La dependencia crítica de México no está en la mina, sino en el producto transformado de la transición energética, que compra al exterior mientras vende su materia prima.
+De los seis minerales del cuadro, México produce el producto de mayor criticidad en el oro y, de forma parcial, en el cobre; en la fluorita produce el ácido fluorhídrico e importa los fluoropolímeros; y en el grafito, la sílice y el manganeso —cuyo producto de mayor criticidad es de grado batería o electrónico— no lo produce.
 
 ## VII.8 Síntesis
 
-La inserción de México en las cadenas de valor globales confirma y agrava el retrato interno de los capítulos anteriores. México comercia en fases cada vez más crudas y con destino cada vez más concentrado en China; su encadenamiento agregado, alto en apariencia, esconde —al desagregarlo y traducirlo a valor retenido— un enclave que se profundiza; y su dependencia se concentra justamente en los eslabones más críticos, que importa. La referencia internacional desplaza la pregunta de política de «cómo replicar a Chile o Australia» —que no integran— a «qué arreglos de propiedad, fiscales y de capacidad de transformación acompañan a la extracción», que es el terreno donde ni la reforma de 2023 (Capítulo IV) ni el patrón exportador vigente intervienen. Esa discusión se retoma en la síntesis y las bases de política del Capítulo IX.
+La inserción de México en las cadenas de valor globales se resume en cuatro resultados. La fracción del bloque exportada en bruto pasa de alrededor del 8-11 % a 41 % en 2020-2024, y la participación de China como destino, de prácticamente nula al 35 % en 2024. El índice de Ghosh-Rasmussen de la minería mexicana (1.51) es el segundo más alto de los ocho países, y su peso por extracción hipotética (1.44 % del VBP), uno de los más bajos. El *crudo_share* de México es 0.38 en 2018 y asciende de 0.24 a 0.48 en la serie. En el grafito, la sílice y el manganeso, el producto de mayor criticidad no se fabrica en el país. Las bases de política que parten de estos resultados se exponen en el Capítulo IX.
 
 ## Fuentes y referencias
