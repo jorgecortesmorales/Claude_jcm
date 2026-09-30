@@ -195,7 +195,7 @@ Notación de eslabones: **L0** recurso · **L1** extracción/beneficio · **L2**
 ### 7.3 Extracción hipotética (HEM) por país (ICIO)
 - **Qué mide.** El **peso económico** de la minería en cada economía: % del VBP doméstico que se perdería al extraer las compras (atrás) o ventas (adelante) del sector minero. Segunda variante del encadenamiento hacia adelante internacional (7.1 mide intensidad).
 - **Matemática.** Igual que 2.7 (Miller-Lahr casos 3/4), sobre el **bloque doméstico 45×45** de cada país en la matriz ICIO.
-- **Fuente.** `icio_hem_mineria.csv` (8 países × B05_06/B07_08/B09; 2008/2018/2020). Script `icio_hem.py`. Validado SM vs fuerza bruta a 1e-14.
+- **Fuente.** `icio_hem_mineria.csv` (8 países × B05_06/B07_08/B09; 2008/2013/2018/2020). Script `icio_hem.py`. Validado SM vs fuerza bruta a 1e-14.
 - **Límites.** Sector-minería agregado (ISIC), no por mineral; niveles entre añadas no estrictamente comparables (2008 = pico del superciclo).
 - **Por qué se incorpora.** Completa la comparación internacional con las dos variantes del Ghosh; se lee por separado y en conjunto con 7.1. Resultados en §VII.4.1; serie en Anexo B.10.
 

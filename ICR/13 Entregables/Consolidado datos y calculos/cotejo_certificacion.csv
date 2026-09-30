@@ -35,7 +35,7 @@ Cuadro B.8,hem_estatal_mineria.csv,por-entidad (valor en fila),96,96,0,,
 Cuadro VI.5,mip_hem_eslabones.csv + _encadenamientos_eslabones,por-mineral (eslabon L1/L2/L3),50,50,0,,
 Cuadro B.9,mip_hem_eslabones.csv,por-mineral (HEM eslabon 2013/2018),50,50,0,,
 Cuadro VII.2,icio_hem_mineria.csv + _comparacion,por-pais (HEM+Rasmussen),32,32,0,,
-Cuadro B.10,icio_hem_mineria.csv,por-pais (HEM total 2008/2018/2020),24,24,0,,
+Cuadro B.10,icio_hem_mineria.csv,por-pais (HEM total 2008/2013/2018/2020),32,32,0,,
 Cuadro II.1,criticidad_productos.csv,clasificacion / texto,0,0,0,,Clasificacion de criticidad por producto (estrategico/critico/...) — trazable a su CSV; sin cifras de indicador que diferir.
 Cuadro III.1,concordancia_scian_2007_2013_minerales.csv,clasificacion / texto,0,0,0,,Correspondencia mineral -> clase SCIAN (codigos) — trazable a su CSV; sin cifras de indicador que diferir.
 Cuadro III.2,(catalogo de indicadores),clasificacion / texto,0,0,0,,Sintesis de indicadores: que describe cada uno y su base (texto) — trazable a su CSV; sin cifras de indicador que diferir.

@@ -167,7 +167,7 @@ cite("7 Internacional","Ghosh por pais / DVA (ICIO, matriz global)","Ghosh-Rasmu
 d = rd("icio_hem_mineria.csv")
 check("7 Internacional","HEM por pais - total = atras + adelante","hem_total_pct = hem_backward_pct + hem_forward_pct",
       d.hem_backward_pct + d.hem_forward_pct, d.hem_total_pct, tol=1e-3,
-      nota="Extraccion hipotetica de la mineria por pais (bloque domestico ICIO, 2008/2018/2020).")
+      nota="Extraccion hipotetica de la mineria por pais (bloque domestico ICIO, 2008/2013/2018/2020).")
 cite("7 Internacional","HEM por pais (inversion bloque domestico)","idem HEM sobre el bloque domestico 45x45 de cada pais",
      "py \"10 Datos/scripts/icio_hem.py\"","Validada por Sherman-Morrison vs fuerza bruta a 1e-14.")
 

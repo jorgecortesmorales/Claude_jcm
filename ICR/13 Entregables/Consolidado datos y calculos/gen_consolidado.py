@@ -669,13 +669,13 @@ add_formula_cols(ws, dfhl, hr, [
 # 26 HEM internacional por pais (OECD ICIO, bloque domestico)
 # ============================================================
 ws, dfhi, hr = dump("26 HEM internacional","icio_hem_mineria.csv",
-  "Extraccion hipotetica (HEM) de la mineria por pais (OECD ICIO), 2008/2018/2020",
+  "Extraccion hipotetica (HEM) de la mineria por pais (OECD ICIO), 2008/2013/2018/2020",
   "HEM sobre el bloque domestico de cada pais: % del VBP nacional que se perderia al extraer la mineria. "
   "Sector comparable B07_08 (mineria no energetica). Segunda variante del encadenamiento internacional (complementa al Ghosh-Rasmussen de '21 ICIO comparacion'). "
   "Validado por Sherman-Morrison vs fuerza bruta a 1e-14. Niveles entre anios no estrictamente comparables (ver Anexo B.10).",
   widths={"A":6,"B":7,"C":12,"D":9,"E":26,"F":13,"G":15,"H":15,"I":13},
   tipo="Resultado validado + total formula viva", script="icio_hem.py",
-  index_content="HEM de la mineria por pais/sector (2008/2018/2020)")
+  index_content="HEM de la mineria por pais/sector (2008/2013/2018/2020)")
 cols=list(dfhi.columns)
 cb=col_letter(cols.index("hem_backward_pct")+1); cf=col_letter(cols.index("hem_forward_pct")+1)
 ct=col_letter(cols.index("hem_total_pct")+1); b=dfhi.shape[1]

@@ -397,7 +397,7 @@ if c:
     mt=re.match(r'(Cuadro\s+[IVXBCD0-9]+\.[0-9]+)', c['cap']); lbl=mt.group(1) if mt else 'Cuadro (HEM pais)'
     add(lbl,'icio_hem_mineria.csv + _comparacion','por-pais (HEM+Rasmussen)',ncmp,nm,mis)
 
-# B.10 HEM internacional serie (2008/2018/2020)
+# B.10 HEM internacional serie (2008/2013/2018/2020)
 c=getcap('B.10')
 if c:
     hem=rd('icio_hem_mineria.csv'); hem=hem[hem.sector=='B07_08']
@@ -413,7 +413,7 @@ if c:
                 v=float(tok); ncmp+=1
                 if any(match(v,x,0.01) for x in pool[key]): nm+=1
                 else: mis.append(f"{key}: {v}")
-    add('Cuadro B.10','icio_hem_mineria.csv','por-pais (HEM total 2008/2018/2020)',ncmp,nm,mis)
+    add('Cuadro B.10','icio_hem_mineria.csv','por-pais (HEM total 2008/2013/2018/2020)',ncmp,nm,mis)
 
 # ---------- cuadros cualitativos / de clasificacion / codigos (sin cifras de indicador que diferir) ----------
 CUALI={

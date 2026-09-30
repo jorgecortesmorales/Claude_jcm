@@ -215,17 +215,17 @@ Cuadro {#cua:bhemesl}: Extracción hipotética hacia adelante por eslabón y min
 | Fluorita | 0.003 / 0.015 | 0.121 / 0.185 | 0.223 / 0.289 |
 | Barita | 0.000 / 0.000 | 0.121 / 0.185 | — / — |
 
-## B.10 Extracción hipotética (HEM) de la minería por país, cortes 2008/2018/2020
+## B.10 Extracción hipotética (HEM) de la minería por país, cortes 2008/2013/2018/2020
 
-Cuadro {#cua:bhempais}: Extracción hipotética total de la minería no energética (B07_08) por país: porcentaje del VBP doméstico que se perdería al extraer las compras y ventas de la minería; cortes 2008 / 2018 / 2020. Los niveles entre añadas no son estrictamente comparables (año base, precios y clasificación distintos; 2008 corresponde al pico del superciclo de precios); se leen por su orden. Fuente: cálculo propio con OECD ICIO 2023 (`icio_hem_mineria.csv`).
+Cuadro {#cua:bhempais}: Extracción hipotética total de la minería no energética (B07_08) por país: porcentaje del VBP doméstico que se perdería al extraer las compras y ventas de la minería; cortes 2008 / 2013 / 2018 / 2020. Los niveles entre añadas no son estrictamente comparables (año base, precios y clasificación distintos; 2008 corresponde al pico del superciclo de precios); se leen por su orden. Fuente: cálculo propio con OECD ICIO 2023 (`icio_hem_mineria.csv`).
 
-| País | HEM total 2008 (%) | HEM total 2018 (%) | HEM total 2020 (%) |
-|---|---:|---:|---:|
-| Chile | 16.86 | 6.74 | 8.59 |
-| Australia | 4.96 | 5.23 | 7.53 |
-| Perú | 5.01 | 4.49 | 4.28 |
-| China | 3.94 | 3.53 | 3.63 |
-| Brasil | 1.70 | 2.14 | 1.93 |
-| México | 1.39 | 1.44 | 1.61 |
-| Suecia | 0.82 | 0.86 | 0.97 |
-| Finlandia | 0.74 | 0.78 | 0.75 |
+| País | HEM total 2008 (%) | HEM total 2013 (%) | HEM total 2018 (%) | HEM total 2020 (%) |
+|---|---:|---:|---:|---:|
+| Chile | 16.86 | 12.21 | 6.74 | 8.59 |
+| Australia | 4.96 | 5.31 | 5.23 | 7.53 |
+| Perú | 5.01 | 4.09 | 4.49 | 4.28 |
+| China | 3.94 | 4.29 | 3.53 | 3.63 |
+| Brasil | 1.70 | 1.66 | 2.14 | 1.93 |
+| México | 1.39 | 1.69 | 1.44 | 1.61 |
+| Suecia | 0.82 | 0.95 | 0.86 | 0.97 |
+| Finlandia | 0.74 | 0.82 | 0.78 | 0.75 |

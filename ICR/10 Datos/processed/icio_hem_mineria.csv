@@ -23,6 +23,30 @@ anio,pais,pais_nombre,sector,sector_nombre,vbp_musd,hem_backward_pct,hem_forward
 2008,PER,Peru,B05_06,mineria energeticos,5508.3,1.2389,4.6155,5.8544
 2008,PER,Peru,B07_08,mineria no energetica (metales+otra),16941.0,3.4796,1.5268,5.0064
 2008,PER,Peru,B09,servicios apoyo mineria,1226.5,0.1495,0.6513,0.8008
+2013,MEX,Mexico,B05_06,mineria energeticos,81640.4,0.6003,3.8151,4.4155
+2013,MEX,Mexico,B07_08,mineria no energetica (metales+otra),19358.9,0.4016,1.2892,1.6908
+2013,MEX,Mexico,B09,servicios apoyo mineria,13552.0,0.3651,0.2007,0.5658
+2013,CHL,Chile,B05_06,mineria energeticos,626.3,0.0766,0.18,0.2566
+2013,CHL,Chile,B07_08,mineria no energetica (metales+otra),64338.1,7.6085,4.5981,12.2066
+2013,CHL,Chile,B09,servicios apoyo mineria,133.5,0.0134,0.029,0.0424
+2013,AUS,Australia,B05_06,mineria energeticos,91161.0,2.4023,1.9517,4.354
+2013,AUS,Australia,B07_08,mineria no energetica (metales+otra),122115.4,2.9377,2.374,5.3117
+2013,AUS,Australia,B09,servicios apoyo mineria,17719.8,0.4446,0.6264,1.071
+2013,FIN,Finlandia,B05_06,mineria energeticos,568.7,0.0858,0.254,0.3397
+2013,FIN,Finlandia,B07_08,mineria no energetica (metales+otra),1881.2,0.2554,0.5648,0.8202
+2013,FIN,Finlandia,B09,servicios apoyo mineria,62.6,0.0122,0.0162,0.0284
+2013,SWE,Suecia,B05_06,mineria energeticos,354.2,0.0317,0.0616,0.0933
+2013,SWE,Suecia,B07_08,mineria no energetica (metales+otra),5716.9,0.3544,0.5942,0.9485
+2013,SWE,Suecia,B09,servicios apoyo mineria,194.4,0.0142,0.0013,0.0155
+2013,CHN,China,B05_06,mineria energeticos,485859.4,1.5438,5.4635,7.0072
+2013,CHN,China,B07_08,mineria no energetica (metales+otra),285369.0,1.358,2.9325,4.2905
+2013,CHN,China,B09,servicios apoyo mineria,21552.1,0.111,0.3075,0.4185
+2013,BRA,Brasil,B05_06,mineria energeticos,82146.3,0.9721,3.7642,4.7363
+2013,BRA,Brasil,B07_08,mineria no energetica (metales+otra),53769.5,0.725,0.9329,1.6579
+2013,BRA,Brasil,B09,servicios apoyo mineria,4220.1,0.0549,0.236,0.2909
+2013,PER,Peru,B05_06,mineria energeticos,10209.2,1.6811,5.0978,6.7789
+2013,PER,Peru,B07_08,mineria no energetica (metales+otra),22955.9,3.2515,0.8418,4.0933
+2013,PER,Peru,B09,servicios apoyo mineria,1182.2,0.0769,0.4821,0.559
 2018,MEX,Mexico,B05_06,mineria energeticos,46900.8,0.6617,1.8721,2.5338
 2018,MEX,Mexico,B07_08,mineria no energetica (metales+otra),18673.1,0.3101,1.133,1.4432
 2018,MEX,Mexico,B09,servicios apoyo mineria,7921.5,0.1866,0.1305,0.3171
