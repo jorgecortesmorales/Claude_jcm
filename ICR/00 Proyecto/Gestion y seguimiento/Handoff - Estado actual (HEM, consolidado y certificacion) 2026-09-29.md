@@ -24,8 +24,8 @@ status: activo
 
 ## 1. Estado actual
 
-**Manuscrito** — `11 Redaccion/manuscrito/ICR - Manuscrito (nueva estructura).docx` (+ PDF, 176 pp.):
-- 9 capítulos + Anexos B/C/D; **45 cuadros, 33 ilustraciones**, índices como campos de Word, citas y bibliografía APA, **0 referencias rotas**.
+**Manuscrito** — `11 Redaccion/manuscrito/ICR - Manuscrito (nueva estructura).docx` (+ PDF, 178 pp.):
+- 9 capítulos + Anexos B/C/D; **52 cuadros, 33 ilustraciones** (todos numerados y referenciados desde 2026-09-30), índices como campos de Word, citas y bibliografía APA, **0 referencias rotas**.
 - Fuentes en `11 Redaccion/manuscrito/*.md`; figuras en `11 Redaccion/figuras/` (`fig_*.py`).
 
 **Novedades desde el handoff del 2026-09-16:**
@@ -44,6 +44,7 @@ status: activo
 4. **Referencias nuevas**: Morales-López (2023), Miller y Lahr (2001), Dietzenbacher y Van der Linden (1997) — en `pandoc/references.bib`, `12 Referencias/Bibliografia.md` y el mapa de citas de `pandoc/build_book.py`.
 5. Cuadro III.2 (síntesis de indicadores), Anexo D y Cuadro IX.2 (vacíos) y la síntesis (VI.9, IX) ya incluyen el HEM.
 6. **Pauta descriptiva aplicada (2026-09-30)** a los pasajes que interpretaban cálculos en V.12.1, VI.2-VI.7, VI.9, VII.2-VII.8, VIII.2, VIII.5-VIII.8, IX.1 y IX.2; dos inconsistencias de HHI corregidas (sílice en la ilustración del plano; fluorita 2004). Detalle en [[Bitacora]] (2026-09-30). **No se tocaron** y quedan a decisión del alumno: IX.3-IX.4 (bases de política), dos frases de método en §III.2 y §III.7, la columna «Lectura» del cuadro del CCV y V.2-V.11.
+7. **Cuadros sin número (2026-09-30)**: siete cuadros no tenían pie ni número (Cap. II espectro de concentración; Cap. IV contraste institucional; Cap. V cobre-Grupo México, oro top-5, plata por eslabón, zinc por líder y síntesis comparativa) y II.2.5 decía «Cuadro II.x». Corregidos; la numeración de los cuadros del Cap. V se recorre (el HHI pasa de V.1 a V.5) y el cotejo se re-apuntó. Detalle y conflictos pendientes en [[Bitacora]] (2026-09-30 b).
 
 ## 2. Cómo regenerar todo (orden)
 Desde `ICR/`:
@@ -59,7 +60,7 @@ py "13 Entregables/Consolidado datos y calculos/auditoria_consistencia.py"
 py "13 Entregables/Consolidado datos y calculos/cotejo_certificacion.py"   # debe dar 0 difieren
 ```
 - **ICIO**: los CSV completos no se conservan. Los zips de la edición 2023 están en `C:\Users\Jorge\Downloads\` (`2006-2010_SML.zip`, `2011-2015_SML.zip`; el de 2016-2020 se descarga con la URL del README de ICIO). Procedencia: `10 Datos/Bases Originales/12 OECD ICIO/README - OECD ICIO 2023 (procedencia).md`.
-- **Cotejo**: si se inserta un cuadro nuevo, la numeración de los siguientes se recorre; los cuadros HEM se localizan por texto del caption, pero los demás por número → re-apuntar tras recompilar.
+- **Cotejo**: los cuadros documentales (II.1, IV.1, V.1-V.4, V.6) están registrados como «fuentes documentales» en el diccionario `CUALI` del script. Si se inserta un cuadro nuevo, la numeración de los siguientes se recorre; los cuadros HEM se localizan por texto del caption, pero los demás por número → re-apuntar tras recompilar.
 - **Word**: si `update_pdf.py` deja un `WINWORD.EXE` colgado, el PDF ya está escrito; cerrar ese proceso.
 
 ## 3. Qué sigue (todo opcional salvo 1)

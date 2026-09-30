@@ -115,6 +115,10 @@ Finlandia y Suecia integran la cadena mediante una combinación de **propiedad e
 
 ### IV.7.3 Contraste con México (síntesis descriptiva)
 
+El {{cua:contraste}} resume el contraste entre las tres referencias institucionales.
+
+Cuadro {#cua:contraste}: Contraste institucional de la cadena de minerales críticos: China, países nórdicos (Suecia y Finlandia) y México. Fuente: elaboración propia con las fuentes de IV.7 y la descomposición de valor agregado del Capítulo VII.
+
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Dimensión institucional**                   **China**                                          **Nórdicos (SE/FI)**                                     **México**
   --------------------------------------------- -------------------------------------------------- -------------------------------------------------------- -----------------------------------------------------------------

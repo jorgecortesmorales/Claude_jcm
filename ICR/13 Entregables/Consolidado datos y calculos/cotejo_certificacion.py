@@ -157,8 +157,8 @@ def cotejo_entidad(tag, csvname, keycol_csv, numcols_csv, tol, keymap=None, filt
             else: mis.append(f"{key}: {v}")
     add('Cuadro '+tag, csvname, 'por-entidad (valor en fila)', ncmp, nm, mis)
 
-# V.1 HHI subset (2004,2012,2018,reciente) -> hhi_consolidado por mineral (cualquier anio)
-cotejo_entidad('V.1','hhi_consolidado.csv','mineral',['hhi'],1.0)
+# V.5 HHI subset (2004,2012,2018,reciente) -> hhi_consolidado por mineral (cualquier anio)
+cotejo_entidad('V.5','hhi_consolidado.csv','mineral',['hhi'],1.0)
 # VI.1 / VI.2 encadenamientos 2018 / 2013
 enc=['vbp_mmpesos','di_sobre_vbp','backward_rasmussen','forward_rasmussen','backward_L_colsum','forward_G_rowsum']
 cotejo_entidad('VI.1','mip_encadenamientos_minerales.csv','mineral',enc,0.02,filtro=lambda d:d.anio==2018)
@@ -417,7 +417,14 @@ if c:
 
 # ---------- cuadros cualitativos / de clasificacion / codigos (sin cifras de indicador que diferir) ----------
 CUALI={
- 'II.1':('criticidad_productos.csv','Clasificacion de criticidad por producto (estrategico/critico/...)'),
+ 'II.1':('(fuentes documentales)','Listas de criticidad, HHI estimado y tipo de estructura (cifras de literatura, no de CSV)'),
+ 'IV.1':('(fuentes documentales)','Contraste institucional China/nordicos/Mexico (texto; crudo_share citado de VII.3)'),
+ 'V.1':('(fuentes documentales)','Participacion de Grupo Mexico en cobre, 2000-2024 (cifras de fuentes secundarias)'),
+ 'V.2':('(fuentes documentales)','Cinco mayores minas de oro, 2023 (SGM 2024)'),
+ 'V.3':('(fuentes documentales)','Plata: lider en extraccion y en refinacion (fuentes secundarias)'),
+ 'V.4':('(fuentes documentales)','Zinc: lider y top-4, 2017/2018/2024 (fuentes secundarias)'),
+ 'V.6':('(fuentes documentales)','Sintesis comparativa de la estructura empresarial (texto)'),
+ 'II.2':('criticidad_productos.csv','Clasificacion de criticidad por producto (estrategico/critico/...)'),
  'III.1':('concordancia_scian_2007_2013_minerales.csv','Correspondencia mineral -> clase SCIAN (codigos)'),
  'III.2':('(catalogo de indicadores)','Sintesis de indicadores: que describe cada uno y su base (texto)'),
  'VII.5':('criticidad_productos.csv','Criticidad por producto + capacidad de Mexico (clasificacion/texto)'),
