@@ -35,7 +35,7 @@ try:
     com(doc.Save)
     com(doc.ExportAsFixedFormat, PDF, 17)     # 17 = wdExportFormatPDF
     pages = com(doc.ComputeStatistics, 2)     # 2 = wdStatisticPages
-    com(doc.Close, True)
+    com(doc.Close, 0)                         # ya guardado: cerrar sin volver a guardar
     print("PDF actualizado:", PDF, "| paginas:", pages)
 finally:
-    com(word.Quit)
+    com(word.Quit, 0)

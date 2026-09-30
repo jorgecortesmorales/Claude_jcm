@@ -130,7 +130,7 @@ Cuadro {#cua:contraste}: Contraste institucional de la cadena de minerales crít
 
   ¿Litio/estratégicos?                          Domina el refinado mundial                         Metas CRMA de procesamiento 40 % (2030)                  Litio al Estado, **sin capacidad de procesar**
 
-  Resultado en indicadores (crudo_share 2018)   **0.07**                                           **0.45--0.48**                                           0.38 (agregado engañoso; cobre 94.7 % en concentrado)
+  Resultado en indicadores (crudo_share 2018)   **0.07**                                           **0.45--0.48**                                           0.38 (agregado; cobre 81 % en concentrado, 2024)     
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 La comparación deja una lección **descriptiva** para el Cap. VII y las bases de política del Cap. IX: la diferencia entre integrar y no integrar **no está en la dotación** ---Perú y Chile la tienen y exportan \~98 % de su valor minero en crudo--- sino en un **diseño institucional orientado a la transformación**: dirigirla (China), poseerla y financiarla (nórdicos) o fijarle metas y acelerarla (UE-CRMA). El marco mexicano, en cambio, se concentra en **quién extrae y bajo qué condiciones**, sin instrumentos que empujen la cadena hacia adelante. Recuperar la rectoría del recurso y profundizar la cadena de valor son, institucionalmente, **dos políticas distintas**; México ha avanzado en la primera y no en la segunda.

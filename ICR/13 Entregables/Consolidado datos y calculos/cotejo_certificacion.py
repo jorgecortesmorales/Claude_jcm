@@ -417,8 +417,8 @@ if c:
 
 # ---------- cuadros cualitativos / de clasificacion / codigos (sin cifras de indicador que diferir) ----------
 CUALI={
- 'II.1':('(fuentes documentales)','Listas de criticidad, HHI estimado y tipo de estructura (cifras de literatura, no de CSV)'),
- 'IV.1':('(fuentes documentales)','Contraste institucional China/nordicos/Mexico (texto; crudo_share citado de VII.3)'),
+ 'II.1':('(fuentes documentales)','Listas de criticidad, HHI reciente (tomado del Cuadro V.5, que si se coteja) y tipo de estructura'),
+ 'IV.1':('(fuentes documentales)','Contraste institucional China/nordicos/Mexico (texto; crudo_share de VII.3 y fraccion en concentrado de VII.2)'),
  'V.1':('(fuentes documentales)','Participacion de Grupo Mexico en cobre, 2000-2024 (cifras de fuentes secundarias)'),
  'V.2':('(fuentes documentales)','Cinco mayores minas de oro, 2023 (SGM 2024)'),
  'V.3':('(fuentes documentales)','Plata: lider en extraccion y en refinacion (fuentes secundarias)'),

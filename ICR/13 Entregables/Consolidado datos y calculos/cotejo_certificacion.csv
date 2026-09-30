@@ -36,8 +36,8 @@ Cuadro VI.5,mip_hem_eslabones.csv + _encadenamientos_eslabones,por-mineral (esla
 Cuadro B.9,mip_hem_eslabones.csv,por-mineral (HEM eslabon 2013/2018),50,50,0,,
 Cuadro VII.2,icio_hem_mineria.csv + _comparacion,por-pais (HEM+Rasmussen),32,32,0,,
 Cuadro B.10,icio_hem_mineria.csv,por-pais (HEM total 2008/2013/2018/2020),32,32,0,,
-Cuadro II.1,(fuentes documentales),clasificacion / texto,0,0,0,,"Listas de criticidad, HHI estimado y tipo de estructura (cifras de literatura, no de CSV) — trazable a su CSV; sin cifras de indicador que diferir."
-Cuadro IV.1,(fuentes documentales),clasificacion / texto,0,0,0,,Contraste institucional China/nordicos/Mexico (texto; crudo_share citado de VII.3) — trazable a su CSV; sin cifras de indicador que diferir.
+Cuadro II.1,(fuentes documentales),clasificacion / texto,0,0,0,,"Listas de criticidad, HHI reciente (tomado del Cuadro V.5, que si se coteja) y tipo de estructura — trazable a su CSV; sin cifras de indicador que diferir."
+Cuadro IV.1,(fuentes documentales),clasificacion / texto,0,0,0,,Contraste institucional China/nordicos/Mexico (texto; crudo_share de VII.3 y fraccion en concentrado de VII.2) — trazable a su CSV; sin cifras de indicador que diferir.
 Cuadro V.1,(fuentes documentales),clasificacion / texto,0,0,0,,"Participacion de Grupo Mexico en cobre, 2000-2024 (cifras de fuentes secundarias) — trazable a su CSV; sin cifras de indicador que diferir."
 Cuadro V.2,(fuentes documentales),clasificacion / texto,0,0,0,,"Cinco mayores minas de oro, 2023 (SGM 2024) — trazable a su CSV; sin cifras de indicador que diferir."
 Cuadro V.3,(fuentes documentales),clasificacion / texto,0,0,0,,Plata: lider en extraccion y en refinacion (fuentes secundarias) — trazable a su CSV; sin cifras de indicador que diferir.

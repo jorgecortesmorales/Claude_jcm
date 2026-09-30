@@ -52,35 +52,35 @@ El tercer criterio es metodológico: el corpus debe incluir minerales con estruc
 
 ### II.2.4 El espectro de concentración del corpus
 
-En lugar de designar un único mineral como caso de contraste, el corpus se describe a lo largo de todo su espectro de concentración. En el extremo más concentrado se ubican el manganeso (productor único), la fluorita (monopolio de grupo desde la consolidación de enero de 2012) y el grafito (productor formal único desde 2014). En el extremo de menor concentración se ubican los minerales con más productores ---oro y plata (HHI \< 2,000)--- y la barita, cuyo líder ha reducido su participación de forma sostenida (Baramin, de aproximadamente 82% en 2021 a 24.6% en 2024). La revisión de los datos de producción por empresa mostró que dos minerales que inicialmente se supusieron fragmentados no lo son: la sílice está concentrada en Grupo Materias Primas (subsidiaria de Covia Corporation), como se documenta en IV.10, y el grafito, lejos de estar atomizado, es un mercado concentrado según la Tabla 2 del USGS. El corpus, por tanto, no incluye un mercado genuinamente atomizado; su valor descriptivo está en cubrir el rango de estructuras y verificar cómo varía el encadenamiento a lo largo de él. El {{cua:espectro}} resume, para cada mineral, su inclusión en las listas de criticidad, el HHI estimado y el tipo de estructura de mercado.
+En lugar de designar un único mineral como caso de contraste, el corpus se describe a lo largo de todo su espectro de concentración. En el extremo más concentrado se ubican el manganeso (productor único), la fluorita (monopolio de grupo desde la consolidación de enero de 2012) y el grafito (productor formal único desde 2014). En el extremo de menor concentración se ubican los minerales con más productores ---oro y plata (HHI \< 2,000)--- y la barita, cuyo líder ha reducido su participación de forma sostenida (Baramin, de aproximadamente 82% en 2021 a 24.6% en 2024). La revisión de los datos de producción por empresa mostró que dos minerales que inicialmente se supusieron fragmentados no lo son: la sílice está concentrada en Grupo Materias Primas (subsidiaria de Covia Corporation), como se documenta en V.10.2, y el grafito, lejos de estar atomizado, es un mercado concentrado según la Tabla 2 del USGS. El corpus, por tanto, no incluye un mercado genuinamente atomizado; su valor descriptivo está en cubrir el rango de estructuras y verificar cómo varía el encadenamiento a lo largo de él. El {{cua:espectro}} resume, para cada mineral, su inclusión en las listas de criticidad, su HHI y el tipo de estructura de mercado.
 
-Cuadro {#cua:espectro}: Minerales del corpus: inclusión en las listas de criticidad de Estados Unidos (USGS, 2025) y de la Unión Europea (2023), HHI estimado y tipo de estructura de mercado. Fuente: elaboración propia con las fuentes indicadas en la nota.
+Cuadro {#cua:espectro}: Minerales del corpus: inclusión en las listas de criticidad de Estados Unidos (USGS, 2025) y de la Unión Europea (2023), HHI del año más reciente y tipo de estructura de mercado. Fuente: elaboración propia con las fuentes indicadas en la nota.
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Mineral**   **Lista USGS 2025**   **Lista UE 2023**   **HHI estimado (aprox.)**           **Tipo de estructura**
+  **Mineral**   **Lista USGS 2025**   **Lista UE 2023**   **HHI reciente (año)**              **Tipo de estructura**
   ------------- --------------------- ------------------- ----------------------------------- --------------------------------------------------------------------------------
-  Barita        Sí                    Sí                  \< 3,000                            Oligopolio (4 empresas)
+  Barita        Sí                    Sí                  605 (2024)                          Oligopolio (4 empresas)
 
-  Cobre         Sí                    Sí                  \~6,000-7,000                       Cuasi-monopolio (Grupo México ≈78%)
+  Cobre         Sí                    Sí                  3,557 (2024)                        Cuasi-monopolio (Grupo México ≈78%)
 
   Fluorita      Sí                    Sí                  ≈6,525 (2005-11) → 10,000 (2012+)   Duopolio hasta 2011; monopolio de grupo (Orbia/Koura) desde ene-2012
 
   Grafito       Sí                    Sí                  ≈5,848 (2004-13) → 10,000 (2014+)   Duopolio hasta 2013; monopolio de Grafitos Mexicanos desde 2014
 
-  Manganeso     Sí                    No                  10,000                              Monopolio absoluto (Autlán 100%)
+  Manganeso     Sí                    No                  10,000 (2024)                       Monopolio absoluto (Autlán 100%)
 
-  Oro           Sí\*                  No                  \< 2,000                            Oligopolio moderado-bajo (5 grandes ≈42-45%)
+  Oro           Sí\*                  No                  429 (2024)                          Oligopolio moderado-bajo (5 grandes ≈42-45%)
 
-  Plata         Sí                    No                  \< 2,000                            Oligopolio moderado (5 grandes; Fresnillo plc ≈30% extracción)
+  Plata         Sí                    No                  1,147 (2024)                        Oligopolio moderado (5 grandes; Fresnillo plc ≈30% extracción)
 
-  Plomo         Sí                    No                  \~5,000-6,000                       Monopolio refinación (Peñoles 100%); oligopolio extracción
+  Plomo         Sí                    No                  2,465 (2024)                        Monopolio refinación (Peñoles 100%); oligopolio extracción
 
-  Sílice        Sí                    Sí                  \~6,700--9,700                      Concentrado (Covia/Grupo Materias Primas ≈ 74--99%)
+  Sílice        Sí                    Sí                  6,670 (2023)                        Concentrado (Covia/Grupo Materias Primas ≈ 74--99%)
 
-  Zinc          Sí                    No                  \~3,500-4,000                       Oligopolio concentrado (Newmont 33.4% extracción 2024; Peñoles 69% refinación)
+  Zinc          Sí                    No                  1,683 (2024)                        Oligopolio concentrado (Newmont 33.4% extracción 2024; Peñoles 69% refinación)
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-*Nota: \* Incluido como mineral crítico para efectos de seguridad nacional por orden ejecutiva de EE.UU. del 20 de marzo de 2025 (The White House, 2025). Cifras de HHI son estimaciones basadas en datos de participación de mercado; las fuentes primarias se detallan en el Capítulo V, para los minerales no metálicos se revisaron con datos de producción por empresa de CAMIMEX 2021--2024. Fuentes: Micheli Thirion y Cortés Morales (2026); U.S. Geological Survey (2025a); European Commission (2023); Cámara Minera de México (2024).*
+*Nota: \* Incluido como mineral crítico para efectos de seguridad nacional por orden ejecutiva de EE.UU. del 20 de marzo de 2025 (The White House, 2025). Las cifras de HHI corresponden al año más reciente con dato del Cuadro V.5 (en fluorita y grafito se indica su trayectoria); las fuentes primarias se detallan en el Capítulo V. Fuentes: Micheli Thirion y Cortés Morales (2026); U.S. Geological Survey (2025a); European Commission (2023); Cámara Minera de México (2024).*
 
 ### II.2.5 La criticidad se concentra en productos y grados, no en el mineral
 
