@@ -3,7 +3,7 @@ title: "Handoff — Estado actual (HEM, consolidado y certificación) 2026-09-29
 type: handoff
 tags: [icr, handoff, estado, hem, consolidado, certificacion, manuscrito]
 created: 2026-09-29
-updated: 2026-09-30
+updated: 2026-10-08
 status: activo
 ---
 
@@ -19,6 +19,7 @@ status: activo
 - **Estilo matemático (Cap. III):** el de **Morales-López (2023)** — ecuaciones **numeradas (1)-(13)**, glosario "donde X es … de orden n×1" tras cada ecuación, identidad contable dual primero, referencias por número de ecuación. En Pandoc la numeración se escribe `$$ … \qquad\qquad (n)$$` (Pandoc→Word **ignora** `\tag`).
 - **Referencias cruzadas del manuscrito:** escribir `{{cua:X}}` / `{{fig:X}}` **solos** (ya se expanden a "Cuadro N.M" / "Ilustración N.M"); nunca "Cuadro {{cua:X}}" ni "Ilustración {{fig:X}}" (producían "Cuadro Cuadro" e "Ilustración Ilustración"; ambos corregidos 2026-09-29).
 - **Sin voz de IA**; versionar en git; handoff antes de agotar contexto.
+- **Copia de control del alumno (2026-10-08):** `11 Redaccion/manuscrito/ICR - Manuscrito (nueva estructura) - versión (08-10-2026).docx/.pdf` **no se toca ni se versiona**; solo se edita el manuscrito del pipeline.
 - **No aceptar el control de cambios del PROTOCOLO** — espera al asesor (Dr. Jordy Micheli Thirion).
 - Git: rama `main`, remoto `git@github.com:jorgecortesmorales/Claude_jcm.git`. Todo pusheado al cierre de este handoff (ver `git log`). El DOCX del manuscrito está en `.gitignore` y el PDF no se versiona (ambos se regeneran).
 
@@ -69,6 +70,7 @@ py "13 Entregables/Consolidado datos y calculos/cotejo_certificacion.py"   # deb
 3. ~~Entregables sin HEM~~ → **hecho 2026-09-29 (d)**: todos los entregables tienen versión 2026-09-29 con el HEM (ver [[Historial de entregables]]). Queda: (i) las secciones anteriores de esos entregables conservan su redacción interpretativa previa (solo lo nuevo sigue la pauta descriptiva); alinearlas si se van a presentar. (ii) El cotejo certifica **números**, no afirmaciones de dirección u orden («supera», «en todos»); al preparar los entregables se encontraron y corrigieron cuatro de ese tipo, así que conviene revisarlas a mano en cada texto nuevo. (iii) El canvas de Claude Design sigue en 2026-09-06 (requiere Node).
 4. **Bibliografía**: migrar [[Bibliografia]] a Zotero → `.bib` gestionado.
 5. **Agenda de datos** (Cap. IX): HHI 1994-2003 con USGS histórico; cocientes de localización por entidad; desagregar la comparación internacional por mineral si el dato lo permite.
+6. **Investigaciones nuevas en propuesta (2026-10-08), inclusión por definir**: [[Ruta metodologica - Preguntas A y B (cobre-EUA; metodos y frontera tecnologica)]] y [[Ruta metodologica - Investigacion mixta (patentes, concesiones, procesos productivos)]]. Piloto sugerido: cobre. Esperan decisiones del alumno (listadas al final de cada nota).
 
 ## 4. Para orientarte al arrancar
 - Estado y avance: [[Estructura y Cronograma de la ICR]] · [[Tablero de Actividades]] · [[Bitacora]] (entradas 2026-09-28 y 2026-09-29).

@@ -3,10 +3,15 @@ title: Bitácora de Trabajo
 type: proyecto
 tags: [icr, proyecto, bitacora]
 created: 2026-07-16
-updated: 2026-09-30
+updated: 2026-10-08
 ---
 
 # Bitácora de Trabajo
+
+## 2026-10-08 Copia de control del manuscrito + rutas metodológicas de investigaciones nuevas
+- El alumno guardó la copia de control `ICR - Manuscrito (nueva estructura) - versión (08-10-2026)` (.docx y .pdf). No se toca ni se versiona; las ediciones van al manuscrito del pipeline.
+- **Rutas metodológicas en propuesta** (sin decisión de inclusión): [[Ruta metodologica - Preguntas A y B (cobre-EUA; metodos y frontera tecnologica)]] (A: cambio de destino del cobre y abasto de EUA; B: métodos de extracción, concentración y refinación y frontera tecnológica) y [[Ruta metodologica - Investigacion mixta (patentes, concesiones, procesos productivos)]] (módulos C, D y E; diseño secuencial explicativo; unidad mineral × eslabón L0-L4; tres opciones de encaje en la ICR o fuera de ella).
+- Observación preliminar para A, con `comercio_destinos_serie_resumen.csv`: el giro EUA → China es del concentrado (116 MUSD en 2000, 52 % a EUA; 3 719 MUSD en 2024, 100 % a China); el refinado y las semimanufacturas siguen yendo sobre todo a EUA.
 
 ## 2026-09-30 (b) Cuadros sin número y referencias sin resolver
 - **Revisión completa** de los 12 `.md` del manuscrito: 52 tablas, de las cuales 7 no tenían pie `Cuadro {#cua:…}` (salían sin número ni entrada en el índice de cuadros): Cap. II (espectro de concentración del corpus, II.2.4), Cap. IV (contraste institucional, IV.7.3) y Cap. V (cobre-Grupo México, oro top-5, plata por eslabón, zinc por líder, síntesis comparativa V.12). Se añadió pie con título y fuente y una referencia `{{cua:…}}` en el texto de cada uno. Nueva numeración: II.1 espectro / II.2 criticidad; IV.1 contraste; V.1-V.4 los cuatro documentales, V.5 HHI, V.6 síntesis.
