@@ -1,0 +1,50 @@
+periodo,edicion_mcs,forma,pais,pct
+1995-1998,2000,no manufacturado,Canada,43
+1995-1998,2000,no manufacturado,Chile,21
+1995-1998,2000,no manufacturado,Mexico,15
+1995-1998,2000,no manufacturado,Otros,21
+2000-2003,2005,no manufacturado,Canada,28
+2000-2003,2005,no manufacturado,Chile,26
+2000-2003,2005,no manufacturado,Peru,23
+2000-2003,2005,no manufacturado,Mexico,9
+2000-2003,2005,no manufacturado,Otros,14
+2005-2008,2010,no manufacturado,Chile,40
+2005-2008,2010,no manufacturado,Canada,34
+2005-2008,2010,no manufacturado,Peru,13
+2005-2008,2010,no manufacturado,Mexico,6
+2005-2008,2010,no manufacturado,Otros,7
+2010-2013,2015,no manufacturado,Chile,51
+2010-2013,2015,no manufacturado,Canada,26
+2010-2013,2015,no manufacturado,Mexico,13
+2010-2013,2015,no manufacturado,Peru,6
+2010-2013,2015,no manufacturado,Otros,4
+2015-2018,2020,refinado,Chile,56
+2015-2018,2020,refinado,Canada,26
+2015-2018,2020,refinado,Mexico,11
+2015-2018,2020,refinado,Otros,7
+2015-2018,2020,mena y concentrado,Mexico,99
+2015-2018,2020,mena y concentrado,Otros,1
+2015-2018,2020,chatarra,Canada,55
+2015-2018,2020,chatarra,Mexico,33
+2015-2018,2020,chatarra,Otros,12
+2020-2023,2025,refinado,Chile,65
+2020-2023,2025,refinado,Canada,17
+2020-2023,2025,refinado,Mexico,9
+2020-2023,2025,refinado,Peru,6
+2020-2023,2025,refinado,Otros,3
+2020-2023,2025,mena y concentrado,Canada,99
+2020-2023,2025,mena y concentrado,Otros,1
+2020-2023,2025,chatarra,Canada,46
+2020-2023,2025,chatarra,Mexico,42
+2020-2023,2025,chatarra,Rep. Dominicana,3
+2020-2023,2025,chatarra,Otros,9
+2021-2024,2026,refinado,Chile,68
+2021-2024,2026,refinado,Canada,16
+2021-2024,2026,refinado,Peru,7
+2021-2024,2026,refinado,Mexico,6
+2021-2024,2026,refinado,Otros,3
+2021-2024,2026,mena y concentrado,Canada,99
+2021-2024,2026,mena y concentrado,Otros,1
+2021-2024,2026,chatarra,Canada,45
+2021-2024,2026,chatarra,Mexico,43
+2021-2024,2026,chatarra,Otros,12

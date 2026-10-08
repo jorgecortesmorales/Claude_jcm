@@ -4,7 +4,7 @@ type: metodologia
 tags: [icr, metodologia, ruta, cobre, comercio, tecnologia, procesos, exploratorio]
 created: 2026-10-08
 updated: 2026-10-08
-status: propuesta
+status: en curso (A, piloto cobre)
 inclusion_icr: por definir
 ---
 
@@ -56,6 +56,9 @@ El giro de destino ocurre en el **concentrado**, y ocurre cuando ese flujo era t
 5. **Comercio espejo** México-X frente a EUA-M por año (como en el CCV), para validar.
 6. **Contexto A4**: cronología de las fundiciones de EUA (USGS MYB) y del destino de los concentrados de Grupo México (10-K), con fecha y fuente de cada evento.
 
+> [!success] Ejecutado (2026-10-08, piloto cobre)
+> Resultados en [[Memoria - Pregunta A (cobre, destino y abasto de EUA) piloto]]. Pendiente: lectura de los 10-K de Southern Copper y de los informes de Grupo México (paso A4 por empresa) y revisión del comercio espejo del concentrado.
+
 ### A.4 Productos y lugar posible en la ICR
 
 - 2 cuadros (consumo aparente y dependencia de EUA; participación de México por etapa) y 2 ilustraciones (participación por socio en las importaciones de EUA de concentrado y de cátodo).
@@ -83,7 +86,7 @@ El giro de destino ocurre en el **concentrado**, y ocurre cuando ese flujo era t
 1. **Ficha técnica por operación** (libro de códigos común con el módulo E): mineral, eslabón, método, capacidad, recuperación, año de la tecnología, proveedor tecnológico, fuente y página.
 2. **Matriz mineral × eslabón × método**, con dos columnas: en el mundo y en México.
 3. **B3 por análisis documental**: se codifica la razón que da cada reporte técnico para su elección de proceso (categorías: mineralogía, ley, escala, agua, energía, costos, subproductos, regulación).
-4. **B4 con un índice de adopción**: se define una lista de $K$ tecnologías de frontera por eslabón (por ejemplo, selección de mineral por sensores, molienda con rodillos de alta presión, flotación de partícula gruesa, acarreo autónomo, biolixiviación; la lista se fija con la literatura) y se calcula $A_o = \frac{1}{K}\sum_{k} a_{o,k}$, donde $a_{o,k}=1$ si la operación $o$ adoptó la tecnología $k$. Se compara con operaciones de Chile, Perú y Australia, documentadas con los mismos tipos de reporte. Se complementa con patentes (módulo C) y gasto en I+D (ESIDET-INEGI e informes de empresa).
+4. **B4 con un índice de adopción**: se define una lista de $K$ tecnologías de frontera por eslabón (por ejemplo, selección de mineral por sensores, molienda con rodillos de alta presión, flotación de partícula gruesa, acarreo autónomo, biolixiviación; la lista se fija con la literatura) y se calcula $A_o = \frac{1}{K}\sum_{k} a_{o,k}$, donde $a_{o,k}=1$ si la operación $o$ adoptó la tecnología $k$. Se compara con **los siete países que ya compara la ICR** (Cap. VII): Chile, Perú, Australia, Brasil, China, Finlandia y Suecia. En cada país se eligen las operaciones de los mismos minerales y eslabones que tienen México, documentadas con los mismos tipos de reporte (NI 43-101 o JORC en Australia, informes anuales y de sostenibilidad de Codelco, Vale, Boliden, Jiangxi Copper y similares, y las estadísticas de Cochilco, Geoscience Australia, ANM de Brasil y los servicios geológicos nórdicos). Donde un país no tiene el mineral (por ejemplo, fluorita en Chile), la celda se marca «sin operación» y no se imputa. Se complementa con patentes (módulo C) y gasto en I+D (ESIDET-INEGI e informes de empresa).
 
 ### B.4 Productos y lugar posible en la ICR
 

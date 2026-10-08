@@ -24,10 +24,10 @@ inclusion_icr: por definir
 | C1 | ¿Cuántas patentes se crean por mineral, eslabón, país y año? | Cuantitativa |
 | C2 | ¿Cómo se clasifican según las taxonomías existentes? | Cuantitativa (codificación) |
 | C3 | ¿Cuántas se usan efectivamente? | Cuantitativa con indicadores indirectos + cualitativa |
-| C4 | ¿Por qué no se usan las que no se usan? | Cualitativa |
+| C4 | ¿Por qué no se usan las que no se usan? | Documental + datos (entrevista solo complementaria) |
 | D1 | ¿Cómo se ha comportado el número de concesiones (títulos, superficie, titulares) entre 1992 y 2025? | Cuantitativa |
 | D2 | ¿Cuántas concesiones se han convertido en proyectos y en cuánto tiempo? | Cuantitativa |
-| D3 | ¿Por qué la mayoría no llega a proyecto? | Cualitativa |
+| D3 | ¿Por qué la mayoría no llega a proyecto? | Documental + datos (sin entrevistas) |
 | E1 | ¿Qué procesos existen en el mundo por mineral y eslabón? | Documental |
 | E2 | ¿Cuáles se usan en México, dónde y por quién? | Documental + cuantitativa |
 | E3 | ¿Por qué esos y no otros, y qué tan cerca de la frontera están? | Documental + cualitativa |
@@ -36,7 +36,7 @@ inclusion_icr: por definir
 
 ## 2. Diseño de métodos mixtos
 
-**Diseño secuencial explicativo** (Creswell y Plano Clark, por fichar): primero la fase cuantitativa (conteos, series, tasas de conversión), después la cualitativa, que se diseña con los resultados de la primera (a quién entrevistar, qué patentes o concesiones revisar a fondo). La integración se hace en una **matriz conjunta** mineral × eslabón que pone lado a lado patentes (C), proyectos (D) y procesos (E).
+**Diseño secuencial explicativo** (Creswell y Plano Clark, por fichar): primero la fase cuantitativa (conteos, series, tasas de conversión), después la cualitativa, que se diseña con los resultados de la primera (qué patentes, concesiones u operaciones revisar a fondo). **La fase cualitativa es documental**: las razones se obtienen de registros administrativos, documentos de empresas y de gobierno, y literatura publicada. Las entrevistas no son fuente principal; en patentes y procesos se reservan para validar casos donde los documentos se contradicen o callan, y en concesiones no se usan. La integración se hace en una **matriz conjunta** mineral × eslabón que pone lado a lado patentes (C), proyectos (D) y procesos (E).
 
 > [!note] Pauta descriptiva
 > Las fases cuantitativas describen. Las respuestas a los «por qué» (C4, D3, E3) son las razones que **declaran los actores y los documentos**, codificadas y contadas, no relaciones estimadas entre variables. Si la investigación entra a la ICR, se redactan con la misma pauta que el resto del manuscrito.
@@ -101,12 +101,22 @@ No hay un registro directo del uso. Se combinan indicadores, de más indirecto a
 1. **Mantenimiento**: pago de anualidades y vigencia (situación jurídica INPADOC/IMPI). Una patente que se deja caducar pronto rara vez está en uso.
 2. **Licencias y cesiones**: registro de cesiones de la USPTO; licencias inscritas en el IMPI.
 3. **Uso observado**: correspondencia entre la tecnología de la patente y los procesos que describen los reportes técnicos de las operaciones (enlace con el módulo E).
-4. **Declaración del titular**: encuesta o entrevista con la tipología de Torrisi et al. (2016, por fichar): uso interno, licenciada, de bloqueo, durmiente. La encuesta PatVal (Giuri et al., 2007, por fichar) sirve de referencia para comparar proporciones.
+4. **Tipología de uso** de Torrisi et al. (2016, por fichar): uso interno, licenciada, de bloqueo, durmiente. Cada familia se asigna a una categoría con las evidencias 1-3 y las de 3.6; la entrevista solo se usa para validar una submuestra.
 
-### 3.6 Razones de no uso (C4)
+### 3.6 Razones de no uso (C4): de dónde salen sin depender de entrevistas
 
-- **Entrevistas semiestructuradas** a titulares mexicanos (empresas, universidades, centros públicos) y a titulares extranjeros con patentes en México, sobre una muestra intencional elegida con los resultados de C3.
-- **Codificación temática** (ver [[Codificacion tematica]]) con categorías iniciales tomadas de la literatura (por fichar): falta de activos complementarios (Teece, 1986), uso estratégico o de bloqueo, costo o mercado insuficiente, regulación, madurez tecnológica (TRL) y capacidad de absorción (Cohen y Levinthal, 1990), con apertura a categorías emergentes.
+Seis fuentes, de la más estructurada a la más interpretativa. Cada razón se registra con su fuente y el fragmento que la sustenta, y se cuentan por mineral, eslabón, tipo de titular y país.
+
+1. **El evento jurídico de terminación** (INPADOC *legal events*, gaceta del IMPI): dice *cómo* terminó la patente —caducidad por falta de pago de anualidades, retiro, abandono, rechazo, nulidad tras oposición—. Separa la patente que el titular dejó caer (decisión económica) de la que nunca se concedió (problema técnico o de novedad). Es un dato, no una interpretación.
+2. **Encuestas ya publicadas a inventores y titulares**, como evidencia secundaria: PatVal-EU (Giuri et al., 2007), Torrisi et al. (2016), la encuesta RIETI-Georgia Tech (Walsh y Nagaoka, 2009) y la encuesta anual de la Oficina Japonesa de Patentes sobre utilización de patentes (todas por fichar y verificar). Publican la proporción de patentes no usadas y sus razones declaradas por campo tecnológico y tipo de titular. Se aplican a nuestro universo como **distribución de referencia** por campo (metalurgia, minería, química inorgánica), marcada como proyección y no como dato propio.
+3. **Señales de bloqueo en los propios datos**: familias citadas por los examinadores como anterioridad que limita solicitudes de competidores (citas de categoría X/Y), y familias con cobertura en países donde el titular no tiene operaciones ni ventas. Son indicadores de uso estratégico, no de uso productivo.
+4. **Estudios de alternativas de proceso en los reportes técnicos** (módulo E): los estudios de factibilidad NI 43-101 y JORC comparan tecnologías candidatas y dicen por qué se descartó cada una (recuperación, costo de reactivos, agua, energía, escala, riesgo de escalamiento). Es la fuente documental más directa del porqué de la no adopción de una tecnología en una operación concreta.
+5. **Literatura técnica de revisión** sobre cada tecnología (revistas como *Minerals Engineering*, *Hydrometallurgy*, *Journal of Cleaner Production*), con una revisión sistemática con protocolo PRISMA: cadenas de búsqueda por tecnología, criterios de inclusión explícitos y registro de las barreras al escalamiento industrial que reporta cada artículo.
+6. **Documentos de los titulares**: informes anuales y de sostenibilidad de las empresas (tecnologías abandonadas, pruebas piloto), informes de las oficinas de transferencia de universidades y centros públicos, estadísticas del IMPI sobre licencias, y expedientes de litigio o de licencia obligatoria por falta de explotación (Ley Federal de Protección a la Propiedad Industrial, artículos a verificar).
+
+**Codificación** (ver [[Codificacion tematica]]) con categorías iniciales de la literatura (por fichar): falta de activos complementarios (Teece, 1986), uso estratégico o de bloqueo, costo o mercado insuficiente, inmadurez tecnológica (TRL) o fracaso del escalamiento, regulación, y capacidad de absorción (Cohen y Levinthal, 1990); se admiten categorías emergentes. Dos codificadores sobre una muestra común; acuerdo con kappa de Cohen.
+
+**Entrevista (complementaria):** solo para los casos de la muestra donde las seis fuentes no dan razón o se contradicen.
 
 ## 4. Módulo D — Concesiones
 
@@ -133,7 +143,32 @@ No hay un registro directo del uso. Se combinan indicadores, de más indirecto a
    - **Tasa de conversión**: $c_{g,e} = N_{g,e} / N_g$, con $N_g$ = títulos de la cohorte $g$ y $N_{g,e}$ = los que alcanzaron la etapa $e$.
    - **Tiempo hasta producción**: curvas de supervivencia de Kaplan-Meier, descriptivas, por cohorte, tipo de titular y entidad.
 4. **Asignación de mineral**: los títulos mexicanos no se otorgan por mineral, así que el mineral se asigna por el proyecto enlazado o, a falta de proyecto, por las ocurrencias minerales del SGM dentro del polígono (con marca de imputación).
-5. **Razones de no conversión (D3)**: análisis documental (informes de empresas, prensa especializada, resoluciones de MIA y de consulta indígena, litigios) y entrevistas (SE, CAMIMEX, empresas junior y medianas). Categorías iniciales: retención especulativa del título, financiamiento, precios, permisos ambientales, conflicto social y consulta, ley o tamaño del yacimiento insuficiente, cambio regulatorio (2014, 2023).
+### 4.3 Razones de no conversión (D3): solo documentos, registros y literatura
+
+**a) La retención especulativa del título como posibilidad explicativa parcial.** La concesión puede funcionar como un activo financiero: empresas *junior* que cotizan en bolsas de riesgo (TSX-V, ASX) adquieren títulos, levantan capital con ellos, los ceden en opción o en *joint venture* y los venden, sin pasar a desarrollo. La ruta no supone que esto ocurra; lo describe con indicadores observables:
+
+| Indicador | Fuente | Qué describe |
+|---|---|---|
+| **Cesiones y transmisiones de derechos** por título antes de cualquier obra | Registro Público de Minería (solicitud de transparencia) | Rotación del título como activo |
+| **Tipo de titular**: productora, *junior* listada, persona física, otra | Registro + listados de TSX-V/ASX/BMV | Quién retiene la superficie |
+| **Superficie en manos de titulares sin producción** (ha y %) | Panel de títulos + enlace con proyectos | Magnitud de la superficie sin actividad |
+| **Comprobación de obras y trabajos** (títulos con y sin informes) | Registro / DGRM (obligación de la Ley Minera, artículos a verificar) | Actividad declarada por título |
+| **Derecho adicional por concesiones inactivas**: recaudación y número de títulos que lo pagan | SAT / SHCP; Ley Federal de Derechos (artículo a verificar) | Inactividad reconocida fiscalmente |
+| **Cancelaciones por falta de pago** y declaratorias de libertad de terreno | DOF | Títulos que se abandonan |
+| **Anuncios de opción, venta o *farm-out*** de propiedades mexicanas | Comunicados de SEDAR+ y ASX | Transacciones del título como activo |
+
+Los momentos de solicitud y de cesión se presentan en una **cronología junto con el ciclo de precios** del Cap. IV, sin estimar la relación (pauta descriptiva).
+
+**b) Otras razones documentadas**, con la misma regla de registrar fuente y fragmento:
+
+- Diagnóstico del propio gobierno: exposición de motivos de la reforma de 2023 y de la de 2014, informes de labores de la SE.
+- Auditorías de la **Auditoría Superior de la Federación** a la administración de concesiones (verificación de obras, cobro de derechos).
+- Permisos ambientales: resoluciones de MIA de la SEMARNAT (Gaceta Ecológica).
+- Conflicto social y consulta: bases de conflictos mineros (OCMAL, EJAtlas) y resoluciones de la SCJN sobre consulta indígena.
+- Razones de empresa: secciones de riesgos y de discusión de resultados (MD&A) de informes trimestrales y anuales, y listas de proyectos suspendidos (SE, CAMIMEX).
+- Literatura académica y de organizaciones civiles sobre concesiones en México (por fichar: trabajos de Fundar, CartoCrítica y estudios académicos sobre minería y acaparamiento de tierra en México; literatura sobre exploración especulativa de empresas *junior*).
+
+**Categorías de codificación iniciales:** retención especulativa o financiera del título, financiamiento, precios, permisos ambientales, conflicto social y consulta, ley o tamaño del yacimiento insuficiente, cambio regulatorio (2014, 2023), litigio. Se cuentan por cohorte, tipo de titular, entidad y mineral. **No se usan entrevistas.**
 
 ## 5. Módulo E — Procesos productivos (responde también a la pregunta B)
 
@@ -142,7 +177,8 @@ El detalle del instrumento está en [[Ruta metodologica - Preguntas A y B (cobre
 1. **Catálogo mundial** de procesos por mineral × eslabón (manuales técnicos, USGS, Cochilco, ICSG, ILZSG).
 2. **Ficha técnica por operación** en México y en los países de comparación del Cap. VII (Chile, Perú, Australia, Brasil, China, Finlandia, Suecia), con libro de códigos común.
 3. **Índice de adopción de tecnologías de frontera** por operación, empresa y país.
-4. **Razones de elección** codificadas a partir de la justificación de los reportes técnicos, más entrevistas a ingenieros de planta y proveedores (METS) si se decide trabajo de campo.
+4. **Razones de elección** codificadas a partir de la justificación y de los estudios de alternativas de los reportes técnicos; entrevistas a ingenieros de planta o proveedores (METS) solo como complemento.
+5. **Comparación con los siete países de la ICR** (Chile, Perú, Australia, Brasil, China, Finlandia, Suecia), mineral por mineral donde el país tenga la operación.
 
 ## 6. Integración de los tres módulos
 
@@ -170,7 +206,7 @@ Para que funcione en las tres opciones: el módulo lleva **marco propio** (innov
 | 1 | D cuantitativo: panel de títulos, series, enlace espacial con proyectos | 3-4 |
 | 2 | C cuantitativo: búsqueda, validación, conteos, RTA, clasificación | 4-5 |
 | 3 | E documental: catálogo, fichas por operación, índice de adopción | 3-4 |
-| 4 | Fase cualitativa: entrevistas y codificación (C4, D3, E3) | 4-6 |
+| 4 | Fase cualitativa documental: codificación de razones (C4, D3, E3), revisión sistemática; entrevistas complementarias solo en C y E | 4-5 |
 | 5 | Integración, matriz conjunta, redacción | 2-3 |
 
 **Piloto recomendado: cobre**, en los tres módulos. Es el mineral con más documentación pública (10-K de Southern Copper, títulos de Grupo México, patentes de metalurgia del cobre) y el que motiva la pregunta A. Con el piloto se calibran el libro de códigos y los tiempos antes de pasar a los otros nueve.
@@ -180,13 +216,14 @@ Para que funcione en las tres opciones: el módulo lleva **marco propio** (innov
 - **Series históricas de concesiones** incompletas en datos abiertos; dependen de las solicitudes de transparencia.
 - **Uso de patentes**: los indicadores indirectos (mantenimiento, licencias) subestiman el uso interno no registrado; la entrevista lo corrige solo en la muestra.
 - **Atribución por mineral**: varias clases CPC (C22B de hidrometalurgia, B03D) son comunes a varios metales; se marca la atribuibilidad como en el HEM por eslabón.
-- **Trabajo de campo**: acceso a empresas y funcionarios; requiere consentimiento informado y, si se publica, aval ético de la UAM.
+- **Fuentes documentales**: los registros de cesiones y de comprobación de obras dependen de solicitudes de transparencia; si no se obtienen, D3 se apoya en el DOF, la ASF, los comunicados de SEDAR+/ASX y la literatura.
+- **Entrevistas complementarias** (C y E): si se hacen, requieren consentimiento informado y, si se publica, aval ético de la UAM.
 
 ## Decisiones pendientes del alumno
 
 - [ ] Opción de inclusión: a) complementos, b) capítulo nuevo, c) independiente.
 - [ ] Alcance: los diez minerales o piloto de cobre primero.
-- [ ] ¿Se hace trabajo de campo (entrevistas) o solo análisis documental?
+- [x] Las razones de no uso (C4) y de no conversión (D3) salen de datos y documentos; entrevistas solo complementarias en C y E (decisión del alumno, 2026-10-08).
 - [ ] ¿Se gestiona acceso a PATSTAT por la UAM o se trabaja con Lens.org y PatentsView?
 
 ← [[Ruta metodologica - Preguntas A y B (cobre-EUA; metodos y frontera tecnologica)]] · [[Ruta metodologica - Construccion de cadenas de valor locales por mineral]] · [[Handoff - Estado actual (HEM, consolidado y certificacion) 2026-09-29]] · [[Bitacora]]

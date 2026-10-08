@@ -1,0 +1,15 @@
+forma,medida,n_anios_ini,n_anios_fin,imp_eua_ini,imp_eua_fin,desde_mx_ini,desde_mx_fin,share_mx_ini,share_mx_fin,cambio_mx,efecto_total_eua,efecto_participacion
+aleaciones madre,peso_t,5,5,867.3,525.4,3.9,2.2,0.0,0.0,-1.7,-1.5,-0.2
+aleaciones madre,valor_musd,5,5,2.7,6.0,0.0,0.1,0.0,0.0,0.1,0.0,0.0
+chatarra,peso_t,5,5,189395.8,128244.1,61991.8,55355.1,0.3,0.4,-6636.7,-23205.6,16568.9
+chatarra,valor_musd,5,5,310.9,721.9,96.9,285.6,0.3,0.4,188.6,145.4,43.3
+concentrado,peso_t,5,5,121358.0,10237.9,4353.7,79.4,0.0,0.0,-4274.3,-2424.0,-1850.3
+concentrado,valor_musd,5,5,120.8,62.4,6.1,0.0,0.1,0.0,-6.1,-1.5,-4.6
+matas y cemento,peso_t,5,5,1009.5,209.1,981.1,0.0,1.0,0.0,-981.1,-388.9,-592.2
+matas y cemento,valor_musd,5,5,0.7,0.6,0.7,0.0,0.9,0.0,-0.7,-0.1,-0.6
+refinado,peso_t,5,5,685645.9,814673.8,85556.6,57900.5,0.1,0.1,-27656.1,12635.3,-40291.5
+refinado,valor_musd,5,5,1487.9,7052.4,176.4,465.9,0.1,0.1,289.5,513.6,-224.0
+semimanufacturas,peso_t,5,5,385296.8,385892.4,68798.8,37028.8,0.2,0.1,-31770.0,81.8,-31851.8
+semimanufacturas,valor_musd,5,5,1360.5,5995.0,185.8,401.5,0.1,0.1,215.8,471.6,-255.8
+sin refinar (blister/anodo),peso_t,5,5,154945.4,196.9,42294.9,0.0,0.3,0.0,-42294.9,-21132.4,-21162.5
+sin refinar (blister/anodo),valor_musd,5,5,375.5,2.2,95.1,0.0,0.3,0.0,-95.1,-48.6,-46.4
