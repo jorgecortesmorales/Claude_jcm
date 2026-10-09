@@ -71,3 +71,10 @@ Formato APA. Consolidada del Protocolo y de Caps I-IV (docx en `00 Proyecto/Docu
 - U.S. Geological Survey. (2025b). *Methodology and technical input for the 2025 U.S. List of Critical Minerals* (Open-File Report 2025-1047).
 
 ← [[Home]] · [[Indice de Fuentes|Índice de Fuentes]] (09 Revision de Literatura/)
+
+## Fuentes del escrito independiente sobre cobre y Estados Unidos (2026-10-08)
+- Flanagan, D. M. (2026). Copper. En U.S. Geological Survey, *Mineral commodity summaries 2026*. U.S. Geological Survey.
+- Naciones Unidas. (2026). *UN Comtrade Database* [Base de datos]. Departamento de Asuntos Económicos y Sociales, División de Estadística. Consultado el 8 de octubre de 2026. https://comtradeplus.un.org/
+- Porter, K. E., Edelstein, D. L., Brininstool, M., y Flanagan, D. M. (2023). Copper statistics. En T. D. Kelly y G. R. Matos (Comps.), *Historical statistics for mineral and material commodities in the United States* (Data Series 140). U.S. Geological Survey.
+- U.S. Geological Survey. (1996-2025). *Minerals yearbook, volume I: Metals and minerals. Copper* (ediciones 1994 a 2022). U.S. Geological Survey.
+- U.S. Geological Survey. (2000-2026). *Mineral commodity summaries. Copper* (ediciones 2000, 2005, 2010, 2015, 2020, 2025 y 2026). U.S. Geological Survey.

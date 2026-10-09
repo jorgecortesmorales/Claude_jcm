@@ -65,7 +65,7 @@ Participación en el valor de las importaciones de EUA (UN Comtrade, EUA como re
 | | **México** | **36 %** | **29 %** | **35 %** | **41 %** |
 | Blíster y ánodos (7402) | **México** | **34 %** | **3 %** | 0 % | 0 % |
 
-- **Refinado.** El volumen importado por EUA se movió entre 590 y 1 190 kt de producto entre 1998 y 2024. El origen principal pasó de Canadá (75 % del valor en 1992) a Chile (70 % en 2024). La participación de México osciló: 24 % en 1998, alrededor de 3 % en 2003-2008, 14 % en 2016, 13 % en 2020 y 2 % en 2024.
+- **Refinado.** El volumen importado por EUA se movió entre 590 y 1 190 kt de producto entre 1998 y 2024. El origen principal pasó de Canadá (75 % del valor en 1992) a Chile (70 % en 2024). La participación de México osciló: 24 % en 1998, entre 2.5 % y 5.7 % en 2003-2009, 14 % en 2016, 13 % en 2020 y 2 % en 2024.
 - **Chatarra.** México es el segundo origen, con una participación que sube de 25-36 % en los noventa a 41 % del valor (44 % del peso) en 2024.
 - **Blíster y ánodos.** EUA importaba entre 100 y 265 kt anuales de producto hasta 2008 (México, 34 % del valor en 1995); desde 2011 importa prácticamente cero.
 - **Concentrado.** EUA importa poco concentrado (217 kt de cobre contenido en 1998, el máximo de 1995-2025; 35 kt o menos desde 2003). México aparece como origen en años sueltos (2003-2005 y 2017-2019, cuando el USGS lo registra con más de 99 % de volúmenes de 14 a 32 kt).
@@ -82,7 +82,7 @@ En refinado, EUA importó más en 2020-2024 que en 1995-1999, y lo que se redujo
 
 ### El flujo inverso: EUA exporta concentrado a México
 
-- Desde 2000 EUA exporta más concentrado del que importa: entre 237 y 392 kt de cobre contenido al año desde 2011 (MCS).
+- El saldo de concentrado de EUA fue exportador en 1995-1997, importador en 1998-1999, exportador en 2000, importador en 2001-2004 y exportador desde 2005; desde 2011 exporta entre 237 y 392 kt de cobre contenido al año (MCS).
 - **México es el destino principal** de ese concentrado: 56-81 % del valor entre 2013 y 2024 en Comtrade (máximo, 81 % en 2015) y, en cantidad, 52-68 % entre 2016 y 2022 según el MYB.
 - También es el destino principal del refinado que exporta EUA: 83 % del valor en 2024.
 
@@ -90,8 +90,8 @@ En refinado, EUA importó más en 2020-2024 que en 1995-1999, y lo que se redujo
 
 ## 3. Respuesta descriptiva a la pregunta A
 
-1. El concentrado mexicano que iba a EUA era un flujo pequeño (60 MUSD en 2000, según México) y no tiene contraparte en las importaciones de EUA, que registran cero concentrado ese año (Comtrade y USGS coinciden). El aumento del concentrado mexicano a partir de 2004 se dirigió a China.
-2. EUA requiere hoy menos cobre refinado que a fines de los noventa (consumo aparente de 3 000 a 1 700-1 900 kt) y procesa menos: de sus siete fundiciones primarias de 1998 quedan dos en operación (Hayden, de ASARCO, está cerrada «temporalmente» desde 2019), y desde 2000 exporta más concentrado del que importa. No necesita concentrado importado.
+1. EUA recibía la mayor parte del concentrado mexicano solo en 1992-1995, cuando el flujo era de 0.1 a 32 MUSD al año (ambos registros lo consignan, salvo 1993). En 2000 México declara 60 MUSD enviados a EUA y EUA no registra importaciones de concentrado de ningún origen. El aumento del concentrado mexicano a partir de 2004 se dirigió a China.
+2. EUA requiere hoy menos cobre refinado que a fines de los noventa (consumo aparente de 3 000 a 1 700-1 900 kt) y procesa menos: de sus siete fundiciones primarias de 1998 quedan dos en operación (Hayden, de ASARCO, está cerrada «temporalmente» desde 2019), y desde 2005 exporta más concentrado del que importa. No necesita concentrado importado.
 3. El cobre refinado que EUA importa (600-900 kt al año en la última década) proviene sobre todo de Chile, seguido de Canadá y Perú. México conserva una participación variable en refinado (2-14 % en la última década) y una creciente en chatarra (41 % en 2024).
 4. Entre EUA y México el flujo de concentrado se invirtió: EUA envía a México más de la mitad de su concentrado exportado.
 
@@ -99,13 +99,17 @@ En refinado, EUA importó más en 2020-2024 que en 1995-1999, y lo que se redujo
 
 - **Comercio espejo.** Las exportaciones de concentrado de México a EUA y las importaciones de EUA desde México no coinciden en varios años (2000: 60 MUSD frente a 0; 2019: 277 frente a 148 MUSD). En metal en bruto y refinado (E2) el cociente queda entre 0.85 y 1.15 en 22 de 33 años; se aparta sobre todo en 2004 (0.55) y 2019 (0.49), y está entre 0.68 y 0.83 en varios años de los noventa. Ver `cobre_eua_espejo.csv`.
 - **Peso.** Comtrade no reporta peso para la chatarra en 2000-2003 y 2008, y el peso de las semimanufacturas es irregular; en esos casos se usa el valor. El peso del concentrado es de producto, no de cobre contenido.
-- **USGS.** El último año de cada edición es estimado (1999, 2004, 2009, 2014, 2019, 2025); el consumo aparente cambia de definición en 2020.
-- **Concentrado de Canadá.** En 2016 Comtrade registra 155 MUSD de concentrado importado desde Canadá, mientras que el MYB 2016 reporta 67 t de cobre contenido importado. Queda por revisar si es otra forma de registro (maquila, tránsito) o un error de clasificación.
+- **USGS.** El último año de cada edición es estimado (1999, 2004, 2009, 2014, 2019, 2025); el consumo aparente cambia de definición en 2020. Frente a DS-140, las diferencias del consumo aparente no exceden 5.1 % (2009, estimado).
+- **Unidad del concentrado en Comtrade-EUA.** La fracción estadística de EUA (2603.00.0010) se mide en cobre contenido; las cantidades de Comtrade para el concentrado de México en 2017-2019 (14.0, 32.1, 27.0 kt) coinciden con las del MYB.
+- **Asimetría de registros.** México registra destino declarado; EUA, país de origen.
+- **Concentrado de Canadá.** En 2016 Comtrade registra 155 MUSD y 38.9 kt de concentrado importado desde Canadá, mientras que el MYB 2016 reporta 67 t. No resuelto.
+- **Comercio espejo del concentrado.** Coincide o difiere en menos de 25 % en la mayoría de los años con flujo; no en 2000 (59.9 vs 0), 2015 (11.6 vs 0) y 2019 (276.5 vs 148.4 MUSD). Verificación pendiente con importaciones generales frente a importaciones para consumo (Oficina del Censo de EUA).
 
 ## 5. Pasos pendientes del piloto
 
 - [ ] Leer los informes 10-K de Southern Copper y los informes anuales de Grupo México para documentar el destino del concentrado de las minas de ASARCO (Mission, Ray, Silver Bell) desde 2019 y su relación con la fundición de La Caridad. El MYB documenta el flujo EUA → México pero no su composición por empresa.
-- [ ] Revisar la discrepancia de comercio espejo del concentrado en 2000 y 2019.
+- [ ] Revisar la discrepancia de comercio espejo del concentrado en 2000, 2015 y 2019.
+- [x] Escrito independiente: [[Mexico y el abasto de cobre de Estados Unidos, 1992-2024]] (2026-10-08).
 - [ ] Decidir si A entra al manuscrito (subsección de VII.3) o queda como nota aparte.
 
 ## Trazabilidad
