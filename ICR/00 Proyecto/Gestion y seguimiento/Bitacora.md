@@ -8,6 +8,9 @@ updated: 2026-10-08
 
 # Bitácora de Trabajo
 
+## 2026-10-08 (g) Solicitudes de transparencia redactadas
+- [[Solicitudes de transparencia (Guaymas y concesiones) 2026-10-08]]: seis solicitudes a nombre del alumno (no anónimas, con mención de la ICR): S1 ANAM (tránsito internacional, exportación e importación de la fracción 2603 por aduana), S2 ASIPONA Guaymas (concentrado de cobre por tipo de tráfico y origen del tránsito), S3 SEMAR (anuarios de Guaymas por producto 2010-2025), S4 SE (padrón histórico de títulos), S5 SE-Registro Público de Minería (transmisiones, comprobación de obras, cancelaciones, libertad de terreno), S6 SAT (derecho adicional y demás derechos sobre minería). Incluye el procedimiento en la Plataforma Nacional de Transparencia y una tabla de seguimiento. Pendiente: que el alumno las presente.
+
 ## 2026-10-08 (f) Pregunta A: estadística del puerto de Guaymas
 - **Fuentes** (`Bases Originales/17 Puerto Guaymas/`): anuarios por puerto de la Dirección General de Puertos para Guaymas 2020 y 2022 (exportación por producto y país de destino), tabla de altura 2016 (sin desglose por producto), y documentos de ASIPONA Guaymas (avances y resultados 2023-2024, estadística de cierre 2024, histórico de carga, operación del puerto).
 - **Resultado**: concentrado de cobre embarcado en Guaymas 1 936 259 t (2020) y 1 791 125 t (2022), por encima de la exportación nacional de concentrado de México (1 816 661 y 1 566 996 t): cota inferior de lo no mexicano 119 598 t (6.2 %) y 224 129 t (12.5 %). Destinos: China 79 % y 63 %, Japón 7 % y 26 %. ASIPONA registra «concentrado de cobre en tránsito internacional proveniente del sur de los Estados Unidos con destino hacia Asia» (baja de 68 % en 2024, que atribuye al consumo en EUA); tránsito internacional total 2024: 135 566 t.
