@@ -64,3 +64,23 @@ axs[0].set_ylabel("%")
 fig.text(0.01, -0.03, "Fuente: cálculo propio con UN Comtrade (EUA como reportante; HS 7403, 7404 y 2603).", fontsize=7, color="#666")
 fig.tight_layout(); fig.savefig(os.path.join(OUT, "pa2_socios.png"), dpi=200, bbox_inches="tight", facecolor="white"); plt.close(fig)
 print("ok", OUT)
+
+# --- Figura 3: concentrado EUA -> Mexico segun cada registro, y compras de Southern Copper a Asarco ---
+e = pd.read_csv(os.path.join(P, "cobre_eua_mx_espejo_bilateral.csv"))
+e = e[(e.forma == "concentrado") & (e.anio >= 2005)]
+t = pd.read_csv(os.path.join(P, "scc_asarco_transacciones.csv"))
+t = t[t.anio <= 2024]
+fig, ax = plt.subplots(figsize=(8.4, 4.4))
+ax.plot(e.anio, e.eua_x_a_mx_musd, color=TINTA, lw=2, label="Exportaciones de EUA a México (registro de EUA)")
+ax.plot(e.anio, e.mx_m_desde_eua_musd, color=ROJO, lw=2, label="Importaciones de México desde EUA (registro de México)")
+ax.plot(t.anio, t.compras_a_asarco_musd, color=AZUL, lw=2, ls="--", label="Compras de Southern Copper (México) a Asarco, todos los conceptos")
+ax.axvline(2019.8, color="#bbb", lw=1, ls="--")
+ax.text(2019.9, 2450, "oct-2019:\nHayden inactiva", fontsize=7.5, color="#666", va="top")
+ax.set_xlim(2005, 2024); ax.set_ylim(0, 2600)
+ax.set_ylabel("millones de dólares"); ax.grid(axis="y", color="#eee")
+ax.legend(frameon=False, fontsize=8, loc="lower center", bbox_to_anchor=(0.45, 1.01), ncol=1)
+ax.set_xticks(range(2005, 2025, 3))
+fig.suptitle("Concentrado de cobre de EUA con destino México, según cada registro, 2005-2024", fontsize=10, color=TINTA, x=0.01, ha="left")
+fig.text(0.01, -0.03, "Fuente: cálculo propio con UN Comtrade (HS 2603; EUA y México como reportantes) y Southern Copper Corp., 10-K 2015-2025.", fontsize=7, color="#666")
+fig.tight_layout(); fig.savefig(os.path.join(OUT, "pa3_espejo_concentrado.png"), dpi=200, bbox_inches="tight", facecolor="white"); plt.close(fig)
+print("ok fig3")

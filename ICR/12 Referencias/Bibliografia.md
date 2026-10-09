@@ -78,3 +78,5 @@ Formato APA. Consolidada del Protocolo y de Caps I-IV (docx en `00 Proyecto/Docu
 - Porter, K. E., Edelstein, D. L., Brininstool, M., y Flanagan, D. M. (2023). Copper statistics. En T. D. Kelly y G. R. Matos (Comps.), *Historical statistics for mineral and material commodities in the United States* (Data Series 140). U.S. Geological Survey.
 - U.S. Geological Survey. (1996-2025). *Minerals yearbook, volume I: Metals and minerals. Copper* (ediciones 1994 a 2022). U.S. Geological Survey.
 - U.S. Geological Survey. (2000-2026). *Mineral commodity summaries. Copper* (ediciones 2000, 2005, 2010, 2015, 2020, 2025 y 2026). U.S. Geological Survey.
+- Mercator Minerals Ltd. (2012). *Management's discussion and analysis for the year ended December 31, 2011* (Form 40-F, Exhibit 99.3). U.S. Securities and Exchange Commission.
+- Southern Copper Corporation. (2016-2026). *Annual report on Form 10-K* (ejercicios 2015 a 2025). U.S. Securities and Exchange Commission.

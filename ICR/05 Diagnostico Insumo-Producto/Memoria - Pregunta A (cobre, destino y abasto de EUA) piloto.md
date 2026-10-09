@@ -88,12 +88,26 @@ En refinado, EUA importó más en 2020-2024 que en 1995-1999, y lo que se redujo
 
 ![[pa2_socios.png]]
 
+### Composición por empresa y registro del destino (paso A4, 2026-10-08)
+
+| Periodo | EUA → México, concentrado (registro de EUA, MUSD acumulados) | México ← EUA (registro de México) | % |
+|---|---:|---:|---:|
+| 2011-2017 | 10 742 | 543 | 5 % |
+| 2018-2024 | 10 501 | 4 558 | 43 % |
+
+- México registra como importación solo una parte del concentrado que EUA declara exportarle (cociente anual 0.00-0.15 en 2011-2017; 0.25-0.78 en 2018-2024). En 2020-2024 EUA es el origen de 91-100 % del concentrado que importa México.
+- **Southern Copper ↔ Asarco** (nota de partes relacionadas, 10-K): compras a Asarco de 30-98 MUSD en 2013-2019 (chatarra y otro mineral residual), 233.9 MUSD en 2020 y 4.7-71.5 MUSD en 2021-2025. Desde el 10-K de 2020 (tras el cierre de Hayden) las compras incluyen concentrado de cobre y servicios de maquila. Como máximo equivalen a 23 % de las importaciones mexicanas de concentrado desde EUA del mismo año (2020).
+- **Ruta por Guaymas**: Mercator Minerals (MD&A 2011, SEC) nombra «China through the port of Guaymas, Mexico» como destino de su concentrado de Arizona. Prensa especializada (Global Business Reports, entrevista a Óscar González Rocha; copperarea.com sobre Pinto Valley) describe la misma ruta para Mission y Ray (Asarco) y Pinto Valley (Capstone); su texto completo no se pudo consultar (verificación anti-bots), por lo que se cita como información no verificada.
+- Lectura descriptiva: parte del concentrado que EUA registra con destino México no aparece como importación mexicana; la ruta por Guaymas hacia Asia está documentada para varias minas de Arizona. No se puede separar tránsito y fundición en México con los datos disponibles.
+
+![[pa3_espejo_concentrado.png]]
+
 ## 3. Respuesta descriptiva a la pregunta A
 
 1. EUA recibía la mayor parte del concentrado mexicano solo en 1992-1995, cuando el flujo era de 0.1 a 32 MUSD al año (ambos registros lo consignan, salvo 1993). En 2000 México declara 60 MUSD enviados a EUA y EUA no registra importaciones de concentrado de ningún origen. El aumento del concentrado mexicano a partir de 2004 se dirigió a China.
 2. EUA requiere hoy menos cobre refinado que a fines de los noventa (consumo aparente de 3 000 a 1 700-1 900 kt) y procesa menos: de sus siete fundiciones primarias de 1998 quedan dos en operación (Hayden, de ASARCO, está cerrada «temporalmente» desde 2019), y desde 2005 exporta más concentrado del que importa. No necesita concentrado importado.
 3. El cobre refinado que EUA importa (600-900 kt al año en la última década) proviene sobre todo de Chile, seguido de Canadá y Perú. México conserva una participación variable en refinado (2-14 % en la última década) y una creciente en chatarra (41 % en 2024).
-4. Entre EUA y México el flujo de concentrado se invirtió: EUA envía a México más de la mitad de su concentrado exportado.
+4. Según el registro de EUA, México recibe más de la mitad de su concentrado exportado desde 2013; México registra como importación 5 % de ese flujo en 2011-2017 y 43 % en 2018-2024, y la ruta por Guaymas hacia Asia está documentada para minas de Arizona.
 
 ## 4. Límites
 
@@ -107,7 +121,8 @@ En refinado, EUA importó más en 2020-2024 que en 1995-1999, y lo que se redujo
 
 ## 5. Pasos pendientes del piloto
 
-- [ ] Leer los informes 10-K de Southern Copper y los informes anuales de Grupo México para documentar el destino del concentrado de las minas de ASARCO (Mission, Ray, Silver Bell) desde 2019 y su relación con la fundición de La Caridad. El MYB documenta el flujo EUA → México pero no su composición por empresa.
+- [x] 10-K de Southern Copper (2015-2025): transacciones con Asarco transcritas (`scc_asarco_transacciones.csv`).
+- [ ] Informes de Freeport-McMoRan, Capstone Copper (AIF, Pinto Valley) y Grupo México (informe anual, Asarco), y estadísticas de carga del puerto de Guaymas, para separar tránsito de fundición en México.
 - [ ] Revisar la discrepancia de comercio espejo del concentrado en 2000, 2015 y 2019.
 - [x] Escrito independiente: [[Mexico y el abasto de cobre de Estados Unidos, 1992-2024]] (2026-10-08).
 - [ ] Decidir si A entra al manuscrito (subsección de VII.3) o queda como nota aparte.
@@ -119,6 +134,7 @@ En refinado, EUA importó más en 2020-2024 que en 1995-1999, y lo que se redujo
 | Comercio de cobre de EUA por socio, 1992-2024 | `10 Datos/scripts/pa_cobre_eua_comtrade.py` | `Bases Originales/11 Comercio Comtrade/comercio_cobre_eua_1992_2024_crudo.csv` |
 | Balance de cobre de EUA, 1995-2025, y fuentes de importación | `10 Datos/scripts/pa_cobre_eua_usgs.py` | `processed/cobre_eua_balance_usgs.csv`, `processed/cobre_eua_fuentes_importacion_usgs.csv` |
 | Participaciones por forma y socio, descomposición, comercio espejo | `10 Datos/scripts/pa_cobre_eua_analisis.py` | `processed/cobre_eua_comercio_forma.csv`, `cobre_eua_shiftshare.csv`, `cobre_eua_espejo.csv` |
+| Importaciones de México por origen; espejo bilateral; Southern Copper-Asarco | `10 Datos/scripts/pa_cobre_mx_importaciones.py`, `pa_cobre_eua_empresas.py` | `processed/cobre_eua_mx_espejo_bilateral.csv`, `processed/scc_asarco_transacciones.csv` |
 | Figuras | `10 Datos/scripts/pa_cobre_eua_figuras.py` | `05 Diagnostico Insumo-Producto/Figuras - Pregunta A/` |
 | Fuentes primarias | — | MCS cobre 2000-2026 en `Bases Originales/07 USGS MCS/`; MYB cobre 1994-2022 en `Bases Originales/07 USGS MCS/MYB cobre EUA/` |
 

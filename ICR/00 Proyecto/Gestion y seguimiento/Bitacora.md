@@ -8,6 +8,11 @@ updated: 2026-10-08
 
 # Bitácora de Trabajo
 
+## 2026-10-08 (d) Pregunta A, paso por empresa
+- **Datos nuevos**: importaciones de cobre de México por origen 1992-2024 (Comtrade, `pa_cobre_mx_importaciones.py`); espejo bilateral EUA→México y transacciones Southern Copper-Asarco 2013-2025 transcritas de la nota de partes relacionadas de los 10-K (`pa_cobre_eua_empresas.py`; leídos en SEC EDGAR con el navegador integrado porque la descarga directa da 403).
+- **Resultado descriptivo**: México registra como importación 5 % del concentrado que EUA declara exportarle en 2011-2017 (543 de 10 742 MUSD) y 43 % en 2018-2024 (4 558 de 10 501). Southern Copper compra concentrado a Asarco desde 2020 (tras el cierre de Hayden); sus compras totales a Asarco equivalen como máximo a 23 % de las importaciones mexicanas de concentrado (2020). La ruta del concentrado de Arizona por Guaymas hacia Asia está documentada (Mercator Minerals, MD&A 2011; prensa especializada no verificada por bloqueo anti-bots).
+- **Corrección**: la afirmación «el flujo de concentrado entre EUA y México se invirtió» se matizó en la memoria y en el escrito independiente (sección 3.7 nueva, Cuadro 6, Ilustración 3).
+
 ## 2026-10-08 (c) Revisión de límites de la pregunta A + escrito independiente
 - **Escrito independiente**: [[Mexico y el abasto de cobre de Estados Unidos, 1992-2024]] (`11 Redaccion/Escritos independientes/`, .md y .docx; 5 cuadros, 2 ilustraciones, ecuaciones (1)-(5) al estilo Morales-López, referencias APA fichadas en [[Bibliografia]]). Redacción descriptiva.
 - **Correcciones al revisar los límites** (también en la memoria): (i) EUA no exporta más concentrado del que importa «desde 2000»: el saldo fue exportador en 1995-1997, importador en 1998-1999, exportador en 2000, importador en 2001-2004 y exportador desde 2005; (ii) EUA recibía la mayor parte del concentrado mexicano solo en 1992-1995 (0.1-32 MUSD al año), no en «los años noventa»; (iii) la participación de México en el refinado de 2003-2009 fue de 2.5-5.7 %, no «alrededor de 3 %».

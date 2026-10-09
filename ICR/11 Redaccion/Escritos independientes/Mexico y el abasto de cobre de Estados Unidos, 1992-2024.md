@@ -10,7 +10,7 @@ status: borrador para revisión del alumno
 ---
 
 
-**Resumen.** Las exportaciones mexicanas de concentrado de cobre se dirigen hoy casi por completo a China, mientras que en 1992-1995 la mayor parte de un flujo mucho menor se enviaba a Estados Unidos. Este escrito describe qué ocurrió del lado estadounidense: cuánto cobre requiere Estados Unidos, cuánto produce y procesa, de qué países importa cada forma del metal y qué lugar ocupa México en esos flujos. Se emplean el comercio bilateral de UN Comtrade (Estados Unidos como reportante, 1992-2024), el balance de cobre del U.S. Geological Survey (1995-2025) y la cronología de fundiciones del *Minerals Yearbook* (1994-2022). El consumo aparente de cobre de Estados Unidos pasó de alrededor de 3 000 miles de toneladas a fines de los noventa a entre 1 660 y 1 970 miles en 2009-2024; de siete fundiciones primarias en operación en 1998 quedaban dos en 2025, y desde 2005 el país exporta más concentrado del que importa. El cobre refinado que importa proviene sobre todo de Chile. México tiene una participación variable en el refinado (2 % del valor en 2024), creciente en la chatarra (41 %) y es, desde 2013, el destino principal del concentrado que exporta Estados Unidos.
+**Resumen.** Las exportaciones mexicanas de concentrado de cobre se dirigen hoy casi por completo a China, mientras que en 1992-1995 la mayor parte de un flujo mucho menor se enviaba a Estados Unidos. Este escrito describe qué ocurrió del lado estadounidense: cuánto cobre requiere Estados Unidos, cuánto produce y procesa, de qué países importa cada forma del metal y qué lugar ocupa México en esos flujos. Se emplean el comercio bilateral de UN Comtrade (Estados Unidos como reportante, 1992-2024), el balance de cobre del U.S. Geological Survey (1995-2025) y la cronología de fundiciones del *Minerals Yearbook* (1994-2022). El consumo aparente de cobre de Estados Unidos pasó de alrededor de 3 000 miles de toneladas a fines de los noventa a entre 1 660 y 1 970 miles en 2009-2024; de siete fundiciones primarias en operación en 1998 quedaban dos en 2025, y desde 2005 el país exporta más concentrado del que importa. El cobre refinado que importa proviene sobre todo de Chile. México tiene una participación variable en el refinado (2 % del valor en 2024), creciente en la chatarra (41 %) y es, según el registro estadounidense, el destino principal del concentrado que exporta Estados Unidos desde 2013. México registra como importación solo 5 % de ese concentrado en 2011-2017 y 43 % en 2018-2024; documentos de empresas mineras de Arizona describen el paso de su concentrado por el puerto de Guaymas, Sonora, hacia Asia.
 
 ## 1. Pregunta
 
@@ -24,6 +24,8 @@ Entre 2000 y 2024 el valor de las exportaciones mexicanas de concentrado de cobr
 2. **Comercio de México por destino.** La misma base, con México como reportante, construida para la investigación principal (exportaciones de cobre por etapa de procesamiento y país de destino, 1992-2024).
 3. **Balance de cobre de Estados Unidos.** Las estadísticas principales de los *Mineral Commodity Summaries* de cobre del U.S. Geological Survey, ediciones 2000, 2005, 2010, 2015, 2020, 2025 y 2026, que cubren 1995-2025 (U.S. Geological Survey, 2000-2026). Para cada año se toma la edición más reciente que lo reporta. La serie se contrasta con las estadísticas históricas del USGS para el cobre refinado, 1992-2020 (Porter et al., 2023).
 4. **Cronología de la industria.** Los capítulos de cobre del *Minerals Yearbook* del USGS, ediciones 1994 a 2022 (U.S. Geological Survey, 1996-2025).
+5. **Importaciones de México.** UN Comtrade, con México como reportante, importaciones de las partidas 2603, 7402, 7403 y 7404 por país de origen, 1992-2024.
+6. **Informes de empresas.** La nota de operaciones con partes relacionadas de los informes anuales 10-K de Southern Copper Corporation, 2015-2025 (Southern Copper Corporation, 2016-2026), y el análisis de la administración de Mercator Minerals para 2011 (Mercator Minerals, 2012).
 
 ### 2.2 Indicadores
 
@@ -141,7 +143,7 @@ En el cobre refinado, el total importado por Estados Unidos fue mayor en 2020-20
 
 ### 3.5 El flujo de concentrado de Estados Unidos hacia México
 
-México es, desde 2013, el destino principal del concentrado que exporta Estados Unidos: entre 56 % y 81 % del valor en 2013-2024 según Comtrade (el máximo, en 2015), y entre 52 % y 68 % de la cantidad en 2016-2022 según el *Minerals Yearbook*. México es también el destino principal del cobre refinado que exporta Estados Unidos (83 % del valor en 2024). En el concentrado, el flujo entre los dos países se invirtió respecto de los años noventa.
+Según el registro de Estados Unidos, México es desde 2013 el destino principal del concentrado que exporta ese país: entre 56 % y 81 % del valor en 2013-2024 según Comtrade (el máximo, en 2015), y entre 52 % y 68 % de la cantidad en 2016-2022 según el *Minerals Yearbook*. México es también el destino principal del cobre refinado que exporta Estados Unidos (83 % del valor en 2024). En ese registro, el sentido del flujo de concentrado entre los dos países aparece invertido respecto de 1992-1995; la sección 3.7 muestra qué parte de él registra México como importación.
 
 ### 3.6 El concentrado mexicano que se dirigía a Estados Unidos
 
@@ -164,31 +166,70 @@ El Cuadro 5 compara, para el concentrado, lo que México declara haber exportado
 
 En 1992-1995, cuando Estados Unidos recibía la mayor parte del concentrado mexicano, el flujo era de entre 0.1 y 32 millones de dólares al año según uno u otro registro; ambos lo consignan, salvo en 1993 (0.1 millones según México, sin registro en Estados Unidos). En 2000, México declara 59.9 millones de dólares enviados a Estados Unidos y Estados Unidos no registra importaciones de concentrado de ningún origen (el USGS reporta menos de 500 toneladas de cobre contenido ese año). El crecimiento de las exportaciones mexicanas de concentrado a partir de 2004 se dirigió a China.
 
+### 3.7 Composición por empresa y registro del destino
+
+El Cuadro 6 añade, al concentrado que Estados Unidos declara exportar a México, lo que México declara importar desde Estados Unidos y las compras de las operaciones mexicanas de Southern Copper Corporation, subsidiaria de Grupo México, a Asarco LLC, otra subsidiaria del mismo grupo, propietaria de las minas Mission y Ray en Arizona y de la fundición de Hayden. La Ilustración 3 muestra las tres series.
+
+**Cuadro 6.** Concentrado de cobre (2603) de Estados Unidos con destino México según cada registro, y compras de Southern Copper (operaciones en México) a Asarco, años seleccionados (millones de dólares)
+
+| Año | EUA → México (registro de EUA) | México ← EUA (registro de México) | Cociente | Compras de Southern Copper a Asarco* |
+|---|---:|---:|---:|---:|
+| 2011 | 812.4 | 119.0 | 0.15 | — |
+| 2013 | 1 547.6 | 127.1 | 0.08 | 98.0 |
+| 2015 | 2 502.4 | 27.1 | 0.01 | 32.0 |
+| 2017 | 1 054.1 | 114.9 | 0.11 | 37.2 |
+| 2018 | 1 022.5 | 375.8 | 0.37 | 37.2 |
+| 2019 | 1 607.8 | 519.9 | 0.32 | 37.6 |
+| 2020 | 1 316.4 | 1 032.5 | 0.78 | 233.9 |
+| 2021 | 1 630.2 | 404.0 | 0.25 | 31.3 |
+| 2022 | 1 763.2 | 660.2 | 0.37 | 66.3 |
+| 2023 | 1 521.1 | 488.8 | 0.32 | 30.4 |
+| 2024 | 1 639.5 | 1 077.1 | 0.66 | 4.7 |
+
+*Nota:* \* Todos los conceptos comprados a Asarco, no solo concentrado. *Fuente:* cálculo propio con datos de Naciones Unidas (2026); Southern Copper Corporation (2016-2026).
+
+![**Ilustración 3.** Concentrado de cobre de Estados Unidos con destino México según cada registro, y compras de Southern Copper a Asarco, 2005-2024 (millones de dólares). *Fuente:* cálculo propio con datos de Naciones Unidas (2026) y Southern Copper Corporation (2016-2026).](<../../05 Diagnostico Insumo-Producto/Figuras - Pregunta A/pa3_espejo_concentrado.png>)
+
+Tres hechos describen la composición de ese flujo.
+
+Primero, entre 2011 y 2017 Estados Unidos registra exportaciones de concentrado a México por 10 742 millones de dólares acumulados, y México registra importaciones de concentrado desde Estados Unidos por 543 millones, 5 % de esa cifra. Entre 2018 y 2024 las cifras son 10 501 y 4 558 millones (43 %). En 2020-2024, Estados Unidos es el origen de entre 91 % y 100 % del concentrado que importa México.
+
+Segundo, los informes anuales de Southern Copper describen un cambio en sus transacciones con Asarco. En los informes de 2015 y 2019, sus operaciones mexicanas compraban a Asarco chatarra y otro mineral residual de cobre, y le vendían cátodos, alambrón y ánodos. Desde el informe de 2020, posterior al cierre de Hayden en octubre de 2019, le compran concentrado de cobre y pagan servicios de maquila. El total de las compras a Asarco fue de 233.9 millones de dólares en 2020 y de entre 4.7 y 71.5 millones en 2021-2025; en 2020-2024 equivale como máximo a 23 % de las importaciones mexicanas de concentrado desde Estados Unidos del mismo año.
+
+Tercero, documentos de empresas mineras de Arizona describen el envío de su concentrado al puerto de Guaymas, Sonora, para embarcarlo hacia Asia. Mercator Minerals (2012) nombra entre los destinos del concentrado de su mina en Arizona a China «through the port of Guaymas, Mexico». Información de prensa especializada, cuyo texto completo no se pudo consultar, describe la misma ruta para el concentrado de Pinto Valley (Capstone) y, desde el cierre de Hayden, para el de las minas Mission y Ray de Asarco.
+
+Los tres hechos describen que una parte del concentrado que Estados Unidos registra como exportación a México no aparece como importación en el registro mexicano, y que la ruta por Guaymas hacia Asia está documentada para varias minas de Arizona. Con los datos disponibles no se puede separar qué parte del flujo es tránsito hacia terceros países y qué parte se funde en México.
+
 ## 4. Límites de los datos
 
-1. **Comercio espejo del concentrado.** Los registros de México y de Estados Unidos coinciden o difieren en menos de 25 % en la mayoría de los años con flujo (1995, 2001, 2003-2005, 2011-2013, 2017-2018), pero no en 2000 (59.9 frente a 0 millones de dólares), 2015 (11.6 frente a 0) y 2019 (276.5 frente a 148.4). La diferencia de 2000 equivale a la mitad de las exportaciones mexicanas de concentrado de ese año. Las explicaciones posibles —destino declarado distinto del destino final, mercancía en tránsito o bajo régimen aduanero que no se registra como importación definitiva— no se han verificado. La verificación requiere las estadísticas de la Oficina del Censo de Estados Unidos que distinguen importaciones generales de importaciones para consumo.
+1. **Comercio espejo del concentrado.** Los registros de México y de Estados Unidos coinciden o difieren en menos de 25 % en la mayoría de los años con flujo (1995, 2001, 2003-2005, 2011-2013, 2017-2018), pero no en 2000 (59.9 frente a 0 millones de dólares), 2015 (11.6 frente a 0) y 2019 (276.5 frente a 148.4). La diferencia de 2000 equivale a la mitad de las exportaciones mexicanas de concentrado de ese año. Las explicaciones posibles —destino declarado distinto del destino final, mercancía en tránsito o bajo régimen aduanero que no se registra como importación definitiva— no se han verificado para ese año. Para el flujo inverso (concentrado de Estados Unidos con destino México), el tránsito por el puerto de Guaymas está documentado para varias minas de Arizona (sección 3.7). La verificación requiere las estadísticas de la Oficina del Censo de Estados Unidos que distinguen importaciones generales de importaciones para consumo.
 2. **Comercio espejo del metal en bruto y refinado.** El cociente (5) queda entre 0.85 y 1.15 en 22 de los 33 años; se aparta sobre todo en 2004 (0.55) y 2019 (0.49), y está entre 0.68 y 0.83 en varios años de los noventa.
 3. **Concentrado de Canadá frente al USGS.** En 2016 Comtrade registra importaciones estadounidenses de concentrado de Canadá por 155 millones de dólares y 38.9 miles de toneladas, mientras que el *Minerals Yearbook* reporta 67 toneladas importadas ese año. En 2017, 2018 y 2019, en cambio, las cantidades de Comtrade para el concentrado de México (14.0, 32.1 y 27.0 miles de toneladas) coinciden con las del *Minerals Yearbook* (14 000, 32 100 y 27 000 toneladas). La partida estadística estadounidense del concentrado se mide en cobre contenido, por lo que el peso de Comtrade para esta partida parece corresponder a ese contenido; la discrepancia de 2016 no está resuelta.
 4. **Peso.** Comtrade no reporta peso para la chatarra en 2000-2003 y 2008, ni para algunos socios en otros años; en esos casos solo se usan participaciones en valor. El peso de las semimanufacturas es irregular entre años y no se usa. Fuera del concentrado, el peso es de producto y no de cobre contenido, de modo que la descomposición del Cuadro 4 en blíster, ánodos y chatarra describe toneladas de producto con leyes distintas.
 5. **Asimetría de registros.** México registra sus exportaciones por país de destino declarado; Estados Unidos registra sus importaciones por país de origen. Una mercancía mexicana que pasa por un tercer país puede aparecer con origen México en Estados Unidos y con destino en el tercer país en México.
 6. **USGS.** El último año de cada edición de los *Mineral Commodity Summaries* es estimado (1999, 2004, 2009, 2014, 2019 y 2025). Las diferencias del consumo aparente con la serie histórica del USGS no exceden 5.1 % entre 1995 y 2020, y las mayores corresponden a años estimados (3.5 % en 2004 y 5.1 % en 2009). El consumo aparente cambia de definición en la edición 2020 («no manufacturado» hasta 2015; «refinado primario más cobre de chatarra vieja» desde 2020).
 7. **El año 2025.** Es estimado y atípico (importaciones de refinado de 1 700 miles de toneladas); no se usa para describir tendencias.
-8. **Composición por empresa.** El *Minerals Yearbook* documenta el flujo de concentrado de Estados Unidos hacia México, pero no su composición por empresa ni su relación con las operaciones de Grupo México a ambos lados de la frontera (ASARCO en Arizona; la fundición de La Caridad en Sonora). Esa composición requiere los informes de las empresas.
+8. **Composición por empresa.** Las transacciones con Asarco proceden de la nota de partes relacionadas de los 10-K de Southern Copper, que agrupa todos los conceptos sin separar el concentrado. La ruta por Guaymas se documenta con un informe de 2011 (Mercator Minerals) y con información de prensa especializada de fecha incierta cuyo texto completo no se consultó. Faltan los informes de Freeport-McMoRan, Capstone Copper y Grupo México, y las estadísticas de carga del puerto de Guaymas, para separar el tránsito de lo que se funde en México.
+9. **Unidades de los registros bilaterales.** El concentrado se registra en cobre contenido del lado estadounidense y en peso de producto del lado mexicano; por eso la comparación entre registros se hace en valor.
 
 ## 5. Síntesis descriptiva
 
 1. El concentrado mexicano que Estados Unidos recibía en 1992-1995 era un flujo de entre 0.1 y 32 millones de dólares al año. Las exportaciones mexicanas de concentrado crecieron después a más de 3 700 millones de dólares, y ese crecimiento se dirigió a China.
 2. Estados Unidos requiere menos cobre que a fines de los noventa (consumo aparente de alrededor de 3 000 a entre 1 660 y 1 970 miles de toneladas) y funde menos: de siete fundiciones primarias en 1998 quedan dos, y desde 2005 exporta más concentrado del que importa.
 3. El cobre refinado que importa Estados Unidos proviene sobre todo de Chile (70 % del valor en 2024), seguido de Canadá y Perú. México tiene una participación de entre 2 % y 14 % en el refinado durante la última década y de 41 % en la chatarra en 2024.
-4. Entre ambos países el flujo de concentrado se invirtió: desde 2013 México recibe más de la mitad del concentrado que exporta Estados Unidos.
+4. Según el registro estadounidense, desde 2013 México es el destino de más de la mitad del concentrado que exporta Estados Unidos. México registra como importación 5 % de ese flujo en 2011-2017 y 43 % en 2018-2024; las compras de Southern Copper a Asarco, que desde 2020 incluyen concentrado, equivalen como máximo a 23 % de esas importaciones en 2020-2024, y la ruta del concentrado de Arizona por Guaymas hacia Asia está documentada para varias minas.
 
 ## Referencias
 
 Flanagan, D. M. (2026). Copper. En U.S. Geological Survey, *Mineral commodity summaries 2026*. U.S. Geological Survey.
 
+Mercator Minerals Ltd. (2012). *Management's discussion and analysis for the year ended December 31, 2011* (Form 40-F, Exhibit 99.3). U.S. Securities and Exchange Commission. https://www.sec.gov/Archives/edgar/data/1286798/000091228212000292/ex99_3.htm
+
 Naciones Unidas. (2026). *UN Comtrade Database* [Base de datos]. Departamento de Asuntos Económicos y Sociales, División de Estadística. Consultado el 8 de octubre de 2026. https://comtradeplus.un.org/
 
 Porter, K. E., Edelstein, D. L., Brininstool, M., y Flanagan, D. M. (2023). Copper statistics. En T. D. Kelly y G. R. Matos (Comps.), *Historical statistics for mineral and material commodities in the United States* (Data Series 140). U.S. Geological Survey.
+
+Southern Copper Corporation. (2016-2026). *Annual report on Form 10-K* (ejercicios 2015 a 2025). U.S. Securities and Exchange Commission. https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001001838&type=10-K
 
 U.S. Geological Survey. (1996-2025). *Minerals yearbook, volume I: Metals and minerals. Copper* (ediciones 1994 a 2022). U.S. Geological Survey.
 
