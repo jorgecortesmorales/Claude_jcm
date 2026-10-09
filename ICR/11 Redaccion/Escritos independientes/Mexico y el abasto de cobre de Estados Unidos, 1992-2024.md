@@ -26,6 +26,7 @@ Entre 2000 y 2024 el valor de las exportaciones mexicanas de concentrado de cobr
 4. **Cronología de la industria.** Los capítulos de cobre del *Minerals Yearbook* del USGS, ediciones 1994 a 2022 (U.S. Geological Survey, 1996-2025).
 5. **Importaciones de México.** UN Comtrade, con México como reportante, importaciones de las partidas 2603, 7402, 7403 y 7404 por país de origen, 1992-2024.
 6. **Informes de empresas.** La nota de operaciones con partes relacionadas de los informes anuales 10-K de Southern Copper Corporation, 2015-2025 (Southern Copper Corporation, 2016-2026); la descripción de las operaciones de Asarco en los informes anuales de Grupo México a la Bolsa Mexicana de Valores, 2016-2025 (Grupo México, 2017-2026); el reporte técnico de la mina Pinto Valley (Capstone Copper, 2021); los informes 10-K de Freeport-McMoRan de 2015 y 2024 (Freeport-McMoRan, 2016, 2025); y el análisis de la administración de Mercator Minerals para 2011 (Mercator Minerals, 2012).
+7. **Estadística portuaria.** Los anuarios por puerto de la Dirección General de Puertos para Guaymas, ediciones 2020 y 2022, que desglosan la exportación por producto y país de destino (Dirección General de Puertos, s.f.-a, s.f.-b), y los informes de la Administración del Sistema Portuario Nacional (ASIPONA) Guaymas sobre 2023 y 2024 (ASIPONA Guaymas, s.f.-a, s.f.-b).
 
 ### 2.2 Indicadores
 
@@ -190,7 +191,7 @@ El Cuadro 6 añade, al concentrado que Estados Unidos declara exportar a México
 
 ![**Ilustración 3.** Concentrado de cobre de Estados Unidos con destino México según cada registro, y compras de Southern Copper a Asarco, 2005-2024 (millones de dólares). *Fuente:* cálculo propio con datos de Naciones Unidas (2026) y Southern Copper Corporation (2016-2026).](<../../05 Diagnostico Insumo-Producto/Figuras - Pregunta A/pa3_espejo_concentrado.png>)
 
-Tres hechos describen la composición de ese flujo.
+Cuatro hechos describen la composición de ese flujo.
 
 Primero, entre 2011 y 2017 Estados Unidos registra exportaciones de concentrado a México por 10 742 millones de dólares acumulados, y México registra importaciones de concentrado desde Estados Unidos por 543 millones, 5 % de esa cifra. Entre 2018 y 2024 las cifras son 10 501 y 4 558 millones (43 %). En 2020-2024, Estados Unidos es el origen de entre 91 % y 100 % del concentrado que importa México.
 
@@ -214,7 +215,20 @@ Tercero, los informes de las empresas mineras de Arizona describen el destino de
 
 Los informes de Grupo México registran, además, que la fundición de Hayden, con capacidad nominal de 653 000 toneladas anuales de concentrado, suspendió actividades en noviembre de 2019, y su informe de 2016 menciona, en la sección de ferrocarriles, a «clientes que exportaban concentrado de cobre por Guaymas».
 
-Los tres hechos describen que una parte del concentrado que Estados Unidos registra como exportación a México no aparece como importación en el registro mexicano, y que los informes de Asarco, Capstone y Mercator describen el envío de concentrado de Arizona al puerto de Guaymas para su venta y embarque. Con los datos disponibles no se puede separar, en toneladas, qué parte del flujo sale por Guaymas hacia terceros países y qué parte se funde en México.
+Cuarto, la estadística del puerto de Guaymas registra el concentrado de cobre embarcado (Cuadro 8). En 2020 salieron por Guaymas 1 936 259 toneladas de concentrado de cobre, 119 598 más que el total de concentrado que México declaró exportar ese año por todas sus aduanas (1 816 661 toneladas); en 2022, 1 791 125 toneladas, 224 129 más que el total nacional (1 566 996). Si todo el concentrado mexicano exportado saliera por Guaymas, esa diferencia sería la parte embarcada en el puerto que no es exportación mexicana; por eso es una cota inferior. Los destinos de ese concentrado fueron China (79 % en 2020; 63 % en 2022), Japón (7 % y 26 %), España, Filipinas, Perú y otros países en proporciones menores.
+
+**Cuadro 8.** Concentrado de cobre embarcado en el puerto de Guaymas y exportación nacional de concentrado de México, 2020 y 2022 (toneladas)
+
+| Año | Embarcado en Guaymas | Exportación nacional de México (todas las aduanas) | Diferencia (cota inferior de lo no mexicano) | % del embarcado |
+|---|---:|---:|---:|---:|
+| 2020 | 1 936 259 | 1 816 661 | 119 598 | 6.2 |
+| 2022 | 1 791 125 | 1 566 996 | 224 129 | 12.5 |
+
+*Fuente:* Dirección General de Puertos (s.f.-a, s.f.-b); cálculo propio con datos de Naciones Unidas (2026).
+
+La administración del puerto describe, además, el origen de una parte de ese movimiento. En su informe sobre 2023 señala que el granel mineral, 58 % de la carga del puerto, consistió «principalmente [en] concentrados de cobre de exportación y tránsito internacional»; en el de 2024 registra que «el concentrado de cobre en tránsito internacional proveniente del sur de los Estados Unidos con destino hacia Asia presentó una baja del 68 %», y lo atribuye a que ese concentrado se consumió en el mercado estadounidense (ASIPONA Guaymas, s.f.-a). En 2024 la carga comercial del puerto en tránsito internacional sumó 135 566 toneladas de todos los productos (ASIPONA Guaymas, s.f.-b).
+
+Los cuatro hechos describen que una parte del concentrado que Estados Unidos registra como exportación a México no aparece como importación en el registro mexicano; que los informes de Asarco, Capstone y Mercator describen el envío de concentrado de Arizona al puerto de Guaymas para su venta y embarque; y que la estadística del puerto registra concentrado de cobre en tránsito internacional desde el sur de Estados Unidos hacia Asia, con un volumen embarcado que en 2020 y 2022 supera en al menos 120 000 y 224 000 toneladas la exportación nacional de concentrado.
 
 ## 4. Límites de los datos
 
@@ -225,7 +239,7 @@ Los tres hechos describen que una parte del concentrado que Estados Unidos regis
 5. **Asimetría de registros.** México registra sus exportaciones por país de destino declarado; Estados Unidos registra sus importaciones por país de origen. Una mercancía mexicana que pasa por un tercer país puede aparecer con origen México en Estados Unidos y con destino en el tercer país en México.
 6. **USGS.** El último año de cada edición de los *Mineral Commodity Summaries* es estimado (1999, 2004, 2009, 2014, 2019 y 2025). Las diferencias del consumo aparente con la serie histórica del USGS no exceden 5.1 % entre 1995 y 2020, y las mayores corresponden a años estimados (3.5 % en 2004 y 5.1 % en 2009). El consumo aparente cambia de definición en la edición 2020 («no manufacturado» hasta 2015; «refinado primario más cobre de chatarra vieja» desde 2020).
 7. **El año 2025.** Es estimado y atípico (importaciones de refinado de 1 700 miles de toneladas); no se usa para describir tendencias.
-8. **Composición por empresa.** Las transacciones con Asarco proceden de la nota de partes relacionadas de los 10-K de Southern Copper, que agrupa todos los conceptos sin separar el concentrado. La ruta por Guaymas se documenta con los informes de Grupo México (2022-2025), el reporte técnico de Pinto Valley (2021) y el informe de Mercator Minerals (2011); estos documentos describen la ruta, pero no las toneladas. Las cantidades requieren las estadísticas de carga del puerto de Guaymas (Administración del Sistema Portuario Nacional) o los pedimentos de tránsito internacional, que no se consultaron.
+8. **Composición por empresa.** Las transacciones con Asarco proceden de la nota de partes relacionadas de los 10-K de Southern Copper, que agrupa todos los conceptos sin separar el concentrado. La ruta por Guaymas se documenta con los informes de Grupo México (2022-2025), el reporte técnico de Pinto Valley (2021) y el informe de Mercator Minerals (2011); estos documentos describen la ruta, pero no las toneladas. La estadística portuaria con desglose por producto se obtuvo solo para 2020 y 2022, y no separa el tránsito internacional dentro de la exportación de concentrado; la diferencia del Cuadro 8 es una cota inferior, porque supone que todo el concentrado mexicano exportado sale por Guaymas. Medir el tránsito completo requiere los pedimentos de tránsito internacional de la aduana de Guaymas o la serie de ASIPONA por tipo de tráfico y producto.
 9. **Unidades de los registros bilaterales.** El concentrado se registra en cobre contenido del lado estadounidense y en peso de producto del lado mexicano; por eso la comparación entre registros se hace en valor.
 
 ## 5. Síntesis descriptiva
@@ -233,13 +247,21 @@ Los tres hechos describen que una parte del concentrado que Estados Unidos regis
 1. El concentrado mexicano que Estados Unidos recibía en 1992-1995 era un flujo de entre 0.1 y 32 millones de dólares al año. Las exportaciones mexicanas de concentrado crecieron después a más de 3 700 millones de dólares, y ese crecimiento se dirigió a China.
 2. Estados Unidos requiere menos cobre que a fines de los noventa (consumo aparente de alrededor de 3 000 a entre 1 660 y 1 970 miles de toneladas) y funde menos: de siete fundiciones primarias en 1998 quedan dos, y desde 2005 exporta más concentrado del que importa.
 3. El cobre refinado que importa Estados Unidos proviene sobre todo de Chile (70 % del valor en 2024), seguido de Canadá y Perú. México tiene una participación de entre 2 % y 14 % en el refinado durante la última década y de 41 % en la chatarra en 2024.
-4. Según el registro estadounidense, desde 2013 México es el destino de más de la mitad del concentrado que exporta Estados Unidos. México registra como importación 5 % de ese flujo en 2011-2017 y 43 % en 2018-2024; las compras de Southern Copper a Asarco, que desde 2020 incluyen concentrado, equivalen como máximo a 23 % de esas importaciones en 2020-2024, y los informes de Asarco (2022-2025), Capstone (2021) y Mercator (2011) describen el envío del concentrado de sus minas de Arizona al puerto de Guaymas para su venta y embarque.
+4. Según el registro estadounidense, desde 2013 México es el destino de más de la mitad del concentrado que exporta Estados Unidos. México registra como importación 5 % de ese flujo en 2011-2017 y 43 % en 2018-2024; las compras de Southern Copper a Asarco, que desde 2020 incluyen concentrado, equivalen como máximo a 23 % de esas importaciones en 2020-2024, los informes de Asarco (2022-2025), Capstone (2021) y Mercator (2011) describen el envío del concentrado de sus minas de Arizona al puerto de Guaymas para su venta y embarque, y la administración del puerto registra concentrado de cobre en tránsito internacional desde el sur de Estados Unidos hacia Asia; en 2020 y 2022 el concentrado embarcado en Guaymas superó la exportación nacional de concentrado en al menos 120 000 y 224 000 toneladas.
 
 ## Referencias
 
 Flanagan, D. M. (2026). Copper. En U.S. Geological Survey, *Mineral commodity summaries 2026*. U.S. Geological Survey.
 
+Administración del Sistema Portuario Nacional Guaymas. (s.f.-a). *Avances y resultados 2023-2024. Programa institucional 2020-2024*. https://puertodeguaymas.com.mx/Documentos/transparencia/2023_ASIPONA_GUAYMAS_Avances_y_Resultados.pdf
+
+Administración del Sistema Portuario Nacional Guaymas. (s.f.-b). *Estadística cierre diciembre 2024*. https://www.puertodeguaymas.com.mx/descargas/estadisticas/2023_Cargatotal.pdf
+
 Capstone Copper. (2021). *NI 43-101 technical report on the Pinto Valley Mine, Arizona, USA* (fecha efectiva: 31 de marzo de 2021). https://capstonecopper.com/wp-content/uploads/2023/01/PV3Update_NI-43-101-Technical-Report-Jun-11-2021.pdf
+
+Dirección General de Puertos. (s.f.-a). *Guaymas, Son.: movimiento de carga, 2020* [anuario estadístico por puerto]. Secretaría de Marina. https://www.gob.mx/cms/uploads/attachment/file/765592/PASOGU00.pdf
+
+Dirección General de Puertos. (s.f.-b). *Guaymas, Son.: movimiento de carga, 2022* [anuario estadístico por puerto]. Secretaría de Marina. https://www.gob.mx/cms/uploads/attachment/file/903623/PASOGU00-1.pdf
 
 Freeport-McMoRan Inc. (2016, 2025). *Annual report on Form 10-K* (ejercicios 2015 y 2024). U.S. Securities and Exchange Commission.
 

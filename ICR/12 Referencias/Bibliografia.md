@@ -83,3 +83,7 @@ Formato APA. Consolidada del Protocolo y de Caps I-IV (docx en `00 Proyecto/Docu
 - Capstone Copper. (2021). *NI 43-101 technical report on the Pinto Valley Mine, Arizona, USA*.
 - Freeport-McMoRan Inc. (2016, 2025). *Annual report on Form 10-K* (ejercicios 2015 y 2024). U.S. Securities and Exchange Commission.
 - Grupo México. (2017-2026). *Informe anual BMV* (ejercicios 2016 a 2025).
+- Administración del Sistema Portuario Nacional Guaymas. (s.f.-a). *Avances y resultados 2023-2024. Programa institucional 2020-2024*.
+- Administración del Sistema Portuario Nacional Guaymas. (s.f.-b). *Estadística cierre diciembre 2024*.
+- Dirección General de Puertos. (s.f.-a). *Guaymas, Son.: movimiento de carga, 2020* [anuario estadístico por puerto]. Secretaría de Marina.
+- Dirección General de Puertos. (s.f.-b). *Guaymas, Son.: movimiento de carga, 2022* [anuario estadístico por puerto]. Secretaría de Marina.

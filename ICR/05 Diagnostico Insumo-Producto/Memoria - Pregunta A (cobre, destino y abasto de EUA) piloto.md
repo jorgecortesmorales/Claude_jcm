@@ -107,6 +107,17 @@ En refinado, EUA importó más en 2020-2024 que en 1995-1999, y lo que se redujo
 
 ![[pa3_espejo_concentrado.png]]
 
+### Estadística del puerto de Guaymas
+
+| Año | Concentrado embarcado en Guaymas (t) | Exportación nacional de concentrado (t) | Cota inferior de lo no mexicano (t) |
+|---|---:|---:|---:|
+| 2020 | 1 936 259 | 1 816 661 | 119 598 (6.2 %) |
+| 2022 | 1 791 125 | 1 566 996 | 224 129 (12.5 %) |
+
+- Destinos: China 79 % (2020) y 63 % (2022); Japón 7 % y 26 %; resto España, Filipinas, Perú y otros.
+- ASIPONA Guaymas: en 2023 el granel mineral fue «principalmente concentrados de cobre de exportación y tránsito internacional»; en 2024 «el concentrado de cobre en tránsito internacional proveniente del sur de los Estados Unidos con destino hacia Asia presentó una baja del 68 %» (atribuida por ASIPONA al consumo en EUA). Tránsito internacional total 2024: 135 566 t (todos los productos, carga comercial).
+- Límite: la estadística por producto (DGPMM) no separa tránsito de exportación; la diferencia es cota inferior (supone que todo el concentrado mexicano sale por Guaymas).
+
 ## 3. Respuesta descriptiva a la pregunta A
 
 1. EUA recibía la mayor parte del concentrado mexicano solo en 1992-1995, cuando el flujo era de 0.1 a 32 MUSD al año (ambos registros lo consignan, salvo 1993). En 2000 México declara 60 MUSD enviados a EUA y EUA no registra importaciones de concentrado de ningún origen. El aumento del concentrado mexicano a partir de 2004 se dirigió a China.
@@ -128,7 +139,8 @@ En refinado, EUA importó más en 2020-2024 que en 1995-1999, y lo que se redujo
 
 - [x] 10-K de Southern Copper (2015-2025): transacciones con Asarco transcritas (`scc_asarco_transacciones.csv`).
 - [x] Informes de Freeport-McMoRan, Capstone Copper (Pinto Valley) y Grupo México (Asarco) revisados (2026-10-08).
-- [ ] Estadísticas de carga del puerto de Guaymas (ASIPONA) o pedimentos de tránsito, para medir en toneladas el concentrado de EUA que sale por Guaymas.
+- [x] Estadística del puerto de Guaymas (2026-10-08): DGPMM 2020 y 2022 por producto y destino; ASIPONA 2023-2024 (`guaymas_concentrado_cobre.csv`, `guaymas_concentrado_cobre_destinos.csv`).
+- [ ] Pedimentos de tránsito internacional de la aduana de Guaymas o serie de ASIPONA por tráfico y producto, para medir el tránsito completo.
 - [ ] Revisar la discrepancia de comercio espejo del concentrado en 2000, 2015 y 2019.
 - [x] Escrito independiente: [[Mexico y el abasto de cobre de Estados Unidos, 1992-2024]] (2026-10-08).
 - [ ] Decidir si A entra al manuscrito (subsección de VII.3) o queda como nota aparte.
