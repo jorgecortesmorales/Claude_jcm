@@ -25,7 +25,7 @@ Entre 2000 y 2024 el valor de las exportaciones mexicanas de concentrado de cobr
 3. **Balance de cobre de Estados Unidos.** Las estadísticas principales de los *Mineral Commodity Summaries* de cobre del U.S. Geological Survey, ediciones 2000, 2005, 2010, 2015, 2020, 2025 y 2026, que cubren 1995-2025 (U.S. Geological Survey, 2000-2026). Para cada año se toma la edición más reciente que lo reporta. La serie se contrasta con las estadísticas históricas del USGS para el cobre refinado, 1992-2020 (Porter et al., 2023).
 4. **Cronología de la industria.** Los capítulos de cobre del *Minerals Yearbook* del USGS, ediciones 1994 a 2022 (U.S. Geological Survey, 1996-2025).
 5. **Importaciones de México.** UN Comtrade, con México como reportante, importaciones de las partidas 2603, 7402, 7403 y 7404 por país de origen, 1992-2024.
-6. **Informes de empresas.** La nota de operaciones con partes relacionadas de los informes anuales 10-K de Southern Copper Corporation, 2015-2025 (Southern Copper Corporation, 2016-2026), y el análisis de la administración de Mercator Minerals para 2011 (Mercator Minerals, 2012).
+6. **Informes de empresas.** La nota de operaciones con partes relacionadas de los informes anuales 10-K de Southern Copper Corporation, 2015-2025 (Southern Copper Corporation, 2016-2026); la descripción de las operaciones de Asarco en los informes anuales de Grupo México a la Bolsa Mexicana de Valores, 2016-2025 (Grupo México, 2017-2026); el reporte técnico de la mina Pinto Valley (Capstone Copper, 2021); los informes 10-K de Freeport-McMoRan de 2015 y 2024 (Freeport-McMoRan, 2016, 2025); y el análisis de la administración de Mercator Minerals para 2011 (Mercator Minerals, 2012).
 
 ### 2.2 Indicadores
 
@@ -196,9 +196,25 @@ Primero, entre 2011 y 2017 Estados Unidos registra exportaciones de concentrado 
 
 Segundo, los informes anuales de Southern Copper describen un cambio en sus transacciones con Asarco. En los informes de 2015 y 2019, sus operaciones mexicanas compraban a Asarco chatarra y otro mineral residual de cobre, y le vendían cátodos, alambrón y ánodos. Desde el informe de 2020, posterior al cierre de Hayden en octubre de 2019, le compran concentrado de cobre y pagan servicios de maquila. El total de las compras a Asarco fue de 233.9 millones de dólares en 2020 y de entre 4.7 y 71.5 millones en 2021-2025; en 2020-2024 equivale como máximo a 23 % de las importaciones mexicanas de concentrado desde Estados Unidos del mismo año.
 
-Tercero, documentos de empresas mineras de Arizona describen el envío de su concentrado al puerto de Guaymas, Sonora, para embarcarlo hacia Asia. Mercator Minerals (2012) nombra entre los destinos del concentrado de su mina en Arizona a China «through the port of Guaymas, Mexico». Información de prensa especializada, cuyo texto completo no se pudo consultar, describe la misma ruta para el concentrado de Pinto Valley (Capstone) y, desde el cierre de Hayden, para el de las minas Mission y Ray de Asarco.
+Tercero, los informes de las empresas mineras de Arizona describen el destino de su concentrado (Cuadro 7).
 
-Los tres hechos describen que una parte del concentrado que Estados Unidos registra como exportación a México no aparece como importación en el registro mexicano, y que la ruta por Guaymas hacia Asia está documentada para varias minas de Arizona. Con los datos disponibles no se puede separar qué parte del flujo es tránsito hacia terceros países y qué parte se funde en México.
+**Cuadro 7.** Destino del concentrado de cobre de minas de Arizona según los informes de las empresas
+
+| Empresa y mina | Periodo del documento | Destino descrito |
+|---|---|---|
+| Asarco (Grupo México): Mission | Informes 2016-2021 | Fundición de Hayden, Arizona, en camión |
+| Asarco (Grupo México): Ray | Informes 2016-2021 | Fundición de Hayden, Arizona, en ferrocarril |
+| Asarco (Grupo México): Mission | Informes 2022-2025 | Puerto de Guaymas, Sonora, en camión, «para su venta» |
+| Asarco (Grupo México): Ray | Informes 2022-2025 | Puerto de Guaymas, Sonora, en ferrocarril, «para su venta» |
+| Capstone Copper: Pinto Valley | Reporte técnico 2021 | Fundiciones de Arizona (doméstico); el concentrado con destino internacional va en camión al puerto de Guaymas y de ahí en barco a la fundición compradora, sobre todo en Asia |
+| Mercator Minerals: Mineral Park | 2011 | China por el puerto de Guaymas; fundiciones de Hayden y Miami, Arizona |
+| Freeport-McMoRan: Morenci, Bagdad, Sierrita, Chino | 10-K 2015 y 2024 | Una porción significativa a su fundición de Miami, Arizona; el resto se vende como cátodo o concentrado, una parte a su fundición de Atlantic Copper (España). No menciona México |
+
+*Fuente:* Grupo México (2017-2026); Capstone Copper (2021); Mercator Minerals (2012); Freeport-McMoRan (2016, 2025).
+
+Los informes de Grupo México registran, además, que la fundición de Hayden, con capacidad nominal de 653 000 toneladas anuales de concentrado, suspendió actividades en noviembre de 2019, y su informe de 2016 menciona, en la sección de ferrocarriles, a «clientes que exportaban concentrado de cobre por Guaymas».
+
+Los tres hechos describen que una parte del concentrado que Estados Unidos registra como exportación a México no aparece como importación en el registro mexicano, y que los informes de Asarco, Capstone y Mercator describen el envío de concentrado de Arizona al puerto de Guaymas para su venta y embarque. Con los datos disponibles no se puede separar, en toneladas, qué parte del flujo sale por Guaymas hacia terceros países y qué parte se funde en México.
 
 ## 4. Límites de los datos
 
@@ -209,7 +225,7 @@ Los tres hechos describen que una parte del concentrado que Estados Unidos regis
 5. **Asimetría de registros.** México registra sus exportaciones por país de destino declarado; Estados Unidos registra sus importaciones por país de origen. Una mercancía mexicana que pasa por un tercer país puede aparecer con origen México en Estados Unidos y con destino en el tercer país en México.
 6. **USGS.** El último año de cada edición de los *Mineral Commodity Summaries* es estimado (1999, 2004, 2009, 2014, 2019 y 2025). Las diferencias del consumo aparente con la serie histórica del USGS no exceden 5.1 % entre 1995 y 2020, y las mayores corresponden a años estimados (3.5 % en 2004 y 5.1 % en 2009). El consumo aparente cambia de definición en la edición 2020 («no manufacturado» hasta 2015; «refinado primario más cobre de chatarra vieja» desde 2020).
 7. **El año 2025.** Es estimado y atípico (importaciones de refinado de 1 700 miles de toneladas); no se usa para describir tendencias.
-8. **Composición por empresa.** Las transacciones con Asarco proceden de la nota de partes relacionadas de los 10-K de Southern Copper, que agrupa todos los conceptos sin separar el concentrado. La ruta por Guaymas se documenta con un informe de 2011 (Mercator Minerals) y con información de prensa especializada de fecha incierta cuyo texto completo no se consultó. Faltan los informes de Freeport-McMoRan, Capstone Copper y Grupo México, y las estadísticas de carga del puerto de Guaymas, para separar el tránsito de lo que se funde en México.
+8. **Composición por empresa.** Las transacciones con Asarco proceden de la nota de partes relacionadas de los 10-K de Southern Copper, que agrupa todos los conceptos sin separar el concentrado. La ruta por Guaymas se documenta con los informes de Grupo México (2022-2025), el reporte técnico de Pinto Valley (2021) y el informe de Mercator Minerals (2011); estos documentos describen la ruta, pero no las toneladas. Las cantidades requieren las estadísticas de carga del puerto de Guaymas (Administración del Sistema Portuario Nacional) o los pedimentos de tránsito internacional, que no se consultaron.
 9. **Unidades de los registros bilaterales.** El concentrado se registra en cobre contenido del lado estadounidense y en peso de producto del lado mexicano; por eso la comparación entre registros se hace en valor.
 
 ## 5. Síntesis descriptiva
@@ -217,11 +233,17 @@ Los tres hechos describen que una parte del concentrado que Estados Unidos regis
 1. El concentrado mexicano que Estados Unidos recibía en 1992-1995 era un flujo de entre 0.1 y 32 millones de dólares al año. Las exportaciones mexicanas de concentrado crecieron después a más de 3 700 millones de dólares, y ese crecimiento se dirigió a China.
 2. Estados Unidos requiere menos cobre que a fines de los noventa (consumo aparente de alrededor de 3 000 a entre 1 660 y 1 970 miles de toneladas) y funde menos: de siete fundiciones primarias en 1998 quedan dos, y desde 2005 exporta más concentrado del que importa.
 3. El cobre refinado que importa Estados Unidos proviene sobre todo de Chile (70 % del valor en 2024), seguido de Canadá y Perú. México tiene una participación de entre 2 % y 14 % en el refinado durante la última década y de 41 % en la chatarra en 2024.
-4. Según el registro estadounidense, desde 2013 México es el destino de más de la mitad del concentrado que exporta Estados Unidos. México registra como importación 5 % de ese flujo en 2011-2017 y 43 % en 2018-2024; las compras de Southern Copper a Asarco, que desde 2020 incluyen concentrado, equivalen como máximo a 23 % de esas importaciones en 2020-2024, y la ruta del concentrado de Arizona por Guaymas hacia Asia está documentada para varias minas.
+4. Según el registro estadounidense, desde 2013 México es el destino de más de la mitad del concentrado que exporta Estados Unidos. México registra como importación 5 % de ese flujo en 2011-2017 y 43 % en 2018-2024; las compras de Southern Copper a Asarco, que desde 2020 incluyen concentrado, equivalen como máximo a 23 % de esas importaciones en 2020-2024, y los informes de Asarco (2022-2025), Capstone (2021) y Mercator (2011) describen el envío del concentrado de sus minas de Arizona al puerto de Guaymas para su venta y embarque.
 
 ## Referencias
 
 Flanagan, D. M. (2026). Copper. En U.S. Geological Survey, *Mineral commodity summaries 2026*. U.S. Geological Survey.
+
+Capstone Copper. (2021). *NI 43-101 technical report on the Pinto Valley Mine, Arizona, USA* (fecha efectiva: 31 de marzo de 2021). https://capstonecopper.com/wp-content/uploads/2023/01/PV3Update_NI-43-101-Technical-Report-Jun-11-2021.pdf
+
+Freeport-McMoRan Inc. (2016, 2025). *Annual report on Form 10-K* (ejercicios 2015 y 2024). U.S. Securities and Exchange Commission.
+
+Grupo México. (2017-2026). *Informe anual BMV* (ejercicios 2016 a 2025). https://www.gmexico.com/reportes-financieros/
 
 Mercator Minerals Ltd. (2012). *Management's discussion and analysis for the year ended December 31, 2011* (Form 40-F, Exhibit 99.3). U.S. Securities and Exchange Commission. https://www.sec.gov/Archives/edgar/data/1286798/000091228212000292/ex99_3.htm
 

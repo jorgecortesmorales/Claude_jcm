@@ -97,7 +97,12 @@ En refinado, EUA importó más en 2020-2024 que en 1995-1999, y lo que se redujo
 
 - México registra como importación solo una parte del concentrado que EUA declara exportarle (cociente anual 0.00-0.15 en 2011-2017; 0.25-0.78 en 2018-2024). En 2020-2024 EUA es el origen de 91-100 % del concentrado que importa México.
 - **Southern Copper ↔ Asarco** (nota de partes relacionadas, 10-K): compras a Asarco de 30-98 MUSD en 2013-2019 (chatarra y otro mineral residual), 233.9 MUSD en 2020 y 4.7-71.5 MUSD en 2021-2025. Desde el 10-K de 2020 (tras el cierre de Hayden) las compras incluyen concentrado de cobre y servicios de maquila. Como máximo equivalen a 23 % de las importaciones mexicanas de concentrado desde EUA del mismo año (2020).
-- **Ruta por Guaymas**: Mercator Minerals (MD&A 2011, SEC) nombra «China through the port of Guaymas, Mexico» como destino de su concentrado de Arizona. Prensa especializada (Global Business Reports, entrevista a Óscar González Rocha; copperarea.com sobre Pinto Valley) describe la misma ruta para Mission y Ray (Asarco) y Pinto Valley (Capstone); su texto completo no se pudo consultar (verificación anti-bots), por lo que se cita como información no verificada.
+- **Ruta por Guaymas, en fuentes primarias** (`cobre_eua_rutas_concentrado_documentos.csv`):
+  - Grupo México, Informe Anual BMV: en 2016-2021 el concentrado de Mission (camión) y Ray (ferrocarril) va a la fundición de Hayden; en 2022-2025 va «al puerto de Guaymas para su venta». Hayden (653 kt/año de concentrado) suspendida desde noviembre de 2019. El informe de 2016 menciona «clientes que exportaban concentrado de cobre por Guaymas» (Ferromex).
+  - Capstone, reporte técnico NI 43-101 de Pinto Valley (2021, pp. 188-189): el concentrado con destino internacional va en camión al puerto de Guaymas y de ahí en barco, sobre todo a Asia; el doméstico, a fundiciones de Arizona.
+  - Mercator Minerals (MD&A 2011): «China through the port of Guaymas, Mexico».
+  - Freeport-McMoRan (10-K 2015 y 2024): concentrado de Norteamérica sobre todo a su fundición de Miami; resto vendido, parte a Atlantic Copper (España); no menciona México.
+  - La prensa especializada citada antes (Global Business Reports, copperarea.com) queda sustituida por estas fuentes primarias.
 - Lectura descriptiva: parte del concentrado que EUA registra con destino México no aparece como importación mexicana; la ruta por Guaymas hacia Asia está documentada para varias minas de Arizona. No se puede separar tránsito y fundición en México con los datos disponibles.
 
 ![[pa3_espejo_concentrado.png]]
@@ -122,7 +127,8 @@ En refinado, EUA importó más en 2020-2024 que en 1995-1999, y lo que se redujo
 ## 5. Pasos pendientes del piloto
 
 - [x] 10-K de Southern Copper (2015-2025): transacciones con Asarco transcritas (`scc_asarco_transacciones.csv`).
-- [ ] Informes de Freeport-McMoRan, Capstone Copper (AIF, Pinto Valley) y Grupo México (informe anual, Asarco), y estadísticas de carga del puerto de Guaymas, para separar tránsito de fundición en México.
+- [x] Informes de Freeport-McMoRan, Capstone Copper (Pinto Valley) y Grupo México (Asarco) revisados (2026-10-08).
+- [ ] Estadísticas de carga del puerto de Guaymas (ASIPONA) o pedimentos de tránsito, para medir en toneladas el concentrado de EUA que sale por Guaymas.
 - [ ] Revisar la discrepancia de comercio espejo del concentrado en 2000, 2015 y 2019.
 - [x] Escrito independiente: [[Mexico y el abasto de cobre de Estados Unidos, 1992-2024]] (2026-10-08).
 - [ ] Decidir si A entra al manuscrito (subsección de VII.3) o queda como nota aparte.

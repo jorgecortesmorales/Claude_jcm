@@ -80,3 +80,6 @@ Formato APA. Consolidada del Protocolo y de Caps I-IV (docx en `00 Proyecto/Docu
 - U.S. Geological Survey. (2000-2026). *Mineral commodity summaries. Copper* (ediciones 2000, 2005, 2010, 2015, 2020, 2025 y 2026). U.S. Geological Survey.
 - Mercator Minerals Ltd. (2012). *Management's discussion and analysis for the year ended December 31, 2011* (Form 40-F, Exhibit 99.3). U.S. Securities and Exchange Commission.
 - Southern Copper Corporation. (2016-2026). *Annual report on Form 10-K* (ejercicios 2015 a 2025). U.S. Securities and Exchange Commission.
+- Capstone Copper. (2021). *NI 43-101 technical report on the Pinto Valley Mine, Arizona, USA*.
+- Freeport-McMoRan Inc. (2016, 2025). *Annual report on Form 10-K* (ejercicios 2015 y 2024). U.S. Securities and Exchange Commission.
+- Grupo México. (2017-2026). *Informe anual BMV* (ejercicios 2016 a 2025).

@@ -8,6 +8,12 @@ updated: 2026-10-08
 
 # Bitácora de Trabajo
 
+## 2026-10-08 (e) Pregunta A: informes de Freeport, Capstone y Grupo México
+- **Grupo México, Informe Anual BMV 2016-2025** (10 PDF en `Bases Originales/16 Empresas cobre EUA-MX/`): el concentrado de Mission (camión) y Ray (ferrocarril) va a la fundición de Hayden en los informes 2016-2021 y «al puerto de Guaymas para su venta» en los de 2022-2025; Hayden (653 kt/año) suspendida desde noviembre de 2019.
+- **Capstone, reporte técnico NI 43-101 de Pinto Valley (2021)**: concentrado internacional en camión al puerto de Guaymas y de ahí en barco (sobre todo Asia); el doméstico a fundiciones de Arizona. Informes 2021 y 2024: venta a terceros con contratos de compra.
+- **Freeport-McMoRan, 10-K 2015 y 2024**: concentrado de Norteamérica sobre todo a su fundición de Miami; el resto se vende, parte a Atlantic Copper (España); no menciona México.
+- La prensa no verificada citada antes queda sustituida por fuentes primarias. Evidencias en `processed/cobre_eua_rutas_concentrado_documentos.csv`; escrito independiente con Cuadro 7 nuevo. Pendiente: toneladas por Guaymas (estadísticas portuarias de ASIPONA o pedimentos de tránsito).
+
 ## 2026-10-08 (d) Pregunta A, paso por empresa
 - **Datos nuevos**: importaciones de cobre de México por origen 1992-2024 (Comtrade, `pa_cobre_mx_importaciones.py`); espejo bilateral EUA→México y transacciones Southern Copper-Asarco 2013-2025 transcritas de la nota de partes relacionadas de los 10-K (`pa_cobre_eua_empresas.py`; leídos en SEC EDGAR con el navegador integrado porque la descarga directa da 403).
 - **Resultado descriptivo**: México registra como importación 5 % del concentrado que EUA declara exportarle en 2011-2017 (543 de 10 742 MUSD) y 43 % en 2018-2024 (4 558 de 10 501). Southern Copper compra concentrado a Asarco desde 2020 (tras el cierre de Hayden); sus compras totales a Asarco equivalen como máximo a 23 % de las importaciones mexicanas de concentrado (2020). La ruta del concentrado de Arizona por Guaymas hacia Asia está documentada (Mercator Minerals, MD&A 2011; prensa especializada no verificada por bloqueo anti-bots).
