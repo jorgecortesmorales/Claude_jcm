@@ -4,7 +4,7 @@ type: gestion
 tags: [icr, transparencia, solicitudes, guaymas, concesiones, pregunta-a, modulo-d]
 created: 2026-10-08
 updated: 2026-10-08
-status: presentadas 09/10/2026
+status: presentadas 09/10/2026; completas 12/10/2026
 ---
 
 # Solicitudes de acceso a la información: puerto de Guaymas y concesiones mineras
@@ -138,8 +138,20 @@ Copiar en el campo «Información solicitada». El párrafo de presentación es 
 | S1 | ANAM | 342746500069326 | 09/10/2026 | 06/11/2026 | en proceso | |
 | S2 | ASIPONA Guaymas | 340000800007826 | 09/10/2026 | 09/11/2026 | en proceso | |
 | S3 | SEMAR | 340026600164526 | 09/10/2026 | 09/11/2026 | **prevención** (10/10/2026): responder con base en el oficio adjunto; plazo de hasta 10 días | |
-| S4 | SE (concesiones) | 340025900093826 (por confirmar si es S4 o S5) | 09/10/2026 | 09/11/2026 | en proceso | |
-| S5 | SE (Registro Público de Minería) | 340025900093926 (por confirmar si es S4 o S5) | 09/10/2026 | 09/11/2026 | en proceso | |
+| S4 | SE (concesiones) | 340025900093826 | 09/10/2026 | 09/11/2026 | en proceso | |
+| S5 | SE (Registro Público de Minería) | 340025900093926 | 09/10/2026 | 09/11/2026 | en proceso | |
 | S6 | SAT | 340027700330826 | 09/10/2026 | 09/11/2026 | en proceso | |
+
+**Solicitudes completas presentadas de nuevo** (en las del 09/10/2026 se envió por error solo el resumen; cada una remite al folio anterior). Recepción oficial 12/10/2026; plazo para prevención hasta 19/10/2026. Acuses en `10 Datos/Bases Originales/18 Transparencia/Acuses/`.
+
+| Clave | Institución | Folio nuevo | Folio anterior | Respuesta a más tardar | Con ampliación | Estado | Archivo de respuesta |
+|---|---|---|---|---|---|---|---|
+| S1 | ANAM | 342746500069626 | 342746500069326 | 09/11/2026 | 24/11/2026 | en proceso | |
+| S2 | ASIPONA Guaymas | 340000800008126 | 340000800007826 | 10/11/2026 | 25/11/2026 | en proceso | |
+| S4 | SE (concesiones) | 340025900094226 | 340025900093826 | 10/11/2026 | 25/11/2026 | en proceso | |
+| S5 | SE (Registro Público de Minería) | 340025900094326 | 340025900093926 | 10/11/2026 | 25/11/2026 | en proceso | |
+| S6 | SAT | 340027700331526 | 340027700330826 | 10/11/2026 | 25/11/2026 | en proceso | |
+
+S3 (SEMAR) no se repitió: se corrige con la respuesta a la prevención del folio 340026600164526.
 
 ← [[Handoff - Estado actual (HEM, consolidado y certificacion) 2026-09-29]] · [[Bitacora]]
