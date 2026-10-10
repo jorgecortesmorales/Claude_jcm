@@ -4,7 +4,7 @@ type: handoff
 tags: [icr, handoff, estado, hem, consolidado, certificacion, manuscrito]
 created: 2026-09-29
 updated: 2026-10-08
-status: activo
+status: reemplazado
 ---
 
 # Handoff — arrancar un chat nuevo (ICR minerales críticos)
