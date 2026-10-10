@@ -137,7 +137,7 @@ Copiar en el campo «Información solicitada». El párrafo de presentación es 
 |---|---|---|---|---|---|---|
 | S1 | ANAM | 342746500069326 | 09/10/2026 | 06/11/2026 | en proceso | |
 | S2 | ASIPONA Guaymas | 340000800007826 | 09/10/2026 | 09/11/2026 | en proceso | |
-| S3 | SEMAR | 340026600164526 | 09/10/2026 | 09/11/2026 | **prevención** (10/10/2026): responder con base en el oficio adjunto; plazo de hasta 10 días | |
+| S3 | SEMAR | 340026600164526 | 09/10/2026 | 09/11/2026 | prevención (oficio del 09/10/2026: «¿a qué anuarios se refiere?») **respondida** por el alumno con la identificación de los anuarios por puerto de la DGPMM (ediciones 2020 y 2022 como referencia); el plazo de respuesta se reanuda desde el desahogo | |
 | S4 | SE (concesiones) | 340025900093826 | 09/10/2026 | 09/11/2026 | en proceso | |
 | S5 | SE (Registro Público de Minería) | 340025900093926 | 09/10/2026 | 09/11/2026 | en proceso | |
 | S6 | SAT | 340027700330826 | 09/10/2026 | 09/11/2026 | en proceso | |
