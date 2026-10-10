@@ -4,7 +4,7 @@ type: handoff
 tags: [icr, handoff, arranque]
 created: 2026-09-29
 updated: 2026-09-29
-status: activo
+status: reemplazado
 ---
 
 # Mensaje de arranque — nuevo chat

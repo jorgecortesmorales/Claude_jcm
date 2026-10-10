@@ -8,6 +8,9 @@ updated: 2026-10-08
 
 # Bitácora de Trabajo
 
+## 2026-10-12 (b) Handoff para chat nuevo
+- Nuevo handoff vigente: [[Handoff - Estado actual (manuscrito e investigacion complementaria A-E) 2026-10-12]] y [[Mensaje de arranque - nuevo chat 2026-10-12]]; el del 2026-09-29 queda como referencia técnica del manuscrito. CLAUDE.md actualizado.
+
 ## 2026-10-12 Piloto de cobre de B y E + control de la investigación complementaria
 - Solicitudes de transparencia: las cinco del 09/10 se volvieron a presentar el 12/10 con el texto completo (en las primeras se pegó solo el resumen); la de SEMAR se corrigió con la respuesta a la prevención. Folios en [[Solicitudes de transparencia (Guaymas y concesiones) 2026-10-08]].
 - **B/E piloto cobre**: [[Memoria - Preguntas B y E (procesos del cobre) piloto]]. Documentos: TRS S-K 1300 de Buenavista, La Caridad, Toquepala, Cuajone (SCC), Escondida (BHP) y Salobo (Vale); informes PERC de Aitik y Kevitsa (Boliden); informes anuales de Grupo México, Boliden Mineral y Jiangxi Copper. Scripts `pbe_frontera_menciones.py` (lista de 15 tecnologías) y `pbe_cobre_fichas.py` (catálogo, fichas por operación, matriz verificada a mano, razones de elección). Australia pendiente. La SEC bloquea la descarga directa y, desde este día, también la navegación; los TRS se tomaron de copias en minedocs.com y finboard.net.

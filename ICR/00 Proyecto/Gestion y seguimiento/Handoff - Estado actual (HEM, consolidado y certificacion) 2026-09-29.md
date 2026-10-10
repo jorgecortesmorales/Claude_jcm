@@ -9,6 +9,9 @@ status: reemplazado
 
 # Handoff — arrancar un chat nuevo (ICR minerales críticos)
 
+> [!warning] Reemplazado
+> Desde el 2026-10-12 el handoff vigente es [[Handoff - Estado actual (manuscrito e investigacion complementaria A-E) 2026-10-12]]. Este se conserva como referencia técnica del manuscrito (HEM, consolidado, cotejo y cómo regenerar).
+
 > [!info] Qué es esto
 > Fuente única de verdad para continuar la tesis en un chat con contexto limpio. **Reemplaza** a [[Handoff - Manuscrito reestructurado (9 caps + anexos) 2026-09-16]]. **No confundir** con el otro proyecto (ICR de Diana, vivienda Colombia, en `ICR DIANA/`, fuera de git).
 
