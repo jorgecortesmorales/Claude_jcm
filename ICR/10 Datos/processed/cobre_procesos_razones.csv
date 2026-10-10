@@ -1,0 +1,12 @@
+pais,operacion,decision,categoria_de_razon,cita,fuente
+México,La Caridad,Minado a tajo abierto,Características del yacimiento,«due to the proximity of the ore to the surface and the physical characteristics of the deposit»,"SCC, TRS S-K 1300 La Caridad (Golder, 2023; datos a 31/12/2022)"
+México,Buenavista del Cobre,Minado a tajo abierto,Características del yacimiento,«due to the proximity of the ore to the surface and the physical characteristics of the deposit»,"SCC, TRS S-K 1300 Buenavista del Cobre (Golder, 2023; datos a 31/12/2022)"
+México,La Caridad,Molienda y flotación convencional,Mineralogía; tecnología disponible,"seleccionada para la calcocita, «the best available technology at the time»","SCC, TRS S-K 1300 La Caridad (Golder, 2023; datos a 31/12/2022)"
+México,La Caridad,ESDE,Ley del mineral,«best available process to recover copper from low concentration solutions resulting from leaching low-grade ore»,"SCC, TRS S-K 1300 La Caridad (Golder, 2023; datos a 31/12/2022)"
+México,La Caridad,Concentradora o pila de lixiviación,Ley del mineral,mineral con ley mayor a 0.30 % a la concentradora; entre 0.15 % y 0.30 % a lixiviación,"Grupo México, Informe Anual BMV 2025"
+México,Buenavista del Cobre,Dos concentradoras distintas,Antigüedad del equipo,la segunda concentradora «was designed and built with modern equipment 30 years after Concentrator 1»,"SCC, TRS S-K 1300 Buenavista del Cobre (Golder, 2023; datos a 31/12/2022)"
+México,La Caridad,Relaves filtrados (recomendación),Condiciones del sitio,«Filtered tailings appear to be an attractive option due to the site conditions»,"SCC, TRS S-K 1300 La Caridad (Golder, 2023; datos a 31/12/2022)"
+Perú,Toquepala,Concentradora o lixiviación,Ley del mineral,el material bajo la ley de corte se envía a lixiviación si supera la ley de corte de ese proceso,"SCC, TRS S-K 1300 Toquepala (Wood, 2023; datos a 31/12/2022)"
+Chile,Escondida,Concentradora para sulfuros,Economía del plan minero,«optimised mine plan with consideration of technical and economic parameters in order to maximise net present value»,"BHP, TRS S-K 1300 Minera Escondida (FY2022)"
+Chile,Escondida,Mineral mixto a lixiviación ácida,Disponibilidad de mineral,«because of lower availability of oxides at the mine plans»,"BHP, TRS S-K 1300 Minera Escondida (FY2022)"
+Brasil,Salobo,HPGR en lugar de molienda SAG,Mineralogía,por el alto contenido de magnetita y cobre de los guijarros de tamaño crítico,"Vale, TRS S-K 1300 Salobo (datos a 31/12/2021)"

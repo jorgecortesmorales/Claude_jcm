@@ -8,6 +8,11 @@ updated: 2026-10-08
 
 # Bitácora de Trabajo
 
+## 2026-10-12 Piloto de cobre de B y E + control de la investigación complementaria
+- Solicitudes de transparencia: las cinco del 09/10 se volvieron a presentar el 12/10 con el texto completo (en las primeras se pegó solo el resumen); la de SEMAR se corrigió con la respuesta a la prevención. Folios en [[Solicitudes de transparencia (Guaymas y concesiones) 2026-10-08]].
+- **B/E piloto cobre**: [[Memoria - Preguntas B y E (procesos del cobre) piloto]]. Documentos: TRS S-K 1300 de Buenavista, La Caridad, Toquepala, Cuajone (SCC), Escondida (BHP) y Salobo (Vale); informes PERC de Aitik y Kevitsa (Boliden); informes anuales de Grupo México, Boliden Mineral y Jiangxi Copper. Scripts `pbe_frontera_menciones.py` (lista de 15 tecnologías) y `pbe_cobre_fichas.py` (catálogo, fichas por operación, matriz verificada a mano, razones de elección). Australia pendiente. La SEC bloquea la descarga directa y, desde este día, también la navegación; los TRS se tomaron de copias en minedocs.com y finboard.net.
+- **Control**: [[Control - Investigacion complementaria (A-E)]], con subpuntos por letra. La investigación complementaria sigue sin decisión de inclusión en la ICR.
+
 ## 2026-10-08 (g) Solicitudes de transparencia redactadas
 - [[Solicitudes de transparencia (Guaymas y concesiones) 2026-10-08]]: seis solicitudes a nombre del alumno (no anónimas, con mención de la ICR): S1 ANAM (tránsito internacional, exportación e importación de la fracción 2603 por aduana), S2 ASIPONA Guaymas (concentrado de cobre por tipo de tráfico y origen del tránsito), S3 SEMAR (anuarios de Guaymas por producto 2010-2025), S4 SE (padrón histórico de títulos), S5 SE-Registro Público de Minería (transmisiones, comprobación de obras, cancelaciones, libertad de terreno), S6 SAT (derecho adicional y demás derechos sobre minería). Incluye el procedimiento en la Plataforma Nacional de Transparencia y una tabla de seguimiento. Pendiente: que el alumno las presente.
 
