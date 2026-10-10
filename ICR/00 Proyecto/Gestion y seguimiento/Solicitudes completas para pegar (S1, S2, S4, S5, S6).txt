@@ -1,0 +1,117 @@
+SOLICITUDES COMPLETAS PARA PEGAR EN LA PLATAFORMA NACIONAL DE TRANSPARENCIA
+Preparado: 10 de octubre de 2026
+
+Instrucciones:
+- Crear una solicitud nueva para cada bloque: Solicitudes > Acceso a la información.
+- En "Institución", buscar el nombre indicado en cada bloque (ámbito Federación).
+- En "Información solicitada", copiar SOLO el texto entre las líneas "INICIO DEL TEXTO" y "FIN DEL TEXTO".
+- Formato de entrega: "Electrónico a través del Sistema de Solicitudes de Acceso a la Información de la PNT".
+- S3 (SEMAR) no se repite: se responde la prevención.
+- AVISO sobre S4 y S5: se supuso que el folio 340025900093826 corresponde al padrón de concesiones (S4) y el 340025900093926 a transmisiones y comprobación de obras (S5). Si al abrir el detalle de cada folio resulta al revés, intercambiar esos dos números en la primera línea de S4 y S5.
+
+
+======================================================================
+S1 · INSTITUCIÓN: Agencia Nacional de Aduanas de México (ANAM)
+======================================================================
+----- INICIO DEL TEXTO -----
+Esta solicitud precisa y amplía la solicitud con folio 342746500069326, presentada el 9 de octubre de 2026, en la que por error se envió solo un resumen.
+
+Solicito, en mi calidad de alumno de la Maestría en Economía de la Universidad Autónoma Metropolitana, información estadística agregada para mi trabajo de titulación (Idónea Comunicación de Resultados) sobre los mercados de los minerales críticos en México. No solicito datos de contribuyentes ni de operaciones individuales, solo totales.
+
+Para la fracción arancelaria 2603.00.01 "Minerales de cobre y sus concentrados" (y, a partir de 2020, el número de identificación comercial correspondiente), para cada año de 2010 a 2025 (2025 hasta el último mes disponible):
+
+1. Toneladas (peso neto) y valor en dólares de las mercancías que ingresaron al país en régimen de tránsito internacional, por aduana de entrada (por ejemplo, Nogales, Agua Prieta, San Luis Río Colorado, Sonoyta) y por aduana de salida (en particular Guaymas), con el país de origen y el país de destino declarados.
+
+2. Toneladas y valor de las exportaciones definitivas de la misma fracción, por aduana de salida (en particular Guaymas, Manzanillo y Lázaro Cárdenas) y país de destino.
+
+3. Toneladas y valor de las importaciones de la misma fracción (definitivas y temporales), por aduana de entrada y país de origen.
+
+Solicito la información en formato electrónico abierto (Excel o CSV). Si alguna parte no existe en la desagregación pedida, solicito que se entregue en la desagregación disponible más cercana.
+----- FIN DEL TEXTO -----
+
+
+======================================================================
+S2 · INSTITUCIÓN: Administración del Sistema Portuario Nacional Guaymas, S.A. de C.V. (ASIPONA GUAYMAS)
+======================================================================
+----- INICIO DEL TEXTO -----
+Esta solicitud precisa y amplía la solicitud con folio 340000800007826, presentada el 9 de octubre de 2026, en la que por error se envió solo un resumen.
+
+Solicito, en mi calidad de alumno de la Maestría en Economía de la Universidad Autónoma Metropolitana, información estadística para mi trabajo de titulación (Idónea Comunicación de Resultados) sobre los mercados de los minerales críticos en México.
+
+Para el puerto de Guaymas, Sonora, por mes y año de 2010 a 2025 (2025 hasta el último mes disponible):
+
+1. Toneladas de concentrado de cobre movilizadas, desglosadas por tipo de tráfico: exportación, importación, cabotaje y tránsito internacional, incluyendo terminales de uso público y de uso particular, si se registran por separado.
+
+2. Para el concentrado de cobre en tránsito internacional: país y, si se registra, entidad o estado de origen (por ejemplo, Arizona); medio de transporte terrestre de llegada al puerto (ferrocarril o camión); y país de destino del embarque.
+
+3. Las mismas cifras para los demás minerales a granel en tránsito internacional (por ejemplo, carbón), para distinguirlas del concentrado de cobre.
+
+Solicito la información en formato electrónico abierto (Excel o CSV), en las unidades en que se registre (toneladas de producto).
+----- FIN DEL TEXTO -----
+
+
+======================================================================
+S4 · INSTITUCIÓN: Secretaría de Economía (SE)
+======================================================================
+----- INICIO DEL TEXTO -----
+Esta solicitud precisa y amplía la solicitud con folio 340025900093826, presentada el 9 de octubre de 2026, en la que por error se envió solo un resumen.
+
+Solicito, en mi calidad de alumno de la Maestría en Economía de la Universidad Autónoma Metropolitana, información para mi trabajo de titulación (Idónea Comunicación de Resultados) sobre los mercados de los minerales críticos en México. La información de los títulos de concesión minera inscritos en el Registro Público de Minería es pública.
+
+Solicito la relación de todos los títulos de concesión minera expedidos de 1992 a 2025, vigentes o no, con los siguientes datos por título:
+
+1. número de título y de expediente;
+2. nombre del lote;
+3. titular original y titular actual;
+4. fecha de expedición, fecha de inicio de vigencia y fecha de término;
+5. tipo de concesión (exploración o explotación, para los títulos anteriores a la reforma de 2005);
+6. superficie en hectáreas;
+7. entidad federativa y municipio;
+8. situación actual (vigente, cancelado, sustituido, reducido, terminado), con la fecha y la causa de la cancelación o terminación (por ejemplo, falta de pago de derechos, incumplimiento de obligaciones, desistimiento o término de vigencia).
+
+Si existe, solicito también la cartografía de los polígonos de los títulos no vigentes (formato shapefile o KML), ya que la cartografía minera publicada corresponde a los títulos vigentes. Solicito la información en formato electrónico abierto (Excel o CSV).
+----- FIN DEL TEXTO -----
+
+
+======================================================================
+S5 · INSTITUCIÓN: Secretaría de Economía (SE)
+======================================================================
+----- INICIO DEL TEXTO -----
+Esta solicitud precisa y amplía la solicitud con folio 340025900093926, presentada el 9 de octubre de 2026, en la que por error se envió solo un resumen.
+
+Solicito, en mi calidad de alumno de la Maestría en Economía de la Universidad Autónoma Metropolitana, información estadística para mi trabajo de titulación (Idónea Comunicación de Resultados) sobre los mercados de los minerales críticos en México.
+
+Para cada año de 1992 a 2025:
+
+1. Número de actos de transmisión de titularidad, cesión o enajenación de derechos de concesiones mineras inscritos en el Registro Público de Minería, y número de títulos involucrados; si es posible, la relación de esos actos por número de título y fecha de inscripción.
+
+2. Número de contratos de opción, de asociación o de exploración sobre concesiones mineras inscritos en el Registro.
+
+3. Número de títulos que presentaron el informe de comprobación de obras y trabajos de exploración o explotación, número de títulos obligados a presentarlo y monto total comprobado.
+
+4. Número de títulos cancelados por no comprobar obras y trabajos o por falta de pago de derechos.
+
+5. Número de declaratorias de libertad de terreno publicadas y superficie liberada.
+
+Solicito la información en formato electrónico abierto (Excel o CSV); si no existe por año, en la desagregación disponible.
+----- FIN DEL TEXTO -----
+
+
+======================================================================
+S6 · INSTITUCIÓN: Servicio de Administración Tributaria (SAT)
+======================================================================
+----- INICIO DEL TEXTO -----
+Esta solicitud precisa y amplía la solicitud con folio 340027700330826, presentada el 9 de octubre de 2026, en la que por error se envió solo un resumen.
+
+Solicito, en mi calidad de alumno de la Maestría en Economía de la Universidad Autónoma Metropolitana, información estadística agregada para mi trabajo de titulación (Idónea Comunicación de Resultados) sobre los mercados de los minerales críticos en México. No solicito información de contribuyentes individuales, solo totales.
+
+Para cada año de 2006 a 2025, de los derechos sobre minería previstos en la Ley Federal de Derechos (Capítulo XIII, Minería):
+
+1. Recaudación total y número de contribuyentes o de títulos que pagaron el derecho adicional a cargo de los titulares de concesiones que no realizan obras y trabajos de exploración o explotación durante dos años continuos.
+
+2. Recaudación total y número de títulos que pagaron el derecho sobre minería por hectárea concesionada.
+
+3. Recaudación total del derecho especial y del derecho extraordinario sobre minería.
+
+Si es posible, la recaudación del derecho adicional por entidad federativa. Solicito la información en formato electrónico abierto (Excel o CSV).
+----- FIN DEL TEXTO -----
