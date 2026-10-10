@@ -4,7 +4,7 @@ type: gestion
 tags: [icr, transparencia, solicitudes, guaymas, concesiones, pregunta-a, modulo-d]
 created: 2026-10-08
 updated: 2026-10-08
-status: redactadas, por presentar
+status: presentadas 09/10/2026
 ---
 
 # Solicitudes de acceso a la información: puerto de Guaymas y concesiones mineras
@@ -135,11 +135,11 @@ Copiar en el campo «Información solicitada». El párrafo de presentación es 
 
 | Clave | Institución | Folio | Fecha de presentación | Vence (aprox.) | Estado | Archivo de respuesta |
 |---|---|---|---|---|---|---|
-| S1 | ANAM | | | | por presentar | |
-| S2 | ASIPONA Guaymas | | | | por presentar | |
-| S3 | SEMAR | | | | por presentar | |
-| S4 | SE (concesiones) | | | | por presentar | |
-| S5 | SE (Registro Público de Minería) | | | | por presentar | |
-| S6 | SAT | | | | por presentar | |
+| S1 | ANAM | 342746500069326 | 09/10/2026 | 06/11/2026 | en proceso | |
+| S2 | ASIPONA Guaymas | 340000800007826 | 09/10/2026 | 09/11/2026 | en proceso | |
+| S3 | SEMAR | 340026600164526 | 09/10/2026 | 09/11/2026 | **prevención** (10/10/2026): responder con base en el oficio adjunto; plazo de hasta 10 días | |
+| S4 | SE (concesiones) | 340025900093826 (por confirmar si es S4 o S5) | 09/10/2026 | 09/11/2026 | en proceso | |
+| S5 | SE (Registro Público de Minería) | 340025900093926 (por confirmar si es S4 o S5) | 09/10/2026 | 09/11/2026 | en proceso | |
+| S6 | SAT | 340027700330826 | 09/10/2026 | 09/11/2026 | en proceso | |
 
 ← [[Handoff - Estado actual (HEM, consolidado y certificacion) 2026-09-29]] · [[Bitacora]]
